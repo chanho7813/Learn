@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '편입영어 단어 암기',
+                      '영어 단어 암기',
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: colorScheme.onSurface.withAlpha(153),
                       ),

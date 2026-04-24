@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import '../services/settings_service.dart';
 import '../services/storage_service.dart';
 
@@ -44,6 +45,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _showExample = await SettingsService.getShowExample();
     _showNuance = await SettingsService.getShowNuance();
     setState(() => _loading = false);
+  }
+
+  Future<String> _getVersion() async {
+    final info = await PackageInfo.fromPlatform();
+    return '${info.version}+${info.buildNumber}';
   }
 
   @override
@@ -202,10 +208,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
           const Divider(),
           _SectionHeader(title: '정보'),
-          const ListTile(
-            leading: Icon(Icons.info_outline),
-            title: Text('WordUp'),
-            subtitle: Text('버전 0.1.0 · 편입영어 단어 암기 앱'),
+          ListTile(
+            leading: const Icon(Icons.info_outline),
+            title: const Text('WordUp'),
+            subtitle: FutureBuilder<String>(
+              future: _getVersion(),
+              builder: (context, snapshot) {
+                final version = snapshot.data ?? '';
+                return Text('버전 $version · 영어 단어 암기 앱');
+              },
+            ),
           ),
         ],
       ),
