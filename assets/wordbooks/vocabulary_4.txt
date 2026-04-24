@@ -46,11 +46,6 @@
    "The inspector scrutinized every document for errors."
    → 조사관은 오류를 찾기 위해 모든 문서를 면밀히 살폈다.
 
-examine	검토하다, 조사하다
-inspect	점검하다, 검사하다
-probe	깊이 조사하다, 탐구하다
-peruse	꼼꼼히 읽다, 검토하다
-
 🎨 뉘앙스
    • scrutinize  매우 세밀하고 비판적으로 살피는 것. 의심이나 비판의 뉘앙스 내포
      └ scrutinium(면밀한 조사, 라틴어)
@@ -81,11 +76,6 @@ peruse	꼼꼼히 읽다, 검토하다
    "She perused the contract carefully before signing."
    → 그녀는 서명하기 전에 계약서를 꼼꼼히 읽었다.
 
-scrutinize	면밀히 조사하다
-pore over	열심히 들여다보다
-examine	검토하다, 살피다
-scan	훑어보다, 대충 읽다
-
 🎨 뉘앙스
    • peruse     원래 의미는 꼼꼼히 읽는 것. 현대 구어에서는 '훑어보다'로 잘못 쓰이기도 함
      └ per-(완전히) + use(사용하다)
@@ -114,11 +104,6 @@ scan	훑어보다, 대충 읽다
 💬 예문
    "The invading army pillaged every village in its path."
    → 침략군은 지나가는 모든 마을을 약탈했다.
-
-plunder	약탈하다, 강탈하다
-loot	약탈하다, 전리품을 챙기다
-ransack	샅샅이 뒤지며 약탈하다
-maraud	약탈하며 돌아다니다
 
 🎨 뉘앙스
    • pillage  전쟁이나 침략 중에 재물을 빼앗는 행위. 역사적·문학적 맥락
@@ -150,11 +135,6 @@ maraud	약탈하며 돌아다니다
    "That issue is peripheral to the main debate."
    → 그 사안은 주요 논쟁에서 부수적인 것이다.
 
-marginal	주변부의, 미미한
-tangential	접선적인, 약간만 관련된
-incidental	부수적인, 우연한
-secondary	이차적인, 부차적인
-
 🎨 뉘앙스
    • peripheral  중심에서 벗어난 주변부에 있는 것. IT에서는 주변기기를 의미
      └ peri-(주변) + pherein(운반하다, 그리스어)
@@ -184,11 +164,6 @@ secondary	이차적인, 부차적인
 💬 예문
    "Sporadic violence broke out across the region."
    → 산발적인 폭력 사태가 그 지역 곳곳에서 발생했다.
-
-intermittent	간헐적인, 단속적인
-occasional	가끔의, 때때로의
-erratic	불규칙적인, 예측불허의
-fitful	발작적인, 불규칙한
 
 🎨 뉘앙스
    • sporadic    시간·공간적으로 불규칙하게 흩어져 발생하는 뉘앙스. 패턴이 없음
@@ -220,11 +195,6 @@ fitful	발작적인, 불규칙한
    "The morning fog slowly dissipated as the sun rose."
    → 아침 안개가 해가 뜨면서 서서히 흩어졌다.
 
-disperse	흩어지다, 분산시키다
-evaporate	증발하다, 사라지다
-squander	낭비하다, 탕진하다
-dissolve	녹아 없어지다, 해산하다
-
 🎨 뉘앙스
    • dissipate  에너지·감정·안개 등이 서서히 흩어져 사라지는 뉘앙스. 재산의 낭비에도 사용
      └ dis-(분리) + sipare(던지다, 라틴어)
@@ -254,11 +224,6 @@ dissolve	녹아 없어지다, 해산하다
 💬 예문
    "Digital cameras supplanted film cameras within a decade."
    → 디지털 카메라가 10년 안에 필름 카메라를 대체했다.
-
-replace	대체하다, 교체하다
-displace	밀어내다, 대신하다
-supersede	대체하다, 폐기하다
-oust	쫓아내다, 몰아내다
 
 🎨 뉘앙스
    • supplant   기존의 것을 교묘하게 밀어내고 그 자리를 차지하는 뉘앙스. 경쟁적 대체
@@ -290,11 +255,6 @@ oust	쫓아내다, 몰아내다
    "Building resilience is key to getting through difficult times."
    → 회복력을 키우는 것이 어려운 시기를 극복하는 핵심이다.
 
-fortitude	불굴의 의지, 강인함
-tenacity	끈기, 집요함
-adaptability	적응력
-perseverance	인내, 불굴
-
 🎨 뉘앙스
    • resilience    충격·역경 후 원래 상태로 돌아오는 탄성의 뉘앙스. 심리학·재료과학 모두 사용
      └ re-(다시) + salire(뛰다, 라틴어)
@@ -324,11 +284,6 @@ perseverance	인내, 불굴
 💬 예문
    "The disparity in income between the rich and poor has widened."
    → 빈부 간의 소득 격차가 더 벌어졌다.
-
-inequality	불평등, 불균등
-discrepancy	불일치, 모순, 차이
-gap	간격, 격차
-imbalance	불균형
 
 🎨 뉘앙스
    • disparity    두 대상 사이의 현저하고 불공평한 차이. 소득·교육·기회 등에 자주 사용
@@ -360,11 +315,6 @@ imbalance	불균형
    "His hubris led him to underestimate his opponents."
    → 그의 오만함은 그를 상대방을 과소평가하게 만들었다.
 
-arrogance	거만함, 오만함
-conceit	자만심, 허영심
-presumption	주제넘음, 과감한 가정
-audacity	대담함, 무모한 대담성
-
 🎨 뉘앙스
    • hubris      그리스 비극에서 유래. 신의 영역을 침범하는 인간의 오만함. 반드시 몰락을 부름
      └ hybris(오만, 고대 그리스어)
@@ -394,11 +344,6 @@ audacity	대담함, 무모한 대담성
 💬 예문
    "They held clandestine meetings in the basement."
    → 그들은 지하실에서 은밀한 모임을 가졌다.
-
-covert	은밀한, 비밀의
-surreptitious	몰래 하는, 은밀한
-furtive	남의 눈을 피하는, 음흉한
-secretive	비밀스러운, 숨기는
 
 🎨 뉘앙스
    • clandestine   규칙·법·권위에 어긋나기 때문에 숨기는 비밀 활동. 격식체이며 음모적 뉘앙스
@@ -430,11 +375,6 @@ secretive	비밀스러운, 숨기는
    "Workers without a degree received meager pay."
    → 학위 없는 노동자들은 빈약한 급여를 받았다.
 
-scant	부족한, 거의 없는
-sparse	드문드문한, 희박한
-paltry	하찮은, 보잘것없는
-scanty	불충분한, 부족한
-
 🎨 뉘앙스
    • meager  양이나 질이 필요한 수준에 크게 못 미치는 빈약함. 음식·급여·자원 등
      └ macer(여윈, 라틴어)
@@ -464,11 +404,6 @@ scanty	불충분한, 부족한
 💬 예문
    "She spent an inordinate amount of time on minor details."
    → 그녀는 사소한 세부 사항에 과도한 시간을 쏟았다.
-
-excessive	지나친, 과도한
-exorbitant	터무니없이 과도한
-disproportionate	불균형적인, 과도한
-extravagant	낭비적인, 과도한
 
 🎨 뉘앙스
    • inordinate       합리적·정상적 범위를 벗어난 과도함. 격식체이며 양·시간·감정에 사용
@@ -500,11 +435,6 @@ extravagant	낭비적인, 과도한
    "Sleep deprivation can seriously impair cognitive function."
    → 수면 박탈은 인지 기능을 심각하게 손상시킬 수 있다.
 
-privation	결핍, 궁핍
-destitution	극빈, 빈곤
-scarcity	희소성, 부족
-want	결핍, 빈곤 (격식체)
-
 🎨 뉘앙스
    • deprivation 원래 가져야 할 것을 빼앗긴 상태. 사회적 권리·수면·영양 등에 사용
      └ de-(제거) + privare(빼앗다, 라틴어)
@@ -534,11 +464,6 @@ want	결핍, 빈곤 (격식체)
 💬 예문
    "Her plans for the future remained nebulous and undefined."
    → 그녀의 미래 계획은 모호하고 불분명한 채로 남아 있었다.
-
-vague	막연한, 불명확한
-ambiguous	애매한, 중의적인
-hazy	흐릿한, 불분명한
-obscure	불분명한, 잘 알려지지 않은
 
 🎨 뉘앙스
    • nebulous  성운처럼 형태가 없이 흐릿하고 불분명한 뉘앙스. 개념·계획 등에 사용
@@ -570,11 +495,6 @@ obscure	불분명한, 잘 알려지지 않은
    "The scientist noted several aberrant results in the experiment."
    → 과학자는 실험에서 몇 가지 이상한 결과를 발견했다.
 
-deviant	일탈적인, 비정상적인
-anomalous	변칙적인, 이례적인
-abnormal	비정상적인, 이상한
-atypical	전형적이지 않은, 특이한
-
 🎨 뉘앙스
    • aberrant   정상 기준에서 벗어난 것. 과학·심리학·행동 등에 사용. 격식체
      └ ab-(~에서) + errare(헤매다, 라틴어)
@@ -604,11 +524,6 @@ atypical	전형적이지 않은, 특이한
 💬 예문
    "She tended to embellish her stories to make them more exciting."
    → 그녀는 이야기를 더 흥미롭게 만들기 위해 윤색하는 경향이 있었다.
-
-adorn	장식하다, 꾸미다
-ornament	장식하다, 꾸미다
-exaggerate	과장하다
-elaborate	상세히 설명하다, 정교하게 하다
 
 🎨 뉘앙스
    • embellish  장식하는 행위와 이야기를 윤색하는 두 가지 의미 모두 사용. 약간 부정적
@@ -640,11 +555,6 @@ elaborate	상세히 설명하다, 정교하게 하다
    "The extirpation of the invasive species took decades."
    → 외래종의 박멸에는 수십 년이 걸렸다.
 
-eradication	근절, 박멸
-elimination	제거, 삭제
-annihilation	전멸, 완전한 소멸
-obliteration	말소, 흔적 없이 제거
-
 🎨 뉘앙스
    • extirpation  뿌리까지 완전히 뽑아 없애는 뉘앙스. 생물학·의학·사상 등에 사용. 격식체
      └ ex-(밖으로) + stirps(뿌리, 라틴어)
@@ -675,11 +585,6 @@ obliteration	말소, 흔적 없이 제거
    "He responded with a quick quip that made everyone laugh."
    → 그는 모두를 웃게 만드는 재치 있는 말로 응수했다.
 
-witticism	재치 있는 말, 기지
-jest	농담, 희담
-repartee	재치 있는 응수
-bon mot	재치 있는 말 (프랑스어)
-
 🎨 뉘앙스
    • quip      즉흥적이고 날카로운 재치 있는 말. 약간 비꼬는 뉘앙스가 있을 수 있음
      └ quibble(궤변)의 축약형
@@ -708,11 +613,6 @@ bon mot	재치 있는 말 (프랑스어)
 💬 예문
    "He had a proclivity for taking unnecessary risks."
    → 그는 불필요한 위험을 감수하는 성향이 있었다.
-
-predilection	편애, 강한 선호
-penchant	강한 성향, 취향
-propensity	경향, 성벽
-inclination	성향, 마음이 기우는 것
 
 🎨 뉘앙스
    • proclivity   선천적이거나 깊이 배어 있는 성향. 종종 부정적 행동 경향에 사용
@@ -744,11 +644,6 @@ inclination	성향, 마음이 기우는 것
    "The monk described a state of beatitude achieved through meditation."
    → 그 수도승은 명상을 통해 얻은 지복의 상태를 묘사했다.
 
-bliss	더없는 행복
-felicity	행복, 기쁨
-blessedness	축복받은 상태
-ecstasy	황홀경, 극도의 기쁨
-
 🎨 뉘앙스
    • beatitude   종교적·철학적 맥락에서의 최고 수준의 영적 행복. 가장 격식체
      └ beatus(행복한, 라틴어) + -tude
@@ -778,11 +673,6 @@ ecstasy	황홀경, 극도의 기쁨
 💬 예문
    "The king bestowed honors upon the brave soldiers."
    → 왕은 용감한 군사들에게 영예를 수여했다.
-
-confer	수여하다, 부여하다
-grant	부여하다, 허락하다
-impart	전달하다, 부여하다
-lavish	아낌없이 주다
 
 🎨 뉘앙스
    • bestow  권위 있는 사람이 가치 있는 것을 공식적으로 수여하는 뉘앙스. 격식체
@@ -814,11 +704,6 @@ lavish	아낌없이 주다
    "The ebullient crowd cheered as the team scored."
    → 열정이 넘치는 군중은 팀이 득점하자 환호했다.
 
-exuberant	풍성한 활기의, 넘치는
-effervescent	거품처럼 활기찬, 발랄한
-vivacious	발랄한, 생기 넘치는
-buoyant	낙관적인, 활기찬
-
 🎨 뉘앙스
    • ebullient    끓어오르듯 열정과 활기가 넘치는 뉘앙스. 말이 많고 활발한 이미지
      └ e-(밖으로) + bullire(끓다, 라틴어)
@@ -849,11 +734,6 @@ buoyant	낙관적인, 활기찬
    "His truculent response shocked everyone in the room."
    → 그의 가시 돋친 반응은 방 안의 모든 사람을 충격에 빠뜨렸다.
 
-pugnacious	싸우기 좋아하는
-belligerent	전투적인, 호전적인
-combative	투쟁적인, 싸우려는
-aggressive	공격적인
-
 🎨 뉘앙스
    • truculent    가시 돋치고 날카로우며 쉽게 화내는 뉘앙스. 언어적 공격성에 초점
      └ trux(사나운, 라틴어) + -ulent
@@ -883,11 +763,6 @@ aggressive	공격적인
 💬 예문
    "Her effervescent personality made everyone feel welcome."
    → 그녀의 발랄한 성격은 모든 사람이 환영받는 느낌을 갖게 했다.
-
-bubbly	거품 같은, 활발한
-vivacious	발랄한, 생기 넘치는
-sparkling	반짝이는, 활기찬
-ebullient	열정이 넘치는, 활기찬
 
 🎨 뉘앙스
    • effervescent 탄산음료의 거품처럼 가볍고 발랄하게 튀어오르는 뉘앙스. 음료에도 사용

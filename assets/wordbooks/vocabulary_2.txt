@@ -46,11 +46,6 @@
    "He showed up looking dapper and polished."
    → 그는 말쑥하고 세련된 모습으로 나타났다.
 
-neat	깔끔한, 단정한
-spruce	말쑥하게 차려입은
-dashing	멋진, 활기찬
-natty	산뜻하게 차려입은
-
 🎨 뉘앙스
    • dapper   외모가 작고 단정하며 세련된 인상. 주로 남성에게 사용. 격식체
      └ dap(재빠른, 중세 영어) + -er
@@ -80,11 +75,6 @@ natty	산뜻하게 차려입은
 💬 예문
    "They listened with placid expressions."
    → 그들은 차분한 표정으로 경청했다.
-
-calm	침착한, 고요한
-serene	고요하고 평화로운
-tranquil	평온한, 잔잔한
-composed	침착한, 자제된
 
 🎨 뉘앙스
    • placid    자극에도 쉽게 동요하지 않는 천성적 평온함. 약간 무감각한 뉘앙스도 있음
@@ -116,11 +106,6 @@ composed	침착한, 자제된
    "He probably will not take advantage owing to lassitude."
    → 그는 무기력함으로 인해 그 기회를 활용하지 않을 것이다.
 
-lethargy	무기력, 졸음증
-languor	나른함, 권태로움
-torpor	둔감함, 활동 저하
-listlessness	의욕 없음, 흥미 없음
-
 🎨 뉘앙스
    • lassitude    정신적·육체적 피로가 누적된 권태감. 격식체이며 문학적 맥락에서 자주 사용
      └ lassus(지친, 라틴어) + -tude
@@ -150,11 +135,6 @@ listlessness	의욕 없음, 흥미 없음
 💬 예문
    "Impecunious authors were struggling to survive."
    → 가난한 작가들은 생존을 위해 애쓰고 있었다.
-
-penurious	극빈한, 인색한
-destitute	극도로 가난한, 빈곤한
-indigent	빈곤한, 결핍된
-penniless	한 푼도 없는
 
 🎨 뉘앙스
    • impecunious 만성적으로 돈이 없는 상태. 격식체이며 약간 유머러스한 뉘앙스도 있음
@@ -186,11 +166,6 @@ penniless	한 푼도 없는
    "The enervating lows of emergency medicine."
    → 응급 의학의 기력을 빼앗는 저점들.
 
-debilitating	쇠약하게 하는, 약화시키는
-draining	진을 빼는, 소진시키는
-exhausting	극도로 피로하게 하는
-sapping	서서히 기력을 빼앗는
-
 🎨 뉘앙스
    • enervating   신체적·정신적 활력을 서서히 빼앗아 무기력하게 만드는 뉘앙스. 격식체
      └ e-(밖으로) + nervus(신경, 라틴어)
@@ -220,11 +195,6 @@ sapping	서서히 기력을 빼앗는
 💬 예문
    "England has pursued her career in a policy often insolent and brutal."
    → 영국은 종종 오만하고 잔인한 정책을 추구해왔다.
-
-impertinent	버릇없는, 주제넘은
-impudent	뻔뻔한, 무례한
-arrogant	오만한, 거만한
-brazen	뻔뻔스러운, 철면피한
 
 🎨 뉘앙스
    • insolent    권위나 상대방을 의도적으로 무시하는 오만함. 격식체이며 강한 부정적 뉘앙스
@@ -256,11 +226,6 @@ brazen	뻔뻔스러운, 철면피한
    "They ought to return to the prosaic routine of everyday life."
    → 그들은 일상의 평범한 루틴으로 돌아가야 했다.
 
-mundane	세속적인, 평범한
-banal	진부한, 식상한
-humdrum	단조롭고 지루한
-pedestrian	평범한, 독창성 없는
-
 🎨 뉘앙스
    • prosaic     시적·창의적 요소가 없는 산문 같은 평범함. 문학적 맥락에서 자주 사용
      └ prosa(산문, 라틴어) + -aic
@@ -290,11 +255,6 @@ pedestrian	평범한, 독창성 없는
 💬 예문
    "His predilection for contrapuntal music gave him a novel dimension."
    → 대위법 음악에 대한 그의 편애가 그에게 새로운 차원을 부여했다.
-
-penchant	강한 성향, 좋아하는 경향
-proclivity	성향, 기질
-propensity	경향, 성벽
-partiality	편애, 편파성
 
 🎨 뉘앙스
    • predilection 특정 대상에 대한 뚜렷하고 강한 개인적 선호. 격식체이며 지적 취향에 자주 사용
@@ -326,11 +286,6 @@ partiality	편애, 편파성
    "Half the children managed the feat of waiting for 15 minutes."
    → 아이들 중 절반이 15분을 기다리는 위업을 해냈다.
 
-accomplishment	성취, 업적
-achievement	달성, 성과
-exploit	공훈, 용감한 행위
-coup	쾌거, 대성공
-
 🎨 뉘앙스
    • feat          기술이나 힘이 필요한 인상적인 행위. 특히 어렵거나 놀라운 것에 초점
      └ fait(행위, 고대 프랑스어)
@@ -360,11 +315,6 @@ coup	쾌거, 대성공
 💬 예문
    "Feeling dislocated in the face of the inexorable forces of globalization."
    → 세계화의 멈출 수 없는 힘 앞에서 방향을 잃은 느낌.
-
-relentless	끊임없는, 집요한
-implacable	달랠 수 없는, 완고한
-unstoppable	막을 수 없는
-inescapable	피할 수 없는
 
 🎨 뉘앙스
    • inexorable  아무리 애원해도 막을 수 없는 냉혹한 진행. 거대한 힘이나 운명에 사용
@@ -396,11 +346,6 @@ inescapable	피할 수 없는
    "Newcomers came to imbibe several of the basic tenets."
    → 신입자들은 기본 원칙들을 흡수하게 되었다.
 
-absorb	흡수하다, 빨아들이다
-assimilate	동화시키다, 흡수하다
-internalize	내면화하다
-ingest	섭취하다, 받아들이다
-
 🎨 뉘앙스
    • imbibe      사상·문화·음료를 천천히 깊이 받아들이는 뉘앙스. 격식체이며 문학적
      └ im-(안으로) + bibere(마시다, 라틴어)
@@ -431,11 +376,6 @@ ingest	섭취하다, 받아들이다
    "Bill had no compunction about drastic measures."
    → 빌은 극단적 조치에 대해 아무런 양심의 가책이 없었다.
 
-scruple	양심적 거리낌, 도덕적 주저함
-remorse	깊은 후회, 양심의 고통
-qualm	불안감, 양심의 찜찜함
-contrition	참회, 깊은 뉘우침
-
 🎨 뉘앙스
    • compunction 잘못에 대한 불편한 양심의 찌름. 주로 부정문에서 사용 (no compunction)
      └ com-(강조) + pungere(찌르다, 라틴어)
@@ -464,11 +404,6 @@ contrition	참회, 깊은 뉘우침
 💬 예문
    "The secretary had connived in the spy's liquidation."
    → 비서는 스파이의 제거에 공모했다.
-
-conspire	음모를 꾸미다, 공모하다
-collude	공모하다, 결탁하다
-scheme	계략을 꾸미다
-condone	묵인하다, 눈감아주다
 
 🎨 뉘앙스
    • connive   나쁜 일을 알면서도 못 본 척하거나 은밀히 돕는 뉘앙스. 두 가지 의미 모두 사용
@@ -500,11 +435,6 @@ condone	묵인하다, 눈감아주다
    "The testing of assertions fell into desuetude."
    → 주장들을 검증하는 것이 폐기되어 버렸다.
 
-obsolescence	진부화, 쓸모없어짐
-disuse	불사용, 폐기
-abandonment	포기, 방기
-neglect	방치, 소홀
-
 🎨 뉘앙스
    • desuetude   관습·법·관행이 서서히 사용되지 않아 사실상 폐기된 상태. 매우 격식체·법률 용어
      └ de-(반대) + suescere(익숙해지다, 라틴어)
@@ -534,11 +464,6 @@ neglect	방치, 소홀
 💬 예문
    "The whole world seems to importune you with emphatic trifles."
    → 온 세상이 사소한 일들로 집요하게 당신을 졸라대는 것 같다.
-
-beseech	간청하다, 애원하다
-implore	간절히 부탁하다
-pester	귀찮게 졸라대다
-entreat	간청하다, 탄원하다
 
 🎨 뉘앙스
    • importune  상대방이 불편할 정도로 집요하고 끈덕지게 요구하는 뉘앙스. 격식체
@@ -570,11 +495,6 @@ entreat	간청하다, 탄원하다
    "His verbal attacks were just as pugnacious as his attacks on others."
    → 그의 언어적 공격은 다른 사람들에 대한 공격만큼이나 호전적이었다.
 
-truculent	공격적인, 가시 돋친
-belligerent	전투적인, 호전적인
-combative	투쟁적인, 싸우려는
-aggressive	공격적인, 적극적인
-
 🎨 뉘앙스
    • pugnacious   싸움을 즐기는 타고난 성격에 초점. 주먹다짐이든 언쟁이든 모두에 사용
      └ pugnus(주먹, 라틴어) + -acious
@@ -604,11 +524,6 @@ aggressive	공격적인, 적극적인
 💬 예문
    "This implicit appeal would be at work in benevolent or convivial conversation."
    → 이 암묵적 호소는 친목적인 대화에서도 작동할 것이다.
-
-gregarious	사교적인, 무리를 좋아하는
-sociable	사교적인, 붙임성 있는
-jovial	명랑한, 유쾌한
-affable	상냥한, 친근한
 
 🎨 뉘앙스
    • convivial   함께 먹고 마시며 즐기는 사교적 분위기에 특화. 파티·연회 맥락에서 자주 사용
@@ -640,11 +555,6 @@ affable	상냥한, 친근한
    "There is a sort of coquettish sister, ambiguous and tyrannical."
    → 그곳에는 교태를 부리고 모호하며 전제적인 여동생이 있다.
 
-flirtatious	추파를 던지는, 희롱하는
-alluring	매혹적인, 유혹적인
-seductive	관능적으로 유혹하는
-teasing	약올리는, 놀리는
-
 🎨 뉘앙스
    • coquettish  관심을 끌기 위해 의도적으로 애교·교태를 부리는 뉘앙스. 다소 계산적
      └ coq(수탉, 프랑스어) + -ette + -ish
@@ -674,11 +584,6 @@ teasing	약올리는, 놀리는
 💬 예문
    "The dazzling performance left the audience speechless."
    → 눈부신 공연이 관중들을 말문이 막히게 했다.
-
-brilliant	눈부시게 빛나는, 탁월한
-stunning	기절할 만큼 아름다운
-resplendent	찬란한, 화려하게 빛나는
-radiant	빛을 발하는, 환한
 
 🎨 뉘앙스
    • dazzling     빛이나 아름다움이 너무 강렬해 압도되는 뉘앙스. 외모·성과 등에 폭넓게 사용
@@ -710,11 +615,6 @@ radiant	빛을 발하는, 환한
    "He remained indifferent to the suffering around him."
    → 그는 주변의 고통에 무관심한 채로 있었다.
 
-apathetic	무감동한, 냉담한
-detached	초연한, 거리를 둔
-aloof	냉담하게 거리를 두는
-nonchalant	태연한, 대수롭지 않은
-
 🎨 뉘앙스
    • indifferent  관심이나 감정이 없는 상태. 중립적이거나 부정적 맥락 모두에 사용
      └ in-(부정) + differens(차이 나는, 라틴어)
@@ -744,11 +644,6 @@ nonchalant	태연한, 대수롭지 않은
 💬 예문
    "She was in a state of ecstasy after hearing the news."
    → 그녀는 그 소식을 듣고 황홀경에 빠졌다.
-
-rapture	황홀감, 환희
-elation	의기양양함, 큰 기쁨
-bliss	더없는 행복, 지복
-euphoria	행복감, 도취감
 
 🎨 뉘앙스
    • ecstasy   자신을 잃을 만큼 압도적인 기쁨이나 도취. 종교적·감각적 맥락 모두에 사용
@@ -780,11 +675,6 @@ euphoria	행복감, 도취감
    "He spoke with the conviction of someone who truly believed."
    → 그는 진정으로 믿는 사람의 확신으로 말했다.
 
-belief	믿음, 신념
-certainty	확실성, 확신
-persuasion	설득, 확신
-assurance	확신, 보장
-
 🎨 뉘앙스
    • conviction   깊고 흔들리지 않는 확신. 법적으로는 유죄 판결. 두 가지 의미 모두 격식체
      └ com-(완전히) + vincere(이기다, 라틴어)
@@ -814,11 +704,6 @@ assurance	확신, 보장
 💬 예문
    "A sense of lethargy overcame him after the long journey."
    → 긴 여행 후 무기력감이 그를 엄습했다.
-
-lassitude	나태함, 권태
-torpor	둔감함, 동면 상태
-sluggishness	느릿느릿함, 활기 없음
-inertia	타성, 무기력
 
 🎨 뉘앙스
    • lethargy      졸리고 무겁게 활동이 저하된 상태. 의학적으로는 비정상적 졸음증
@@ -850,11 +735,6 @@ inertia	타성, 무기력
    "This decision was pivotal to the success of the project."
    → 이 결정은 프로젝트 성공에 핵심적이었다.
 
-crucial	결정적인, 매우 중요한
-central	중심적인, 핵심적인
-cardinal	가장 중요한, 기본적인
-decisive	결정적인, 단호한
-
 🎨 뉘앙스
    • pivotal   축처럼 다른 모든 것이 그것을 중심으로 돌아가는 뉘앙스. 구조적 중요성 강조
      └ pivot(회전축, 프랑스어) + -al
@@ -884,11 +764,6 @@ decisive	결정적인, 단호한
 💬 예문
    "'The pen is mightier than the sword' is an example of metonymy."
    → '펜은 칼보다 강하다'는 환유의 예시다.
-
-synecdoche	제유, 부분으로 전체를 나타냄
-metaphor	은유, 직접적 비교
-allegory	우화, 상징적 이야기
-euphemism	완곡 표현
 
 🎨 뉘앙스
    • metonymy   관련된 다른 개념으로 대체. 예: "왕관"→왕, "백악관"→미국 대통령

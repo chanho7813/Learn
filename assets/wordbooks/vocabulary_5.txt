@@ -46,11 +46,6 @@
    "The long delay made even the most patient traveler peevish."
    → 오랜 지연은 가장 인내심 있는 여행자조차 짜증나게 만들었다.
 
-irritable	짜증을 잘 내는
-querulous	불평이 많은, 투덜거리는
-petulant	어린아이처럼 짜증 내는
-cantankerous	성격이 까다롭고 논쟁적인
-
 🎨 뉘앙스
    • peevish       사소한 것에도 불만스러워하며 투덜거리는 성격. 일시적 또는 습관적
      └ peeved(짜증난, 14세기 영어)
@@ -80,11 +75,6 @@ cantankerous	성격이 까다롭고 논쟁적인
 💬 예문
    "His obnoxious behavior ruined the entire dinner party."
    → 그의 몹시 불쾌한 행동이 저녁 파티 전체를 망쳤다.
-
-offensive	불쾌한, 공격적인
-repulsive	혐오스러운, 역겨운
-odious	혐오스러운, 가증스러운
-insufferable	참을 수 없는
 
 🎨 뉘앙스
    • obnoxious   태도·행동이 다른 사람을 매우 불쾌하게 하는 뉘앙스. 주로 사람의 행동에 사용
@@ -116,11 +106,6 @@ insufferable	참을 수 없는
    "He took a cavalier attitude toward the safety regulations."
    → 그는 안전 규정에 무심한 태도를 취했다.
 
-dismissive	무시하는, 일축하는
-nonchalant	태연한, 대수롭지 않은
-flippant	경박한, 진지하지 않은
-offhand	즉흥적인, 무심한
-
 🎨 뉘앙스
    • cavalier    중요한 문제를 무시하거나 남의 감정을 가볍게 여기는 오만한 무심함
      └ cavallo(말, 이탈리아어)
@@ -150,11 +135,6 @@ offhand	즉흥적인, 무심한
 💬 예문
    "The cashier couldn't understand the illegible signature."
    → 계산원은 판독 불가능한 서명을 이해할 수 없었다.
-
-indecipherable	해독할 수 없는
-unreadable	읽을 수 없는
-scrawled	흘겨 쓴, 낙서한
-unintelligible	이해할 수 없는
 
 🎨 뉘앙스
    • illegible       글씨·인쇄물이 너무 흐리거나 지저분해서 읽기 어려운 것에 특화
@@ -186,11 +166,6 @@ unintelligible	이해할 수 없는
    "The monk immolated himself as an act of protest."
    → 그 수도승은 항의의 표시로 분신자살했다.
 
-sacrifice	희생하다, 제물로 바치다
-incinerate	소각하다, 불태우다
-martyr	순교시키다, 희생시키다
-offer up	바치다, 헌납하다
-
 🎨 뉘앙스
    • immolate   종교적 의식이나 항의의 표시로 불태워 희생하는 뉘앙스. 역사적·종교적 맥락
      └ im-(위에) + mola(제물용 가루, 라틴어)
@@ -219,11 +194,6 @@ offer up	바치다, 헌납하다
 💬 예문
    "The police uncovered an illicit drug trafficking operation."
    → 경찰은 불법 마약 밀매 조직을 적발했다.
-
-illegal	불법의, 위법의
-unlawful	불법적인, 법에 어긋나는
-prohibited	금지된
-clandestine	비밀의, 은밀한
 
 🎨 뉘앙스
    • illicit    법이나 도덕적 규범에 의해 허가되지 않은 것. 도덕적 판단이 내포됨
@@ -255,11 +225,6 @@ clandestine	비밀의, 은밀한
    "The disease progresses in an insidious manner, often undetected."
    → 그 병은 교활한 방식으로 진행되어 종종 발견되지 않는다.
 
-pernicious	서서히 치명적 해를 끼치는
-subtle	미묘한, 감지하기 어려운
-treacherous	배반적인, 위험한
-stealthy	몰래 하는, 은밀한
-
 🎨 뉘앙스
    • insidious   겉으로 무해해 보이지만 서서히 치명적 해를 끼치는 뉘앙스. 질병·습관에 자주 사용
      └ insidiae(함정, 라틴어)
@@ -289,11 +254,6 @@ stealthy	몰래 하는, 은밀한
 💬 예문
    "The professor offered effusive encomiums to the student's research."
    → 교수는 학생의 연구에 열렬한 찬사를 보냈다.
-
-eulogy	추도사, 극찬
-panegyric	공개적 찬사, 송덕문
-tribute	경의, 찬사
-accolade	칭찬, 표창
 
 🎨 뉘앙스
    • encomium   공식적이고 열렬한 찬사. 글·연설로 표현된 격식체 극찬
@@ -325,11 +285,6 @@ accolade	칭찬, 표창
    "The enzyme macerates the abdominal wall, causing tissue damage."
    → 효소가 복벽을 부식시켜 조직 손상을 일으킨다.
 
-steep	담그다, 흠뻑 적시다
-soak	흠뻑 적시다, 담그다
-erode	침식하다, 부식시키다
-soften	부드럽게 하다, 약화시키다
-
 🎨 뉘앙스
    • macerate  액체에 담가 조직을 분해하거나 부드럽게 하는 것. 의학·요리·생물학 맥락
      └ macerare(부드럽게 하다, 라틴어)
@@ -359,11 +314,6 @@ soften	부드럽게 하다, 약화시키다
 💬 예문
    "He gave a glib answer that convinced no one."
    → 그는 아무도 설득하지 못하는 말재주 좋은 대답을 했다.
-
-facile	너무 쉽게 말하는, 피상적인
-slick	능수능란한, 표면적으로 매끄러운
-smooth	능숙한, 매끄러운
-superficial	피상적인, 깊이 없는
 
 🎨 뉘앙스
    • glib       진지한 생각 없이 유창하고 거침없이 말하는 뉘앙스. 신뢰하기 어려운 느낌
@@ -395,11 +345,6 @@ superficial	피상적인, 깊이 없는
    "The politician's gaffe dominated the headlines the next day."
    → 그 정치인의 실언이 다음 날 헤드라인을 장식했다.
 
-blunder	큰 실수, 실책
-faux pas	실례, 실수 (프랑스어)
-slip	실수, 실언
-indiscretion	경솔한 행동, 실수
-
 🎨 뉘앙스
    • gaffe        공개적·사회적 상황에서의 당혹스러운 실언이나 결례. 언론·정치 맥락에서 자주 사용
      └ gaffe(갈고리, 프랑스어)
@@ -429,11 +374,6 @@ indiscretion	경솔한 행동, 실수
    "The students were agog for the true answer to the mystery."
    → 학생들은 그 수수께끼의 진짜 답을 몹시 기대하고 있었다.
 
-eager	열망하는, 간절히 원하는
-avid	열렬한, 탐욕스러울 만큼 열망
-fervent	열렬한, 열정적인
-anticipatory	기대에 찬, 예기하는
-
 🎨 뉘앙스
    • agog         흥분과 기대감으로 들뜬 상태. 어린아이 같은 순수한 열망의 뉘앙스
      └ en gogues(흥분하여, 고대 프랑스어)
@@ -462,11 +402,6 @@ anticipatory	기대에 찬, 예기하는
 💬 예문
    "The iniquitous system exploited the most vulnerable members of society."
    → 그 부도덕한 제도는 사회의 가장 취약한 구성원들을 착취했다.
-
-unjust	불공정한, 부당한
-nefarious	극악무도한, 사악한
-wicked	사악한, 부도덕한
-heinous	극악한, 흉악한
 
 🎨 뉘앙스
    • iniquitous 도덕적·사회적 정의에 심각하게 어긋나는 부당함. 격식체
@@ -498,11 +433,6 @@ heinous	극악한, 흉악한
    "The captious reviewer found fault with every aspect of the work."
    → 트집 잡기 좋아하는 평론가는 작품의 모든 면에서 결점을 찾았다.
 
-hypercritical	지나치게 비판적인
-fault-finding	흠을 찾는, 비판적인
-nitpicking	사소한 것에 트집 잡는
-carping	계속 불평하며 흠을 찾는
-
 🎨 뉘앙스
    • captious      사소한 결점을 찾아 비판하고 논쟁하려는 성향. 격식체
      └ capere(잡다, 라틴어) + -ious
@@ -533,11 +463,6 @@ carping	계속 불평하며 흠을 찾는
    "Europe must develop its military arm to buttress independent policies."
    → 유럽은 독립적인 정책을 지지하기 위해 군사력을 발전시켜야 한다.
 
-reinforce	강화하다, 보강하다
-bolster	지지하다, 북돋우다
-prop up	떠받치다, 지지하다
-fortify	강화하다, 요새화하다
-
 🎨 뉘앙스
    • buttress   건축의 버팀벽처럼 주장·정책·구조를 물리적으로 지탱하는 뉘앙스
      └ bouter(밀다, 고대 프랑스어)
@@ -564,11 +489,6 @@ fortify	강화하다, 요새화하다
 💬 예문
    "Scholars lucubrated over ancient manuscripts for years."
    → 학자들은 수년간 고대 문서들을 고심하여 연구했다.
-
-deliberate	심사숙고하다
-ruminate	깊이 생각하다, 반추하다
-ponder	깊이 생각하다, 숙고하다
-toil	힘들게 일하다, 고심하다
 
 🎨 뉘앙스
    • lucubrate  등불 밑에서 밤새 고심하며 연구하는 뉘앙스. 매우 격식체이며 드물게 사용
@@ -600,11 +520,6 @@ toil	힘들게 일하다, 고심하다
    "After weeks of resistance, the rebels finally capitulated."
    → 수 주간의 저항 끝에 반군은 마침내 항복했다.
 
-surrender	항복하다, 포기하다
-yield	양보하다, 굴복하다
-acquiesce	마지못해 동의하다, 묵인하다
-relent	누그러지다, 양보하다
-
 🎨 뉘앙스
    • capitulate  협상이나 압박 끝에 조건부로 항복하는 뉘앙스. 군사·협상 맥락
      └ capitulare(조항별 항복하다, 라틴어)
@@ -634,11 +549,6 @@ relent	누그러지다, 양보하다
 💬 예문
    "The fans adulated the celebrity with almost religious devotion."
    → 팬들은 그 유명인을 거의 종교적 헌신에 가깝게 맹목적으로 숭배했다.
-
-fawn	아첨하다, 비굴하게 굴다
-flatter	아첨하다, 칭찬하다
-idolize	우상화하다, 숭배하다
-grovel	굴종하다, 비굴하게 굴다
 
 🎨 뉘앙스
    • adulate  과도하고 맹목적인 찬사와 숭배. 판단력을 잃은 극단적 추종
@@ -670,11 +580,6 @@ grovel	굴종하다, 비굴하게 굴다
    "His position became untenable after the evidence emerged."
    → 증거가 나온 후 그의 입장은 유지할 수 없게 되었다.
 
-indefensible	변호할 수 없는
-unsustainable	지속할 수 없는
-unjustifiable	정당화할 수 없는
-baseless	근거 없는, 기반이 없는
-
 🎨 뉘앙스
    • untenable      논리적·사실적으로 더 이상 유지하거나 방어할 수 없는 입장·상황
      └ un-(부정) + tenere(잡다, 라틴어)
@@ -704,11 +609,6 @@ baseless	근거 없는, 기반이 없는
 💬 예문
    "She felt vertiginous standing on the edge of the cliff."
    → 그녀는 절벽 끝에 서서 현기증을 느꼈다.
-
-dizzy	어지러운, 현기증 나는
-giddy	어지러운, 들뜬
-dizzying	현기증 나게 하는
-reeling	비틀거리는, 어지러운
 
 🎨 뉘앙스
    • vertiginous 높이나 속도로 인한 현기증. 비유적으로 급격한 변화·상승에도 사용. 격식체
@@ -740,11 +640,6 @@ reeling	비틀거리는, 어지러운
    "Mental illness has long been stigmatized in many societies."
    → 정신 질환은 많은 사회에서 오랫동안 낙인이 찍혀 왔다.
 
-brand	낙인찍다, 표시를 남기다
-label	딱지를 붙이다, 규정짓다
-vilify	비방하다, 욕되게 하다
-ostracize	따돌리다, 배척하다
-
 🎨 뉘앙스
    • stigmatize 부정적인 꼬리표를 붙여 사회적으로 수치스럽게 만드는 뉘앙스
      └ stigma(낙인, 그리스어) + -ize
@@ -775,11 +670,6 @@ ostracize	따돌리다, 배척하다
    "The film received mediocre reviews from critics."
    → 그 영화는 비평가들로부터 평범한 평가를 받았다.
 
-ordinary	평범한, 일상적인
-average	평균적인, 보통의
-middling	중간 정도의, 그저 그런
-pedestrian	평범한, 독창성 없는
-
 🎨 뉘앙스
    • mediocre   기대나 기준에 못 미치는 평범함. 약간 부정적 뉘앙스가 있음
      └ medius(중간) + ocris(험한 산, 라틴어)
@@ -809,11 +699,6 @@ pedestrian	평범한, 독창성 없는
 💬 예문
    "She was discreet about sharing confidential information."
    → 그녀는 기밀 정보를 공유하는 것에 대해 신중했다.
-
-prudent	신중한, 분별 있는
-circumspect	조심스러운, 신중한
-tactful	재치 있는, 요령 있는
-judicious	현명한, 분별 있는
 
 🎨 뉘앙스
    • discreet    남의 감정이나 비밀을 배려하여 신중하게 행동하는 것
@@ -846,11 +731,6 @@ judicious	현명한, 분별 있는
    "After initial progress, the negotiations began to retrogress."
    → 초기 진전 이후 협상이 퇴보하기 시작했다.
 
-regress	퇴보하다, 역행하다
-deteriorate	악화되다, 나빠지다
-relapse	재발하다, 재악화하다
-backslide	퇴보하다, 나쁜 습관으로 돌아가다
-
 🎨 뉘앙스
    • retrogress  발전에서 이전의 열등한 상태로 돌아가는 뉘앙스. 격식체
      └ retro-(뒤로) + gradi(걷다, 라틴어)
@@ -880,11 +760,6 @@ backslide	퇴보하다, 나쁜 습관으로 돌아가다
 💬 예문
    "The contract stipulates that payment must be made within 30 days."
    → 계약서는 30일 이내에 지불이 이루어져야 한다고 명시하고 있다.
-
-specify	명시하다, 구체화하다
-prescribe	규정하다, 처방하다
-mandate	의무화하다, 명령하다
-require	요구하다, 필요로 하다
 
 🎨 뉘앙스
    • stipulate  계약·합의에서 구체적 조건을 명시적으로 정하는 것. 법적·공식적 맥락

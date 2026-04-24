@@ -46,12 +46,6 @@
    "The old building was slowly disintegrating."
    → 오래된 건물이 서서히 붕괴되고 있었다.
 
-crumbling	부스러지는, 조각나는
-decaying	부패하는, 썩어가는
-dissolving	녹아 없어지는
-collapsing	무너지는
-fragmenting	파편화되는
-
 🎨 뉘앙스
    • disintegrating  가장 완전하고 철저한 분해. 물리적·사회적·심리적 맥락 모두에 사용
      └ dis-(분리) + integer(온전한) + -ing
@@ -81,11 +75,6 @@ fragmenting	파편화되는
 💬 예문
    "The putrefying smell came from the garbage."
    → 쓰레기에서 부패하는 냄새가 났다.
-
-decaying	썩어가는, 부식되는
-rotting	썩는, 곪는
-decomposing	분해되는
-festering	곪아가는, 악화되는
 
 🎨 뉘앙스
    • putrefying   가장 강렬하고 혐오스러운 뉘앙스. 악취 동반 유기물 부패. 문학·의학적
@@ -117,11 +106,6 @@ festering	곪아가는, 악화되는
    "The technician was elutriating the mineral sample to separate fine particles."
    → 기술자는 미세 입자를 분리하기 위해 광물 샘플을 수비하고 있었다.
 
-decanting	침전 후 윗물을 따라내는
-winnowing	바람으로 가벼운 것을 분리
-sifting	체로 거르는
-separating	분리하는 (일반적)
-
 🎨 뉘앙스
    • elutriating  유체 흐름을 능동적으로 이용해 밀도 차로 분리. 가장 기술적·전문적
      └ e-(밖으로) + luere(씻다, 라틴어)
@@ -151,11 +135,6 @@ separating	분리하는 (일반적)
 💬 예문
    "The wound was gangrening rapidly due to the lack of blood flow."
    → 혈액 공급이 부족하여 상처가 빠르게 괴사하고 있었다.
-
-necrotizing	조직이 괴사하는 (의학적)
-putrefying	부패하는, 썩어가는
-festering	곪아가는, 악화되는
-mortifying	(조직이) 괴사하는, 썩는
 
 🎨 뉘앙스
    • gangrening   혈액 차단·세균 감염으로 인한 조직 괴사에 특화. 가장 의학적
@@ -187,11 +166,6 @@ mortifying	(조직이) 괴사하는, 썩는
    "The configurative arrangement of the components determined the system's behavior."
    → 구성 요소들의 형상적 배열이 시스템의 동작을 결정했다.
 
-structural	구조적인
-compositional	구성상의, 배합의
-formative	형성하는, 형태를 만드는
-architectural	아키텍처적인, 설계상의
-
 🎨 뉘앙스
    • configurative  요소들의 상호 배열과 관계에 초점. 부분의 배치가 전체를 결정
      └ con-(함께) + figurare(형태를 만들다, 라틴어)
@@ -222,11 +196,6 @@ architectural	아키텍처적인, 설계상의
    "The steel was recalescing as austenite transformed into pearlite during cooling."
    → 오스테나이트가 펄라이트로 변태하면서 강철이 재발열하고 있었다.
 
-exotherming	발열 반응을 일으키는
-phase-transforming	상변태가 일어나는
-reheating	다시 가열되는
-thermally arresting	열적으로 정지하는
-
 🎨 뉘앙스
    • recalescing         외부 열원 없이 상변태에 의해 자발적으로 온도가 오르는 현상
      └ re-(다시) + calescere(따뜻해지다, 라틴어)
@@ -255,12 +224,6 @@ thermally arresting	열적으로 정지하는
 💬 예문
    "The senator fulminated against the new tax policy."
    → 그 상원의원은 새 세금 정책에 맹렬히 항의했다.
-
-denounced	공개적으로 규탄했다
-railed	격렬히 불평·항의했다
-inveighed	강하게 비난했다
-thundered	우렁차게 비난했다
-castigated	엄하게 질책했다
 
 🎨 뉘앙스
    • fulminated  천둥처럼 폭발적이고 극적인 뉘앙스. 가장 강렬함. 문어체·격식체
@@ -294,12 +257,6 @@ castigated	엄하게 질책했다
    "The director's latest film was widely lauded by critics."
    → 그 감독의 최신 영화는 비평가들에게 널리 극찬받았다.
 
-praised	칭찬받은
-acclaimed	갈채를 받은, 호평받은
-celebrated	유명한, 칭송받는
-extolled	극찬된, 높이 받들어진
-commended	권장된, 추천된
-
 🎨 뉘앙스
    • lauded     격식 있는 칭찬. 주로 문어체·언론·비평 맥락. 과도한 극찬 뉘앙스
      └ laus(찬양, 라틴어) + -ed
@@ -332,11 +289,6 @@ commended	권장된, 추천된
    "Shakespeare and his contemporaries transformed English literature."
    → 셰익스피어와 그의 동시대인들은 영문학을 변혁시켰다.
 
-peers	동료들, 동등한 위치의 사람들
-coetaneals	동시대인들 (매우 격식체)
-cohort	같은 집단·세대의 사람들
-generation	같은 세대의 사람들
-
 🎨 뉘앙스
    • contemporaries  같은 시대에 존재했다는 사실 자체에 초점. 역사·문학·예술 맥락
      └ con-(함께) + tempus(시간, 라틴어)
@@ -367,11 +319,6 @@ generation	같은 세대의 사람들
    "She was consoled by her friends after the loss."
    → 그녀는 상실 후 친구들에게 위로를 받았다.
 
-comforted	안위를 받은, 위안을 얻은
-soothed	달래진, 진정된
-reassured	안심을 얻은, 다독여진
-solaced	위안을 받은 (격식체)
-
 🎨 뉘앙스
    • consoled   슬픔·상실·실망 등 깊은 감정적 고통에 대한 위로. 비교적 격식체
      └ con-(함께) + solari(위로하다, 라틴어)
@@ -401,12 +348,6 @@ solaced	위안을 받은 (격식체)
 💬 예문
    "The philosopher inveighed against the corruption of public morals."
    → 그 철학자는 공공 도덕의 타락에 강하게 비난을 퍼부었다.
-
-fulminated	맹렬히 비난했다, 폭발적 항의
-railed	격렬히 불평·항의했다
-denounced	공개적으로 규탄했다
-castigated	엄하게 질책했다
-decried	공개적으로 혹평했다
 
 🎨 뉘앙스
    • inveighed   논리적·언어적 설득력을 바탕으로 한 지속적이고 체계적인 반박. 격식체
@@ -440,11 +381,6 @@ decried	공개적으로 혹평했다
    "He entered the building disguised as a maintenance worker."
    → 그는 유지보수 직원으로 변장하고 건물에 들어갔다.
 
-camouflaged	위장된, 눈에 띄지 않게 숨겨진
-concealed	숨겨진, 은폐된
-masked	가면을 쓴, 감춰진
-veiled	베일에 가려진, 은근히 숨겨진
-
 🎨 뉘앙스
    • disguised    정체를 완전히 다른 것으로 바꾸는 것에 초점. 물리적·비유적 은폐 모두
      └ dis-(반대) + guise(외모, 고대 프랑스어)
@@ -474,12 +410,6 @@ veiled	베일에 가려진, 은근히 숨겨진
 💬 예문
    "The sedulous student reviewed his notes every single day."
    → 그 근면한 학생은 매일 빠짐없이 노트를 복습했다.
-
-diligent	부지런한, 성실한
-assiduous	끈기 있게 열심히 하는
-industrious	근면한, 열심히 일하는
-persevering	인내하며 꾸준히 노력하는
-meticulous	꼼꼼한, 세심한
 
 🎨 뉘앙스
    • sedulous     지속적이고 세심한 노력 모두를 강조. 주의 깊고 꾸준한 뉘앙스. 격식체
@@ -513,12 +443,6 @@ meticulous	꼼꼼한, 세심한
    "The enticing aroma of freshly baked bread filled the street."
    → 갓 구운 빵의 유혹적인 향기가 거리를 가득 채웠다.
 
-alluring	매혹적인, 끌리는
-tempting	유혹적인, 솔깃한
-captivating	마음을 사로잡는, 매력적인
-appealing	매력적인, 호감 가는
-seductive	유혹적인, 관능적인
-
 🎨 뉘앙스
    • enticing    욕구·흥미를 자극하여 끌어당기는 뉘앙스. 음식·제안·기회 등에 폭넓게 사용
      └ en-(~하게) + titio(불씨, 라틴어)
@@ -551,12 +475,6 @@ seductive	유혹적인, 관능적인
    "By staying silent, the manager was effectively condoning the harassment."
    → 침묵을 지킴으로써 그 관리자는 사실상 괴롭힘을 묵인하고 있었다.
 
-overlooking	못 본 척하는, 눈감아주는
-tolerating	참고 견디는, 용인하는
-excusing	변명해주는, 용서해주는
-sanctioning	승인하는, 허가하는
-permitting	허용하는, 허락하는
-
 🎨 뉘앙스
    • condoning   잘못임을 알면서도 소극적으로 묵인. 명시적 승인 없이 넘어가는 뉘앙스
      └ con-(완전히) + donare(주다, 라틴어)
@@ -579,7 +497,7 @@ permitting	허용하는, 허락하는
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#16  fecalent [ˈfiːkələnt]  ※ 표준형: feculent
+#16  feculent [ˈfiːkələnt]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📌 뜻
@@ -589,14 +507,8 @@ permitting	허용하는, 허락하는
    "The feculent water from the drainage system posed a serious health risk."
    → 배수 시스템에서 나온 오염된 물은 심각한 건강 위험을 초래했다.
 
-putrid	부패한, 역겨운
-fetid	악취가 나는, 고약한
-noxious	유해한, 독성이 있는
-contaminated	오염된, 불순물이 섞인
-filthy	더러운, 불결한
-
 🎨 뉘앙스
-   • fecalent/feculent  대변·오물 등 침전물이 포함된 것에 특화. 가장 기술적·의학적
+   • feculent  대변·오물 등 침전물이 포함된 것에 특화. 가장 기술적·의학적
      └ faex(찌꺼기, 라틴어) + -ulent
    • putrid             부패로 인한 악취와 분해에 초점. 부패 과정 자체를 강조
      └ puter(썩은, 라틴어)
@@ -626,12 +538,6 @@ filthy	더러운, 불결한
 💬 예문
    "The punctilious butler ensured every detail of the table setting was perfect."
    → 그 깐깐한 집사는 식탁 세팅의 모든 세부 사항이 완벽한지 확인했다.
-
-meticulous	꼼꼼한, 세심한
-scrupulous	양심적인, 원칙을 철저히 지키는
-fastidious	까다로운, 가리는 것이 많은
-pedantic	현학적인, 규칙에 집착하는
-exacting	엄격한, 까다롭게 요구하는
 
 🎨 뉘앙스
    • punctilious  예절·형식·격식의 세부 사항에 특화된 엄격함. 사회적 규범을 철저히 준수
@@ -665,12 +571,6 @@ exacting	엄격한, 까다롭게 요구하는
    "The prevailing opinion among experts was that the economy would recover."
    → 전문가들 사이에서 지배적인 의견은 경제가 회복될 것이라는 것이었다.
 
-dominant	지배적인, 우월한
-predominant	가장 두드러진, 압도적인
-pervasive	구석구석 퍼져 있는, 만연한
-regnant	지배하는, 군림하는 (격식체)
-triumphant	승리한, 의기양양한
-
 🎨 뉘앙스
    • prevailing   현재 가장 널리 통용되거나 우세한 상태. 풍향·여론·분위기 등에 폭넓게 사용
      └ prae-(앞에) + valere(강하다, 라틴어)
@@ -702,12 +602,6 @@ triumphant	승리한, 의기양양한
 💬 예문
    "The two sides reached a compromise after hours of negotiation."
    → 양측은 수 시간의 협상 끝에 타협에 이르렀다.
-
-concession	양보, 인정
-settlement	합의, 해결
-accommodation	조정, 융통성 있는 합의
-jeopardize	위태롭게 하다 (부정적 의미)
-undermine	약화시키다, 손상시키다
 
 🎨 뉘앙스
    • compromise    양측이 모두 양보하는 쌍방향 합의. 긍정·부정 두 가지 의미 모두 가짐
@@ -741,12 +635,6 @@ undermine	약화시키다, 손상시키다
    "The general's perfidy shocked the entire nation."
    → 그 장군의 배신은 온 나라를 충격에 빠뜨렸다.
 
-treachery	배반, 반역
-betrayal	배신, 배반
-treason	반역죄, 국가 배신
-duplicity	이중성, 표리부동
-faithlessness	불성실, 신의 없음
-
 🎨 뉘앙스
    • perfidy       처음부터 신뢰를 이용할 의도로 저지르는 고의적 배신. 가장 강렬하고 격식체
      └ per-(나쁜) + fides(신뢰, 라틴어)
@@ -778,12 +666,6 @@ faithlessness	불성실, 신의 없음
 💬 예문
    "History is filled with despotisms that eventually collapsed under popular revolt."
    → 역사는 결국 민중 봉기로 붕괴된 전제 정치들로 가득 차 있다.
-
-tyrannies	폭정들, 압제들
-autocracies	독재 정치들, 전제 군주제들
-dictatorships	독재 정권들
-totalitarianisms	전체주의 체제들
-absolutisms	절대주의 체제들
 
 🎨 뉘앙스
    • despotisms      한 사람의 절대 권력에 의한 통치. 권력 남용과 억압의 뉘앙스. 역사·철학적
@@ -817,12 +699,6 @@ absolutisms	절대주의 체제들
    "The office clique made it difficult for new employees to feel welcomed."
    → 사무실의 파벌은 새 직원들이 환영받는다고 느끼기 어렵게 만들었다.
 
-faction	파벌, 당파
-coterie	소수의 친밀한 집단
-cabal	음모를 꾸미는 소집단
-circle	(친밀한) 모임, 집단
-sect	분파, 종파
-
 🎨 뉘앙스
    • clique    배타성과 폐쇄성이 핵심. 외부인을 의도적으로 배척하는 소규모 집단
      └ cliquer(딸깍 소리, 고대 프랑스어)
@@ -855,12 +731,6 @@ sect	분파, 종파
    "Her voice trailed off as she realized no one was listening."
    → 아무도 듣지 않는다는 것을 깨닫자 그녀의 목소리가 점점 잦아들었다.
 
-fades out	서서히 사라지다, 희미해지다
-tapers off	서서히 줄어들다
-petered out	차츰 소멸되다, 흐지부지되다
-dwindles	점점 줄어들다, 쇠퇴하다
-dies away	서서히 사라지다, 잦아들다
-
 🎨 뉘앙스
    • trails off  말·소리가 점점 작아지며 불완전하게 끝나는 것에 특화. 대화·문장 맥락
    • fades out   시각적·청각적으로 서서히 사라지는 것에 초점. 영화·음악 맥락
@@ -887,12 +757,6 @@ dies away	서서히 사라지다, 잦아들다
 💬 예문
    "The philosopher led his students to aporia before guiding them toward deeper understanding."
    → 그 철학자는 학생들을 더 깊은 이해로 이끌기 전에 먼저 지적 막힘으로 인도했다.
-
-impasse	막다른 골목, 교착 상태
-dilemma	딜레마, 이러지도 저러지도 못함
-paradox	역설, 모순된 진실
-quandary	곤경, 어찌할 바를 모르는 상태
-conundrum	난제, 수수께끼 같은 문제
 
 🎨 뉘앙스
    • aporia     논리적·철학적 차원에서 해결 불가능한 막힘. 사유의 한계를 드러냄. 가장 학문적
@@ -925,12 +789,6 @@ conundrum	난제, 수수께끼 같은 문제
 💬 예문
    "The child prattles on about his toys for hours without stopping."
    → 그 아이는 몇 시간 동안 쉬지 않고 장난감에 대해 재잘거렸다.
-
-babbles	옹알거리다, 횡설수설하다
-chatters	수다를 떨다, 재잘거리다
-jabbers	빠르게 횡설수설하다
-rambles	두서없이 말을 늘어놓다
-blathers	헛소리를 늘어놓다
 
 🎨 뉘앙스
    • prattles  내용 없이 길고 가볍게 떠드는 것에 초점. 주로 어린아이나 유치한 사람에게 사용

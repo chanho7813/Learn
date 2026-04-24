@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
     for (int i = 1; i <= 5; i++) {
       try {
         final content = await rootBundle.loadString(
-            'assets/wordbooks/vocabulary_wordbook_${i}_final.txt');
+            'assets/wordbooks/vocabulary_${i}.txt');
         allWords.addAll(VocabularyParser.parse(content));
       } catch (_) {}
     }
