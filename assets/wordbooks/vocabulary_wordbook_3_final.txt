@@ -1,0 +1,865 @@
+╔══════════════════════════════════════════════════════════════╗
+║            📚  편입영어 단어장  Vocabulary Book (3)  📚           ║
+║                   Vol.3  (#51 ~ #75)                          ║
+║          뜻 · 유의어 · 뉘앙스 · 어원 완벽 정리               ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋  목차
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  51. penurious        극도로 가난한, 인색한
+  52. enunciative      발음에 관한, 명확히 표현하는
+  53. invigorating     활기를 주는, 원기를 북돋는
+  54. disinterested    사심 없는, 공정한
+  55. capricious       변덕스러운, 예측불허의
+  56. ludicrous        우스꽝스러운, 터무니없는
+  57. detrimental      해로운, 손해를 주는
+  58. exuberant        넘치는 활기의, 풍성한
+  59. consonant        일치하는, 조화로운 / 자음
+  60. pastoral         목가적인, 전원의
+  61. penchant         강한 성향, 좋아하는 경향
+  62. bigotry          편협함, 독선, 불관용
+  63. tedium           지루함, 단조로움
+  64. engrossment      몰두, 완전한 집중
+  65. repulsive        혐오스러운, 역겨운
+  66. subversive       전복적인, 체제를 뒤엎으려는
+  67. tremendous       엄청난, 거대한, 굉장한
+  68. relentless       가차 없는, 끊임없는
+  69. contention       논쟁, 다툼, 주장
+  70. intractable      다루기 어려운, 해결 불가능한
+  71. prowess          탁월한 능력, 용맹, 기량
+  72. heinous          극악한, 흉악한, 가증스러운
+  73. lukewarm         미지근한, 열의 없는, 소극적인
+  74. blaspheme        신성모독하다, 불경스러운 말을 하다
+  75. fester           곪다, 악화되다, 썩어가다
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#51  penurious [pəˈnjʊriəs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   극도의 가난함과 인색함 두 가지 의미 모두 가짐. 격식체
+
+💬 예문
+   "The penurious conditions of the slum shocked every visitor."
+   → 빈민가의 극빈한 환경은 모든 방문자를 충격에 빠뜨렸다.
+
+impecunious	가난한, 무일푼인
+destitute	극빈한, 결핍된
+parsimonious	지나치게 인색한
+indigent	빈곤한, 결핍된
+
+🎨 뉘앙스
+   • penurious    극도의 가난함과 인색함 두 가지 의미 모두 가짐. 격식체
+     └ penuria(결핍, 라틴어)
+   • impecunious  만성적 무일푼 상태. 약간 유머러스한 뉘앙스도 있음
+     └ im-(부정) + pecunia(돈, 라틴어)
+   • destitute    의식주 해결이 안 되는 극빈 상태. 가장 심각한 표현
+     └ de-(떨어져) + statuere(세우다, 라틴어)
+   • parsimonious 가난보다는 돈을 극도로 아끼는 인색함에 초점
+   • indigent     공식·법적 맥락에서 빈곤층을 가리킬 때 사용
+     └ indu-(안에서) + egere(필요로 하다, 라틴어)
+
+🔍 어원
+   penuria(결핍, 라틴어) + -ious(형용사화 접미사)
+   → "결핍으로 가득 찬"
+   🔗 관련어: penalty(벌칙), penal(형벌의), penitence(참회), punish(벌하다), repent(회개하다)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#52  enunciative [ɪˈnʌnsieɪtɪv]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   발음·선언 행위 자체에 관한 형용사. 언어학·철학 맥락에서 사용
+
+💬 예문
+   "His enunciative style made every word clear and precise."
+   → 그의 명확한 발화 방식은 모든 단어를 분명하고 정확하게 만들었다.
+
+declarative	선언적인, 서술하는
+articulate	명확히 표현하는
+expressive	표현적인, 감정을 잘 나타내는
+pronounciative	발음에 관한
+
+🎨 뉘앙스
+   • enunciative   발음·선언 행위 자체에 관한 형용사. 언어학·철학 맥락에서 사용
+   • declarative   주장이나 사실을 선언하는 문장이나 태도에 초점
+   • articulate    생각을 명확하고 유창하게 표현하는 능력. 형용사·동사 모두 사용
+   • expressive    감정이나 의미를 풍부하게 전달하는 뉘앙스
+   • pronounciative enunciative와 거의 동의어. 현대 영어에서는 드물게 사용
+
+🔍 어원
+   e-(밖으로) + nuntius(전령, 소식, 라틴어) + -ate + -ive
+   → "소식을 밖으로 명확히 전달하는"
+   🔗 관련어: noun(명사), announce(발표하다), pronounce(발음하다), denounce(비난하다), renounce(포기하다)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#53  invigorating [ɪnˈvɪɡəreɪtɪŋ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   신체적·정신적으로 강한 활기를 불어넣는 뉘앙스. enervating의 반대
+
+💬 예문
+   "The cold morning air was invigorating after a long sleep."
+   → 긴 수면 후의 차가운 아침 공기는 활기를 불어넣었다.
+
+energizing	에너지를 주는, 활력을 주는
+stimulating	자극하는, 흥미를 돋우는
+refreshing	상쾌하게 하는, 신선한
+revitalizing	생기를 되살리는
+
+🎨 뉘앙스
+   • invigorating  신체적·정신적으로 강한 활기를 불어넣는 뉘앙스. enervating의 반대
+   • energizing    에너지를 충전시켜주는 것에 초점. 커피·운동 등 일상적 맥락
+   • stimulating   지적·감각적으로 자극을 주는 뉘앙스. 지적 활동에 자주 사용
+   • refreshing    피로를 씻어주는 상쾌함. 음료·바람·새로운 시각 등에 사용
+   • revitalizing  잃었던 생기나 활력을 되살리는 뉘앙스
+
+🔍 어원
+   in-(안으로) + vigor(활력, 힘, 라틴어) + -ate + -ing
+   → "안으로 활력을 불어넣는"
+   🔗 관련어: vigor(활력), vigorous(활기찬), vibrant(생생한), revitalize(활성화하다), velocity(속도)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#54  disinterested [dɪsˈɪntrəstɪd]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   개인적 이해관계가 없어 공정한 판단이 가능한 상태. ※ uninterested(흥미 없음)와 혼동 주의
+
+💬 예문
+   "A disinterested judge must evaluate the case fairly."
+   → 사심 없는 판사는 사건을 공정하게 평가해야 한다.
+
+impartial	공정한, 편파적이지 않은
+unbiased	편견 없는, 중립적인
+neutral	중립적인, 어느 쪽도 아닌
+objective	객관적인, 사실에 근거한
+
+🎨 뉘앙스
+   • disinterested 개인적 이해관계가 없어 공정한 판단이 가능한 상태. ※ uninterested(흥미 없음)와 혼동 주의
+   • impartial     한쪽에 치우치지 않는 공정함. 판사·심판 등에 자주 사용
+   • unbiased      선입견이나 편견이 없는 상태. 연구·분석 맥락에서 자주 사용
+   • neutral       갈등이나 경쟁에서 어느 편도 들지 않는 상태
+   • objective     감정이나 개인 의견 없이 사실만을 보는 뉘앙스
+
+🔍 어원
+   dis-(반대) + interest(이해관계, 이익) + -ed
+   → "이해관계에서 벗어난"
+   🔗 관련어: interest(관심, 이익), essence(본질), essential(필수적인), absent(부재의), present(현재의)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#55  capricious [kəˈprɪʃəs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   이유 없이 갑자기 변하는 예측불허의 변덕. 날씨·사람·결정 등에 사용
+
+💬 예문
+   "The capricious weather ruined all our outdoor plans."
+   → 변덕스러운 날씨가 우리의 모든 야외 계획을 망쳤다.
+
+whimsical	기발한, 변덕스러운
+fickle	변덕스러운, 일관성 없는
+mercurial	변화무쌍한, 기민한
+erratic	불규칙적인, 일관성 없는
+
+🎨 뉘앙스
+   • capricious  이유 없이 갑자기 변하는 예측불허의 변덕. 날씨·사람·결정 등에 사용
+   • whimsical   기발하고 엉뚱한 변덕. 부정적이기보다 귀엽거나 창의적인 뉘앙스
+   • fickle      특히 감정·충성·의견이 자주 바뀌는 뉘앙스. 연인·지지자 등에 자주 사용
+   • mercurial   수은처럼 빠르고 예측불허로 변하는 기질. 재능 있지만 불안정한 뉘앙스
+   • erratic     일정한 패턴 없이 불규칙하게 변하는 것. 행동·수치 등에 사용
+     └ errare(헤매다, 라틴어)
+
+🔍 어원
+   capra(염소, 라틴어) + -icious → 염소처럼 제멋대로 뛰어다니는
+   → "염소처럼 예측불허로 움직이는"
+   🔗 관련어: caprice, cab, capriole, caper, capricorn
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#56  ludicrous [ˈluːdɪkrəs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   너무 어처구니없어서 웃음이 나오는 뉘앙스. 조롱·경멸의 뉘앙스 포함
+
+💬 예문
+   "His excuse was so ludicrous that everyone burst out laughing."
+   → 그의 변명은 너무 터무니없어서 모두가 웃음을 터뜨렸다.
+
+absurd	불합리한, 터무니없는
+preposterous	말도 안 되는, 황당한
+ridiculous	웃기는, 우스꽝스러운
+farcical	소극적으로 웃긴, 어이없는
+
+🎨 뉘앙스
+   • ludicrous     너무 어처구니없어서 웃음이 나오는 뉘앙스. 조롱·경멸의 뉘앙스 포함
+   • absurd        논리나 이성에 맞지 않는 불합리함에 초점. 철학적 맥락에서도 사용
+   • preposterous  ludicrous보다 더 강한 황당함. 도저히 납득이 안 되는 뉘앙스
+   • ridiculous    가장 일상적인 표현. 웃기거나 어리석은 것 전반에 사용
+   • farcical      소극(farce)처럼 과장되고 어이없는 상황에 초점
+
+🔍 어원
+   ludus(놀이, 게임, 라틴어) + -icrous(형용사화 접미사)
+   → "놀이처럼 심각하게 받아들일 수 없는"
+   🔗 관련어: ludic, prelude, interlude, elude, delude
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#57  detrimental [ˌdetrɪˈmentl]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   이익이나 상태에 손해를 끼치는 뉘앙스. 격식체이며 중립적
+
+💬 예문
+   "Excessive screen time can be detrimental to children's eyesight."
+   → 과도한 화면 시청은 아이들의 시력에 해로울 수 있다.
+
+harmful	해로운, 피해를 주는
+deleterious	서서히 해를 끼치는
+injurious	상해를 주는, 해로운
+pernicious	치명적으로 해로운
+
+🎨 뉘앙스
+   • detrimental  이익이나 상태에 손해를 끼치는 뉘앙스. 격식체이며 중립적
+   • harmful      가장 일반적. 신체·감정·환경 등 폭넓게 사용
+   • deleterious  서서히 눈에 띄지 않게 해를 끼치는 뉘앙스. 의학·과학 맥락
+   • injurious    신체적 상해나 법적 손해에 초점. 법률 맥락에서 자주 사용
+   • pernicious   겉으로 보이지 않게 치명적 해를 끼치는 가장 강한 표현
+     └ per-(완전히) + necare(죽이다, 라틴어)
+
+🔍 어원
+   de-(아래로) + terere(갈다, 닳게 하다, 라틴어) + -mental
+   → "갈아 없애듯 해를 끼치는"
+   🔗 관련어: trite(진부한), attrition(마모), contrite(참회하는), detritus(잔해), tribulation(시련)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#58  exuberant [ɪɡˈzuːbərənt]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   넘쳐흐를 만큼 풍성한 에너지·기쁨·성장. 식물의 무성함에도 사용
+
+💬 예문
+   "The children were exuberant with joy on the last day of school."
+   → 아이들은 종업식 날 넘치는 기쁨으로 활기찼다.
+
+ebullient	열정이 넘치는, 활기찬
+effervescent	거품처럼 활기찬, 발랄한
+vivacious	발랄한, 생기 넘치는
+buoyant	낙관적인, 활기찬
+
+🎨 뉘앙스
+   • exuberant    넘쳐흐를 만큼 풍성한 에너지·기쁨·성장. 식물의 무성함에도 사용
+     └ ex-(밖으로) + uberare(풍성하다, 라틴어)
+   • ebullient    끓어오르듯 열정과 활기가 넘치는 뉘앙스. 말이 많고 활발한 이미지
+     └ e-(밖으로) + bullire(끓다, 라틴어)
+   • effervescent 거품처럼 가볍고 발랄하게 튀어오르는 뉘앙스
+     └ ex-(밖으로) + fervere(끓다, 라틴어)
+   • vivacious    매력적이고 발랄한 생기. 주로 여성 묘사에 자주 사용
+     └ vivax(활기찬, 라틴어)
+   • buoyant      물 위에 뜨듯 낙관적이고 희망찬 뉘앙스. 경제·기분 등에 사용
+     └ boye(뜨다, 고대 프랑스어)
+
+🔍 어원
+   ex-(밖으로) + uberare(풍성하다, 라틴어) + -ant
+   → "풍성함이 밖으로 넘쳐흐르는"
+   🔗 관련어: uber(넘치는), udder(젖통), exuberance(풍부), exuberantly(풍성하게), uberty(풍요)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#59  consonant [ˈkɑːnsənənt]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   두 가지가 서로 맞아떨어지는 조화로운 일치. 언어학에서는 자음을 의미
+
+💬 예문
+   "His actions were consonant with his stated beliefs."
+   → 그의 행동은 그가 밝힌 신념과 일치했다.
+
+consistent	일관된, 모순 없는
+congruent	합치하는, 일치하는
+harmonious	조화로운, 화합하는
+concordant	일치하는, 협화음의
+
+🎨 뉘앙스
+   • consonant   두 가지가 서로 맞아떨어지는 조화로운 일치. 언어학에서는 자음을 의미
+   • consistent  모순 없이 일관된 상태. 행동·원칙·품질에 폭넓게 사용
+   • congruent   수학적으로 완전히 일치하는 뉘앙스. 기하학 맥락에서도 사용
+   • harmonious  여러 요소가 아름답게 어우러지는 조화로운 상태
+   • concordant  공식적 합의나 의견 일치를 강조하는 격식체 표현
+
+🔍 어원
+   com-(함께) + sonare(소리 내다, 라틴어) + -ant
+   → "함께 소리를 내는, 화음을 이루는"
+   🔗 관련어: sound(소리), sonic(음속의), sonnet(소네트), resonance(공명), unison(일치)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#60  pastoral [ˈpæstərəl]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   양치기·목동이 있는 평화로운 전원 풍경. 문학·음악 장르로도 사용
+
+💬 예문
+   "The painting depicted a peaceful pastoral scene."
+   → 그 그림은 평화로운 목가적 풍경을 묘사했다.
+
+bucolic	전원적인, 농촌의
+rustic	시골의, 소박한
+idyllic	목가적으로 아름다운
+arcadian	낙원 같은, 전원적인
+
+🎨 뉘앙스
+   • pastoral   양치기·목동이 있는 평화로운 전원 풍경. 문학·음악 장르로도 사용
+   • bucolic    pastoral과 유사하나 더 농촌·농업적 뉘앙스. 격식체이며 문학적
+   • rustic     세련되지 않은 소박한 시골의 느낌. 긍정적·부정적 뉘앙스 모두 가능
+   • idyllic    이상적으로 아름답고 평화로운 상태. pastoral보다 더 완벽한 이미지
+   • arcadian   고대 그리스 아르카디아에서 유래. 순수하고 낙원 같은 전원의 이미지
+
+🔍 어원
+   pastor(양치기, 라틴어) + -al(형용사화 접미사)
+   → "양치기와 관련된, 목동의"
+   🔗 관련어: pasture(목초지), pastor(목사), repast(식사), pastern(말 발목), pasturage(목초지)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#61  penchant [ˈpentʃənt]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   자연스럽게 강하게 끌리는 취향이나 성향. predilection보다 다소 일상적
+
+💬 예문
+   "She had a penchant for collecting rare antiques."
+   → 그녀는 희귀한 골동품 수집에 강한 취향을 가지고 있었다.
+
+predilection	편애, 강한 선호
+proclivity	성향, 기질
+propensity	경향, 성벽
+inclination	성향, 마음이 기우는 것
+
+🎨 뉘앙스
+   • penchant     자연스럽게 강하게 끌리는 취향이나 성향. predilection보다 다소 일상적
+     └ pencher(기울다, 프랑스어)
+   • predilection 특정 대상에 대한 뚜렷한 개인적 선호. 지적 취향에 자주 사용
+     └ prae-(미리) + diligere(선택하다, 라틴어)
+   • proclivity   선천적이거나 습관적 성향. 종종 부정적 맥락에서 사용
+     └ pro-(앞으로) + clivus(경사, 라틴어)
+   • propensity   통계·심리학 맥락에서 자주 사용. 행동 경향의 뉘앙스
+     └ pro-(앞으로) + pendere(매달리다, 라틴어)
+   • inclination  마음이 자연스럽게 기우는 것. 가장 일반적이고 중립적인 표현
+     └ in-(향해) + clinare(기울다, 라틴어)
+
+🔍 어원
+   pencher(기울다, 프랑스어) + -ant → pendre(매달리다, 라틴어)
+   → "한쪽으로 기울어진 마음"
+   🔗 관련어: pendant(펜던트), pendulum(진자), append(추가하다), depend(의존하다), suspend(중단하다)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#62  bigotry [ˈbɪɡətri]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   자신의 믿음만이 옳다고 고집하며 다른 견해를 배척하는 독선
+
+💬 예문
+   "Religious bigotry has caused countless conflicts throughout history."
+   → 종교적 편협함은 역사적으로 무수한 갈등을 일으켰다.
+
+intolerance	불관용, 참지 못함
+prejudice	편견, 선입견
+fanaticism	광신, 맹목적 열정
+dogmatism	독단주의, 교조주의
+
+🎨 뉘앙스
+   • bigotry    자신의 믿음만이 옳다고 고집하며 다른 견해를 배척하는 독선
+     └ bigot(편협한 사람, 고대 프랑스어)
+   • intolerance 다름을 참지 못하는 태도 전반. bigotry보다 넓은 개념
+   • prejudice  실제 경험이나 증거 없이 가지는 부정적 선입견
+     └ prae-(미리) + judicium(판단, 라틴어)
+   • fanaticism 종교·이념에 맹목적으로 빠져드는 극단적 열정
+     └ fanum(신전, 라틴어) → 광적 신봉
+   • dogmatism  증거 없이 자신의 원칙을 절대적 진리로 주장하는 태도
+     └ dogma(교의, 그리스어) + -ism
+
+🔍 어원
+   bigot(편협한 사람, 고대 프랑스어) + -ry(명사화 접미사)
+   → 기원 불명확. "By God"에서 유래했다는 설이 있음
+   🔗 관련어: by, god, bigot, dogma, creed
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#63  tedium [ˈtiːdiəm]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   지속되는 지루함의 상태 자체에 초점. 격식체이며 문어체
+
+💬 예문
+   "The tedium of repetitive work eventually drove him to quit."
+   → 반복적인 일의 지루함이 결국 그를 그만두게 만들었다.
+
+boredom	지루함, 심심함
+monotony	단조로움, 변화 없음
+ennui	권태, 무기력한 지루함
+drudgery	고된 단조로운 일
+
+🎨 뉘앙스
+   • tedium   지속되는 지루함의 상태 자체에 초점. 격식체이며 문어체
+     └ taedium(지루함, 라틴어)
+   • boredom  가장 일반적. 할 것이 없거나 흥미롭지 않아 심심한 상태
+     └ bore(지루하게 하다) + -dom
+   • monotony 변화 없이 계속 같은 것이 반복되는 단조로움에 초점
+     └ monos(하나) + tonos(소리, 그리스어)
+   • ennui    프랑스어에서 온 표현. 삶 자체에 대한 깊은 권태감. 문학적·철학적
+     └ ennui(권태, 프랑스어)
+   • drudgery 지루하고 고되며 보람 없는 노동에 초점
+     └ druggen(고되게 일하다, 중세 영어)
+
+🔍 어원
+   taedium(혐오감, 지루함, 라틴어) + taedere(싫증나다)
+   → "싫증이 나도록 지루한 상태"
+   🔗 관련어: tedious, tediousness, tease, tire, tiresome
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#64  engrossment [ɪnˈɡroʊsmənt]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   다른 것을 전혀 의식하지 못할 만큼 완전히 빠져든 상태
+
+💬 예문
+   "Her engrossment in the novel made her oblivious to everything."
+   → 소설에 대한 그녀의 몰두는 그녀를 모든 것에 무감각하게 만들었다.
+
+absorption	몰입, 흡수
+immersion	완전한 몰입, 빠져듦
+preoccupation	사로잡힘, 마음을 빼앗김
+captivation	매료됨, 사로잡힘
+
+🎨 뉘앙스
+   • engrossment   다른 것을 전혀 의식하지 못할 만큼 완전히 빠져든 상태
+     └ en-(안으로) + grossus(크게, 라틴어)
+   • absorption    외부를 차단하고 완전히 빨려 들어가는 뉘앙스
+     └ ab-(~에서) + sorbere(삼키다, 라틴어)
+   • immersion     액체에 완전히 잠기듯 어떤 환경·활동에 완전히 빠지는 것
+     └ im-(안으로) + mergere(잠기다, 라틴어)
+   • preoccupation 어떤 생각이 마음을 지배하여 다른 것을 생각할 여유가 없는 상태
+     └ prae-(미리) + occupare(차지하다, 라틴어)
+   • captivation   매력에 사로잡혀 벗어나지 못하는 뉘앙스
+     └ captivus(포로, 라틴어) + -ation
+
+🔍 어원
+   en-(안으로) + grossus(크게, 전체적으로, 라틴어) + -ment
+   → "전체를 자기 안으로 끌어들이는 것"
+   🔗 관련어: gross, engross, engrossing, grocer, grossness
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#65  repulsive [rɪˈpʌlsɪv]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   강하게 밀쳐내고 싶은 혐오감. 외모·냄새·행동 등에 폭넓게 사용
+
+💬 예문
+   "The smell from the garbage was utterly repulsive."
+   → 쓰레기에서 나는 냄새는 완전히 역겨웠다.
+
+disgusting	역겨운, 구역질 나는
+revolting	반감을 일으키는, 역겨운
+loathsome	혐오스러운, 질색인
+abhorrent	몹시 싫은, 혐오스러운
+
+🎨 뉘앙스
+   • repulsive  강하게 밀쳐내고 싶은 혐오감. 외모·냄새·행동 등에 폭넓게 사용
+     └ re-(뒤로) + pellere(밀다, 라틴어)
+   • disgusting 구역질이 날 만큼 역겨운 뉘앙스. 가장 일상적인 표현
+     └ dis-(반대) + gustare(맛보다, 라틴어)
+   • revolting  반란을 일으키듯 강하게 반감을 일으키는 뉘앙스
+     └ re-(뒤로) + volvere(구르다, 라틴어)
+   • loathsome  지속적이고 깊은 혐오감. disgusting보다 강하고 문어체적
+     └ lathian(혐오하다, 고대 영어)
+   • abhorrent  도덕적으로 용납할 수 없을 만큼 혐오스러운 뉘앙스. 가장 강한 표현
+     └ ab-(~에서) + horrere(떨다, 라틴어)
+
+🔍 어원
+   re-(뒤로) + pellere(밀다, 라틴어) + -ive
+   → "뒤로 밀어내는, 밀쳐내고 싶은"
+   🔗 관련어: pulse(맥박), impulse(충동), compel(강요하다), expel(추방하다), repel(물리치다)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#66  subversive [səbˈvɜːrsɪv]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   기존 체제·권위·가치를 은밀히 약화시키거나 뒤엎으려는 뉘앙스
+
+💬 예문
+   "The government labelled their activities as subversive."
+   → 정부는 그들의 활동을 전복적이라고 낙인찍었다.
+
+seditious	반란을 선동하는
+insurgent	반란의, 반정부적인
+revolutionary	혁명적인, 기존을 뒤엎는
+disruptive	파괴적인, 질서를 어지럽히는
+
+🎨 뉘앙스
+   • subversive    기존 체제·권위·가치를 은밀히 약화시키거나 뒤엎으려는 뉘앙스
+     └ sub-(아래) + vertere(돌리다, 라틴어)
+   • seditious     정부나 권위에 반항하도록 선동하는 행위에 초점. 법적 맥락
+     └ se-(떨어져) + itio(가는 것, 라틴어)
+   • insurgent     무장 반란이나 저항운동에 특화. 군사·정치적 맥락
+     └ in-(안에서) + surgere(일어나다, 라틴어)
+   • revolutionary 급격하고 근본적인 변화를 추구하는 뉘앙스. 긍정·부정 모두 사용
+     └ re-(다시) + volvere(구르다, 라틴어)
+   • disruptive    기존 질서나 과정을 방해하는 것. 기술 혁신에도 긍정적으로 사용
+     └ dis-(분리) + rumpere(깨뜨리다, 라틴어)
+
+🔍 어원
+   sub-(아래에서) + vertere(돌리다, 라틴어) + -ive
+   → "아래에서 뒤집어엎으려는"
+   🔗 관련어: version(판본), reverse, convert, adversary, traverse
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#67  tremendous [trəˈmendəs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   크기·양·정도가 압도적으로 큰 것. 감탄·놀라움의 뉘앙스도 포함
+
+💬 예문
+   "The project required a tremendous amount of effort."
+   → 그 프로젝트는 엄청난 양의 노력을 필요로 했다.
+
+enormous	거대한, 막대한
+colossal	거대한, 방대한
+prodigious	놀랄 만큼 큰, 엄청난
+immense	광대한, 어마어마한
+
+🎨 뉘앙스
+   • tremendous  크기·양·정도가 압도적으로 큰 것. 감탄·놀라움의 뉘앙스도 포함
+     └ tremendus(떨게 하는, 라틴어)
+   • enormous    단순히 규모가 매우 큰 것에 초점. 가장 중립적인 표현
+     └ e-(밖으로) + norma(기준, 라틴어)
+   • colossal    고대 거대 조각상(colossus)에서 유래. 압도적인 물리적 크기 강조
+     └ kolossos(거대 조각상, 그리스어)
+   • prodigious  자연적 한계를 넘은 놀라운 크기나 양. 재능·업적에도 사용
+     └ prodigium(전조, 라틴어)
+   • immense     측정하기 어려울 만큼 광대한 규모. 물리적·추상적 모두에 사용
+     └ im-(부정) + metiri(측정하다, 라틴어)
+
+🔍 어원
+   tremendus(떨게 하는, 라틴어) + tremere(떨다)
+   → "두려움에 떨게 할 만큼 거대한"
+   🔗 관련어: tremble, tremor, tremulous, tremorate, delirium
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#68  relentless [rɪˈlentləs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   누그러지거나 멈추지 않는 집요함. 사람·날씨·노력 등 폭넓게 사용
+
+💬 예문
+   "The relentless rain continued for three days without a break."
+   → 가차 없는 비가 쉬지 않고 3일간 계속되었다.
+
+inexorable	멈출 수 없는, 냉혹한
+incessant	쉬지 않는, 끊임없는
+unremitting	잠시도 쉬지 않는
+persistent	집요한, 지속적인
+
+🎨 뉘앙스
+   • relentless   누그러지거나 멈추지 않는 집요함. 사람·날씨·노력 등 폭넓게 사용
+     └ re-(다시) + lentus(부드러운, 라틴어) + -less
+   • inexorable   아무리 애원해도 막을 수 없는 냉혹한 진행. 운명·거대한 힘에 사용
+     └ in-(부정) + exorare(애원하다, 라틴어)
+   • incessant    잠시도 멈추지 않고 계속되는 것. 특히 소리·비·말 등에 자주 사용
+   • unremitting  완화나 휴식 없이 계속되는 뉘앙스. 격식체이며 노력·고통에 사용
+   • persistent   어려움에도 포기하지 않는 끈기. 긍정적 뉘앙스로도 사용 가능
+
+🔍 어원
+   re-(다시) + lentus(느린, 부드러운, 라틴어) + -less(없는)
+   → "부드러워짐이 없는, 누그러지지 않는"
+   🔗 관련어: relent(누그러지다), lento(느리게, 음악 용어), lenient(관대한)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#69  contention [kənˈtenʃn]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   의견 충돌로 인한 다툼 또는 그 안에서의 주장. 두 가지 의미 모두 격식체
+
+💬 예문
+   "The new policy became a point of contention among lawmakers."
+   → 새 정책은 입법자들 사이에서 논쟁의 핵심이 되었다.
+
+dispute	분쟁, 논쟁
+controversy	논란, 논쟁
+discord	불화, 의견 충돌
+assertion	주장, 단언
+
+🎨 뉘앙스
+   • contention   의견 충돌로 인한 다툼 또는 그 안에서의 주장. 두 가지 의미 모두 격식체
+     └ com-(함께) + tendere(뻗다, 라틴어)
+   • dispute      구체적 사안에 대한 공식적 분쟁. 법적·외교적 맥락에서 자주 사용
+     └ dis-(분리) + putare(생각하다, 라틴어)
+   • controversy  많은 사람들 사이에서 지속되는 공개적 논란. 사회적 이슈에 자주 사용
+     └ contra-(반대) + vertere(돌리다, 라틴어)
+   • discord      조화가 깨진 불화 상태 자체에 초점. 인간관계·음악 맥락 모두에 사용
+     └ dis-(분리) + cor(마음, 라틴어)
+   • assertion    근거와 함께 내세우는 주장. 논쟁보다는 단언의 뉘앙스
+     └ ad-(~에) + serere(연결하다, 라틴어)
+
+🔍 어원
+   com-(함께) + tendere(뻗다, 싸우다, 라틴어) + -tion
+   → "함께 힘을 맞붙이는 것"
+   🔗 관련어: contend(다투다), contentious(논쟁적인), tendency(경향)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#70  intractable [ɪnˈtræktəbl]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   사람·문제·질병 등이 다루거나 해결하기 극히 어려운 뉘앙스. 격식체
+
+💬 예문
+   "The conflict proved intractable despite years of negotiation."
+   → 그 갈등은 수년간의 협상에도 불구하고 해결 불가능한 것으로 밝혀졌다.
+
+stubborn	고집스러운, 완고한
+obstinate	완고한, 고집 센
+recalcitrant	반항적인, 말을 듣지 않는
+insoluble	해결할 수 없는
+
+🎨 뉘앙스
+   • intractable  사람·문제·질병 등이 다루거나 해결하기 극히 어려운 뉘앙스. 격식체
+     └ in-(부정) + tractare(다루다, 라틴어)
+   • stubborn     가장 일반적. 이유 없이 고집을 부리는 뉘앙스. 부정적
+     └ stybb(그루터기, 고대 영어)
+   • obstinate    stubborn보다 더 강하고 격식체. 설득·논리에도 굴하지 않는 완고함
+     └ ob-(대하여) + stinare(서 있다, 라틴어)
+   • recalcitrant 권위나 규율에 반항적으로 저항하는 뉘앙스
+     └ re-(뒤로) + calcitrare(발길질하다, 라틴어)
+   • insoluble    주로 문제·갈등이 해결될 수 없는 상태에 초점
+     └ in-(부정) + solvere(풀다, 라틴어)
+
+🔍 어원
+   in-(부정) + tractare(다루다, 끌다, 라틴어) + -able
+   → "다룰 수 없는"
+   🔗 관련어: tractable(다루기 쉬운), tractor(트랙터), attract(끌어당기다)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#71  prowess [ˈpraʊəs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   전투·운동·기술 분야에서의 뛰어난 능력. 용맹함의 뉘앙스도 내포
+
+💬 예문
+   "The architect was celebrated for her technical prowess."
+   → 그 건축가는 탁월한 기술적 능력으로 유명했다.
+
+expertise	전문성, 전문 기술
+mastery	통달, 숙달
+valor	용맹, 용기
+proficiency	능숙함, 숙련도
+
+🎨 뉘앙스
+   • prowess     전투·운동·기술 분야에서의 뛰어난 능력. 용맹함의 뉘앙스도 내포
+     └ prou(용감한, 고대 프랑스어)
+   • expertise   특정 분야의 깊은 지식과 전문적 기술에 초점
+     └ expertus(경험한, 라틴어)
+   • mastery     완전한 통달의 경지. 더 이상 배울 것이 없는 수준의 숙달
+     └ magister(스승, 라틴어)
+   • valor       위험 속에서 발휘되는 용기와 용맹함. 군사적 맥락에서 주로 사용
+     └ valere(강하다, 라틴어)
+   • proficiency 측정 가능한 숙련도 수준에 초점. 언어·시험 맥락에서 자주 사용
+     └ pro-(앞으로) + facere(하다, 라틴어)
+
+🔍 어원
+   prou(용감한, 고대 프랑스어 preux) + -ess(명사화 접미사)
+   → "용감하고 뛰어난 자질"
+   🔗 관련어: proud(자랑스러운)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#72  heinous [ˈheɪnəs]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   도덕적으로 극도로 혐오스러운 범죄나 행위. 격식체이며 법적 맥락에서 자주 사용
+
+💬 예문
+   "The court condemned the heinous acts of the perpetrator."
+   → 법원은 범인의 극악한 행위를 규탄했다.
+
+atrocious	잔혹한, 극악한
+abominable	혐오스러운, 가증스러운
+vile	비열한, 극도로 나쁜
+monstrous	괴물 같은, 극악무도한
+
+🎨 뉘앙스
+   • heinous     도덕적으로 극도로 혐오스러운 범죄나 행위. 격식체이며 법적 맥락에서 자주 사용
+     └ haineus(증오스러운, 고대 프랑스어)
+   • atrocious   잔인하고 야만적인 폭력성에 초점. heinous보다 물리적 잔혹함 강조
+     └ atrox(잔인한, 라틴어)
+   • abominable  혐오감을 불러일으키는 도덕적 역겨움. 종교적 맥락에서도 사용
+     └ ab-(~에서) + ominari(불길해하다, 라틴어)
+   • vile        비열하고 타락한 본성에 초점. 사람·행동·장소 모두에 사용
+     └ vilis(값싼, 라틴어)
+   • monstrous   인간의 한계를 벗어난 극악함. 규모나 정도가 충격적인 뉘앙스
+     └ monstrum(경고, 라틴어)
+
+🔍 어원
+   haineus(증오스러운, 고대 프랑스어) + hair(증오하다)
+   → "증오를 불러일으키는"
+   🔗 관련어: heinously(극악하게), heinousness(극악함)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#73  lukewarm [ˈluːkwɔːrm]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   온도·태도 모두에 사용. 차갑지도 뜨겁지도 않은 미온적 뉘앙스
+
+💬 예문
+   "The committee gave a lukewarm response to the new proposal."
+   → 위원회는 새 제안에 미온적인 반응을 보였다.
+
+tepid	미지근한, 열의 없는
+halfhearted	마지못한, 성의 없는
+indifferent	무관심한, 냉담한
+unenthusiastic	열정 없는, 소극적인
+
+🎨 뉘앙스
+   • lukewarm      온도·태도 모두에 사용. 차갑지도 뜨겁지도 않은 미온적 뉘앙스
+     └ luke(따뜻한, 중세 영어) + warm
+   • tepid         lukewarm과 거의 동의어. 온도 묘사에 더 자주 사용
+   • halfhearted   마음의 절반만 담긴 성의 없는 노력이나 지지에 초점
+     └ half(반) + heart(마음)
+   • indifferent   관심 자체가 없는 상태. lukewarm보다 더 차가운 뉘앙스
+     └ in-(부정) + differens(차이 나는, 라틴어)
+   • unenthusiastic 열정이 없음을 직접적으로 표현. 가장 중립적인 표현
+     └ un- + en-(안에) + theos(신, 그리스어)
+
+🔍 어원
+   luke(따뜻한, 중세 영어 lew) + warm(따뜻한)
+   → "약하게 따뜻한, 미지근한"
+   🔗 관련어: tepid(미지근한)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#74  blaspheme [blæsˈfiːm]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   신·종교·신성한 것에 대한 언어적 모독에 특화. 종교적·법적 맥락
+
+💬 예문
+   "He was accused of blaspheming against sacred texts."
+   → 그는 성스러운 문서들을 신성모독했다는 혐의를 받았다.
+
+desecrate	신성을 훼손하다, 더럽히다
+profane	불경스럽게 하다, 모독하다
+revile	욕설을 퍼붓다, 비난하다
+defile	더럽히다, 오염시키다
+
+🎨 뉘앙스
+   • blaspheme  신·종교·신성한 것에 대한 언어적 모독에 특화. 종교적·법적 맥락
+     └ blapto(해치다) + pheme(말, 그리스어)
+   • desecrate  신성한 장소나 물건을 물리적으로 훼손하는 행위에 초점
+     └ de-(반대) + sacrare(신성하게 하다, 라틴어)
+   • profane    신성한 것을 세속적·저속한 것으로 만드는 뉘앙스. 형용사로도 사용
+     └ pro-(앞에) + fanum(신전, 라틴어)
+   • revile     격렬하고 욕설적으로 비난하는 행위. 반드시 종교적이지 않아도 사용
+     └ re-(다시) + vil(비천한, 프랑스어)
+   • defile     순수하거나 신성한 것을 오염·더럽히는 뉘앙스
+     └ de-(아래로) + fouler(밟다, 프랑스어)
+
+🔍 어원
+   blasphemia(신성모독, 그리스어) + blapto(해치다) + pheme(말)
+   → "해를 끼치는 말을 하는 것"
+   🔗 관련어: fame(명성), famous(유명한), infamy(악명), prophet(예언자), euphemism(완곡어)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#75  fester [ˈfestər]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 뜻
+   상처·감정·문제가 방치되어 점점 악화되는 뉘앙스. 물리적·비유적 모두 사용
+
+💬 예문
+   "The wound festered and caused an unbearable stench."
+   → 상처가 곪아 참을 수 없는 악취를 풍겼다.
+
+putrefy	부패하다, 썩다
+suppurate	곪아 고름이 생기다
+rankle	감정이 곪아 쓰라리다
+deteriorate	악화되다, 나빠지다
+
+🎨 뉘앙스
+   • fester      상처·감정·문제가 방치되어 점점 악화되는 뉘앙스. 물리적·비유적 모두 사용
+     └ festre(궤양, 고대 프랑스어)
+   • putrefy     유기물이 박테리아에 의해 썩는 과정에 초점. fester보다 더 생물학적
+     └ puter(썩은) + facere(만들다, 라틴어)
+   • suppurate   의학 용어로 상처에서 고름이 형성되는 과정. 가장 기술적·의학적
+     └ sub-(아래) + pus(고름, 라틴어)
+   • rankle      감정적 상처가 방치되어 오래도록 쓰라린 뉘앙스. 비유적으로만 사용
+     └ draoncle(궤양, 고대 프랑스어)
+   • deteriorate 상태가 점진적으로 나빠지는 것. 가장 일반적이고 중립적인 표현
+     └ deterior(더 나쁜, 라틴어)
+
+🔍 어원
+   festre(궤양, 고대 프랑스어) + festula(관, 라틴어)
+   → "고름이 흘러나오는 관처럼 곪는 것"
+   🔗 관련어: fistula(누관), festering(곪는), festered(곪은), pustule(농포), ulcer(궤양)

@@ -616,41 +616,58 @@ class _ExpandedContent extends StatelessWidget {
                     n.word.toLowerCase() == word.word.toLowerCase();
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 3),
-                  child: Row(
+                  child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 5, vertical: 1),
-                        decoration: BoxDecoration(
-                          color: isMain
-                              ? colorScheme.primaryContainer
-                              : colorScheme.surfaceContainerHighest,
-                          borderRadius: BorderRadius.circular(4),
-                        ),
-                        child: Text(
-                          n.word,
-                          style: TextStyle(
-                            fontWeight:
-                                isMain ? FontWeight.bold : FontWeight.w500,
-                            fontSize: 10,
-                            color: isMain
-                                ? colorScheme.onPrimaryContainer
-                                : colorScheme.onSurface,
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 5, vertical: 1),
+                            decoration: BoxDecoration(
+                              color: isMain
+                                  ? colorScheme.primaryContainer
+                                  : colorScheme.surfaceContainerHighest,
+                              borderRadius: BorderRadius.circular(4),
+                            ),
+                            child: Text(
+                              n.word,
+                              style: TextStyle(
+                                fontWeight:
+                                    isMain ? FontWeight.bold : FontWeight.w500,
+                                fontSize: 10,
+                                color: isMain
+                                    ? colorScheme.onPrimaryContainer
+                                    : colorScheme.onSurface,
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 6),
+                          Expanded(
+                            child: Text(
+                              n.description,
+                              style: theme.textTheme.bodySmall?.copyWith(
+                                color: colorScheme.onSurface.withAlpha(179),
+                                height: 1.3,
+                                fontSize: 10,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      if (n.etymology.isNotEmpty)
+                        Padding(
+                          padding: const EdgeInsets.only(left: 16, top: 1),
+                          child: Text(
+                            '└ ${n.etymology}',
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: const Color(0xFFD97706),
+                              fontSize: 9,
+                              height: 1.3,
+                            ),
                           ),
                         ),
-                      ),
-                      const SizedBox(width: 6),
-                      Expanded(
-                        child: Text(
-                          n.description,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: colorScheme.onSurface.withAlpha(179),
-                            height: 1.3,
-                            fontSize: 10,
-                          ),
-                        ),
-                      ),
                     ],
                   ),
                 );

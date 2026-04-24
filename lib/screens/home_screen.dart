@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:file_picker/file_picker.dart';
 import '../models/word.dart';
 import '../services/storage_service.dart';
@@ -27,11 +28,29 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadWords() async {
     setState(() => _loading = true);
-    final words = await StorageService.loadWords();
+    var words = await StorageService.loadWords();
+    if (words.isEmpty) {
+      words = await _loadFromAssets();
+      if (words.isNotEmpty) {
+        await StorageService.saveWords(words);
+      }
+    }
     setState(() {
       _words = words;
       _loading = false;
     });
+  }
+
+  Future<List<Word>> _loadFromAssets() async {
+    final allWords = <Word>[];
+    for (int i = 1; i <= 5; i++) {
+      try {
+        final content = await rootBundle.loadString(
+            'assets/wordbooks/vocabulary_wordbook_${i}_final.txt');
+        allWords.addAll(VocabularyParser.parse(content));
+      } catch (_) {}
+    }
+    return allWords;
   }
 
   Future<void> _importFile() async {

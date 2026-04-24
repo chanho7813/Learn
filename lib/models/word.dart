@@ -78,11 +78,12 @@ class SynonymEntry {
 class NuanceEntry {
   final String word;
   final String description;
+  final String etymology;
 
-  NuanceEntry({required this.word, required this.description});
+  NuanceEntry({required this.word, required this.description, this.etymology = ''});
 
-  Map<String, dynamic> toJson() => {'word': word, 'description': description};
+  Map<String, dynamic> toJson() => {'word': word, 'description': description, 'etymology': etymology};
 
   factory NuanceEntry.fromJson(Map<String, dynamic> json) =>
-      NuanceEntry(word: json['word'], description: json['description']);
+      NuanceEntry(word: json['word'], description: json['description'], etymology: json['etymology'] ?? '');
 }

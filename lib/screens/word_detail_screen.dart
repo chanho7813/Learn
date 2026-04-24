@@ -85,41 +85,58 @@ class WordDetailScreen extends StatelessWidget {
                   final isMain = n.word.toLowerCase() == word.word.toLowerCase();
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 10),
-                    child: Row(
+                    child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                          decoration: BoxDecoration(
-                            color: isMain
-                                ? colorScheme.primaryContainer
-                                : colorScheme.surfaceContainerHighest,
-                            borderRadius: BorderRadius.circular(6),
-                          ),
-                          child: Text(
-                            n.word,
-                            style: TextStyle(
-                              fontWeight: isMain ? FontWeight.bold : FontWeight.w500,
-                              fontSize: 13,
-                              color: isMain
-                                  ? colorScheme.onPrimaryContainer
-                                  : colorScheme.onSurface,
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                              decoration: BoxDecoration(
+                                color: isMain
+                                    ? colorScheme.primaryContainer
+                                    : colorScheme.surfaceContainerHighest,
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: Text(
+                                n.word,
+                                style: TextStyle(
+                                  fontWeight: isMain ? FontWeight.bold : FontWeight.w500,
+                                  fontSize: 13,
+                                  color: isMain
+                                      ? colorScheme.onPrimaryContainer
+                                      : colorScheme.onSurface,
+                                ),
+                              ),
                             ),
-                          ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(top: 3),
+                                child: Text(
+                                  n.description,
+                                  style: theme.textTheme.bodySmall?.copyWith(
+                                    color: colorScheme.onSurface.withAlpha(179),
+                                    height: 1.4,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
-                        const SizedBox(width: 10),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.only(top: 3),
+                        if (n.etymology.isNotEmpty)
+                          Padding(
+                            padding: const EdgeInsets.only(left: 20, top: 2),
                             child: Text(
-                              n.description,
+                              '└ ${n.etymology}',
                               style: theme.textTheme.bodySmall?.copyWith(
-                                color: colorScheme.onSurface.withAlpha(179),
-                                height: 1.4,
+                                color: Colors.orange,
+                                fontSize: 11,
+                                height: 1.3,
                               ),
                             ),
                           ),
-                        ),
                       ],
                     ),
                   );

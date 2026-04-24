@@ -93,6 +93,14 @@ class VocabularyParser {
         } else {
           nuances.add(NuanceEntry(word: parts, description: ''));
         }
+      } else if (trimmed.startsWith('└') && nuances.isNotEmpty) {
+        final etymologyText = trimmed.substring(1).trim();
+        final last = nuances.removeLast();
+        nuances.add(NuanceEntry(
+          word: last.word,
+          description: last.description,
+          etymology: etymologyText,
+        ));
       }
     }
 
