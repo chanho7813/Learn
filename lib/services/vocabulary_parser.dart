@@ -91,7 +91,15 @@ class VocabularyParser {
             description: parts.substring(spaceIdx).trim(),
           ));
         } else {
-          nuances.add(NuanceEntry(word: parts, description: ''));
+          final koreanIdx = parts.indexOf(RegExp(r'[가-힯]'));
+          if (koreanIdx > 0) {
+            nuances.add(NuanceEntry(
+              word: parts.substring(0, koreanIdx).trim(),
+              description: parts.substring(koreanIdx).trim(),
+            ));
+          } else {
+            nuances.add(NuanceEntry(word: parts, description: ''));
+          }
         }
       } else if (trimmed.startsWith('└') && nuances.isNotEmpty) {
         final etymologyText = trimmed.substring(1).trim();
