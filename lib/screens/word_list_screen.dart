@@ -16,10 +16,10 @@ class _WordListScreenState extends State<WordListScreen> {
   int _currentDay = 1;
   String _search = '';
   final Set<int> _expandedWords = {};
+  final Set<int> _checkedWords = {};
   bool _showPronunciation = true;
   bool _showBriefMeaning = true;
   bool _showMeaning = true;
-  bool _showSynonyms = true;
   bool _showEtymology = true;
   bool _showRelatedWords = true;
   bool _showExample = true;
@@ -49,7 +49,6 @@ class _WordListScreenState extends State<WordListScreen> {
     final pronunciation = await SettingsService.getShowPronunciation();
     final briefMeaning = await SettingsService.getShowBriefMeaning();
     final meaning = await SettingsService.getShowMeaning();
-    final synonyms = await SettingsService.getShowSynonyms();
     final etymology = await SettingsService.getShowEtymology();
     final relatedWords = await SettingsService.getShowRelatedWords();
     final example = await SettingsService.getShowExample();
@@ -59,7 +58,6 @@ class _WordListScreenState extends State<WordListScreen> {
         _showPronunciation = pronunciation;
         _showBriefMeaning = briefMeaning;
         _showMeaning = meaning;
-        _showSynonyms = synonyms;
         _showEtymology = etymology;
         _showRelatedWords = relatedWords;
         _showExample = example;
@@ -217,18 +215,27 @@ class _WordListScreenState extends State<WordListScreen> {
                       final accent =
                           _accentColors[index % _accentColors.length];
 
+                      final isChecked = _checkedWords.contains(word.number);
+
                       return _WordCard(
                         word: word,
                         isExpanded: isExpanded,
+                        isChecked: isChecked,
                         accentColor: accent,
                         showPronunciation: _showPronunciation,
                         showBriefMeaning: _showBriefMeaning,
                         showMeaning: _showMeaning,
-                        showSynonyms: _showSynonyms,
                         showEtymology: _showEtymology,
                         showRelatedWords: _showRelatedWords,
                         showExample: _showExample,
                         showNuance: _showNuance,
+                        onCheck: () => setState(() {
+                          if (isChecked) {
+                            _checkedWords.remove(word.number);
+                          } else {
+                            _checkedWords.add(word.number);
+                          }
+                        }),
                         onTap: () => setState(() {
                           if (isExpanded) {
                             _expandedWords.remove(word.number);
@@ -250,30 +257,32 @@ class _WordListScreenState extends State<WordListScreen> {
 class _WordCard extends StatelessWidget {
   final Word word;
   final bool isExpanded;
+  final bool isChecked;
   final Color accentColor;
   final bool showPronunciation;
   final bool showBriefMeaning;
   final bool showMeaning;
-  final bool showSynonyms;
   final bool showEtymology;
   final bool showRelatedWords;
   final bool showExample;
   final bool showNuance;
+  final VoidCallback onCheck;
   final VoidCallback onTap;
   final VoidCallback onDelete;
 
   const _WordCard({
     required this.word,
     required this.isExpanded,
+    required this.isChecked,
     required this.accentColor,
     required this.showPronunciation,
     required this.showBriefMeaning,
     required this.showMeaning,
-    required this.showSynonyms,
     required this.showEtymology,
     required this.showRelatedWords,
     required this.showExample,
     required this.showNuance,
+    required this.onCheck,
     required this.onTap,
     required this.onDelete,
   });
@@ -330,21 +339,28 @@ class _WordCard extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(12, 10, 6, 0),
                     child: Row(
                       children: [
-                        Container(
-                          width: 28,
-                          height: 28,
-                          decoration: BoxDecoration(
-                            color: accentColor.withAlpha(isDark ? 51 : 30),
-                            borderRadius: BorderRadius.circular(7),
-                          ),
-                          alignment: Alignment.center,
-                          child: Text(
-                            '${word.number}',
-                            style: TextStyle(
-                              fontSize: 11,
-                              fontWeight: FontWeight.w700,
-                              color: accentColor,
+                        GestureDetector(
+                          onTap: onCheck,
+                          child: Container(
+                            width: 28,
+                            height: 28,
+                            decoration: BoxDecoration(
+                              color: isChecked
+                                  ? accentColor
+                                  : accentColor.withAlpha(isDark ? 51 : 30),
+                              borderRadius: BorderRadius.circular(7),
                             ),
+                            alignment: Alignment.center,
+                            child: isChecked
+                                ? Icon(Icons.check, size: 16, color: isDark ? Colors.black : Colors.white)
+                                : Text(
+                                    '${word.number}',
+                                    style: TextStyle(
+                                      fontSize: 11,
+                                      fontWeight: FontWeight.w700,
+                                      color: accentColor,
+                                    ),
+                                  ),
                           ),
                         ),
                         const SizedBox(width: 10),
@@ -478,43 +494,6 @@ class _WordCard extends StatelessWidget {
                                     ],
                                   ),
                                 ],
-                              ],
-                            ),
-                          ),
-                        ],
-                        if (showSynonyms && word.synonyms.isNotEmpty) ...[
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 4),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                _MiniHeader(
-                                    icon: Icons.list,
-                                    title: '유의어',
-                                    color: colorScheme.secondary),
-                                const SizedBox(height: 3),
-                                Wrap(
-                                  spacing: 6,
-                                  runSpacing: 3,
-                                  children: word.synonyms.map((s) {
-                                    return Container(
-                                      padding: const EdgeInsets.symmetric(
-                                          horizontal: 6, vertical: 2),
-                                      decoration: BoxDecoration(
-                                        color: colorScheme
-                                            .secondaryContainer
-                                            .withAlpha(102),
-                                        borderRadius:
-                                            BorderRadius.circular(4),
-                                      ),
-                                      child: Text(
-                                        '${s.word}  ${s.meaning}',
-                                        style: theme.textTheme.bodySmall
-                                            ?.copyWith(fontSize: 10),
-                                      ),
-                                    );
-                                  }).toList(),
-                                ),
                               ],
                             ),
                           ),

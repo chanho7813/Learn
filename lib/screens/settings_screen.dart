@@ -21,7 +21,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool _showPronunciation = true;
   bool _showBriefMeaning = true;
   bool _showMeaning = true;
-  bool _showSynonyms = true;
   bool _showEtymology = true;
   bool _showRelatedWords = true;
   bool _showExample = true;
@@ -40,7 +39,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _showPronunciation = await SettingsService.getShowPronunciation();
     _showBriefMeaning = await SettingsService.getShowBriefMeaning();
     _showMeaning = await SettingsService.getShowMeaning();
-    _showSynonyms = await SettingsService.getShowSynonyms();
     _showEtymology = await SettingsService.getShowEtymology();
     _showRelatedWords = await SettingsService.getShowRelatedWords();
     _showExample = await SettingsService.getShowExample();
@@ -124,16 +122,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
             onChanged: (v) async {
               await SettingsService.setShowMeaning(v);
               setState(() => _showMeaning = v);
-            },
-          ),
-          SwitchListTile(
-            title: const Text('유의어'),
-            subtitle: const Text('유의어 목록 표시'),
-            secondary: const Icon(Icons.list),
-            value: _showSynonyms,
-            onChanged: (v) async {
-              await SettingsService.setShowSynonyms(v);
-              setState(() => _showSynonyms = v);
             },
           ),
           SwitchListTile(
