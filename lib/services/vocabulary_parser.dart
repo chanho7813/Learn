@@ -20,7 +20,15 @@ class VocabularyParser {
       final headerMatch = wordHeaderPattern.firstMatch(lines[i].trim());
       if (headerMatch != null) {
         final number = int.parse(headerMatch.group(1)!);
-        final wordText = headerMatch.group(2)!.trim();
+        final rawText = headerMatch.group(2)!.trim();
+
+        String wordText = rawText;
+        String pronunciation = '';
+        final pronMatch = RegExp(r'^(.+?)\s*\[(.+?)\]').firstMatch(rawText);
+        if (pronMatch != null) {
+          wordText = pronMatch.group(1)!.trim();
+          pronunciation = pronMatch.group(2)!.trim();
+        }
 
         int blockEnd = i + 1;
         while (blockEnd < lines.length) {
@@ -30,7 +38,8 @@ class VocabularyParser {
         }
 
         final block = lines.sublist(i + 1, blockEnd).join('\n');
-        final word = _parseWordBlock(number, wordText, block, tocEntries[number] ?? '');
+        final word = _parseWordBlock(
+            number, wordText, pronunciation, block, tocEntries[number] ?? '');
         if (word != null) words.add(word);
 
         i = blockEnd;
@@ -42,7 +51,8 @@ class VocabularyParser {
     return words;
   }
 
-  static Word? _parseWordBlock(int number, String wordText, String block, String briefMeaning) {
+  static Word? _parseWordBlock(int number, String wordText,
+      String pronunciation, String block, String briefMeaning) {
     final meaning = _extractSection(block, '📌 뜻');
     final exampleSection = _extractSection(block, '💬 예문');
     final nuanceSection = _extractSection(block, '🎨 뉘앙스');
@@ -50,12 +60,22 @@ class VocabularyParser {
 
     String exampleEn = '';
     String exampleKo = '';
+    final synonyms = <SynonymEntry>[];
+
     for (final line in exampleSection.split('\n')) {
       final trimmed = line.trim();
-      if (trimmed.startsWith('"') || trimmed.startsWith('"')) {
-        exampleEn = trimmed.replaceAll(RegExp(r'["""]'), '').trim();
+      if (trimmed.startsWith('"') || trimmed.startsWith('“')) {
+        exampleEn = trimmed.replaceAll(RegExp(r'["""“”]'), '').trim();
       } else if (trimmed.startsWith('→')) {
         exampleKo = trimmed.substring(1).trim();
+      } else if (trimmed.isNotEmpty && !trimmed.startsWith('━')) {
+        final spaceIdx = trimmed.indexOf(RegExp(r'\s{2,}'));
+        if (spaceIdx > 0) {
+          synonyms.add(SynonymEntry(
+            word: trimmed.substring(0, spaceIdx).trim(),
+            meaning: trimmed.substring(spaceIdx).trim(),
+          ));
+        }
       }
     }
 
@@ -82,7 +102,8 @@ class VocabularyParser {
     for (final line in etymologySection.split('\n')) {
       final trimmed = line.trim();
       if (trimmed.startsWith('→')) {
-        etymologyExplain = trimmed.substring(1).trim().replaceAll('"', '').replaceAll('"', '');
+        etymologyExplain =
+            trimmed.substring(1).trim().replaceAll('“', '').replaceAll('”', '');
       } else if (trimmed.startsWith('🔗')) {
         relatedWords = trimmed.replaceFirst('🔗', '').trim();
       } else if (trimmed.isNotEmpty && !trimmed.startsWith('━')) {
@@ -95,10 +116,16 @@ class VocabularyParser {
     return Word(
       number: number,
       word: wordText,
+      pronunciation: pronunciation,
       briefMeaning: briefMeaning,
-      meaning: meaning.split('\n').map((l) => l.trim()).where((l) => l.isNotEmpty).join(', '),
+      meaning: meaning
+          .split('\n')
+          .map((l) => l.trim())
+          .where((l) => l.isNotEmpty)
+          .join(', '),
       exampleEn: exampleEn,
       exampleKo: exampleKo,
+      synonyms: synonyms,
       nuances: nuances,
       etymology: etymology,
       etymologyExplain: etymologyExplain,
@@ -116,7 +143,11 @@ class VocabularyParser {
     final markers = ['📌', '💬', '🎨', '🔍', '━━'];
     int end = block.length;
     for (final m in markers) {
-      if (m == marker.substring(0, marker.indexOf(' ') > 0 ? marker.indexOf(' ') : 2)) continue;
+      if (m ==
+          marker.substring(
+              0, marker.indexOf(' ') > 0 ? marker.indexOf(' ') : 2)) {
+        continue;
+      }
       final mIdx = block.indexOf(m, start);
       if (mIdx > 0 && mIdx < end) end = mIdx;
     }

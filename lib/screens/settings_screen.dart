@@ -18,8 +18,14 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   bool _darkMode = false;
   double _fontSize = 16.0;
-  bool _showNuance = true;
+  bool _showPronunciation = true;
+  bool _showBriefMeaning = true;
+  bool _showMeaning = true;
+  bool _showSynonyms = true;
   bool _showEtymology = true;
+  bool _showRelatedWords = true;
+  bool _showExample = true;
+  bool _showNuance = true;
   bool _loading = true;
 
   @override
@@ -31,8 +37,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Future<void> _loadSettings() async {
     _darkMode = await SettingsService.getDarkMode();
     _fontSize = await SettingsService.getFontSize();
-    _showNuance = await SettingsService.getShowNuance();
+    _showPronunciation = await SettingsService.getShowPronunciation();
+    _showBriefMeaning = await SettingsService.getShowBriefMeaning();
+    _showMeaning = await SettingsService.getShowMeaning();
+    _showSynonyms = await SettingsService.getShowSynonyms();
     _showEtymology = await SettingsService.getShowEtymology();
+    _showRelatedWords = await SettingsService.getShowRelatedWords();
+    _showExample = await SettingsService.getShowExample();
+    _showNuance = await SettingsService.getShowNuance();
     setState(() => _loading = false);
   }
 
@@ -85,13 +97,43 @@ class _SettingsScreenState extends State<SettingsScreen> {
           const Divider(),
           _SectionHeader(title: '단어 상세 표시'),
           SwitchListTile(
-            title: const Text('뉘앙스 비교'),
-            subtitle: const Text('유의어 뉘앙스 차이 표시'),
-            secondary: const Icon(Icons.palette_outlined),
-            value: _showNuance,
+            title: const Text('발음 기호'),
+            subtitle: const Text('단어 발음 기호 표시'),
+            secondary: const Icon(Icons.record_voice_over_outlined),
+            value: _showPronunciation,
             onChanged: (v) async {
-              await SettingsService.setShowNuance(v);
-              setState(() => _showNuance = v);
+              await SettingsService.setShowPronunciation(v);
+              setState(() => _showPronunciation = v);
+            },
+          ),
+          SwitchListTile(
+            title: const Text('간략 뜻'),
+            subtitle: const Text('단어 옆에 간략한 뜻 표시'),
+            secondary: const Icon(Icons.short_text),
+            value: _showBriefMeaning,
+            onChanged: (v) async {
+              await SettingsService.setShowBriefMeaning(v);
+              setState(() => _showBriefMeaning = v);
+            },
+          ),
+          SwitchListTile(
+            title: const Text('상세 뜻'),
+            subtitle: const Text('자세한 뜻 풀이 표시'),
+            secondary: const Icon(Icons.translate),
+            value: _showMeaning,
+            onChanged: (v) async {
+              await SettingsService.setShowMeaning(v);
+              setState(() => _showMeaning = v);
+            },
+          ),
+          SwitchListTile(
+            title: const Text('유의어'),
+            subtitle: const Text('유의어 목록 표시'),
+            secondary: const Icon(Icons.list),
+            value: _showSynonyms,
+            onChanged: (v) async {
+              await SettingsService.setShowSynonyms(v);
+              setState(() => _showSynonyms = v);
             },
           ),
           SwitchListTile(
@@ -102,6 +144,36 @@ class _SettingsScreenState extends State<SettingsScreen> {
             onChanged: (v) async {
               await SettingsService.setShowEtymology(v);
               setState(() => _showEtymology = v);
+            },
+          ),
+          SwitchListTile(
+            title: const Text('관련어'),
+            subtitle: const Text('어원 관련 단어 표시'),
+            secondary: const Icon(Icons.link),
+            value: _showRelatedWords,
+            onChanged: (v) async {
+              await SettingsService.setShowRelatedWords(v);
+              setState(() => _showRelatedWords = v);
+            },
+          ),
+          SwitchListTile(
+            title: const Text('예문'),
+            subtitle: const Text('영어 예문 및 한국어 해석 표시'),
+            secondary: const Icon(Icons.format_quote),
+            value: _showExample,
+            onChanged: (v) async {
+              await SettingsService.setShowExample(v);
+              setState(() => _showExample = v);
+            },
+          ),
+          SwitchListTile(
+            title: const Text('뉘앙스 비교'),
+            subtitle: const Text('유의어 뉘앙스 차이 표시'),
+            secondary: const Icon(Icons.palette_outlined),
+            value: _showNuance,
+            onChanged: (v) async {
+              await SettingsService.setShowNuance(v);
+              setState(() => _showNuance = v);
             },
           ),
           const Divider(),
@@ -145,7 +217,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           const ListTile(
             leading: Icon(Icons.info_outline),
             title: Text('WordUp'),
-            subtitle: Text('버전 1.0.0 · 편입영어 단어 암기 앱'),
+            subtitle: Text('버전 0.1.0 · 편입영어 단어 암기 앱'),
           ),
         ],
       ),

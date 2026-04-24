@@ -34,12 +34,23 @@ class _WordUpAppState extends State<WordUpApp> {
       title: 'WordUp',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorSchemeSeed: const Color(0xFF4F46E5),
+        colorSchemeSeed: const Color(0xFF0D9488),
         brightness: Brightness.light,
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.white,
+        cardColor: Colors.white,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          surfaceTintColor: Colors.transparent,
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          fillColor: Colors.white,
+          filled: true,
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        ),
       ),
       darkTheme: ThemeData(
-        colorSchemeSeed: const Color(0xFF4F46E5),
+        colorSchemeSeed: const Color(0xFF0D9488),
         brightness: Brightness.dark,
         useMaterial3: true,
       ),

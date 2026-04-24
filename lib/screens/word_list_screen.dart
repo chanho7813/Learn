@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/word.dart';
 import '../services/storage_service.dart';
-import 'word_detail_screen.dart';
+import '../services/settings_service.dart';
 
 class WordListScreen extends StatefulWidget {
   final List<Word> words;
@@ -13,31 +13,79 @@ class WordListScreen extends StatefulWidget {
 
 class _WordListScreenState extends State<WordListScreen> {
   late List<Word> _words;
+  int _currentDay = 1;
   String _search = '';
-  _SortMode _sortMode = _SortMode.number;
+  final Set<int> _expandedWords = {};
+  bool _showPronunciation = true;
+  bool _showBriefMeaning = true;
+  bool _showMeaning = true;
+  bool _showSynonyms = true;
+  bool _showEtymology = true;
+  bool _showRelatedWords = true;
+  bool _showExample = true;
+  bool _showNuance = true;
+  static const int _wordsPerDay = 25;
+
+  static const _accentColors = [
+    Color(0xFF0891B2),
+    Color(0xFF6366F1),
+    Color(0xFFD97706),
+    Color(0xFFE11D48),
+    Color(0xFF7C3AED),
+    Color(0xFF0284C7),
+    Color(0xFFDB2777),
+    Color(0xFF059669),
+  ];
 
   @override
   void initState() {
     super.initState();
-    _words = List.from(widget.words);
+    _words = List.from(widget.words)
+      ..sort((a, b) => a.number.compareTo(b.number));
+    _loadSettings();
   }
 
-  List<Word> get _filtered {
-    var list = _words.where((w) {
-      if (_search.isEmpty) return true;
-      final q = _search.toLowerCase();
-      return w.word.toLowerCase().contains(q) ||
-          w.meaning.toLowerCase().contains(q) ||
-          w.briefMeaning.toLowerCase().contains(q);
-    }).toList();
-
-    switch (_sortMode) {
-      case _SortMode.number:
-        list.sort((a, b) => a.number.compareTo(b.number));
-      case _SortMode.alpha:
-        list.sort((a, b) => a.word.toLowerCase().compareTo(b.word.toLowerCase()));
+  Future<void> _loadSettings() async {
+    final pronunciation = await SettingsService.getShowPronunciation();
+    final briefMeaning = await SettingsService.getShowBriefMeaning();
+    final meaning = await SettingsService.getShowMeaning();
+    final synonyms = await SettingsService.getShowSynonyms();
+    final etymology = await SettingsService.getShowEtymology();
+    final relatedWords = await SettingsService.getShowRelatedWords();
+    final example = await SettingsService.getShowExample();
+    final nuance = await SettingsService.getShowNuance();
+    if (mounted) {
+      setState(() {
+        _showPronunciation = pronunciation;
+        _showBriefMeaning = briefMeaning;
+        _showMeaning = meaning;
+        _showSynonyms = synonyms;
+        _showEtymology = etymology;
+        _showRelatedWords = relatedWords;
+        _showExample = example;
+        _showNuance = nuance;
+      });
     }
-    return list;
+  }
+
+  int get _totalDays => (_words.length / _wordsPerDay).ceil().clamp(1, 9999);
+
+  bool get _isSearching => _search.isNotEmpty;
+
+  List<Word> get _displayWords {
+    if (_isSearching) {
+      final q = _search.toLowerCase();
+      return _words
+          .where((w) =>
+              w.word.toLowerCase().contains(q) ||
+              w.meaning.toLowerCase().contains(q) ||
+              w.briefMeaning.toLowerCase().contains(q))
+          .toList();
+    }
+    final start = (_currentDay - 1) * _wordsPerDay;
+    final end = (start + _wordsPerDay).clamp(0, _words.length);
+    if (start >= _words.length) return [];
+    return _words.sublist(start, end);
   }
 
   Future<void> _deleteWord(Word word) async {
@@ -47,43 +95,34 @@ class _WordListScreenState extends State<WordListScreen> {
         title: const Text('단어 삭제'),
         content: Text('"${word.word}"을(를) 삭제하시겠습니까?'),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('취소')),
-          TextButton(onPressed: () => Navigator.pop(ctx, true), child: const Text('삭제')),
+          TextButton(
+              onPressed: () => Navigator.pop(ctx, false),
+              child: const Text('취소')),
+          TextButton(
+              onPressed: () => Navigator.pop(ctx, true),
+              child: const Text('삭제')),
         ],
       ),
     );
     if (confirm != true) return;
 
     await StorageService.deleteWord(word.word);
-    setState(() => _words.removeWhere((w) => w.word == word.word));
+    setState(() {
+      _words.removeWhere((w) => w.word == word.word);
+      _expandedWords.remove(word.number);
+      if (_currentDay > _totalDays) _currentDay = _totalDays;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final filtered = _filtered;
+    final colorScheme = theme.colorScheme;
+    final displayWords = _displayWords;
 
     return Scaffold(
       appBar: AppBar(
         title: Text('단어 목록 (${_words.length})'),
-        actions: [
-          PopupMenuButton<_SortMode>(
-            icon: const Icon(Icons.sort),
-            onSelected: (mode) => setState(() => _sortMode = mode),
-            itemBuilder: (_) => [
-              CheckedPopupMenuItem(
-                value: _SortMode.number,
-                checked: _sortMode == _SortMode.number,
-                child: const Text('번호순'),
-              ),
-              CheckedPopupMenuItem(
-                value: _SortMode.alpha,
-                checked: _sortMode == _SortMode.alpha,
-                child: const Text('알파벳순'),
-              ),
-            ],
-          ),
-        ],
       ),
       body: Column(
         children: [
@@ -94,69 +133,110 @@ class _WordListScreenState extends State<WordListScreen> {
               decoration: InputDecoration(
                 hintText: '단어 또는 뜻 검색...',
                 prefixIcon: const Icon(Icons.search),
-                border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+                border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12)),
                 filled: true,
-                contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                contentPadding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               ),
             ),
           ),
+          if (!_isSearching)
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  IconButton(
+                    onPressed: _currentDay > 1
+                        ? () => setState(() {
+                              _currentDay--;
+                              _expandedWords.clear();
+                            })
+                        : null,
+                    icon: const Icon(Icons.chevron_left),
+                    style: IconButton.styleFrom(
+                      backgroundColor:
+                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          colorScheme.primaryContainer,
+                          colorScheme.tertiaryContainer,
+                        ],
+                      ),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Text(
+                      'Day $_currentDay / $_totalDays',
+                      style: theme.textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.w700,
+                        color: colorScheme.onPrimaryContainer,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  IconButton(
+                    onPressed: _currentDay < _totalDays
+                        ? () => setState(() {
+                              _currentDay++;
+                              _expandedWords.clear();
+                            })
+                        : null,
+                    icon: const Icon(Icons.chevron_right),
+                    style: IconButton.styleFrom(
+                      backgroundColor:
+                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           Expanded(
-            child: filtered.isEmpty
+            child: displayWords.isEmpty
                 ? Center(
                     child: Text(
-                      _search.isEmpty ? '저장된 단어가 없습니다' : '검색 결과가 없습니다',
+                      _isSearching ? '검색 결과가 없습니다' : '단어가 없습니다',
                       style: theme.textTheme.bodyLarge?.copyWith(
-                        color: theme.colorScheme.onSurface.withAlpha(128),
+                        color: colorScheme.onSurface.withAlpha(128),
                       ),
                     ),
                   )
                 : ListView.builder(
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                    itemCount: filtered.length,
+                    padding: const EdgeInsets.fromLTRB(12, 4, 12, 16),
+                    itemCount: displayWords.length,
                     itemBuilder: (context, index) {
-                      final word = filtered[index];
-                      return Card(
-                        margin: const EdgeInsets.symmetric(vertical: 3),
-                        child: ListTile(
-                          contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                          leading: CircleAvatar(
-                            radius: 18,
-                            backgroundColor: theme.colorScheme.primaryContainer,
-                            child: Text(
-                              '${word.number}',
-                              style: TextStyle(
-                                fontSize: 12,
-                                fontWeight: FontWeight.bold,
-                                color: theme.colorScheme.onPrimaryContainer,
-                              ),
-                            ),
-                          ),
-                          title: Text(
-                            word.word,
-                            style: const TextStyle(fontWeight: FontWeight.w600),
-                          ),
-                          subtitle: Text(
-                            word.briefMeaning,
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              color: theme.colorScheme.onSurface.withAlpha(153),
-                              fontSize: 13,
-                            ),
-                          ),
-                          trailing: IconButton(
-                            icon: Icon(Icons.delete_outline,
-                                size: 20,
-                                color: theme.colorScheme.error.withAlpha(179)),
-                            onPressed: () => _deleteWord(word),
-                          ),
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (_) => WordDetailScreen(word: word),
-                            ),
-                          ),
-                        ),
+                      final word = displayWords[index];
+                      final isExpanded = _expandedWords.contains(word.number);
+                      final accent =
+                          _accentColors[index % _accentColors.length];
+
+                      return _WordCard(
+                        word: word,
+                        isExpanded: isExpanded,
+                        accentColor: accent,
+                        showPronunciation: _showPronunciation,
+                        showBriefMeaning: _showBriefMeaning,
+                        showMeaning: _showMeaning,
+                        showSynonyms: _showSynonyms,
+                        showEtymology: _showEtymology,
+                        showRelatedWords: _showRelatedWords,
+                        showExample: _showExample,
+                        showNuance: _showNuance,
+                        onTap: () => setState(() {
+                          if (isExpanded) {
+                            _expandedWords.remove(word.number);
+                          } else {
+                            _expandedWords.add(word.number);
+                          }
+                        }),
+                        onDelete: () => _deleteWord(word),
                       );
                     },
                   ),
@@ -167,4 +247,448 @@ class _WordListScreenState extends State<WordListScreen> {
   }
 }
 
-enum _SortMode { number, alpha }
+class _WordCard extends StatelessWidget {
+  final Word word;
+  final bool isExpanded;
+  final Color accentColor;
+  final bool showPronunciation;
+  final bool showBriefMeaning;
+  final bool showMeaning;
+  final bool showSynonyms;
+  final bool showEtymology;
+  final bool showRelatedWords;
+  final bool showExample;
+  final bool showNuance;
+  final VoidCallback onTap;
+  final VoidCallback onDelete;
+
+  const _WordCard({
+    required this.word,
+    required this.isExpanded,
+    required this.accentColor,
+    required this.showPronunciation,
+    required this.showBriefMeaning,
+    required this.showMeaning,
+    required this.showSynonyms,
+    required this.showEtymology,
+    required this.showRelatedWords,
+    required this.showExample,
+    required this.showNuance,
+    required this.onTap,
+    required this.onDelete,
+  });
+
+  bool get _hasExpandableContent =>
+      showNuance && word.nuances.isNotEmpty;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(14),
+          color: isDark
+              ? colorScheme.surfaceContainerHighest.withAlpha(77)
+              : Colors.white,
+          border: Border.all(
+            color: isExpanded
+                ? accentColor.withAlpha(128)
+                : colorScheme.outlineVariant.withAlpha(77),
+            width: isExpanded ? 1.5 : 0.8,
+          ),
+          boxShadow: [
+            if (!isDark)
+              BoxShadow(
+                color: accentColor.withAlpha(isExpanded ? 20 : 8),
+                blurRadius: isExpanded ? 8 : 4,
+                offset: const Offset(0, 2),
+              ),
+          ],
+        ),
+        child: Material(
+          color: Colors.transparent,
+          borderRadius: BorderRadius.circular(14),
+          clipBehavior: Clip.antiAlias,
+          child: InkWell(
+            onTap: _hasExpandableContent ? onTap : null,
+            borderRadius: BorderRadius.circular(14),
+            child: Container(
+              decoration: BoxDecoration(
+                border: Border(
+                  left: BorderSide(color: accentColor, width: 3),
+                ),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(12, 10, 6, 0),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 28,
+                          height: 28,
+                          decoration: BoxDecoration(
+                            color: accentColor.withAlpha(isDark ? 51 : 30),
+                            borderRadius: BorderRadius.circular(7),
+                          ),
+                          alignment: Alignment.center,
+                          child: Text(
+                            '${word.number}',
+                            style: TextStyle(
+                              fontSize: 11,
+                              fontWeight: FontWeight.w700,
+                              color: accentColor,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Text(
+                                    word.word,
+                                    style:
+                                        theme.textTheme.titleSmall?.copyWith(
+                                      fontWeight: FontWeight.w700,
+                                      fontSize: 15,
+                                    ),
+                                  ),
+                                  if (showPronunciation &&
+                                      word.pronunciation.isNotEmpty) ...[
+                                    const SizedBox(width: 6),
+                                    Text(
+                                      '[${word.pronunciation}]',
+                                      style: theme.textTheme.bodySmall
+                                          ?.copyWith(
+                                        color: colorScheme.onSurface
+                                            .withAlpha(128),
+                                        fontSize: 10,
+                                      ),
+                                    ),
+                                  ],
+                                ],
+                              ),
+                              if (showBriefMeaning && word.briefMeaning.isNotEmpty)
+                                Text(
+                                  word.briefMeaning,
+                                  style: theme.textTheme.bodySmall?.copyWith(
+                                    color:
+                                        colorScheme.onSurface.withAlpha(153),
+                                    fontSize: 12,
+                                  ),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                            ],
+                          ),
+                        ),
+                        if (_hasExpandableContent)
+                          Icon(
+                            isExpanded
+                                ? Icons.expand_less
+                                : Icons.expand_more,
+                            color: colorScheme.onSurface.withAlpha(102),
+                            size: 20,
+                          ),
+                        IconButton(
+                          icon: Icon(Icons.delete_outline,
+                              size: 16,
+                              color: colorScheme.error.withAlpha(128)),
+                          onPressed: onDelete,
+                          constraints:
+                              const BoxConstraints(minWidth: 32, minHeight: 32),
+                          padding: EdgeInsets.zero,
+                          visualDensity: VisualDensity.compact,
+                        ),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(12, 6, 12, 8),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if (showMeaning &&
+                            word.meaning.isNotEmpty &&
+                            word.meaning != word.briefMeaning)
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 4),
+                            child: Text(
+                              word.meaning,
+                              style: theme.textTheme.bodySmall
+                                  ?.copyWith(height: 1.4, fontSize: 12),
+                            ),
+                          ),
+                        if (showEtymology && word.etymology.isNotEmpty) ...[
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 4),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                const _MiniHeader(
+                                    icon: Icons.history_edu,
+                                    title: '어원',
+                                    color: Color(0xFFD97706)),
+                                const SizedBox(height: 3),
+                                Text(
+                                  word.etymology,
+                                  style: theme.textTheme.bodySmall
+                                      ?.copyWith(height: 1.3, fontSize: 10),
+                                ),
+                                if (word.etymologyExplain.isNotEmpty) ...[
+                                  const SizedBox(height: 2),
+                                  Text(
+                                    '→ ${word.etymologyExplain}',
+                                    style:
+                                        theme.textTheme.bodySmall?.copyWith(
+                                      fontStyle: FontStyle.italic,
+                                      color: colorScheme.onSurface
+                                          .withAlpha(153),
+                                      fontSize: 10,
+                                    ),
+                                  ),
+                                ],
+                                if (showRelatedWords && word.relatedWords.isNotEmpty) ...[
+                                  const SizedBox(height: 3),
+                                  Row(
+                                    children: [
+                                      Icon(Icons.link,
+                                          size: 11,
+                                          color: colorScheme.primary),
+                                      const SizedBox(width: 3),
+                                      Expanded(
+                                        child: Text(
+                                          word.relatedWords,
+                                          style: theme.textTheme.bodySmall
+                                              ?.copyWith(
+                                            fontSize: 10,
+                                            color: colorScheme.primary,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ],
+                            ),
+                          ),
+                        ],
+                        if (showSynonyms && word.synonyms.isNotEmpty) ...[
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 4),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                _MiniHeader(
+                                    icon: Icons.list,
+                                    title: '유의어',
+                                    color: colorScheme.secondary),
+                                const SizedBox(height: 3),
+                                Wrap(
+                                  spacing: 6,
+                                  runSpacing: 3,
+                                  children: word.synonyms.map((s) {
+                                    return Container(
+                                      padding: const EdgeInsets.symmetric(
+                                          horizontal: 6, vertical: 2),
+                                      decoration: BoxDecoration(
+                                        color: colorScheme
+                                            .secondaryContainer
+                                            .withAlpha(102),
+                                        borderRadius:
+                                            BorderRadius.circular(4),
+                                      ),
+                                      child: Text(
+                                        '${s.word}  ${s.meaning}',
+                                        style: theme.textTheme.bodySmall
+                                            ?.copyWith(fontSize: 10),
+                                      ),
+                                    );
+                                  }).toList(),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                        if (showExample && word.exampleEn.isNotEmpty)
+                          Container(
+                            width: double.infinity,
+                            padding: const EdgeInsets.all(8),
+                            decoration: BoxDecoration(
+                              color: colorScheme.surfaceContainerHighest
+                                  .withAlpha(isDark ? 77 : 51),
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  word.exampleEn,
+                                  style: theme.textTheme.bodySmall?.copyWith(
+                                    fontStyle: FontStyle.italic,
+                                    height: 1.3,
+                                    fontSize: 11,
+                                    color:
+                                        colorScheme.onSurface.withAlpha(204),
+                                  ),
+                                ),
+                                if (word.exampleKo.isNotEmpty) ...[
+                                  const SizedBox(height: 2),
+                                  Text(
+                                    '→ ${word.exampleKo}',
+                                    style: theme.textTheme.bodySmall?.copyWith(
+                                      color: colorScheme.onSurface
+                                          .withAlpha(153),
+                                      height: 1.3,
+                                      fontSize: 11,
+                                    ),
+                                  ),
+                                ],
+                              ],
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                  AnimatedSize(
+                    duration: const Duration(milliseconds: 200),
+                    curve: Curves.easeInOut,
+                    child: isExpanded
+                        ? _ExpandedContent(
+                            word: word,
+                            accentColor: accentColor,
+                          )
+                        : const SizedBox.shrink(),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ExpandedContent extends StatelessWidget {
+  final Word word;
+  final Color accentColor;
+
+  const _ExpandedContent({
+    required this.word,
+    required this.accentColor,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Divider(
+            height: 1,
+            color: accentColor.withAlpha(38),
+            indent: 12,
+            endIndent: 12),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(12, 8, 12, 10),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _MiniHeader(
+                  icon: Icons.palette_outlined,
+                  title: '뉘앙스 비교',
+                  color: colorScheme.tertiary),
+              const SizedBox(height: 4),
+              ...word.nuances.map((n) {
+                final isMain =
+                    n.word.toLowerCase() == word.word.toLowerCase();
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 3),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 5, vertical: 1),
+                        decoration: BoxDecoration(
+                          color: isMain
+                              ? colorScheme.primaryContainer
+                              : colorScheme.surfaceContainerHighest,
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: Text(
+                          n.word,
+                          style: TextStyle(
+                            fontWeight:
+                                isMain ? FontWeight.bold : FontWeight.w500,
+                            fontSize: 10,
+                            color: isMain
+                                ? colorScheme.onPrimaryContainer
+                                : colorScheme.onSurface,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 6),
+                      Expanded(
+                        child: Text(
+                          n.description,
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: colorScheme.onSurface.withAlpha(179),
+                            height: 1.3,
+                            fontSize: 10,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              }),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _MiniHeader extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final Color color;
+
+  const _MiniHeader({
+    required this.icon,
+    required this.title,
+    required this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(icon, size: 12, color: color),
+        const SizedBox(width: 4),
+        Text(
+          title,
+          style: TextStyle(
+            fontWeight: FontWeight.w700,
+            fontSize: 11,
+            color: color,
+          ),
+        ),
+      ],
+    );
+  }
+}

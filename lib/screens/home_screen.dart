@@ -143,7 +143,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     _MenuButton(
                       icon: Icons.list_alt_rounded,
                       label: '단어 목록 보기',
-                      subtitle: '${_words.length}개 단어',
+                      subtitle: _words.isEmpty
+                          ? '저장된 단어 없음'
+                          : '${_words.length}개 단어 · ${(_words.length / 25).ceil()}일 분량',
                       onTap: () async {
                         await Navigator.push(
                           context,
