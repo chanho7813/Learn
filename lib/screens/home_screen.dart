@@ -28,11 +28,19 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadWords() async {
     setState(() => _loading = true);
+    if (await StorageService.needsAssetReload()) {
+      final words = await _loadFromAssets();
+      if (words.isNotEmpty) {
+        await StorageService.saveWords(words);
+        await StorageService.markDataVersion();
+      }
+    }
     var words = await StorageService.loadWords();
     if (words.isEmpty) {
       words = await _loadFromAssets();
       if (words.isNotEmpty) {
         await StorageService.saveWords(words);
+        await StorageService.markDataVersion();
       }
     }
     setState(() {

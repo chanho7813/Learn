@@ -4,6 +4,19 @@ import '../models/word.dart';
 
 class StorageService {
   static const _key = 'wordup_words';
+  static const _dataVersionKey = 'wordup_data_version';
+  static const _currentDataVersion = 2;
+
+  static Future<bool> needsAssetReload() async {
+    final prefs = await SharedPreferences.getInstance();
+    final stored = prefs.getInt(_dataVersionKey) ?? 0;
+    return stored < _currentDataVersion;
+  }
+
+  static Future<void> markDataVersion() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_dataVersionKey, _currentDataVersion);
+  }
 
   static Future<List<Word>> loadWords() async {
     try {
