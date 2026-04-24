@@ -60,22 +60,13 @@ class VocabularyParser {
 
     String exampleEn = '';
     String exampleKo = '';
-    final synonyms = <SynonymEntry>[];
 
     for (final line in exampleSection.split('\n')) {
       final trimmed = line.trim();
-      if (trimmed.startsWith('"') || trimmed.startsWith('“')) {
-        exampleEn = trimmed.replaceAll(RegExp(r'["""“”]'), '').trim();
+      if (trimmed.startsWith('”') || trimmed.startsWith('”')) {
+        exampleEn = trimmed.replaceAll(RegExp(r'[“””””]'), '').trim();
       } else if (trimmed.startsWith('→')) {
         exampleKo = trimmed.substring(1).trim();
-      } else if (trimmed.isNotEmpty && !trimmed.startsWith('━')) {
-        final spaceIdx = trimmed.indexOf(RegExp(r'\s{2,}'));
-        if (spaceIdx > 0) {
-          synonyms.add(SynonymEntry(
-            word: trimmed.substring(0, spaceIdx).trim(),
-            meaning: trimmed.substring(spaceIdx).trim(),
-          ));
-        }
       }
     }
 
@@ -141,7 +132,6 @@ class VocabularyParser {
           .join(', '),
       exampleEn: exampleEn,
       exampleKo: exampleKo,
-      synonyms: synonyms,
       nuances: nuances,
       etymology: etymology,
       etymologyExplain: etymologyExplain,

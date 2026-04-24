@@ -6,7 +6,6 @@ class Word {
   final String meaning;
   final String exampleEn;
   final String exampleKo;
-  final List<SynonymEntry> synonyms;
   final List<NuanceEntry> nuances;
   final String etymology;
   final String etymologyExplain;
@@ -20,7 +19,6 @@ class Word {
     required this.meaning,
     required this.exampleEn,
     required this.exampleKo,
-    this.synonyms = const [],
     required this.nuances,
     required this.etymology,
     required this.etymologyExplain,
@@ -35,7 +33,6 @@ class Word {
         'meaning': meaning,
         'exampleEn': exampleEn,
         'exampleKo': exampleKo,
-        'synonyms': synonyms.map((s) => s.toJson()).toList(),
         'nuances': nuances.map((n) => n.toJson()).toList(),
         'etymology': etymology,
         'etymologyExplain': etymologyExplain,
@@ -50,10 +47,6 @@ class Word {
         meaning: json['meaning'],
         exampleEn: json['exampleEn'],
         exampleKo: json['exampleKo'],
-        synonyms: (json['synonyms'] as List?)
-                ?.map((s) => SynonymEntry.fromJson(s))
-                .toList() ??
-            [],
         nuances: (json['nuances'] as List)
             .map((n) => NuanceEntry.fromJson(n))
             .toList(),
@@ -61,18 +54,6 @@ class Word {
         etymologyExplain: json['etymologyExplain'] ?? '',
         relatedWords: json['relatedWords'] ?? '',
       );
-}
-
-class SynonymEntry {
-  final String word;
-  final String meaning;
-
-  SynonymEntry({required this.word, required this.meaning});
-
-  Map<String, dynamic> toJson() => {'word': word, 'meaning': meaning};
-
-  factory SynonymEntry.fromJson(Map<String, dynamic> json) =>
-      SynonymEntry(word: json['word'], meaning: json['meaning']);
 }
 
 class NuanceEntry {
