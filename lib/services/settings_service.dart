@@ -11,6 +11,8 @@ class SettingsService {
   static const _showRelatedWordsKey = 'show_related_words';
   static const _showExampleKey = 'show_example';
   static const _showNuanceKey = 'show_nuance';
+  static const _lastDayKey = 'last_day';
+  static const _lastScrollOffsetKey = 'last_scroll_offset';
 
   static Future<bool> getDarkMode() async {
     final prefs = await SharedPreferences.getInstance();
@@ -110,5 +112,25 @@ class SettingsService {
   static Future<void> setShowNuance(bool value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(_showNuanceKey, value);
+  }
+
+  static Future<int> getLastDay() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_lastDayKey) ?? 1;
+  }
+
+  static Future<void> setLastDay(int value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_lastDayKey, value);
+  }
+
+  static Future<double> getLastScrollOffset() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getDouble(_lastScrollOffsetKey) ?? 0.0;
+  }
+
+  static Future<void> setLastScrollOffset(double value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setDouble(_lastScrollOffsetKey, value);
   }
 }

@@ -11,7 +11,7 @@ class WordListScreen extends StatefulWidget {
   State<WordListScreen> createState() => _WordListScreenState();
 }
 
-class _WordListScreenState extends State<WordListScreen> {
+class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObserver {
   late List<Word> _words;
   int _currentDay = 1;
   String _search = '';
@@ -25,6 +25,7 @@ class _WordListScreenState extends State<WordListScreen> {
   bool _showExample = true;
   bool _showNuance = true;
   static const int _wordsPerDay = 25;
+  final ScrollController _scrollController = ScrollController();
 
   static const _accentColors = [
     Color(0xFF0891B2),
@@ -40,9 +41,32 @@ class _WordListScreenState extends State<WordListScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _words = List.from(widget.words)
       ..sort((a, b) => a.number.compareTo(b.number));
     _loadSettings();
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    _savePosition();
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused || state == AppLifecycleState.inactive) {
+      _savePosition();
+    }
+  }
+
+  Future<void> _savePosition() async {
+    await SettingsService.setLastDay(_currentDay);
+    if (_scrollController.hasClients) {
+      await SettingsService.setLastScrollOffset(_scrollController.offset);
+    }
   }
 
   Future<void> _loadSettings() async {
@@ -53,6 +77,8 @@ class _WordListScreenState extends State<WordListScreen> {
     final relatedWords = await SettingsService.getShowRelatedWords();
     final example = await SettingsService.getShowExample();
     final nuance = await SettingsService.getShowNuance();
+    final lastDay = await SettingsService.getLastDay();
+    final lastOffset = await SettingsService.getLastScrollOffset();
     if (mounted) {
       setState(() {
         _showPronunciation = pronunciation;
@@ -62,6 +88,14 @@ class _WordListScreenState extends State<WordListScreen> {
         _showRelatedWords = relatedWords;
         _showExample = example;
         _showNuance = nuance;
+        _currentDay = lastDay.clamp(1, _totalDays);
+      });
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (_scrollController.hasClients && lastOffset > 0) {
+          _scrollController.jumpTo(
+            lastOffset.clamp(0.0, _scrollController.position.maxScrollExtent),
+          );
+        }
       });
     }
   }
@@ -147,10 +181,13 @@ class _WordListScreenState extends State<WordListScreen> {
                 children: [
                   IconButton(
                     onPressed: _currentDay > 1
-                        ? () => setState(() {
+                        ? () {
+                            setState(() {
                               _currentDay--;
                               _expandedWords.clear();
-                            })
+                            });
+                            SettingsService.setLastDay(_currentDay);
+                          }
                         : null,
                     icon: const Icon(Icons.chevron_left),
                     style: IconButton.styleFrom(
@@ -182,10 +219,13 @@ class _WordListScreenState extends State<WordListScreen> {
                   const SizedBox(width: 12),
                   IconButton(
                     onPressed: _currentDay < _totalDays
-                        ? () => setState(() {
+                        ? () {
+                            setState(() {
                               _currentDay++;
                               _expandedWords.clear();
-                            })
+                            });
+                            SettingsService.setLastDay(_currentDay);
+                          }
                         : null,
                     icon: const Icon(Icons.chevron_right),
                     style: IconButton.styleFrom(
@@ -207,6 +247,7 @@ class _WordListScreenState extends State<WordListScreen> {
                     ),
                   )
                 : ListView.builder(
+                    controller: _scrollController,
                     padding: const EdgeInsets.fromLTRB(12, 4, 12, 16),
                     itemCount: displayWords.length,
                     itemBuilder: (context, index) {

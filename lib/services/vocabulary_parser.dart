@@ -63,8 +63,8 @@ class VocabularyParser {
 
     for (final line in exampleSection.split('\n')) {
       final trimmed = line.trim();
-      if (trimmed.startsWith('”') || trimmed.startsWith('”')) {
-        exampleEn = trimmed.replaceAll(RegExp(r'[“””””]'), '').trim();
+      if (trimmed.isNotEmpty && !trimmed.startsWith('→')) {
+        exampleEn = trimmed.replaceAll(RegExp('["“”„‟]'), '').trim();
       } else if (trimmed.startsWith('→')) {
         exampleKo = trimmed.substring(1).trim();
       }
