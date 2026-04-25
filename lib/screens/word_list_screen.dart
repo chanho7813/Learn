@@ -104,6 +104,16 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
 
   bool get _isSearching => _search.isNotEmpty;
 
+  void _goToDay(int day) {
+    final clamped = day.clamp(1, _totalDays);
+    if (clamped == _currentDay) return;
+    setState(() {
+      _currentDay = clamped;
+      _expandedWords.clear();
+    });
+    SettingsService.setLastDay(_currentDay);
+  }
+
   List<Word> get _displayWords {
     if (_isSearching) {
       final q = _search.toLowerCase();
@@ -181,13 +191,7 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                 children: [
                   IconButton(
                     onPressed: _currentDay > 1
-                        ? () {
-                            setState(() {
-                              _currentDay--;
-                              _expandedWords.clear();
-                            });
-                            SettingsService.setLastDay(_currentDay);
-                          }
+                        ? () => _goToDay(_currentDay - 1)
                         : null,
                     icon: const Icon(Icons.chevron_left),
                     style: IconButton.styleFrom(
@@ -219,13 +223,7 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                   const SizedBox(width: 12),
                   IconButton(
                     onPressed: _currentDay < _totalDays
-                        ? () {
-                            setState(() {
-                              _currentDay++;
-                              _expandedWords.clear();
-                            });
-                            SettingsService.setLastDay(_currentDay);
-                          }
+                        ? () => _goToDay(_currentDay + 1)
                         : null,
                     icon: const Icon(Icons.chevron_right),
                     style: IconButton.styleFrom(
@@ -237,7 +235,17 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
               ),
             ),
           Expanded(
-            child: displayWords.isEmpty
+            child: GestureDetector(
+              onHorizontalDragEnd: _isSearching ? null : (details) {
+                final velocity = details.primaryVelocity ?? 0;
+                if (velocity > 300) {
+                  _goToDay(_currentDay - 1);
+                } else if (velocity < -300) {
+                  _goToDay(_currentDay + 1);
+                }
+              },
+              behavior: HitTestBehavior.translucent,
+              child: displayWords.isEmpty
                 ? Center(
                     child: Text(
                       _isSearching ? '검색 결과가 없습니다' : '단어가 없습니다',
@@ -288,6 +296,7 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                       );
                     },
                   ),
+            ),
           ),
         ],
       ),
