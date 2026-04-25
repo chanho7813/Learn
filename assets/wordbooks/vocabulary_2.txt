@@ -380,6 +380,7 @@
    • compunction 잘못에 대한 불편한 양심의 찌름. 주로 부정문에서 사용 (no compunction)
      └ com-(강조) + pungere(찌르다, 라틴어)
    • scruple     도덕적 원칙 때문에 주저하는 것. 행동 전 망설임에 초점
+     └ scrupulus(작은 돌, 라틴어) → 신발 속 돌처럼 찜찜한
    • remorse     이미 저지른 일에 대한 깊고 지속적인 후회. 가장 강한 표현
      └ re-(다시) + mordere(물다, 라틴어)
    • qualm       막연한 불안이나 찜찜한 느낌. 도덕적이거나 신체적 불편함 모두에 사용
@@ -390,7 +391,7 @@
 🔍 어원
    com-(완전히) + pungere(찌르다, 라틴어) + -tion
    → "양심이 완전히 찌르는 것"
-   🔗 관련어: point(점, 요점), puncture(구멍내다), pungent, punctuate, expunge
+   🔗 관련어: point(점, 요점), puncture(구멍내다), pungent(자극적인), punctuate(강조하다), expunge(삭제하다)
 
 
 
@@ -510,7 +511,7 @@
 🔍 어원
    pugnus(주먹, 라틴어) + -acious(~하는 경향이 있는)
    → "주먹을 쓰려는 경향이 있는"
-   🔗 관련어: pugilist(권투선수), impugn(반박하다), repugn(혐오하다)
+   🔗 관련어: pugilist(권투선수), impugn(반박하다), repugnant(혐오스러운), pugilism(권투), oppugn(이의를 제기하다)
 
 
 
@@ -540,7 +541,7 @@
 🔍 어원
    com-(함께) + vivere(살다, 라틴어) + -ial(형용사화 접미사)
    → "함께 살며 즐기는"
-   🔗 관련어: vivid(생생한), survive(살아남다), vivacious(발랄한)
+   🔗 관련어: vivid(생생한), survive(살아남다), vivacious(발랄한), revive(되살리다), convivium(향연)
 
 
 
@@ -570,7 +571,7 @@
 🔍 어원
    coq(수탉, 프랑스어) + -ette(여성 축소 접미사) + -ish
    → "수탉처럼 자신을 과시하는 여성"
-   🔗 관련어: coquette(요부, 교태 부리는 여자), cock(수탉)
+   🔗 관련어: coquette(요부), cock(수탉), coquetry(교태), cocky(건방진), cockerel(어린 수탉)
 
 
 
@@ -600,7 +601,7 @@
 🔍 어원
    daze(어리둥절하게 하다, 고대 노르드어 dasa) + -le(반복 접미사) + -ing
    → "계속해서 눈을 멀게 하는"
-   🔗 관련어: daze(멍하게 하다), bedazzle(황홀하게 하다)
+   🔗 관련어: daze(멍하게 하다), bedazzle(황홀하게 하다), dazzlement(눈부심), glaze(유약을 칠하다), razzle-dazzle(현란한 것)
 
 
 
@@ -630,7 +631,7 @@
 🔍 어원
    in-(부정) + differens(차이를 두는, 라틴어 differre) + -ent
    → "차이를 두지 않는, 어느 쪽도 상관없는"
-   🔗 관련어: differ(다르다), difference(차이), differential(미분의)
+   🔗 관련어: differ(다르다), difference(차이), differential(미분의), differentiate(구별하다), defer(미루다)
 
 
 
@@ -660,7 +661,7 @@
 🔍 어원
    ek-(밖으로, 그리스어) + stasis(서 있는 상태) → ekstasis(자신 밖에 서 있음)
    → "자기 자신 밖으로 나간 상태"
-   🔗 관련어: static(정적인), ecstatic(황홀한), stasis(정체)
+   🔗 관련어: static(정적인), ecstatic(황홀한), stasis(정체), apostasy(배교), hypostasis(본질)
 
 
 
@@ -690,7 +691,7 @@
 🔍 어원
    com-(완전히) + vincere(이기다, 라틴어) + -tion
    → "완전히 설득되어 이긴 상태"
-   🔗 관련어: convince(설득하다), victor(승자), vanquish(정복하다)
+   🔗 관련어: convince(설득하다), victor(승자), vanquish(정복하다), invincible(무적의), evict(퇴거시키다)
 
 
 
@@ -720,7 +721,7 @@
 🔍 어원
    lethe(망각, 그리스어) + argia(활동 없음) → lethargia
    → "망각처럼 아무것도 기억 못 하고 늘어진 상태"
-   🔗 관련어: lethargic(무기력한), Lethe(망각의 강, 그리스 신화)
+   🔗 관련어: lethargic(무기력한), Lethe(망각의 강), lethean(망각의), lethal(치명적인), oblivion(망각)
 
 
 
@@ -775,6 +776,7 @@
    • allegory   이야기 전체가 다른 의미를 상징하는 긴 비유
      └ allos(다른) + agoreuein(말하다, 그리스어)
    • euphemism  불편한 표현을 완화하기 위한 대체 표현. 사회적 맥락에서 사용
+     └ eu-(좋은) + pheme(말, 그리스어)
 
 🔍 어원
    meta-(변화, 그리스어) + onoma(이름) + -y

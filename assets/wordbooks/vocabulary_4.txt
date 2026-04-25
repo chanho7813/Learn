@@ -83,9 +83,11 @@
    • scrutinize 비판적 시각으로 세밀하게 살피는 것. 텍스트 외에도 사용
      └ scrutinium(면밀한 조사, 라틴어)
    • pore over  집중하여 열심히 들여다보는 뉘앙스. 일상적 표현
+     └ pore(응시하다, 중세 영어 pouren) + over(위에)
    • examine    목적을 가지고 체계적으로 검토. 가장 폭넓은 표현
      └ ex-(밖으로) + agmen(저울눈, 라틴어)
    • scan       훑어보는 것. peruse와 반대 뉘앙스. 빠르고 피상적
+     └ scandere(오르다, 라틴어) → 시행을 훑어 읽다
 
 🔍 어원
    per-(완전히, 철저히) + use(사용하다, 라틴어 usare)
@@ -480,7 +482,7 @@
 🔍 어원
    nebula(안개, 성운, 라틴어) + -ous
    → "성운처럼 흐릿하고 불분명한"
-   🔗 관련어: nebula(성운), nebulize(분무하다)
+   🔗 관련어: nebula(성운), nebulize(분무하다), nebulosity(흐릿함), nimbus(비구름), nephology(운학)
 
 
 
@@ -510,7 +512,7 @@
 🔍 어원
    ab-(~에서 벗어나) + errare(헤매다, 라틴어) + -ant
    → "정도에서 벗어나 헤매는"
-   🔗 관련어: aberration(일탈, 이상), errant(잘못된), error(오류)
+   🔗 관련어: aberration(일탈), errant(잘못된), error(오류), erratic(불규칙한), erroneous(잘못된)
 
 
 
@@ -540,7 +542,7 @@
 🔍 어원
    em-(안으로) + bellus(아름다운, 라틴어) + -ish
    → "아름답게 만들어 넣는 것"
-   🔗 관련어: belle(미녀), beau(멋쟁이), beauty(아름다움)
+   🔗 관련어: belle(미녀), beau(멋쟁이), beauty(아름다움), embellishment(장식), belvedere(전망대)
 
 
 
@@ -570,7 +572,7 @@
 🔍 어원
    ex-(완전히) + stirps(뿌리, 줄기, 라틴어) + -ation
    → "뿌리째 완전히 뽑아버리는 것"
-   🔗 관련어: extirpate(근절하다), stirps(뿌리, 혈통)
+   🔗 관련어: extirpate(근절하다), stirps(뿌리), eradicate(근절하다), uproot(뿌리 뽑다), deracinate(근절하다)
 
 
 
@@ -595,11 +597,12 @@
    • repartee  상대방의 말에 즉각적으로 재치 있게 응수하는 것에 특화
      └ re-(다시) + partir(떠나다, 프랑스어)
    • bon mot   프랑스어에서 온 표현. 완벽하게 잘 선택된 재치 있는 말
+     └ bon(좋은) + mot(말, 프랑스어)
 
 🔍 어원
    quibble(궤변, 말장난)의 축약형으로 추정
    → "날카롭게 비꼬는 짧은 말"
-   🔗 관련어: quibble(트집 잡다), quipster(재치 있는 사람)
+   🔗 관련어: quibble(트집 잡다), quipster(재치 있는 사람), quip(재치), witticism(재담), repartee(재치 있는 응수)
 
 
 
@@ -629,7 +632,7 @@
 🔍 어원
    pro-(앞으로) + clivus(경사, 라틴어) + -ity
    → "앞으로 기울어지는 경사처럼 자연스럽게 향하는 것"
-   🔗 관련어: declivity(내리막), acclivity(오르막), incline(기울다)
+   🔗 관련어: declivity(내리막), acclivity(오르막), incline(기울다), decline(쇠퇴하다), recline(기대다)
 
 
 
@@ -659,7 +662,7 @@
 🔍 어원
    beatus(행복한, 축복받은, 라틴어) + -tude(명사화 접미사)
    → "축복받은 완전한 행복의 상태"
-   🔗 관련어: beatify(시복하다), beatific(복되어 보이는)
+   🔗 관련어: beatify(시복하다), beatific(복되어 보이는), bless(축복하다), bliss(지복), benign(온화한)
 
 
 
@@ -689,7 +692,7 @@
 🔍 어원
    be-(완전히) + stow(두다, 고대 영어 stōwian)
    → "완전히 자리에 두어 주는 것"
-   🔗 관련어: stow(짐을 싣다), bestowment(수여)
+   🔗 관련어: stow(짐을 싣다), bestowment(수여), bestowal(수여), stowage(적재), stowaway(밀항자)
 
 
 
@@ -719,7 +722,7 @@
 🔍 어원
    e-(밖으로) + bullire(끓다, 라틴어) + -ient
    → "끓어 밖으로 넘쳐흐르는"
-   🔗 관련어: ebullience(넘치는 활기), boil(끓다), ebullition(비등)
+   🔗 관련어: ebullience(넘치는 활기), boil(끓다), ebullition(비등), bullion(금괴), bulletin(회보)
 
 
 

@@ -176,6 +176,7 @@
    • martyr     신념을 위해 죽음을 당하거나 순교하는 뉘앙스
      └ martys(증인, 그리스어)
    • offer up   신이나 대의를 위해 바치는 것. 일상적이고 폭넓은 표현
+     └ offer(바치다, 고대 영어 offrian) + up(위로)
 
 🔍 어원
    im-(위에) + mola(제물에 뿌리는 소금가루, 라틴어) + -ate
@@ -382,6 +383,7 @@
    • avid         지식·경험에 대한 열렬하고 탐욕스러울 만큼 강한 열망
      └ avidus(탐욕스러운, 라틴어)
    • fervent      감정적으로 열렬한 뉘앙스. 믿음·열정 등에 자주 사용
+     └ fervere(끓다, 라틴어)
    • anticipatory 기대하고 예상하는 상태. agog보다 더 차분하고 이성적인 뉘앙스
      └ ante-(앞에) + capere(잡다, 라틴어)
 
@@ -393,7 +395,7 @@
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#113  iniquitous [mɪˈnɪkwɪtəs]
+#113  iniquitous [ɪˈnɪkwɪtəs]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📌 뜻
@@ -467,8 +469,11 @@
    • buttress   건축의 버팀벽처럼 주장·정책·구조를 물리적으로 지탱하는 뉘앙스
      └ bouter(밀다, 고대 프랑스어)
    • reinforce  이미 있는 것을 더 강하게 만드는 것. 가장 일반적인 표현
+     └ re-(다시) + in-(안으로) + fortis(강한, 라틴어)
    • bolster    약해진 것을 끌어올려 지지하는 뉘앙스. 자신감·경제 등에 자주 사용
+     └ bolster(긴 베개, 고대 영어)
    • prop up    쓰러지려는 것을 임시로 받치는 뉘앙스. 인위적 지지의 의미
+     └ proppe(지지대, 중세 네덜란드어)
    • fortify    외부 공격에 대비하여 강화하는 것. 군사적·건강 맥락에서도 사용
      └ fortis(강한, 라틴어) + facere(만들다)
 
@@ -505,7 +510,7 @@
 🔍 어원
    lucubrare(램프 불빛 아래서 일하다, 라틴어) + lucubrum(밤 공부)
    → "등불 아래 밤새 고심하며 연구하는 것"
-   🔗 관련어: lucubration(밤샘 연구물), lux(빛, 라틴어)
+   🔗 관련어: lucubration(밤샘 연구물), lux(빛), lucid(명쾌한), elucidate(해명하다), translucent(반투명한)
 
 
 
@@ -535,7 +540,7 @@
 🔍 어원
    capitulare(조항별로 항복하다, 라틴어) + caput(머리, 장, 라틴어)
    → "조항을 하나씩 인정하며 항복하는 것"
-   🔗 관련어: capital(수도, 자본), captain(선장), chapter(장)
+   🔗 관련어: capital(수도), captain(선장), chapter(장), decapitate(참수하다), capitulation(항복)
 
 
 
@@ -565,7 +570,7 @@
 🔍 어원
    adulari(아첨하다, 라틴어) → 개가 꼬리를 흔드는 것에서 유래
    → "개처럼 꼬리를 흔들며 비굴하게 숭배하는 것"
-   🔗 관련어: adulation(아첨, 맹목적 숭배), adulator(아첨꾼)
+   🔗 관련어: adulation(맹목적 숭배), adulator(아첨꾼), adulatory(아첨하는), fawn(아첨하다), sycophant(아첨꾼)
 
 
 
@@ -595,7 +600,7 @@
 🔍 어원
    un-(부정) + tenere(잡다, 유지하다, 라틴어) + -able
    → "붙잡아 유지할 수 없는"
-   🔗 관련어: tenable(유지 가능한), tenant(임차인), tenacious(끈질긴)
+   🔗 관련어: tenable(유지 가능한), tenant(임차인), tenacious(끈질긴), tenure(재직 기간), sustain(유지하다)
 
 
 
@@ -625,7 +630,7 @@
 🔍 어원
    vertigo(어지러움, 라틴어) + vertere(돌다) + -ous
    → "빙글빙글 도는 것처럼 어지러운"
-   🔗 관련어: vertigo(현기증), vertex(꼭대기), invert(뒤집다)
+   🔗 관련어: vertigo(현기증), vertex(꼭대기), invert(뒤집다), divert(전환하다), versatile(다재다능한)
 
 
 
@@ -655,7 +660,7 @@
 🔍 어원
    stigma(낙인, 표시, 그리스어) + -ize(동사화 접미사)
    → "낙인을 찍는 것"
-   🔗 관련어: stigma(낙인, 오명), stigmatic(낙인 찍힌)
+   🔗 관련어: stigma(낙인), stigmatic(낙인 찍힌), astigmatism(난시), instigate(선동하다), stick(찌르다)
 
 
 
@@ -685,7 +690,7 @@
 🔍 어원
    mediocris(중간의, 라틴어) + medius(중간) + ocris(험한 산)
    → "산의 중간쯤에 있는, 꼭대기에도 바닥에도 없는"
-   🔗 관련어: medium(중간), mediocrity(평범함), mediate(중재하다)
+   🔗 관련어: medium(중간), mediocrity(평범함), mediate(중재하다), median(중앙값), medieval(중세의)
 
 
 
@@ -716,7 +721,7 @@
 🔍 어원
    discretus(분리된, 라틴어 discernere에서) → 구별할 줄 아는
    → "적절한 것과 부적절한 것을 구별할 줄 아는"
-   🔗 관련어: discretion(신중함, 재량), discrete(분리된 - 철자 혼동 주의)
+   🔗 관련어: discretion(신중함), discrete(분리된), discern(분별하다), secret(비밀), secrete(분비하다)
 
 
 

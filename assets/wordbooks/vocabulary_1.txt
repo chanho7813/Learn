@@ -22,7 +22,7 @@
   13. sedulous          근면한, 성실한, 꾸준히 노력하는
   14. enticing          유혹하는, 매혹적인
   15. condoning         묵인하는, 용납하는
-  16. fecalent          대변 같은, 불순물이 가득한
+  16. feculent          대변 같은, 불순물이 가득한
   17. punctilious       격식을 철저히 따지는, 예절에 깐깐한
   18. prevailing        지배적인, 우세한, 널리 퍼진
   19. compromise        타협 / 위태롭게 하다
@@ -206,6 +206,7 @@
    • reheating           외부에서 열을 가하는 행위. 자발적 현상이 아님
      └ re-(다시) + heat(열, 고대 영어)
    • thermally arresting 냉각·가열 곡선에서 온도 변화가 잠시 멈추는 현상 전반
+     └ thermal(열의, 그리스어 therme) + arrest(멈추다, 고대 프랑스어 arester)
 
 🔍 어원
    re-(다시) + calescere(따뜻해지다) + calere(뜨겁다) + -ing
@@ -721,29 +722,34 @@
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#23  trails  off
+#23  trails off [treɪlz ɒf]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📌 뜻
-   off  말·소리가 점점 작아지며 불완전하게 끝나는 것에 특화. 대화·문장 맥락
+   말·소리가 점점 작아지며 불완전하게 끝나는 것에 특화. 대화·문장 맥락
 
 💬 예문
    "Her voice trailed off as she realized no one was listening."
    → 아무도 듣지 않는다는 것을 깨닫자 그녀의 목소리가 점점 잦아들었다.
 
 🎨 뉘앙스
-   • trails off  말·소리가 점점 작아지며 불완전하게 끝나는 것에 특화. 대화·문장 맥락
-   • fades out   시각적·청각적으로 서서히 사라지는 것에 초점. 영화·음악 맥락
-   • tapers off  점진적으로 줄어드는 양이나 정도에 초점. 통계·수치·활동량 등
-   • petered out 에너지·자원이 완전히 소진되어 멈추는 뉘앙스. 더 완결적인 소멸
-   • dwindles    수량이나 규모가 지속적으로 줄어드는 것. 쇠퇴의 뉘앙스가 강함
+   • trails off    말·소리가 점점 작아지며 불완전하게 끝나는 것에 특화. 대화·문장 맥락
+     └ trail(끌다, 고대 프랑스어 trailler) + off(멀어지는)
+   • fades out     시각적·청각적으로 서서히 사라지는 것에 초점. 영화·음악 맥락
+     └ fade(시들다, 고대 프랑스어 fader) + out(밖으로)
+   • tapers off    점진적으로 줄어드는 양이나 정도에 초점. 통계·수치·활동량 등
+     └ taper(가늘어지다, 고대 영어 tapor) + off(멀어지는)
+   • petered out   에너지·자원이 완전히 소진되어 멈추는 뉘앙스. 더 완결적인 소멸
+     └ peter(줄어들다, 19세기 미국 광업 용어)
+   • dwindles      수량이나 규모가 지속적으로 줄어드는 것. 쇠퇴의 뉘앙스가 강함
      └ dwinan(줄어들다, 고대 영어)
-   • dies away   소리나 감정이 서서히 완전히 사라지는 것. trails off보다 더 완전한 소멸
+   • dies away     소리나 감정이 서서히 완전히 사라지는 것. trails off보다 더 완전한 소멸
+     └ die(죽다, 고대 노르드어 deyja) + away(멀어지는)
 
 🔍 어원
    trail(끌다, 고대 프랑스어 trailler) + trahere(끌다, 라틴어) + off(멀어지는, 고대 영어)
    → "뒤에 흔적을 남기며 점점 멀어지는"
-   🔗 관련어: trail(자취), drag(끌다), trace(흔적), extract(추출하다)
+   🔗 관련어: trail(자취), drag(끌다), trace(흔적), extract(추출하다), tract(넓은 땅)
 
 
 
