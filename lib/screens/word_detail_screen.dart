@@ -1,18 +1,48 @@
 import 'package:flutter/material.dart';
 import '../models/word.dart';
 
-class WordDetailScreen extends StatelessWidget {
+class WordDetailScreen extends StatefulWidget {
   final Word word;
-  const WordDetailScreen({super.key, required this.word});
+  final Future<bool> Function(Word word)? onAddToWordbook;
+
+  const WordDetailScreen({
+    super.key,
+    required this.word,
+    this.onAddToWordbook,
+  });
+
+  @override
+  State<WordDetailScreen> createState() => _WordDetailScreenState();
+}
+
+class _WordDetailScreenState extends State<WordDetailScreen> {
+  bool _added = false;
 
   @override
   Widget build(BuildContext context) {
+    final word = widget.word;
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
     return Scaffold(
       appBar: AppBar(
         title: Text(word.word),
+        actions: [
+          if (widget.onAddToWordbook != null)
+            IconButton(
+              onPressed: _added
+                  ? null
+                  : () async {
+                      final ok = await widget.onAddToWordbook!(word);
+                      if (mounted) setState(() => _added = ok);
+                    },
+              icon: Icon(
+                _added ? Icons.bookmark : Icons.bookmark_add_outlined,
+                color: _added ? colorScheme.primary : null,
+              ),
+              tooltip: _added ? '추가됨' : '단어장에 추가',
+            ),
+        ],
       ),
       body: ListView(
         padding: const EdgeInsets.all(20),

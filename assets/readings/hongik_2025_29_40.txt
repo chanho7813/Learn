@@ -1,0 +1,218 @@
+---
+title: 2025학년도 홍익대 편입 영어: 29-40번
+---
+
+## 29-31번
+
+Truly, what is a number? According to the philosophical position known as platonism, numbers and other mathematical objects exist as abstract objects.
+진정으로, 수란 무엇인가? 플라톤주의로 알려진 철학적 입장에 따르면, 수와 다른 수학적 대상들은 추상적 대상으로 존재한다.
+
+Plato held them to exist in a realm of ideal forms.
+플라톤은 그것들이 이상적 형상의 영역에 존재한다고 주장했다.
+
+A particular line or circle that you might draw on paper is flawed and imperfect; in the platonic realm, there are perfect lines and circles—and numbers.
+종이 위에 그릴 수 있는 특정 선이나 원은 결함이 있고 불완전하다; 플라톤적 영역에는 완벽한 선과 원—그리고 수가 있다.
+
+From this view, for a mathematician to say "there is a natural number with such-and-such property," means that in the platonic realm, there are such numbers to be found.
+이 관점에서, 수학자가 "이러저러한 속성을 가진 자연수가 있다"고 말하는 것은 플라톤적 영역에 그러한 수가 존재한다는 것을 의미한다.
+
+Contemporary approaches to platonism assert that abstract objects exist, but are less connected with Plato's idea of an ideal form or the platonic realm, a place where they are all gathered together.
+현대 플라톤주의 접근법은 추상적 대상이 존재한다고 주장하지만, 플라톤의 이상적 형상이나 그것들이 모두 모여 있는 플라톤적 영역이라는 관념과는 덜 연결되어 있다.
+
+What does it mean to say, "There is a function f that is continuous but not differentiable," "There is a solution to this differential equation," or "There is a topological space that is sequentially compact, but not compact"?
+"연속이지만 미분 불가능한 함수 f가 있다", "이 미분방정식의 해가 있다", 또는 "순차적으로 콤팩트하지만 콤팩트하지 않은 위상 공간이 있다"고 말하는 것은 무엇을 의미하는가?
+
+This is not physical existence: we cannot hold these 'objects' in our hands.
+이것은 물리적 존재가 아니다: 우리는 이 '대상들'을 손에 쥘 수 없다.
+
+What kind of existence is this? According to platonism, mathematical objects are abstract but enjoy a real existence.
+이것은 어떤 종류의 존재인가? 플라톤주의에 따르면, 수학적 대상은 추상적이지만 실제 존재를 누린다.
+
+For the platonist, ordinary talk in mathematics about the existence of mathematical objects can be taken literally—the objects do exist, but abstractly rather than physically.
+플라톤주의자에게, 수학적 대상의 존재에 대한 수학에서의 일상적 이야기는 문자 그대로 받아들여질 수 있다—대상은 존재하되, 물리적이 아니라 추상적으로 존재한다.
+
+According to this perspective, the nature of mathematical existence is similar to the nature of existence for other abstractions, such as beauty or happiness.
+이 관점에 따르면, 수학적 존재의 본질은 아름다움이나 행복과 같은 다른 추상의 존재 본질과 유사하다.
+
+Does beauty exist? I believe so. Do parallel lines exist? According to platonism, the answers are similar: but what are abstract objects? What is the nature of this existence?
+아름다움은 존재하는가? 나는 그렇다고 믿는다. 평행선은 존재하는가? 플라톤주의에 따르면 답은 유사하다: 하지만 추상적 대상이란 무엇인가? 이 존재의 본질은 무엇인가?
+
+Consider a piece of writing: Henrik Ibsen's play A Doll's House. This exists, surely, but what is it specifically that exists here?
+글쓰기 작품을 생각해 보자: 헨리크 입센의 희곡 인형의 집. 이것은 확실히 존재하지만, 여기서 구체적으로 존재하는 것은 무엇인가?
+
+I could offer you a printed manuscript, saying, "This is A Doll's House." But that would not be fully true, for if that particular manuscript were damaged, we would not say that the play itself was damaged; we could not say that the play has been taken in my back pocket on a motorcycle ride.
+인쇄된 원고를 제공하며 "이것이 인형의 집이다"라고 말할 수 있다. 하지만 그것은 완전히 사실이 아닐 것인데, 그 특정 원고가 손상되더라도 희곡 자체가 손상되었다고 말하지 않을 것이기 때문이다; 희곡이 내 뒷주머니에 넣어져 오토바이를 탔다고 말할 수 없다.
+
+I could see a performance of the play on Broadway, but no particular performance would seem to be the play itself.
+브로드웨이에서 그 희곡의 공연을 볼 수 있지만, 어떤 특정 공연도 희곡 자체인 것 같지는 않을 것이다.
+
+We do not say that Ibsen's play existed only in 1879 at its premiere; or that the play comes into and out of existence with each performance.
+입센의 희곡이 1879년 초연 때만 존재했다고 말하지 않으며, 희곡이 각 공연과 함께 존재했다가 사라진다고 말하지 않는다.
+
+The play is an abstraction, an idealization of its various imperfect instantiations in manuscripts and performances.
+희곡은 추상이며, 원고와 공연에서의 다양한 불완전한 인스턴스화의 이상화이다.
+
+Like the play, the number 67 similarly exists in various imperfect instantiations: 67 applies in the bundle of 67 cards in the cheater's deck.
+희곡처럼, 숫자 67도 다양한 불완전한 인스턴스화로 유사하게 존재한다: 67은 사기꾼의 덱에 있는 67장의 카드 묶음에 적용된다.
+
+The existence of abstract objects is mediated somehow through the existence of their various instantiations.
+추상적 대상의 존재는 어떻게든 그것들의 다양한 인스턴스화의 존재를 통해 매개된다.
+
+Is the existence of the number 67 similar to the existence of a play, a novel, or a song? The play was, as with other pieces of art, was created: Ibsen wrote A Doll's House.
+숫자 67의 존재는 희곡, 소설, 노래의 존재와 유사한가? 희곡은 다른 예술 작품처럼 창조되었다: 입센이 인형의 집을 썼다.
+
+And while some mathematicians describe their work as an act of creation, doubtless more mathematicians would claim to have discovered the number 67 than to have created it.
+그리고 일부 수학자들은 자신의 작업을 창조 행위로 묘사하지만, 의심할 여지 없이 더 많은 수학자들은 숫자 67을 창조한 것이 아니라 발견했다고 주장할 것이다.
+
+Is mathematics discovered or created? Part of the contemporary platonist thesis is that numbers and other mathematical objects have an independent existence.
+수학은 발견되는 것인가 창조되는 것인가? 현대 플라톤주의 논제의 일부는 수와 기타 수학적 대상이 독립적 존재를 가진다는 것이다.
+
+## 32-34번
+
+Stanley Milgram conducted a series of experiments to study obedience to authority. He placed an ad in the local newspaper in New Haven, Connecticut, offering a small sum of money to men to participate in a "scientific study of memory and learning" being conducted at Yale University.
+스탠리 밀그램은 권위에 대한 복종을 연구하기 위해 일련의 실험을 수행했다. 그는 코네티컷 주 뉴헤이븐의 지역 신문에 광고를 내어 예일 대학교에서 수행 중인 "기억과 학습에 관한 과학적 연구"에 참여할 남성들에게 소액의 돈을 제공했다.
+
+The volunteers reported to Milgram's laboratory at Yale, where they met a scientist dressed in a white lab coat and another volunteer in the study, a middle-aged man named "Mr. Wallace."
+자원봉사자들은 예일대의 밀그램 실험실에 보고했으며, 그곳에서 흰 실험복을 입은 과학자와 연구의 또 다른 자원봉사자인 "월리스 씨"라는 중년 남성을 만났다.
+
+Mr. Wallace was actually a confederate (an accomplice of the experimenter), but the participants did not know this.
+월리스 씨는 실제로 공모자(실험자의 협력자)였지만, 참가자들은 이를 알지 못했다.
+
+The scientist explained that the study would examine the effects of punishment on learning.
+과학자는 연구가 학습에 대한 처벌의 효과를 조사할 것이라고 설명했다.
+
+One person would be a "teacher" who would administer the punishment, and the other would be the "learner." Mr. Wallace and the volunteer participant then drew slips of paper to determine who would be the teacher and who would be the learner.
+한 사람은 처벌을 실시할 "교사"가 되고, 다른 한 사람은 "학습자"가 될 것이었다. 월리스 씨와 자원봉사 참가자는 누가 교사이고 누가 학습자인지를 결정하기 위해 종이를 뽑았다.
+
+The drawing was rigged, however; Mr. Wallace was always the learner and the actual volunteer was always the teacher.
+그러나 추첨은 조작되었다; 월리스 씨가 항상 학습자였고 실제 자원봉사자가 항상 교사였다.
+
+The scientist attached electrodes to Mr. Wallace and then placed the "teacher" in front of an impressive-looking shock machine that was located in an adjoining room.
+과학자는 월리스 씨에게 전극을 부착한 다음 "교사"를 인접한 방에 있는 인상적인 외관의 충격 기계 앞에 배치했다.
+
+The shock machine had a series of levers that the individual was told, when pressed, would deliver shocks to Mr. Wallace.
+충격 기계에는 일련의 레버가 있었으며, 개인은 레버를 누르면 월리스 씨에게 충격을 전달할 것이라고 들었다.
+
+The first lever was labeled 15 volts, the second 30 volts, the third 45 volts, and so on up to 450 volts.
+첫 번째 레버는 15볼트, 두 번째 30볼트, 세 번째 45볼트로 표시되었고, 450볼트까지 이어졌다.
+
+The levers were also labeled "Slight Shock," "Moderate Shock," and so on up to "Danger: Severe Shock," followed by red X's above 400 volts.
+레버에는 또한 "약한 충격", "중간 충격"이라는 라벨이 붙어 있었고, "위험: 심한 충격"까지 이어졌으며, 400볼트 이상에는 빨간 X표가 있었다.
+
+Mr. Wallace was instructed to learn a series of word pairs. Then he was given a test to see if he could identify which words went together.
+월리스 씨는 일련의 단어 쌍을 학습하도록 지시받았다. 그런 다음 어떤 단어가 함께 가는지 식별할 수 있는지 테스트를 받았다.
+
+Every time Mr. Wallace made a mistake, the teacher's way to deliver a shock as punishment. The first mistake was supposed to be answered by a 15-volt shock, the second by a 30-volt shock, and so on.
+월리스 씨가 실수할 때마다, 교사는 처벌로 충격을 전달하는 방식이었다. 첫 번째 실수는 15볼트 충격으로, 두 번째는 30볼트 충격으로 답하도록 되어 있었다.
+
+Each time a mistake was made, the learner received a greater shock.
+실수가 발생할 때마다, 학습자는 더 큰 충격을 받았다.
+
+The learner, Mr. Wallace, never actually received any shocks, but the participants in the study did not know that.
+학습자인 월리스 씨는 실제로 어떤 충격도 받지 않았지만, 연구 참가자들은 그것을 알지 못했다.
+
+In the experiment, Mr. Wallace made mistake after mistake. When the teacher "shocked" him with about 120 volts, Mr. Wallace began screaming in pain and eventually yelled that he wanted out.
+실험에서 월리스 씨는 계속 실수했다. 교사가 약 120볼트로 그에게 "충격을 주었을" 때, 월리스 씨는 고통으로 비명을 지르기 시작했고 결국 나가고 싶다고 소리쳤다.
+
+What if the teacher wanted to quit? This happened—the volunteer participants became visibly upset by the pain that Mr. Wallace seemed to be experiencing.
+교사가 그만두고 싶다면? 이런 일이 발생했다—자원봉사 참가자들은 월리스 씨가 경험하는 것처럼 보이는 고통에 눈에 띄게 동요했다.
+
+The experimenter told the teacher that he could quit but urged him to continue, using a series of verbal prods that stressed the importance of continuing the experiment. What happened?
+실험자는 교사에게 그만둘 수 있다고 말했지만, 실험 계속의 중요성을 강조하는 일련의 구두 촉구를 사용하여 계속하도록 촉구했다. 무슨 일이 일어났는가?
+
+Approximately 65% of the participants continued to deliver shocks all the way up to 450 volts.
+참가자의 약 65%가 450볼트까지 계속 충격을 전달했다.
+
+Milgram went on to conduct several variations on this basic procedure with 636 subjects. The study received a great deal of publicity, and the results challenged many of our beliefs about our ability to resist authority.
+밀그램은 636명의 피험자를 대상으로 이 기본 절차의 여러 변형을 수행했다. 이 연구는 큰 주목을 받았고, 결과는 권위에 저항하는 능력에 대한 우리의 많은 믿음에 도전했다.
+
+But the Milgram study is also an important example for discussing the ethics of behavioral research. How should we make decisions about whether the Milgram study or any other study is ethical?
+그러나 밀그램 연구는 또한 행동 연구의 윤리를 논의하기 위한 중요한 사례이다. 밀그램 연구나 다른 연구가 윤리적인지에 대해 어떻게 결정을 내려야 하는가?
+
+The Milgram study was one of many that played an important role in the development of ethical standards that guide our ethical decision-making.
+밀그램 연구는 우리의 윤리적 의사 결정을 안내하는 윤리적 기준의 발전에 중요한 역할을 한 많은 연구 중 하나였다.
+
+## 35-37번
+
+Most research projects involve selecting a sample of participants from a population of interest. The population is composed of all individuals of interest to the researcher.
+대부분의 연구 프로젝트는 관심 모집단에서 참가자 표본을 선택하는 것을 포함한다. 모집단은 연구자에게 관심 있는 모든 개인으로 구성된다.
+
+One population of interest in a large public opinion poll, for instance, might be all eligible voters in the United States.
+예를 들어, 대규모 여론 조사에서 관심 모집단 중 하나는 미국의 모든 유권자일 수 있다.
+
+This implies that the population of interest does not include people under the age of 18, people who are incarcerated, visitors from other countries, and anyone else not eligible to vote.
+이는 관심 모집단에 18세 미만의 사람, 수감자, 다른 나라의 방문자, 투표 자격이 없는 기타 사람이 포함되지 않음을 의미한다.
+
+You might conduct a survey in which your population consists of all students at your college or university.
+대학의 모든 학생으로 구성된 모집단을 대상으로 설문 조사를 수행할 수 있다.
+
+With enough time and money, a survey researcher could conceivably contact everyone in the population.
+충분한 시간과 돈이 있다면, 설문 연구자는 모집단의 모든 사람에게 연락할 수 있을 것이다.
+
+The United States attempts to do this every ten years with an official census of the entire population.
+미국은 전체 인구의 공식 인구 조사로 10년마다 이를 시도한다.
+
+With a relatively small population, however, you might find it relatively easy to study the whole population.
+그러나 비교적 작은 모집단이라면, 전체 모집단을 연구하는 것이 비교적 쉬울 수 있다.
+
+Let's use another example. What if you asked every single student at your college or university to tell you whether they prefer to study at home or at school, and you found that 68% preferred studying at home.
+또 다른 예를 사용해 보자. 대학의 모든 학생에게 집에서 공부하는 것과 학교에서 공부하는 것 중 어느 것을 선호하는지 물었고, 68%가 집에서 공부하는 것을 선호한다는 것을 발견했다고 하자.
+
+In this case, you would be very certain of the answer to your question—after all, you asked everyone.
+이 경우, 질문에 대한 답에 매우 확신할 수 있을 것이다—결국, 모든 사람에게 물었으니까.
+
+That, of course, would be quite costly; you would likely have to hire a team of research assistants to track down every student.
+물론, 이는 상당히 비용이 많이 들 것이다; 모든 학생을 추적하기 위해 연구 보조원 팀을 고용해야 할 것이다.
+
+But suppose you are not independently wealthy (or you have better uses for your wealth); in that case, you could randomly select a subgroup of students at your university and ask them the question.
+하지만 당신이 독립적으로 부유하지 않다면(또는 부를 더 잘 사용할 곳이 있다면), 대학에서 학생 하위 그룹을 무작위로 선택하여 질문할 수 있다.
+
+With proper sampling, we can have a representative sample of the population and use information obtained from the participants (or "respondents") who were sampled to estimate the characteristics of the population as a whole.
+적절한 표본 추출을 통해, 모집단의 대표 표본을 가질 수 있으며 표본 추출된 참가자(또는 "응답자")로부터 얻은 정보를 사용하여 전체 모집단의 특성을 추정할 수 있다.
+
+Statistical theory allows us to use data obtained from a sample to estimate what the entire population is like.
+통계 이론은 표본에서 얻은 데이터를 사용하여 전체 모집단이 어떤지 추정할 수 있게 해준다.
+
+## 38-40번
+
+Jimmy Carter's presidency was meant to signal a new relationship between the people and their government.
+지미 카터의 대통령 재임은 국민과 정부 사이의 새로운 관계를 알리기 위한 것이었다.
+
+He and his wife Rosalynn got out of their limousine and walked a short part of the inaugural parade route, hand in hand.
+그와 그의 아내 로잘린은 리무진에서 내려 취임 퍼레이드 길의 짧은 부분을 손을 잡고 걸었다.
+
+His time in office ended four years later with a spiteful gesture by the revolutionary government of Iran, which released 52 American hostages it had held for 444 days—but only when Mr. Carter was out of office, and at the very moment when his triumphant successor was delivering his inaugural address.
+그의 재임 기간은 4년 후 이란 혁명 정부의 악의적인 제스처로 끝났는데, 이란은 444일 동안 억류했던 52명의 미국인 인질을 석방했지만—카터 씨가 퇴임한 후, 그의 승리한 후임자가 취임 연설을 하는 바로 그 순간에만 석방했다.
+
+It was the final insult of Mr. Carter's term in office and the end of what was widely regarded, according to much commentary and a fair earth of public opinion, as a "failed" presidency.
+이것은 카터 씨의 재임 기간에 대한 마지막 모욕이었고, 많은 논평과 상당한 여론에 따르면 "실패한" 대통령직으로 널리 간주된 것의 끝이었다.
+
+But was his presidency, which ended 43 years before his death Sunday at age 100, really a failed one?
+그러나 100세의 나이로 일요일에 사망하기 43년 전에 끝난 그의 대통령직은 정말 실패한 것이었는가?
+
+It is not easy to say what constitutes failure in a presidency: economic disruption that goes on for years, civic erosion? Some highly regarded presidents saw all these things on their watches.
+대통령직에서 무엇이 실패를 구성하는지 말하기 쉽지 않다: 수년간 계속되는 경제적 혼란, 시민적 침식? 일부 높이 평가받는 대통령들은 재임 중 이 모든 것을 보았다.
+
+Let's be obvious that much went badly during Mr. Carter's time in the White House.
+카터 씨의 백악관 재임 동안 많은 것이 잘못되었다는 것은 분명하다.
+
+To some extent, he was overtaken by events that had been set in motion well before he took office.
+어느 정도 그는 취임하기 훨씬 전에 시작된 사건들에 압도당했다.
+
+The settling resentment among many Iranians that led to the hostage crisis lasted back at least a quarter-century.
+인질 위기로 이어진 많은 이란인들 사이의 쌓인 분노는 적어도 4분의 1세기를 거슬러 올라갔다.
+
+The economic problems that plagued the administration were a continuation of trends that had been developing through two or three administrations, and they were greatly exacerbated by the oil crisis triggered by Iran's revolution.
+행정부를 괴롭힌 경제 문제는 두세 행정부에 걸쳐 발전해 온 추세의 연속이었으며, 이란 혁명으로 촉발된 석유 위기에 의해 크게 악화되었다.
+
+The general distrust with and alienation from government could be, and were, seen as in large part products of the Vietnam War and the Watergate scandal.
+정부에 대한 일반적인 불신과 소외는 베트남 전쟁과 워터게이트 스캔들의 결과로 볼 수 있었고, 실제로 그렇게 보였다.
+
+In fact, there were solid and lasting accomplishments to the Carter administration.
+사실, 카터 행정부에는 견고하고 지속적인 업적이 있었다.
+
+The Camp David agreement, which has brought a long if uneasy peace to what was the most dangerous conflict point in the Middle East, was his administration's greatest foreign policy achievement.
+중동에서 가장 위험한 갈등 지점에 불안하지만 긴 평화를 가져다준 캠프 데이비드 협정은 그의 행정부의 가장 위대한 외교 정책 업적이었다.
+
+It's hard to see how the accord between Egypt's Anwar Sadat and Israel's Menachem Begin could have been reached without Mr. Carter's constant presence during the talks and careful attention to the needs of the two principals.
+이집트의 안와르 사다트와 이스라엘의 메나헴 베긴 사이의 협정이 카터 씨의 회담 중 지속적인 존재와 두 주역의 필요에 대한 세심한 관심 없이 달성될 수 있었는지 알기 어렵다.

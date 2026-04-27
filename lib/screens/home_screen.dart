@@ -6,6 +6,7 @@ import '../models/word.dart';
 import '../services/storage_service.dart';
 import '../services/vocabulary_parser.dart';
 import 'word_list_screen.dart';
+import 'reading_list_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -119,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '영어 단어 암기',
+                      '영어 단어 암기 · 리딩',
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: colorScheme.onSurface.withAlpha(153),
                       ),
@@ -181,6 +182,20 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         );
                         _loadWords();
+                      },
+                    ),
+                    const SizedBox(height: 12),
+                    _MenuButton(
+                      icon: Icons.auto_stories_outlined,
+                      label: '리딩',
+                      subtitle: '영어 지문 읽기 연습',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const ReadingListScreen(),
+                          ),
+                        );
                       },
                     ),
                     const SizedBox(height: 12),
