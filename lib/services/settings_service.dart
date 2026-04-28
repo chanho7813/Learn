@@ -13,6 +13,8 @@ class SettingsService {
   static const _showNuanceKey = 'show_nuance';
   static const _lastDayKey = 'last_day';
   static const _lastScrollOffsetKey = 'last_scroll_offset';
+  static const _lastReadingIndexKey = 'last_reading_index';
+  static const _lastReadingSectionKey = 'last_reading_section';
 
   static Future<bool> getDarkMode() async {
     final prefs = await SharedPreferences.getInstance();
@@ -132,5 +134,25 @@ class SettingsService {
   static Future<void> setLastScrollOffset(double value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setDouble(_lastScrollOffsetKey, value);
+  }
+
+  static Future<int> getLastReadingIndex() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_lastReadingIndexKey) ?? 0;
+  }
+
+  static Future<void> setLastReadingIndex(int value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_lastReadingIndexKey, value);
+  }
+
+  static Future<int> getLastReadingSection() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_lastReadingSectionKey) ?? 0;
+  }
+
+  static Future<void> setLastReadingSection(int value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_lastReadingSectionKey, value);
   }
 }

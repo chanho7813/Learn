@@ -189,13 +189,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       icon: Icons.auto_stories_outlined,
                       label: '리딩',
                       subtitle: '영어 지문 읽기 연습',
-                      onTap: () {
-                        Navigator.push(
+                      onTap: () async {
+                        await Navigator.push(
                           context,
                           MaterialPageRoute(
                             builder: (_) => const ReadingListScreen(),
                           ),
                         );
+                        _loadWords();
                       },
                     ),
                     const SizedBox(height: 12),

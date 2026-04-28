@@ -39,10 +39,25 @@ class StorageService {
   static Future<int> addWords(List<Word> newWords) async {
     final existing = await loadWords();
     final existingSet = existing.map((w) => w.word.toLowerCase()).toSet();
+    int maxNumber = existing.fold(0, (m, w) => w.number > m ? w.number : m);
     int added = 0;
     for (final w in newWords) {
       if (!existingSet.contains(w.word.toLowerCase())) {
-        existing.add(w);
+        maxNumber++;
+        final numbered = Word(
+          number: w.number > 0 ? w.number : maxNumber,
+          word: w.word,
+          pronunciation: w.pronunciation,
+          briefMeaning: w.briefMeaning,
+          meaning: w.meaning,
+          exampleEn: w.exampleEn,
+          exampleKo: w.exampleKo,
+          nuances: w.nuances,
+          etymology: w.etymology,
+          etymologyExplain: w.etymologyExplain,
+          relatedWords: w.relatedWords,
+        );
+        existing.add(numbered);
         existingSet.add(w.word.toLowerCase());
         added++;
       }
