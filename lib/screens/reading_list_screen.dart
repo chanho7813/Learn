@@ -20,7 +20,6 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
   static const _readingFiles = [
     'myongji_2025_06_30.txt',
     'myongji_2024_06_30.txt',
-    'myongji_2023_16_30.txt',
     'myongji_2023_06_15.txt',
     'hongik_2025_29_40.txt',
     'hongik_2024_29_40.txt',

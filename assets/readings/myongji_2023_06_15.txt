@@ -1,6 +1,31 @@
 ---
-title: 2023학년도 명지대 영어: 06-15번
+title: 2023학년도 명지대 영어: 01-30번
 ---
+
+## 1번
+
+The world is so inextricably interconnected that cultural and economic isolationism is unthinkable.
+세계는 너무나 불가분하게 상호 연결되어 있어서 문화적, 경제적 고립주의는 상상할 수 없다.
+
+## 2번
+
+The understanding was based on more than just impressions of their malaise.
+그 이해는 그들의 불안감에 대한 단순한 인상 이상에 기반한 것이었다.
+
+## 3번
+
+Americans have separated Clinton's squalid personal behavior from his official stewardship.
+미국인들은 클린턴의 추잡한 개인적 행동을 그의 공직 수행과 분리했다.
+
+## 4번
+
+How can a tube as flimsy as a mosquito's proboscis be stiff enough to act as a hollow boring tool?
+모기의 주둥이만큼 얇은 관이 어떻게 속이 빈 천공 도구로 작동할 만큼 단단할 수 있는가?
+
+## 5번
+
+Italy's industrial heartland came to a standstill as floodwaters blocked more than 170 roads and damaged factories around Turin.
+홍수가 170개 이상의 도로를 막고 토리노 주변의 공장들을 손상시키면서 이탈리아의 산업 중심지가 마비되었다.
 
 ## 6번
 
@@ -240,3 +265,277 @@ This will allow doctors to monitor a patient remotely, and it might be able to d
 
 The patient then would be called in for follow-up testing to confirm the results.
 그러면 환자는 결과를 확인하기 위한 후속 검사를 받으러 오라는 요청을 받게 될 것이다.
+
+## 16번
+
+Both terms 'scientific conservation' and 'technical art history' are of significantly more recent making, and interestingly, both terms were coined in a specific, somewhat polemical context in which the legitimacy of their approaches within the broader fields of conservation and art history was contested.
+'과학적 보존'과 '기술적 미술사'라는 두 용어는 상당히 최근에 만들어졌으며, 흥미롭게도 두 용어 모두 보존과 미술사의 더 넓은 분야 내에서 그 접근법의 정당성이 논쟁되던 구체적이고 다소 논쟁적인 맥락에서 만들어졌다.
+
+Technical art history is a twenty-first-century term.
+기술적 미술사는 21세기 용어이다.
+
+In the late 1990s, David Bomford, trained as a chemist and formerly a Senior Restorer at the National Gallery in London where he was responsible for several publication projects in the seminal 'Art in the Making' series, coined the term technical art history to refer to a field of study concerned with the making of art that "goes far beyond the physical materials of works of art into questions of artists' methods and intentions."
+1990년대 후반, 화학자로 훈련받고 이전에 런던 국립 미술관의 수석 복원사였던 데이비드 봄포드는 "예술 작품의 물리적 재료를 훨씬 넘어 예술가의 방법과 의도에 관한 질문으로 나아가는" 예술 제작에 관한 학문 분야를 지칭하기 위해 기술적 미술사라는 용어를 만들었다.
+
+Bomford invented the term in reaction against the New Art History, which he considered to be too one-sidedly focused on social context; technical art history, instead, entailed a return of the discipline to the object, as it privileged object-based museum research with a strong emphasis on the study of materials as the object of investigation and technical analysis as an approach and method.
+봄포드는 사회적 맥락에 너무 일방적으로 초점을 맞추고 있다고 여긴 신미술사에 대한 반발로 이 용어를 발명했다. 기술적 미술사는 대신 재료 연구를 조사의 대상으로, 기술적 분석을 접근법과 방법으로 강조하는 대상 기반 박물관 연구를 우선시하면서 학문 분야를 대상으로 돌아가게 했다.
+
+## 17번
+
+One student with muscular dystrophy was welcomed into the marching band, and another described her professors as generous and accommodating.
+근이영양증을 가진 한 학생은 행진 악대에 환영받았고, 다른 학생은 교수들을 관대하고 배려심 있다고 묘사했다.
+
+A professor who had been around since the 1980s insisted that conditions at our university are much better today than they were in the recent past.
+1980년대부터 재직한 교수 한 명은 우리 대학의 상황이 최근 과거보다 오늘날 훨씬 나아졌다고 주장했다.
+
+And the panelists and audience agreed that there was a general climate of acceptance and good will toward accommodating people with disabilities on campus.
+그리고 패널들과 청중은 캠퍼스에서 장애를 가진 사람들을 수용하는 것에 대한 전반적인 수용 분위기와 선의가 있다는 데 동의했다.
+
+They also agreed that good will is hardly enough.
+그들은 또한 선의만으로는 충분하지 않다는 데 동의했다.
+
+But neither are the requirements for accommodation mandated by the Americans with Disabilities Act, which fall far short of making college campuses genuinely inclusive environments for people with disabilities.
+하지만 미국 장애인법에 의해 의무화된 편의 제공 요건도 대학 캠퍼스를 장애인을 위한 진정으로 포용적인 환경으로 만드는 데 크게 미치지 못한다.
+
+Recent news stories indicate that my university is hardly alone in confronting these problems.
+최근 뉴스 기사들은 이러한 문제에 직면한 것이 우리 대학만이 아님을 보여준다.
+
+At County College of Morris, in New Jersey, a student was told not to participate in class discussions because the instructor found his severe stutter to be disruptive.
+뉴저지의 모리스 카운티 대학에서 한 학생은 강사가 그의 심한 말더듬이 수업을 방해한다고 판단했기 때문에 수업 토론에 참여하지 말라는 말을 들었다.
+
+## 18번
+
+Even in an increasingly digital age, many readers find that they take in more information when reading a book than when reading a screen.
+점점 더 디지털화되는 시대에도, 많은 독자들은 화면으로 읽을 때보다 책으로 읽을 때 더 많은 정보를 받아들인다고 느낀다.
+
+New research finds that the way they breathe may explain why.
+새로운 연구는 그들이 숨 쉬는 방식이 그 이유를 설명할 수 있다고 발견했다.
+
+Participants read passages on a smartphone or from a book, while researchers tracked respiratory patterns and brain activity.
+참가자들은 스마트폰이나 책으로 지문을 읽었고, 연구자들은 호흡 패턴과 뇌 활동을 추적했다.
+
+As expected, smartphone users scored worse on a comprehension test than those who read books.
+예상대로, 스마트폰 사용자들은 책을 읽은 사람들보다 이해력 테스트에서 더 낮은 점수를 받았다.
+
+Prefrontal activity increased during reading in both media; however, overactivity in the prefrontal cortex was seen in the smartphone group.
+두 매체 모두에서 독서 중 전두엽 활동이 증가했지만, 스마트폰 그룹에서 전두엽 피질의 과활성이 관찰되었다.
+
+Breathing became shallower for all participants — but those who read books took more frequent deep breaths, often in the form of sighing.
+모든 참가자의 호흡이 얕아졌지만, 책을 읽은 사람들은 종종 한숨의 형태로 더 자주 깊은 호흡을 했다.
+
+Sighing is tied to improved executive function and may reduce cognitive load on the prefrontal cortex, the authors note.
+한숨은 향상된 실행 기능과 관련이 있으며 전두엽 피질의 인지적 부하를 줄일 수 있다고 저자들은 지적한다.
+
+They speculate that blue light from screens inhibits sigh generation, hindering the brain's ability to comprehend what's being read.
+그들은 화면의 블루라이트가 한숨 생성을 억제하여 뇌의 읽기 이해 능력을 방해한다고 추측한다.
+
+## 19번
+
+Beware! It's October, the scary month for investors.
+조심하라! 투자자들에게 무서운 달인 10월이다.
+
+The Wall Street crash in October 1929 heralded the Great Depression.
+1929년 10월 월스트리트 붕괴는 대공황을 예고했다.
+
+Oct. 19, 1987 — the "Black Monday" when Dow Jones industrial average fell 22.6% — was the worst single day in U.S. stock-trading history.
+1987년 10월 19일 — 다우존스 산업평균지수가 22.6% 하락한 "블랙 먼데이" — 은 미국 주식 거래 역사상 최악의 하루였다.
+
+Markets also took huge October dives in 1989, 1997 and, here we go again, this year.
+시장은 1989년, 1997년에도 10월에 큰 폭의 하락을 했고, 또다시 올해도 마찬가지이다.
+
+Actually, a little calm research, unruffled by the prevailing paranoia, reveals that a few well-publicized disasters have given October an undeservedly bad rep.
+실제로, 만연한 편집증에 흔들리지 않는 차분한 연구는 몇 가지 잘 알려진 재앙이 10월에 부당하게 나쁜 평판을 주었음을 보여준다.
+
+If you look at the Standard & Poor's 500 index over the past 50 years, you find that the worst month for investors is really September, when the S&P 500 suffers an average loss of 0.2%.
+지난 50년간 S&P 500 지수를 보면, 투자자들에게 최악의 달은 실제로 S&P 500이 평균 0.2%의 손실을 입는 9월이라는 것을 알 수 있다.
+
+Every other month is in positive territory on average. Even October.
+다른 모든 달은 평균적으로 양의 영역에 있다. 10월도 마찬가지이다.
+
+## 20번
+
+For humans it is the form or shape of an item that is usually its most salient feature, leading to our recognition of it.
+인간에게는 보통 물건의 형태나 모양이 가장 두드러진 특징이며, 이것이 우리의 인식으로 이어진다.
+
+Dogs, by contrast, are generally ambivalent about the shape in which, say, their dog biscuits come.
+반면에 개는 일반적으로, 예를 들어 개 비스킷의 모양에 대해 관심이 없다.
+
+Instead, motion, so readily detected by the retinae of dogs, is an intrinsic part of the identity of objects.
+대신, 개의 망막에 의해 쉽게 감지되는 움직임은 대상의 정체성의 본질적인 부분이다.
+
+A running squirrel and an idle squirrel may as well be different squirrels; a skateboarding child and a child holding a skateboard are different children.
+달리는 다람쥐와 가만히 있는 다람쥐는 다른 다람쥐일 수도 있고, 스케이트보드를 타는 아이와 스케이트보드를 들고 있는 아이는 다른 아이이다.
+
+Moving things are more interesting than still ones — as befits an animal at one time designed to chase moving prey.
+움직이는 것은 정지한 것보다 더 흥미롭다 — 한때 움직이는 먹이를 쫓도록 설계된 동물에게 걸맞게.
+
+Rolling quickly on a skateboard, a child is exciting, worth barking at; stop the skateboard and the motion, the dog calms.
+스케이트보드를 타고 빠르게 구르는 아이는 흥미롭고 짖을 가치가 있다. 스케이트보드와 움직임을 멈추면 개는 차분해진다.
+
+## 21번
+
+With newspapers still struggling amid digital competition, a research team decided to investigate the effects of local media closures on corporate crime.
+신문사들이 여전히 디지털 경쟁 속에서 고군분투하는 가운데, 한 연구팀은 지역 언론 폐쇄가 기업 범죄에 미치는 영향을 조사하기로 했다.
+
+The researchers gathered data on U.S. corporate misconduct in the years 2000 to 2017 from Violation Tracker, which records information on infractions and penalties from 44 federal regulatory agencies.
+연구자들은 44개 연방 규제 기관의 위반과 벌금에 관한 정보를 기록하는 바이올레이션 트래커에서 2000년부터 2017년까지의 미국 기업 비위 데이터를 수집했다.
+
+They found 26,450 violations by 1,383 public firms.
+그들은 1,383개 상장 기업에 의한 26,450건의 위반을 발견했다.
+
+They then identified 33 local newspapers that shut their doors at some point from 2003 to 2014.
+그런 다음 2003년부터 2014년 사이에 폐간된 33개 지역 신문을 파악했다.
+
+Comparing local-area violations and penalties in the three years before and after each paper folded, they saw that when a newspaper vanished, violations rose by 1.1%, on average.
+각 신문 폐간 전후 3년간의 지역 위반 및 벌금을 비교한 결과, 신문이 사라지면 위반이 평균 1.1% 증가한 것으로 나타났다.
+
+The severity of violations also increased, and penalties spiked by 15%.
+위반의 심각성도 증가했고, 벌금은 15% 급증했다.
+
+Finally, toxic emissions, which must be reported even when they're legal, jumped by nearly 20%.
+마지막으로, 합법적인 경우에도 보고해야 하는 유독 물질 배출이 거의 20% 증가했다.
+
+## 22번
+
+Being the editor of a high-profile fashion magazine has its rewards: an impressive salary, a generous clothing allowance and at least two trips to Paris and Milan.
+유명 패션 잡지의 편집장이 되면 보상이 따른다: 인상적인 급여, 넉넉한 의류 수당, 그리고 파리와 밀라노로의 최소 두 번의 여행.
+
+But there are drawbacks as well: gossip columnists feast on your every hem length and heel height; sycophantic employees copy your wardrobe; and photographers with prodigious egos must be flattered and indulged.
+하지만 단점도 있다: 가십 칼럼니스트들이 당신의 치맛단 길이와 굽 높이 하나하나를 먹잇감으로 삼고, 아첨하는 직원들은 당신의 옷장을 따라하며, 엄청난 자존심을 가진 사진작가들을 아첨하고 맞춰줘야 한다.
+
+And then there is the pitfall of having your earnest editorial pursuits overshadowed by the more tabloid-friendly stories of where you stand on sable or mink and with whom you are allegedly at war.
+그리고 당신의 진지한 편집 활동이 세이블이나 밍크에 대한 당신의 입장이나 누구와 전쟁 중이라는 타블로이드 친화적인 이야기에 가려지는 함정도 있다.
+
+These are some of the trials experienced in recent months by Kate Betts, 35, the newly installed editor in chief at Harper's Bazaar.
+이것들은 하퍼스 바자의 새로 취임한 편집장인 35세 케이트 베츠가 최근 몇 달간 겪은 시련 중 일부이다.
+
+## 23번
+
+Air seems so thin and insubstantial that we cannot intuitively grasp its role as a global circulator of the essential nutrients carbon, nitrogen, and sulfur as well as of that universal medium of life, water.
+공기는 너무 가볍고 실체가 없어 보여서 탄소, 질소, 황이라는 필수 영양소와 보편적인 생명의 매개체인 물의 지구적 순환자로서의 역할을 직관적으로 파악할 수 없다.
+
+How can something so light, invisible, even odorless, be so critical to life?
+이렇게 가볍고 보이지 않으며 냄새조차 없는 것이 어떻게 생명에 그토록 중요할 수 있을까?
+
+We know that the air holds up birds and airplanes in flight.
+우리는 공기가 새와 비행기를 비행 중에 떠받치고 있다는 것을 안다.
+
+We can recall the delicious caress of a summer breeze on our skin, or the bite of subzero winter air in our noses.
+피부 위의 여름 산들바람의 달콤한 어루만짐이나 영하의 겨울 공기가 코를 무는 것을 떠올릴 수 있다.
+
+Yet, looking across a room, we're conscious only of the people or objects in the room, not of the air that fills it.
+그러나 방 건너편을 볼 때 우리는 방 안의 사람이나 물건만 의식할 뿐 그것을 채우는 공기는 의식하지 못한다.
+
+Indeed, we ordinarily ignore air — unless it blows down our houses or fills our lungs with smoke or smog.
+실제로 우리는 보통 공기를 무시한다 — 공기가 집을 무너뜨리거나 폐를 연기나 스모그로 채우지 않는 한.
+
+We forget that without air, we couldn't even hear each other, since it transmits sound.
+우리는 공기 없이는 소리를 전달하기 때문에 서로의 말조차 들을 수 없다는 것을 잊는다.
+
+## 24-25번
+
+She's getting as long in the tooth as she is in the snout, but Concorde is still the only supermodel in the sky.
+콩코드는 나이가 들어가고 있지만, 여전히 하늘의 유일한 슈퍼모델이다.
+
+Launched in 1976, the Anglo-French supersonic airliner remains the epitome of dash.
+1976년에 취항한 영국-프랑스 합작 초음속 여객기는 여전히 빠른 속도의 전형으로 남아 있다.
+
+The bullet plane once did New York to London in 2 hours, 52 minutes — 65% quicker than your typical jumbo jet.
+이 총알 비행기는 한때 뉴욕에서 런던까지 2시간 52분에 주파했다 — 일반 점보 제트기보다 65% 빠르다.
+
+Its speed, rarity — only 13 were built — and high ticket price mean the Concorde's 100 seats tend to be filled by the world's rich and famous.
+속도, 희소성 — 13대만 제작됨 — 그리고 높은 티켓 가격은 콩코드의 100석이 세계의 부유하고 유명한 사람들로 채워지는 경향이 있음을 의미한다.
+
+But it cannot fly forever, and the industry is already hungry for the next generation of supersonic travel.
+하지만 영원히 비행할 수는 없으며, 업계는 이미 차세대 초음속 여행을 갈망하고 있다.
+
+Fasten your seatbelt: the next trend in supersonic travel is likely to be up close and personal.
+안전벨트를 매라: 초음속 여행의 다음 트렌드는 가까이, 그리고 개인적인 것이 될 가능성이 높다.
+
+Building on the craze for corporate jets — more than 550 are expected to be sold worldwide this year — manufacturers are busily exploring how to create a practical and affordable small-scale model that can let executives fly privately in excess of the sound barrier.
+기업용 제트기 열풍에 힘입어 — 올해 전 세계적으로 550대 이상이 판매될 것으로 예상됨 — 제조업체들은 임원들이 음속 장벽을 초과하여 개인적으로 비행할 수 있는 실용적이고 저렴한 소형 모델을 만드는 방법을 열심히 탐구하고 있다.
+
+France's aerospace heavyweight Dassault Aviation pointed to the future last year when it unveiled plans for the Falcon SST, a supersonic business jet.
+프랑스의 항공우주 대기업 다쏘 항공은 작년에 초음속 비즈니스 제트기인 팔콘 SST 계획을 발표하며 미래를 가리켰다.
+
+Though it may be another decade before the plane actually pokes its nose out of anyone's hangar, the announcement convinced the aviation industry that mini-SSTs are truly on their way.
+이 비행기가 실제로 격납고에서 코를 내밀기까지 또 10년이 걸릴 수 있지만, 이 발표는 미니 SST가 정말로 다가오고 있음을 항공 산업에 확신시켰다.
+
+According to plans, the Falcon, built to accommodate eight passengers, will be able to fly farther than Concorde without refueling.
+계획에 따르면, 8명의 승객을 수용하도록 제작된 팔콘은 연료 보급 없이 콩코드보다 더 멀리 비행할 수 있을 것이다.
+
+And, thanks to noise-suppression technology, it won't generate the sonic boom that prevents the big bird from landing in cities like Tokyo.
+그리고 소음 억제 기술 덕분에 대형기가 도쿄 같은 도시에 착륙하는 것을 막는 소닉 붐을 발생시키지 않을 것이다.
+
+That's music to environmentalists' ears — and practical, too, since "quiet" supersonic aircraft can use existing corporate airport runways.
+이것은 환경주의자들에게 반가운 소식이며 실용적이기도 하다. "조용한" 초음속 항공기가 기존 기업 공항 활주로를 사용할 수 있기 때문이다.
+
+## 26-27번
+
+Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.
+편견과 그 결과에 대한 연구가 심리학자와 사회학자의 영역이라고 생각했기 때문인지, 경제학자들은 미래의 노벨상 수상자인 게리 베커가 박사 논문 '차별의 경제학'을 출판한 1957년까지 이 주제를 대체로 무시했다.
+
+Becker ingeniously modeled prejudice as a "taste for discrimination" in which an individual would be willing to incur costs in order to associate with some persons instead of others.
+베커는 편견을 개인이 다른 사람들 대신 특정 사람들과 교류하기 위해 기꺼이 비용을 감수하는 "차별에 대한 취향"으로 독창적으로 모델링했다.
+
+He showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers.
+그는 그러한 취향이 고용주, 직원, 소비자 중 어디에서 비롯되느냐에 따라 다른 함의를 가질 수 있음을 보여주었다.
+
+And, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination.
+그리고 가장 도발적으로, 완전 경쟁 하에서 편견을 가진 고용주가 차별에 대한 정부의 제재가 없더라도 장기적으로 시장에서 퇴출될 수 있다고 주장했다.
+
+His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.
+그의 사고는 노동 시장 및 기타 분야에서의 차별의 본질과 효과에 대한 방대하고 증가하는 양의 이론적, 실증적 연구를 촉발했다.
+
+Professional baseball, it turns out, provides a rich opportunity to test Becker's theories — as well as alternative "statistical discrimination" models in which differential treatment of workers results from uncertainty about an individual's productivity.
+프로 야구는 베커의 이론뿐만 아니라 개인의 생산성에 대한 불확실성에서 노동자의 차별적 대우가 비롯되는 대안적 "통계적 차별" 모델을 검증할 풍부한 기회를 제공하는 것으로 밝혀졌다.
+
+Long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947.
+연방 법률이 미국에서 고용 차별을 불법으로 만들기 훨씬 전에, 1947년 브랜치 리키가 재키 로빈슨을 브루클린 다저스에서 뛰도록 고용하면서 야구는 통합되었다.
+
+Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that his observation of Robinson's celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic.
+실제로, 베커가 당시 브루클린의 십대였고 자칭 스포츠 팬이었기 때문에, 동료 선수, 팬, 구단주의 편견을 극복한 로빈슨의 유명한 업적에 대한 관찰이 그의 주제에 대한 관심에 기여했을 수 있다고 추측하고 싶어진다.
+
+In any case, baseball's long and well-documented history, the availability of detailed statistics on the individual productivity of its players, and even the existence of related markets make it a unique "field laboratory" in which the implications of economists' speculations may be scrutinized.
+어쨌든, 야구의 길고 잘 기록된 역사, 선수들의 개인 생산성에 대한 상세한 통계의 이용 가능성, 그리고 관련 시장의 존재까지 야구를 경제학자들의 추론의 함의를 면밀히 조사할 수 있는 독특한 "현장 실험실"로 만든다.
+
+## 28-30번
+
+The notion that nothing good happens after midnight does not seem to apply to times of birth.
+자정 이후에는 좋은 일이 일어나지 않는다는 통념은 출생 시간에는 적용되지 않는 것 같다.
+
+Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.
+전 세계적으로 약물로 유도되지 않은 자연분만의 최고 시간대는 새벽 1시에서 7시 사이이며, 그 수는 나머지 시간대에 걸쳐 줄어든다.
+
+This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.
+이것은 많은 과학자들이 이른 아침에 출산하는 것이 일종의 진화적 이점을 제공한다고 믿게 했으며, 아마도 수렵-채집 어머니와 그 영아가 새벽 시간에 집단이 재결합하여 돌봄을 돕고 포식자로부터 방어하는 것이 유익했던 오래전에 얻어진 것일 수 있다.
+
+The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings.
+이 이론의 문제는 인간 출생 시기에 대한 거의 모든 정보가 병원과 같은 현대적, 도시적 환경에서 나온다는 것이며, 이는 시기의 변동을 왜곡하는 인위적 조건을 만들 수 있다.
+
+Not so, it turns out.
+그렇지 않은 것으로 밝혀졌다.
+
+As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles.
+예일 대학교의 칼라이 채니가 미국 체질인류학 저널에서 보여주듯이, 이른 아침 출산은 현대적 생활양식과 전통적 생활양식을 가진 공동체 모두에서 흔하다.
+
+The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.
+채니와 동료들이 연구 대상으로 선택한 어머니들은 아르헨티나의 시골 지방인 포르모사에 살고 있다.
+
+They were divided into two groups that were considered to be both culturally and genetically distinct.
+그들은 문화적으로나 유전적으로나 구별되는 것으로 여겨지는 두 그룹으로 나뉘었다.
+
+One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.
+한 그룹은 스페인인과 원주민의 혼합 혈통으로 비교적 현대적인 생활을 하며 소규모 농업과 목축에 종사하는 크리올로 인구의 1,278명의 여성으로 구성되었다.
+
+The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.
+두 번째 그룹은 포르모사 지역에도 거주하는 전통적인 유목 수렵-채집 민족인 위치족과 토바/콤족에 속하는 1,110명의 여성으로 구성되었다.
+
+If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom.
+현대적 생활방식이 이른 아침 출산을 선호하는 데 역할을 한다면, 채니는 크리올로 여성의 결과에서 그러한 시기가 지배적이지만 위치족과 토바/콤족의 결과에서는 덜 두드러질 것이라고 추측했다.
+
+Not so. The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.
+그렇지 않았다. 데이터와 추가 분석은 두 그룹 간에 평균 출생 시간에 통계적 차이가 없음을 분명히 한다.
+
+Both showed a surge in births between 2am and 3am, and a big trough around 5am.
+둘 다 새벽 2시에서 3시 사이에 출생이 급증하고 5시경에 큰 저점을 보였다.
