@@ -21,10 +21,13 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
     'myongji_2025_06_30.txt',
     'myongji_2024_06_30.txt',
     'myongji_2023_06_15.txt',
-    'hongik_2025_29_40.txt',
-    'hongik_2024_29_40.txt',
-    'hongik_2023_29_40.txt',
-    'hongik_2021_29_40.txt',
+    'hongik_2025_01_40.txt',
+    'hongik_2024_01_40.txt',
+    'hongik_2023_01_40.txt',
+    'hongik_2021_01_40.txt',
+    'jungang_2024_01_40.txt',
+    'jungang_2023_01_40.txt',
+    'jungang_2021_01_40.txt',
   ];
 
   @override
