@@ -15,6 +15,8 @@ class SettingsService {
   static const _lastScrollOffsetKey = 'last_scroll_offset';
   static const _lastReadingIndexKey = 'last_reading_index';
   static const _lastReadingSectionKey = 'last_reading_section';
+  static const _lastMathIndexKey = 'last_math_index';
+  static const _lastMathSectionKey = 'last_math_section';
 
   static Future<bool> getDarkMode() async {
     final prefs = await SharedPreferences.getInstance();
@@ -154,5 +156,25 @@ class SettingsService {
   static Future<void> setLastReadingSection(int value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_lastReadingSectionKey, value);
+  }
+
+  static Future<int> getLastMathIndex() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_lastMathIndexKey) ?? 0;
+  }
+
+  static Future<void> setLastMathIndex(int value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_lastMathIndexKey, value);
+  }
+
+  static Future<int> getLastMathSection() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_lastMathSectionKey) ?? 0;
+  }
+
+  static Future<void> setLastMathSection(int value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_lastMathSectionKey, value);
   }
 }

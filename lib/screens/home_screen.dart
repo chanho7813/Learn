@@ -7,6 +7,7 @@ import '../services/storage_service.dart';
 import '../services/vocabulary_parser.dart';
 import 'word_list_screen.dart';
 import 'reading_list_screen.dart';
+import 'math_list_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -120,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '영어 단어 암기 · 리딩',
+                      '영어 단어 암기 · 리딩 · 수학',
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: colorScheme.onSurface.withAlpha(153),
                       ),
@@ -197,6 +198,20 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         );
                         _loadWords();
+                      },
+                    ),
+                    const SizedBox(height: 12),
+                    _MenuButton(
+                      icon: Icons.calculate_outlined,
+                      label: '수학',
+                      subtitle: '편입수학 문제 풀이',
+                      onTap: () async {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const MathListScreen(),
+                          ),
+                        );
                       },
                     ),
                     const SizedBox(height: 12),
