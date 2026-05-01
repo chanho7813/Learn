@@ -11,7 +11,7 @@ class MathParser {
     String currentTag = '';
     final tagContents = <String, StringBuffer>{};
 
-    void _flushSection() {
+    void flushSection() {
       if (currentSectionTitle.isEmpty) return;
       final question = (tagContents['문제']?.toString() ?? '').trim();
       if (question.isEmpty) return;
@@ -48,7 +48,7 @@ class MathParser {
       }
 
       if (line.startsWith('## ')) {
-        _flushSection();
+        flushSection();
         currentSectionTitle = line.substring(3).trim();
         currentTag = '';
         tagContents.clear();
@@ -71,7 +71,7 @@ class MathParser {
       }
     }
 
-    _flushSection();
+    flushSection();
 
     return MathExam(
       title: title.isEmpty ? fileName : title,

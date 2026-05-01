@@ -8,6 +8,7 @@ import '../services/vocabulary_parser.dart';
 import 'word_list_screen.dart';
 import 'reading_list_screen.dart';
 import 'math_list_screen.dart';
+import 'extract_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -56,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
     for (int i = 1; i <= 5; i++) {
       try {
         final content = await rootBundle.loadString(
-            'assets/wordbooks/vocabulary_${i}.txt');
+            'assets/wordbooks/vocabulary_$i.txt');
         allWords.addAll(VocabularyParser.parse(content));
       } catch (_) {}
     }
@@ -216,9 +217,23 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 12),
                     _MenuButton(
+                      icon: Icons.auto_awesome,
+                      label: 'AI 시험지 추출',
+                      subtitle: '시험지 이미지 → 문제 추출',
+                      onTap: () async {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const ExtractScreen(),
+                          ),
+                        );
+                      },
+                    ),
+                    const SizedBox(height: 12),
+                    _MenuButton(
                       icon: Icons.settings_outlined,
                       label: '설정',
-                      subtitle: '테마, 글꼴 크기 등',
+                      subtitle: '테마, 글꼴 크기, API 키',
                       onTap: () async {
                         await Navigator.push(
                           context,

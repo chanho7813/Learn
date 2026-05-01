@@ -3,6 +3,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import '../models/reading.dart';
 import '../services/reading_parser.dart';
 import '../services/settings_service.dart';
+import '../services/storage_service.dart';
 import 'reading_detail_screen.dart';
 
 class ReadingListScreen extends StatefulWidget {
@@ -16,6 +17,7 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
   List<ReadingPassage> _passages = [];
   bool _loading = true;
   int _lastReadingIndex = 0;
+  int _assetPassageCount = 0;
 
   static const _readingFiles = [
     'myongji_2025_06_30.txt',
@@ -45,14 +47,51 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
         passages.add(ReadingParser.parse(content, file));
       } catch (_) {}
     }
+    final assetCount = passages.length;
+
+    final customExams = await StorageService.getCustomReadingExams();
+    for (int i = 0; i < customExams.length; i++) {
+      try {
+        final passage = ReadingParser.parse(customExams[i], 'custom_$i.txt');
+        if (passage.sections.isNotEmpty) passages.add(passage);
+      } catch (_) {}
+    }
+
     final lastIndex = await SettingsService.getLastReadingIndex();
     if (mounted) {
       setState(() {
         _passages = passages;
-        _lastReadingIndex = lastIndex.clamp(0, passages.length - 1);
+        _assetPassageCount = assetCount;
+        _lastReadingIndex = passages.isEmpty ? 0 : lastIndex.clamp(0, passages.length - 1);
         _loading = false;
       });
     }
+  }
+
+  Future<void> _deleteCustomPassage(int passageIndex) async {
+    final customIndex = passageIndex - _assetPassageCount;
+    if (customIndex < 0) return;
+    final confirm = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('지문 삭제'),
+        content: Text('${_passages[passageIndex].title}을(를) 삭제할까요?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('취소'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: Text('삭제',
+                style: TextStyle(color: Theme.of(ctx).colorScheme.error)),
+          ),
+        ],
+      ),
+    );
+    if (confirm != true) return;
+    await StorageService.removeCustomReadingExam(customIndex);
+    _loadPassages();
   }
 
   @override
@@ -78,11 +117,13 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
                   itemCount: _passages.length,
                   itemBuilder: (context, index) {
                     final passage = _passages[index];
+                    final isCustom = index >= _assetPassageCount;
                     return Padding(
                       padding: const EdgeInsets.only(bottom: 12),
                       child: _PassageCard(
                         passage: passage,
                         isLastRead: index == _lastReadingIndex,
+                        isCustom: isCustom,
                         onTap: () async {
                           await SettingsService.setLastReadingIndex(index);
                           setState(() => _lastReadingIndex = index);
@@ -95,6 +136,7 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
                             ),
                           );
                         },
+                        onLongPress: isCustom ? () => _deleteCustomPassage(index) : null,
                       ),
                     );
                   },
@@ -106,12 +148,16 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
 class _PassageCard extends StatelessWidget {
   final ReadingPassage passage;
   final bool isLastRead;
+  final bool isCustom;
   final VoidCallback onTap;
+  final VoidCallback? onLongPress;
 
   const _PassageCard({
     required this.passage,
     this.isLastRead = false,
+    this.isCustom = false,
     required this.onTap,
+    this.onLongPress,
   });
 
   @override
@@ -129,6 +175,7 @@ class _PassageCard extends StatelessWidget {
       shadowColor: colorScheme.shadow.withAlpha(26),
       child: InkWell(
         onTap: onTap,
+        onLongPress: onLongPress,
         borderRadius: BorderRadius.circular(16),
         child: Container(
           padding: const EdgeInsets.all(20),
@@ -164,17 +211,40 @@ class _PassageCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      passage.title,
-                      style: theme.textTheme.titleSmall?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                    Row(
+                      children: [
+                        Flexible(
+                          child: Text(
+                            passage.title,
+                            style: theme.textTheme.titleSmall?.copyWith(
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                        ),
+                        if (isCustom) ...[
+                          const SizedBox(width: 6),
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+                            decoration: BoxDecoration(
+                              color: colorScheme.tertiaryContainer,
+                              borderRadius: BorderRadius.circular(4),
+                            ),
+                            child: Text(
+                              'AI',
+                              style: theme.textTheme.labelSmall?.copyWith(
+                                color: colorScheme.onTertiaryContainer,
+                                fontSize: 10,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ],
                     ),
                     const SizedBox(height: 4),
                     Text(
                       isLastRead
                           ? '${passage.sections.length}개 지문 · ${passage.totalSentences}문장 · 마지막으로 읽음'
-                          : '${passage.sections.length}개 지문 · ${passage.totalSentences}문장',
+                          : '${passage.sections.length}개 지문 · ${passage.totalSentences}문장${isCustom ? ' · 길게 눌러 삭제' : ''}',
                       style: theme.textTheme.bodySmall?.copyWith(
                         color: isLastRead
                             ? colorScheme.primary

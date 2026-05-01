@@ -76,4 +76,50 @@ class StorageService {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_key);
   }
+
+  static const _customMathKey = 'custom_math_exams';
+
+  static Future<List<String>> getCustomMathExams() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getStringList(_customMathKey) ?? [];
+  }
+
+  static Future<void> addCustomMathExam(String content) async {
+    final prefs = await SharedPreferences.getInstance();
+    final exams = prefs.getStringList(_customMathKey) ?? [];
+    exams.add(content);
+    await prefs.setStringList(_customMathKey, exams);
+  }
+
+  static Future<void> removeCustomMathExam(int index) async {
+    final prefs = await SharedPreferences.getInstance();
+    final exams = prefs.getStringList(_customMathKey) ?? [];
+    if (index >= 0 && index < exams.length) {
+      exams.removeAt(index);
+      await prefs.setStringList(_customMathKey, exams);
+    }
+  }
+
+  static const _customReadingKey = 'custom_reading_exams';
+
+  static Future<List<String>> getCustomReadingExams() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getStringList(_customReadingKey) ?? [];
+  }
+
+  static Future<void> addCustomReadingExam(String content) async {
+    final prefs = await SharedPreferences.getInstance();
+    final exams = prefs.getStringList(_customReadingKey) ?? [];
+    exams.add(content);
+    await prefs.setStringList(_customReadingKey, exams);
+  }
+
+  static Future<void> removeCustomReadingExam(int index) async {
+    final prefs = await SharedPreferences.getInstance();
+    final exams = prefs.getStringList(_customReadingKey) ?? [];
+    if (index >= 0 && index < exams.length) {
+      exams.removeAt(index);
+      await prefs.setStringList(_customReadingKey, exams);
+    }
+  }
 }

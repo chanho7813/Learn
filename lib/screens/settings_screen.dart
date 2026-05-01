@@ -27,6 +27,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool _showExample = true;
   bool _showNuance = true;
   bool _loading = true;
+  bool _hasApiKey = false;
 
   @override
   void initState() {
@@ -44,7 +45,68 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _showRelatedWords = await SettingsService.getShowRelatedWords();
     _showExample = await SettingsService.getShowExample();
     _showNuance = await SettingsService.getShowNuance();
+    final key = await SettingsService.getClaudeApiKey();
+    _hasApiKey = key.isNotEmpty;
     setState(() => _loading = false);
+  }
+
+  Future<void> _showApiKeyDialog() async {
+    final current = await SettingsService.getClaudeApiKey();
+    final controller = TextEditingController(text: current);
+    if (!mounted) return;
+
+    await showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Claude API 키'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'console.anthropic.com에서\nAPI 키를 발급받아 입력하세요.',
+              style: TextStyle(fontSize: 13),
+            ),
+            const SizedBox(height: 16),
+            TextField(
+              controller: controller,
+              decoration: const InputDecoration(
+                labelText: 'API Key',
+                hintText: 'sk-ant-...',
+                border: OutlineInputBorder(),
+              ),
+              obscureText: true,
+            ),
+          ],
+        ),
+        actions: [
+          if (current.isNotEmpty)
+            TextButton(
+              onPressed: () async {
+                await SettingsService.setClaudeApiKey('');
+                setState(() => _hasApiKey = false);
+                if (ctx.mounted) Navigator.pop(ctx);
+              },
+              child: Text('삭제',
+                  style: TextStyle(color: Theme.of(ctx).colorScheme.error)),
+            ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('취소'),
+          ),
+          FilledButton(
+            onPressed: () async {
+              final key = controller.text.trim();
+              await SettingsService.setClaudeApiKey(key);
+              setState(() => _hasApiKey = key.isNotEmpty);
+              if (ctx.mounted) Navigator.pop(ctx);
+            },
+            child: const Text('저장'),
+          ),
+        ],
+      ),
+    );
+    controller.dispose();
   }
 
   Future<String> _getVersion() async {
@@ -169,6 +231,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
               await SettingsService.setShowNuance(v);
               setState(() => _showNuance = v);
             },
+          ),
+          const Divider(),
+          _SectionHeader(title: 'AI 추출'),
+          ListTile(
+            leading: const Icon(Icons.key_outlined),
+            title: const Text('Claude API 키'),
+            subtitle: Text(_hasApiKey ? '설정됨' : '미설정'),
+            trailing: _hasApiKey
+                ? Icon(Icons.check_circle, color: theme.colorScheme.primary, size: 20)
+                : null,
+            onTap: () => _showApiKeyDialog(),
           ),
           const Divider(),
           _SectionHeader(title: '데이터'),

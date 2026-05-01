@@ -17,6 +17,7 @@ class SettingsService {
   static const _lastReadingSectionKey = 'last_reading_section';
   static const _lastMathIndexKey = 'last_math_index';
   static const _lastMathSectionKey = 'last_math_section';
+  static const _claudeApiKeyKey = 'claude_api_key';
 
   static Future<bool> getDarkMode() async {
     final prefs = await SharedPreferences.getInstance();
@@ -176,5 +177,15 @@ class SettingsService {
   static Future<void> setLastMathSection(int value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_lastMathSectionKey, value);
+  }
+
+  static Future<String> getClaudeApiKey() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_claudeApiKeyKey) ?? '';
+  }
+
+  static Future<void> setClaudeApiKey(String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_claudeApiKeyKey, value);
   }
 }
