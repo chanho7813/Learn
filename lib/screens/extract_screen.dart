@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:file_picker/file_picker.dart';
 import '../services/claude_service.dart';
 import '../services/storage_service.dart';
+import '../widgets/math_tex.dart';
 
 class ExtractScreen extends StatefulWidget {
   const ExtractScreen({super.key});
@@ -149,6 +150,97 @@ class _ExtractScreenState extends State<ExtractScreen> {
     Clipboard.setData(ClipboardData(text: _result!));
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('클립보드에 복사되었습니다')),
+    );
+  }
+
+  Widget _buildResultPreview(ThemeData theme, ColorScheme colorScheme) {
+    final lines = _result!.split('\n');
+    final widgets = <Widget>[];
+
+    for (final line in lines) {
+      final trimmed = line.trim();
+
+      if (trimmed.isEmpty) {
+        widgets.add(const SizedBox(height: 6));
+        continue;
+      }
+
+      if (trimmed == '---') {
+        widgets.add(Divider(
+          color: colorScheme.outlineVariant.withAlpha(77),
+          height: 16,
+        ));
+        continue;
+      }
+
+      if (trimmed.startsWith('title:') || trimmed.startsWith('fileName:')) {
+        widgets.add(Text(
+          trimmed,
+          style: TextStyle(
+            fontSize: 11,
+            color: colorScheme.onSurface.withAlpha(128),
+            fontStyle: FontStyle.italic,
+          ),
+        ));
+        continue;
+      }
+
+      if (trimmed.startsWith('## ')) {
+        widgets.add(Padding(
+          padding: const EdgeInsets.only(top: 12, bottom: 4),
+          child: Text(
+            trimmed.substring(3),
+            style: TextStyle(
+              fontSize: 15,
+              fontWeight: FontWeight.w700,
+              color: colorScheme.primary,
+            ),
+          ),
+        ));
+        continue;
+      }
+
+      if (RegExp(r'^\[.+\]$').hasMatch(trimmed)) {
+        final tag = trimmed.substring(1, trimmed.length - 1);
+        final tagColor = switch (tag) {
+          '문제' => colorScheme.primary,
+          '보기' => colorScheme.secondary,
+          '풀이' => Colors.orange,
+          '개념' => colorScheme.tertiary,
+          '정답' => Colors.green,
+          _ => colorScheme.onSurface.withAlpha(153),
+        };
+        widgets.add(Padding(
+          padding: const EdgeInsets.only(top: 8, bottom: 4),
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+            decoration: BoxDecoration(
+              color: tagColor.withAlpha(26),
+              borderRadius: BorderRadius.circular(4),
+            ),
+            child: Text(
+              tag,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: tagColor,
+              ),
+            ),
+          ),
+        ));
+        continue;
+      }
+
+      widgets.add(MathTex(
+        text: trimmed,
+        fontSize: 13,
+        color: colorScheme.onSurface.withAlpha(204),
+      ));
+    }
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: widgets,
     );
   }
 
@@ -393,25 +485,11 @@ class _ExtractScreenState extends State<ExtractScreen> {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    '아래 내용을 복사하여 assets 폴더에 .txt 파일로 저장하세요.',
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: colorScheme.onSurface.withAlpha(179),
-                    ),
-                  ),
                   const SizedBox(height: 12),
                   SizedBox(
-                    height: 300,
+                    height: 400,
                     child: SingleChildScrollView(
-                      child: SelectableText(
-                        _result!,
-                        style: TextStyle(
-                          fontSize: 12,
-                          height: 1.5,
-                          color: colorScheme.onSurface.withAlpha(179),
-                        ),
-                      ),
+                      child: _buildResultPreview(theme, colorScheme),
                     ),
                   ),
                   const SizedBox(height: 12),
