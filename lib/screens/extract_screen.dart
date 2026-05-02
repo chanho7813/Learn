@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:file_picker/file_picker.dart';
 import '../services/claude_service.dart';
-import '../services/settings_service.dart';
 import '../services/storage_service.dart';
 
 class ExtractScreen extends StatefulWidget {
@@ -16,17 +15,27 @@ class ExtractScreen extends StatefulWidget {
 class _ExtractScreenState extends State<ExtractScreen> {
   ExtractionType _type = ExtractionType.math;
   final _titleController = TextEditingController();
-  final _fileNameController = TextEditingController();
   List<PlatformFile> _selectedFiles = [];
   bool _extracting = false;
   String? _result;
   String? _error;
   double _progress = 0;
+  AiProvider _provider = AiProvider.groq;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadProvider();
+  }
+
+  Future<void> _loadProvider() async {
+    final p = await ClaudeService.getActiveProvider();
+    if (mounted) setState(() => _provider = p);
+  }
 
   @override
   void dispose() {
     _titleController.dispose();
-    _fileNameController.dispose();
     super.dispose();
   }
 
@@ -85,17 +94,6 @@ class _ExtractScreenState extends State<ExtractScreen> {
     }
 
     final title = _titleController.text.trim();
-    if (title.isEmpty) {
-      setState(() => _error = '시험 제목을 입력해주세요.');
-      return;
-    }
-
-    final apiKey = await SettingsService.getClaudeApiKey();
-    if (apiKey.isEmpty) {
-      if (!mounted) return;
-      _showApiKeyDialog();
-      return;
-    }
 
     setState(() {
       _extracting = true;
@@ -137,37 +135,12 @@ class _ExtractScreenState extends State<ExtractScreen> {
     } catch (e) {
       final msg = e.toString().replaceFirst('Exception: ', '');
       if (msg == 'API_KEY_MISSING') {
-        if (mounted) _showApiKeyDialog();
+        setState(() => _error = '설정에서 ${_provider.label} API 키를 입력해주세요.');
       } else {
         setState(() => _error = msg);
       }
     } finally {
       setState(() => _extracting = false);
-    }
-  }
-
-  Future<void> _saveResult() async {
-    if (_result == null) return;
-    final fileName = _fileNameController.text.trim();
-    final safeName = fileName.isEmpty
-        ? 'extract_result'
-        : fileName.replaceAll(RegExp(r'[^\w\-.]'), '_');
-
-    final savePath = await FilePicker.pickFiles(
-      dialogTitle: '저장할 위치 선택',
-      type: FileType.any,
-    );
-
-    // fallback: copy to clipboard
-    await Clipboard.setData(ClipboardData(text: _result!));
-    if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(savePath != null
-              ? '저장 완료!'
-              : '클립보드에 복사되었습니다. ($safeName.txt)'),
-        ),
-      );
     }
   }
 
@@ -179,13 +152,26 @@ class _ExtractScreenState extends State<ExtractScreen> {
     );
   }
 
+  String _ensureFileName(String content) {
+    if (content.contains(RegExp(r'fileName\s*:'))) return content;
+    final typeName = _type == ExtractionType.math ? 'math' : 'reading';
+    final fallback = '${typeName}_${DateTime.now().millisecondsSinceEpoch}';
+    final titleMatch = RegExp(r'title:[^\n]*').firstMatch(content);
+    if (titleMatch != null) {
+      final pos = titleMatch.end;
+      return '${content.substring(0, pos)}\nfileName: $fallback${content.substring(pos)}';
+    }
+    return content;
+  }
+
   Future<void> _saveToCategory() async {
     if (_result == null) return;
+    final content = _ensureFileName(_result!);
     try {
       if (_type == ExtractionType.math) {
-        await StorageService.addCustomMathExam(_result!);
+        await StorageService.addCustomMathExam(content);
       } else {
-        await StorageService.addCustomReadingExam(_result!);
+        await StorageService.addCustomReadingExam(content);
       }
       if (mounted) {
         final label = _type == ExtractionType.math ? '수학' : '리딩';
@@ -200,52 +186,6 @@ class _ExtractScreenState extends State<ExtractScreen> {
         );
       }
     }
-  }
-
-  void _showApiKeyDialog() {
-    final controller = TextEditingController();
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: const Text('Claude API 키 설정'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text(
-              'console.anthropic.com에서\nAPI 키를 발급받아 입력하세요.',
-              style: TextStyle(fontSize: 13),
-            ),
-            const SizedBox(height: 16),
-            TextField(
-              controller: controller,
-              decoration: const InputDecoration(
-                labelText: 'API Key',
-                hintText: 'sk-ant-...',
-                border: OutlineInputBorder(),
-              ),
-              obscureText: true,
-            ),
-          ],
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child: const Text('취소'),
-          ),
-          FilledButton(
-            onPressed: () async {
-              final key = controller.text.trim();
-              if (key.isNotEmpty) {
-                await SettingsService.setClaudeApiKey(key);
-                if (ctx.mounted) Navigator.pop(ctx);
-              }
-            },
-            child: const Text('저장'),
-          ),
-        ],
-      ),
-    ).then((_) => controller.dispose());
   }
 
   @override
@@ -293,24 +233,10 @@ class _ExtractScreenState extends State<ExtractScreen> {
           TextField(
             controller: _titleController,
             decoration: InputDecoration(
-              labelText: '시험 제목',
-              hintText: '예: 명지대 2024 편입수학',
+              labelText: '시험 제목 (선택)',
+              hintText: '비워두면 AI가 자동 감지',
               border: const OutlineInputBorder(),
               prefixIcon: const Icon(Icons.title),
-              filled: true,
-              fillColor: colorScheme.surfaceContainerHighest.withAlpha(51),
-            ),
-          ),
-          const SizedBox(height: 12),
-
-          TextField(
-            controller: _fileNameController,
-            decoration: InputDecoration(
-              labelText: '저장 파일명 (선택)',
-              hintText: '예: myongji_2024_math',
-              border: const OutlineInputBorder(),
-              prefixIcon: const Icon(Icons.save_outlined),
-              suffixText: '.txt',
               filled: true,
               fillColor: colorScheme.surfaceContainerHighest.withAlpha(51),
             ),
@@ -361,14 +287,14 @@ class _ExtractScreenState extends State<ExtractScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Groq 무료 API · 이미지만 지원',
+                  '${_provider.label} · ${_provider.description}',
                   style: theme.textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurface.withAlpha(153),
                   ),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'PDF/HWP는 캡처 또는 이미지로 변환 후 업로드',
+                  '설정에서 AI 프로바이더 변경 가능 · 이미지만 지원',
                   style: theme.textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurface.withAlpha(102),
                     fontSize: 11,

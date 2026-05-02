@@ -1,7 +1,5 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:file_picker/file_picker.dart';
 import '../models/word.dart';
 import '../services/storage_service.dart';
 import '../services/vocabulary_parser.dart';
@@ -62,39 +60,6 @@ class _HomeScreenState extends State<HomeScreen> {
       } catch (_) {}
     }
     return allWords;
-  }
-
-  Future<void> _importFile() async {
-    final result = await FilePicker.pickFiles(
-      type: FileType.custom,
-      allowedExtensions: ['txt'],
-      withData: true,
-    );
-    if (result == null || result.files.single.bytes == null) return;
-
-    final content = utf8.decode(result.files.single.bytes!);
-    final parsed = VocabularyParser.parse(content);
-
-    if (parsed.isEmpty) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('파싱할 수 있는 단어가 없습니다.')),
-        );
-      }
-      return;
-    }
-
-    final added = await StorageService.addWords(parsed);
-    await _loadWords();
-
-    if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('${parsed.length}개 단어 중 $added개 새로 추가됨'),
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
-    }
   }
 
   @override
@@ -163,13 +128,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 32),
-                    _MenuButton(
-                      icon: Icons.file_upload_outlined,
-                      label: '단어장 파일 가져오기',
-                      subtitle: '.txt 파일을 선택하세요',
-                      onTap: _importFile,
-                    ),
-                    const SizedBox(height: 12),
                     _MenuButton(
                       icon: Icons.list_alt_rounded,
                       label: '단어 목록 보기',

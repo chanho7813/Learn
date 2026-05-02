@@ -18,6 +18,10 @@ class SettingsService {
   static const _lastMathIndexKey = 'last_math_index';
   static const _lastMathSectionKey = 'last_math_section';
   static const _claudeApiKeyKey = 'claude_api_key';
+  static const _aiProviderKey = 'ai_provider';
+  static const _groqApiKeyKey = 'groq_api_key';
+  static const _geminiApiKeyKey = 'gemini_api_key';
+  static const _gptApiKeyKey = 'gpt_api_key';
 
   static Future<bool> getDarkMode() async {
     final prefs = await SharedPreferences.getInstance();
@@ -187,5 +191,45 @@ class SettingsService {
   static Future<void> setClaudeApiKey(String value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_claudeApiKeyKey, value);
+  }
+
+  static Future<String> getAiProvider() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_aiProviderKey) ?? 'groq';
+  }
+
+  static Future<void> setAiProvider(String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_aiProviderKey, value);
+  }
+
+  static Future<String> getGroqApiKey() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_groqApiKeyKey) ?? '';
+  }
+
+  static Future<void> setGroqApiKey(String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_groqApiKeyKey, value);
+  }
+
+  static Future<String> getGeminiApiKey() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_geminiApiKeyKey) ?? '';
+  }
+
+  static Future<void> setGeminiApiKey(String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_geminiApiKeyKey, value);
+  }
+
+  static Future<String> getGptApiKey() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_gptApiKeyKey) ?? '';
+  }
+
+  static Future<void> setGptApiKey(String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_gptApiKeyKey, value);
   }
 }

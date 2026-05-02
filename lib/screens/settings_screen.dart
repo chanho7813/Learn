@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import '../services/claude_service.dart';
 import '../services/settings_service.dart';
 import '../services/storage_service.dart';
 
@@ -27,7 +28,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool _showExample = true;
   bool _showNuance = true;
   bool _loading = true;
-  bool _hasApiKey = false;
+  AiProvider _activeProvider = AiProvider.groq;
+  final Map<AiProvider, bool> _hasApiKeys = {};
 
   @override
   void initState() {
@@ -45,46 +47,62 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _showRelatedWords = await SettingsService.getShowRelatedWords();
     _showExample = await SettingsService.getShowExample();
     _showNuance = await SettingsService.getShowNuance();
-    final key = await SettingsService.getClaudeApiKey();
-    _hasApiKey = key.isNotEmpty;
+    _activeProvider = await ClaudeService.getActiveProvider();
+    for (final p in AiProvider.values) {
+      final key = await ClaudeService.getApiKeyFor(p);
+      _hasApiKeys[p] = key.isNotEmpty;
+    }
     setState(() => _loading = false);
   }
 
-  Future<void> _showApiKeyDialog() async {
-    final current = await SettingsService.getClaudeApiKey();
-    final controller = TextEditingController(text: current);
+  Future<void> _showApiKeyDialog(AiProvider provider) async {
+    final current = await ClaudeService.getApiKeyFor(provider);
+    final isDefault = provider == AiProvider.groq && current.isNotEmpty &&
+        (await SettingsService.getGroqApiKey()).isEmpty;
+    final controller = TextEditingController(
+        text: isDefault ? '' : current);
     if (!mounted) return;
 
     await showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Claude API 키'),
+        title: Text('${provider.label} API 키'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'console.anthropic.com에서\nAPI 키를 발급받아 입력하세요.',
-              style: TextStyle(fontSize: 13),
+            Text(
+              provider.description,
+              style: const TextStyle(fontSize: 13),
             ),
             const SizedBox(height: 16),
             TextField(
               controller: controller,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'API Key',
-                hintText: 'sk-ant-...',
-                border: OutlineInputBorder(),
+                hintText: provider.hint,
+                border: const OutlineInputBorder(),
               ),
               obscureText: true,
             ),
+            if (provider == AiProvider.groq) ...[
+              const SizedBox(height: 8),
+              Text(
+                '비워두면 기본 키 사용',
+                style: TextStyle(
+                  fontSize: 11,
+                  color: Theme.of(ctx).colorScheme.onSurface.withAlpha(128),
+                ),
+              ),
+            ],
           ],
         ),
         actions: [
-          if (current.isNotEmpty)
+          if (!isDefault && current.isNotEmpty)
             TextButton(
               onPressed: () async {
-                await SettingsService.setClaudeApiKey('');
-                setState(() => _hasApiKey = false);
+                await ClaudeService.setApiKeyFor(provider, '');
+                setState(() => _hasApiKeys[provider] = false);
                 if (ctx.mounted) Navigator.pop(ctx);
               },
               child: Text('삭제',
@@ -97,8 +115,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
           FilledButton(
             onPressed: () async {
               final key = controller.text.trim();
-              await SettingsService.setClaudeApiKey(key);
-              setState(() => _hasApiKey = key.isNotEmpty);
+              await ClaudeService.setApiKeyFor(provider, key);
+              setState(() => _hasApiKeys[provider] = key.isNotEmpty ||
+                  provider == AiProvider.groq);
               if (ctx.mounted) Navigator.pop(ctx);
             },
             child: const Text('저장'),
@@ -234,15 +253,66 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
           const Divider(),
           _SectionHeader(title: 'AI 추출'),
-          ListTile(
-            leading: const Icon(Icons.key_outlined),
-            title: const Text('Claude API 키'),
-            subtitle: Text(_hasApiKey ? '설정됨' : '미설정'),
-            trailing: _hasApiKey
-                ? Icon(Icons.check_circle, color: theme.colorScheme.primary, size: 20)
-                : null,
-            onTap: () => _showApiKeyDialog(),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            child: SegmentedButton<AiProvider>(
+              segments: const [
+                ButtonSegment(value: AiProvider.groq, label: Text('Groq')),
+                ButtonSegment(value: AiProvider.gemini, label: Text('Gemini')),
+                ButtonSegment(value: AiProvider.claude, label: Text('Claude')),
+                ButtonSegment(value: AiProvider.gpt, label: Text('GPT')),
+              ],
+              selected: {_activeProvider},
+              onSelectionChanged: (v) async {
+                final provider = v.first;
+                await SettingsService.setAiProvider(provider.name);
+                setState(() => _activeProvider = provider);
+              },
+            ),
           ),
+          for (final provider in AiProvider.values)
+            ListTile(
+              leading: Icon(
+                provider == _activeProvider
+                    ? Icons.check_circle
+                    : Icons.key_outlined,
+                color: provider == _activeProvider
+                    ? theme.colorScheme.primary
+                    : null,
+              ),
+              title: Text(
+                '${provider.label} API 키',
+                style: provider == _activeProvider
+                    ? TextStyle(
+                        fontWeight: FontWeight.w600,
+                        color: theme.colorScheme.primary,
+                      )
+                    : null,
+              ),
+              subtitle: Text(
+                provider == AiProvider.groq
+                    ? (_hasApiKeys[provider] == true ? '커스텀 키 설정됨' : '기본 키 사용 중')
+                    : (_hasApiKeys[provider] == true ? '설정됨' : '미설정'),
+              ),
+              trailing: provider == _activeProvider
+                  ? Container(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 8, vertical: 2),
+                      decoration: BoxDecoration(
+                        color: theme.colorScheme.primaryContainer,
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: Text(
+                        '사용 중',
+                        style: TextStyle(
+                          fontSize: 11,
+                          color: theme.colorScheme.onPrimaryContainer,
+                        ),
+                      ),
+                    )
+                  : null,
+              onTap: () => _showApiKeyDialog(provider),
+            ),
           const Divider(),
           _SectionHeader(title: '데이터'),
           ListTile(

@@ -4,6 +4,7 @@ class MathParser {
   static MathExam parse(String content, String fileName) {
     final lines = content.split('\n');
     String title = '';
+    String parsedFileName = '';
     final sections = <MathSection>[];
 
     bool inFrontmatter = false;
@@ -43,6 +44,8 @@ class MathParser {
       if (inFrontmatter) {
         if (line.startsWith('title:')) {
           title = line.substring(6).trim();
+        } else if (line.startsWith('fileName:')) {
+          parsedFileName = line.substring(9).trim();
         }
         continue;
       }
@@ -75,7 +78,7 @@ class MathParser {
 
     return MathExam(
       title: title.isEmpty ? fileName : title,
-      fileName: fileName,
+      fileName: parsedFileName.isNotEmpty ? parsedFileName : fileName,
       sections: sections,
     );
   }
