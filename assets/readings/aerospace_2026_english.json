@@ -1,0 +1,936 @@
+{
+  "institution": "aerospace",
+  "institution_ko": "한국항공대",
+  "year": 2026,
+  "exam_kind": "english",
+  "source_text_file": "aerospace_2026_english_extracted_complete.txt",
+  "question_count": 30,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "Choose the word that is closest in meaning to the underlined expression.",
+      "passage_sentences": [
+        "His inclination against bureaucratic intervention has been tested by his predicament."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "resolution"
+        },
+        {
+          "label": "②",
+          "text": "boon"
+        },
+        {
+          "label": "③",
+          "text": "plight"
+        },
+        {
+          "label": "④",
+          "text": "credit"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. His inclination against bureaucratic intervention has been tested by his predicament.\nCHOICES:\n① resolution\n② boon\n③ plight\n④ credit"
+    },
+    {
+      "number": 2,
+      "instruction": "Choose the word that is closest in meaning to the underlined expression.",
+      "passage_sentences": [
+        "They dismissed concerns about collateral trade damage, saying their plans will boost manufacturing in the country over the long term."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "unintended"
+        },
+        {
+          "label": "②",
+          "text": "irreversible"
+        },
+        {
+          "label": "③",
+          "text": "primary"
+        },
+        {
+          "label": "④",
+          "text": "undeviating"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. They dismissed concerns about collateral trade damage, saying their plans will boost manufacturing in the country over the long term.\nCHOICES:\n① unintended\n② irreversible\n③ primary\n④ undeviating"
+    },
+    {
+      "number": 3,
+      "instruction": "Choose the word that is closest in meaning to the underlined expression.",
+      "passage_sentences": [
+        "Both political parties are drawing fresh scrutiny of their positions on health care."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "convulsion"
+        },
+        {
+          "label": "②",
+          "text": "outset"
+        },
+        {
+          "label": "③",
+          "text": "pick"
+        },
+        {
+          "label": "④",
+          "text": "review"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. Both political parties are drawing fresh scrutiny of their positions on health care.\nCHOICES:\n① convulsion\n② outset\n③ pick\n④ review"
+    },
+    {
+      "number": 4,
+      "instruction": "Choose the word that is closest in meaning to the underlined expression.",
+      "passage_sentences": [
+        "Experts say that there is nothing in our law which would invalidate pardons signed by autopen."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "evade"
+        },
+        {
+          "label": "②",
+          "text": "void"
+        },
+        {
+          "label": "③",
+          "text": "protect"
+        },
+        {
+          "label": "④",
+          "text": "approve"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. Experts say that there is nothing in our law which would invalidate pardons signed by autopen.\nCHOICES:\n① evade\n② void\n③ protect\n④ approve"
+    },
+    {
+      "number": 5,
+      "instruction": "Choose the word that is closest in meaning to the underlined expression.",
+      "passage_sentences": [
+        "Scientists can look at the generated datasets and delineate their own conclusions."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "extrapolate"
+        },
+        {
+          "label": "②",
+          "text": "modify"
+        },
+        {
+          "label": "③",
+          "text": "reject"
+        },
+        {
+          "label": "④",
+          "text": "describe"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. Scientists can look at the generated datasets and delineate their own conclusions.\nCHOICES:\n① extrapolate\n② modify\n③ reject\n④ describe [6-10] Choose the one that best completes the sentence. [각 3.3점]"
+    },
+    {
+      "number": 6,
+      "instruction": "Choose the one that best completes the sentence.",
+      "passage_sentences": [
+        "Tipping is a norm in the United States.",
+        "But it hasn't always been this way.",
+        "It's a legacy of slavery and racism and took off in the post-Civil War era.",
+        "Almost immediately, the idea was challenged by reformers who argued that tipping was allowing companies to take advantage of workers by getting away with paying them low or no wages at all.",
+        "The case against tipping was captured in William Rufus Scott's 1916 anti-tipping polemic that railed against the practice and its negative impacts on society.",
+        "The movement had momentum: anti-tipping associations were formed and anti-tipping laws passed.",
+        "Yet, tipping held on to its place in American culture and the anti-tipping movement failed to eradicate it.",
+        "We still tip today and, for some, this remains a contentious issue."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "testy"
+        },
+        {
+          "label": "②",
+          "text": "exploitative"
+        },
+        {
+          "label": "③",
+          "text": "impulsive"
+        },
+        {
+          "label": "④",
+          "text": "persistent"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Tipping is a norm in the United States.\n2. But it hasn't always been this way.\n3. It's a legacy of slavery and racism and took off in the post-Civil War era.\n4. Almost immediately, the idea was challenged by reformers who argued that tipping was allowing companies to take advantage of workers by getting away with paying them low or no wages at all.\n5. The case against tipping was captured in William Rufus Scott's 1916 anti-tipping polemic that railed against the practice and its negative impacts on society.\n6. The movement had momentum: anti-tipping associations were formed and anti-tipping laws passed.\n7. Yet, tipping held on to its place in American culture and the anti-tipping movement failed to eradicate it.\n8. We still tip today and, for some, this remains a contentious issue.\nCHOICES:\n① testy\n② exploitative\n③ impulsive\n④ persistent"
+    },
+    {
+      "number": 7,
+      "instruction": "Choose the one that best completes the sentence.",
+      "passage_sentences": [
+        "A recent study showed a significant decline in insects in an area that is not very much impacted by human at all.",
+        "It's quite remote, quite pristine, and yet still showing this substantial decline in insects.",
+        "The research showed a lag time between temperatures during summer months and their impact a year later, leading the researchers to believe that warming summers were the strongest factor in insect numbers dropping.",
+        "There's very little human development in the immediate vicinity or within several kilometers.",
+        "So it doesn't seem likely that there's any direct impact on land or water use changes caused by humans that could account for this population decline.",
+        "That doesn't leave a lot of other options changing climate to explain this."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "any more than"
+        },
+        {
+          "label": "②",
+          "text": "other than"
+        },
+        {
+          "label": "③",
+          "text": "without"
+        },
+        {
+          "label": "④",
+          "text": "for"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. A recent study showed a significant decline in insects in an area that is not very much impacted by human at all.\n2. It's quite remote, quite pristine, and yet still showing this substantial decline in insects.\n3. The research showed a lag time between temperatures during summer months and their impact a year later, leading the researchers to believe that warming summers were the strongest factor in insect numbers dropping.\n4. There's very little human development in the immediate vicinity or within several kilometers.\n5. So it doesn't seem likely that there's any direct impact on land or water use changes caused by humans that could account for this population decline.\n6. That doesn't leave a lot of other options changing climate to explain this.\nCHOICES:\n① any more than\n② other than\n③ without\n④ for"
+    },
+    {
+      "number": 8,
+      "instruction": "Choose the one that best completes the sentence.",
+      "passage_sentences": [
+        "Doctorow, an internet activist, spends a lot of time singing the praises of \"interoperability.\" It's a technical computer term that basically means allowing products or services to work with other products or services.",
+        "One example is printer ink cartridges.",
+        "In his ideal world, any competitor would be able to make ink cartridges that are compatible ― or interoperable ― with a given printer.",
+        "However, in the existing system, printer manufacturers are able to ensure that users must use only their own very expensive special ink cartridges.",
+        "This is obviously a money-making scheme.",
+        "The tech companies have made it so that many of their products and services are not interoperable. iPhones won't run Android apps.",
+        "Bluesky users can't DM their old Twitter contacts.",
+        "Doctorow suggests these are artificial barriers created by companies to maintain their market power."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "exclusivity"
+        },
+        {
+          "label": "②",
+          "text": "conformity"
+        },
+        {
+          "label": "③",
+          "text": "forfeit"
+        },
+        {
+          "label": "④",
+          "text": "insignificance"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Doctorow, an internet activist, spends a lot of time singing the praises of \"interoperability.\" It's a technical computer term that basically means allowing products or services to work with other products or services.\n2. One example is printer ink cartridges.\n3. In his ideal world, any competitor would be able to make ink cartridges that are compatible ― or interoperable ― with a given printer.\n4. However, in the existing system, printer manufacturers are able to ensure that users must use only their own very expensive special ink cartridges.\n5. This is obviously a money-making scheme.\n6. The tech companies have made it so that many of their products and services are not interoperable. iPhones won't run Android apps.\n7. Bluesky users can't DM their old Twitter contacts.\n8. Doctorow suggests these are artificial barriers created by companies to maintain their market power.\nCHOICES:\n① exclusivity\n② conformity\n③ forfeit\n④ insignificance"
+    },
+    {
+      "number": 9,
+      "instruction": "Choose the one that best completes the sentence.",
+      "passage_sentences": [
+        "\"Gig\" was a natural for the hippies who succeeded the hipsters, who made the avoidance of regular work a condition of tribal membership.",
+        "But the word's more subversive overtones receded along with the counterculture.",
+        "In recent decades, \"gig\" has become just a hip term for any temporary job or stint, with the implication you're not particularly invested in it.",
+        "I think of the barista or bookstore clerk who responds to my questions with a look that says, \"Hey, man, it's a gig.",
+        "I don't really do this?\" That tone of has made \"the gig economy\" the predominant name for what's being touted as the industrial revolution of our times.",
+        "The lifetime job is history, we're told, a victim of technology and the logic of the market.",
+        "Instead, careers will be a patchwork of temporary projects and assignments, with the help of apps and platforms with perky names."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "bias"
+        },
+        {
+          "label": "②",
+          "text": "interrogation"
+        },
+        {
+          "label": "③",
+          "text": "humour"
+        },
+        {
+          "label": "④",
+          "text": "indifference"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. \"Gig\" was a natural for the hippies who succeeded the hipsters, who made the avoidance of regular work a condition of tribal membership.\n2. But the word's more subversive overtones receded along with the counterculture.\n3. In recent decades, \"gig\" has become just a hip term for any temporary job or stint, with the implication you're not particularly invested in it.\n4. I think of the barista or bookstore clerk who responds to my questions with a look that says, \"Hey, man, it's a gig.\n5. I don't really do this?\" That tone of has made \"the gig economy\" the predominant name for what's being touted as the industrial revolution of our times.\n6. The lifetime job is history, we're told, a victim of technology and the logic of the market.\n7. Instead, careers will be a patchwork of temporary projects and assignments, with the help of apps and platforms with perky names.\nCHOICES:\n① bias\n② interrogation\n③ humour\n④ indifference"
+    },
+    {
+      "number": 10,
+      "instruction": "Choose the one that best completes the sentence.",
+      "passage_sentences": [
+        "A study published earlier this year found that almost 70 percent of the 3- to 4-year-old girls whose parents were queried reported relatively strong, gender-based rigidity in the way their daughters chose to dress, with pink frills and dresses well-represented.",
+        "Boys, by contrast, were much less rigid about their dress.",
+        "But when they did have strong preferences, it was very often to avoid girly apparel rather than to embrace stereotypically boyish attire, such as superhero gear or baseball caps.",
+        "This asymmetry between girls and boys highlights part of the problem with pink.",
+        "Pink isn't just the color choice that's , that deviates from \"neutral\" or \"normal.\" It also comes with considerable cultural baggage.",
+        "The connotations differ by hue: hot pink goes with cupcakes and poodles, dusty rose goes with woodland fairies and tea.",
+        "A study of color preferences found that pink was associated with bubble gum, lipstick and rosy cheeks."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "ambiguous"
+        },
+        {
+          "label": "②",
+          "text": "impartial"
+        },
+        {
+          "label": "③",
+          "text": "disinterested"
+        },
+        {
+          "label": "④",
+          "text": "marked"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. A study published earlier this year found that almost 70 percent of the 3- to 4-year-old girls whose parents were queried reported relatively strong, gender-based rigidity in the way their daughters chose to dress, with pink frills and dresses well-represented.\n2. Boys, by contrast, were much less rigid about their dress.\n3. But when they did have strong preferences, it was very often to avoid girly apparel rather than to embrace stereotypically boyish attire, such as superhero gear or baseball caps.\n4. This asymmetry between girls and boys highlights part of the problem with pink.\n5. Pink isn't just the color choice that's , that deviates from \"neutral\" or \"normal.\" It also comes with considerable cultural baggage.\n6. The connotations differ by hue: hot pink goes with cupcakes and poodles, dusty rose goes with woodland fairies and tea.\n7. A study of color preferences found that pink was associated with bubble gum, lipstick and rosy cheeks.\nCHOICES:\n① ambiguous\n② impartial\n③ disinterested\n④ marked [11-12] Choose the one that is either ungrammatical or unacceptable. [각 3.8점]"
+    },
+    {
+      "number": 11,
+      "instruction": "Choose the one that is either ungrammatical or unacceptable.",
+      "passage_sentences": [
+        "If you're thinking about getting an electric vehicle (EV), you're not alone.",
+        "People in the U.S. buy more than a million new cars every month, and as of March, less than 10% of those are electric vehicles.",
+        "But more than half of car shoppers are at least considering battery-powered cars and SUVs, according to multiple studies.",
+        "And shoppers have lots of questions.",
+        "The No.1 question is whether EVs are trulyﾠbetter for the planet, even with mining for batteries and fossil-fuel-based electricity to charge them.",
+        "The answer is yes.",
+        "Many researchers have confirmed it, and online tools let you compare the impacts for yourself.",
+        "One of the most recent analyses says \"big picture, moving away from spewing more CO into the atmosphere is a good 2 thing for the climate.\" And the environmental benefits of EVs are getting bigger over time as grids get cleaner.",
+        "Another question is whether it is better from an environmental standpoint to buy an EV now, or keep driving the gas car you have until you need a new car.",
+        "For the climate, there's a strong case of switching now.",
+        "Creating that new EV ― getting the materials to build it from scratch ― is resource-intensive.",
+        "But the climate impact of a gas-powered car increases every single day you drive it.",
+        "To be precise, more than 85% of a gas-powered vehicle's lifetime emissions come from using the car, not from building the car.",
+        "And that means the new EV, despite its manufacturing costs, will be cleaner over time."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "those are electric vehicles."
+        },
+        {
+          "label": "②",
+          "text": "for yourself."
+        },
+        {
+          "label": "③",
+          "text": "of switching now."
+        },
+        {
+          "label": "④",
+          "text": "despite its manufacturing costs, will be cleaner over time."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that is either ungrammatical or unacceptable.\nPASSAGE_SENTENCES:\n1. If you're thinking about getting an electric vehicle (EV), you're not alone.\n2. People in the U.S. buy more than a million new cars every month, and as of March, less than 10% of those are electric vehicles.\n3. But more than half of car shoppers are at least considering battery-powered cars and SUVs, according to multiple studies.\n4. And shoppers have lots of questions.\n5. The No.1 question is whether EVs are trulyﾠbetter for the planet, even with mining for batteries and fossil-fuel-based electricity to charge them.\n6. The answer is yes.\n7. Many researchers have confirmed it, and online tools let you compare the impacts for yourself.\n8. One of the most recent analyses says \"big picture, moving away from spewing more CO into the atmosphere is a good 2 thing for the climate.\" And the environmental benefits of EVs are getting bigger over time as grids get cleaner.\n9. Another question is whether it is better from an environmental standpoint to buy an EV now, or keep driving the gas car you have until you need a new car.\n10. For the climate, there's a strong case of switching now.\n11. Creating that new EV ― getting the materials to build it from scratch ― is resource-intensive.\n12. But the climate impact of a gas-powered car increases every single day you drive it.\n13. To be precise, more than 85% of a gas-powered vehicle's lifetime emissions come from using the car, not from building the car.\n14. And that means the new EV, despite its manufacturing costs, will be cleaner over time.\nCHOICES:\n① those are electric vehicles.\n② for yourself.\n③ of switching now.\n④ despite its manufacturing costs, will be cleaner over time."
+    },
+    {
+      "number": 12,
+      "instruction": "Choose the one that is either ungrammatical or unacceptable.",
+      "passage_sentences": [
+        "Gossip is a complicated phenomenon.",
+        "At times, it can backfire and sometimes harm people.",
+        "But some scholars say that from an evolutionary perspective, we're wired to gossip since it can give us information that we use to protect ourselves.",
+        "Gossip can help build group cohesion and cooperation.",
+        "When you gossip, you can keep track of who is contributing to the group and who's being selfish.",
+        "And by sharing this information, you can exclude those group members who are social loafers.",
+        "One study surveyed people about their experiences with gossip in the workplace.",
+        "In the study, participants were asked to describe a specific situation in which a co-worker said something either positive or negative about their work performance behind their back to another co-worker.",
+        "Then, they were asked about their reactions to these events.",
+        "Turns out, people felt hurt and angry, but being gossiped about also led them to self-reflection and in some cases motivated them to improve.",
+        "For instance, you were criticized for always arriving at work late.",
+        "Hearing that gossip about yourself may motivate you to want to be in time.",
+        "And that might trigger a change in your behavior for the better.",
+        "Of course, this isn't a license to be loose lips.",
+        "But confiding in your friends and colleagues and sharing impressions about another person ― even when they're negative ― may be helpful.",
+        "[13-17] Choose the best for the blank.",
+        "[각 3.5점]"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "from an evolutionary perspective, we're wired to gossip since it can give us information t"
+        },
+        {
+          "label": "②",
+          "text": "exclude those group members who are social loafers."
+        },
+        {
+          "label": "③",
+          "text": "in time."
+        },
+        {
+          "label": "④",
+          "text": "the better."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that is either ungrammatical or unacceptable.\nPASSAGE_SENTENCES:\n1. Gossip is a complicated phenomenon.\n2. At times, it can backfire and sometimes harm people.\n3. But some scholars say that from an evolutionary perspective, we're wired to gossip since it can give us information that we use to protect ourselves.\n4. Gossip can help build group cohesion and cooperation.\n5. When you gossip, you can keep track of who is contributing to the group and who's being selfish.\n6. And by sharing this information, you can exclude those group members who are social loafers.\n7. One study surveyed people about their experiences with gossip in the workplace.\n8. In the study, participants were asked to describe a specific situation in which a co-worker said something either positive or negative about their work performance behind their back to another co-worker.\n9. Then, they were asked about their reactions to these events.\n10. Turns out, people felt hurt and angry, but being gossiped about also led them to self-reflection and in some cases motivated them to improve.\n11. For instance, you were criticized for always arriving at work late.\n12. Hearing that gossip about yourself may motivate you to want to be in time.\n13. And that might trigger a change in your behavior for the better.\n14. Of course, this isn't a license to be loose lips.\n15. But confiding in your friends and colleagues and sharing impressions about another person ― even when they're negative ― may be helpful.\n16. [13-17] Choose the best for the blank.\n17. [각 3.5점]\nCHOICES:\n① from an evolutionary perspective, we're wired to gossip since it can give us information t\n② exclude those group members who are social loafers.\n③ in time.\n④ the better."
+    },
+    {
+      "number": 13,
+      "instruction": "Choose the best for the blank.",
+      "passage_sentences": [
+        "Ketchup is a pretty unusual substance.",
+        "It behaves both like a solid and a liquid, depending on how you shake that bottle.",
+        "That's because there are two types of fluid: Newtonian and non-Newtonian.",
+        "Newtonian fluids retain their viscosity ― or resistance to flow ― regardless of the amount of force you put on them.",
+        "Non-Newtonian fluids are what is called \"rule breakers.\" Their thickness and viscosity change based on how long, how hard and how fast you push.",
+        "Ketchup ― made of particles from pulverized tomatoes, along with water, vinegar, corn syrup and spices ― belongs to the latter group and .",
+        "Below a certain point of force, ketchup behaves like a solid, leaving you frustrated with anticipation.",
+        "Once you shake the bottle beyond that breaking point, the ketchup becomes 1,000 times thinner, giving you that shower of tomato paste that drowns your fries.",
+        "How?",
+        "When you give that bottle a good, hard shake, all those spherical particles get squished into ellipses that easily flow past each other."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "gets thinner in a glass jar"
+        },
+        {
+          "label": "②",
+          "text": "gets thinner the harder you push"
+        },
+        {
+          "label": "③",
+          "text": "becomes a solid the longer you shake"
+        },
+        {
+          "label": "④",
+          "text": "becomes a solid as it is heated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Ketchup is a pretty unusual substance.\n2. It behaves both like a solid and a liquid, depending on how you shake that bottle.\n3. That's because there are two types of fluid: Newtonian and non-Newtonian.\n4. Newtonian fluids retain their viscosity ― or resistance to flow ― regardless of the amount of force you put on them.\n5. Non-Newtonian fluids are what is called \"rule breakers.\" Their thickness and viscosity change based on how long, how hard and how fast you push.\n6. Ketchup ― made of particles from pulverized tomatoes, along with water, vinegar, corn syrup and spices ― belongs to the latter group and .\n7. Below a certain point of force, ketchup behaves like a solid, leaving you frustrated with anticipation.\n8. Once you shake the bottle beyond that breaking point, the ketchup becomes 1,000 times thinner, giving you that shower of tomato paste that drowns your fries.\n9. How?\n10. When you give that bottle a good, hard shake, all those spherical particles get squished into ellipses that easily flow past each other.\nCHOICES:\n① gets thinner in a glass jar\n② gets thinner the harder you push\n③ becomes a solid the longer you shake\n④ becomes a solid as it is heated"
+    },
+    {
+      "number": 14,
+      "instruction": "Choose the best for the blank.",
+      "passage_sentences": [
+        "How does caffeine keeps us alert?",
+        "We have a neurotransmitter called adenosine.",
+        "Over the course of the day, levels of it rise, and its job is to gradually make us tired ― create what's called sleep pressure.",
+        "So, eventually, we turn out the lights and go to sleep.",
+        "And there is a receptor that the adenosine fits into.",
+        "And, as it turns out, caffeine fits into the same receptor ― it gets there before the adenosine has a chance to.",
+        "So it essentially blocks the action of that neurotransmitter ― .",
+        "Eventually, though, the adenosine ― it's not like it goes away.",
+        "It keeps building up the level in your bloodstream, so that when the caffeine is finally metabolized and the receptors are available again, you get hit by a flood of adenosine, and you get really tired.",
+        "And what would you do then?",
+        "Well, you'd have another cup of coffee and start the cycle all over again.",
+        "That's what keeps us awake.",
+        "That's the alertness of caffeine.ﾠ"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "you never get the signal that you are tired"
+        },
+        {
+          "label": "②",
+          "text": "you become unable to focus because of the same receptor"
+        },
+        {
+          "label": "③",
+          "text": "you feel even more exhausted than before"
+        },
+        {
+          "label": "④",
+          "text": "your brain starts producing more adenosine to compensate"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. How does caffeine keeps us alert?\n2. We have a neurotransmitter called adenosine.\n3. Over the course of the day, levels of it rise, and its job is to gradually make us tired ― create what's called sleep pressure.\n4. So, eventually, we turn out the lights and go to sleep.\n5. And there is a receptor that the adenosine fits into.\n6. And, as it turns out, caffeine fits into the same receptor ― it gets there before the adenosine has a chance to.\n7. So it essentially blocks the action of that neurotransmitter ― .\n8. Eventually, though, the adenosine ― it's not like it goes away.\n9. It keeps building up the level in your bloodstream, so that when the caffeine is finally metabolized and the receptors are available again, you get hit by a flood of adenosine, and you get really tired.\n10. And what would you do then?\n11. Well, you'd have another cup of coffee and start the cycle all over again.\n12. That's what keeps us awake.\n13. That's the alertness of caffeine.ﾠ\nCHOICES:\n① you never get the signal that you are tired\n② you become unable to focus because of the same receptor\n③ you feel even more exhausted than before\n④ your brain starts producing more adenosine to compensate"
+    },
+    {
+      "number": 15,
+      "instruction": "Choose the best for the blank.",
+      "passage_sentences": [
+        "A lot of us grow up being fed this idea of time as absolute.",
+        "But the time we're experiencing is a social construct.",
+        "True time is actually much more flexible than most people realize.",
+        "According to Einstein's general theory of relativity, space and time are tied together, and space-time can bend and curve.",
+        "The way to think about it is that that curvature is stretching out time.",
+        "As time stretches, it slows.",
+        "The best-known force that stretches time is gravity.",
+        "The more gravity somebody experiences, the slower time passes for them when compared to someone in a lower gravitational field.",
+        "The effect is minuscule but it is real and measurable.",
+        "Boulder, Colorado is a mile above sea level.",
+        "That means the gravitational field is slightly weaker, and time ticks .",
+        "But modern technology can't deal with flowy time like this.",
+        "As a result, the timekeepers at Boulder and elsewhere make corrections to ensure these different flows of time look like they're ticking in lockstep."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "by a slightly earlier"
+        },
+        {
+          "label": "②",
+          "text": "in tandem"
+        },
+        {
+          "label": "③",
+          "text": "in isolation"
+        },
+        {
+          "label": "④",
+          "text": "by a little faster"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. A lot of us grow up being fed this idea of time as absolute.\n2. But the time we're experiencing is a social construct.\n3. True time is actually much more flexible than most people realize.\n4. According to Einstein's general theory of relativity, space and time are tied together, and space-time can bend and curve.\n5. The way to think about it is that that curvature is stretching out time.\n6. As time stretches, it slows.\n7. The best-known force that stretches time is gravity.\n8. The more gravity somebody experiences, the slower time passes for them when compared to someone in a lower gravitational field.\n9. The effect is minuscule but it is real and measurable.\n10. Boulder, Colorado is a mile above sea level.\n11. That means the gravitational field is slightly weaker, and time ticks .\n12. But modern technology can't deal with flowy time like this.\n13. As a result, the timekeepers at Boulder and elsewhere make corrections to ensure these different flows of time look like they're ticking in lockstep.\nCHOICES:\n① by a slightly earlier\n② in tandem\n③ in isolation\n④ by a little faster"
+    },
+    {
+      "number": 16,
+      "instruction": "Choose the best for the blank.",
+      "passage_sentences": [
+        "A team of researchers in Australia and France want to explore what the bees could do with numbers.",
+        "They lured bees to a wall where they were presented with two square cards.",
+        "Each card had a different number of black symbols, such as dots or triangles.",
+        "The team trained one group of bees to understand that sugar water would always be located under the card with the least number of symbols.",
+        "They could come and see two circles versus three circles, or four triangles versus one triangle.",
+        "The bees quickly learned to fly to the card with the fewest symbols, an impressive feat.",
+        "But then they got another test: The researchers presented the bees with a card that had a single symbol and a blank card that had nothing on it.",
+        "The bees seemed to understand that , because they flew toward the blank card more often than you'd expect if they were choosing at random ― although they weren't that good at distinguishing between the two.",
+        "It got easier for them when they had to compare zero with a larger number, suggesting they consider zero as an actual quantity along the number line.ﾠ"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "zero was less than none"
+        },
+        {
+          "label": "②",
+          "text": "zero was equal to one"
+        },
+        {
+          "label": "③",
+          "text": "zero was not equal to one"
+        },
+        {
+          "label": "④",
+          "text": "zero was less than one"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. A team of researchers in Australia and France want to explore what the bees could do with numbers.\n2. They lured bees to a wall where they were presented with two square cards.\n3. Each card had a different number of black symbols, such as dots or triangles.\n4. The team trained one group of bees to understand that sugar water would always be located under the card with the least number of symbols.\n5. They could come and see two circles versus three circles, or four triangles versus one triangle.\n6. The bees quickly learned to fly to the card with the fewest symbols, an impressive feat.\n7. But then they got another test: The researchers presented the bees with a card that had a single symbol and a blank card that had nothing on it.\n8. The bees seemed to understand that , because they flew toward the blank card more often than you'd expect if they were choosing at random ― although they weren't that good at distinguishing between the two.\n9. It got easier for them when they had to compare zero with a larger number, suggesting they consider zero as an actual quantity along the number line.ﾠ\nCHOICES:\n① zero was less than none\n② zero was equal to one\n③ zero was not equal to one\n④ zero was less than one"
+    },
+    {
+      "number": 17,
+      "instruction": "Choose the best for the blank.",
+      "passage_sentences": [
+        "Why do people act the way they do?",
+        "Many of us intuitively gravitate toward explaining human behavior in terms of personality traits: characteristic patterns of thinking, feeling and behaving that tend to be stable over time and consistent across situations.",
+        "This intuition has been a topic of fierce scientific debate since the 1960s, with some psychologists arguing that situations, not traits, are the most important causes of behavior.",
+        "Some have even argued that personality traits are figments of our imagination that don't exist at all.",
+        "But in the past two decades, a large body of research has established that how people describe someone's personality accurately predicts that person's actual behavior.",
+        "On any one occasion, a person's behavior is influenced by both their personality and the situation, as well as other factors such as their current thoughts, feelings and goals.",
+        "But , the influence of personality on behavior is hard to miss.",
+        "For example, you probably know some people who consistently (but not always) show up punctually, and others who consistently run late."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "if multiple individuals are examined only once across the board"
+        },
+        {
+          "label": "②",
+          "text": "if someone is evaluated by multiple people"
+        },
+        {
+          "label": "③",
+          "text": "when someone is observed repeatedly across a variety of situations"
+        },
+        {
+          "label": "④",
+          "text": "when circumstance is not taken into consideration [18-30] Read the following passages and answer the questions. [각 3.3점] [18-19] If you're curious about what people really think about some of the hottest food controversies, the Pew Research Center presents the interesting results from a survey of attitudes toward genetic modification organism (GMO), organic food and the importance of eating healthfully. For instance, 18 percent of Americans say that their main focus is eating healthy and nutritious food. And 16 percent says that they care about genetically modified foods a great deal. But these are not the same people. Only a third of the people who care most about eating healthfully also care a lot about GMOs. And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. , there is a much stronger connection between attitudes about healthy eating and consumption of organic food. People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them. Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs. Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food. By comparison, a much smaller group, 44 percent, reported that they'd recently bought food labeled GMO-free."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Why do people act the way they do?\n2. Many of us intuitively gravitate toward explaining human behavior in terms of personality traits: characteristic patterns of thinking, feeling and behaving that tend to be stable over time and consistent across situations.\n3. This intuition has been a topic of fierce scientific debate since the 1960s, with some psychologists arguing that situations, not traits, are the most important causes of behavior.\n4. Some have even argued that personality traits are figments of our imagination that don't exist at all.\n5. But in the past two decades, a large body of research has established that how people describe someone's personality accurately predicts that person's actual behavior.\n6. On any one occasion, a person's behavior is influenced by both their personality and the situation, as well as other factors such as their current thoughts, feelings and goals.\n7. But , the influence of personality on behavior is hard to miss.\n8. For example, you probably know some people who consistently (but not always) show up punctually, and others who consistently run late.\nCHOICES:\n① if multiple individuals are examined only once across the board\n② if someone is evaluated by multiple people\n③ when someone is observed repeatedly across a variety of situations\n④ when circumstance is not taken into consideration [18-30] Read the following passages and answer the questions. [각 3.3점] [18-19] If you're curious about what people really think about some of the hottest food controversies, the Pew Research Center presents the interesting results from a survey of attitudes toward genetic modification organism (GMO), organic food and the importance of eating healthfully. For instance, 18 percent of Americans say that their main focus is eating healthy and nutritious food. And 16 percent says that they care about genetically modified foods a great deal. But these are not the same people. Only a third of the people who care most about eating healthfully also care a lot about GMOs. And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. , there is a much stronger connection between attitudes about healthy eating and consumption of organic food. People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them. Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs. Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food. By comparison, a much smaller group, 44 percent, reported that they'd recently bought food labeled GMO-free."
+    },
+    {
+      "number": 18,
+      "instruction": "Read the following passages and answer the questions.  [18-19] If you're curious about what people really think about some of the hottest food controversies, the Pew Research Center presents the interesting results from a survey of attitudes toward genetic modification organism (GMO), organic food and the importance of eating healthfully. For instance, 18 percent of Americans say that their main focus is eating healthy and nutritious food. And 16 percent says that they care about genetically modified foods a great deal. But these are not the same people. Only a third of the people who care most about eating healthfully also care a lot about GMOs. And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. , there is a much stronger connection between attitudes about healthy eating and consumption of organic food. People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them. Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs. Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food. By comparison, a much smaller group, 44 percent, reported that they'd recently bought food labeled GMO-free.",
+      "passage_sentences": [
+        "Choose the best for the blank."
+      ],
+      "question": "Choose the best for the blank.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Particularly"
+        },
+        {
+          "label": "②",
+          "text": "However"
+        },
+        {
+          "label": "③",
+          "text": "What's more"
+        },
+        {
+          "label": "④",
+          "text": "Likewise"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] If you're curious about what people really think about some of the hottest food controversies, the Pew Research Center presents the interesting results from a survey of attitudes toward genetic modification organism (GMO), organic food and the importance of eating healthfully. For instance, 18 percent of Americans say that their main focus is eating healthy and nutritious food. And 16 percent says that they care about genetically modified foods a great deal. But these are not the same people. Only a third of the people who care most about eating healthfully also care a lot about GMOs. And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. , there is a much stronger connection between attitudes about healthy eating and consumption of organic food. People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them. Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs. Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food. By comparison, a much smaller group, 44 percent, reported that they'd recently bought food labeled GMO-free.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① Particularly\n② However\n③ What's more\n④ Likewise"
+    },
+    {
+      "number": 19,
+      "instruction": "Read the following passages and answer the questions.  [18-19] If you're curious about what people really think about some of the hottest food controversies, the Pew Research Center presents the interesting results from a survey of attitudes toward genetic modification organism (GMO), organic food and the importance of eating healthfully. For instance, 18 percent of Americans say that their main focus is eating healthy and nutritious food. And 16 percent says that they care about genetically modified foods a great deal. But these are not the same people. Only a third of the people who care most about eating healthfully also care a lot about GMOs. And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. , there is a much stronger connection between attitudes about healthy eating and consumption of organic food. People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them. Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs. Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food. By comparison, a much smaller group, 44 percent, reported that they'd recently bought food labeled GMO-free.",
+      "passage_sentences": [
+        "What can be inferred from the passage above?"
+      ],
+      "question": "What can be inferred from the passage above?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Knowing the science helps us enjoy our food more."
+        },
+        {
+          "label": "②",
+          "text": "Food issues do not divide people into neat little camps."
+        },
+        {
+          "label": "③",
+          "text": "Eating habits leave people completely united on issues."
+        },
+        {
+          "label": "④",
+          "text": "Americans' attitude toward GMO-free food generally aligns with that toward organic food. [20-21] Artificial intelligence is becoming increasingly common for a number of routine medical scans. The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images. \"AI is spreading everywhere,\" Romanczyk, a gastroenterologist, says. A few years ago, four clinics in Poland tried out an AI system to detect polyps and other abnormalities during colonoscopies. The AI works in real time, analyzing video from a camera inside the colon. If it spots something, it will highlight the area for the clinician to see. In this particular one, there's a green box, showing where the polyp might be. The clinics were collecting data on whether the AI system worked. It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off. In other words, the doctors seemed to AI systems catching the polyps. Romanczyk says he's not quite sure why it's happening, but he has some theories. \"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says. There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button. This is described as a safety-net effect. Romanczyk does believe the drop is real ― though he admits that studying AI in a clinical setting like this can be tricky. He's not against using AI. He actually thinks the little green boxes help him to do better colonoscopies."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] If you're curious about what people really think about some of the hottest food controversies, the Pew Research Center presents the interesting results from a survey of attitudes toward genetic modification organism (GMO), organic food and the importance of eating healthfully. For instance, 18 percent of Americans say that their main focus is eating healthy and nutritious food. And 16 percent says that they care about genetically modified foods a great deal. But these are not the same people. Only a third of the people who care most about eating healthfully also care a lot about GMOs. And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. , there is a much stronger connection between attitudes about healthy eating and consumption of organic food. People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them. Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs. Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food. By comparison, a much smaller group, 44 percent, reported that they'd recently bought food labeled GMO-free.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Knowing the science helps us enjoy our food more.\n② Food issues do not divide people into neat little camps.\n③ Eating habits leave people completely united on issues.\n④ Americans' attitude toward GMO-free food generally aligns with that toward organic food. [20-21] Artificial intelligence is becoming increasingly common for a number of routine medical scans. The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images. \"AI is spreading everywhere,\" Romanczyk, a gastroenterologist, says. A few years ago, four clinics in Poland tried out an AI system to detect polyps and other abnormalities during colonoscopies. The AI works in real time, analyzing video from a camera inside the colon. If it spots something, it will highlight the area for the clinician to see. In this particular one, there's a green box, showing where the polyp might be. The clinics were collecting data on whether the AI system worked. It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off. In other words, the doctors seemed to AI systems catching the polyps. Romanczyk says he's not quite sure why it's happening, but he has some theories. \"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says. There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button. This is described as a safety-net effect. Romanczyk does believe the drop is real ― though he admits that studying AI in a clinical setting like this can be tricky. He's not against using AI. He actually thinks the little green boxes help him to do better colonoscopies."
+    },
+    {
+      "number": 20,
+      "instruction": "Artificial intelligence is becoming increasingly common for a number of routine medical scans. The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images. \"AI is spreading everywhere,\" Romanczyk, a gastroenterologist, says. A few years ago, four clinics in Poland tried out an AI system to detect polyps and other abnormalities during colonoscopies. The AI works in real time, analyzing video from a camera inside the colon. If it spots something, it will highlight the area for the clinician to see. In this particular one, there's a green box, showing where the polyp might be. The clinics were collecting data on whether the AI system worked. It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off. In other words, the doctors seemed to AI systems catching the polyps. Romanczyk says he's not quite sure why it's happening, but he has some theories. \"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says. There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button. This is described as a safety-net effect. Romanczyk does believe the drop is real ― though he admits that studying AI in a clinical setting like this can be tricky. He's not against using AI. He actually thinks the little green boxes help him to do better colonoscopies.",
+      "passage_sentences": [
+        "Choose the best for the blank."
+      ],
+      "question": "Choose the best for the blank.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "become quickly dependent on"
+        },
+        {
+          "label": "②",
+          "text": "pay little attention to"
+        },
+        {
+          "label": "③",
+          "text": "put a strong influence on"
+        },
+        {
+          "label": "④",
+          "text": "grow increasingly skeptical of"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Artificial intelligence is becoming increasingly common for a number of routine medical scans. The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images. \"AI is spreading everywhere,\" Romanczyk, a gastroenterologist, says. A few years ago, four clinics in Poland tried out an AI system to detect polyps and other abnormalities during colonoscopies. The AI works in real time, analyzing video from a camera inside the colon. If it spots something, it will highlight the area for the clinician to see. In this particular one, there's a green box, showing where the polyp might be. The clinics were collecting data on whether the AI system worked. It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off. In other words, the doctors seemed to AI systems catching the polyps. Romanczyk says he's not quite sure why it's happening, but he has some theories. \"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says. There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button. This is described as a safety-net effect. Romanczyk does believe the drop is real ― though he admits that studying AI in a clinical setting like this can be tricky. He's not against using AI. He actually thinks the little green boxes help him to do better colonoscopies.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① become quickly dependent on\n② pay little attention to\n③ put a strong influence on\n④ grow increasingly skeptical of"
+    },
+    {
+      "number": 21,
+      "instruction": "Artificial intelligence is becoming increasingly common for a number of routine medical scans. The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images. \"AI is spreading everywhere,\" Romanczyk, a gastroenterologist, says. A few years ago, four clinics in Poland tried out an AI system to detect polyps and other abnormalities during colonoscopies. The AI works in real time, analyzing video from a camera inside the colon. If it spots something, it will highlight the area for the clinician to see. In this particular one, there's a green box, showing where the polyp might be. The clinics were collecting data on whether the AI system worked. It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off. In other words, the doctors seemed to AI systems catching the polyps. Romanczyk says he's not quite sure why it's happening, but he has some theories. \"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says. There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button. This is described as a safety-net effect. Romanczyk does believe the drop is real ― though he admits that studying AI in a clinical setting like this can be tricky. He's not against using AI. He actually thinks the little green boxes help him to do better colonoscopies.",
+      "passage_sentences": [
+        "What would be the best title of the passage above?"
+      ],
+      "question": "What would be the best title of the passage above?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "AI struggles where medicine demands more"
+        },
+        {
+          "label": "②",
+          "text": "AI cannot replace human judgment in medicine"
+        },
+        {
+          "label": "③",
+          "text": "AI assistance changes how doctors work"
+        },
+        {
+          "label": "④",
+          "text": "AI starts to encroach on what doctors do [22-23] Adolescence is an amazing time of development, scientists say. That development is on display most afternoons at the Shaw Skatepark in Washington, D.C. It's a public site, filled with teens hanging out, taking risks, and learning new skate skills at a rapid pace. When you're younger, your mind is more open, and you're more creative, and nothing matters. So you'll really try anything. Adolescence isn't just for humans. It's also present in chimpanzees. There's something really charming about the chimps when they're going through this adolescent period. They look kind of gangly. And, of course, they are experiencing puberty. They're going through this physical change in the body and those same hormones are resculpting the brain during this period. Part of this resculpting involves the to take risks. A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo. The chimps had a choice. They could go for a sure thing: peanuts. Or they could select a mystery option that might be a boring cucumber or a delicious banana. Adolescent chimpanzees were more likely to choose the mystery option and hopefully get the banana, whereas adults were more likely to play it safe. The fact that we see these shifts in risk taking in the chimps suggests that this is tracking something biological, brain scientists say. It's not something to do with human culture or the way children are exposed to the media or something. For both species, there's a purpose to this kind of risk-taking. This period of adolescent risk-taking lets children grow into adults who are learning to live independently."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Artificial intelligence is becoming increasingly common for a number of routine medical scans. The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images. \"AI is spreading everywhere,\" Romanczyk, a gastroenterologist, says. A few years ago, four clinics in Poland tried out an AI system to detect polyps and other abnormalities during colonoscopies. The AI works in real time, analyzing video from a camera inside the colon. If it spots something, it will highlight the area for the clinician to see. In this particular one, there's a green box, showing where the polyp might be. The clinics were collecting data on whether the AI system worked. It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off. In other words, the doctors seemed to AI systems catching the polyps. Romanczyk says he's not quite sure why it's happening, but he has some theories. \"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says. There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button. This is described as a safety-net effect. Romanczyk does believe the drop is real ― though he admits that studying AI in a clinical setting like this can be tricky. He's not against using AI. He actually thinks the little green boxes help him to do better colonoscopies.\nPASSAGE_SENTENCES:\n1. What would be the best title of the passage above?\nQUESTION:\nWhat would be the best title of the passage above?\nCHOICES:\n① AI struggles where medicine demands more\n② AI cannot replace human judgment in medicine\n③ AI assistance changes how doctors work\n④ AI starts to encroach on what doctors do [22-23] Adolescence is an amazing time of development, scientists say. That development is on display most afternoons at the Shaw Skatepark in Washington, D.C. It's a public site, filled with teens hanging out, taking risks, and learning new skate skills at a rapid pace. When you're younger, your mind is more open, and you're more creative, and nothing matters. So you'll really try anything. Adolescence isn't just for humans. It's also present in chimpanzees. There's something really charming about the chimps when they're going through this adolescent period. They look kind of gangly. And, of course, they are experiencing puberty. They're going through this physical change in the body and those same hormones are resculpting the brain during this period. Part of this resculpting involves the to take risks. A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo. The chimps had a choice. They could go for a sure thing: peanuts. Or they could select a mystery option that might be a boring cucumber or a delicious banana. Adolescent chimpanzees were more likely to choose the mystery option and hopefully get the banana, whereas adults were more likely to play it safe. The fact that we see these shifts in risk taking in the chimps suggests that this is tracking something biological, brain scientists say. It's not something to do with human culture or the way children are exposed to the media or something. For both species, there's a purpose to this kind of risk-taking. This period of adolescent risk-taking lets children grow into adults who are learning to live independently."
+    },
+    {
+      "number": 22,
+      "instruction": "Adolescence is an amazing time of development, scientists say. That development is on display most afternoons at the Shaw Skatepark in Washington, D.C. It's a public site, filled with teens hanging out, taking risks, and learning new skate skills at a rapid pace. When you're younger, your mind is more open, and you're more creative, and nothing matters. So you'll really try anything. Adolescence isn't just for humans. It's also present in chimpanzees. There's something really charming about the chimps when they're going through this adolescent period. They look kind of gangly. And, of course, they are experiencing puberty. They're going through this physical change in the body and those same hormones are resculpting the brain during this period. Part of this resculpting involves the to take risks. A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo. The chimps had a choice. They could go for a sure thing: peanuts. Or they could select a mystery option that might be a boring cucumber or a delicious banana. Adolescent chimpanzees were more likely to choose the mystery option and hopefully get the banana, whereas adults were more likely to play it safe. The fact that we see these shifts in risk taking in the chimps suggests that this is tracking something biological, brain scientists say. It's not something to do with human culture or the way children are exposed to the media or something. For both species, there's a purpose to this kind of risk-taking. This period of adolescent risk-taking lets children grow into adults who are learning to live independently.",
+      "passage_sentences": [
+        "Choose the words that best fill in the blank."
+      ],
+      "question": "Choose the words that best fill in the blank.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "willingness"
+        },
+        {
+          "label": "②",
+          "text": "aptitude"
+        },
+        {
+          "label": "③",
+          "text": "refusal"
+        },
+        {
+          "label": "④",
+          "text": "hesitation"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Adolescence is an amazing time of development, scientists say. That development is on display most afternoons at the Shaw Skatepark in Washington, D.C. It's a public site, filled with teens hanging out, taking risks, and learning new skate skills at a rapid pace. When you're younger, your mind is more open, and you're more creative, and nothing matters. So you'll really try anything. Adolescence isn't just for humans. It's also present in chimpanzees. There's something really charming about the chimps when they're going through this adolescent period. They look kind of gangly. And, of course, they are experiencing puberty. They're going through this physical change in the body and those same hormones are resculpting the brain during this period. Part of this resculpting involves the to take risks. A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo. The chimps had a choice. They could go for a sure thing: peanuts. Or they could select a mystery option that might be a boring cucumber or a delicious banana. Adolescent chimpanzees were more likely to choose the mystery option and hopefully get the banana, whereas adults were more likely to play it safe. The fact that we see these shifts in risk taking in the chimps suggests that this is tracking something biological, brain scientists say. It's not something to do with human culture or the way children are exposed to the media or something. For both species, there's a purpose to this kind of risk-taking. This period of adolescent risk-taking lets children grow into adults who are learning to live independently.\nPASSAGE_SENTENCES:\n1. Choose the words that best fill in the blank.\nQUESTION:\nChoose the words that best fill in the blank.\nCHOICES:\n① willingness\n② aptitude\n③ refusal\n④ hesitation"
+    },
+    {
+      "number": 23,
+      "instruction": "Adolescence is an amazing time of development, scientists say. That development is on display most afternoons at the Shaw Skatepark in Washington, D.C. It's a public site, filled with teens hanging out, taking risks, and learning new skate skills at a rapid pace. When you're younger, your mind is more open, and you're more creative, and nothing matters. So you'll really try anything. Adolescence isn't just for humans. It's also present in chimpanzees. There's something really charming about the chimps when they're going through this adolescent period. They look kind of gangly. And, of course, they are experiencing puberty. They're going through this physical change in the body and those same hormones are resculpting the brain during this period. Part of this resculpting involves the to take risks. A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo. The chimps had a choice. They could go for a sure thing: peanuts. Or they could select a mystery option that might be a boring cucumber or a delicious banana. Adolescent chimpanzees were more likely to choose the mystery option and hopefully get the banana, whereas adults were more likely to play it safe. The fact that we see these shifts in risk taking in the chimps suggests that this is tracking something biological, brain scientists say. It's not something to do with human culture or the way children are exposed to the media or something. For both species, there's a purpose to this kind of risk-taking. This period of adolescent risk-taking lets children grow into adults who are learning to live independently.",
+      "passage_sentences": [
+        "What can be inferred from the passage above?"
+      ],
+      "question": "What can be inferred from the passage above?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Chimpanzees and humans develop risk-taking behaviors for different reasons."
+        },
+        {
+          "label": "②",
+          "text": "Adolescents take risks mainly because of peer pressure."
+        },
+        {
+          "label": "③",
+          "text": "Adult chimpanzees avoid risks because they were trained to choose safe options."
+        },
+        {
+          "label": "④",
+          "text": "Young humans and chimps are both predisposed to risky behavior. [24-25] People motivated by passion first are more likely to work harder than people who aren't personally invested in their work. But they aren't necessarily paid any more. Sometimes, this lack of compensation is . The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay. People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission. But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation. If you're a teacher, it's one thing to be kind, considerate, helpful and attentive to a child. And it's another thing to perform that work as though that's the soul or core piece of one's identity. Untangling your sense of dedication from the number of extra hours you put into the job can actually be good for you, your boss and your team in the long run. When we give workers more rest, more control over their schedule, more vacation time, they're actually more productive, more resilient, and more creative. It's actually not to an organization's benefit to demand this culture of overwork all the time, even though there seems to be a logical connection between expectations of passion and productivity."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Adolescence is an amazing time of development, scientists say. That development is on display most afternoons at the Shaw Skatepark in Washington, D.C. It's a public site, filled with teens hanging out, taking risks, and learning new skate skills at a rapid pace. When you're younger, your mind is more open, and you're more creative, and nothing matters. So you'll really try anything. Adolescence isn't just for humans. It's also present in chimpanzees. There's something really charming about the chimps when they're going through this adolescent period. They look kind of gangly. And, of course, they are experiencing puberty. They're going through this physical change in the body and those same hormones are resculpting the brain during this period. Part of this resculpting involves the to take risks. A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo. The chimps had a choice. They could go for a sure thing: peanuts. Or they could select a mystery option that might be a boring cucumber or a delicious banana. Adolescent chimpanzees were more likely to choose the mystery option and hopefully get the banana, whereas adults were more likely to play it safe. The fact that we see these shifts in risk taking in the chimps suggests that this is tracking something biological, brain scientists say. It's not something to do with human culture or the way children are exposed to the media or something. For both species, there's a purpose to this kind of risk-taking. This period of adolescent risk-taking lets children grow into adults who are learning to live independently.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Chimpanzees and humans develop risk-taking behaviors for different reasons.\n② Adolescents take risks mainly because of peer pressure.\n③ Adult chimpanzees avoid risks because they were trained to choose safe options.\n④ Young humans and chimps are both predisposed to risky behavior. [24-25] People motivated by passion first are more likely to work harder than people who aren't personally invested in their work. But they aren't necessarily paid any more. Sometimes, this lack of compensation is . The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay. People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission. But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation. If you're a teacher, it's one thing to be kind, considerate, helpful and attentive to a child. And it's another thing to perform that work as though that's the soul or core piece of one's identity. Untangling your sense of dedication from the number of extra hours you put into the job can actually be good for you, your boss and your team in the long run. When we give workers more rest, more control over their schedule, more vacation time, they're actually more productive, more resilient, and more creative. It's actually not to an organization's benefit to demand this culture of overwork all the time, even though there seems to be a logical connection between expectations of passion and productivity."
+    },
+    {
+      "number": 24,
+      "instruction": "People motivated by passion first are more likely to work harder than people who aren't personally invested in their work. But they aren't necessarily paid any more. Sometimes, this lack of compensation is . The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay. People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission. But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation. If you're a teacher, it's one thing to be kind, considerate, helpful and attentive to a child. And it's another thing to perform that work as though that's the soul or core piece of one's identity. Untangling your sense of dedication from the number of extra hours you put into the job can actually be good for you, your boss and your team in the long run. When we give workers more rest, more control over their schedule, more vacation time, they're actually more productive, more resilient, and more creative. It's actually not to an organization's benefit to demand this culture of overwork all the time, even though there seems to be a logical connection between expectations of passion and productivity.",
+      "passage_sentences": [
+        "Choose the words that best fill in the blank."
+      ],
+      "question": "Choose the words that best fill in the blank.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "in advance"
+        },
+        {
+          "label": "②",
+          "text": "for free"
+        },
+        {
+          "label": "③",
+          "text": "at will"
+        },
+        {
+          "label": "④",
+          "text": "by design"
+        }
+      ],
+      "raw_text": "INSTRUCTION: People motivated by passion first are more likely to work harder than people who aren't personally invested in their work. But they aren't necessarily paid any more. Sometimes, this lack of compensation is . The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay. People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission. But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation. If you're a teacher, it's one thing to be kind, considerate, helpful and attentive to a child. And it's another thing to perform that work as though that's the soul or core piece of one's identity. Untangling your sense of dedication from the number of extra hours you put into the job can actually be good for you, your boss and your team in the long run. When we give workers more rest, more control over their schedule, more vacation time, they're actually more productive, more resilient, and more creative. It's actually not to an organization's benefit to demand this culture of overwork all the time, even though there seems to be a logical connection between expectations of passion and productivity.\nPASSAGE_SENTENCES:\n1. Choose the words that best fill in the blank.\nQUESTION:\nChoose the words that best fill in the blank.\nCHOICES:\n① in advance\n② for free\n③ at will\n④ by design"
+    },
+    {
+      "number": 25,
+      "instruction": "People motivated by passion first are more likely to work harder than people who aren't personally invested in their work. But they aren't necessarily paid any more. Sometimes, this lack of compensation is . The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay. People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission. But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation. If you're a teacher, it's one thing to be kind, considerate, helpful and attentive to a child. And it's another thing to perform that work as though that's the soul or core piece of one's identity. Untangling your sense of dedication from the number of extra hours you put into the job can actually be good for you, your boss and your team in the long run. When we give workers more rest, more control over their schedule, more vacation time, they're actually more productive, more resilient, and more creative. It's actually not to an organization's benefit to demand this culture of overwork all the time, even though there seems to be a logical connection between expectations of passion and productivity.",
+      "passage_sentences": [
+        "What would be the best title of the passage above?"
+      ],
+      "question": "What would be the best title of the passage above?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "A new career can be flexible and independent, despite smaller paychecks"
+        },
+        {
+          "label": "②",
+          "text": "Burnout isn't just exhaustion"
+        },
+        {
+          "label": "③",
+          "text": "Pushing passion doesn't actually guarantee better work"
+        },
+        {
+          "label": "④",
+          "text": "It's okay to be passionate about your job [26-27] This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina. Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red. She's made a career out of studying this. Every autumn, trees break down the green chlorophyll in their leaves, so that they can recover precious nitrogen before the leaves fall. That nitrogen is necessary for photosynthesis, as well as building proteins and DNA. The loss of this chlorophyll exposes yellow pigments that have been there in the leaves all along. That makes yellow leaves easy to explain. But the red color is different. It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground. \"The red was not there beforehand, you would have seen it, because the leaf would have been purple. Because green plus red equals purple,\" says Hughes. Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\" So why are trees bothering to create costly red pigments in leaves that are almost done for? Hughes says scientists don't have a lot of answers."
+        }
+      ],
+      "raw_text": "INSTRUCTION: People motivated by passion first are more likely to work harder than people who aren't personally invested in their work. But they aren't necessarily paid any more. Sometimes, this lack of compensation is . The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay. People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission. But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation. If you're a teacher, it's one thing to be kind, considerate, helpful and attentive to a child. And it's another thing to perform that work as though that's the soul or core piece of one's identity. Untangling your sense of dedication from the number of extra hours you put into the job can actually be good for you, your boss and your team in the long run. When we give workers more rest, more control over their schedule, more vacation time, they're actually more productive, more resilient, and more creative. It's actually not to an organization's benefit to demand this culture of overwork all the time, even though there seems to be a logical connection between expectations of passion and productivity.\nPASSAGE_SENTENCES:\n1. What would be the best title of the passage above?\nQUESTION:\nWhat would be the best title of the passage above?\nCHOICES:\n① A new career can be flexible and independent, despite smaller paychecks\n② Burnout isn't just exhaustion\n③ Pushing passion doesn't actually guarantee better work\n④ It's okay to be passionate about your job [26-27] This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina. Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red. She's made a career out of studying this. Every autumn, trees break down the green chlorophyll in their leaves, so that they can recover precious nitrogen before the leaves fall. That nitrogen is necessary for photosynthesis, as well as building proteins and DNA. The loss of this chlorophyll exposes yellow pigments that have been there in the leaves all along. That makes yellow leaves easy to explain. But the red color is different. It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground. \"The red was not there beforehand, you would have seen it, because the leaf would have been purple. Because green plus red equals purple,\" says Hughes. Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\" So why are trees bothering to create costly red pigments in leaves that are almost done for? Hughes says scientists don't have a lot of answers."
+    },
+    {
+      "number": 26,
+      "instruction": "This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina. Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red. She's made a career out of studying this. Every autumn, trees break down the green chlorophyll in their leaves, so that they can recover precious nitrogen before the leaves fall. That nitrogen is necessary for photosynthesis, as well as building proteins and DNA. The loss of this chlorophyll exposes yellow pigments that have been there in the leaves all along. That makes yellow leaves easy to explain. But the red color is different. It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground. \"The red was not there beforehand, you would have seen it, because the leaf would have been purple. Because green plus red equals purple,\" says Hughes. Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\" So why are trees bothering to create costly red pigments in leaves that are almost done for? Hughes says scientists don't have a lot of answers.",
+      "passage_sentences": [
+        "Choose the best for the blank."
+      ],
+      "question": "Choose the best for the blank.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "and"
+        },
+        {
+          "label": "②",
+          "text": "or"
+        },
+        {
+          "label": "③",
+          "text": "whether"
+        },
+        {
+          "label": "④",
+          "text": "although"
+        }
+      ],
+      "raw_text": "INSTRUCTION: This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina. Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red. She's made a career out of studying this. Every autumn, trees break down the green chlorophyll in their leaves, so that they can recover precious nitrogen before the leaves fall. That nitrogen is necessary for photosynthesis, as well as building proteins and DNA. The loss of this chlorophyll exposes yellow pigments that have been there in the leaves all along. That makes yellow leaves easy to explain. But the red color is different. It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground. \"The red was not there beforehand, you would have seen it, because the leaf would have been purple. Because green plus red equals purple,\" says Hughes. Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\" So why are trees bothering to create costly red pigments in leaves that are almost done for? Hughes says scientists don't have a lot of answers.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① and\n② or\n③ whether\n④ although"
+    },
+    {
+      "number": 27,
+      "instruction": "This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina. Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red. She's made a career out of studying this. Every autumn, trees break down the green chlorophyll in their leaves, so that they can recover precious nitrogen before the leaves fall. That nitrogen is necessary for photosynthesis, as well as building proteins and DNA. The loss of this chlorophyll exposes yellow pigments that have been there in the leaves all along. That makes yellow leaves easy to explain. But the red color is different. It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground. \"The red was not there beforehand, you would have seen it, because the leaf would have been purple. Because green plus red equals purple,\" says Hughes. Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\" So why are trees bothering to create costly red pigments in leaves that are almost done for? Hughes says scientists don't have a lot of answers.",
+      "passage_sentences": [
+        "What can be inferred from the passage above?"
+      ],
+      "question": "What can be inferred from the passage above?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Scientists still don't know why red pigments appear only at the end."
+        },
+        {
+          "label": "②",
+          "text": "Orange pigments are the same as the yellow pigments found in leaves."
+        },
+        {
+          "label": "③",
+          "text": "All autumn leaves turn red before falling from the tree."
+        },
+        {
+          "label": "④",
+          "text": "Red pigments present but hidden in leaves only become visible in autumn. [28-30] The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important."
+        }
+      ],
+      "raw_text": "INSTRUCTION: This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina. Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red. She's made a career out of studying this. Every autumn, trees break down the green chlorophyll in their leaves, so that they can recover precious nitrogen before the leaves fall. That nitrogen is necessary for photosynthesis, as well as building proteins and DNA. The loss of this chlorophyll exposes yellow pigments that have been there in the leaves all along. That makes yellow leaves easy to explain. But the red color is different. It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground. \"The red was not there beforehand, you would have seen it, because the leaf would have been purple. Because green plus red equals purple,\" says Hughes. Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\" So why are trees bothering to create costly red pigments in leaves that are almost done for? Hughes says scientists don't have a lot of answers.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Scientists still don't know why red pigments appear only at the end.\n② Orange pigments are the same as the yellow pigments found in leaves.\n③ All autumn leaves turn red before falling from the tree.\n④ Red pigments present but hidden in leaves only become visible in autumn. [28-30] The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important."
+    },
+    {
+      "number": 28,
+      "instruction": "The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important.",
+      "passage_sentences": [
+        "But the chances are slim."
+      ],
+      "question": "Find the best place for the following sentence.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important.\nPASSAGE_SENTENCES:\n1. But the chances are slim.\nQUESTION:\nFind the best place for the following sentence.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 29,
+      "instruction": "The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important.",
+      "passage_sentences": [
+        "Choose the best for the blank."
+      ],
+      "question": "Choose the best for the blank.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "dissipate"
+        },
+        {
+          "label": "②",
+          "text": "accumulate"
+        },
+        {
+          "label": "③",
+          "text": "interrupt"
+        },
+        {
+          "label": "④",
+          "text": "reuse"
+        }
+      ],
+      "raw_text": "INSTRUCTION: The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① dissipate\n② accumulate\n③ interrupt\n④ reuse"
+    },
+    {
+      "number": 30,
+      "instruction": "The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important.",
+      "passage_sentences": [
+        "What can be inferred from the passage above?"
+      ],
+      "question": "What can be inferred from the passage above?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Lunar nuclear reactor will completely replace solar power on the moon."
+        },
+        {
+          "label": "②",
+          "text": "Sending the reactor to the moon may be riskier than running it there."
+        },
+        {
+          "label": "③",
+          "text": "The same nuclear reactor operates with greater energy efficiency on the moon than on Earth."
+        },
+        {
+          "label": "④",
+          "text": "Radioactive material in the moon would spread widely in case of an accident."
+        }
+      ],
+      "raw_text": "INSTRUCTION: The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans. The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy. It's an ambitious target that has some in the scientific community concerned about high costs and a potentially unrealistic schedule. (A) Duffy said during a press conference that using nuclear energy as a power source on the moon is necessary to sustain life there and that the U.S. is behind in its efforts. Why a nuclear reactor on the moon? Spacecraft orbiting the Earth or stationed on the moon are typically powered by solar panels. But for any long-term human occupation of the moon, solar power alone won't be enough. NASA now wants to launch a nuclear reactor of at least 100 kilowatts electric output. This would generate less power than typical nuclear reactors in the U.S. and could power only 70 to 80 homes. (B) Operationally, nuclear reactors on the moon work in much the same way as reactors on Earth. A controlled nuclear reaction in uranium fuel is used to generate heat that can be used to make electricity. That's very similar to how the 94 commercially operated nuclear reactors in the U.S. operate. The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors. Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment. Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space. That means they need large radiators that can help them the heat load. The reactors' design also requires them to operate at higher temperatures than on Earth. What are the risks and dangers? Moonquakes and meteorite strikes could damage a reactor. (C) Moreover, even if something did happen on the surface, there's no wind, there's no water that would move the radioactivity around. That's in contrast to Earth, where radioactive fallout can be spread over long distances by wind and rain. Scientists said a nuclear reactor being on the moon is not the primary safety issue ― the main concern is getting the reactor up there and what happens once it reaches the end of its lifespan. (D) It cannot blow up the moon. If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Lunar nuclear reactor will completely replace solar power on the moon.\n② Sending the reactor to the moon may be riskier than running it there.\n③ The same nuclear reactor operates with greater energy efficiency on the moon than on Earth.\n④ Radioactive material in the moon would spread widely in case of an accident."
+    }
+  ]
+}

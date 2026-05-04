@@ -1,0 +1,1315 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2022,
+  "exam_kind": "english",
+  "source_text_file": "chungang_2022_english_extracted_complete_final.txt",
+  "question_count": 40,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The opposition party claimed that his trip to Russia was merely a political junket."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "excursion"
+        },
+        {
+          "label": "②",
+          "text": "incursion"
+        },
+        {
+          "label": "③",
+          "text": "exhortation"
+        },
+        {
+          "label": "④",
+          "text": "inchoation"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The opposition party claimed that his trip to Russia was merely a political junket.\nCHOICES:\n① excursion\n② incursion\n③ exhortation\n④ inchoation"
+    },
+    {
+      "number": 2,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "My erstwhile companions have all gone for their separate ways."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "formal"
+        },
+        {
+          "label": "②",
+          "text": "former"
+        },
+        {
+          "label": "③",
+          "text": "foraging"
+        },
+        {
+          "label": "④",
+          "text": "formidable"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. My erstwhile companions have all gone for their separate ways.\nCHOICES:\n① formal\n② former\n③ foraging\n④ formidable"
+    },
+    {
+      "number": 3,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The old man resumes his career piloting the large passenger planes he had been yearning after."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "simpering"
+        },
+        {
+          "label": "②",
+          "text": "searching"
+        },
+        {
+          "label": "③",
+          "text": "hankering"
+        },
+        {
+          "label": "④",
+          "text": "ensuing"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The old man resumes his career piloting the large passenger planes he had been yearning after.\nCHOICES:\n① simpering\n② searching\n③ hankering\n④ ensuing"
+    },
+    {
+      "number": 4,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Physicists of the late 1940s were revered for making atoms relevant to society and feared for what their toys could do if they were to fall into the hands of evil."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "derided"
+        },
+        {
+          "label": "②",
+          "text": "venerated"
+        },
+        {
+          "label": "③",
+          "text": "extradited"
+        },
+        {
+          "label": "④",
+          "text": "mistrusted"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Physicists of the late 1940s were revered for making atoms relevant to society and feared for what their toys could do if they were to fall into the hands of evil.\nCHOICES:\n① derided\n② venerated\n③ extradited\n④ mistrusted"
+    },
+    {
+      "number": 5,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Her advice was quite gratuitous."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "respective"
+        },
+        {
+          "label": "②",
+          "text": "gamesome"
+        },
+        {
+          "label": "③",
+          "text": "showy"
+        },
+        {
+          "label": "④",
+          "text": "unwarranted"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Her advice was quite gratuitous.\nCHOICES:\n① respective\n② gamesome\n③ showy\n④ unwarranted"
+    },
+    {
+      "number": 6,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "That spoilsport gets in the way of everything I do."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "wet blanket"
+        },
+        {
+          "label": "②",
+          "text": "imposter"
+        },
+        {
+          "label": "③",
+          "text": "energumen"
+        },
+        {
+          "label": "④",
+          "text": "fall guy"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. That spoilsport gets in the way of everything I do.\nCHOICES:\n① wet blanket\n② imposter\n③ energumen\n④ fall guy"
+    },
+    {
+      "number": 7,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오. (각 2점)"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: What’s wrong with Joe? B: He is feeling bad because his boss jumped all over him this morning."
+        },
+        {
+          "label": "②",
+          "text": "A: Can you lend me a hand? B: I need to do my homework now. I’ll help you when I finish."
+        },
+        {
+          "label": "③",
+          "text": "A: Do you know these drinks are on the house? B: Don’t worry. I’ll pay the earth for them."
+        },
+        {
+          "label": "④",
+          "text": "A: You should not spill the beans. B: You bet! My lips are sealed."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오. (각 2점)\nCHOICES:\n① A: What’s wrong with Joe? B: He is feeling bad because his boss jumped all over him this morning.\n② A: Can you lend me a hand? B: I need to do my homework now. I’ll help you when I finish.\n③ A: Do you know these drinks are on the house? B: Don’t worry. I’ll pay the earth for them.\n④ A: You should not spill the beans. B: You bet! My lips are sealed."
+    },
+    {
+      "number": 8,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오. (각 2점)"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: Sorry to hear that you are left high and dry. B: Yeah. I’m not going to let this destroy me. will make the best of it."
+        },
+        {
+          "label": "②",
+          "text": "A: Can’t you stay some more days? B: No, I don’t want to wear out my welcome."
+        },
+        {
+          "label": "③",
+          "text": "A: I can’t seem to be able to finish writing this thesis. B: Just take the bull by the horns and go for it."
+        },
+        {
+          "label": "④",
+          "text": "A: Man, I’m up a tree today. B: I will let you do the honors. 【7 문제지[A형]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은것을 고르시오. (각 2점)\nCHOICES:\n① A: Sorry to hear that you are left high and dry. B: Yeah. I’m not going to let this destroy me. will make the best of it.\n② A: Can’t you stay some more days? B: No, I don’t want to wear out my welcome.\n③ A: I can’t seem to be able to finish writing this thesis. B: Just take the bull by the horns and go for it.\n④ A: Man, I’m up a tree today. B: I will let you do the honors. 【7 문제지[A형]"
+    },
+    {
+      "number": 9,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "Cross-linguistic studies, which compare the abilities of infants growing up with different linguistic"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "backgrounds, show common categorization by infants,"
+        },
+        {
+          "label": "②",
+          "text": "even when there are differences in the phonologies of"
+        },
+        {
+          "label": "③",
+          "text": "the adult language. No error."
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Cross-linguistic studies, which compare the abilities of infants growing up with different linguistic\nCHOICES:\n① backgrounds, show common categorization by infants,\n② even when there are differences in the phonologies of\n③ the adult language. No error.\n④"
+    },
+    {
+      "number": 10,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "She has since tried so many different insulin types,"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "tools and devices that her experiences have almost"
+        },
+        {
+          "label": "②",
+          "text": "mirrored the evolution of insulin themselves. No error."
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. She has since tried so many different insulin types,\nCHOICES:\n① tools and devices that her experiences have almost\n② mirrored the evolution of insulin themselves. No error.\n③ \n④"
+    },
+    {
+      "number": 11,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "The tour operators at Angel Eco-Tours take an"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "interesting approach in what they emphasize the park"
+        },
+        {
+          "label": "②",
+          "text": "and its people more than Angel Falls. No error."
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. The tour operators at Angel Eco-Tours take an\nCHOICES:\n① interesting approach in what they emphasize the park\n② and its people more than Angel Falls. No error.\n③ \n④"
+    },
+    {
+      "number": 12,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Telecasts of the grievances of Native American women _______ Wilma Olaya, a Cherokee, to return to Oklahoma, where she became the tribe’s first female chief."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "actuated"
+        },
+        {
+          "label": "②",
+          "text": "anesthetized"
+        },
+        {
+          "label": "③",
+          "text": "attired"
+        },
+        {
+          "label": "④",
+          "text": "attenuated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Telecasts of the grievances of Native American women _______ Wilma Olaya, a Cherokee, to return to Oklahoma, where she became the tribe’s first female chief.\nCHOICES:\n① actuated\n② anesthetized\n③ attired\n④ attenuated"
+    },
+    {
+      "number": 13,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "In crisis countries, international aid is _______, or even minimal, and often imbalanced between military and civil expenditure."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "ebullient"
+        },
+        {
+          "label": "②",
+          "text": "efficacious"
+        },
+        {
+          "label": "③",
+          "text": "prodigal"
+        },
+        {
+          "label": "④",
+          "text": "parsimonious"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. In crisis countries, international aid is _______, or even minimal, and often imbalanced between military and civil expenditure.\nCHOICES:\n① ebullient\n② efficacious\n③ prodigal\n④ parsimonious"
+    },
+    {
+      "number": 14,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "The journalist who shouted at the president as he made his speech was ________ from the press conference by security guards."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "dejected"
+        },
+        {
+          "label": "②",
+          "text": "disjected"
+        },
+        {
+          "label": "③",
+          "text": "injected"
+        },
+        {
+          "label": "④",
+          "text": "ejected"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The journalist who shouted at the president as he made his speech was ________ from the press conference by security guards.\nCHOICES:\n① dejected\n② disjected\n③ injected\n④ ejected"
+    },
+    {
+      "number": 15,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "They argued that it was proper to ban the practice, I calling it a(n) ________ that had promoted barbarism over the last decade."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "relic"
+        },
+        {
+          "label": "②",
+          "text": "overhaul"
+        },
+        {
+          "label": "③",
+          "text": "masterstroke"
+        },
+        {
+          "label": "④",
+          "text": "premonition"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. They argued that it was proper to ban the practice, I calling it a(n) ________ that had promoted barbarism over the last decade.\nCHOICES:\n① relic\n② overhaul\n③ masterstroke\n④ premonition"
+    },
+    {
+      "number": 16,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "If you put your hand to your mouth, this either indicates that you are hiding something, or that you are nervous. ________ with your hands, for example, tapping the table with your fingers, also shows - 1 】 편입학 시험 영어 nervousness, and so does holding a bag or briefcase very tightly in front of the body."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "Coercing"
+        },
+        {
+          "label": "②",
+          "text": "Buttressing"
+        },
+        {
+          "label": "③",
+          "text": "Fidgeting"
+        },
+        {
+          "label": "④",
+          "text": "Pledging"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. If you put your hand to your mouth, this either indicates that you are hiding something, or that you are nervous. ________ with your hands, for example, tapping the table with your fingers, also shows - 1 】 편입학 시험 영어 nervousness, and so does holding a bag or briefcase very tightly in front of the body.\nCHOICES:\n① Coercing\n② Buttressing\n③ Fidgeting\n④ Pledging"
+    },
+    {
+      "number": 17,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Electoral law has consistently been in _______ because many parties halted the passage of the bill."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "celerity"
+        },
+        {
+          "label": "②",
+          "text": "rapprochement"
+        },
+        {
+          "label": "③",
+          "text": "reactivation"
+        },
+        {
+          "label": "④",
+          "text": "abeyance"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Electoral law has consistently been in _______ because many parties halted the passage of the bill.\nCHOICES:\n① celerity\n② rapprochement\n③ reactivation\n④ abeyance"
+    },
+    {
+      "number": 18,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "The man who had been a well-known _______ splurged on home improvement in contrast with his reputation."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "cluck"
+        },
+        {
+          "label": "②",
+          "text": "miser"
+        },
+        {
+          "label": "③",
+          "text": "bullethead"
+        },
+        {
+          "label": "④",
+          "text": "zealot"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The man who had been a well-known _______ splurged on home improvement in contrast with his reputation.\nCHOICES:\n① cluck\n② miser\n③ bullethead\n④ zealot"
+    },
+    {
+      "number": 19,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Pedagogy, or teacher-directed instruction as it is commonly known, places the student in a _______ role requiring obedience to the teacher’s instructions."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "coactive"
+        },
+        {
+          "label": "②",
+          "text": "conative"
+        },
+        {
+          "label": "③",
+          "text": "submissive"
+        },
+        {
+          "label": "④",
+          "text": "suppressive"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Pedagogy, or teacher-directed instruction as it is commonly known, places the student in a _______ role requiring obedience to the teacher’s instructions.\nCHOICES:\n① coactive\n② conative\n③ submissive\n④ suppressive"
+    },
+    {
+      "number": 20,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "One day, perhaps during the rainy season some 3.7 million years ago, two or three animals walked across a grassland savanna in what is now northern Tanzania, in East Africa.",
+        "These individuals were early hominins, members of the same evolutionary _______ that includes our own species, Homo sapiens.",
+        "Fortunately for us, a record of their passage on that long-forgotten day remains in the form of fossilized footprints, preserved in hardened volcanic deposits.",
+        "As chance would have it, shortly after heels and toes were pressed into the damp soil, a nearby volcano erupted.",
+        "The ensuing ashfall _______ everything on the ground.",
+        "In time, the ash layer hardened into a deposit that remarkably preserved the tracks of numerous animals, including those early hominins, for nearly 4 million years."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "diagram ― bracketed"
+        },
+        {
+          "label": "②",
+          "text": "seriality ― reticulated"
+        },
+        {
+          "label": "③",
+          "text": "lineage ― blanketed"
+        },
+        {
+          "label": "④",
+          "text": "map ― extricated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. One day, perhaps during the rainy season some 3.7 million years ago, two or three animals walked across a grassland savanna in what is now northern Tanzania, in East Africa.\n2. These individuals were early hominins, members of the same evolutionary _______ that includes our own species, Homo sapiens.\n3. Fortunately for us, a record of their passage on that long-forgotten day remains in the form of fossilized footprints, preserved in hardened volcanic deposits.\n4. As chance would have it, shortly after heels and toes were pressed into the damp soil, a nearby volcano erupted.\n5. The ensuing ashfall _______ everything on the ground.\n6. In time, the ash layer hardened into a deposit that remarkably preserved the tracks of numerous animals, including those early hominins, for nearly 4 million years.\nCHOICES:\n① diagram ― bracketed\n② seriality ― reticulated\n③ lineage ― blanketed\n④ map ― extricated"
+    },
+    {
+      "number": 21,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "News headlines from forests, fields, rivers, and oceans suggest we are in a world of trouble.",
+        "Storms ravage the coasts of Asia and the Americas, with more looming as sea levels slowly rise.",
+        "Fresh water is increasingly scarce around the globe, owing not only to heavy water use but also widespread pollution; there is not a single drop of water in the Colorado River in the United States or the Rhone River in France that is not managed through complex dams and distribution systems, or affected by city and industrial waste along their paths to the sea.",
+        "Agricultural soils are _______ from years of intensive cropping and from the ongoing application of fertilizers and pesticides in the search for ever-sustained increases of food and fiber; in North India, after decades of increasing production, yields of wheat and rice have hit a _______.",
+        "Global temperatures are on the rise and, with this increase, 【7 문제지[A형] whole ecosystems are at risk.",
+        "Species of plants and animals are vanishing from the Earth, never to return.",
+        "Perhaps most profoundly, the world’s oceans―upon which these global systems rest―show signs of impending collapse."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "depleted ― plateau"
+        },
+        {
+          "label": "②",
+          "text": "fertilized ― wall"
+        },
+        {
+          "label": "③",
+          "text": "petrified ― rock"
+        },
+        {
+          "label": "④",
+          "text": "obsoleted ― precipice"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. News headlines from forests, fields, rivers, and oceans suggest we are in a world of trouble.\n2. Storms ravage the coasts of Asia and the Americas, with more looming as sea levels slowly rise.\n3. Fresh water is increasingly scarce around the globe, owing not only to heavy water use but also widespread pollution; there is not a single drop of water in the Colorado River in the United States or the Rhone River in France that is not managed through complex dams and distribution systems, or affected by city and industrial waste along their paths to the sea.\n4. Agricultural soils are _______ from years of intensive cropping and from the ongoing application of fertilizers and pesticides in the search for ever-sustained increases of food and fiber; in North India, after decades of increasing production, yields of wheat and rice have hit a _______.\n5. Global temperatures are on the rise and, with this increase, 【7 문제지[A형] whole ecosystems are at risk.\n6. Species of plants and animals are vanishing from the Earth, never to return.\n7. Perhaps most profoundly, the world’s oceans―upon which these global systems rest―show signs of impending collapse.\nCHOICES:\n① depleted ― plateau\n② fertilized ― wall\n③ petrified ― rock\n④ obsoleted ― precipice"
+    },
+    {
+      "number": 22,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Law may be defined as the ethical control applied to communication, and to language as a form of communication, especially when this normative aspect is under the control of some authority sufficiently strong to give its decisions an effective social sanction.",
+        "It is the process of adjusting the “couplings” connecting the behavior of different individuals in such a way that what we call justice may be accomplished, and disputes may be avoided, or at least _______.",
+        "Thus the theory and practice of the law involves two sets of problems: those of its general purpose, of its conception of justice; and those of the technique by which these concepts of justice can be made effective."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "absolved"
+        },
+        {
+          "label": "②",
+          "text": "adjudicated"
+        },
+        {
+          "label": "③",
+          "text": "conjugated"
+        },
+        {
+          "label": "④",
+          "text": "equivocated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Law may be defined as the ethical control applied to communication, and to language as a form of communication, especially when this normative aspect is under the control of some authority sufficiently strong to give its decisions an effective social sanction.\n2. It is the process of adjusting the “couplings” connecting the behavior of different individuals in such a way that what we call justice may be accomplished, and disputes may be avoided, or at least _______.\n3. Thus the theory and practice of the law involves two sets of problems: those of its general purpose, of its conception of justice; and those of the technique by which these concepts of justice can be made effective.\nCHOICES:\n① absolved\n② adjudicated\n③ conjugated\n④ equivocated"
+    },
+    {
+      "number": 23,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "The Greeks, who were apparently strong on visual aids, originated the term ‘stigma’ to refer to bodily signs designed to expose something unusual and bad about the moral status of the signifier.",
+        "The signs were cut or burnt into the body and advertised that the bearer was a slave, a criminal, or a traitor―a(n) _______ person, ritually polluted, to be avoided, especially in public places.",
+        "Later, in Christian times, two layers of metaphor were added to the term: the first referred to bodily signs of holy grace that took the form of _______ blossoms on the skin; the second, a medical allusion to this religious allusion, referred to bodily signs of physical disorder.",
+        "Today the term is widely used in something like the original literal sense, but is applied more to the disgrace itself than to the bodily evidence of it."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "obsequious ― vigorous"
+        },
+        {
+          "label": "②",
+          "text": "facilitated ― gorgeous"
+        },
+        {
+          "label": "③",
+          "text": "credulous ― hectic"
+        },
+        {
+          "label": "④",
+          "text": "blemished ― eruptive"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. The Greeks, who were apparently strong on visual aids, originated the term ‘stigma’ to refer to bodily signs designed to expose something unusual and bad about the moral status of the signifier.\n2. The signs were cut or burnt into the body and advertised that the bearer was a slave, a criminal, or a traitor―a(n) _______ person, ritually polluted, to be avoided, especially in public places.\n3. Later, in Christian times, two layers of metaphor were added to the term: the first referred to bodily signs of holy grace that took the form of _______ blossoms on the skin; the second, a medical allusion to this religious allusion, referred to bodily signs of physical disorder.\n4. Today the term is widely used in something like the original literal sense, but is applied more to the disgrace itself than to the bodily evidence of it.\nCHOICES:\n① obsequious ― vigorous\n② facilitated ― gorgeous\n③ credulous ― hectic\n④ blemished ― eruptive"
+    },
+    {
+      "number": 24,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Sexual selection is a form of natural selection that results from differences among individuals in their ability to obtain mates.",
+        "Population genetic models have shown that changes in the way that a population of sexual organisms chooses or acquires mates can lead to rapid differentiation from ancestral populations.",
+        "For example, if a new mutation led females in a certain population of barn swallows to prefer males with iridescent feathers instead of preferring males with long tails, then sexual selection would trigger _______."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "upturn"
+        },
+        {
+          "label": "②",
+          "text": "convergence"
+        },
+        {
+          "label": "③",
+          "text": "downturn"
+        },
+        {
+          "label": "④",
+          "text": "divergence"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Sexual selection is a form of natural selection that results from differences among individuals in their ability to obtain mates.\n2. Population genetic models have shown that changes in the way that a population of sexual organisms chooses or acquires mates can lead to rapid differentiation from ancestral populations.\n3. For example, if a new mutation led females in a certain population of barn swallows to prefer males with iridescent feathers instead of preferring males with long tails, then sexual selection would trigger _______.\nCHOICES:\n① upturn\n② convergence\n③ downturn\n④ divergence"
+    },
+    {
+      "number": 25,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Scientific results are _______ only in so far as they are the results of a certain stage of scientific - 2 】 편입학 시험 영어 development and liable to be superseded in the course of scientific progress.",
+        "But this does not mean that truth is transmutable.",
+        "If an assertion is true, it is true for ever.",
+        "It only means that most scientific results have the character of _______, i.e. statements for which the evidence is inconclusive, and which are therefore liable to revision at any time.",
+        "These considerations, though not necessary for a criticism of the sociologists, may perhaps help to further the understanding of their theories."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "impregnable ― formula"
+        },
+        {
+          "label": "②",
+          "text": "endurable ― axioms"
+        },
+        {
+          "label": "③",
+          "text": "relative ― hypotheses"
+        },
+        {
+          "label": "④",
+          "text": "tractable ― doctrines"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Scientific results are _______ only in so far as they are the results of a certain stage of scientific - 2 】 편입학 시험 영어 development and liable to be superseded in the course of scientific progress.\n2. But this does not mean that truth is transmutable.\n3. If an assertion is true, it is true for ever.\n4. It only means that most scientific results have the character of _______, i.e. statements for which the evidence is inconclusive, and which are therefore liable to revision at any time.\n5. These considerations, though not necessary for a criticism of the sociologists, may perhaps help to further the understanding of their theories.\nCHOICES:\n① impregnable ― formula\n② endurable ― axioms\n③ relative ― hypotheses\n④ tractable ― doctrines"
+    },
+    {
+      "number": 26,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "By the 1950s behaviorism and psychoanalytic theory had become the most influential schools of thought in psychology.",
+        "However, many psychologists found these theoretical orientations unappealing.",
+        "The principal charge hurled at both schools was that they were “dehumanizing.” Psychoanalytic theory was attacked for its belief that behavior is dominated by primitive, sexual urges.",
+        "Behaviorism was criticized for its preoccupation with the study of simple animal behavior.",
+        "Both theories were criticized because they suggested that ___________________________.",
+        "Above all, many people argued, both schools of thought failed to recognize the unique qualities of human behavior."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "people are not masters of their own destinies"
+        },
+        {
+          "label": "②",
+          "text": "theoretical orientation emphasizes the unique qualities of humans"
+        },
+        {
+          "label": "③",
+          "text": "the potential for personal growth is not so much important as really it is"
+        },
+        {
+          "label": "④",
+          "text": "humans are insensitive to their environment"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. By the 1950s behaviorism and psychoanalytic theory had become the most influential schools of thought in psychology.\n2. However, many psychologists found these theoretical orientations unappealing.\n3. The principal charge hurled at both schools was that they were “dehumanizing.” Psychoanalytic theory was attacked for its belief that behavior is dominated by primitive, sexual urges.\n4. Behaviorism was criticized for its preoccupation with the study of simple animal behavior.\n5. Both theories were criticized because they suggested that ___________________________.\n6. Above all, many people argued, both schools of thought failed to recognize the unique qualities of human behavior.\nCHOICES:\n① people are not masters of their own destinies\n② theoretical orientation emphasizes the unique qualities of humans\n③ the potential for personal growth is not so much important as really it is\n④ humans are insensitive to their environment"
+    },
+    {
+      "number": 27,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "There are lots of people in our stories: good guys and bad, tragic characters, and mysterious personages.",
+        "When we tell our own story, it reminds us that we’re not alone, that we depend on others to help us along the way, to reach the happy endings.",
+        "My friend needed stories.",
+        "He needed to know that there were people like Professor X who could get beyond their wheelchairs, reach beyond their illnesses.",
+        "And I needed my friend’s stories: the stories in his comic books, of colorful heroes and wild adventures and evil villains, and the story in his head, of a boy dying of leukemia who reached out with a box of comics and passed on a treasure.",
+        "These shared stories made us friends.",
+        "That was all either of us could ask for or give.",
+        "Stories connect us to other people, and we have a responsibility to respond to those stories.",
+        "In his book The Call of Stories, the psychologist Robert Coles talks about how his mentors helped him learn the value and necessity of these stories.",
+        "One of his mentors was the famous physician and poet William Carlos Williams, who put the lesson this way: “Their story, yours, mine ―it’s what we all carry with us on this trip we take, and we owe it to each other to respect our stories and 【7 문제지[A형] learn from them.”"
+      ],
+      "question": "위 글의 주장으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "It is well reported that professors and students help themselves to create stories."
+        },
+        {
+          "label": "②",
+          "text": "Poets as well as psychologists play an important role in mentoring our life."
+        },
+        {
+          "label": "③",
+          "text": "Reading books is not simply for fun, but for curing our illnesses."
+        },
+        {
+          "label": "④",
+          "text": "We live a life of stories, answering the call the stories impose."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. There are lots of people in our stories: good guys and bad, tragic characters, and mysterious personages.\n2. When we tell our own story, it reminds us that we’re not alone, that we depend on others to help us along the way, to reach the happy endings.\n3. My friend needed stories.\n4. He needed to know that there were people like Professor X who could get beyond their wheelchairs, reach beyond their illnesses.\n5. And I needed my friend’s stories: the stories in his comic books, of colorful heroes and wild adventures and evil villains, and the story in his head, of a boy dying of leukemia who reached out with a box of comics and passed on a treasure.\n6. These shared stories made us friends.\n7. That was all either of us could ask for or give.\n8. Stories connect us to other people, and we have a responsibility to respond to those stories.\n9. In his book The Call of Stories, the psychologist Robert Coles talks about how his mentors helped him learn the value and necessity of these stories.\n10. One of his mentors was the famous physician and poet William Carlos Williams, who put the lesson this way: “Their story, yours, mine ―it’s what we all carry with us on this trip we take, and we owe it to each other to respect our stories and 【7 문제지[A형] learn from them.”\nQUESTION:\n위 글의 주장으로 가장 적합한 것을 고르시오.\nCHOICES:\n① It is well reported that professors and students help themselves to create stories.\n② Poets as well as psychologists play an important role in mentoring our life.\n③ Reading books is not simply for fun, but for curing our illnesses.\n④ We live a life of stories, answering the call the stories impose."
+    },
+    {
+      "number": 28,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "In the West, most people visit a dentist regularly for both hygiene and beauty.",
+        "They use toothpaste and dental floss daily to keep their teeth clean.",
+        "They have their teeth straightened, whitened, and crowned to make them more attractive to others in their culture.",
+        "However, “attractive” has quite a different meaning in other cultures.",
+        "In the past, in Japan, it was the custom for women to blacken, not whiten, the teeth.",
+        "People in some areas of Africa and chungang Australia have the custom of filing the teeth to sharp points.",
+        "And among the Makololo people of Malawi, the women wear a very large ring―a pelele―in their upper lip.",
+        "Their chief once explained about peleles: “They are the only beautiful things women have.",
+        "Men have beards.",
+        "Women have none.",
+        "What kind of person would she be without the pelele?",
+        "She would not be a woman at all.” While some people in modern urban societies think of tribal lip rings as unattractive and even “disgusting,” other people―in Tokyo or New York or Rome―might choose to wear a small lip ring or to pierce their tongue and wear a ring through the hole."
+      ],
+      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "White teeth were attractive in old Japan for both hygiene and beauty."
+        },
+        {
+          "label": "②",
+          "text": "In the West, people visit dentists for only sanitation and have their teeth straightened, whitened, and crowned."
+        },
+        {
+          "label": "③",
+          "text": "In some urban cultures, people blacken their teeth or file them to sharp points."
+        },
+        {
+          "label": "④",
+          "text": "Makololo women wear a large ring in their upper lip."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. In the West, most people visit a dentist regularly for both hygiene and beauty.\n2. They use toothpaste and dental floss daily to keep their teeth clean.\n3. They have their teeth straightened, whitened, and crowned to make them more attractive to others in their culture.\n4. However, “attractive” has quite a different meaning in other cultures.\n5. In the past, in Japan, it was the custom for women to blacken, not whiten, the teeth.\n6. People in some areas of Africa and chungang Australia have the custom of filing the teeth to sharp points.\n7. And among the Makololo people of Malawi, the women wear a very large ring―a pelele―in their upper lip.\n8. Their chief once explained about peleles: “They are the only beautiful things women have.\n9. Men have beards.\n10. Women have none.\n11. What kind of person would she be without the pelele?\n12. She would not be a woman at all.” While some people in modern urban societies think of tribal lip rings as unattractive and even “disgusting,” other people―in Tokyo or New York or Rome―might choose to wear a small lip ring or to pierce their tongue and wear a ring through the hole.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① White teeth were attractive in old Japan for both hygiene and beauty.\n② In the West, people visit dentists for only sanitation and have their teeth straightened, whitened, and crowned.\n③ In some urban cultures, people blacken their teeth or file them to sharp points.\n④ Makololo women wear a large ring in their upper lip."
+    },
+    {
+      "number": 29,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "In theory, if people lived completely isolated from one another, they would be entirely free to do as they liked.",
+        "But humans are social, and the groups that humans form, as Plato noted, are essentially agreements, or contracts, among the members.",
+        "In forming groups, individuals give up to the group some of their free will.",
+        "The group then has some control over the actions of its members and is intended to exercise that control for the benefit of the membership.",
+        "Rules against theft, murder, and a variety of other actions are agreed on within the group, and all members are made subject to them.",
+        "According to this contract view, social order results from removing a portion of the power that individuals have to do as they like and giving that portion to the group.",
+        "To be expressed, the collective will of the group must be - 3 】 편입학 시험 영어 invested in individuals.",
+        "When people agree that the exercise of power by an individual in a given situation is appropriate, that power is considered to have legitimacy.",
+        "Legitimated power is called authority."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Collectivism in Individualistic Society"
+        },
+        {
+          "label": "②",
+          "text": "Social Order and Legitimate Power"
+        },
+        {
+          "label": "③",
+          "text": "Types of Powers in Society"
+        },
+        {
+          "label": "④",
+          "text": "Proper Ways to Prevent Illegality"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. In theory, if people lived completely isolated from one another, they would be entirely free to do as they liked.\n2. But humans are social, and the groups that humans form, as Plato noted, are essentially agreements, or contracts, among the members.\n3. In forming groups, individuals give up to the group some of their free will.\n4. The group then has some control over the actions of its members and is intended to exercise that control for the benefit of the membership.\n5. Rules against theft, murder, and a variety of other actions are agreed on within the group, and all members are made subject to them.\n6. According to this contract view, social order results from removing a portion of the power that individuals have to do as they like and giving that portion to the group.\n7. To be expressed, the collective will of the group must be - 3 】 편입학 시험 영어 invested in individuals.\n8. When people agree that the exercise of power by an individual in a given situation is appropriate, that power is considered to have legitimacy.\n9. Legitimated power is called authority.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Collectivism in Individualistic Society\n② Social Order and Legitimate Power\n③ Types of Powers in Society\n④ Proper Ways to Prevent Illegality"
+    },
+    {
+      "number": 30,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "When Comet Lovejoy streaked past Earth in 2014, it sported a hazy green aura—a phenomenon also seen with other comets.",
+        "(A) Now, through first-of-their-kind lab measurements, researchers have figured out the odd chemistry behind this colorful glow.",
+        "Scientists have long suspected the green glow around some comets comes from the breakdown of a reactive molecule called dicarbon (C2).",
+        "(B) The details of the chemical reactions they observed were somewhat surprising.",
+        "Rather than absorbing a single photon of light and then emitting a green one as the molecule breaks down, the reaction required the molecule to absorb two photons.",
+        "(C) One of those photons excites the C2 molecule to a semistable state, and the second one is needed to bump it up to an even more energy-rich and unstable configuration.",
+        "From there, the molecule decays and radiates a characteristic green photon, the researchers report online in the Proceedings of the National Academy of Sciences.",
+        "During the process, C2 undergoes two transitions that chemists typically consider “forbidden.” Data gathered during the team’s experiments suggest that, at Earth’s distance from the Sun, the lifetime of the C2 molecule is a little less than 2 days.",
+        "(D) That helps explain why the green glow associated with the breakdown of the molecule only appears around the head of the comet and never in its tail, the researchers say."
+      ],
+      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. To verify this in the lab, researchers used an ultraviolet laser to strip away the chlorine atoms from molecules of carbon chloride (C2Cl4) and then bombarded the remaining C2 molecule with high-intensity light.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. When Comet Lovejoy streaked past Earth in 2014, it sported a hazy green aura—a phenomenon also seen with other comets.\n2. (A) Now, through first-of-their-kind lab measurements, researchers have figured out the odd chemistry behind this colorful glow.\n3. Scientists have long suspected the green glow around some comets comes from the breakdown of a reactive molecule called dicarbon (C2).\n4. (B) The details of the chemical reactions they observed were somewhat surprising.\n5. Rather than absorbing a single photon of light and then emitting a green one as the molecule breaks down, the reaction required the molecule to absorb two photons.\n6. (C) One of those photons excites the C2 molecule to a semistable state, and the second one is needed to bump it up to an even more energy-rich and unstable configuration.\n7. From there, the molecule decays and radiates a characteristic green photon, the researchers report online in the Proceedings of the National Academy of Sciences.\n8. During the process, C2 undergoes two transitions that chemists typically consider “forbidden.” Data gathered during the team’s experiments suggest that, at Earth’s distance from the Sun, the lifetime of the C2 molecule is a little less than 2 days.\n9. (D) That helps explain why the green glow associated with the breakdown of the molecule only appears around the head of the comet and never in its tail, the researchers say.\nQUESTION:\n아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. To verify this in the lab, researchers used an ultraviolet laser to strip away the chlorine atoms from molecules of carbon chloride (C2Cl4) and then bombarded the remaining C2 molecule with high-intensity light.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 31,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states. To this rule, the First World War was no exception. Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well. World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers. (A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe. The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered. While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity. As often happens, the sudden collapse of the enemy took the victors by surprise. Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace. True, some planning was in progress, but not always in the most effectual quarters. (B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments. Exile organizations representing ethnic groups within the chungang powers did the same with similar results. They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war. Not surprisingly, that came first. Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global. (C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile. In the United States, the situation was more obscure. A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M. House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders. (D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI. Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states.",
+        "To this rule, the First World War was no exception.",
+        "Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well.",
+        "World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers.",
+        "(A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe.",
+        "The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered.",
+        "While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity.",
+        "As often happens, the sudden collapse of the enemy took the victors by surprise.",
+        "Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace.",
+        "True, some planning was in progress, but not always in the most effectual quarters.",
+        "(B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments.",
+        "Exile organizations representing ethnic groups within the chungang powers did the same with similar results.",
+        "They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war.",
+        "Not surprisingly, that came first.",
+        "Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global.",
+        "(C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile.",
+        "In the United States, the situation was more obscure.",
+        "A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M.",
+        "House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders.",
+        "(D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI.",
+        "Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President."
+      ],
+      "question": "위 글의 흐름상 가장 적합하지 않은문장을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states. To this rule, the First World War was no exception. Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well. World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers. (A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe. The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered. While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity. As often happens, the sudden collapse of the enemy took the victors by surprise. Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace. True, some planning was in progress, but not always in the most effectual quarters. (B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments. Exile organizations representing ethnic groups within the chungang powers did the same with similar results. They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war. Not surprisingly, that came first. Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global. (C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile. In the United States, the situation was more obscure. A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M. House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders. (D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI. Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states.\n2. To this rule, the First World War was no exception.\n3. Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well.\n4. World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers.\n5. (A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe.\n6. The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered.\n7. While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity.\n8. As often happens, the sudden collapse of the enemy took the victors by surprise.\n9. Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace.\n10. True, some planning was in progress, but not always in the most effectual quarters.\n11. (B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments.\n12. Exile organizations representing ethnic groups within the chungang powers did the same with similar results.\n13. They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war.\n14. Not surprisingly, that came first.\n15. Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global.\n16. (C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile.\n17. In the United States, the situation was more obscure.\n18. A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M.\n19. House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders.\n20. (D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI.\n21. Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President.\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은문장을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 32,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states. To this rule, the First World War was no exception. Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well. World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers. (A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe. The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered. While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity. As often happens, the sudden collapse of the enemy took the victors by surprise. Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace. True, some planning was in progress, but not always in the most effectual quarters. (B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments. Exile organizations representing ethnic groups within the chungang powers did the same with similar results. They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war. Not surprisingly, that came first. Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global. (C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile. In the United States, the situation was more obscure. A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M. House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders. (D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI. Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states.",
+        "To this rule, the First World War was no exception.",
+        "Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well.",
+        "World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers.",
+        "(A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe.",
+        "The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered.",
+        "While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity.",
+        "As often happens, the sudden collapse of the enemy took the victors by surprise.",
+        "Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace.",
+        "True, some planning was in progress, but not always in the most effectual quarters.",
+        "(B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments.",
+        "Exile organizations representing ethnic groups within the chungang powers did the same with similar results.",
+        "They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war.",
+        "Not surprisingly, that came first.",
+        "Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global.",
+        "(C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile.",
+        "In the United States, the situation was more obscure.",
+        "A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M.",
+        "House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders.",
+        "(D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI.",
+        "Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President."
+      ],
+      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Europe’s dominance of world politics ended with the First World War."
+        },
+        {
+          "label": "②",
+          "text": "Britain, France, and the United States were prepared for the rapid collapse of Germany."
+        },
+        {
+          "label": "③",
+          "text": "European states gradually recovered from the realignment of power mainly due to the rise of America and Japan."
+        },
+        {
+          "label": "④",
+          "text": "Creation of a new international organization - 4 】 편입학 시험 영어 preoccupied the victors before WWI was won."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states. To this rule, the First World War was no exception. Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well. World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers. (A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe. The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered. While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity. As often happens, the sudden collapse of the enemy took the victors by surprise. Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace. True, some planning was in progress, but not always in the most effectual quarters. (B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments. Exile organizations representing ethnic groups within the chungang powers did the same with similar results. They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war. Not surprisingly, that came first. Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global. (C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile. In the United States, the situation was more obscure. A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M. House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders. (D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI. Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) Major wars often provide the punctuation marks of history, primarily because they force drastic realignments in the relationships among states.\n2. To this rule, the First World War was no exception.\n3. Long before the fighting ceased in November 1918, it was evident that the map of Europe must be redrawn and that reallocation of colonies, creation of a new international organization, and change in the economic balance must considerably affect the rest of the world as well.\n4. World War I (WWI) heralded the end of European dominance, as the true victors in this predominantly European war were America and Japan: 【7 문제지[A형] two non-European powers.\n5. (A) European countries were not concerned about their domestic affairs, overlooking the importance of their colonies across the globe.\n6. The European victors were bled white and suffered a pyrrhic victory from which none of them ever really recovered.\n7. While this fact was not evident at the war’s end, it was clear that the forthcoming settlement must far exceed in geographic scope and complexity.\n8. As often happens, the sudden collapse of the enemy took the victors by surprise.\n9. Germany had been expected to hold out until mid-1919, and in the autumn of 1918, Allied energy was more concentrated upon winning the war than upon planning the peace.\n10. True, some planning was in progress, but not always in the most effectual quarters.\n11. (B) In the final year of the war, the smaller Allied states pursued their limited, specific aims with energy, but achieved only cautious and qualified commitments.\n12. Exile organizations representing ethnic groups within the chungang powers did the same with similar results.\n13. They recognized that the ultimate court of appeal would consist of Britain, France, and America, but these three, who had the task of planning for much of the world, were also responsible for winning the war.\n14. Not surprisingly, that came first.\n15. Of the major Allies, the French were perhaps the best organized in planning ahead, mainly because they knew precisely what mattered to them and because their interests were not really global.\n16. (C) In London, the Foreign Office was industriously preparing position papers on every conceivable topic, but since its views often did not coincide with those of the Cabinet, and even less with those of Prime Minister David Lloyd George, much of the work proved futile.\n17. In the United States, the situation was more obscure.\n18. A special organization called the Inquiry had been established late in 1917 under the supervision of the President’s confidant, Edward M.\n19. House, to research the problems of the peace and to prepare a program designed to preempt those of European leaders.\n20. (D) The Inquiry, composed largely of academicians and functioning independently of the State Department, was hard at work, but its influence was still uncertain and House himself was in Paris during the closing weeks of WWI.\n21. Secretary of State Robert Lansing was preparing his views, which did not coincide with those of the Inquiry and which could be expected to clash with those of the President.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① Europe’s dominance of world politics ended with the First World War.\n② Britain, France, and the United States were prepared for the rapid collapse of Germany.\n③ European states gradually recovered from the realignment of power mainly due to the rise of America and Japan.\n④ Creation of a new international organization - 4 】 편입학 시험 영어 preoccupied the victors before WWI was won."
+    },
+    {
+      "number": 33,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin. This, however, is only partly true. Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies. Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda. Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat. Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers. The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end. Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population. They neither needed nor used terror to support this propaganda. When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin.",
+        "This, however, is only partly true.",
+        "Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies.",
+        "Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda.",
+        "Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat.",
+        "Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers.",
+        "The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end.",
+        "Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population.",
+        "They neither needed nor used terror to support this propaganda.",
+        "When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’"
+      ],
+      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin. This, however, is only partly true. Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies. Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda. Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat. Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers. The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end. Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population. They neither needed nor used terror to support this propaganda. When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin.\n2. This, however, is only partly true.\n3. Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies.\n4. Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda.\n5. Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat.\n6. Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers.\n7. The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end.\n8. Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population.\n9. They neither needed nor used terror to support this propaganda.\n10. When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’\nQUESTION:\n위 글에서 논지의 흐름상 가장 적합하지 않은것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 34,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin. This, however, is only partly true. Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies. Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda. Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat. Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers. The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end. Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population. They neither needed nor used terror to support this propaganda. When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin.",
+        "This, however, is only partly true.",
+        "Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies.",
+        "Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda.",
+        "Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat.",
+        "Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers.",
+        "The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end.",
+        "Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population.",
+        "They neither needed nor used terror to support this propaganda.",
+        "When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’"
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Totalitarian regimes will not need to use terror in conjunction with propaganda after seizure of power."
+        },
+        {
+          "label": "②",
+          "text": "Totalitarian regimes will need to use violence to achieve their ideological objectives after seizure of power."
+        },
+        {
+          "label": "③",
+          "text": "Totalitarian regimes will not need to replace propaganda with indoctrination."
+        },
+        {
+          "label": "④",
+          "text": "Totalitarian regimes will need to use terror to deter race propaganda after a stronger grip on power is established."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin. This, however, is only partly true. Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies. Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda. Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat. Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers. The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end. Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population. They neither needed nor used terror to support this propaganda. When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) It was recognized early and has frequently been asserted that in totalitarian countries propaganda and terror present two sides of the same coin.\n2. This, however, is only partly true.\n3. Wherever totalitarianism possesses absolute control, it replaces propaganda with indoctrination and uses violence not so much to frighten people (this is done only in the initial stages when political opposition still exists) as to realize constantly its ideological doctrines and its practical lies.\n4. Totalitarianism will not be satisfied to assert, in the face of contrary facts, that unemployment does not exist; it will abolish (A) unemployment benefits as part of its propaganda.\n5. Equally important is the fact that the refusal to acknowledge unemployment realized ― albeit in a rather unexpected way― the old socialist doctrine: He who does not work shall not eat.\n6. Or when, to take another instance, Stalin decided to rewrite the history of the Russian Revolution, the propaganda of his new version consisted in (B) espousing, together with the older books and documents, their authors and readers.\n7. The publication in 1938 of a new official history of the Communist Party was the signal that (C) the superpurge which had decimated a whole generation of Soviet intellectuals had come to an end.\n8. Similarly, the Nazis in the Eastern occupied territories at first used chiefly anti-semitic propaganda to win firmer control of the population.\n9. They neither needed nor used terror to support this propaganda.\n10. When they (D) liquidated the greater part of the Polish intelligentsia, they did it not because of its opposition, but because according to their doctrine Poles had no intellect, and when they planned to kidnap blue-eyed and blond-haired children, they did not intend to frighten the population but to save ‘Germanic blood.’\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.\nCHOICES:\n① Totalitarian regimes will not need to use terror in conjunction with propaganda after seizure of power.\n② Totalitarian regimes will need to use violence to achieve their ideological objectives after seizure of power.\n③ Totalitarian regimes will not need to replace propaganda with indoctrination.\n④ Totalitarian regimes will need to use terror to deter race propaganda after a stronger grip on power is established."
+    },
+    {
+      "number": 35,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion. Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin. Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience. These possible sources, however, cannot explain the endless variety of belief systems or how they change over time. For this type of analysis we must pay attention to the group’s particular culture and social structure. Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes? If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence. In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society. In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female. These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities. In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality. There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history. Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole. Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion.",
+        "Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin.",
+        "Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience.",
+        "These possible sources, however, cannot explain the endless variety of belief systems or how they change over time.",
+        "For this type of analysis we must pay attention to the group’s particular culture and social structure.",
+        "Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes?",
+        "If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence.",
+        "In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society.",
+        "In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female.",
+        "These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities.",
+        "In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality.",
+        "There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history.",
+        "Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole.",
+        "Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Cross-Cultural Perspectives in Belief Systems"
+        },
+        {
+          "label": "②",
+          "text": "Gender Difference Reflected in Belief Systems"
+        },
+        {
+          "label": "③",
+          "text": "Social Structure and Individual Basis in Religion"
+        },
+        {
+          "label": "④",
+          "text": "The Universal Role of Women in Religious Rituals"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion. Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin. Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience. These possible sources, however, cannot explain the endless variety of belief systems or how they change over time. For this type of analysis we must pay attention to the group’s particular culture and social structure. Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes? If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence. In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society. In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female. These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities. In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality. There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history. Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole. Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion.\n2. Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin.\n3. Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience.\n4. These possible sources, however, cannot explain the endless variety of belief systems or how they change over time.\n5. For this type of analysis we must pay attention to the group’s particular culture and social structure.\n6. Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes?\n7. If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence.\n8. In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society.\n9. In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female.\n10. These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities.\n11. In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality.\n12. There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history.\n13. Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole.\n14. Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Cross-Cultural Perspectives in Belief Systems\n② Gender Difference Reflected in Belief Systems\n③ Social Structure and Individual Basis in Religion\n④ The Universal Role of Women in Religious Rituals"
+    },
+    {
+      "number": 36,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion. Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin. Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience. These possible sources, however, cannot explain the endless variety of belief systems or how they change over time. For this type of analysis we must pay attention to the group’s particular culture and social structure. Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes? If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence. In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society. In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female. These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities. In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality. There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history. Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole. Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion.",
+        "Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin.",
+        "Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience.",
+        "These possible sources, however, cannot explain the endless variety of belief systems or how they change over time.",
+        "For this type of analysis we must pay attention to the group’s particular culture and social structure.",
+        "Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes?",
+        "If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence.",
+        "In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society.",
+        "In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female.",
+        "These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities.",
+        "In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality.",
+        "There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history.",
+        "Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole.",
+        "Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "A human’s pursuit of the transcendence may explain the various forms of belief systems."
+        },
+        {
+          "label": "②",
+          "text": "Inter-societal relationships affected the formation of gods people believed in."
+        },
+        {
+          "label": "③",
+          "text": "Gods were not distinctive in gender in the society of hunting bands."
+        },
+        {
+          "label": "④",
+          "text": "According to the ancient Greek relics, women were believed to support religious rituals."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion. Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin. Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience. These possible sources, however, cannot explain the endless variety of belief systems or how they change over time. For this type of analysis we must pay attention to the group’s particular culture and social structure. Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes? If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence. In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society. In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female. These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities. In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality. There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history. Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole. Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.3점) The explanation of religion as a phenomenon rooted in social structure and the material world, does not 【7 문제지[A형] always satisfy those who seek a more spiritual and individual basis for religion.\n2. Through the years, philosophers and social scientists have suggested a number of other factors such as: awe over the power of nature, fear of death, the need to interpret dreams, guilt over the wish to kill one’s parents, and original sin.\n3. Some sociologists speak of a human need for transcendence, to escape the limits of one’s own senses and to feel that one’s life has significance beyond daily experience.\n4. These possible sources, however, cannot explain the endless variety of belief systems or how they change over time.\n5. For this type of analysis we must pay attention to the group’s particular culture and social structure.\n6. Do gathering bands, for example, tend to develop belief systems different from those of agricultural tribes?\n7. If the origins of belief lie in the uncertainties of human existence, then we would expect differences simply on the basis of varying modes of subsistence.\n8. In line with that thinking, anthropologist Marvin Harris suggests that the kinds of gods people worship reflect the nature of social relationships within the society.\n9. In simple gathering or hunting bands, the gods, like the people they guide, are basically an egalitarian bunch, with little distinction between male and female.\n10. These gods were important in creating the group but they leave daily life largely to the skills of the native population and to lesser divinities.\n11. In contrast, in agricultural societies, especially those with chungangized states and well-defined social classes, the gods themselves are highly stratified and insist on strict obedience to standards of conduct and morality.\n12. There is also evidence that important ritual functions were performed by women, such as the vestal virgins in ancient Europe, druid priestesses in Britain, and members of women’s cults in early Roman history.\n13. Statues of a mother goddess from ancient Crete and wall paintings from Stone Age Turkey suggest an even more chungang role for women, not only in religious ritual but in the society as a whole.\n14. Indeed, there is evidence of widespread mother worship throughout the world, from prehistoric to contemporary societies.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.\nCHOICES:\n① A human’s pursuit of the transcendence may explain the various forms of belief systems.\n② Inter-societal relationships affected the formation of gods people believed in.\n③ Gods were not distinctive in gender in the society of hunting bands.\n④ According to the ancient Greek relics, women were believed to support religious rituals."
+    },
+    {
+      "number": 37,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides. But inside, it’s a different story: our heart is on the left; our liver is on the right. Lungs and kidneys are also asymmetric. Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides. But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist. The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people. Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo. In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place. The flow activates certain genes just on that left side, altering what grows next, they and others have speculated. The same thing happens in fish and frogs, researchers later found. But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side. There have been “many confusing results in the literature that are hard to reconcile,” Grimes says. He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans. Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry. They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes. The researchers discovered five such genes, they report this month in Nature Genetics. Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides.",
+        "But inside, it’s a different story: our heart is on the left; our liver is on the right.",
+        "Lungs and kidneys are also asymmetric.",
+        "Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides.",
+        "But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist.",
+        "The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people.",
+        "Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo.",
+        "In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place.",
+        "The flow activates certain genes just on that left side, altering what grows next, they and others have speculated.",
+        "The same thing happens in fish and frogs, researchers later found.",
+        "But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side.",
+        "There have been “many confusing results in the literature that are hard to reconcile,” Grimes says.",
+        "He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans.",
+        "Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry.",
+        "They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes.",
+        "The researchers discovered five such genes, they report this month in Nature Genetics.",
+        "Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Searching for Genes Breaking Body Symmetry"
+        },
+        {
+          "label": "②",
+          "text": "The Preemptive Steps to Find Embryonic Fluids"
+        },
+        {
+          "label": "③",
+          "text": "Exploring Secrets of Twirling Cilia in Gene Therapy"
+        },
+        {
+          "label": "④",
+          "text": "Diverse Perspectives on the Role of the Early Embryo"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides. But inside, it’s a different story: our heart is on the left; our liver is on the right. Lungs and kidneys are also asymmetric. Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides. But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist. The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people. Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo. In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place. The flow activates certain genes just on that left side, altering what grows next, they and others have speculated. The same thing happens in fish and frogs, researchers later found. But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side. There have been “many confusing results in the literature that are hard to reconcile,” Grimes says. He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans. Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry. They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes. The researchers discovered five such genes, they report this month in Nature Genetics. Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides.\n2. But inside, it’s a different story: our heart is on the left; our liver is on the right.\n3. Lungs and kidneys are also asymmetric.\n4. Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides.\n5. But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist.\n6. The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people.\n7. Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo.\n8. In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place.\n9. The flow activates certain genes just on that left side, altering what grows next, they and others have speculated.\n10. The same thing happens in fish and frogs, researchers later found.\n11. But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side.\n12. There have been “many confusing results in the literature that are hard to reconcile,” Grimes says.\n13. He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans.\n14. Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry.\n15. They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes.\n16. The researchers discovered five such genes, they report this month in Nature Genetics.\n17. Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Searching for Genes Breaking Body Symmetry\n② The Preemptive Steps to Find Embryonic Fluids\n③ Exploring Secrets of Twirling Cilia in Gene Therapy\n④ Diverse Perspectives on the Role of the Early Embryo"
+    },
+    {
+      "number": 38,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides. But inside, it’s a different story: our heart is on the left; our liver is on the right. Lungs and kidneys are also asymmetric. Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides. But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist. The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people. Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo. In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place. The flow activates certain genes just on that left side, altering what grows next, they and others have speculated. The same thing happens in fish and frogs, researchers later found. But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side. There have been “many confusing results in the literature that are hard to reconcile,” Grimes says. He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans. Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry. They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes. The researchers discovered five such genes, they report this month in Nature Genetics. Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides.",
+        "But inside, it’s a different story: our heart is on the left; our liver is on the right.",
+        "Lungs and kidneys are also asymmetric.",
+        "Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides.",
+        "But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist.",
+        "The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people.",
+        "Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo.",
+        "In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place.",
+        "The flow activates certain genes just on that left side, altering what grows next, they and others have speculated.",
+        "The same thing happens in fish and frogs, researchers later found.",
+        "But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side.",
+        "There have been “many confusing results in the literature that are hard to reconcile,” Grimes says.",
+        "He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans.",
+        "Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry.",
+        "They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes.",
+        "The researchers discovered five such genes, they report this month in Nature Genetics.",
+        "Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The left-right organizer does not function in the embryonic period. 【7 문제지[A형]"
+        },
+        {
+          "label": "②",
+          "text": "According to the study in mice, twirling cilia enable organs to be built in the proper position."
+        },
+        {
+          "label": "③",
+          "text": "In the case of even-toed mammals, twirling cilia help hearts grow in one side."
+        },
+        {
+          "label": "④",
+          "text": "In the end, Reversade and Gordon found it difficult to identify the genes which break body symmetry."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides. But inside, it’s a different story: our heart is on the left; our liver is on the right. Lungs and kidneys are also asymmetric. Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides. But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist. The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people. Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo. In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place. The flow activates certain genes just on that left side, altering what grows next, they and others have speculated. The same thing happens in fish and frogs, researchers later found. But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side. There have been “many confusing results in the literature that are hard to reconcile,” Grimes says. He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans. Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry. They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes. The researchers discovered five such genes, they report this month in Nature Genetics. Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) From the outside, humans are pleasingly symmetrical, - 5 】 편입학 시험 영어 with arms, legs, and eyes that have matching right and left sides.\n2. But inside, it’s a different story: our heart is on the left; our liver is on the right.\n3. Lungs and kidneys are also asymmetric.\n4. Now researchers have pinned down a gene that helps developing organs find their proper place. ​ Scientists have identified other genes that break the initial symmetry of a developing round embryo, and help organs pick sides.\n5. But the way researchers tracked this one down was unique, says Daniel Grimes, a developmental biologist.\n6. The research, he says, could lead to a better understanding of why organ formation goes awry, as it does in some people.\n7. Developmental biologists have long known that the off-center placement of the heart and other organs is linked to a group of cells called the left-right organizer, which transiently forms in an early embryo.\n8. In 1998, based on studies in mice, Japanese researchers proposed that twirling cilia—hairlike appendages on a subset of organizer cells—send embryonic fluid to the left but not to the right, helping organs form in the correct place.\n9. The flow activates certain genes just on that left side, altering what grows next, they and others have speculated.\n10. The same thing happens in fish and frogs, researchers later found.\n11. But surprisingly, there are no such cells with twirling cilia in developing chicks and pigs, even though their hearts still form to one side.\n12. There have been “many confusing results in the literature that are hard to reconcile,” Grimes says.\n13. He and others think these so-called motile cilia evolved early in animal evolution but were lost in the branches of the animal family tree leading to birds and to the “even-toed” mammals such as pigs, but not humans.\n14. Developmental biologists, Bruno Reversade and Christopher Gordon, wondered whether this disparity could hint at a way to track down new genes responsible for breaking body symmetry.\n15. They and their colleagues simply looked for genes active in developing mice, fish, and frogs, but inactive at the stage of development in pigs and birds where there was no longer any fluid flow and thus no need for those genes.\n16. The researchers discovered five such genes, they report this month in Nature Genetics.\n17. Reversade knew his team was on the right track because three of these genes were already known to be important in flow-induced loss of symmetry.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.\nCHOICES:\n① The left-right organizer does not function in the embryonic period. 【7 문제지[A형]\n② According to the study in mice, twirling cilia enable organs to be built in the proper position.\n③ In the case of even-toed mammals, twirling cilia help hearts grow in one side.\n④ In the end, Reversade and Gordon found it difficult to identify the genes which break body symmetry."
+    },
+    {
+      "number": 39,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record. After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth. Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier. This ten-minute jump was extremely well-prepared. (A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities? One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube. Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this. For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous. (B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time. The more thrilling the risk the bigger the win. Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so. However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing. It is clear, then, that there must be other rewards for not playing it safe. One might be the ‘adrenaline rush’ that people get when they do something dangerous. (D) In frightening situations, the chemical adrenaline is released into our bodies. This makes our hearts beat faster, and helps our bodies if we have to fight or run away. It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities. In summary, it seems that many people stick their necks out because they dream of success. Of course, there is always the possibility of terrible failure too. At the same time, if everything goes well in a risky activity, then the rewards can be great.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record.",
+        "After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth.",
+        "Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier.",
+        "This ten-minute jump was extremely well-prepared.",
+        "(A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities?",
+        "One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube.",
+        "Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this.",
+        "For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous.",
+        "(B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time.",
+        "The more thrilling the risk the bigger the win.",
+        "Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so.",
+        "However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing.",
+        "It is clear, then, that there must be other rewards for not playing it safe.",
+        "One might be the ‘adrenaline rush’ that people get when they do something dangerous.",
+        "(D) In frightening situations, the chemical adrenaline is released into our bodies.",
+        "This makes our hearts beat faster, and helps our bodies if we have to fight or run away.",
+        "It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities.",
+        "In summary, it seems that many people stick their necks out because they dream of success.",
+        "Of course, there is always the possibility of terrible failure too.",
+        "At the same time, if everything goes well in a risky activity, then the rewards can be great."
+      ],
+      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record. After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth. Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier. This ten-minute jump was extremely well-prepared. (A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities? One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube. Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this. For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous. (B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time. The more thrilling the risk the bigger the win. Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so. However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing. It is clear, then, that there must be other rewards for not playing it safe. One might be the ‘adrenaline rush’ that people get when they do something dangerous. (D) In frightening situations, the chemical adrenaline is released into our bodies. This makes our hearts beat faster, and helps our bodies if we have to fight or run away. It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities. In summary, it seems that many people stick their necks out because they dream of success. Of course, there is always the possibility of terrible failure too. At the same time, if everything goes well in a risky activity, then the rewards can be great.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record.\n2. After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth.\n3. Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier.\n4. This ten-minute jump was extremely well-prepared.\n5. (A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities?\n6. One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube.\n7. Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this.\n8. For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous.\n9. (B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time.\n10. The more thrilling the risk the bigger the win.\n11. Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so.\n12. However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing.\n13. It is clear, then, that there must be other rewards for not playing it safe.\n14. One might be the ‘adrenaline rush’ that people get when they do something dangerous.\n15. (D) In frightening situations, the chemical adrenaline is released into our bodies.\n16. This makes our hearts beat faster, and helps our bodies if we have to fight or run away.\n17. It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities.\n18. In summary, it seems that many people stick their necks out because they dream of success.\n19. Of course, there is always the possibility of terrible failure too.\n20. At the same time, if everything goes well in a risky activity, then the rewards can be great.\nQUESTION:\n위 글에서 논지의 흐름상 가장 적합하지 않은것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 40,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record. After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth. Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier. This ten-minute jump was extremely well-prepared. (A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities? One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube. Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this. For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous. (B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time. The more thrilling the risk the bigger the win. Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so. However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing. It is clear, then, that there must be other rewards for not playing it safe. One might be the ‘adrenaline rush’ that people get when they do something dangerous. (D) In frightening situations, the chemical adrenaline is released into our bodies. This makes our hearts beat faster, and helps our bodies if we have to fight or run away. It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities. In summary, it seems that many people stick their necks out because they dream of success. Of course, there is always the possibility of terrible failure too. At the same time, if everything goes well in a risky activity, then the rewards can be great.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record.",
+        "After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth.",
+        "Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier.",
+        "This ten-minute jump was extremely well-prepared.",
+        "(A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities?",
+        "One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube.",
+        "Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this.",
+        "For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous.",
+        "(B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time.",
+        "The more thrilling the risk the bigger the win.",
+        "Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so.",
+        "However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing.",
+        "It is clear, then, that there must be other rewards for not playing it safe.",
+        "One might be the ‘adrenaline rush’ that people get when they do something dangerous.",
+        "(D) In frightening situations, the chemical adrenaline is released into our bodies.",
+        "This makes our hearts beat faster, and helps our bodies if we have to fight or run away.",
+        "It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities.",
+        "In summary, it seems that many people stick their necks out because they dream of success.",
+        "Of course, there is always the possibility of terrible failure too.",
+        "At the same time, if everything goes well in a risky activity, then the rewards can be great."
+      ],
+      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "People overcome adrenaline rush when something can be dangerous."
+        },
+        {
+          "label": "②",
+          "text": "It is possible to earn a lot of money if you take a - 6 】 편입학 시험 risk and succeed."
+        },
+        {
+          "label": "③",
+          "text": "Risk-takers take bigger and more dangerous each time they do something."
+        },
+        {
+          "label": "④",
+          "text": "People rarely take risks in exhilarating when they are alone. 영어 문제지[A형] risk activities"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record. After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth. Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier. This ten-minute jump was extremely well-prepared. (A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities? One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube. Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this. For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous. (B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time. The more thrilling the risk the bigger the win. Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so. However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing. It is clear, then, that there must be other rewards for not playing it safe. One might be the ‘adrenaline rush’ that people get when they do something dangerous. (D) In frightening situations, the chemical adrenaline is released into our bodies. This makes our hearts beat faster, and helps our bodies if we have to fight or run away. It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities. In summary, it seems that many people stick their necks out because they dream of success. Of course, there is always the possibility of terrible failure too. At the same time, if everything goes well in a risky activity, then the rewards can be great.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.2점) In October 2021, the skydiver Felix Baumgartner set a new world record.\n2. After sitting inside a tiny capsule at the edge of space, he jumped out when he was 39 kilometers above the Earth.\n3. Falling to the ground, he reached a speed of 1,357 kph and broke the sound barrier.\n4. This ten-minute jump was extremely well-prepared.\n5. (A) Therefore, it was a very risky thing to do, and raises the question: Why are some people attracted to dangerous activities?\n6. One reason may be to get attention―Felix Baumgartner’s jump was watched by around 8 million people on YouTube.\n7. Some people feel a need to show that they are the fastest or the best at something, and taking public risks is one way to do this.\n8. For some competitive individuals (especially in the world of sport and business), the financial rewards of taking a risk and achieving what you want can be enormous.\n9. (B) Furthermore, if you have taken a chance and won through, then your achievement may be remembered for a very long time.\n10. The more thrilling the risk the bigger the win.\n11. Everybody knows who the first person to walk on the Moon or the first team to climb Mount Everest was―but (C) few people know the fifth or ninth people to do so.\n12. However, there are many occasions when people take risks without an audience, for example, in high-risk sports, such as cave diving or mountain climbing.\n13. It is clear, then, that there must be other rewards for not playing it safe.\n14. One might be the ‘adrenaline rush’ that people get when they do something dangerous.\n15. (D) In frightening situations, the chemical adrenaline is released into our bodies.\n16. This makes our hearts beat faster, and helps our bodies if we have to fight or run away.\n17. It is possible that this level of excitement might be a reason some people continuously try out exhilarating activities.\n18. In summary, it seems that many people stick their necks out because they dream of success.\n19. Of course, there is always the possibility of terrible failure too.\n20. At the same time, if everything goes well in a risky activity, then the rewards can be great.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① People overcome adrenaline rush when something can be dangerous.\n② It is possible to earn a lot of money if you take a - 6 】 편입학 시험 risk and succeed.\n③ Risk-takers take bigger and more dangerous each time they do something.\n④ People rarely take risks in exhilarating when they are alone. 영어 문제지[A형] risk activities"
+    }
+  ]
+}

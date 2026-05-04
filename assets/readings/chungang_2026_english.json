@@ -1,0 +1,1279 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2026,
+  "exam_kind": "english",
+  "source_text_file": "chungang_2026_english_extracted_complete_final.txt",
+  "question_count": 40,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Throughout prolonged negotiations, he remained notably obdurate in his refusal to alter his position."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "circumspect"
+        },
+        {
+          "label": "②",
+          "text": "intransigent"
+        },
+        {
+          "label": "③",
+          "text": "conciliatory"
+        },
+        {
+          "label": "④",
+          "text": "introversive"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Throughout prolonged negotiations, he remained notably obdurate in his refusal to alter his position.\nCHOICES:\n① circumspect\n② intransigent\n③ conciliatory\n④ introversive"
+    },
+    {
+      "number": 2,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "This was the second munificent endowment that the gallery has received this year."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "mundane"
+        },
+        {
+          "label": "②",
+          "text": "generous"
+        },
+        {
+          "label": "③",
+          "text": "gorgeous"
+        },
+        {
+          "label": "④",
+          "text": "magnificent"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. This was the second munificent endowment that the gallery has received this year.\nCHOICES:\n① mundane\n② generous\n③ gorgeous\n④ magnificent"
+    },
+    {
+      "number": 3,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "During ascent in the water column, the angular rough shark rapidly elevated the leading pectoral fin edge, and undulated the posterior half of its body rapidly."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "waved"
+        },
+        {
+          "label": "②",
+          "text": "contracted"
+        },
+        {
+          "label": "③",
+          "text": "stiffened"
+        },
+        {
+          "label": "④",
+          "text": "straightened"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. During ascent in the water column, the angular rough shark rapidly elevated the leading pectoral fin edge, and undulated the posterior half of its body rapidly.\nCHOICES:\n① waved\n② contracted\n③ stiffened\n④ straightened"
+    },
+    {
+      "number": 4,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The rest of the book is filled with a diatribe against processed pet foods and popular dog trainers who have been on television."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "paean"
+        },
+        {
+          "label": "②",
+          "text": "panegyric"
+        },
+        {
+          "label": "③",
+          "text": "tirade"
+        },
+        {
+          "label": "④",
+          "text": "valedictory"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The rest of the book is filled with a diatribe against processed pet foods and popular dog trainers who have been on television.\nCHOICES:\n① paean\n② panegyric\n③ tirade\n④ valedictory"
+    },
+    {
+      "number": 5,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Freed of print’s strictures, we are finding many new and sometimes better ways to gather and share information."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "accretions"
+        },
+        {
+          "label": "②",
+          "text": "proscriptions"
+        },
+        {
+          "label": "③",
+          "text": "contingencies"
+        },
+        {
+          "label": "④",
+          "text": "circumlocutions"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Freed of print’s strictures, we are finding many new and sometimes better ways to gather and share information.\nCHOICES:\n① accretions\n② proscriptions\n③ contingencies\n④ circumlocutions"
+    },
+    {
+      "number": 6,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Fatuous oratory and bombast are particularly good candidates for the cartoon’s brand of parody."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "inane"
+        },
+        {
+          "label": "②",
+          "text": "sententious"
+        },
+        {
+          "label": "③",
+          "text": "didactic"
+        },
+        {
+          "label": "④",
+          "text": "pretentious"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Fatuous oratory and bombast are particularly good candidates for the cartoon’s brand of parody.\nCHOICES:\n① inane\n② sententious\n③ didactic\n④ pretentious"
+    },
+    {
+      "number": 7,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The ambassador’s diplomatic rhetoric only resulted in exacerbating the already fragile relationship."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "mollifying"
+        },
+        {
+          "label": "②",
+          "text": "absolving"
+        },
+        {
+          "label": "③",
+          "text": "prevaricating"
+        },
+        {
+          "label": "④",
+          "text": "embittering"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The ambassador’s diplomatic rhetoric only resulted in exacerbating the already fragile relationship.\nCHOICES:\n① mollifying\n② absolving\n③ prevaricating\n④ embittering"
+    },
+    {
+      "number": 8,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: Ever since the promotion, she’s really been feeling her oats. B: I know. She’s much more confident and assertive these days."
+        },
+        {
+          "label": "②",
+          "text": "A: She finally let the cat out of the bag during the meeting. B: Well, secrets have a way of surfacing sooner or later."
+        },
+        {
+          "label": "③",
+          "text": "A: You know, Sally’s always skating on thin ice with those remarks. B: Right. She’s been remarkably consistent in her judgment."
+        },
+        {
+          "label": "④",
+          "text": "A: I wouldn’t count on her support. She tends to sit on the fence. B: Yes. She rarely commits herself until circumstances force her hand. 【6 문제지[A형]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)\nCHOICES:\n① A: Ever since the promotion, she’s really been feeling her oats. B: I know. She’s much more confident and assertive these days.\n② A: She finally let the cat out of the bag during the meeting. B: Well, secrets have a way of surfacing sooner or later.\n③ A: You know, Sally’s always skating on thin ice with those remarks. B: Right. She’s been remarkably consistent in her judgment.\n④ A: I wouldn’t count on her support. She tends to sit on the fence. B: Yes. She rarely commits herself until circumstances force her hand. 【6 문제지[A형]"
+    },
+    {
+      "number": 9,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: You still haven’t told your girlfriend you lost her favorite necklace, have you? B: No... But tonight I’m finally going to come clean and face the music."
+        },
+        {
+          "label": "②",
+          "text": "A: You look like you’re on cloud nine—what happened? B: I was trying to keep it secret, but fine, I’ll spill the beans: I got the job."
+        },
+        {
+          "label": "③",
+          "text": "A: Why do you and your sister always end up arguing about politics every family dinner? B: Unfortunately, we don’t see eye to eye on anything."
+        },
+        {
+          "label": "④",
+          "text": "A: They’re scraping the bottom of the barrel for new employees. B: That makes sense—they’re carefully selecting only the very best candidates."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)\nCHOICES:\n① A: You still haven’t told your girlfriend you lost her favorite necklace, have you? B: No... But tonight I’m finally going to come clean and face the music.\n② A: You look like you’re on cloud nine—what happened? B: I was trying to keep it secret, but fine, I’ll spill the beans: I got the job.\n③ A: Why do you and your sister always end up arguing about politics every family dinner? B: Unfortunately, we don’t see eye to eye on anything.\n④ A: They’re scraping the bottom of the barrel for new employees. B: That makes sense—they’re carefully selecting only the very best candidates."
+    },
+    {
+      "number": 10,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "The demographic policy offers a powerful few enormous influence, enabling them to dispense with"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": ""
+        },
+        {
+          "label": "②",
+          "text": "traditional forms of governance and buying off"
+        },
+        {
+          "label": "③",
+          "text": "interfering government officials. No error."
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. The demographic policy offers a powerful few enormous influence, enabling them to dispense with\nCHOICES:\n① \n② traditional forms of governance and buying off\n③ interfering government officials. No error.\n④"
+    },
+    {
+      "number": 11,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "Those who propagated ever more radical solutions"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "were, like so many revolutionary zealots, consumed by"
+        },
+        {
+          "label": "②",
+          "text": "the forces they had been unleashed. No error."
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Those who propagated ever more radical solutions\nCHOICES:\n① were, like so many revolutionary zealots, consumed by\n② the forces they had been unleashed. No error.\n③ \n④"
+    },
+    {
+      "number": 12,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "In contemporary books about language, writers often warn that certain words, whose meanings appear"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "fixed, shifts over time, so that their original sense is"
+        },
+        {
+          "label": "②",
+          "text": "not only eroded but also occasionally subverted. No"
+        },
+        {
+          "label": "③",
+          "text": "error."
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. In contemporary books about language, writers often warn that certain words, whose meanings appear\nCHOICES:\n① fixed, shifts over time, so that their original sense is\n② not only eroded but also occasionally subverted. No\n③ error.\n④"
+    },
+    {
+      "number": 13,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Kant maintained that the human mind does not merely register sensory data but actively organizes experience through innate cognitive frameworks.",
+        "Knowledge, therefore, is _______ rather than passively accumulated."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "fortuitous"
+        },
+        {
+          "label": "②",
+          "text": "constitutive"
+        },
+        {
+          "label": "③",
+          "text": "derivative"
+        },
+        {
+          "label": "④",
+          "text": "phenomenal - 1 】 편입학 시험 영어"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Kant maintained that the human mind does not merely register sensory data but actively organizes experience through innate cognitive frameworks.\n2. Knowledge, therefore, is _______ rather than passively accumulated.\nCHOICES:\n① fortuitous\n② constitutive\n③ derivative\n④ phenomenal - 1 】 편입학 시험 영어"
+    },
+    {
+      "number": 14,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Although modern machine-learning models can outperform humans in specific domains, they remain fundamentally _______, excelling under constrained conditions while failing to adapt across contexts."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "poignant"
+        },
+        {
+          "label": "②",
+          "text": "circumscribed"
+        },
+        {
+          "label": "③",
+          "text": "epiphanic"
+        },
+        {
+          "label": "④",
+          "text": "ostracized"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Although modern machine-learning models can outperform humans in specific domains, they remain fundamentally _______, excelling under constrained conditions while failing to adapt across contexts.\nCHOICES:\n① poignant\n② circumscribed\n③ epiphanic\n④ ostracized"
+    },
+    {
+      "number": 15,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Gothic cathedrals employed soaring verticality and intricate structural systems to evoke a sense of the _______, directing the viewer’s gaze beyond the material realm."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "quotidianity"
+        },
+        {
+          "label": "②",
+          "text": "jurisprudence"
+        },
+        {
+          "label": "③",
+          "text": "transcendence"
+        },
+        {
+          "label": "④",
+          "text": "egocentricity"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Gothic cathedrals employed soaring verticality and intricate structural systems to evoke a sense of the _______, directing the viewer’s gaze beyond the material realm.\nCHOICES:\n① quotidianity\n② jurisprudence\n③ transcendence\n④ egocentricity"
+    },
+    {
+      "number": 16,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "I remember the bouquet of that wine as though I had discovered it this very moment—_______ of wood violets, with a ruby-jewel color and a silky, velvet, wrap-around taste."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "redolent"
+        },
+        {
+          "label": "②",
+          "text": "emblematic"
+        },
+        {
+          "label": "③",
+          "text": "mercurial"
+        },
+        {
+          "label": "④",
+          "text": "apocryphal"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. I remember the bouquet of that wine as though I had discovered it this very moment—_______ of wood violets, with a ruby-jewel color and a silky, velvet, wrap-around taste.\nCHOICES:\n① redolent\n② emblematic\n③ mercurial\n④ apocryphal"
+    },
+    {
+      "number": 17,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Wildflowers compete with grass for growing space, and so we first needed to reduce the amount of grass in the area, so it was mowed and _______ by a contractor."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "scarified"
+        },
+        {
+          "label": "②",
+          "text": "fertilized"
+        },
+        {
+          "label": "③",
+          "text": "compacted"
+        },
+        {
+          "label": "④",
+          "text": "irrigated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Wildflowers compete with grass for growing space, and so we first needed to reduce the amount of grass in the area, so it was mowed and _______ by a contractor.\nCHOICES:\n① scarified\n② fertilized\n③ compacted\n④ irrigated"
+    },
+    {
+      "number": 18,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "The video pulled back the curtain, exposing the backstage ______ characteristic of politics behind closed doors."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "epitaphs"
+        },
+        {
+          "label": "②",
+          "text": "machicolations"
+        },
+        {
+          "label": "③",
+          "text": "epicenes"
+        },
+        {
+          "label": "④",
+          "text": "machinations"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The video pulled back the curtain, exposing the backstage ______ characteristic of politics behind closed doors.\nCHOICES:\n① epitaphs\n② machicolations\n③ epicenes\n④ machinations"
+    },
+    {
+      "number": 19,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "When there are no arguments with which to impugn a doctrine, it is easy to attack it with ridicule and _______."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "sagacity"
+        },
+        {
+          "label": "②",
+          "text": "candor"
+        },
+        {
+          "label": "③",
+          "text": "probity"
+        },
+        {
+          "label": "④",
+          "text": "scurrility"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. When there are no arguments with which to impugn a doctrine, it is easy to attack it with ridicule and _______.\nCHOICES:\n① sagacity\n② candor\n③ probity\n④ scurrility"
+    },
+    {
+      "number": 20,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Employers can hire migrants on open work visas while on the stand-down list.",
+        "When the stand-down ends, the employers must show they have _____ the matter and done what is needed to stop it from happening again."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "rectified"
+        },
+        {
+          "label": "②",
+          "text": "redacted"
+        },
+        {
+          "label": "③",
+          "text": "resented"
+        },
+        {
+          "label": "④",
+          "text": "reasserted"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Employers can hire migrants on open work visas while on the stand-down list.\n2. When the stand-down ends, the employers must show they have _____ the matter and done what is needed to stop it from happening again.\nCHOICES:\n① rectified\n② redacted\n③ resented\n④ reasserted"
+    },
+    {
+      "number": 21,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Many who pride themselves on refined judgment mistake familiarity for depth.",
+        "They accumulate opinions and conventions, displaying an apparent _______ for what is celebrated, yet their understanding remains curiously untouched by inward transformation.",
+        "Their refinement is often _______, confined to isolated areas of expertise, leaving the broader moral sensibility undeveloped.",
+        "As a result, they fail to recognize that 【6 문제지[A형] genuine form arises not from external arrangement alone but from an intimate correspondence between idea and expression.",
+        "In such minds, the material realm is treated as autonomous, severed from the operations of thought and intention."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "penchant — corporealized"
+        },
+        {
+          "label": "②",
+          "text": "intuition — consensual"
+        },
+        {
+          "label": "③",
+          "text": "reverence — coincidental"
+        },
+        {
+          "label": "④",
+          "text": "predilection — compartmentalized"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Many who pride themselves on refined judgment mistake familiarity for depth.\n2. They accumulate opinions and conventions, displaying an apparent _______ for what is celebrated, yet their understanding remains curiously untouched by inward transformation.\n3. Their refinement is often _______, confined to isolated areas of expertise, leaving the broader moral sensibility undeveloped.\n4. As a result, they fail to recognize that 【6 문제지[A형] genuine form arises not from external arrangement alone but from an intimate correspondence between idea and expression.\n5. In such minds, the material realm is treated as autonomous, severed from the operations of thought and intention.\nCHOICES:\n① penchant — corporealized\n② intuition — consensual\n③ reverence — coincidental\n④ predilection — compartmentalized"
+    },
+    {
+      "number": 22,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Early structural linguistics treated language as a self-contained system governed by internal rules, largely independent of social context or speaker intention.",
+        "Meaning was assumed to arise from the formal relations among linguistic elements rather than from usage.",
+        "Later approaches, however, challenged this view by emphasizing the __________ nature of language, arguing that linguistic forms take shape through interaction and practice.",
+        "From this perspective, grammar is not a fixed blueprint but a __________ outcome of repeated communicative activity."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "derivative — substituted"
+        },
+        {
+          "label": "②",
+          "text": "endogamous — predictive"
+        },
+        {
+          "label": "③",
+          "text": "emergent — sedimented"
+        },
+        {
+          "label": "④",
+          "text": "stipulative — prescriptive"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Early structural linguistics treated language as a self-contained system governed by internal rules, largely independent of social context or speaker intention.\n2. Meaning was assumed to arise from the formal relations among linguistic elements rather than from usage.\n3. Later approaches, however, challenged this view by emphasizing the __________ nature of language, arguing that linguistic forms take shape through interaction and practice.\n4. From this perspective, grammar is not a fixed blueprint but a __________ outcome of repeated communicative activity.\nCHOICES:\n① derivative — substituted\n② endogamous — predictive\n③ emergent — sedimented\n④ stipulative — prescriptive"
+    },
+    {
+      "number": 23,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Classical sociologists were deeply concerned with the ways in which modern social structures shape individual consciousness and constrain personal agency.",
+        "Rather than conceiving social order as the cumulative outcome of individual preferences, thinkers such as Émile Durkheim argued that social facts possess an objective existence independent of personal will.",
+        "These facts, manifested in norms, institutions, and collective representations, exercise a _______ influence over individuals, compelling conformity even in the absence of overt enforcement.",
+        "In highly differentiated societies, this influence rarely appears as external constraint.",
+        "Instead, it becomes progressively _______, embedded within habitual practices, linguistic conventions, and taken-for-granted expectations that come to appear natural rather than socially constructed.",
+        "Consequently, individuals often experience social constraints not as imposed limitations but as a(n) _______ dimension of everyday life, one that structures perception and action without attracting conscious scrutiny."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "coercive — internalized — unreflective"
+        },
+        {
+          "label": "②",
+          "text": "volitional — ostensible — contingent"
+        },
+        {
+          "label": "③",
+          "text": "fragmentary — discursive — unconscious"
+        },
+        {
+          "label": "④",
+          "text": "repressive — reified — contestable"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Classical sociologists were deeply concerned with the ways in which modern social structures shape individual consciousness and constrain personal agency.\n2. Rather than conceiving social order as the cumulative outcome of individual preferences, thinkers such as Émile Durkheim argued that social facts possess an objective existence independent of personal will.\n3. These facts, manifested in norms, institutions, and collective representations, exercise a _______ influence over individuals, compelling conformity even in the absence of overt enforcement.\n4. In highly differentiated societies, this influence rarely appears as external constraint.\n5. Instead, it becomes progressively _______, embedded within habitual practices, linguistic conventions, and taken-for-granted expectations that come to appear natural rather than socially constructed.\n6. Consequently, individuals often experience social constraints not as imposed limitations but as a(n) _______ dimension of everyday life, one that structures perception and action without attracting conscious scrutiny.\nCHOICES:\n① coercive — internalized — unreflective\n② volitional — ostensible — contingent\n③ fragmentary — discursive — unconscious\n④ repressive — reified — contestable"
+    },
+    {
+      "number": 24,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Long retired as I have been, from the ways of intriguing, ambitious men, I have still Sir, in my retirement, a longing after a good name;―nay, it is the “immediate jewel of my soul,” and as an injured man, a ________ Whig, and a Gentleman, I hope your Excellency will deliver up to Justice, and to shame, the branders of my reputation, the filchers of my good name, so that I may strike at the root of the slander, and thereby be enabled to do myself Justice, by removing the ________, and convincing your Excellency and the world, of my innocence, and the purity of my principles, and the baseness and depravity of those of my enemies. - 2 】 편입학 시험 영어"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "felicitated — odium"
+        },
+        {
+          "label": "②",
+          "text": "traduced — opprobrium"
+        },
+        {
+          "label": "③",
+          "text": "sanctified — ignominy"
+        },
+        {
+          "label": "④",
+          "text": "sublimed — approbation"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Long retired as I have been, from the ways of intriguing, ambitious men, I have still Sir, in my retirement, a longing after a good name;―nay, it is the “immediate jewel of my soul,” and as an injured man, a ________ Whig, and a Gentleman, I hope your Excellency will deliver up to Justice, and to shame, the branders of my reputation, the filchers of my good name, so that I may strike at the root of the slander, and thereby be enabled to do myself Justice, by removing the ________, and convincing your Excellency and the world, of my innocence, and the purity of my principles, and the baseness and depravity of those of my enemies. - 2 】 편입학 시험 영어\nCHOICES:\n① felicitated — odium\n② traduced — opprobrium\n③ sanctified — ignominy\n④ sublimed — approbation"
+    },
+    {
+      "number": 25,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "There are, of course, Medieval, Renaissance and Orientalist Qurans that we will―we must―dismiss out of hand because their translators actually had an __________ reason behind the task, namely, to assure their fellow Christians of the superiority of Christianity over Islam.",
+        "In fact, Martin Luther, the German theologian who was the __________ of the 16th century Protestant Reformation, encouraged his followers to study the Quran in order to “read the writings of the enemy.”"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "invidious — catalyst"
+        },
+        {
+          "label": "②",
+          "text": "amenable — harbinger"
+        },
+        {
+          "label": "③",
+          "text": "impartial — incendiary"
+        },
+        {
+          "label": "④",
+          "text": "altruistic — detractor"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. There are, of course, Medieval, Renaissance and Orientalist Qurans that we will―we must―dismiss out of hand because their translators actually had an __________ reason behind the task, namely, to assure their fellow Christians of the superiority of Christianity over Islam.\n2. In fact, Martin Luther, the German theologian who was the __________ of the 16th century Protestant Reformation, encouraged his followers to study the Quran in order to “read the writings of the enemy.”\nCHOICES:\n① invidious — catalyst\n② amenable — harbinger\n③ impartial — incendiary\n④ altruistic — detractor"
+    },
+    {
+      "number": 26,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "The history of architecture can become a story about different styles of building.",
+        "One set of shapes gradually transformed into another over the course of time.",
+        "This type of history makes it sound as if there is in architectural forms a will to evolve and develop.",
+        "Traditions grow up, and the architects keep trying out new possibilities, some of which are seen as improvements and are copied by others, before being improved upon in their turn.",
+        "This approach can lead to a _______ with stylistic analysis that can lose sight of the fact that there is a practical rationale to building.",
+        "It can also lead to the setting aside of the social and economic issues, which can be interesting, and which are sometimes certainly the most important aspects of a building.",
+        "There is also the complicating fact that things look different from close at hand and from a distance.",
+        "What looks to us like a gradual change across the course of centuries might well have been a much less _______ process at the time.",
+        "It is always unusual for people to change their ways of doing things, and often what happens when a new idea takes over is that a generation of people grows old and inactive, while younger people inculcated with the new idea take up the tools.",
+        "Whether the change looks gradual or abrupt may depend on how far we are from the event.",
+        "Tragedy is farce in _______."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "familiarity — ill-founded — distance"
+        },
+        {
+          "label": "②",
+          "text": "self-absorption — irregular — afterthought"
+        },
+        {
+          "label": "③",
+          "text": "preoccupation — even-tempered — close-up"
+        },
+        {
+          "label": "④",
+          "text": "co-optation — gradual — here-and-now"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. The history of architecture can become a story about different styles of building.\n2. One set of shapes gradually transformed into another over the course of time.\n3. This type of history makes it sound as if there is in architectural forms a will to evolve and develop.\n4. Traditions grow up, and the architects keep trying out new possibilities, some of which are seen as improvements and are copied by others, before being improved upon in their turn.\n5. This approach can lead to a _______ with stylistic analysis that can lose sight of the fact that there is a practical rationale to building.\n6. It can also lead to the setting aside of the social and economic issues, which can be interesting, and which are sometimes certainly the most important aspects of a building.\n7. There is also the complicating fact that things look different from close at hand and from a distance.\n8. What looks to us like a gradual change across the course of centuries might well have been a much less _______ process at the time.\n9. It is always unusual for people to change their ways of doing things, and often what happens when a new idea takes over is that a generation of people grows old and inactive, while younger people inculcated with the new idea take up the tools.\n10. Whether the change looks gradual or abrupt may depend on how far we are from the event.\n11. Tragedy is farce in _______.\nCHOICES:\n① familiarity — ill-founded — distance\n② self-absorption — irregular — afterthought\n③ preoccupation — even-tempered — close-up\n④ co-optation — gradual — here-and-now"
+    },
+    {
+      "number": 27,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "David Hockney’s move to Los Angeles in the 1960s was pivotal.",
+        "The city’s sunlight, architecture, and lifestyle provided a fresh perspective that fueled his creativity.",
+        "(A) His swimming pool paintings, such as A Bigger Splash, captured the fluidity and stillness of water with remarkable precision.",
+        "These works inspired his additional Pool Made with Paper series and 【6 문제지[A형] Lithograph of Water Made with Blue Lines series.",
+        "Throughout the 1970s and 1980s, Hockney expanded his artistic reach, moving beyond poolside imagery to focus on portraiture and experimental photography.",
+        "His Joiners series, which stitched together multiple Polaroid photographs to create composite images, challenged traditional notions of perspective and time.",
+        "He also experimented with landscapes, producing intricate works inspired by the Yorkshire countryside.",
+        "(B) Hockney’s later career has been defined by an embrace of digital technology.",
+        "His iPad paintings, particularly those depicting the changing seasons in Yorkshire, showcase his continued interest in color, light, and the passage of time.",
+        "Works like The Arrival of Spring highlight his ability to blend traditional landscape painting with modern digital tools.",
+        "(C) Additionally, his Yosemite series, created using an iPad, captures the grandeur of nature in a way that remains both innovative and deeply connected to artistic traditions.",
+        "His flower compositions further illustrate his mastery of color and form, reinforcing his status as a pioneering force in contemporary art.",
+        "(D) 위 글에서"
+      ],
+      "question": "아래의 문장이 들어가기에 가장 적합한 곳을 고르시오. These periods solidified Hockney’s reputation as an artist unafraid to push the boundaries of representation and perception.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. David Hockney’s move to Los Angeles in the 1960s was pivotal.\n2. The city’s sunlight, architecture, and lifestyle provided a fresh perspective that fueled his creativity.\n3. (A) His swimming pool paintings, such as A Bigger Splash, captured the fluidity and stillness of water with remarkable precision.\n4. These works inspired his additional Pool Made with Paper series and 【6 문제지[A형] Lithograph of Water Made with Blue Lines series.\n5. Throughout the 1970s and 1980s, Hockney expanded his artistic reach, moving beyond poolside imagery to focus on portraiture and experimental photography.\n6. His Joiners series, which stitched together multiple Polaroid photographs to create composite images, challenged traditional notions of perspective and time.\n7. He also experimented with landscapes, producing intricate works inspired by the Yorkshire countryside.\n8. (B) Hockney’s later career has been defined by an embrace of digital technology.\n9. His iPad paintings, particularly those depicting the changing seasons in Yorkshire, showcase his continued interest in color, light, and the passage of time.\n10. Works like The Arrival of Spring highlight his ability to blend traditional landscape painting with modern digital tools.\n11. (C) Additionally, his Yosemite series, created using an iPad, captures the grandeur of nature in a way that remains both innovative and deeply connected to artistic traditions.\n12. His flower compositions further illustrate his mastery of color and form, reinforcing his status as a pioneering force in contemporary art.\n13. (D) 위 글에서\nQUESTION:\n아래의 문장이 들어가기에 가장 적합한 곳을 고르시오. These periods solidified Hockney’s reputation as an artist unafraid to push the boundaries of representation and perception.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 28,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "William Gibson’s writing is extraordinarily prescient about the impact of technologically produced virtual spaces on notions of identity and reality coming, as Neuromancer and the early stories and novels do, before the spread of computing technology and the inauguration of the World Wide Web.",
+        "It is only subsequently that Gibson’s cyberspace has become synonymous with the electrical-digital zone in which much of the world’s commerce, communication, information and leisure is conducted.",
+        "The questioning of identity that is chungang to Gibson’s work can be equated with the questioning that Baudrillard raises with his assertion of the ‘screen and network’ as the crucial sites of postmodern identity.",
+        "This is what Scott Bukatman describes as ‘terminal identity,’ the interface with the screen at which and through which traditional conceptions of identity are disrupted and reconfigured.",
+        "All identity in Gibson’s cyberpunk writing is constructed through technology, the technological medium of communication and commerce determines identity and, as Baudrillard puts it, ‘being is convertible into infinite forms, and values of identity are constituted primarily through the manipulation of technology.’"
+      ],
+      "question": "위 글의 주제로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "An analysis of narrative techniques and genre conventions in cyberpunk literature."
+        },
+        {
+          "label": "②",
+          "text": "An exploration of how technologically produced virtual spaces reshape concepts of human identity."
+        },
+        {
+          "label": "③",
+          "text": "A critical evaluation of Baudrillard’s screen theory and its influence on Gibson’s postmodern identity."
+        },
+        {
+          "label": "④",
+          "text": "A historical overview of the evolution of personal identity in the context of advancing digital commerce and global networks. - 3 】 편입학 시험 영어"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. William Gibson’s writing is extraordinarily prescient about the impact of technologically produced virtual spaces on notions of identity and reality coming, as Neuromancer and the early stories and novels do, before the spread of computing technology and the inauguration of the World Wide Web.\n2. It is only subsequently that Gibson’s cyberspace has become synonymous with the electrical-digital zone in which much of the world’s commerce, communication, information and leisure is conducted.\n3. The questioning of identity that is chungang to Gibson’s work can be equated with the questioning that Baudrillard raises with his assertion of the ‘screen and network’ as the crucial sites of postmodern identity.\n4. This is what Scott Bukatman describes as ‘terminal identity,’ the interface with the screen at which and through which traditional conceptions of identity are disrupted and reconfigured.\n5. All identity in Gibson’s cyberpunk writing is constructed through technology, the technological medium of communication and commerce determines identity and, as Baudrillard puts it, ‘being is convertible into infinite forms, and values of identity are constituted primarily through the manipulation of technology.’\nQUESTION:\n위 글의 주제로 가장 적합한 것을 고르시오.\nCHOICES:\n① An analysis of narrative techniques and genre conventions in cyberpunk literature.\n② An exploration of how technologically produced virtual spaces reshape concepts of human identity.\n③ A critical evaluation of Baudrillard’s screen theory and its influence on Gibson’s postmodern identity.\n④ A historical overview of the evolution of personal identity in the context of advancing digital commerce and global networks. - 3 】 편입학 시험 영어"
+    },
+    {
+      "number": 29,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S. On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults. It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years. Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk. “It’s just good to have more options for people,” he says. (A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket. “Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs. Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy. In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo. (B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease. But until now, they have largely been available in the U.S. only as injections. (C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said. The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller. People who take the pills tend to eat less overall. (D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting. The pills must also be taken on an empty stomach to work effectively.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S.",
+        "On Monday Novo Nordisk announced that the U.S.",
+        "Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.",
+        "It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years.",
+        "Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk.",
+        "“It’s just good to have more options for people,” he says.",
+        "(A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket.",
+        "“Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs.",
+        "Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy.",
+        "In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo.",
+        "(B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.",
+        "But until now, they have largely been available in the U.S. only as injections.",
+        "(C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said.",
+        "The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller.",
+        "People who take the pills tend to eat less overall.",
+        "(D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting.",
+        "The pills must also be taken on an empty stomach to work effectively."
+      ],
+      "question": "위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S. On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults. It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years. Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk. “It’s just good to have more options for people,” he says. (A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket. “Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs. Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy. In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo. (B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease. But until now, they have largely been available in the U.S. only as injections. (C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said. The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller. People who take the pills tend to eat less overall. (D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting. The pills must also be taken on an empty stomach to work effectively.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S.\n2. On Monday Novo Nordisk announced that the U.S.\n3. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.\n4. It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years.\n5. Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk.\n6. “It’s just good to have more options for people,” he says.\n7. (A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket.\n8. “Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs.\n9. Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy.\n10. In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo.\n11. (B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.\n12. But until now, they have largely been available in the U.S. only as injections.\n13. (C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said.\n14. The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller.\n15. People who take the pills tend to eat less overall.\n16. (D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting.\n17. The pills must also be taken on an empty stomach to work effectively.\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 30,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S. On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults. It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years. Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk. “It’s just good to have more options for people,” he says. (A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket. “Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs. Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy. In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo. (B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease. But until now, they have largely been available in the U.S. only as injections. (C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said. The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller. People who take the pills tend to eat less overall. (D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting. The pills must also be taken on an empty stomach to work effectively.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S.",
+        "On Monday Novo Nordisk announced that the U.S.",
+        "Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.",
+        "It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years.",
+        "Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk.",
+        "“It’s just good to have more options for people,” he says.",
+        "(A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket.",
+        "“Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs.",
+        "Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy.",
+        "In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo.",
+        "(B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.",
+        "But until now, they have largely been available in the U.S. only as injections.",
+        "(C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said.",
+        "The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller.",
+        "People who take the pills tend to eat less overall.",
+        "(D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting.",
+        "The pills must also be taken on an empty stomach to work effectively."
+      ],
+      "question": "위 글의 내용과 일치하지 않는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The FDA approval represents a significant advance after years of failed oral alternatives."
+        },
+        {
+          "label": "②",
+          "text": "Unlike injections, the pill functions through a critically different physiological mechanism."
+        },
+        {
+          "label": "③",
+          "text": "The result of Wegovy pill experiment cannot be directly compared to that of Wegovy injection."
+        },
+        {
+          "label": "④",
+          "text": "Oral GLP-1 drugs are expected to expand accessibility through lower costs and convenience. 【6 문제지[A형]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S. On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults. It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years. Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk. “It’s just good to have more options for people,” he says. (A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket. “Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs. Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy. In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo. (B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease. But until now, they have largely been available in the U.S. only as injections. (C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said. The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller. People who take the pills tend to eat less overall. (D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting. The pills must also be taken on an empty stomach to work effectively.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.5점) Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S.\n2. On Monday Novo Nordisk announced that the U.S.\n3. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.\n4. It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years.\n5. Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk.\n6. “It’s just good to have more options for people,” he says.\n7. (A)At the same time, the pills could greatly improve access to the medication by lowering costs—the injections can cost hundreds of dollars per month out of pocket.\n8. “Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs.\n9. Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy.\n10. In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo.\n11. (B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.\n12. But until now, they have largely been available in the U.S. only as injections.\n13. (C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said.\n14. The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller.\n15. People who take the pills tend to eat less overall.\n16. (D)The side effects are pretty similar to those of injections of the drug, and they can include nausea, diarrhea and vomiting.\n17. The pills must also be taken on an empty stomach to work effectively.\nQUESTION:\n위 글의 내용과 일치하지 않는 것을 고르시오.\nCHOICES:\n① The FDA approval represents a significant advance after years of failed oral alternatives.\n② Unlike injections, the pill functions through a critically different physiological mechanism.\n③ The result of Wegovy pill experiment cannot be directly compared to that of Wegovy injection.\n④ Oral GLP-1 drugs are expected to expand accessibility through lower costs and convenience. 【6 문제지[A형]"
+    },
+    {
+      "number": 31,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes. Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations. The new discovery, however, represents a separate and distinct rock art area that had not been recognized before. These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum. While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago. In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface. While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age. The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat. These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock. Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art. Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes.",
+        "Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations.",
+        "The new discovery, however, represents a separate and distinct rock art area that had not been recognized before.",
+        "These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum.",
+        "While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago.",
+        "In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface.",
+        "While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age.",
+        "The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat.",
+        "These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.",
+        "Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art.",
+        "Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "From Petroglyphs to Pigment: Rethinking Methods of Dating Scandinavian Rock Art"
+        },
+        {
+          "label": "②",
+          "text": "Environmental Threats to Ancient Rock Art Along Northern Europe’s Coastal Regions"
+        },
+        {
+          "label": "③",
+          "text": "Revealing an Unrecognized Stone Age Rock-Painting Landscape in Western Scandinavia"
+        },
+        {
+          "label": "④",
+          "text": "Archaeological Imaging and the Rediscovery of Prehistoric Maritime Symbolism in Norway"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes. Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations. The new discovery, however, represents a separate and distinct rock art area that had not been recognized before. These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum. While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago. In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface. While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age. The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat. These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock. Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art. Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes.\n2. Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations.\n3. The new discovery, however, represents a separate and distinct rock art area that had not been recognized before.\n4. These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum.\n5. While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago.\n6. In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface.\n7. While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age.\n8. The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat.\n9. These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.\n10. Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art.\n11. Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① From Petroglyphs to Pigment: Rethinking Methods of Dating Scandinavian Rock Art\n② Environmental Threats to Ancient Rock Art Along Northern Europe’s Coastal Regions\n③ Revealing an Unrecognized Stone Age Rock-Painting Landscape in Western Scandinavia\n④ Archaeological Imaging and the Rediscovery of Prehistoric Maritime Symbolism in Norway"
+    },
+    {
+      "number": 32,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes. Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations. The new discovery, however, represents a separate and distinct rock art area that had not been recognized before. These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum. While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago. In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface. While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age. The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat. These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock. Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art. Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes.",
+        "Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations.",
+        "The new discovery, however, represents a separate and distinct rock art area that had not been recognized before.",
+        "These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum.",
+        "While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago.",
+        "In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface.",
+        "While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age.",
+        "The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat.",
+        "These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.",
+        "Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art.",
+        "Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines."
+      ],
+      "question": "빈 칸에 들어가기에 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Digital documentation methods were crucial for confirming this discovery."
+        },
+        {
+          "label": "②",
+          "text": "The paintings were immediately visible without technological assistance."
+        },
+        {
+          "label": "③",
+          "text": "Advanced chemical dating techniques established the precise age of the pigments."
+        },
+        {
+          "label": "④",
+          "text": "Local historians initially underestimated the significance of the rock surface. - 4 】 편입학 시험 영어"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes. Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations. The new discovery, however, represents a separate and distinct rock art area that had not been recognized before. These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum. While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago. In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface. While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age. The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat. These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock. Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art. Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.5점) Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes.\n2. Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations.\n3. The new discovery, however, represents a separate and distinct rock art area that had not been recognized before.\n4. These paintings were observed during recent fieldwork by researchers from the Norwegian Institute for Cultural Heritage Research and the NTNU University Museum.\n5. While the initial goal of the team was to record and assess known sites at Hunnhammar, they were able to observe faint traces of pigment on a rock surface in difficult terrain, which were confirmed to be deliberate human paintings made thousands of years ago.\n6. In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface.\n7. While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age.\n8. The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat.\n9. These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.\n10. Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art.\n11. Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① Digital documentation methods were crucial for confirming this discovery.\n② The paintings were immediately visible without technological assistance.\n③ Advanced chemical dating techniques established the precise age of the pigments.\n④ Local historians initially underestimated the significance of the rock surface. - 4 】 편입학 시험 영어"
+    },
+    {
+      "number": 33,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes. (A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two. (B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories. (D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders? Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time. How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes.",
+        "(A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two.",
+        "(B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories.",
+        "(D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders?",
+        "Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time.",
+        "How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task."
+      ],
+      "question": "위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes. (A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two. (B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories. (D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders? Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time. How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes.\n2. (A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two.\n3. (B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories.\n4. (D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders?\n5. Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time.\n6. How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task.\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 34,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes. (A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two. (B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories. (D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders? Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time. How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes.",
+        "(A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two.",
+        "(B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories.",
+        "(D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders?",
+        "Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time.",
+        "How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task."
+      ],
+      "question": "위 글의 요지로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Modern societies have moved beyond racial thinking and achieved genuine equality."
+        },
+        {
+          "label": "②",
+          "text": "Everyday interactions are largely independent of the historical development of racial ideas."
+        },
+        {
+          "label": "③",
+          "text": "Racial inequality mainly results from individuals’ lack of personal effort and responsibility."
+        },
+        {
+          "label": "④",
+          "text": "Racial beliefs are shaped by the interaction between long historical processes and daily social practices."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes. (A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two. (B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories. (D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders? Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time. How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes.\n2. (A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two.\n3. (B)As Matthew Hughey argues in his work White Bound, “Dominant meanings of race organize our social relations... [and] this social order works to reproduce racist schema and racial inequality through the mundane activities of everyday life.” (C)When racial categories are (even subconsciously) assigned in daily interactions, entrenched cultural belief systems get primed, cultural belief systems that emerged and evolved across long histories.\n4. (D)It is not clear what is “racial” about this ancient construct and what makes it specifically Western: did other civilizations not inferiorize women, laborers, and assorted ethnic outsiders?\n5. Thus, if blacks or whites or Latina/os or Asians at Riverview or elsewhere are thought of as more or less criminal, more or less intelligent, more or less athletically inclined, more or less trustworthy, it is because of how racial thinking and our ideas about different groups developed and evolved across time.\n6. How we keep track of and make sense of connections between our daily living and this larger structure and history of race is no small task.\nQUESTION:\n위 글의 요지로 가장 적합한 것을 고르시오.\nCHOICES:\n① Modern societies have moved beyond racial thinking and achieved genuine equality.\n② Everyday interactions are largely independent of the historical development of racial ideas.\n③ Racial inequality mainly results from individuals’ lack of personal effort and responsibility.\n④ Racial beliefs are shaped by the interaction between long historical processes and daily social practices."
+    },
+    {
+      "number": 35,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action. In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length. Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative. Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds. (A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think. The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion. What Pym sees at the end of his narrative is never fully explained. (B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses. Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act. (C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction. What do we finally learn from Cereno’s depression and Babo’s mute death? Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby! Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk? Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action.",
+        "In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length.",
+        "Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative.",
+        "Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds.",
+        "(A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think.",
+        "The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion.",
+        "What Pym sees at the end of his narrative is never fully explained.",
+        "(B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses.",
+        "Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act.",
+        "(C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction.",
+        "What do we finally learn from Cereno’s depression and Babo’s mute death?",
+        "Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby!",
+        "Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk?",
+        "Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending."
+      ],
+      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은 문장을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action. In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length. Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative. Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds. (A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think. The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion. What Pym sees at the end of his narrative is never fully explained. (B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses. Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act. (C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction. What do we finally learn from Cereno’s depression and Babo’s mute death? Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby! Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk? Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action.\n2. In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length.\n3. Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative.\n4. Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds.\n5. (A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think.\n6. The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion.\n7. What Pym sees at the end of his narrative is never fully explained.\n8. (B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses.\n9. Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act.\n10. (C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction.\n11. What do we finally learn from Cereno’s depression and Babo’s mute death?\n12. Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby!\n13. Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk?\n14. Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending.\nQUESTION:\n위 글에서 논지의 흐름상 가장 적합하지 않은 문장을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 36,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action. In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length. Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative. Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds. (A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think. The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion. What Pym sees at the end of his narrative is never fully explained. (B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses. Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act. (C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction. What do we finally learn from Cereno’s depression and Babo’s mute death? Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby! Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk? Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action.",
+        "In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length.",
+        "Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative.",
+        "Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds.",
+        "(A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think.",
+        "The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion.",
+        "What Pym sees at the end of his narrative is never fully explained.",
+        "(B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses.",
+        "Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act.",
+        "(C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction.",
+        "What do we finally learn from Cereno’s depression and Babo’s mute death?",
+        "Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby!",
+        "Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk?",
+        "Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending."
+      ],
+      "question": "위 글의 요지로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Philosophical romances follow the traditional structure of historical romances to ensure clear moral lessons."
+        },
+        {
+          "label": "②",
+          "text": "The lack of a definitive resolution in Melville and Poe’s works was a result of the authors’ inability to reconcile plot contradictions."
+        },
+        {
+          "label": "③",
+          "text": "Philosophical romances focus on psychological depth and interpretive ambiguity by deferring action and employing inconclusive endings."
+        },
+        {
+          "label": "④",
+          "text": "The primary structural difference between historical and philosophical romances lies in the protagonist’s ability to overcome psychological trauma."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action. In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length. Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative. Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds. (A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think. The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion. What Pym sees at the end of his narrative is never fully explained. (B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses. Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act. (C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction. What do we finally learn from Cereno’s depression and Babo’s mute death? Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby! Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk? Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action.\n2. In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length.\n3. Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative.\n4. Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds.\n5. (A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think.\n6. The slower 【6 문제지[A형] pace of these novels is often complemented by an inconclusive or open-ended conclusion.\n7. What Pym sees at the end of his narrative is never fully explained.\n8. (B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses.\n9. Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act.\n10. (C)Stories such as “Benito Cereno” and “Bartleby, the Scrivener” reach endings fraught with significance of uncertain scope and direction.\n11. What do we finally learn from Cereno’s depression and Babo’s mute death?\n12. Does the Wall Street lawyer’s final ejaculation of “Ah, Bartleby!\n13. Ah, humanity!” resolve any of the ambiguities surrounding the strange life and death of his clerk?\n14. Even in The Confidence-Man, which drives to as final an ending as any nineteenth-century novel, Melville cannot resist cryptically reopening the drama in the last line: “Something further may follow of this Masquerade.” This statement does not indicate a forthcoming sequel (Melville would not write another novel for decades); instead, (D)it suggests the impracticability of freezing this shifting and carnival-like society in any ending.\nQUESTION:\n위 글의 요지로 가장 적합한 것을 고르시오.\nCHOICES:\n① Philosophical romances follow the traditional structure of historical romances to ensure clear moral lessons.\n② The lack of a definitive resolution in Melville and Poe’s works was a result of the authors’ inability to reconcile plot contradictions.\n③ Philosophical romances focus on psychological depth and interpretive ambiguity by deferring action and employing inconclusive endings.\n④ The primary structural difference between historical and philosophical romances lies in the protagonist’s ability to overcome psychological trauma."
+    },
+    {
+      "number": 37,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other. This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it. The first view he calls ‘empiricism’, the second ‘idealism’. Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality. In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent. “Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites. What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action. Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied. For example, seeing the face of a loved one prompts one to act in a certain way towards him. An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking. The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life. Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought. This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations. His chief interest lay with the former.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other.",
+        "This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it.",
+        "The first view he calls ‘empiricism’, the second ‘idealism’.",
+        "Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality.",
+        "In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent.",
+        "“Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites.",
+        "What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action.",
+        "Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied.",
+        "For example, seeing the face of a loved one prompts one to act in a certain way towards him.",
+        "An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking.",
+        "The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life.",
+        "Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought.",
+        "This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations.",
+        "His chief interest lay with the former."
+      ],
+      "question": "빈 칸에 들어가기에 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Merleau-Ponty understands experience as a conceptual relation between consciousness and the world, mediated by reflective thought."
+        },
+        {
+          "label": "②",
+          "text": "As a result, bodily movement consistently occurs prior to cognitive judgment, determining the structure of mental processes."
+        },
+        {
+          "label": "③",
+          "text": "Therefore, consciousness can be accounted for in theoretical terms without making essential reference to bodily action or embodiment."
+        },
+        {
+          "label": "④",
+          "text": "This is further shown by the way emotion expresses itself bodily, and by the fact that feeling a certain way about something colors how one perceives it."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other. This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it. The first view he calls ‘empiricism’, the second ‘idealism’. Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality. In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent. “Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites. What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action. Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied. For example, seeing the face of a loved one prompts one to act in a certain way towards him. An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking. The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life. Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought. This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations. His chief interest lay with the former.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other.\n2. This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it.\n3. The first view he calls ‘empiricism’, the second ‘idealism’.\n4. Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality.\n5. In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent.\n6. “Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites.\n7. What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action.\n8. Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied.\n9. For example, seeing the face of a loved one prompts one to act in a certain way towards him.\n10. An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking.\n11. The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life.\n12. Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought.\n13. This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations.\n14. His chief interest lay with the former.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① Merleau-Ponty understands experience as a conceptual relation between consciousness and the world, mediated by reflective thought.\n② As a result, bodily movement consistently occurs prior to cognitive judgment, determining the structure of mental processes.\n③ Therefore, consciousness can be accounted for in theoretical terms without making essential reference to bodily action or embodiment.\n④ This is further shown by the way emotion expresses itself bodily, and by the fact that feeling a certain way about something colors how one perceives it."
+    },
+    {
+      "number": 38,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other. This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it. The first view he calls ‘empiricism’, the second ‘idealism’. Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality. In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent. “Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites. What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action. Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied. For example, seeing the face of a loved one prompts one to act in a certain way towards him. An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking. The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life. Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought. This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations. His chief interest lay with the former.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other.",
+        "This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it.",
+        "The first view he calls ‘empiricism’, the second ‘idealism’.",
+        "Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality.",
+        "In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent.",
+        "“Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites.",
+        "What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action.",
+        "Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied.",
+        "For example, seeing the face of a loved one prompts one to act in a certain way towards him.",
+        "An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking.",
+        "The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life.",
+        "Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought.",
+        "This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations.",
+        "His chief interest lay with the former."
+      ],
+      "question": "위 글을 통해 추론할 수 없는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Merleau-Ponty regards language as playing a role in the emergence of thought."
+        },
+        {
+          "label": "②",
+          "text": "According to Merleau-Ponty, perception is closely connected to possibilities for action."
+        },
+        {
+          "label": "③",
+          "text": "Merleau-Ponty understands experience as emerging from the embodied interdependence of consciousness and the world."
+        },
+        {
+          "label": "④",
+          "text": "This shows that perception operates primarily as a passive reception of sensory information, with little active involvement from the perceiving subject. 【6 문제지[A형]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other. This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it. The first view he calls ‘empiricism’, the second ‘idealism’. Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality. In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent. “Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites. What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action. Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied. For example, seeing the face of a loved one prompts one to act in a certain way towards him. An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking. The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life. Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought. This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations. His chief interest lay with the former.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other.\n2. This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it.\n3. The first view he calls ‘empiricism’, the second ‘idealism’.\n4. Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of - 5 】 편입학 시험 영어 intentionality.\n5. In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent.\n6. “Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites.\n7. What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action.\n8. Because action is a bodily function, and action and perception are essentially linked, it follows that the subject of experience is essentially embodied.\n9. For example, seeing the face of a loved one prompts one to act in a certain way towards him.\n10. An interesting component of Merleau-Ponty’s view is that because it sees thought as bodily expression (private thought is imagined bodily expression, he says), we can see dance, mime, painting, and music as expressions of thought, as forms of thinking.\n11. The meaning of expressions is conferred upon them by the contexts in which they are used, the contexts consisting in shared forms of life.\n12. Merleau-Ponty’s educational work on child pedagogy at the Sorbonne contributed an interest in language-learning to his theory of expression, and in particular to the arena where language both acquires sense and in doing so marks the birth of a thought.\n13. This is ‘speaking language’, le langage parlant, the primary mode of expression, to be distinguished from spoken language, le langage parlé, secondary expression, the repository of culture and the established relations of signs and significations.\n14. His chief interest lay with the former.\nQUESTION:\n위 글을 통해 추론할 수 없는 것을 고르시오.\nCHOICES:\n① Merleau-Ponty regards language as playing a role in the emergence of thought.\n② According to Merleau-Ponty, perception is closely connected to possibilities for action.\n③ Merleau-Ponty understands experience as emerging from the embodied interdependence of consciousness and the world.\n④ This shows that perception operates primarily as a passive reception of sensory information, with little active involvement from the perceiving subject. 【6 문제지[A형]"
+    },
+    {
+      "number": 39,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics. This is the problem of modeling across scales. Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales. At the scale of meters, we are interested in its bending properties, its buckling strength, etc. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales. According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other. Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales. For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy. A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies. Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli. Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior? This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics? These are the important questions that many theorists of our time are still grappling with.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics.",
+        "This is the problem of modeling across scales.",
+        "Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales.",
+        "At the scale of meters, we are interested in its bending properties, its buckling strength, etc.",
+        "At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc.",
+        "To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.",
+        "According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other.",
+        "Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales.",
+        "For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy.",
+        "A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies.",
+        "Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli.",
+        "Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior?",
+        "This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics?",
+        "These are the important questions that many theorists of our time are still grappling with."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Issues in Continuum Mechanics"
+        },
+        {
+          "label": "②",
+          "text": "Challenges in Multiscale Modeling"
+        },
+        {
+          "label": "③",
+          "text": "Parameter Reduction in Material Modeling"
+        },
+        {
+          "label": "④",
+          "text": "The Tyranny of Scales in the Steel Industry"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics. This is the problem of modeling across scales. Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales. At the scale of meters, we are interested in its bending properties, its buckling strength, etc. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales. According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other. Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales. For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy. A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies. Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli. Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior? This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics? These are the important questions that many theorists of our time are still grappling with.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics.\n2. This is the problem of modeling across scales.\n3. Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales.\n4. At the scale of meters, we are interested in its bending properties, its buckling strength, etc.\n5. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc.\n6. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.\n7. According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other.\n8. Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales.\n9. For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy.\n10. A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies.\n11. Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli.\n12. Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior?\n13. This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics?\n14. These are the important questions that many theorists of our time are still grappling with.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Issues in Continuum Mechanics\n② Challenges in Multiscale Modeling\n③ Parameter Reduction in Material Modeling\n④ The Tyranny of Scales in the Steel Industry"
+    },
+    {
+      "number": 40,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics. This is the problem of modeling across scales. Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales. At the scale of meters, we are interested in its bending properties, its buckling strength, etc. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales. According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other. Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales. For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy. A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies. Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli. Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior? This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics? These are the important questions that many theorists of our time are still grappling with.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics.",
+        "This is the problem of modeling across scales.",
+        "Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales.",
+        "At the scale of meters, we are interested in its bending properties, its buckling strength, etc.",
+        "At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc.",
+        "To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.",
+        "According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other.",
+        "Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales.",
+        "For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy.",
+        "A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies.",
+        "Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli.",
+        "Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior?",
+        "This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics?",
+        "These are the important questions that many theorists of our time are still grappling with."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The transition from atomic models to macroscale properties is hindered by the emergence of new physical principles at different scales."
+        },
+        {
+          "label": "②",
+          "text": "Knowledge of intermediate scale phenomena is largely irrelevant to understanding macroscopic material properties and does not serve theoretical interests."
+        },
+        {
+          "label": "③",
+          "text": "If microscopic physical laws are understood, macroscopic material behavior can be derived directly without recourse to alternative modeling strategies."
+        },
+        {
+          "label": "④",
+          "text": "The behaviors observed at different scales reflect merely variations in magnitude, not qualitatively distinct regimes that require shifts in modeling methodology. - 6 】"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics. This is the problem of modeling across scales. Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales. At the scale of meters, we are interested in its bending properties, its buckling strength, etc. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales. According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other. Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales. For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy. A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies. Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli. Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior? This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics? These are the important questions that many theorists of our time are still grappling with.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is a well-known problem in physics and applied mathematics.\n2. This is the problem of modeling across scales.\n3. Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales.\n4. At the scale of meters, we are interested in its bending properties, its buckling strength, etc.\n5. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc.\n6. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.\n7. According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other.\n8. Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales.\n9. For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy.\n10. A response to the problem of the “tyranny of scales” would attempt to exploit our rather rich knowledge of intermediate micro- (or meso-) scale behaviors in a manner that would allow us to bridge between these two dominant methodologies.\n11. Macroscopic scale behaviors often fall into large common classes of behaviors, such as the class of isotropic elastic solids, characterized by two phenomenological parameters— so-called elastic moduli.\n12. Can we employ knowledge of lower-scale behaviors to understand this universality—to determine the moduli and to group the systems into classes exhibiting similar behavior?\n13. This is related to engineering concerns as well: Can we employ our smaller-scale knowledge to better design systems for optimal macroscopic performance characteristics?\n14. These are the important questions that many theorists of our time are still grappling with.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.\nCHOICES:\n① The transition from atomic models to macroscale properties is hindered by the emergence of new physical principles at different scales.\n② Knowledge of intermediate scale phenomena is largely irrelevant to understanding macroscopic material properties and does not serve theoretical interests.\n③ If microscopic physical laws are understood, macroscopic material behavior can be derived directly without recourse to alternative modeling strategies.\n④ The behaviors observed at different scales reflect merely variations in magnitude, not qualitatively distinct regimes that require shifts in modeling methodology. - 6 】"
+    }
+  ]
+}

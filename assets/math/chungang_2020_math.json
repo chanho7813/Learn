@@ -1,0 +1,821 @@
+{
+  "university": "chungang",
+  "university_name": "중앙대학교",
+  "year": 2020,
+  "subject": "math",
+  "subject_name": "수학",
+  "source_text_file": "chungang_2020_math_extracted_complete.txt",
+  "question_count": 30,
+  "questions": [
+    {
+      "number": 1,
+      "points": "2.5점",
+      "stem": "lim \\theta \\to0 \\frac{tan\\theta-sin\\theta}{\\theta3} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{1}{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "2.5점",
+      "stem": "곡선 ex/y = x - y 위의 점 (0, a) 에서의 접선이 직선 y = x+3 과 점 (b, c ) 에서 만날 때, a+b+c 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "5"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "10"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "20"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "40"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "3점",
+      "stem": "\\mathbb{R}^3 의 두 점 A(1, 1, 1), B(1,1,2)와 평면 2x-y+z = 0 위의 점 P 에 대하여 \\frac{\\frac}{PA+} PB 의 최솟값은? (단, \\frac{는}{XY} X, Y 사이의 거리를 나타낸다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\sqrt{5}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\sqrt{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\sqrt{7}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\sqrt{8}"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "3.5점",
+      "stem": "세 점 (1, 0), (1, 2), (4, 1)을 꼭짓점으로 하는 삼각형의 내부를  라 할 때, \\iint  y^2 dxdy 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{3}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{5}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{7}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{9}{2}"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "3점",
+      "stem": "2\\times2 행렬  가 ( ) 1 -1 = ( ) 2 -2 , ( ) 1 1 = ( ) 3 3 을 만족할 때, 17 ( ) 11 -5 = ( ) x y 라 놓으면 x - y 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "219"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "221"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "319"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "321"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "3.5점",
+      "stem": " () = \\iiint  (1-x^2 -2y^2 -3z^2 )dxdydz 의 값이 최대가 되도록 \\mathbb{R}^3 의 영역  를 정할 때,  ()의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2\\pi}{15\\sqrt{6}}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{8\\pi}{15\\sqrt{6}}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4\\pi}{5\\sqrt{6}}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{2\\pi}{5\\sqrt{6}}"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "3점",
+      "stem": "\\mathbb{R}^3 의 순서기저(ordered basis) \\beta = {v1, v2, v3} 에 관한 선형변환  : \\mathbb{R}^3 \\to \\mathbb{R}^3 의 행렬표현이 \\begin{pmatrix} \\end{pmatrix} 1 1 -1 2 0 1 1 1 0 으로 주어진다. w1 = v1 +2v2 +4v3, w2 = v2 +2v3, w3 = v3 에 대하여 (w1 +w2 +w3) = \\alphaw1 + \\betaw2 +\\gammaw3 라 할 때, \\alpha+\\beta+\\gamma 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "3점",
+      "stem": "타원 x^2 +4y^2 = 8 위의 점 (2, 1) 에서 곡률의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2}{25} \\sqrt{5}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{4}{25} \\sqrt{5}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{5} \\sqrt{5}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{8}{5} \\sqrt{5}"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "4점",
+      "stem": "3\\times3 행렬  의 특성다항식이 det(-t ) = -t^3 +2t^2 +6t-1 로 주어질 때, 행렬 2 의 특성다항식을 p(t) = det(2 -t) 라 하면 미분계수 p'(1) 의 값은? (단,  는 3\\times3 단위행렬이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-5"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "7"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "-11"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "3점",
+      "stem": "선형변환  : \\mathbb{R}^4 \\to \\mathbb{R}^5 를 다음과 같이 정의한다. v = v,  = \\begin{pmatrix} \\end{pmatrix} 2 0 -2 4 1 0 -2 3 0 4 2 1 6 4 -4 13 2 4 -2 7 , v\\in\\mathbb{R}^4 .  의 계수(rank)를 r 이라 하고  의 영공간(null space)의 차원을 n 이라 할 때 r-n 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "3.5점",
+      "stem": "행렬 의 기약행사다리꼴(row-reduced echelon form)이 \\begin{pmatrix} \\end{pmatrix} 1 0 -2 0 2 0 1 -3 0 5 0 0 0 1 6 으로 주어진다고 하자. 의 첫째, 둘째, 넷째 열이 각각 \\begin{pmatrix} \\end{pmatrix} 1 1 2 , \\begin{pmatrix} \\end{pmatrix} 3 1 -1 , \\begin{pmatrix} \\end{pmatrix} 2 1 1 일 때,  의 다섯째 열의 성분을 모두 합하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "29"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "34"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "42"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "47"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "4점",
+      "stem": "곡면  = {(x,y,z)\\in\\mathbb{R}^3 : z = \\frac{1}{2} y^2 , 0 \\leq x \\leq 1, 0 \\leq y \\leq 1}에 대하여 곡면적분 \\iint  \\sqrt{1+y^2} d 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{4}{3}"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "2.5점",
+      "stem": "(1, 0) = (1, 2) 와 (0, 1) = (1, -3) 을 만족하는 선형변환  : \\mathbb{R}^2 \\to\\mathbb{R}^2 가 세 점 P(1,1), Q(2,3), R(3,2)를 각각 P', Q', R' 으로 옮긴다고 할 때, 세 점 P', Q', R' 을 꼭짓점으로 하는 삼각형의 넓이는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{9}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{11}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{13}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{15}{2}"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "4점",
+      "stem": "곡선 \\gamma (t) = (\\frac{+1}{t^2} t+1 , \\frac{+1}{t^2} t(t+1) ), 0 \\leq t \\leq 1, 의 길이는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{\\pi}{\\sqrt{2}}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi}{2\\sqrt{2}}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{\\pi}{4}"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "3점",
+      "stem": "c > 0 일 때, 멱급수 1 + \\sum n = 1 \\infty \\frac{(c)n}{n} (2)n(-3)n (\\frac{x}{2} ) 2n 의 수렴반경을 구하면? (단, 임의의 실수 \\alpha에 대하여 (\\alpha)n = \\alpha(\\alpha+1) ⋯ (\\alpha+n-1) 으로 정의한다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "3c"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "6c"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "+\\infty"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "3점",
+      "stem": "\\int 0 1 \\sqrt{\\frac} \\frac{1-x}{1+x} dx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-1- \\frac{\\pi}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1+ \\frac{\\pi}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "1- \\frac{\\pi}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1+ \\frac{\\pi}{2}"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": "3.5점",
+      "stem": "\\int 0 \\frac{\\pi}{2} cos3 x sin3 x dx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{12}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": "3점",
+      "stem": "\\int 0 1 x^5 e - x^3 dx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{3} (1- \\frac{2}{e} )"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{1}{3e}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{3e}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{3} (1+ \\frac{2}{e} )"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": "4점",
+      "stem": "a > 0 일 때, 특이적분 \\int 0 \\infty e- at cost dt 을 계산하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{1+a^2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{a}{1+a^2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1+a}{1+a^2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{a}"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": "3점",
+      "stem": "g(x) = \\frac{1-x}{1+x} 일 때, \\int 0 1 \\frac{g(x)g'(x)}{\\sqrt{1+g(x)2}} dx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\sqrt{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "1-\\sqrt{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\sqrt{2-1}"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": "4점",
+      "stem": "구간 0, 1 에서 연속인 함수  에 대하여 정적분  = \\int 0 \\frac{\\pi}{2} (cosx)dx 를 새로운 변수 u = tan(x/2) 로 치환하여 올바르게 나타낸 것은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": " = 2\\int 0 1 (\\frac{2u}{1+u2} )\\frac{du}{1+u2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": " = 2\\int 0 1 (\\frac{1-u2}{1+u2} )\\frac{du}{1+u2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": " = 2\\int 0 1 (\\frac{2u}{1+u2} )\\frac{du}{\\sqrt{1+u2}}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": " = 2\\int 0 1 (\\frac{1-u2}{1+u2} )\\frac{du}{\\sqrt{1+u2}}"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "points": "4점",
+      "stem": "t > 0 일 때, 함수 (t) = \\frac{1}{2} cosht sinht -\\int 1 cosht \\sqrt{\\theta2} -1 d\\theta 의 도함수 '(t) 를 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "'(t) = \\frac{1}{2} + sinh2 t"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "'(t) = \\frac{1}{2} + sinh2 t - sinht"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "'(t) = \\frac{1}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "'(t) = \\frac{1}{2} + sinh2 t + sinht"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": "4점",
+      "stem": "r(t) = \\frac{1}{\\sqrt{t}} (cost, sint, t) 일 때, 외적 r(t) \\times r'(t) 의 크기(norm)를 구하면? (단, t > 0 )",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\sqrt{\\frac} 1+ \\frac{2}{t^2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\sqrt{\\frac} t+ \\frac{1}{t}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{2} \\sqrt{\\frac} \\frac{5}{t} + \\frac{1}{t^3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\sqrt{\\frac} 1+ \\frac{1+sin2t}{t}"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": "3점",
+      "stem": "함수  (x) = \\begin{cases} \\end{cases} \\frac{-1}{ex} x (x\\neq0), 1 (x = 0) 의 미분계수 '(0) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{1}{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": "4점",
+      "stem": "모든 |x| < 1 에 대하여 -\\int 0 x \\frac{log}{t} (1-t) dt = \\sum n = 1 \\infty n xn 이 성립할 때, 20 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{441}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{420}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{400}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{380}"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": "4점",
+      "stem": "다음\n<보기>\n의 급수전개에서 옳은 것을 모두 고르면? (단, |x| < 3/2 )\n<보기>\n(가) \\frac{3}{3-2x}\n= \\sum\nn = 0\n\\infty\n(\\frac{2}{3}\n)\nn\nxn\n(나) \\frac{6x}{(3-2x)^2}\n= \\sum\nn = 1\n\\infty\nn(\\frac{2}{3}\n)\nn\nxn\n(다) - \\frac{3}{2}\nlog(3-2x) = - \\frac{3}{2}\nlog3 + \\sum\nn = 1\n\\infty\n\\frac{1}{n}\n(\\frac{2}{3}\n)\nn - 1\nxn",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가), (나)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(가), (다)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(나), (다)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(가), (나), (다)"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "points": "3점",
+      "stem": "실수전체집합에서 무한히 미분가능인 두 함수 f(x), g(x) 의 x = 1 에서 n차 도함수의 값이 각각 (-2)n , (-3)n 이라 할 때, x = 1 에서 f(x)g(x) 의 8차 도함수의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "28"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "38"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "58"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "points": "3점",
+      "stem": "구 x^2 +y^2 +z^2 = 19 위에서 함수 f(x, y, z) = 2x + 3y + 5z 의 최댓값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "19\\sqrt{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "19\\sqrt{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "38\\sqrt{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "38\\sqrt{2}"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "points": "4점",
+      "stem": "영역 \\Omega = {(x, y)\\in\\mathbb{R}^2 : 0 \\leq y \\leq x, x^2 +y^2 \\leq 1} 의 경계를 \\Omega 라 할 때, 다음 선적분의 값은? \\int \\Omega (x^3 -y^3 +y^2 )dx + (x^3 +x + 2xy)dy (단, \\Omega 의 방향은 시계반대방향이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\pi}{4}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{5\\pi}{16}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{5\\pi}{8}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{5\\pi}{2}"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "points": "2.5점",
+      "stem": "다음과 같이 행렬식의 방정식이 성립하는 경우를 고르면? det \\begin{pmatrix} \\end{pmatrix} a b a b 0 a b a 2a 3a+2b 3a+3b 3a+2b 3a -a+3b 3a-b 3b = 16",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "a = -3, b = - \\frac{1}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "a = -2, b = - \\frac{1}{4}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "a = -1, b = \\frac{1}{12}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "a = 1, b = \\frac{1}{3}"
+        }
+      ]
+    }
+  ]
+}

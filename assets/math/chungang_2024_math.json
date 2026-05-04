@@ -1,0 +1,821 @@
+{
+  "university": "chungang",
+  "university_name": "중앙대학교",
+  "year": 2024,
+  "subject": "math",
+  "subject_name": "수학",
+  "source_text_file": "chungang_2024_math_extracted_complete.txt",
+  "question_count": 30,
+  "questions": [
+    {
+      "number": 1,
+      "points": "2.5점",
+      "stem": "극한 lim x \\to0+ (esin x +3x) \\frac{1}{tanx} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "e"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "e4"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\infty"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "3점",
+      "stem": "함수 f(x) =-(ex +e- x )^3 +6(ex +e- x )^2 +15(ex +e- x ) 가 최댓값을 갖는 x를 \\alpha, \\beta (단, \\alpha > \\beta)라 할 때, e2\\alpha +e2\\beta 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "14"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "23"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "34"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "3.5점",
+      "stem": "적분 \\int 0 1 \\int x 1 x^{2022} \\sqrt{1+y^{2024}} dydx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{2024\\cdot3036} (2\\sqrt{2-1)}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{2023\\cdot3036} (2\\sqrt{2-1)}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{2024\\cdot3036} (\\sqrt{2-1)}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{2023\\cdot3036} (\\sqrt{2-1)}"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "3.5점",
+      "stem": "다음\n<보기>\n의 급수 중에서 수렴하는 것의 개수는?\n<보기>\n(가) \\sum\nn = 1\n\\infty\n\\frac{1}{n(ln(n+1))^2}\n(나) \\sum\nn = 1\n\\infty\narctan\\frac{1}{n}\n(다) \\sum\nn = 1\n\\infty\n\\frac{cos(n\\pi)}{\\sqrt{n}}\n(라) \\sum\nn = 1\n\\infty\n\\frac{(1+}{n} \\frac{\\frac{1}{22}}{\\sqrt{3}}\n+ \\frac{\\frac{1}{32}}{\\sqrt{3}}\n+⋯+ \\frac{\\frac{1}{n^2}}{\\sqrt{3}}\n)\n1",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "3.5점",
+      "stem": "f(x) = ex (cos2x + sin2x) 를 x = 0 에서 Taylor 급수 전개하였을 때, x^5 의 계수를 a^5라고 하자. 이때, 5\\timesa5의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "7"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "3점",
+      "stem": "두 곡선 y^3 = x^2 과 \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 의 교점에서 각 곡선에 대한 접선이 서로 수직이 되는, a와 b의 일반적인 관계식은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "3b^2 = 2a^2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2b^3 = 3a^2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "3b^2 = 2a^3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2b^2 = 3a^2"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "2.5점",
+      "stem": "sin- 1 (\\frac{4}{\\sqrt{17}} ) = \\theta1 이고, sin- 1 (\\frac{1}{\\sqrt{17}} ) = \\theta2 일 때, \\theta1 + \\theta2의 값은? (단, - \\frac{\\pi}{2} \\leq \\theta1 \\leq \\frac{\\pi}{2} , - \\frac{\\pi}{2} \\leq \\theta2 \\leq \\frac{\\pi}{2} 이 다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{\\pi}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "0"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\pi"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "3.5점",
+      "stem": "함수 f(x) = 2cosx - cos2x에 대하여 구간 0 < x < 3\\pi 에서 불연속인 점의 개수는? (단, x는 x보다 크지 않은 최대의 정수이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "10"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "11"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "12"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "4점",
+      "stem": "함수 f(z) = tanhz = \\frac{+e-}{ez} z ez -e- z , g(x,y) = x^3 -12xy+8y^3 라 하자. 이때, 합성함수 h(x,y) = (f∘g)(x,y) = f(g(x,y)) 의 \\mathbb{R}^2 에서의 임계점 (즉, ∇h(x,y) = (0,0) 이 되는 점)을 (a, b), (c, d)라고 하면, a+b+c+d 의 값은? (단, (a, b)\\neq(c, d) 이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "3.5점",
+      "stem": "\\mathbb{R}^3 에서 정의된 벡터장 \\mathbf{F}(x,y,z) = (ycosz -yzex , xcosz -zex , -xysinz -yex )을 다음 곡선 를 따라 적 분한 선적분 \\int  \\mathbf{F}\\cdotdr 의 값은? 여기서, 곡선  : r(t) = (cost, sint, t), (0 \\leq t \\leq \\frac{\\pi}{2} ) 이다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{\\pi}{2} e \\frac{\\pi}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{\\pi}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "-\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "-\\pie \\frac{\\pi}{2}"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "3.5점",
+      "stem": "함수 f(x,y) = \\int 2x + 4y 3y^2 \\frac{u}{1+e-} 1 du 일 때, \\frac{2}{xy} f (0, 0)의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "-3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "3.5점",
+      "stem": "함수 f(x, y, z) = xe- y - z cos(xy) 가 점 (x, y, z) = (1, 0, 1) 에서 함숫값이 가장 빨리 증가하는 방향의 단위벡터를 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(- \\frac{1}{\\sqrt{3}} , - \\frac{1}{\\sqrt{3}} , \\frac{1}{\\sqrt{3}} )"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(\\frac{1}{\\sqrt{3}} , \\frac{1}{\\sqrt{3}} , - \\frac{1}{\\sqrt{3}} )"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(- \\frac{1}{\\sqrt{3}} , - \\frac{1}{\\sqrt{3}} , - \\frac{1}{\\sqrt{3}} )"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(\\frac{1}{\\sqrt{3}} , - \\frac{1}{\\sqrt{3}} , - \\frac{1}{\\sqrt{3}} )"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "3점",
+      "stem": "함수 y = sin(\\frac{\\pi}{2} x), (0 \\leq x \\leq 1)의 그래프와 그 역함수의 그래프로 둘러싸인 영역의 넓이는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{4}{\\pi} +1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{4}{\\pi} -1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{6}{\\pi} +1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{6}{\\pi} -1"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "3.5점",
+      "stem": "부정적분 \\int\\frac{x}{cos4} sin7 x dx 를 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{x}{3cos3} 1 - \\frac{3}{cosx} -3cosx+ \\frac{cos3}{3} x +"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{x}{3sin3} 1 - \\frac{3}{sinx} -3sinx+ \\frac{sin3}{3} x +"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{x}{cos3} 3 - \\frac{1}{3cosx} - \\frac{cosx}{3} +3cos3 x+"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{x}{sin3} 3 - \\frac{1}{3sinx} - \\frac{sinx}{3} +3sin3 x+"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "3.5점",
+      "stem": "다음\n<보기>\n중 두 개를 더했을 때, 유리함수로 표현할 수 있는 것은? (단, 유리함수는 분모와 분자가\n다항식으로 구성된 함수이다.)\n<보기>\n(가) \\int\\frac{-1}{x^2}\n2x\ndx\n(나) \\int\\frac{2}{x(x+1)}\ndx\n(다) \\int\\frac{(x+1)^2}{x^2}\nx^2\n+1\ndx\n(라) \\int\\frac{(x+1)}{x^2}\nx^2\n+1\ndx",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가) + (나)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나) + (다)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가) + (다)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(나) + (라)"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "3점",
+      "stem": "다음 식을 성립하게 하는 실수 a의 값은? lim x\\to\\infty (\\frac{x-a}{x+2a} ) x = e4 .",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{2}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "- \\frac{4}{3}"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": "4점",
+      "stem": "선형사상  : \\mathbb{R}^3 \\to\\mathbb{R}^3 을 다음과 같이 정의하자. v = v,  = \\begin{pmatrix} \\end{pmatrix} 1 2 1 0 2 0 -1 4 -1 , v\\in\\mathbb{R}^3 .  의 치역 {v\\in\\mathbb{R}^3 | v\\in\\mathbb{R}^3 }은 \\mathbb{R}^3 에서 평면을 이룬다. 평면 {v\\in\\mathbb{R}^3 | v\\in\\mathbb{R}^3 }위의 점 중에서 점 (1,2,3) 과 거리가 최 소인 점을 (a, b, c)라 할 때, a+b+c 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "6"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{64}{11}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{60}{11}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{58}{11}"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": "2.5점",
+      "stem": "행렬 \\begin{pmatrix} \\end{pmatrix} 1 x x x x 1 x 1 x 의 rank 가 2가 되는 x를 모두 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{2} , 1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "0, 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "- \\frac{1}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": "3.5점",
+      "stem": "평면 x+y+z = 1 과 구면 x^2 +y^2 +(z+1)^2 = 4 의 교집합인 원  가 있다. 평면 x+y+z = 1 에서 원  의 내부를 원뿔의 밑면으로 하고, 구면 x^2 +y^2 +(z+1)^2 = 4 위의 점  를 원뿔의 꼭짓점으로 하는 원뿔의 부피 중 최댓값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{16}{9} \\pi(1+ \\frac{1}{\\sqrt{3}} )"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{4}{3} \\pi(1+ \\frac{1}{\\sqrt{3}} )"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{8}{9} \\pi(1+ \\frac{1}{\\sqrt{3}} )"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{8}{3} \\pi(1+ \\frac{1}{\\sqrt{3}} )"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": "4점",
+      "stem": "좌표공간에서 두 평면 z = 0, z = 1 과 원기둥 x^2 +y^2 = 9 로 둘러싸인 영역  의 경계를  라 하자. 이 때, 벡터장 \\mathbf{F}(x, y, z) = (x(x^2 +y^2 +z^2 )+e- yz , y(x^2 +y^2 +z^2 )+e- zx , z(x^2 +y^2 +z^2 )+e- xy ) 의 곡면  에 대한 플럭스(유 량) \\iint  \\mathbf{F}\\cdotd 를 구하면? (단, 곡면  의 향(orientation)은 입체의 바깥쪽으로 향하는 곡면에 수직인 단위벡터로 주어진다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{345\\pi}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{435\\pi}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{525\\pi}{4}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{405\\pi}{4}"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": "3점",
+      "stem": "f(x) = x^3 ex 에 대하여 n \\geq 3일 때, f(n) (1)의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "e(n^2 +n+1)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "e(n^3 +n+1)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "e(n^2 +2n+1)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "e(n^3 +2n+1)"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "points": "3.5점",
+      "stem": "매개변수 t가 0 \\leq t \\leq \\pi를 만족할 때, 평면 위의 점 (sin2 t, costsint)가 만족하는 자취는 어떤 원 위에 있는가?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "중심 (0, \\frac{1}{2} ), 반지름 \\frac{1}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "중심 (\\frac{1}{2} ,0), 반지름 \\frac{1}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "중심 (0, \\frac{1}{2} ), 반지름 1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "중심 (\\frac{1}{2} ,0), 반지름 1"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": "3점",
+      "stem": "함수 f(x) = \\frac{x^2}{x-5} -4x+4 가 x = a에서 극댓값을 가지고, x = b에서 극솟값을 가질 때, 2a^2 +b^2 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "72"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "114"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "132"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "153"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": "3.5점",
+      "stem": "행렬  = \\begin{pmatrix} \\end{pmatrix} 2 0 -1 1 -3 2 -1 2 6 가 어떤 행렬 에 대해 다음식을 만족할 때, a + b + c의 값은? - 1 = \\begin{pmatrix} \\end{pmatrix} a 0 0 0 b 0 0 0 c",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": "4점",
+      "stem": "타원면 x^2 +2y^2 +z^2 = 1 위에서 함수 f(x,y,z) = xy+z^2 의 최댓값과 최솟값을 각각 a, b 라 할 때, a^2 +b^2 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\sqrt{\\frac} \\frac{3}{2} +1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{9}{8}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{5}{4}"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": "3.5점",
+      "stem": "행렬  = \\begin{pmatrix} \\end{pmatrix} 0 -1 2 -2 1 2 -3 -1 5 에 대하여 3\\times3 행렬  = 2024 \\begin{pmatrix} \\end{pmatrix} 1 1 1 1 0 1 1 1 2 라고 할 때,  의 주대각원소의 합 tr() 를 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1+22024 +2\\cdot32024"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "1+32024"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "1+22024"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1+2\\cdot32024"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "points": "3.5점",
+      "stem": "4\\times4 행렬  = \\begin{pmatrix} \\end{pmatrix} 2 0 0 1 0 0 2 1 0 0 1 0 0 1 2 0 에 대하여 행렬식 det(4 -33 +2 ) 을 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-20"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-10"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "points": "2.5점",
+      "stem": "( ) 6 -3 -3 6 10 (1 1)= (a b) 일 때, a +b의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "310"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2∙310"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "311"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "4∙310"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "points": "4점",
+      "stem": "의 역행렬  - 1 = \\begin{pmatrix} \\end{pmatrix} 0 1 - 1 1 1 0 0 - \\frac{2}{3} - \\frac{1}{3} 일 때,  = 2 + 인 행렬  에 대하여 det()의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "points": "3점",
+      "stem": " =   이고 \\neq 일 때, 다음\n<보기>\n중에서 옳은 것을 모두 고르면? (여기서, \n는 의\n전치행렬이고, 는 영행렬이다.)\n<보기>\n(가)  = \n(나)  = - 1\n(다) 2\n= \n(라) det() =-1",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가), (나)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나), (다)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가), (다)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(가), (다), (라)"
+        }
+      ]
+    }
+  ]
+}

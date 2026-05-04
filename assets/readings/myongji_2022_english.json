@@ -1,0 +1,1006 @@
+{
+  "institution": "myongji",
+  "institution_ko": "명지대",
+  "year": 2022,
+  "exam_kind": "english",
+  "source_text_file": "myongji_2022_english_extracted_complete.txt",
+  "question_count": 30,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "Choose the one that shares the same meaning as the underlined word.",
+      "passage_sentences": [
+        "Scientists often probe their conclusions with a sanity check to reassure themselves they haven’t wandered into a preposterous conclusion."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "controversial"
+        },
+        {
+          "label": "②",
+          "text": "ludicrous"
+        },
+        {
+          "label": "③",
+          "text": "precocious"
+        },
+        {
+          "label": "④",
+          "text": "irrevocable"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. Scientists often probe their conclusions with a sanity check to reassure themselves they haven’t wandered into a preposterous conclusion.\nCHOICES:\n① controversial\n② ludicrous\n③ precocious\n④ irrevocable"
+    },
+    {
+      "number": 2,
+      "instruction": "Choose the one that shares the same meaning as the underlined word.",
+      "passage_sentences": [
+        "Today, the British royal family is excoriated for shortcomings such as rudeness."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "expunged"
+        },
+        {
+          "label": "②",
+          "text": "repudiated"
+        },
+        {
+          "label": "③",
+          "text": "censured"
+        },
+        {
+          "label": "④",
+          "text": "ridiculed"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. Today, the British royal family is excoriated for shortcomings such as rudeness.\nCHOICES:\n① expunged\n② repudiated\n③ censured\n④ ridiculed"
+    },
+    {
+      "number": 3,
+      "instruction": "Choose the one that shares the same meaning as the underlined word.",
+      "passage_sentences": [
+        "The pertinent question is not how to do things right but how to find the right things to do."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "obliging"
+        },
+        {
+          "label": "②",
+          "text": "apt"
+        },
+        {
+          "label": "③",
+          "text": "veracious"
+        },
+        {
+          "label": "④",
+          "text": "illusory"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. The pertinent question is not how to do things right but how to find the right things to do.\nCHOICES:\n① obliging\n② apt\n③ veracious\n④ illusory"
+    },
+    {
+      "number": 4,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "The emperor was revered by the Incas as a sun-god and ____________ absolute authority over his subjects."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "fomented"
+        },
+        {
+          "label": "②",
+          "text": "denounced"
+        },
+        {
+          "label": "③",
+          "text": "wielded"
+        },
+        {
+          "label": "④",
+          "text": "relegated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The emperor was revered by the Incas as a sun-god and ____________ absolute authority over his subjects.\nCHOICES:\n① fomented\n② denounced\n③ wielded\n④ relegated"
+    },
+    {
+      "number": 5,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "Whereas the change in the cultured speech of a language is a process that requires years to become pronounced, the evolution of slang is rapid and its usage _____________."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "ephemeral"
+        },
+        {
+          "label": "②",
+          "text": "facetious"
+        },
+        {
+          "label": "③",
+          "text": "vulgar"
+        },
+        {
+          "label": "④",
+          "text": "sedentary"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Whereas the change in the cultured speech of a language is a process that requires years to become pronounced, the evolution of slang is rapid and its usage _____________.\nCHOICES:\n① ephemeral\n② facetious\n③ vulgar\n④ sedentary"
+    },
+    {
+      "number": 6,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "To feel a pride of race, the Anglo-Saxon Magazine concludes with the Anglo-Saxon maps of the world.",
+        "The most interesting feature of these maps is who gets included.",
+        "The Anglo-Saxon fraternity here is broad enough to include anyone who speaks English and subscribes to an interest in the kind of English cultural topics which the magazine then featuring in its issues."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "concludes with the Anglo-Saxon maps of"
+        },
+        {
+          "label": "②",
+          "text": "gets included"
+        },
+        {
+          "label": "③",
+          "text": "subscribes to an interest in the"
+        },
+        {
+          "label": "④",
+          "text": "featuring in its issues"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. To feel a pride of race, the Anglo-Saxon Magazine concludes with the Anglo-Saxon maps of the world.\n2. The most interesting feature of these maps is who gets included.\n3. The Anglo-Saxon fraternity here is broad enough to include anyone who speaks English and subscribes to an interest in the kind of English cultural topics which the magazine then featuring in its issues.\nCHOICES:\n① concludes with the Anglo-Saxon maps of\n② gets included\n③ subscribes to an interest in the\n④ featuring in its issues"
+    },
+    {
+      "number": 7,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "Until recently, the electric-powered automobile has not received its fair share of attention.",
+        "No one seemed to care about the possibilities of electric propulsion until a few years ago, when it had begun to be considered as an alternative for the polluting, noisy combustion engine.",
+        "Prior to that, the electric car had been dismissed as the hobbyhorse of penniless environmentalists.",
+        "But when the established automotive industry became interested in the subject and California pioneered with a zero-auto-emissions statute, the mood changed.",
+        "For automotive engineers, a new, exciting time of innovative technical development dawned."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "has not received its fair share"
+        },
+        {
+          "label": "②",
+          "text": "had begun to be considered as"
+        },
+        {
+          "label": "③",
+          "text": "had been dismissed as the hobbyhorse"
+        },
+        {
+          "label": "④",
+          "text": "pioneered with a zero-auto-emissions statute"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Until recently, the electric-powered automobile has not received its fair share of attention.\n2. No one seemed to care about the possibilities of electric propulsion until a few years ago, when it had begun to be considered as an alternative for the polluting, noisy combustion engine.\n3. Prior to that, the electric car had been dismissed as the hobbyhorse of penniless environmentalists.\n4. But when the established automotive industry became interested in the subject and California pioneered with a zero-auto-emissions statute, the mood changed.\n5. For automotive engineers, a new, exciting time of innovative technical development dawned.\nCHOICES:\n① has not received its fair share\n② had begun to be considered as\n③ had been dismissed as the hobbyhorse\n④ pioneered with a zero-auto-emissions statute"
+    },
+    {
+      "number": 8,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "Internet distribution of television content changes the fundamental logics which television introduces new mobilities into the system, adding another layer to the existing broadcast cable and satellite distribution.",
+        "Internet television does not replace legacy television in a straightforward way; instead it adds new complexity to the existing geography of distribution.",
+        "The arrival of mature internet-distributed television services such as Netflix is significant in global media debates.",
+        "Today, one no longer needs to travel overseas to access international television, for a great deal of it is easily accessible online."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "which television introduces new mobilities into"
+        },
+        {
+          "label": "②",
+          "text": "adding another layer to the existing"
+        },
+        {
+          "label": "③",
+          "text": "no longer needs to travel overseas"
+        },
+        {
+          "label": "④",
+          "text": "for a great deal of it"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Internet distribution of television content changes the fundamental logics which television introduces new mobilities into the system, adding another layer to the existing broadcast cable and satellite distribution.\n2. Internet television does not replace legacy television in a straightforward way; instead it adds new complexity to the existing geography of distribution.\n3. The arrival of mature internet-distributed television services such as Netflix is significant in global media debates.\n4. Today, one no longer needs to travel overseas to access international television, for a great deal of it is easily accessible online.\nCHOICES:\n① which television introduces new mobilities into\n② adding another layer to the existing\n③ no longer needs to travel overseas\n④ for a great deal of it"
+    },
+    {
+      "number": 9,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "When Google Trends, a tool which tells users how frequently any word has been searched, was first released, Google search data didn’t seem to be a proper source of information for academic research.",
+        "Google search data wasn’t created as a way to help us understand the human psyche.",
+        "But it turns out that the trails we leave as we seek knowledge on the internet are tremendously revealing.",
+        "When and where they search for facts, places, or persons can tell us a lot more about what they really think and do than anyone might have guessed.",
+        "This is especially true since people sometimes don’t so much query Google as confiding in it: “I hate my boss.” “I am drunk.”"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "was first released"
+        },
+        {
+          "label": "②",
+          "text": "are tremendously revealing"
+        },
+        {
+          "label": "③",
+          "text": "might have guessed"
+        },
+        {
+          "label": "④",
+          "text": "as confiding in it"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. When Google Trends, a tool which tells users how frequently any word has been searched, was first released, Google search data didn’t seem to be a proper source of information for academic research.\n2. Google search data wasn’t created as a way to help us understand the human psyche.\n3. But it turns out that the trails we leave as we seek knowledge on the internet are tremendously revealing.\n4. When and where they search for facts, places, or persons can tell us a lot more about what they really think and do than anyone might have guessed.\n5. This is especially true since people sometimes don’t so much query Google as confiding in it: “I hate my boss.” “I am drunk.”\nCHOICES:\n① was first released\n② are tremendously revealing\n③ might have guessed\n④ as confiding in it"
+    },
+    {
+      "number": 10,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "We are living in the era of cognitive computing.",
+        "Machines can do much more than calculate and organize data—they learn, reason, and interact with people in new ways.",
+        "During this era, humans and machines will become more interconnected.",
+        "How can people and computers be connected so that collectively they act more intelligently than any person or computer has ever done before?",
+        "This avenue of thought stretches back to a paper in 1960, \"Man-Computer Symbiosis\", that predicted that \"human brains and computing machines, coupled together, will think in a way not approached by the computer we know today.” Only with the help of smart machines we will be able to deal adequately with the exploding complexity of today's world."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "calculate and organize data—they learn"
+        },
+        {
+          "label": "②",
+          "text": "so that collectively they act more"
+        },
+        {
+          "label": "③",
+          "text": "not approached by the computer we"
+        },
+        {
+          "label": "④",
+          "text": "we will be able to deal"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. We are living in the era of cognitive computing.\n2. Machines can do much more than calculate and organize data—they learn, reason, and interact with people in new ways.\n3. During this era, humans and machines will become more interconnected.\n4. How can people and computers be connected so that collectively they act more intelligently than any person or computer has ever done before?\n5. This avenue of thought stretches back to a paper in 1960, \"Man-Computer Symbiosis\", that predicted that \"human brains and computing machines, coupled together, will think in a way not approached by the computer we know today.” Only with the help of smart machines we will be able to deal adequately with the exploding complexity of today's world.\nCHOICES:\n① calculate and organize data—they learn\n② so that collectively they act more\n③ not approached by the computer we\n④ we will be able to deal"
+    },
+    {
+      "number": 11,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "Counting the world’s languages is as difficult as counting colors.",
+        "There are scores of standardized languages, such as English, French, Russian and Thai.",
+        "But most languages have never been standardized.",
+        "In many areas, there is only a multitude of local varieties, and deciding where one language ends and the next one begins is as hard as distinguishing individual colors in a Turner painting.",
+        "So there can be no definitive total. ____________, 6,000 is a common estimate for the number of languages spoken and signed in today’s world—an average of one for every 1.25 million people.",
+        "Such amazing diversity—what a Babel we live in!"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "That said"
+        },
+        {
+          "label": "②",
+          "text": "In short"
+        },
+        {
+          "label": "③",
+          "text": "On its part"
+        },
+        {
+          "label": "④",
+          "text": "In addition"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Counting the world’s languages is as difficult as counting colors.\n2. There are scores of standardized languages, such as English, French, Russian and Thai.\n3. But most languages have never been standardized.\n4. In many areas, there is only a multitude of local varieties, and deciding where one language ends and the next one begins is as hard as distinguishing individual colors in a Turner painting.\n5. So there can be no definitive total. ____________, 6,000 is a common estimate for the number of languages spoken and signed in today’s world—an average of one for every 1.25 million people.\n6. Such amazing diversity—what a Babel we live in!\nCHOICES:\n① That said\n② In short\n③ On its part\n④ In addition"
+    },
+    {
+      "number": 12,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "People misinform even anonymous surveys.",
+        "I asked why this is the case to Roger Tourangeau, the world’s foremost expert on social desirability bias.",
+        "Our weakness for “white lies” is an important part of the problem, he explained.",
+        "Then there’s that odd habit we sometimes have of lying to ourselves.",
+        "“There is an unwillingness to admit to yourself that, say, you were a screw-up as a student,” says Tourangeau.",
+        "Lying to oneself may explain why so many people say they are above average.",
+        "Another factor that plays into our lying to surveys is our strong desire to make a good impression on the stranger conducting the interview, if there is someone conducting the interview.",
+        "For this reason, _________________: for eliciting truthful answers, internet surveys are better than phone surveys, which are better than in-person surveys."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "interviewers try their best to be anonymous"
+        },
+        {
+          "label": "②",
+          "text": "the more impersonal the conditions, the more honest people will be"
+        },
+        {
+          "label": "③",
+          "text": "interviewers should be as attentive as possible"
+        },
+        {
+          "label": "④",
+          "text": "the results of surveys should be as accurate as possible"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. People misinform even anonymous surveys.\n2. I asked why this is the case to Roger Tourangeau, the world’s foremost expert on social desirability bias.\n3. Our weakness for “white lies” is an important part of the problem, he explained.\n4. Then there’s that odd habit we sometimes have of lying to ourselves.\n5. “There is an unwillingness to admit to yourself that, say, you were a screw-up as a student,” says Tourangeau.\n6. Lying to oneself may explain why so many people say they are above average.\n7. Another factor that plays into our lying to surveys is our strong desire to make a good impression on the stranger conducting the interview, if there is someone conducting the interview.\n8. For this reason, _________________: for eliciting truthful answers, internet surveys are better than phone surveys, which are better than in-person surveys.\nCHOICES:\n① interviewers try their best to be anonymous\n② the more impersonal the conditions, the more honest people will be\n③ interviewers should be as attentive as possible\n④ the results of surveys should be as accurate as possible"
+    },
+    {
+      "number": 13,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "The metaverse and Web3 are two trends supposedly set to revolutionize the digital world.",
+        "Elon Musk did accept that a lot of people have been speaking to him about the up-and-coming spaces on the Internet. _________________.",
+        "In a recent interview, he said they both are “more marketing than reality.” “Sure you can put a TV on your nose.",
+        "I’m not sure that makes you ‘in the metaverse,’” he said.",
+        "He later added: “I currently am unable to see a compelling metaverse situation.” Web3 is another alternative vision for the future of the internet, with much boosterism driven by the idea that ordinary internet users will be able to profit directly from their content and activity online.",
+        "Although Musk didn’t spend much time discussing Web3, he has previously expressed skepticism about the project on Twitter."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "And Musk is enthusiastic about both."
+        },
+        {
+          "label": "②",
+          "text": "Musk, however, is not very keen on either."
+        },
+        {
+          "label": "③",
+          "text": "Although Musk is negative about the metaverse, he is rather keen on Web3."
+        },
+        {
+          "label": "④",
+          "text": "Although Musk is not keen on the metaverse, he is ambivalent about Web3."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The metaverse and Web3 are two trends supposedly set to revolutionize the digital world.\n2. Elon Musk did accept that a lot of people have been speaking to him about the up-and-coming spaces on the Internet. _________________.\n3. In a recent interview, he said they both are “more marketing than reality.” “Sure you can put a TV on your nose.\n4. I’m not sure that makes you ‘in the metaverse,’” he said.\n5. He later added: “I currently am unable to see a compelling metaverse situation.” Web3 is another alternative vision for the future of the internet, with much boosterism driven by the idea that ordinary internet users will be able to profit directly from their content and activity online.\n6. Although Musk didn’t spend much time discussing Web3, he has previously expressed skepticism about the project on Twitter.\nCHOICES:\n① And Musk is enthusiastic about both.\n② Musk, however, is not very keen on either.\n③ Although Musk is negative about the metaverse, he is rather keen on Web3.\n④ Although Musk is not keen on the metaverse, he is ambivalent about Web3."
+    },
+    {
+      "number": 14,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "If the past is a foreign country, it is a shockingly violent one.",
+        "It is easy to forget how dangerous life used to be, how deeply brutality was once woven into the fabric of daily existence.",
+        "Cultural memory pacifies the past, leaving us with pale souvenirs ___________________.",
+        "A woman donning a cross seldom reflects that this instrument of torture was a common punishment in the ancient world; nor does a person who speaks of a whipping boy ponder the old practice of flogging an innocent child in place of a misbehaving prince.",
+        "We are surrounded by signs of the depravity of our ancestors’ way of life, but we are barely aware of them."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "with a rich religious heritage"
+        },
+        {
+          "label": "②",
+          "text": "the brutality of which is so obvious to us"
+        },
+        {
+          "label": "③",
+          "text": "whose bloody origins have been bleached away"
+        },
+        {
+          "label": "④",
+          "text": "many devout women cherish for life"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. If the past is a foreign country, it is a shockingly violent one.\n2. It is easy to forget how dangerous life used to be, how deeply brutality was once woven into the fabric of daily existence.\n3. Cultural memory pacifies the past, leaving us with pale souvenirs ___________________.\n4. A woman donning a cross seldom reflects that this instrument of torture was a common punishment in the ancient world; nor does a person who speaks of a whipping boy ponder the old practice of flogging an innocent child in place of a misbehaving prince.\n5. We are surrounded by signs of the depravity of our ancestors’ way of life, but we are barely aware of them.\nCHOICES:\n① with a rich religious heritage\n② the brutality of which is so obvious to us\n③ whose bloody origins have been bleached away\n④ many devout women cherish for life"
+    },
+    {
+      "number": 15,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "Even those whose meritocratic credentials are not in doubt sometimes invoke them with defensive self-righteousness.",
+        "Consider the 2018 Senate confirmation hearings of Brett Kavanaugh, nominated by Trump for a seat on the U.S. Supreme Court.",
+        "Late in the proceedings, Kavanaugh’s confirmation was placed in doubt when a woman accused him of having sexually assaulted her at a party during their high school years.",
+        "When senators questioned him about the alleged drunken sexual assault, Kavanaugh not only denied the charge, but offered an oddly incongruous meritocratic defense, describing how hard he worked during high school, and how he won admission to Yale College and later, Yale Law School.",
+        "Although Kavanaugh’s meritocratic credentials were not challenged, it is hard to fathom their relevance to the question of whether he ______________.",
+        "But by 2018, credentialism had become so pervasive a basis of judgment that it served as a kind of all-purpose rhetoric of credibility."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "was truthful to the Senate confirmation hearings"
+        },
+        {
+          "label": "②",
+          "text": "legitimately entered Yale College and Law School"
+        },
+        {
+          "label": "③",
+          "text": "sexually assaulted a young woman at a party"
+        },
+        {
+          "label": "④",
+          "text": "had the right credentials to become a Supreme court judge"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Even those whose meritocratic credentials are not in doubt sometimes invoke them with defensive self-righteousness.\n2. Consider the 2018 Senate confirmation hearings of Brett Kavanaugh, nominated by Trump for a seat on the U.S. Supreme Court.\n3. Late in the proceedings, Kavanaugh’s confirmation was placed in doubt when a woman accused him of having sexually assaulted her at a party during their high school years.\n4. When senators questioned him about the alleged drunken sexual assault, Kavanaugh not only denied the charge, but offered an oddly incongruous meritocratic defense, describing how hard he worked during high school, and how he won admission to Yale College and later, Yale Law School.\n5. Although Kavanaugh’s meritocratic credentials were not challenged, it is hard to fathom their relevance to the question of whether he ______________.\n6. But by 2018, credentialism had become so pervasive a basis of judgment that it served as a kind of all-purpose rhetoric of credibility.\nCHOICES:\n① was truthful to the Senate confirmation hearings\n② legitimately entered Yale College and Law School\n③ sexually assaulted a young woman at a party\n④ had the right credentials to become a Supreme court judge"
+    },
+    {
+      "number": 16,
+      "instruction": "Which of the following is the passage mainly about?",
+      "passage_sentences": [
+        "Nuclear energy represents the ultimate in density, because, in a nuclear reaction, E = mc2: you get an immense amount of energy from a small bit of mass.",
+        "Mining the uranium for nuclear energy leaves a far smaller environmental scar than mining coal, oil, or gas, and the power plants themselves take up about one five-hundredth of the land needed by wind or solar.",
+        "Nuclear energy is available around the clock, and it can be plugged into power grids that provide concentrated energy where it is needed.",
+        "It has a lower carbon footprint than solar, hydro, and biomass, and it’s safer than them, too.",
+        "The sixty years with nuclear power have seen thirty-one deaths in the 1986 Chernobyl disaster.",
+        "The other two famous accidents, at Three Mile Island in 1979 and Fukushima in 2011, killed no one.",
+        "Yet vast numbers of people are killed day in, day out by the pollution from burning combustibles and by accidents in mining.",
+        "Compared with nuclear power, natural gas kills 38 times as many people per kilowatt-hour of electricity generated, biomass 63 times as many, petroleum 243 times as many, and coal 387 times as many."
+      ],
+      "question": "Which of the following is the passage mainly about?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "advantages of nuclear energy over other forms of energy"
+        },
+        {
+          "label": "②",
+          "text": "misunderstandings about nuclear energy"
+        },
+        {
+          "label": "③",
+          "text": "in what sense nuclear energy is safer than other forms of energy"
+        },
+        {
+          "label": "④",
+          "text": "why the use of nuclear energy should be expanded"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is the passage mainly about?\nPASSAGE_SENTENCES:\n1. Nuclear energy represents the ultimate in density, because, in a nuclear reaction, E = mc2: you get an immense amount of energy from a small bit of mass.\n2. Mining the uranium for nuclear energy leaves a far smaller environmental scar than mining coal, oil, or gas, and the power plants themselves take up about one five-hundredth of the land needed by wind or solar.\n3. Nuclear energy is available around the clock, and it can be plugged into power grids that provide concentrated energy where it is needed.\n4. It has a lower carbon footprint than solar, hydro, and biomass, and it’s safer than them, too.\n5. The sixty years with nuclear power have seen thirty-one deaths in the 1986 Chernobyl disaster.\n6. The other two famous accidents, at Three Mile Island in 1979 and Fukushima in 2011, killed no one.\n7. Yet vast numbers of people are killed day in, day out by the pollution from burning combustibles and by accidents in mining.\n8. Compared with nuclear power, natural gas kills 38 times as many people per kilowatt-hour of electricity generated, biomass 63 times as many, petroleum 243 times as many, and coal 387 times as many.\nQUESTION:\nWhich of the following is the passage mainly about?\nCHOICES:\n① advantages of nuclear energy over other forms of energy\n② misunderstandings about nuclear energy\n③ in what sense nuclear energy is safer than other forms of energy\n④ why the use of nuclear energy should be expanded"
+    },
+    {
+      "number": 17,
+      "instruction": "Which of the following cannot be known about Ötzi from the passage?",
+      "passage_sentences": [
+        "In 1991 two hikers stumbled upon a corpse poking out of a melting glacier in the Tyrolean Alps.",
+        "Thinking that it was the victim of a skiing accident, rescue workers jackhammered the body out of the ice.",
+        "Only when an archaeologist spotted a Neolithic copper ax did people realize that the man was five thousand years old. Ötzi lived during the crucial transition in human prehistory when agriculture was replacing hunting and gathering, and tools were first made of metal rather than stone.",
+        "Together with his ax and backpack, he carried a quiver of fletched arrows, a wood-handled dagger, and an ember wrapped in bark.",
+        "He wore a bearskin cap with a leather chinstrap, leggings sewn from animal hide, and waterproof snowshoes made from leather and twine and insulated with grass.",
+        "Ten years after the Iceman was discovered, a team of radiologists made a startling discovery: Ötzi had an arrowhead embedded in his shoulder.",
+        "He had not fallen in a crevasse and frozen to death, as scientists had originally surmised; he had been murdered."
+      ],
+      "question": "Which of the following cannot be known about Ötzi from the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "who found him where"
+        },
+        {
+          "label": "②",
+          "text": "when he lived"
+        },
+        {
+          "label": "③",
+          "text": "what he was wearing"
+        },
+        {
+          "label": "④",
+          "text": "why he was murdered"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following cannot be known about Ötzi from the passage?\nPASSAGE_SENTENCES:\n1. In 1991 two hikers stumbled upon a corpse poking out of a melting glacier in the Tyrolean Alps.\n2. Thinking that it was the victim of a skiing accident, rescue workers jackhammered the body out of the ice.\n3. Only when an archaeologist spotted a Neolithic copper ax did people realize that the man was five thousand years old. Ötzi lived during the crucial transition in human prehistory when agriculture was replacing hunting and gathering, and tools were first made of metal rather than stone.\n4. Together with his ax and backpack, he carried a quiver of fletched arrows, a wood-handled dagger, and an ember wrapped in bark.\n5. He wore a bearskin cap with a leather chinstrap, leggings sewn from animal hide, and waterproof snowshoes made from leather and twine and insulated with grass.\n6. Ten years after the Iceman was discovered, a team of radiologists made a startling discovery: Ötzi had an arrowhead embedded in his shoulder.\n7. He had not fallen in a crevasse and frozen to death, as scientists had originally surmised; he had been murdered.\nQUESTION:\nWhich of the following cannot be known about Ötzi from the passage?\nCHOICES:\n① who found him where\n② when he lived\n③ what he was wearing\n④ why he was murdered"
+    },
+    {
+      "number": 18,
+      "instruction": "Choose the best title for the following passage.",
+      "passage_sentences": [
+        "High school students in India will be given full marks for a national exam question criticized as \"blatantly misogynist.\" Parents and social media users also lashed out at India's chungang Board of Secondary Education, which later apologized for the question and said it would be dropped from the paper with no penalty to students.",
+        "The controversial passage was part of the English Language and Literature exam given to Year 10 students.",
+        "Soon after the exams, photos of the questions began circulating on social media.",
+        "One passage in a reading comprehension section described how women could only \"gain obedience from the young\" by giving their husbands \"formal obedience.\" Another passage concluded that \"the emancipation of the wife destroyed the parent's authority over the children.\" This fueled anger from parents and other online users, who demanded an explanation from educational authorities.",
+        "Despite the board's quick response, some social media users argued that the damage had already been done, as students across the nation had already been exposed to misogynistic ideas."
+      ],
+      "question": "Choose the best title for the following passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Misogynistic Question Sparks Outrage in India"
+        },
+        {
+          "label": "②",
+          "text": "Misogyny Redefined in India"
+        },
+        {
+          "label": "③",
+          "text": "Manipulation Scandal Hits India’s National Exam"
+        },
+        {
+          "label": "④",
+          "text": "Women’s Rights Issue Resurfaces in an Indian High School"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best title for the following passage.\nPASSAGE_SENTENCES:\n1. High school students in India will be given full marks for a national exam question criticized as \"blatantly misogynist.\" Parents and social media users also lashed out at India's chungang Board of Secondary Education, which later apologized for the question and said it would be dropped from the paper with no penalty to students.\n2. The controversial passage was part of the English Language and Literature exam given to Year 10 students.\n3. Soon after the exams, photos of the questions began circulating on social media.\n4. One passage in a reading comprehension section described how women could only \"gain obedience from the young\" by giving their husbands \"formal obedience.\" Another passage concluded that \"the emancipation of the wife destroyed the parent's authority over the children.\" This fueled anger from parents and other online users, who demanded an explanation from educational authorities.\n5. Despite the board's quick response, some social media users argued that the damage had already been done, as students across the nation had already been exposed to misogynistic ideas.\nQUESTION:\nChoose the best title for the following passage.\nCHOICES:\n① Misogynistic Question Sparks Outrage in India\n② Misogyny Redefined in India\n③ Manipulation Scandal Hits India’s National Exam\n④ Women’s Rights Issue Resurfaces in an Indian High School"
+    },
+    {
+      "number": 19,
+      "instruction": "Choose the best order after the given passage in the box.",
+      "passage_sentences": [
+        "As AI progresses, it is possible that within the next few decades essentially all routine labor will be done more cheaply by machines.",
+        "When this happens, it will push wages below the poverty line for those people who are unable to compete for the highly skilled jobs that remain.",
+        "[A] One rapidly emerging picture is that of an economy where far fewer people work because work is unnecessary.",
+        "Keynes envisaged just such a future in his essay “Economic Possibilities for Our Grandchildren.” Such a future requires a radical change in our economic system, because, in many countries, those who do not work face poverty.",
+        "Thus, modern proponents of Keynes’s vision usually support some form of universal basic income, or UBI, which would provide a reasonable income to every adult.",
+        "[B] Most of them have already discovered that the idea of retraining everyone as a data scientist or robot engineer is a nonstarter—the world might need five or ten million of these, but nowhere close to the billion or so jobs that are at risk.",
+        "Some are working on “transition plans”—but transition to what?",
+        "We need a plausible destination in order to plan a transition—that is, we need a plausible picture of a desirable future economy where most work is done by machines.",
+        "[C] Larry Summers put it this way: “Given the possibilities for substitution, some categories of labor will not be able to earn a subsistence income.” This is what happened to horses: mechanical transportation became cheaper than the upkeep cost of a horse, so horses became pet food.",
+        "Faced with the socioeconomic equivalent of becoming pet food, humans will be unhappy with their governments.",
+        "Thus, many governments around the world are beginning to devote some attention to the issue."
+      ],
+      "question": "Choose the best order after the given passage in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "[C]-[A]-[B]"
+        },
+        {
+          "label": "②",
+          "text": "[C]-[B]-[A]"
+        },
+        {
+          "label": "③",
+          "text": "[B]-[A]-[C]"
+        },
+        {
+          "label": "④",
+          "text": "[B]-[C]-[A]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best order after the given passage in the box.\nPASSAGE_SENTENCES:\n1. As AI progresses, it is possible that within the next few decades essentially all routine labor will be done more cheaply by machines.\n2. When this happens, it will push wages below the poverty line for those people who are unable to compete for the highly skilled jobs that remain.\n3. [A] One rapidly emerging picture is that of an economy where far fewer people work because work is unnecessary.\n4. Keynes envisaged just such a future in his essay “Economic Possibilities for Our Grandchildren.” Such a future requires a radical change in our economic system, because, in many countries, those who do not work face poverty.\n5. Thus, modern proponents of Keynes’s vision usually support some form of universal basic income, or UBI, which would provide a reasonable income to every adult.\n6. [B] Most of them have already discovered that the idea of retraining everyone as a data scientist or robot engineer is a nonstarter—the world might need five or ten million of these, but nowhere close to the billion or so jobs that are at risk.\n7. Some are working on “transition plans”—but transition to what?\n8. We need a plausible destination in order to plan a transition—that is, we need a plausible picture of a desirable future economy where most work is done by machines.\n9. [C] Larry Summers put it this way: “Given the possibilities for substitution, some categories of labor will not be able to earn a subsistence income.” This is what happened to horses: mechanical transportation became cheaper than the upkeep cost of a horse, so horses became pet food.\n10. Faced with the socioeconomic equivalent of becoming pet food, humans will be unhappy with their governments.\n11. Thus, many governments around the world are beginning to devote some attention to the issue.\nQUESTION:\nChoose the best order after the given passage in the box.\nCHOICES:\n① [C]-[A]-[B]\n② [C]-[B]-[A]\n③ [B]-[A]-[C]\n④ [B]-[C]-[A]"
+    },
+    {
+      "number": 20,
+      "instruction": "Choose the one that is not true according to the passage.",
+      "passage_sentences": [
+        "Alan Turing, a Cambridge mathematician of the first half of the twentieth century, can be considered the father of computing and the grandfather of AI.",
+        "During World War II, Turing pitted his wits against the Enigma cipher machine, the key to German communications.",
+        "He led in developing the British Bombe, an early computing machine used to decode messages encoded using the Enigma.",
+        "In 1950, Turing published the very first paper suggesting the possibility of artificial intelligence.",
+        "In it he first described what we now call the Turing Test, and offered it as a sufficient condition for the existence of AI.",
+        "The Turing Test has human testers conversing in natural language without constraints via terminals with either a human or an AI natural language program, both hidden from view.",
+        "If the testers cannot reliably distinguish between the human and the program, intelligence is ascribed to the program."
+      ],
+      "question": "Choose the one that is not true according to the passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Alan Turing can be considered the grandfather of AI."
+        },
+        {
+          "label": "②",
+          "text": "Alan Turing played an instrumental role in developing Bombe."
+        },
+        {
+          "label": "③",
+          "text": "Turing first described the notion of the Turing Test in his paper in 1950."
+        },
+        {
+          "label": "④",
+          "text": "The goal of the Turing Test was to decipher secret messages encoded by computers."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that is not true according to the passage.\nPASSAGE_SENTENCES:\n1. Alan Turing, a Cambridge mathematician of the first half of the twentieth century, can be considered the father of computing and the grandfather of AI.\n2. During World War II, Turing pitted his wits against the Enigma cipher machine, the key to German communications.\n3. He led in developing the British Bombe, an early computing machine used to decode messages encoded using the Enigma.\n4. In 1950, Turing published the very first paper suggesting the possibility of artificial intelligence.\n5. In it he first described what we now call the Turing Test, and offered it as a sufficient condition for the existence of AI.\n6. The Turing Test has human testers conversing in natural language without constraints via terminals with either a human or an AI natural language program, both hidden from view.\n7. If the testers cannot reliably distinguish between the human and the program, intelligence is ascribed to the program.\nQUESTION:\nChoose the one that is not true according to the passage.\nCHOICES:\n① Alan Turing can be considered the grandfather of AI.\n② Alan Turing played an instrumental role in developing Bombe.\n③ Turing first described the notion of the Turing Test in his paper in 1950.\n④ The goal of the Turing Test was to decipher secret messages encoded by computers."
+    },
+    {
+      "number": 21,
+      "instruction": "Which of the following is the passage mainly about?",
+      "passage_sentences": [
+        "The auctioneer slammed his gavel, ending a 2018 bidding war at Sotheby’s in London.",
+        "For $1.4 million, someone had bought one of street artist Banksy’s most iconic works: a silhouetted girl reaching for a red, heart-shaped balloon as it floats away.",
+        "Right then, the painting started beeping inside the packed auction house, and a secret shredder Banksy had built into the bottom of the picture frame whirred to life.",
+        "Onlookers watched as “Girl With Balloon” slid down into its blades, slicing the bottom half of the canvas into dangling strips.",
+        "BBC News arts editor Will Gompertz said, Banksy staged “the shredding taking place within an attention-grabbing spectacle, which highlighted through dark satire how art has become an investment commodity to be auctioned off to ultra-wealthy trophy-hunters.” The irony of the shredding, though, is that instead of punishing a buyer looking to secure a Banksy by leaving that person with only a surprise heap of worthless tatters, it may have rewarded the purchaser with a far more valuable piece of art.",
+        "On Thursday, three years after Banksy’s act of destructive creation, the anonymous buyer put “Girl With Balloon” up for auction.",
+        "After nine bidders battled for 10 minutes, the semi-shredded artwork sold for $25.4 million."
+      ],
+      "question": "Which of the following is the passage mainly about?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Banksy’s self-destruct art stunt at Sotheby’s"
+        },
+        {
+          "label": "②",
+          "text": "a secret behind Banksy’s success as an artist"
+        },
+        {
+          "label": "③",
+          "text": "Banksy’s new auction record at Sotheby’s"
+        },
+        {
+          "label": "④",
+          "text": "smart ways to make money from art"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is the passage mainly about?\nPASSAGE_SENTENCES:\n1. The auctioneer slammed his gavel, ending a 2018 bidding war at Sotheby’s in London.\n2. For $1.4 million, someone had bought one of street artist Banksy’s most iconic works: a silhouetted girl reaching for a red, heart-shaped balloon as it floats away.\n3. Right then, the painting started beeping inside the packed auction house, and a secret shredder Banksy had built into the bottom of the picture frame whirred to life.\n4. Onlookers watched as “Girl With Balloon” slid down into its blades, slicing the bottom half of the canvas into dangling strips.\n5. BBC News arts editor Will Gompertz said, Banksy staged “the shredding taking place within an attention-grabbing spectacle, which highlighted through dark satire how art has become an investment commodity to be auctioned off to ultra-wealthy trophy-hunters.” The irony of the shredding, though, is that instead of punishing a buyer looking to secure a Banksy by leaving that person with only a surprise heap of worthless tatters, it may have rewarded the purchaser with a far more valuable piece of art.\n6. On Thursday, three years after Banksy’s act of destructive creation, the anonymous buyer put “Girl With Balloon” up for auction.\n7. After nine bidders battled for 10 minutes, the semi-shredded artwork sold for $25.4 million.\nQUESTION:\nWhich of the following is the passage mainly about?\nCHOICES:\n① Banksy’s self-destruct art stunt at Sotheby’s\n② a secret behind Banksy’s success as an artist\n③ Banksy’s new auction record at Sotheby’s\n④ smart ways to make money from art"
+    },
+    {
+      "number": 22,
+      "instruction": "Choose the one that is not mentioned in the passage.",
+      "passage_sentences": [
+        "Between fifty and eighty million people died in World War II.",
+        "Twenty million of these casualties were soldiers, but at least as many civilians perished slowly from starvation as the conflict destroyed crops.",
+        "As the war dragged on and the magnitude of this staggering humanitarian problem became evident, Dr. Ancel Keys, a researcher at the University of Minnesota, started to worry about how to help these victims.",
+        "Keys was intensely aware that scientists knew almost nothing about the effects of long-term food deprivation on the human body.",
+        "Helping multitudes of starving people would require a better understanding of what was happening to their bodies.",
+        "Keys and others also worried that when the war ended, millions of hungry people would be more susceptible to fascism or communism.",
+        "Thus, for both humanitarian and geopolitical strategic reasons, the U.S. government gave Keys money to comprehensively study the effects of starvation and rehabilitation on volunteers.",
+        "Keys appealed to conscientious objectors who had refused military service but wanted to help others by being human guinea pigs.",
+        "Eventually, thirty-six of them volunteered and participated in the experiment."
+      ],
+      "question": "Choose the one that is not mentioned in the passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "what motivated the experiment"
+        },
+        {
+          "label": "②",
+          "text": "who sponsored the experiment"
+        },
+        {
+          "label": "③",
+          "text": "how long the experiment lasted"
+        },
+        {
+          "label": "④",
+          "text": "who participated in the experiment"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that is not mentioned in the passage.\nPASSAGE_SENTENCES:\n1. Between fifty and eighty million people died in World War II.\n2. Twenty million of these casualties were soldiers, but at least as many civilians perished slowly from starvation as the conflict destroyed crops.\n3. As the war dragged on and the magnitude of this staggering humanitarian problem became evident, Dr. Ancel Keys, a researcher at the University of Minnesota, started to worry about how to help these victims.\n4. Keys was intensely aware that scientists knew almost nothing about the effects of long-term food deprivation on the human body.\n5. Helping multitudes of starving people would require a better understanding of what was happening to their bodies.\n6. Keys and others also worried that when the war ended, millions of hungry people would be more susceptible to fascism or communism.\n7. Thus, for both humanitarian and geopolitical strategic reasons, the U.S. government gave Keys money to comprehensively study the effects of starvation and rehabilitation on volunteers.\n8. Keys appealed to conscientious objectors who had refused military service but wanted to help others by being human guinea pigs.\n9. Eventually, thirty-six of them volunteered and participated in the experiment.\nQUESTION:\nChoose the one that is not mentioned in the passage.\nCHOICES:\n① what motivated the experiment\n② who sponsored the experiment\n③ how long the experiment lasted\n④ who participated in the experiment"
+    },
+    {
+      "number": 23,
+      "instruction": "Which of the following can be correctly inferred about Vinland from the passage?",
+      "passage_sentences": [
+        "Greenland was discovered in 982 by one Eric the Red, father of Leif Ericson.",
+        "Greenland’s southern fringes offer an area of grassy lowlands, and it certainly suited the Vikings.",
+        "For nearly five hundred years they kept a thriving colony there.",
+        "Unfortunately, Greenland lacked wood with which to build new ships.",
+        "Iceland, the nearest land mass to the east, was also known to be barren.",
+        "The most natural thing would be to head west to see what was out there.",
+        "In about 1000, according to the sagas, Leif Ericson did just that.",
+        "His expedition discovered a new land mass, probably Baffin Island, far up in northern Canada and many other places, most notably the region they called Vinland.",
+        "Vinland is one of history’s tantalizing posers.",
+        "No one knows where it was.",
+        "Various scholars have put Vinland all over the place—on Newfoundland or Nova Scotia, in Massachusetts or Virginia.",
+        "The name is no help, either.",
+        "According to the sagas, the Vikings called it Vinland because of the grape-vines they found there.",
+        "The problem is that no place within a thousand miles of where they must have been could possibly have supported grapes.",
+        "One possible explanation is that Vinland was a mistranslation.",
+        "Vinber, the Viking word for grapes, could be used to describe many other fruits such as cranberries and gooseberries that might have been found at these northern latitudes."
+      ],
+      "question": "Which of the following can be correctly inferred about Vinland from the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "It is to the east of Greenland."
+        },
+        {
+          "label": "②",
+          "text": "It was discovered on Leif Ericson’s expedition to find grape-vines."
+        },
+        {
+          "label": "③",
+          "text": "The name Vinland provides us with a crucial clue on finding its location."
+        },
+        {
+          "label": "④",
+          "text": "Although its exact location is not known, it is possibly in northern latitudes."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following can be correctly inferred about Vinland from the passage?\nPASSAGE_SENTENCES:\n1. Greenland was discovered in 982 by one Eric the Red, father of Leif Ericson.\n2. Greenland’s southern fringes offer an area of grassy lowlands, and it certainly suited the Vikings.\n3. For nearly five hundred years they kept a thriving colony there.\n4. Unfortunately, Greenland lacked wood with which to build new ships.\n5. Iceland, the nearest land mass to the east, was also known to be barren.\n6. The most natural thing would be to head west to see what was out there.\n7. In about 1000, according to the sagas, Leif Ericson did just that.\n8. His expedition discovered a new land mass, probably Baffin Island, far up in northern Canada and many other places, most notably the region they called Vinland.\n9. Vinland is one of history’s tantalizing posers.\n10. No one knows where it was.\n11. Various scholars have put Vinland all over the place—on Newfoundland or Nova Scotia, in Massachusetts or Virginia.\n12. The name is no help, either.\n13. According to the sagas, the Vikings called it Vinland because of the grape-vines they found there.\n14. The problem is that no place within a thousand miles of where they must have been could possibly have supported grapes.\n15. One possible explanation is that Vinland was a mistranslation.\n16. Vinber, the Viking word for grapes, could be used to describe many other fruits such as cranberries and gooseberries that might have been found at these northern latitudes.\nQUESTION:\nWhich of the following can be correctly inferred about Vinland from the passage?\nCHOICES:\n① It is to the east of Greenland.\n② It was discovered on Leif Ericson’s expedition to find grape-vines.\n③ The name Vinland provides us with a crucial clue on finding its location.\n④ Although its exact location is not known, it is possibly in northern latitudes."
+    },
+    {
+      "number": 24,
+      "instruction": "Which of the following best describes the main idea of the passage?",
+      "passage_sentences": [
+        "In his book The Expanding Circle, the philosopher Peter Singer has argued that over the course of history, people have enlarged the range of beings whose interests they value as they value their own.",
+        "The question is what inflated the empathy circle, and a good candidate is the expansion of literacy.",
+        "Reading is a technology for perspective-taking.",
+        "When someone else's thoughts are in your head, you are observing the world from that person's vantage point.",
+        "Not only are you taking in sights and sounds that you could not experience firsthand, but you are temporarily sharing his or her attitudes and reactions.",
+        "\"Empathy\" in the sense of adopting someone's viewpoint is not the same as \"empathy\" in the sense of feeling compassion toward the person, but the first can lead to the second by a natural route.",
+        "Stepping into someone else's vantage points reminds you that the other fellow has a first-person, present-tense, ongoing stream of consciousness similar to your own.",
+        "It's not a big leap to suppose that the habit of reading other people's words could put one in the habit of entering other people's minds, including their pleasures and pains.",
+        "Slipping even for a moment into the perspective of someone who is turning black in a pillory may give a person second thoughts as to whether this kind of cruelty should ever be visited upon anyone."
+      ],
+      "question": "Which of the following best describes the main idea of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Reading is a technology for perspective-taking."
+        },
+        {
+          "label": "②",
+          "text": "Over the centuries, people have enlarged their empathy circles."
+        },
+        {
+          "label": "③",
+          "text": "What enlarged the empathy circle is likely to be the expansion of reading."
+        },
+        {
+          "label": "④",
+          "text": "Reading is probably the best way to abolish cruel practices."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following best describes the main idea of the passage?\nPASSAGE_SENTENCES:\n1. In his book The Expanding Circle, the philosopher Peter Singer has argued that over the course of history, people have enlarged the range of beings whose interests they value as they value their own.\n2. The question is what inflated the empathy circle, and a good candidate is the expansion of literacy.\n3. Reading is a technology for perspective-taking.\n4. When someone else's thoughts are in your head, you are observing the world from that person's vantage point.\n5. Not only are you taking in sights and sounds that you could not experience firsthand, but you are temporarily sharing his or her attitudes and reactions.\n6. \"Empathy\" in the sense of adopting someone's viewpoint is not the same as \"empathy\" in the sense of feeling compassion toward the person, but the first can lead to the second by a natural route.\n7. Stepping into someone else's vantage points reminds you that the other fellow has a first-person, present-tense, ongoing stream of consciousness similar to your own.\n8. It's not a big leap to suppose that the habit of reading other people's words could put one in the habit of entering other people's minds, including their pleasures and pains.\n9. Slipping even for a moment into the perspective of someone who is turning black in a pillory may give a person second thoughts as to whether this kind of cruelty should ever be visited upon anyone.\nQUESTION:\nWhich of the following best describes the main idea of the passage?\nCHOICES:\n① Reading is a technology for perspective-taking.\n② Over the centuries, people have enlarged their empathy circles.\n③ What enlarged the empathy circle is likely to be the expansion of reading.\n④ Reading is probably the best way to abolish cruel practices."
+    },
+    {
+      "number": 25,
+      "instruction": "Which of the following is true about Tasha Tudor according to the passage?",
+      "passage_sentences": [
+        "Tasha Tudor will be remembered as a beloved children’s book illustrator, with such titles to her credit as The Secret Garden and A Little Princess.",
+        "Her illustrations made these stories come to life for young readers of several generations, but beyond creating beautiful images Tudor lived a unique lifestyle all her own.",
+        "Tasha followed many artistic pursuits as a child and in 1938 wrote and illustrated her first book, Pumpkin Moonshine.",
+        "After having 4 children, Tudor decided to do things her own way.",
+        "Later in life Tudor moved to her dream home in Vermont.",
+        "This home was to be her final house, where she lived in a distinctly 1830s manner, largely rejecting modern forms of technology.",
+        "Here she lived the pioneer life, hauling water and heating her home by burning wood.",
+        "Even during this time, however, she still worked and gave talks.",
+        "Sadly after her death in 2008, her children contested her will which left the majority of her estate to her son, Seth.",
+        "The rift was said to be a deep one that stemmed from the 19th-century lifestyle she led.",
+        "Nevertheless, she will forever remain one of our favorite children’s illustrators and a role model who did things her own way."
+      ],
+      "question": "Which of the following is true about Tasha Tudor according to the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "She wrote and illustrated The Secret Garden."
+        },
+        {
+          "label": "②",
+          "text": "She lived in her home in Vermont until her death."
+        },
+        {
+          "label": "③",
+          "text": "After moving to Vermont, she led a completely secluded life."
+        },
+        {
+          "label": "④",
+          "text": "She left most of her estate to Seth because he was her favorite son."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is true about Tasha Tudor according to the passage?\nPASSAGE_SENTENCES:\n1. Tasha Tudor will be remembered as a beloved children’s book illustrator, with such titles to her credit as The Secret Garden and A Little Princess.\n2. Her illustrations made these stories come to life for young readers of several generations, but beyond creating beautiful images Tudor lived a unique lifestyle all her own.\n3. Tasha followed many artistic pursuits as a child and in 1938 wrote and illustrated her first book, Pumpkin Moonshine.\n4. After having 4 children, Tudor decided to do things her own way.\n5. Later in life Tudor moved to her dream home in Vermont.\n6. This home was to be her final house, where she lived in a distinctly 1830s manner, largely rejecting modern forms of technology.\n7. Here she lived the pioneer life, hauling water and heating her home by burning wood.\n8. Even during this time, however, she still worked and gave talks.\n9. Sadly after her death in 2008, her children contested her will which left the majority of her estate to her son, Seth.\n10. The rift was said to be a deep one that stemmed from the 19th-century lifestyle she led.\n11. Nevertheless, she will forever remain one of our favorite children’s illustrators and a role model who did things her own way.\nQUESTION:\nWhich of the following is true about Tasha Tudor according to the passage?\nCHOICES:\n① She wrote and illustrated The Secret Garden.\n② She lived in her home in Vermont until her death.\n③ After moving to Vermont, she led a completely secluded life.\n④ She left most of her estate to Seth because he was her favorite son."
+    },
+    {
+      "number": 26,
+      "instruction": "Which of the following is not true according to the passage?",
+      "passage_sentences": [
+        "The Easterlin paradox is a finding in happiness economics formulated in 1974 by Richard Easterlin, the first economist to study happiness data.",
+        "The paradox states that though in comparisons within a country richer people are happier, in comparisons across countries the richer ones appeared to be no happier than poorer ones.",
+        "And in comparisons over time, people did not appear to get happier as their countries got richer.",
+        "The original evidence for the paradox was United States data.",
+        "Americans are by no means unhappy: almost 90 percent rate themselves as at least “pretty happy,” almost a third rate themselves as “very happy,” and when they are asked to place themselves on the ten-rung ladder from the worst to the best possible life, they choose the seventh rung.",
+        "But in 2015 the United States came in at thirteenth place among the world’s nations, trailing eight countries in Western Europe, even though it had a higher average income than all of them but Norway and Switzerland.",
+        "Also, the United States hasn’t gotten systematically happier over the years.",
+        "American happiness has fluctuated within a narrow band since 1947, deflecting in response to various recessions, recoveries, malaises, and bubbles, but with no consistent rise or fall."
+      ],
+      "question": "Which of the following is not true according to the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Richard Easterlin is the first economist to study happiness data."
+        },
+        {
+          "label": "②",
+          "text": "Almost 90 percent of Americans consider themselves pretty happy."
+        },
+        {
+          "label": "③",
+          "text": "The United States is a country that punches below its wealth in happiness."
+        },
+        {
+          "label": "④",
+          "text": "The United States has gotten systematically unhappier over the years."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is not true according to the passage?\nPASSAGE_SENTENCES:\n1. The Easterlin paradox is a finding in happiness economics formulated in 1974 by Richard Easterlin, the first economist to study happiness data.\n2. The paradox states that though in comparisons within a country richer people are happier, in comparisons across countries the richer ones appeared to be no happier than poorer ones.\n3. And in comparisons over time, people did not appear to get happier as their countries got richer.\n4. The original evidence for the paradox was United States data.\n5. Americans are by no means unhappy: almost 90 percent rate themselves as at least “pretty happy,” almost a third rate themselves as “very happy,” and when they are asked to place themselves on the ten-rung ladder from the worst to the best possible life, they choose the seventh rung.\n6. But in 2015 the United States came in at thirteenth place among the world’s nations, trailing eight countries in Western Europe, even though it had a higher average income than all of them but Norway and Switzerland.\n7. Also, the United States hasn’t gotten systematically happier over the years.\n8. American happiness has fluctuated within a narrow band since 1947, deflecting in response to various recessions, recoveries, malaises, and bubbles, but with no consistent rise or fall.\nQUESTION:\nWhich of the following is not true according to the passage?\nCHOICES:\n① Richard Easterlin is the first economist to study happiness data.\n② Almost 90 percent of Americans consider themselves pretty happy.\n③ The United States is a country that punches below its wealth in happiness.\n④ The United States has gotten systematically unhappier over the years."
+    },
+    {
+      "number": 27,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "In the 1950s and ’60s, Norman Borlaug outsmarted evolution to foment the Green Revolution in the developing world.",
+        "Plants in nature invest a lot of energy and nutrients in woody stalks that raise their leaves and blossoms above the shade of neighboring weeds and of each other.",
+        "Like fans at a rock concert, everyone stands up, but no one gets a better view.",
+        "That’s the way evolution works: it myopically selects for individual advantage, not the greater good of the species, let alone the good of some other species.",
+        "( ① ) From a farmer’s perspective, not only do tall wheat plants waste energy in inedible stalks, but when they are enriched with fertilizer they collapse under the weight of the heavy seedhead.",
+        "Borlaug took evolution into his own hands, crossing thousands of strains of wheat and then selecting the offspring with dwarfed stalks, high yields, and an insensitivity to day length.",
+        "After several years of hard work, Borlaug evolved strains of wheat with many times the yield of their ancestors.",
+        "( ② ) By combining these strains with modern techniques of irrigation and fertilization, Borlaug turned many famine-prone countries into grain exporters almost overnight.",
+        "Thanks to the Green Revolution, the world needs less than a third of the land it used to need to produce a given amount of food.",
+        "( ③ ) In addition to beating back hunger, the ability to grow more food from less land has been, on the whole, good for the planet.",
+        "Despite their bucolic charm, farms are biological deserts which sprawl over the landscape at the expense of forests and grasslands.",
+        "( ④ ) Now that farms have receded in some parts of the world, temperate forests have been bouncing back.",
+        "If agricultural efficiency had remained the same over the past fifty years while the world grew the same amount of food, an area the size of the United States, Canada, and China combined would have had to be cleared and plowed."
+      ],
+      "question": "Choose the best place for the sentence in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": ""
+        },
+        {
+          "label": "②",
+          "text": ""
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. In the 1950s and ’60s, Norman Borlaug outsmarted evolution to foment the Green Revolution in the developing world.\n2. Plants in nature invest a lot of energy and nutrients in woody stalks that raise their leaves and blossoms above the shade of neighboring weeds and of each other.\n3. Like fans at a rock concert, everyone stands up, but no one gets a better view.\n4. That’s the way evolution works: it myopically selects for individual advantage, not the greater good of the species, let alone the good of some other species.\n5. ( ① ) From a farmer’s perspective, not only do tall wheat plants waste energy in inedible stalks, but when they are enriched with fertilizer they collapse under the weight of the heavy seedhead.\n6. Borlaug took evolution into his own hands, crossing thousands of strains of wheat and then selecting the offspring with dwarfed stalks, high yields, and an insensitivity to day length.\n7. After several years of hard work, Borlaug evolved strains of wheat with many times the yield of their ancestors.\n8. ( ② ) By combining these strains with modern techniques of irrigation and fertilization, Borlaug turned many famine-prone countries into grain exporters almost overnight.\n9. Thanks to the Green Revolution, the world needs less than a third of the land it used to need to produce a given amount of food.\n10. ( ③ ) In addition to beating back hunger, the ability to grow more food from less land has been, on the whole, good for the planet.\n11. Despite their bucolic charm, farms are biological deserts which sprawl over the landscape at the expense of forests and grasslands.\n12. ( ④ ) Now that farms have receded in some parts of the world, temperate forests have been bouncing back.\n13. If agricultural efficiency had remained the same over the past fifty years while the world grew the same amount of food, an area the size of the United States, Canada, and China combined would have had to be cleared and plowed.\nQUESTION:\nChoose the best place for the sentence in the box.\nCHOICES:\n①\n②\n③\n④"
+    },
+    {
+      "number": 28,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "In the 1950s and ’60s, Norman Borlaug outsmarted evolution to foment the Green Revolution in the developing world.",
+        "Plants in nature invest a lot of energy and nutrients in woody stalks that raise their leaves and blossoms above the shade of neighboring weeds and of each other.",
+        "Like fans at a rock concert, everyone stands up, but no one gets a better view.",
+        "That’s the way evolution works: it myopically selects for individual advantage, not the greater good of the species, let alone the good of some other species.",
+        "( ① ) From a farmer’s perspective, not only do tall wheat plants waste energy in inedible stalks, but when they are enriched with fertilizer they collapse under the weight of the heavy seedhead.",
+        "Borlaug took evolution into his own hands, crossing thousands of strains of wheat and then selecting the offspring with dwarfed stalks, high yields, and an insensitivity to day length.",
+        "After several years of hard work, Borlaug evolved strains of wheat with many times the yield of their ancestors.",
+        "( ② ) By combining these strains with modern techniques of irrigation and fertilization, Borlaug turned many famine-prone countries into grain exporters almost overnight.",
+        "Thanks to the Green Revolution, the world needs less than a third of the land it used to need to produce a given amount of food.",
+        "( ③ ) In addition to beating back hunger, the ability to grow more food from less land has been, on the whole, good for the planet.",
+        "Despite their bucolic charm, farms are biological deserts which sprawl over the landscape at the expense of forests and grasslands.",
+        "( ④ ) Now that farms have receded in some parts of the world, temperate forests have been bouncing back.",
+        "If agricultural efficiency had remained the same over the past fifty years while the world grew the same amount of food, an area the size of the United States, Canada, and China combined would have had to be cleared and plowed."
+      ],
+      "question": "Which of the following questions about the Green Revolution cannot be answered from the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Why are the strains with dwarfed stalks preferred over those with tall stalks?"
+        },
+        {
+          "label": "②",
+          "text": "What are the key properties of the strains selected by Borlaug?"
+        },
+        {
+          "label": "③",
+          "text": "What are the inadvertent side effects of the Green Revolution?"
+        },
+        {
+          "label": "④",
+          "text": "What advantage does the Green Revolution have other than beating back hunger?"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. In the 1950s and ’60s, Norman Borlaug outsmarted evolution to foment the Green Revolution in the developing world.\n2. Plants in nature invest a lot of energy and nutrients in woody stalks that raise their leaves and blossoms above the shade of neighboring weeds and of each other.\n3. Like fans at a rock concert, everyone stands up, but no one gets a better view.\n4. That’s the way evolution works: it myopically selects for individual advantage, not the greater good of the species, let alone the good of some other species.\n5. ( ① ) From a farmer’s perspective, not only do tall wheat plants waste energy in inedible stalks, but when they are enriched with fertilizer they collapse under the weight of the heavy seedhead.\n6. Borlaug took evolution into his own hands, crossing thousands of strains of wheat and then selecting the offspring with dwarfed stalks, high yields, and an insensitivity to day length.\n7. After several years of hard work, Borlaug evolved strains of wheat with many times the yield of their ancestors.\n8. ( ② ) By combining these strains with modern techniques of irrigation and fertilization, Borlaug turned many famine-prone countries into grain exporters almost overnight.\n9. Thanks to the Green Revolution, the world needs less than a third of the land it used to need to produce a given amount of food.\n10. ( ③ ) In addition to beating back hunger, the ability to grow more food from less land has been, on the whole, good for the planet.\n11. Despite their bucolic charm, farms are biological deserts which sprawl over the landscape at the expense of forests and grasslands.\n12. ( ④ ) Now that farms have receded in some parts of the world, temperate forests have been bouncing back.\n13. If agricultural efficiency had remained the same over the past fifty years while the world grew the same amount of food, an area the size of the United States, Canada, and China combined would have had to be cleared and plowed.\nQUESTION:\nWhich of the following questions about the Green Revolution cannot be answered from the passage?\nCHOICES:\n① Why are the strains with dwarfed stalks preferred over those with tall stalks?\n② What are the key properties of the strains selected by Borlaug?\n③ What are the inadvertent side effects of the Green Revolution?\n④ What advantage does the Green Revolution have other than beating back hunger?"
+    },
+    {
+      "number": 29,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The recycling business in America is in a heap of trouble.",
+        "The environmental and economic ripple effects on towns and cities are ominous.",
+        "China used to take recyclables from America but essentially shut its doors in 2018.",
+        "Unsurprisingly, the United States leads the world in per capita municipal solid waste production, and the volume of single-use plastics, rising for decades, has soared since the start of the pandemic.",
+        "[A] But there’s a way to clean up this mess.",
+        "A couple of New York State legislators have drafted a recycling bill that, if enacted, would set a conspicuous precedent for other states.",
+        "The bill is designed to get money flowing back into New York’s recycling programs, with the prospect of upgrading trash-sorting technology and creating green jobs.",
+        "[B] The closing of the Chinese market has caused America’s recycling business to tank —too much supply, too little demand.",
+        "In Onondaga County, New York, for example, where collecting, processing and marketing recyclables had long paid for itself, even occasionally earning money, county residents forked over about $2 million in 2020 to cover recycling costs.",
+        "Dozens of recycling programs have shuttered across the country and Americans are piling more trash than ever into incinerators and landfills.",
+        "[C] A benefit of the recycling bill is that it isn’t punitive.",
+        "And at the same time it encourages a robust public conversation around the larger carbon footprints of packaging materials because producers’ payments will be based on their environmental impacts.",
+        "More than that, money raised from one of these programs can underwrite capital investments in upgrading trash-handling technology, so that recycling facilities can recover more materials from the waste stream—materials that then flow back into the local economy."
+      ],
+      "question": "Choose the best order after the given passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "[B]-[A]-[C]"
+        },
+        {
+          "label": "②",
+          "text": "[B]-[C]-[A]"
+        },
+        {
+          "label": "③",
+          "text": "[A]-[B]-[C]"
+        },
+        {
+          "label": "④",
+          "text": "[A]-[C]-[B]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The recycling business in America is in a heap of trouble.\n2. The environmental and economic ripple effects on towns and cities are ominous.\n3. China used to take recyclables from America but essentially shut its doors in 2018.\n4. Unsurprisingly, the United States leads the world in per capita municipal solid waste production, and the volume of single-use plastics, rising for decades, has soared since the start of the pandemic.\n5. [A] But there’s a way to clean up this mess.\n6. A couple of New York State legislators have drafted a recycling bill that, if enacted, would set a conspicuous precedent for other states.\n7. The bill is designed to get money flowing back into New York’s recycling programs, with the prospect of upgrading trash-sorting technology and creating green jobs.\n8. [B] The closing of the Chinese market has caused America’s recycling business to tank —too much supply, too little demand.\n9. In Onondaga County, New York, for example, where collecting, processing and marketing recyclables had long paid for itself, even occasionally earning money, county residents forked over about $2 million in 2020 to cover recycling costs.\n10. Dozens of recycling programs have shuttered across the country and Americans are piling more trash than ever into incinerators and landfills.\n11. [C] A benefit of the recycling bill is that it isn’t punitive.\n12. And at the same time it encourages a robust public conversation around the larger carbon footprints of packaging materials because producers’ payments will be based on their environmental impacts.\n13. More than that, money raised from one of these programs can underwrite capital investments in upgrading trash-handling technology, so that recycling facilities can recover more materials from the waste stream—materials that then flow back into the local economy.\nQUESTION:\nChoose the best order after the given passage.\nCHOICES:\n① [B]-[A]-[C]\n② [B]-[C]-[A]\n③ [A]-[B]-[C]\n④ [A]-[C]-[B]"
+    },
+    {
+      "number": 30,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The recycling business in America is in a heap of trouble.",
+        "The environmental and economic ripple effects on towns and cities are ominous.",
+        "China used to take recyclables from America but essentially shut its doors in 2018.",
+        "Unsurprisingly, the United States leads the world in per capita municipal solid waste production, and the volume of single-use plastics, rising for decades, has soared since the start of the pandemic.",
+        "[A] But there’s a way to clean up this mess.",
+        "A couple of New York State legislators have drafted a recycling bill that, if enacted, would set a conspicuous precedent for other states.",
+        "The bill is designed to get money flowing back into New York’s recycling programs, with the prospect of upgrading trash-sorting technology and creating green jobs.",
+        "[B] The closing of the Chinese market has caused America’s recycling business to tank —too much supply, too little demand.",
+        "In Onondaga County, New York, for example, where collecting, processing and marketing recyclables had long paid for itself, even occasionally earning money, county residents forked over about $2 million in 2020 to cover recycling costs.",
+        "Dozens of recycling programs have shuttered across the country and Americans are piling more trash than ever into incinerators and landfills.",
+        "[C] A benefit of the recycling bill is that it isn’t punitive.",
+        "And at the same time it encourages a robust public conversation around the larger carbon footprints of packaging materials because producers’ payments will be based on their environmental impacts.",
+        "More than that, money raised from one of these programs can underwrite capital investments in upgrading trash-handling technology, so that recycling facilities can recover more materials from the waste stream—materials that then flow back into the local economy."
+      ],
+      "question": "Choose the one that is not true according to the passages.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "China no longer takes recyclables from the United States."
+        },
+        {
+          "label": "②",
+          "text": "New York State is currently making lots of money thanks to the new recycling bill."
+        },
+        {
+          "label": "③",
+          "text": "Onondaga County residents spent about $2 million in 2020 to pay for recycling cost."
+        },
+        {
+          "label": "④",
+          "text": "The new recycling bill can contribute to the upgrading of trash disposal technology."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The recycling business in America is in a heap of trouble.\n2. The environmental and economic ripple effects on towns and cities are ominous.\n3. China used to take recyclables from America but essentially shut its doors in 2018.\n4. Unsurprisingly, the United States leads the world in per capita municipal solid waste production, and the volume of single-use plastics, rising for decades, has soared since the start of the pandemic.\n5. [A] But there’s a way to clean up this mess.\n6. A couple of New York State legislators have drafted a recycling bill that, if enacted, would set a conspicuous precedent for other states.\n7. The bill is designed to get money flowing back into New York’s recycling programs, with the prospect of upgrading trash-sorting technology and creating green jobs.\n8. [B] The closing of the Chinese market has caused America’s recycling business to tank —too much supply, too little demand.\n9. In Onondaga County, New York, for example, where collecting, processing and marketing recyclables had long paid for itself, even occasionally earning money, county residents forked over about $2 million in 2020 to cover recycling costs.\n10. Dozens of recycling programs have shuttered across the country and Americans are piling more trash than ever into incinerators and landfills.\n11. [C] A benefit of the recycling bill is that it isn’t punitive.\n12. And at the same time it encourages a robust public conversation around the larger carbon footprints of packaging materials because producers’ payments will be based on their environmental impacts.\n13. More than that, money raised from one of these programs can underwrite capital investments in upgrading trash-handling technology, so that recycling facilities can recover more materials from the waste stream—materials that then flow back into the local economy.\nQUESTION:\nChoose the one that is not true according to the passages.\nCHOICES:\n① China no longer takes recyclables from the United States.\n② New York State is currently making lots of money thanks to the new recycling bill.\n③ Onondaga County residents spent about $2 million in 2020 to pay for recycling cost.\n④ The new recycling bill can contribute to the upgrading of trash disposal technology."
+    }
+  ]
+}

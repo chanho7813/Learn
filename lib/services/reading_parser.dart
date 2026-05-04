@@ -1,85 +1,47 @@
+import 'dart:convert';
 import '../models/reading.dart';
 
 class ReadingParser {
-  static ReadingPassage parse(String content, String fileName) {
-    final lines = content.split('\n');
-    String title = '';
-    String parsedFileName = '';
-    final sections = <ReadingSection>[];
-    String currentSectionTitle = '';
-    final currentPairs = <SentencePair>[];
+  static ReadingExam parseJson(String content, String fileName) {
+    final Map<String, dynamic> data = json.decode(content);
 
-    bool inFrontmatter = false;
+    final institution = data['institution'] as String? ?? '';
+    final institutionKo = data['institution_ko'] as String? ?? institution;
+    final year = data['year'] as int? ?? 0;
+    final questionCount = data['question_count'] as int? ?? 0;
 
-    for (int i = 0; i < lines.length; i++) {
-      final line = lines[i].trim();
+    final questions = <ReadingQuestion>[];
+    final rawQuestions = data['questions'] as List<dynamic>? ?? [];
 
-      if (line == '---') {
-        if (!inFrontmatter && title.isEmpty) {
-          inFrontmatter = true;
-          continue;
-        } else if (inFrontmatter) {
-          inFrontmatter = false;
-          continue;
-        }
-      }
-
-      if (inFrontmatter) {
-        if (line.startsWith('title:')) {
-          title = line.substring(6).trim();
-        } else if (line.startsWith('fileName:')) {
-          parsedFileName = line.substring(9).trim();
-        }
-        continue;
-      }
-
-      if (line.startsWith('## ')) {
-        if (currentSectionTitle.isNotEmpty && currentPairs.isNotEmpty) {
-          sections.add(ReadingSection(
-            title: currentSectionTitle,
-            sentences: List.from(currentPairs),
-          ));
-          currentPairs.clear();
-        }
-        currentSectionTitle = line.substring(3).trim();
-        continue;
-      }
-
-      if (line.isEmpty) continue;
-
-      final nextNonEmpty = _findNextNonEmpty(lines, i + 1);
-      if (nextNonEmpty != null && _isKorean(lines[nextNonEmpty].trim())) {
-        currentPairs.add(SentencePair(
-          en: line,
-          ko: lines[nextNonEmpty].trim(),
+    for (final q in rawQuestions) {
+      final map = q as Map<String, dynamic>;
+      final choices = <ReadingChoice>[];
+      for (final c in (map['choices'] as List<dynamic>? ?? [])) {
+        final cMap = c as Map<String, dynamic>;
+        choices.add(ReadingChoice(
+          label: cMap['label'] as String? ?? '',
+          text: cMap['text'] as String? ?? '',
         ));
-        i = nextNonEmpty;
       }
-    }
 
-    if (currentSectionTitle.isNotEmpty && currentPairs.isNotEmpty) {
-      sections.add(ReadingSection(
-        title: currentSectionTitle,
-        sentences: List.from(currentPairs),
+      final rawSentences = map['passage_sentences'] as List<dynamic>? ?? [];
+
+      questions.add(ReadingQuestion(
+        number: map['number'] as int? ?? 0,
+        instruction: map['instruction'] as String? ?? '',
+        passageSentences: rawSentences.map((s) => s.toString()).toList(),
+        question: map['question'] as String?,
+        choices: choices,
       ));
     }
 
-    return ReadingPassage(
-      title: title.isEmpty ? fileName : title,
-      fileName: parsedFileName.isNotEmpty ? parsedFileName : fileName,
-      sections: sections,
+    return ReadingExam(
+      institution: institution,
+      institutionKo: institutionKo,
+      year: year,
+      fileName: fileName,
+      questionCount: questionCount,
+      questions: questions,
     );
-  }
-
-  static int? _findNextNonEmpty(List<String> lines, int from) {
-    for (int i = from; i < lines.length; i++) {
-      if (lines[i].trim().isNotEmpty) return i;
-    }
-    return null;
-  }
-
-  static bool _isKorean(String text) {
-    final koreanRegex = RegExp(r'[가-힯ᄀ-ᇿ㄰-㆏]');
-    return koreanRegex.hasMatch(text);
   }
 }

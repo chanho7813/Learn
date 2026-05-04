@@ -1,0 +1,1309 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2021,
+  "exam_kind": "english",
+  "source_text_file": "chungang_2021_english_extracted_complete.txt",
+  "question_count": 40,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The foragers have largely vanished since the newcomers appeared."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "cunctators"
+        },
+        {
+          "label": "②",
+          "text": "colliers"
+        },
+        {
+          "label": "③",
+          "text": "looters"
+        },
+        {
+          "label": "④",
+          "text": "temporizers"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The foragers have largely vanished since the newcomers appeared.\nCHOICES:\n① cunctators\n② colliers\n③ looters\n④ temporizers"
+    },
+    {
+      "number": 2,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Renaissance Italy was a time of ruthlessness in politics and exquisite sensibility in art and culture."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "antinomy"
+        },
+        {
+          "label": "②",
+          "text": "atrophy"
+        },
+        {
+          "label": "③",
+          "text": "antilogy"
+        },
+        {
+          "label": "④",
+          "text": "atrocity"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Renaissance Italy was a time of ruthlessness in politics and exquisite sensibility in art and culture.\nCHOICES:\n① antinomy\n② atrophy\n③ antilogy\n④ atrocity"
+    },
+    {
+      "number": 3,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "They had continued to harry government forces, however, from outside the city with mortar rounds."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "badger"
+        },
+        {
+          "label": "②",
+          "text": "humiliate"
+        },
+        {
+          "label": "③",
+          "text": "beseech"
+        },
+        {
+          "label": "④",
+          "text": "harangue"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. They had continued to harry government forces, however, from outside the city with mortar rounds.\nCHOICES:\n① badger\n② humiliate\n③ beseech\n④ harangue"
+    },
+    {
+      "number": 4,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "He allowed their conversation to be as desultory as possible, wanting his companion to relax and feel safe in his presence."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "despondent"
+        },
+        {
+          "label": "②",
+          "text": "supercilious"
+        },
+        {
+          "label": "③",
+          "text": "rambling"
+        },
+        {
+          "label": "④",
+          "text": "fastidious"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. He allowed their conversation to be as desultory as possible, wanting his companion to relax and feel safe in his presence.\nCHOICES:\n① despondent\n② supercilious\n③ rambling\n④ fastidious"
+    },
+    {
+      "number": 5,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The children’s boots have a fleecy lining."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "cushiony"
+        },
+        {
+          "label": "②",
+          "text": "clipped"
+        },
+        {
+          "label": "③",
+          "text": "slouch"
+        },
+        {
+          "label": "④",
+          "text": "sapid"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The children’s boots have a fleecy lining.\nCHOICES:\n① cushiony\n② clipped\n③ slouch\n④ sapid"
+    },
+    {
+      "number": 6,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "I really put my foot in it with Ella."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "rouse myself"
+        },
+        {
+          "label": "②",
+          "text": "split tacks"
+        },
+        {
+          "label": "③",
+          "text": "goofed up"
+        },
+        {
+          "label": "④",
+          "text": "acted up"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. I really put my foot in it with Ella.\nCHOICES:\n① rouse myself\n② split tacks\n③ goofed up\n④ acted up"
+    },
+    {
+      "number": 7,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: It was time for him to kick the bucket. B: Right! He had to embark on a new business."
+        },
+        {
+          "label": "②",
+          "text": "A: I am in the competition again this year. B: Break a leg!"
+        },
+        {
+          "label": "③",
+          "text": "A: What did you do last night? B: I hit the sack real early."
+        },
+        {
+          "label": "④",
+          "text": "A: How did he know that? B: I let the cat out of the bag."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nCHOICES:\n① A: It was time for him to kick the bucket.\n   B: Right! He had to embark on a new business.\n② A: I am in the competition again this year.\n   B: Break a leg!\n③ A: What did you do last night?\n   B: I hit the sack real early.\n④ A: How did he know that?\n   B: I let the cat out of the bag."
+    },
+    {
+      "number": 8,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: He is really down in the dumps. B: I saw him yesterday and he looked like a basket case."
+        },
+        {
+          "label": "②",
+          "text": "A: I am fit to be tied right now! B: Calm down and tell me what happened."
+        },
+        {
+          "label": "③",
+          "text": "A: I can’t believe that I got a ticket to that concert. B: Is there any outside chance that there are some more tickets floating around?"
+        },
+        {
+          "label": "④",
+          "text": "A: Say, Mark, do you feel like chowing down right now? B: O.K. I’ll help more around the house."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nCHOICES:\n① A: He is really down in the dumps.\n   B: I saw him yesterday and he looked like a basket case.\n② A: I am fit to be tied right now!\n   B: Calm down and tell me what happened.\n③ A: I can’t believe that I got a ticket to that concert.\n   B: Is there any outside chance that there are some more tickets floating around?\n④ A: Say, Mark, do you feel like chowing down right now?\n   B: O.K. I’ll help more around the house."
+    },
+    {
+      "number": 9,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "Despite the success on the battlefield, his mental state had been deteriorating, which prompted some of his generals and advisers to challenge him. No error."
+      ],
+      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Despite"
+        },
+        {
+          "label": "②",
+          "text": "had been deteriorating"
+        },
+        {
+          "label": "③",
+          "text": "which prompted"
+        },
+        {
+          "label": "④",
+          "text": "No error"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Despite the success on the battlefield, his mental state had been deteriorating, which prompted some of his generals and advisers to challenge him. No error.\nQUESTION:\n밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.\nCHOICES:\n① Despite\n② had been deteriorating\n③ which prompted\n④ No error"
+    },
+    {
+      "number": 10,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "The Depression curtailed regional development, but contrary to the experience of their urban counterparts elsewhere, the city exhibited patterns of demographic and economic growth throughout the 1930s. No error."
+      ],
+      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "curtailed"
+        },
+        {
+          "label": "②",
+          "text": "contrary to"
+        },
+        {
+          "label": "③",
+          "text": "exhibited"
+        },
+        {
+          "label": "④",
+          "text": "No error"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. The Depression curtailed regional development, but contrary to the experience of their urban counterparts elsewhere, the city exhibited patterns of demographic and economic growth throughout the 1930s. No error.\nQUESTION:\n밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.\nCHOICES:\n① curtailed\n② contrary to\n③ exhibited\n④ No error"
+    },
+    {
+      "number": 11,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "Reflexivity and the foregrounding of subjective experience may have become increasingly fashioning in the mainstream media as well as the blogosphere, but for the most part news journalism remains a bastion of the authoritative-sounding objective approach. No error."
+      ],
+      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Reflexivity and the foregrounding"
+        },
+        {
+          "label": "②",
+          "text": "fashioning"
+        },
+        {
+          "label": "③",
+          "text": "remains"
+        },
+        {
+          "label": "④",
+          "text": "No error"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Reflexivity and the foregrounding of subjective experience may have become increasingly fashioning in the mainstream media as well as the blogosphere, but for the most part news journalism remains a bastion of the authoritative-sounding objective approach. No error.\nQUESTION:\n밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.\nCHOICES:\n① Reflexivity and the foregrounding\n② fashioning\n③ remains\n④ No error"
+    },
+    {
+      "number": 12,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "The magazine story that claimed the athlete was distracted by problems at home was actually a(n) _________ made by her overseas competitors."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "syllogism"
+        },
+        {
+          "label": "②",
+          "text": "exhortation"
+        },
+        {
+          "label": "③",
+          "text": "ecologue"
+        },
+        {
+          "label": "④",
+          "text": "canard"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The magazine story that claimed the athlete was distracted by problems at home was actually a(n) _________ made by her overseas competitors.\nCHOICES:\n① syllogism\n② exhortation\n③ ecologue\n④ canard"
+    },
+    {
+      "number": 13,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Her withering and disdainful glares for his efforts left him _________ but also angry.",
+        "He hadn’t really done anything wrong, and yet she was making him out to be a complete idiot."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "invoked"
+        },
+        {
+          "label": "②",
+          "text": "ennobled"
+        },
+        {
+          "label": "③",
+          "text": "abashed"
+        },
+        {
+          "label": "④",
+          "text": "unbiased"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Her withering and disdainful glares for his efforts left him _________ but also angry.\n2. He hadn’t really done anything wrong, and yet she was making him out to be a complete idiot.\nCHOICES:\n① invoked\n② ennobled\n③ abashed\n④ unbiased"
+    },
+    {
+      "number": 14,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Although Don Quixote, published in 1605, is a(n) _________ work of Western literature and an early example of the modern novel, it is not, as is sometimes claimed, the first novel."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "seminal"
+        },
+        {
+          "label": "②",
+          "text": "derivative"
+        },
+        {
+          "label": "③",
+          "text": "retroactive"
+        },
+        {
+          "label": "④",
+          "text": "antithetical"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Although Don Quixote, published in 1605, is a(n) _________ work of Western literature and an early example of the modern novel, it is not, as is sometimes claimed, the first novel.\nCHOICES:\n① seminal\n② derivative\n③ retroactive\n④ antithetical"
+    },
+    {
+      "number": 15,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "The _________ details with laconical style stimulate curiosity about their genuine quality."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "frothy"
+        },
+        {
+          "label": "②",
+          "text": "blate"
+        },
+        {
+          "label": "③",
+          "text": "tautological"
+        },
+        {
+          "label": "④",
+          "text": "piquant"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The _________ details with laconical style stimulate curiosity about their genuine quality.\nCHOICES:\n① frothy\n② blate\n③ tautological\n④ piquant"
+    },
+    {
+      "number": 16,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "As people are insensitive to the semantic difference between “impartiality” and “objectivity”, two words are sometimes used _________.",
+        "But, impartial reporting is normally defined as being neutral, while objective reporting is taken to be the reporting of verifiable facts."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "divergingly"
+        },
+        {
+          "label": "②",
+          "text": "interchangeably"
+        },
+        {
+          "label": "③",
+          "text": "squarely"
+        },
+        {
+          "label": "④",
+          "text": "contradictorily"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. As people are insensitive to the semantic difference between “impartiality” and “objectivity”, two words are sometimes used _________.\n2. But, impartial reporting is normally defined as being neutral, while objective reporting is taken to be the reporting of verifiable facts.\nCHOICES:\n① divergingly\n② interchangeably\n③ squarely\n④ contradictorily"
+    },
+    {
+      "number": 17,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Satellite transmitters have provided a major advance in methods to _________ migratory animals because they provide extremely accurate positions of individuals remotely."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "camouflage"
+        },
+        {
+          "label": "②",
+          "text": "monitor"
+        },
+        {
+          "label": "③",
+          "text": "breed"
+        },
+        {
+          "label": "④",
+          "text": "derange"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Satellite transmitters have provided a major advance in methods to _________ migratory animals because they provide extremely accurate positions of individuals remotely.\nCHOICES:\n① camouflage\n② monitor\n③ breed\n④ derange"
+    },
+    {
+      "number": 18,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Many stories told of the king are obviously circulated by inventive malice, and these _________ the entire good old narrative of him."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "ameliorate"
+        },
+        {
+          "label": "②",
+          "text": "vitiate"
+        },
+        {
+          "label": "③",
+          "text": "legalize"
+        },
+        {
+          "label": "④",
+          "text": "ascertain"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Many stories told of the king are obviously circulated by inventive malice, and these _________ the entire good old narrative of him.\nCHOICES:\n① ameliorate\n② vitiate\n③ legalize\n④ ascertain"
+    },
+    {
+      "number": 19,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
+      "passage_sentences": [
+        "Direct marketing is defined as communicating directly with the targeted customers on an individual basis so that _________ response can be obtained."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "indifferent"
+        },
+        {
+          "label": "②",
+          "text": "inscrutable"
+        },
+        {
+          "label": "③",
+          "text": "impetuous"
+        },
+        {
+          "label": "④",
+          "text": "immediate"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Direct marketing is defined as communicating directly with the targeted customers on an individual basis so that _________ response can be obtained.\nCHOICES:\n① indifferent\n② inscrutable\n③ impetuous\n④ immediate"
+    },
+    {
+      "number": 20,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "Literature was asserting its _________ as a way of knowing.",
+        "Writers may not have been able to establish restrictive professional organizations, as did scientists, and it remained difficult at best to earn a living in the emerging literary marketplace, which gave a new status to the writer as a professional.",
+        "Still, writers increasingly felt the need to assert the power of the artistic imagination.",
+        "Emerson described “The Poet,” and by extension any creative artist, as “a(n) __________, who stands on the centre.",
+        "For the world is not painted, or adorned, but is from the beginning beautiful; and God has not made some beautiful things, but Beauty is the creator of the universe.",
+        "Therefore the poet is not any permissive potentate, but is emperor in his own right.”"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "totality ― loner"
+        },
+        {
+          "label": "②",
+          "text": "responsibility ― autocrat"
+        },
+        {
+          "label": "③",
+          "text": "autonomy ― sovereign"
+        },
+        {
+          "label": "④",
+          "text": "independence ― retainer"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. Literature was asserting its _________ as a way of knowing.\n2. Writers may not have been able to establish restrictive professional organizations, as did scientists, and it remained difficult at best to earn a living in the emerging literary marketplace, which gave a new status to the writer as a professional.\n3. Still, writers increasingly felt the need to assert the power of the artistic imagination.\n4. Emerson described “The Poet,” and by extension any creative artist, as “a(n) __________, who stands on the centre.\n5. For the world is not painted, or adorned, but is from the beginning beautiful; and God has not made some beautiful things, but Beauty is the creator of the universe.\n6. Therefore the poet is not any permissive potentate, but is emperor in his own right.”\nCHOICES:\n① totality ― loner\n② responsibility ― autocrat\n③ autonomy ― sovereign\n④ independence ― retainer"
+    },
+    {
+      "number": 21,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "African affairs were largely internal struggles because outsiders were held back by natural barriers like the Sahara Desert and the Indian Ocean.",
+        "Moreover, by the fifteenth century African politics became greatly __________ by Asian and European incursions on both the east and west coasts of the continent.",
+        "In general, outsiders restricted themselves to coastal areas that afforded the most access to African goods, and few bothered with the interior of the continent.",
+        "All this changed in the late nineteenth century when a large series of invasions called the “Scramble for Africa” divided the continent into __________."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "complicated ― colonies"
+        },
+        {
+          "label": "②",
+          "text": "alleviated ― provinces"
+        },
+        {
+          "label": "③",
+          "text": "sublimed ― regions"
+        },
+        {
+          "label": "④",
+          "text": "indoctrinated ― districts"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. African affairs were largely internal struggles because outsiders were held back by natural barriers like the Sahara Desert and the Indian Ocean.\n2. Moreover, by the fifteenth century African politics became greatly __________ by Asian and European incursions on both the east and west coasts of the continent.\n3. In general, outsiders restricted themselves to coastal areas that afforded the most access to African goods, and few bothered with the interior of the continent.\n4. All this changed in the late nineteenth century when a large series of invasions called the “Scramble for Africa” divided the continent into __________.\nCHOICES:\n① complicated ― colonies\n② alleviated ― provinces\n③ sublimed ― regions\n④ indoctrinated ― districts"
+    },
+    {
+      "number": 22,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "For many centuries, the study of medicine was inextricably linked with the study of __________.",
+        "Indeed as late as the 18th century, it was still impossible to qualify as a doctor unless one had passed an examination in __________.",
+        "The Black Death in the mid-14th century illustrates the connection.",
+        "As it ravaged Eurasia, killing some 25 million people in Europe alone, scholars soon began to publish their views on its cause.",
+        "The medical faculty of the University of Paris was commanded by King Philip VI to give its opinion of the origin of the plague.",
+        "While other scholars blamed the total lunar eclipse of 18 March 1347, the faculty opined that a triple conjunction of Mars, Jupiter, and Saturn in Aquarius in March 1345 was responsible for the “pernicious corruption of the surrounding air, as well as other signs of mortality, famine, and other catastrophes.”",
+        "It was a reasoned theory that greatly enhanced the reputation of __________."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "astrology"
+        },
+        {
+          "label": "②",
+          "text": "astronomy"
+        },
+        {
+          "label": "③",
+          "text": "immunology"
+        },
+        {
+          "label": "④",
+          "text": "pathology"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. For many centuries, the study of medicine was inextricably linked with the study of __________.\n2. Indeed as late as the 18th century, it was still impossible to qualify as a doctor unless one had passed an examination in __________.\n3. The Black Death in the mid-14th century illustrates the connection.\n4. As it ravaged Eurasia, killing some 25 million people in Europe alone, scholars soon began to publish their views on its cause.\n5. The medical faculty of the University of Paris was commanded by King Philip VI to give its opinion of the origin of the plague.\n6. While other scholars blamed the total lunar eclipse of 18 March 1347, the faculty opined that a triple conjunction of Mars, Jupiter, and Saturn in Aquarius in March 1345 was responsible for the “pernicious corruption of the surrounding air, as well as other signs of mortality, famine, and other catastrophes.”\n7. It was a reasoned theory that greatly enhanced the reputation of __________.\nCHOICES:\n① astrology\n② astronomy\n③ immunology\n④ pathology"
+    },
+    {
+      "number": 23,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "It’s difficult to pinpoint exactly when and where these pagan traditions ________ into the tradition as we know it: Several countries claim to be the birthplace of the Christmas tree, and there are competing _________ that seek to support their claims.",
+        "But while Christmas trees appear around the world, their origins are traced to regions with abundant evergreen forests―especially those in northern Europe."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "morphed ― mythologies"
+        },
+        {
+          "label": "②",
+          "text": "brought ― stymies"
+        },
+        {
+          "label": "③",
+          "text": "stagnated ― episodes"
+        },
+        {
+          "label": "④",
+          "text": "changed ― succors"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. It’s difficult to pinpoint exactly when and where these pagan traditions ________ into the tradition as we know it: Several countries claim to be the birthplace of the Christmas tree, and there are competing _________ that seek to support their claims.\n2. But while Christmas trees appear around the world, their origins are traced to regions with abundant evergreen forests―especially those in northern Europe.\nCHOICES:\n① morphed ― mythologies\n② brought ― stymies\n③ stagnated ― episodes\n④ changed ― succors"
+    },
+    {
+      "number": 24,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "Unlike downtown commercial districts situated along bustling city streets, Lakewood Center stood at the center of a vast parking lot that accommodated twelve thousand cars, and its one-story buildings faced inward along a chungang promenade.",
+        "The designers of Lakewood Center sought ways to ______ consumer behavior through a rigorous ordering of pedestrian space."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "expurgate"
+        },
+        {
+          "label": "②",
+          "text": "traduce"
+        },
+        {
+          "label": "③",
+          "text": "manipulate"
+        },
+        {
+          "label": "④",
+          "text": "surmount"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. Unlike downtown commercial districts situated along bustling city streets, Lakewood Center stood at the center of a vast parking lot that accommodated twelve thousand cars, and its one-story buildings faced inward along a chungang promenade.\n2. The designers of Lakewood Center sought ways to ______ consumer behavior through a rigorous ordering of pedestrian space.\nCHOICES:\n① expurgate\n② traduce\n③ manipulate\n④ surmount"
+    },
+    {
+      "number": 25,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "Reading drama between archive and repertoire, writing and behavior, poetry and performance demands a resistance to notions of __________; it involves a processual engagement with character as a process of doing, of change, disguise, role-playing, performance.",
+        "It means thinking “with the body” about how language can be used to specify and develop an event taking place onstage, and the significant inhabiting of that unique relationship between actor and an audience of spectators.",
+        "It also means thinking with bodies in history: today’s actors are trained to do things with words, to do specific and different things, and certainly do different things than old actors did."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "dynamic interaction"
+        },
+        {
+          "label": "②",
+          "text": "situational compatibility"
+        },
+        {
+          "label": "③",
+          "text": "ritualistic evaluation"
+        },
+        {
+          "label": "④",
+          "text": "textual fidelity"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. Reading drama between archive and repertoire, writing and behavior, poetry and performance demands a resistance to notions of __________; it involves a processual engagement with character as a process of doing, of change, disguise, role-playing, performance.\n2. It means thinking “with the body” about how language can be used to specify and develop an event taking place onstage, and the significant inhabiting of that unique relationship between actor and an audience of spectators.\n3. It also means thinking with bodies in history: today’s actors are trained to do things with words, to do specific and different things, and certainly do different things than old actors did.\nCHOICES:\n① dynamic interaction\n② situational compatibility\n③ ritualistic evaluation\n④ textual fidelity"
+    },
+    {
+      "number": 26,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "passage_sentences": [
+        "The movement of organisms in space and time defines their interaction with their environments and, therefore, comprises a fundamental aspect of their ecology and evolutionary history.",
+        "The degree to which organisms move ________ the range of resources they encounters, the array of hazards they experience from predators to hurricanes, and the degree to which they interact with other life forms.",
+        "For animals, movement is very much a question of _________.",
+        "While some species occupy a landscape of a few square meters for their entire lives or wander nomadically, others travel across thousands of kilometers in regular movements that constitute some of the most spectacular natural phenomena on the planet."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "characterizes ― geospatial scale"
+        },
+        {
+          "label": "②",
+          "text": "slashes ― spaciotemperal measurement"
+        },
+        {
+          "label": "③",
+          "text": "eclipses ― territorial application"
+        },
+        {
+          "label": "④",
+          "text": "marks ― chronological analysis"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.\nPASSAGE_SENTENCES:\n1. The movement of organisms in space and time defines their interaction with their environments and, therefore, comprises a fundamental aspect of their ecology and evolutionary history.\n2. The degree to which organisms move ________ the range of resources they encounters, the array of hazards they experience from predators to hurricanes, and the degree to which they interact with other life forms.\n3. For animals, movement is very much a question of _________.\n4. While some species occupy a landscape of a few square meters for their entire lives or wander nomadically, others travel across thousands of kilometers in regular movements that constitute some of the most spectacular natural phenomena on the planet.\nCHOICES:\n① characterizes ― geospatial scale\n② slashes ― spaciotemperal measurement\n③ eclipses ― territorial application\n④ marks ― chronological analysis"
+    },
+    {
+      "number": 27,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "People in early cultures sought to heal their sick and save their dying not only by entreating the gods but also by developing technologies to mitigate the effects of brokenness in this world.",
+        "Today we attempt to roll back the effects of the fall through means ranging from herbal treatments to cancer drugs.",
+        "By harnessing our creative energies and applying the talents God has blessed us with, we attempt to restore what has been lost or broken.",
+        "But as medical innovations have progressed through the rise of powerful imaging systems, development of pharmaceuticals and surgical practices, and the use of AI and biotechnology, it is becoming easier for us to believe that we no longer need divine intervention and might actually overcome death through the use of technology.",
+        "To quote fictional legendary racer Ricky Bobby in the movie Talladega Nights, “With advances in modern science and my high level of income, I mean, it’s not crazy to think I can’t live to be 245, maybe three hundred.”",
+        "While Bobby’s thinking here is hilarious, it is more in line with popular opinion than you might think.",
+        "Many people believe that we might even overcome death within our lifetimes.",
+        "This is what Yuval Noah Harari writes about in his book, Homo Deus: A Brief History of Tomorrow.",
+        "Harari argues that through the use of technology, we have already overcome the three big issues that have always beset humanity: famine, plague, and war.",
+        "Though these issues persist, we experience them only on a small scale, and comparatively fewer people are affected by them.",
+        "He explains, “We don’t need to pray to any god or saint to rescue us from them.",
+        "We know quite well what needs to be done in order to prevent famine, plague, and war―and usually we succeed in doing it.”",
+        "Harari argues that we have progressed so far as a society that we have nearly eradicated these issues and can focus on other problems.",
+        "“Success breeds ambition, and our recent achievements are now pushing humankind to set itself even more daring goals.",
+        "Humanity’s next targets are likely to be immortality, happiness, and divinity.”",
+        "He argues that our struggle against death and aging will be a continuation of our pursuit to eradicate disease and illness.",
+        "But for all of our aspirations for the future, we must see that our laudable efforts to overcome sickness and disease can have dangerous consequences if we act as if we are God or seek to upgrade ourselves into gods, turning Homo sapiens into Homo deus, a god-man."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The human ambitions have caused the problems in the development of imaging systems."
+        },
+        {
+          "label": "②",
+          "text": "Through AI, it is now possible to overcome any kinds of diseases."
+        },
+        {
+          "label": "③",
+          "text": "The pursuit of immortality may have negative outcomes for the human species in the future."
+        },
+        {
+          "label": "④",
+          "text": "The primary aim of medical and scientific development was the creation of a god-man."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. People in early cultures sought to heal their sick and save their dying not only by entreating the gods but also by developing technologies to mitigate the effects of brokenness in this world.\n2. Today we attempt to roll back the effects of the fall through means ranging from herbal treatments to cancer drugs.\n3. By harnessing our creative energies and applying the talents God has blessed us with, we attempt to restore what has been lost or broken.\n4. But as medical innovations have progressed through the rise of powerful imaging systems, development of pharmaceuticals and surgical practices, and the use of AI and biotechnology, it is becoming easier for us to believe that we no longer need divine intervention and might actually overcome death through the use of technology.\n5. To quote fictional legendary racer Ricky Bobby in the movie Talladega Nights, “With advances in modern science and my high level of income, I mean, it’s not crazy to think I can’t live to be 245, maybe three hundred.”\n6. While Bobby’s thinking here is hilarious, it is more in line with popular opinion than you might think.\n7. Many people believe that we might even overcome death within our lifetimes.\n8. This is what Yuval Noah Harari writes about in his book, Homo Deus: A Brief History of Tomorrow.\n9. Harari argues that through the use of technology, we have already overcome the three big issues that have always beset humanity: famine, plague, and war.\n10. Though these issues persist, we experience them only on a small scale, and comparatively fewer people are affected by them.\n11. He explains, “We don’t need to pray to any god or saint to rescue us from them.\n12. We know quite well what needs to be done in order to prevent famine, plague, and war―and usually we succeed in doing it.”\n13. Harari argues that we have progressed so far as a society that we have nearly eradicated these issues and can focus on other problems.\n14. “Success breeds ambition, and our recent achievements are now pushing humankind to set itself even more daring goals.\n15. Humanity’s next targets are likely to be immortality, happiness, and divinity.”\n16. He argues that our struggle against death and aging will be a continuation of our pursuit to eradicate disease and illness.\n17. But for all of our aspirations for the future, we must see that our laudable efforts to overcome sickness and disease can have dangerous consequences if we act as if we are God or seek to upgrade ourselves into gods, turning Homo sapiens into Homo deus, a god-man.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① The human ambitions have caused the problems in the development of imaging systems.\n② Through AI, it is now possible to overcome any kinds of diseases.\n③ The pursuit of immortality may have negative outcomes for the human species in the future.\n④ The primary aim of medical and scientific development was the creation of a god-man."
+    },
+    {
+      "number": 28,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "At the turn of the century, compulsory education policies were nonexistent in the U.S., leaving the underachieving students ample opportunity to abandon education in order to learn a trade.",
+        "Therefore, schools in the early part of the 20th century were populated by students possessing not only a strong desire to learn, but also above average intelligence.",
+        "Parents of student dropouts were little concerned about the lack of basic educational skills for their children since the mindset of that era primarily focused on gainful employment.",
+        "As their children left the educational environment, they entered into apprenticeships.",
+        "It was the way of life.",
+        "As time progressed, ideas about education began to shift.",
+        "A high school education became part of the American dream.",
+        "Thus evolved the entitlement battlecry heard in many boardrooms.",
+        "Today it has become law that everyone has a right to a public education.",
+        "Of course, if everyone regardless of intellectual ability was to be educated, the educational system had to make some serious adaptations in order to succeed.",
+        "Courses unrelated to the 3 “R”s emerged to meet the demand faced by public educators.",
+        "Home economics, music, art, physical education, and foreign language addressed some of the needs.",
+        "Classes for the handicapped as well as the gifted were instituted.",
+        "Courses in driver education and childcare were initiated to ensure that safety was being taught.",
+        "Assemblies were conducted to preach the dangers of drugs and alcohol.",
+        "After-school clubs provided outlets in the arts, literature and drama.",
+        "Moral values and citizenship needed a place in the curriculum.",
+        "Breakfast and lunch were provided for the poor.",
+        "Before- and after-school day care helped the “latchkey kid” syndrome.",
+        "Finally, schools were required to test eyes, ears, and general health."
+      ],
+      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Education was the way of life in the U.S. at the turn of the century."
+        },
+        {
+          "label": "②",
+          "text": "General ideas on education have changed since the 20th century."
+        },
+        {
+          "label": "③",
+          "text": "At the turn of the century, parents were eager to have their children educated."
+        },
+        {
+          "label": "④",
+          "text": "Lunch was first provided to the intelligent and the gifted."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. At the turn of the century, compulsory education policies were nonexistent in the U.S., leaving the underachieving students ample opportunity to abandon education in order to learn a trade.\n2. Therefore, schools in the early part of the 20th century were populated by students possessing not only a strong desire to learn, but also above average intelligence.\n3. Parents of student dropouts were little concerned about the lack of basic educational skills for their children since the mindset of that era primarily focused on gainful employment.\n4. As their children left the educational environment, they entered into apprenticeships.\n5. It was the way of life.\n6. As time progressed, ideas about education began to shift.\n7. A high school education became part of the American dream.\n8. Thus evolved the entitlement battlecry heard in many boardrooms.\n9. Today it has become law that everyone has a right to a public education.\n10. Of course, if everyone regardless of intellectual ability was to be educated, the educational system had to make some serious adaptations in order to succeed.\n11. Courses unrelated to the 3 “R”s emerged to meet the demand faced by public educators.\n12. Home economics, music, art, physical education, and foreign language addressed some of the needs.\n13. Classes for the handicapped as well as the gifted were instituted.\n14. Courses in driver education and childcare were initiated to ensure that safety was being taught.\n15. Assemblies were conducted to preach the dangers of drugs and alcohol.\n16. After-school clubs provided outlets in the arts, literature and drama.\n17. Moral values and citizenship needed a place in the curriculum.\n18. Breakfast and lunch were provided for the poor.\n19. Before- and after-school day care helped the “latchkey kid” syndrome.\n20. Finally, schools were required to test eyes, ears, and general health.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① Education was the way of life in the U.S. at the turn of the century.\n② General ideas on education have changed since the 20th century.\n③ At the turn of the century, parents were eager to have their children educated.\n④ Lunch was first provided to the intelligent and the gifted."
+    },
+    {
+      "number": 29,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Thermodynamics is concerned with changes in the properties of matter when we alter the external conditions.",
+        "An example of this is a gas being compressed by the motion of a piston.",
+        "The final outcome depends on how the change is made―if the piston is moved in slowly, we say that the compression is “reversible.”",
+        "This means that if we pull the piston back out, we retrace the same sequence of properties but in the reverse order; hence, the temperature of the gas will be the same when the piston has been pulled out as it was before the piston was pushed in.",
+        "However, if the piston is moved in and out quickly, then the initial state (and temperature) will not be recovered―the gas will always be hotter than it was at the beginning.",
+        "This is a manifestation, although not a statement, of the second law of thermodynamics.",
+        "It also makes a difference whether there is a transfer of heat between the cyclinder of gas and the external surroundings.",
+        "If the cylinder is insulated, then the gas will heat on compression and cool on expansion (refrigeration uses this principle).",
+        "On the other hand, if the cyclinder can exchange heat with the surroundings, it will remain at the same temperature if the compression is slow enough."
+      ],
+      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The temperature of the gas is basically independent from the speed of the piston."
+        },
+        {
+          "label": "②",
+          "text": "The gas gets hotter when the piston moves intermittently under the insulated condition."
+        },
+        {
+          "label": "③",
+          "text": "When the external surroundings are hot, the gas in the piston gets easily expanded."
+        },
+        {
+          "label": "④",
+          "text": "The rapid movement of a piston is an instance to explicate the law of thermodynamics."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Thermodynamics is concerned with changes in the properties of matter when we alter the external conditions.\n2. An example of this is a gas being compressed by the motion of a piston.\n3. The final outcome depends on how the change is made―if the piston is moved in slowly, we say that the compression is “reversible.”\n4. This means that if we pull the piston back out, we retrace the same sequence of properties but in the reverse order; hence, the temperature of the gas will be the same when the piston has been pulled out as it was before the piston was pushed in.\n5. However, if the piston is moved in and out quickly, then the initial state (and temperature) will not be recovered―the gas will always be hotter than it was at the beginning.\n6. This is a manifestation, although not a statement, of the second law of thermodynamics.\n7. It also makes a difference whether there is a transfer of heat between the cyclinder of gas and the external surroundings.\n8. If the cylinder is insulated, then the gas will heat on compression and cool on expansion (refrigeration uses this principle).\n9. On the other hand, if the cyclinder can exchange heat with the surroundings, it will remain at the same temperature if the compression is slow enough.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① The temperature of the gas is basically independent from the speed of the piston.\n② The gas gets hotter when the piston moves intermittently under the insulated condition.\n③ When the external surroundings are hot, the gas in the piston gets easily expanded.\n④ The rapid movement of a piston is an instance to explicate the law of thermodynamics."
+    },
+    {
+      "number": 30,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Languages differ from one another not only in their total number of phonemes but also in the varying proportions of phonemes devoted to vowels, consonants, stresses, tones, and so on.",
+        "Some dialects of Arabic, for example, have twenty-eight consonants but only six vowels.",
+        "(A) Most African languages are similar to Mandarin and Burmese in that they emphasize pitch and stress to much greater extent than English does.",
+        "(B) Twi has five different tones―high, middle, low, rising, and falling―and every syllable of every word is spoken in one of these tones.",
+        "(C) Indonesians say igi-igi-igi-igi to emphasize the idea of “multitudes,” and the Ewe of Africa form the reduplicated gadagadagada to express intensity, in this case the heat of a fire.",
+        "(D) Adidi, when pronounced with the last syllable in a high tone, means “meal”―but when pronounced with the second syllable high and the last syllable in middle tone, the word means “red thread.”"
+      ],
+      "question": "위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Languages differ from one another not only in their total number of phonemes but also in the varying proportions of phonemes devoted to vowels, consonants, stresses, tones, and so on.\n2. Some dialects of Arabic, for example, have twenty-eight consonants but only six vowels.\n3. (A) Most African languages are similar to Mandarin and Burmese in that they emphasize pitch and stress to much greater extent than English does.\n4. (B) Twi has five different tones―high, middle, low, rising, and falling―and every syllable of every word is spoken in one of these tones.\n5. (C) Indonesians say igi-igi-igi-igi to emphasize the idea of “multitudes,” and the Ewe of Africa form the reduplicated gadagadagada to express intensity, in this case the heat of a fire.\n6. (D) Adidi, when pronounced with the last syllable in a high tone, means “meal”―but when pronounced with the second syllable high and the last syllable in middle tone, the word means “red thread.”\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 31,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "If a primary source of opposition to action on climate change were a lack of information or a refusal to accept science, one would expect opposition to be stronger among those with less education and scientific knowledge.",
+        "(A) But this is not the case.",
+        "Studies of public opinion show that the more people know about science, the more polarized are their views on climate change.",
+        "Republicans are more skeptical than Democrats about global warming, and the partisan divide increases with education.",
+        "(B) Among Republicans with a high school education or less, 57 percent believe global warming is generally exaggerated.",
+        "Among Republicans who are college graduates, 74 percent think so.",
+        "Among Democrats, more education leads to greater concern with climate change.",
+        "Of Democrats with a high school education or less, 27 percent consider global warming exaggerated; Of Democrats with college degrees, only 15 percent think so.",
+        "(C) The same pattern holds true of beliefs about the human role in bringing about climate change.",
+        "Asked whether “global warming is caused by natural changes in the environment,” most Republicans say “yes,” and most Democrats say “no.”",
+        "But the partisan gap among college graduates is much greater than among those with less education.",
+        "More detailed studies have found that political polarization on climate change tracks not only general levels of education but also scientific knowledge.",
+        "(D) People with greater scientific knowledge, as measured by science courses taken and tests of scientific literacy, are more likely than those who know less about science to adhere to their party’s views on climate change."
+      ],
+      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. The partisan gap in climate change concern is thus almost twice as large among those with college degrees as among those with a high school education.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. If a primary source of opposition to action on climate change were a lack of information or a refusal to accept science, one would expect opposition to be stronger among those with less education and scientific knowledge.\n2. (A) But this is not the case.\n3. Studies of public opinion show that the more people know about science, the more polarized are their views on climate change.\n4. Republicans are more skeptical than Democrats about global warming, and the partisan divide increases with education.\n5. (B) Among Republicans with a high school education or less, 57 percent believe global warming is generally exaggerated.\n6. Among Republicans who are college graduates, 74 percent think so.\n7. Among Democrats, more education leads to greater concern with climate change.\n8. Of Democrats with a high school education or less, 27 percent consider global warming exaggerated; Of Democrats with college degrees, only 15 percent think so.\n9. (C) The same pattern holds true of beliefs about the human role in bringing about climate change.\n10. Asked whether “global warming is caused by natural changes in the environment,” most Republicans say “yes,” and most Democrats say “no.”\n11. But the partisan gap among college graduates is much greater than among those with less education.\n12. More detailed studies have found that political polarization on climate change tracks not only general levels of education but also scientific knowledge.\n13. (D) People with greater scientific knowledge, as measured by science courses taken and tests of scientific literacy, are more likely than those who know less about science to adhere to their party’s views on climate change.\nQUESTION:\n아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. The partisan gap in climate change concern is thus almost twice as large among those with college degrees as among those with a high school education.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 32,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "If a primary source of opposition to action on climate change were a lack of information or a refusal to accept science, one would expect opposition to be stronger among those with less education and scientific knowledge.",
+        "(A) But this is not the case.",
+        "Studies of public opinion show that the more people know about science, the more polarized are their views on climate change.",
+        "Republicans are more skeptical than Democrats about global warming, and the partisan divide increases with education.",
+        "(B) Among Republicans with a high school education or less, 57 percent believe global warming is generally exaggerated.",
+        "Among Republicans who are college graduates, 74 percent think so.",
+        "Among Democrats, more education leads to greater concern with climate change.",
+        "Of Democrats with a high school education or less, 27 percent consider global warming exaggerated; Of Democrats with college degrees, only 15 percent think so.",
+        "(C) The same pattern holds true of beliefs about the human role in bringing about climate change.",
+        "Asked whether “global warming is caused by natural changes in the environment,” most Republicans say “yes,” and most Democrats say “no.”",
+        "But the partisan gap among college graduates is much greater than among those with less education.",
+        "More detailed studies have found that political polarization on climate change tracks not only general levels of education but also scientific knowledge.",
+        "(D) People with greater scientific knowledge, as measured by science courses taken and tests of scientific literacy, are more likely than those who know less about science to adhere to their party’s views on climate change."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Most Republicans think global warming is caused by humans."
+        },
+        {
+          "label": "②",
+          "text": "Political stance is reflected in people’s view on human roles in the environment."
+        },
+        {
+          "label": "③",
+          "text": "The role of college education is crucial in choosing a political party."
+        },
+        {
+          "label": "④",
+          "text": "Scientific knowledge is more important than college education in solving political problems."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. If a primary source of opposition to action on climate change were a lack of information or a refusal to accept science, one would expect opposition to be stronger among those with less education and scientific knowledge.\n2. (A) But this is not the case.\n3. Studies of public opinion show that the more people know about science, the more polarized are their views on climate change.\n4. Republicans are more skeptical than Democrats about global warming, and the partisan divide increases with education.\n5. (B) Among Republicans with a high school education or less, 57 percent believe global warming is generally exaggerated.\n6. Among Republicans who are college graduates, 74 percent think so.\n7. Among Democrats, more education leads to greater concern with climate change.\n8. Of Democrats with a high school education or less, 27 percent consider global warming exaggerated; Of Democrats with college degrees, only 15 percent think so.\n9. (C) The same pattern holds true of beliefs about the human role in bringing about climate change.\n10. Asked whether “global warming is caused by natural changes in the environment,” most Republicans say “yes,” and most Democrats say “no.”\n11. But the partisan gap among college graduates is much greater than among those with less education.\n12. More detailed studies have found that political polarization on climate change tracks not only general levels of education but also scientific knowledge.\n13. (D) People with greater scientific knowledge, as measured by science courses taken and tests of scientific literacy, are more likely than those who know less about science to adhere to their party’s views on climate change.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Most Republicans think global warming is caused by humans.\n② Political stance is reflected in people’s view on human roles in the environment.\n③ The role of college education is crucial in choosing a political party.\n④ Scientific knowledge is more important than college education in solving political problems."
+    },
+    {
+      "number": 33,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "There is no doubt that certain people are more susceptible than others to addiction.",
+        "Whether the addiction involves drugs such as nicotine, cocaine and alcohol or activities such as shopping and gambling, the single strongest risk factor for it is genetics.",
+        "(A) Individuals who are genetically (a)________ to any type of addiction have a defective gene in the part of the brain responsible for the manufacture of dopamine, which is the neurotransmitter involved with drugs.",
+        "Various addictive drugs alter the brain’s pleasure circuit, producing a feel-good sensation.",
+        "Eating cheesecake or any other food you love activates it.",
+        "So does winning a competition, acing a test, receiving praise and other pleasurable activities.",
+        "(B) However, there’s a combination of other factors, too.",
+        "Things such as early exposure to a drug, early life emotional trauma, and certain psychiatric conditions also are contributing factors.",
+        "But the people who are at a level of increased susceptibility have an inborn defect in the part of the brain responsible for reward and the ability to comfort oneself.",
+        "(C) Addictions have been shown to be anywhere from 67 per cent to 80 per cent (b)________.",
+        "This means that children of addicts, whether they’re brought up under the roof of their parents’ home or not, almost always will have the same addiction as their genetic ancestors.",
+        "This occurs even when they have been adopted and know nothing of their parents’ addictions.",
+        "The pleasure circuit communicates in the chemical language of dopamine, and this neurotransmitter zips from neuron to neuron in the brain like a molecular happy face to produce feelings of mild happiness to euphoria.",
+        "But chronic use of these addictive drugs produces enduring changes in the brain.",
+        "The most important is a reduction in the number of dopamine receptors."
+      ],
+      "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A) → (B) → (C)"
+        },
+        {
+          "label": "②",
+          "text": "(A) → (C) → (B)"
+        },
+        {
+          "label": "③",
+          "text": "(B) → (A) → (C)"
+        },
+        {
+          "label": "④",
+          "text": "(C) → (B) → (A)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. There is no doubt that certain people are more susceptible than others to addiction.\n2. Whether the addiction involves drugs such as nicotine, cocaine and alcohol or activities such as shopping and gambling, the single strongest risk factor for it is genetics.\n3. (A) Individuals who are genetically (a)________ to any type of addiction have a defective gene in the part of the brain responsible for the manufacture of dopamine, which is the neurotransmitter involved with drugs.\n4. Various addictive drugs alter the brain’s pleasure circuit, producing a feel-good sensation.\n5. Eating cheesecake or any other food you love activates it.\n6. So does winning a competition, acing a test, receiving praise and other pleasurable activities.\n7. (B) However, there’s a combination of other factors, too.\n8. Things such as early exposure to a drug, early life emotional trauma, and certain psychiatric conditions also are contributing factors.\n9. But the people who are at a level of increased susceptibility have an inborn defect in the part of the brain responsible for reward and the ability to comfort oneself.\n10. (C) Addictions have been shown to be anywhere from 67 per cent to 80 per cent (b)________.\n11. This means that children of addicts, whether they’re brought up under the roof of their parents’ home or not, almost always will have the same addiction as their genetic ancestors.\n12. This occurs even when they have been adopted and know nothing of their parents’ addictions.\n13. The pleasure circuit communicates in the chemical language of dopamine, and this neurotransmitter zips from neuron to neuron in the brain like a molecular happy face to produce feelings of mild happiness to euphoria.\n14. But chronic use of these addictive drugs produces enduring changes in the brain.\n15. The most important is a reduction in the number of dopamine receptors.\nQUESTION:\n위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (A) → (B) → (C)\n② (A) → (C) → (B)\n③ (B) → (A) → (C)\n④ (C) → (B) → (A)"
+    },
+    {
+      "number": 34,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "There is no doubt that certain people are more susceptible than others to addiction.",
+        "Whether the addiction involves drugs such as nicotine, cocaine and alcohol or activities such as shopping and gambling, the single strongest risk factor for it is genetics.",
+        "(A) Individuals who are genetically (a)________ to any type of addiction have a defective gene in the part of the brain responsible for the manufacture of dopamine, which is the neurotransmitter involved with drugs.",
+        "Various addictive drugs alter the brain’s pleasure circuit, producing a feel-good sensation.",
+        "Eating cheesecake or any other food you love activates it.",
+        "So does winning a competition, acing a test, receiving praise and other pleasurable activities.",
+        "(B) However, there’s a combination of other factors, too.",
+        "Things such as early exposure to a drug, early life emotional trauma, and certain psychiatric conditions also are contributing factors.",
+        "But the people who are at a level of increased susceptibility have an inborn defect in the part of the brain responsible for reward and the ability to comfort oneself.",
+        "(C) Addictions have been shown to be anywhere from 67 per cent to 80 per cent (b)________.",
+        "This means that children of addicts, whether they’re brought up under the roof of their parents’ home or not, almost always will have the same addiction as their genetic ancestors.",
+        "This occurs even when they have been adopted and know nothing of their parents’ addictions.",
+        "The pleasure circuit communicates in the chemical language of dopamine, and this neurotransmitter zips from neuron to neuron in the brain like a molecular happy face to produce feelings of mild happiness to euphoria.",
+        "But chronic use of these addictive drugs produces enduring changes in the brain.",
+        "The most important is a reduction in the number of dopamine receptors."
+      ],
+      "question": "빈 칸 (a)와 (b)에 들어가기에 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(a) liable ― (b) chronic"
+        },
+        {
+          "label": "②",
+          "text": "(a) pertained ― (b) transient"
+        },
+        {
+          "label": "③",
+          "text": "(a) impervious ― (b) psychiatric"
+        },
+        {
+          "label": "④",
+          "text": "(a) predisposed ― (b) hereditary"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. There is no doubt that certain people are more susceptible than others to addiction.\n2. Whether the addiction involves drugs such as nicotine, cocaine and alcohol or activities such as shopping and gambling, the single strongest risk factor for it is genetics.\n3. (A) Individuals who are genetically (a)________ to any type of addiction have a defective gene in the part of the brain responsible for the manufacture of dopamine, which is the neurotransmitter involved with drugs.\n4. Various addictive drugs alter the brain’s pleasure circuit, producing a feel-good sensation.\n5. Eating cheesecake or any other food you love activates it.\n6. So does winning a competition, acing a test, receiving praise and other pleasurable activities.\n7. (B) However, there’s a combination of other factors, too.\n8. Things such as early exposure to a drug, early life emotional trauma, and certain psychiatric conditions also are contributing factors.\n9. But the people who are at a level of increased susceptibility have an inborn defect in the part of the brain responsible for reward and the ability to comfort oneself.\n10. (C) Addictions have been shown to be anywhere from 67 per cent to 80 per cent (b)________.\n11. This means that children of addicts, whether they’re brought up under the roof of their parents’ home or not, almost always will have the same addiction as their genetic ancestors.\n12. This occurs even when they have been adopted and know nothing of their parents’ addictions.\n13. The pleasure circuit communicates in the chemical language of dopamine, and this neurotransmitter zips from neuron to neuron in the brain like a molecular happy face to produce feelings of mild happiness to euphoria.\n14. But chronic use of these addictive drugs produces enduring changes in the brain.\n15. The most important is a reduction in the number of dopamine receptors.\nQUESTION:\n빈 칸 (a)와 (b)에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① (a) liable ― (b) chronic\n② (a) pertained ― (b) transient\n③ (a) impervious ― (b) psychiatric\n④ (a) predisposed ― (b) hereditary"
+    },
+    {
+      "number": 35,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "The transition to a labor market of independent professionals has social and cultural implications.",
+        "In much of the world, work is a major source of identity, so when work changes, identity changes.",
+        "Rather than forging a common bond with coworkers in a mix of jobs around the proverbial water cooler, freelancers build geographically dispersed networks with other self-employed professionals with similar skill sets.",
+        "Furthermore, in the twenty-first century the workplace has become a primary site of social connections and thus an important thread in the fabric of social cohesion, but instead of going to an office for a large portion of the day where they assume their workday persona, the new entrepreneurs work at home―even in bed, where they tap out messages to clients on their smartphone while wearing pajamas.",
+        "And (A) instead of relying on company benefits packages when working or government-administered unemployment payments when not working, these workers attempt to provide for themselves in (B) search of the vicissitudes of life.",
+        "Not partaking in any communal safety net, they argue that in an era when layoffs are commonplace, being self-employed is (C) little more precarious than working for an employer.",
+        "The cumulative result of these changes may be, on the one hand, an integration of personal and work life not seen since the Industrial Revolution moved people from farms into factories and, on the other hand, the atomization of society as individual contributors of labor rent themselves out impermanently to companies around the globe without meeting their coworkers face-to-face.",
+        "Contributing further to social disruption is the bifurcation of the labor market into the independent self-employed and those still dependent on traditional jobs.",
+        "It remains to be seen whether this new generation of professionals will (D) appreciate the degree of vulnerability that accompanies their freedom and reach out to find common cause with employees who still draw a steady paycheck, working together to address issues of security and dignity in the workplace."
+      ],
+      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. The transition to a labor market of independent professionals has social and cultural implications.\n2. In much of the world, work is a major source of identity, so when work changes, identity changes.\n3. Rather than forging a common bond with coworkers in a mix of jobs around the proverbial water cooler, freelancers build geographically dispersed networks with other self-employed professionals with similar skill sets.\n4. Furthermore, in the twenty-first century the workplace has become a primary site of social connections and thus an important thread in the fabric of social cohesion, but instead of going to an office for a large portion of the day where they assume their workday persona, the new entrepreneurs work at home―even in bed, where they tap out messages to clients on their smartphone while wearing pajamas.\n5. And (A) instead of relying on company benefits packages when working or government-administered unemployment payments when not working, these workers attempt to provide for themselves in (B) search of the vicissitudes of life.\n6. Not partaking in any communal safety net, they argue that in an era when layoffs are commonplace, being self-employed is (C) little more precarious than working for an employer.\n7. The cumulative result of these changes may be, on the one hand, an integration of personal and work life not seen since the Industrial Revolution moved people from farms into factories and, on the other hand, the atomization of society as individual contributors of labor rent themselves out impermanently to companies around the globe without meeting their coworkers face-to-face.\n8. Contributing further to social disruption is the bifurcation of the labor market into the independent self-employed and those still dependent on traditional jobs.\n9. It remains to be seen whether this new generation of professionals will (D) appreciate the degree of vulnerability that accompanies their freedom and reach out to find common cause with employees who still draw a steady paycheck, working together to address issues of security and dignity in the workplace.\nQUESTION:\n위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 36,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "The transition to a labor market of independent professionals has social and cultural implications.",
+        "In much of the world, work is a major source of identity, so when work changes, identity changes.",
+        "Rather than forging a common bond with coworkers in a mix of jobs around the proverbial water cooler, freelancers build geographically dispersed networks with other self-employed professionals with similar skill sets.",
+        "Furthermore, in the twenty-first century the workplace has become a primary site of social connections and thus an important thread in the fabric of social cohesion, but instead of going to an office for a large portion of the day where they assume their workday persona, the new entrepreneurs work at home―even in bed, where they tap out messages to clients on their smartphone while wearing pajamas.",
+        "And (A) instead of relying on company benefits packages when working or government-administered unemployment payments when not working, these workers attempt to provide for themselves in (B) search of the vicissitudes of life.",
+        "Not partaking in any communal safety net, they argue that in an era when layoffs are commonplace, being self-employed is (C) little more precarious than working for an employer.",
+        "The cumulative result of these changes may be, on the one hand, an integration of personal and work life not seen since the Industrial Revolution moved people from farms into factories and, on the other hand, the atomization of society as individual contributors of labor rent themselves out impermanently to companies around the globe without meeting their coworkers face-to-face.",
+        "Contributing further to social disruption is the bifurcation of the labor market into the independent self-employed and those still dependent on traditional jobs.",
+        "It remains to be seen whether this new generation of professionals will (D) appreciate the degree of vulnerability that accompanies their freedom and reach out to find common cause with employees who still draw a steady paycheck, working together to address issues of security and dignity in the workplace."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Independent professionals do not find it difficult to access social connections."
+        },
+        {
+          "label": "②",
+          "text": "Personal life and work life began to be integrated recently among the independent professionals."
+        },
+        {
+          "label": "③",
+          "text": "The new generation of professionals are reluctant to collaborate with workers from the traditional workplace."
+        },
+        {
+          "label": "④",
+          "text": "Employees in the traditional workplace are seeking identity and solidarity with those who are geographically dispersed."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. The transition to a labor market of independent professionals has social and cultural implications.\n2. In much of the world, work is a major source of identity, so when work changes, identity changes.\n3. Rather than forging a common bond with coworkers in a mix of jobs around the proverbial water cooler, freelancers build geographically dispersed networks with other self-employed professionals with similar skill sets.\n4. Furthermore, in the twenty-first century the workplace has become a primary site of social connections and thus an important thread in the fabric of social cohesion, but instead of going to an office for a large portion of the day where they assume their workday persona, the new entrepreneurs work at home―even in bed, where they tap out messages to clients on their smartphone while wearing pajamas.\n5. And (A) instead of relying on company benefits packages when working or government-administered unemployment payments when not working, these workers attempt to provide for themselves in (B) search of the vicissitudes of life.\n6. Not partaking in any communal safety net, they argue that in an era when layoffs are commonplace, being self-employed is (C) little more precarious than working for an employer.\n7. The cumulative result of these changes may be, on the one hand, an integration of personal and work life not seen since the Industrial Revolution moved people from farms into factories and, on the other hand, the atomization of society as individual contributors of labor rent themselves out impermanently to companies around the globe without meeting their coworkers face-to-face.\n8. Contributing further to social disruption is the bifurcation of the labor market into the independent self-employed and those still dependent on traditional jobs.\n9. It remains to be seen whether this new generation of professionals will (D) appreciate the degree of vulnerability that accompanies their freedom and reach out to find common cause with employees who still draw a steady paycheck, working together to address issues of security and dignity in the workplace.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Independent professionals do not find it difficult to access social connections.\n② Personal life and work life began to be integrated recently among the independent professionals.\n③ The new generation of professionals are reluctant to collaborate with workers from the traditional workplace.\n④ Employees in the traditional workplace are seeking identity and solidarity with those who are geographically dispersed."
+    },
+    {
+      "number": 37,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Human evolution is at work in the Andes mountains.",
+        "The Quechua, an indigenous people in Peru who have lived at altitudes above 2,500 meters for at least the past 11,000 years, have evolved genetic adaptations to survive their harsh environment.",
+        "A new study finds these extreme conditions can change chemical modifications that control the activity of that DNA.",
+        "These “epigenetic” alterations are the first evidence that growing up in the mountains can alter not just genes, but how the body uses them.",
+        "Scientists have long wondered whether environmental stress, like low oxygen concentrations, can shape gene activity in highland people, says anthropologist Cynthia Beall who studies high altitude adaptations in Tibet.",
+        "This “pioneering” research shows it is not only possible, says Beall, who was not involved with the study, but likely that epigenetic changes are involved.",
+        "Your environment can cause chemical modifications to your DNA that turn genes on or off, or lower or raise the activity of certain genes.",
+        "The strategy allows people to adapt to their surroundings much more rapidly than pure genetics allows.",
+        "Still, it’s unclear what role epigenetics plays in helping people adapt to a life at high altitude.",
+        "So in the new study, a team of international researchers from Peru, Germany, and the United States looked at an epigenetic process called methylation, in which cells add chemical tags called methyl groups to DNA.",
+        "The team studied three groups: Quechua who were born and raised above 3,000 meters, Quechua who were born at high altitudes but moved to sea level when they were young, and Quechua whose families moved to sea level before they were born.",
+        "(A) Genes involved with creating red blood cells and building endurance muscle were more methylated in Quechua who were born and spent most of their early life at high altitudes, regardless of whether they moved to lower altitudes later in life.",
+        "(B) The data revealed significant differences in the methylation patterns among the groups, the team reported last month in Genome Biology and Evolution.",
+        "(C) These epigenetic modifications were probably cemented into the DNA of Quechua because they were exposed to low oxygen conditions before birth and during childhood.",
+        "But other methylated regions, including around one gene involved in the breakdown of sugar, were exclusive to the group born and raised at high elevation, the team found.",
+        "This suggests such changes only arise when Quechua are constantly exposed to high altitude.",
+        "The scientists were not able to ascertain whether any of the epigenetic modifications they saw changed the activity of the genes.",
+        "But they did find that many of the changes were irreversible, meaning the methylation of DNA in Quechua who moved to lower altitudes as adults continued to act as though they were at high altitude.",
+        "“I think it’s exciting that we found anything at all,” says Ainash Childebayeva, a postdoctoral researcher at the Max Planck Institute for the Science of Human History.",
+        "The findings, she says, lend more evidence to the idea that humans can evolve to challenging conditions much more rapidly than previously thought.",
+        "Childebayeva hopes her work will inspire others to investigate these questions in highland people around the world.",
+        "One scientist, at least, is considering it.",
+        "The study, Beall says, “makes me want to talk with the person who does my DNA analyses and see if we should look at methylation.”"
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "How Do Genetic Adaptations Occur to the People at High Altitudes?"
+        },
+        {
+          "label": "②",
+          "text": "How Do Epigenetic Alterations Influence Social Life?"
+        },
+        {
+          "label": "③",
+          "text": "How Can Human Beings Overcome Genetic Modification?"
+        },
+        {
+          "label": "④",
+          "text": "How Can Methylation Patterns Amplify Environmental Stress?"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Human evolution is at work in the Andes mountains.\n2. The Quechua, an indigenous people in Peru who have lived at altitudes above 2,500 meters for at least the past 11,000 years, have evolved genetic adaptations to survive their harsh environment.\n3. A new study finds these extreme conditions can change chemical modifications that control the activity of that DNA.\n4. These “epigenetic” alterations are the first evidence that growing up in the mountains can alter not just genes, but how the body uses them.\n5. Scientists have long wondered whether environmental stress, like low oxygen concentrations, can shape gene activity in highland people, says anthropologist Cynthia Beall who studies high altitude adaptations in Tibet.\n6. This “pioneering” research shows it is not only possible, says Beall, who was not involved with the study, but likely that epigenetic changes are involved.\n7. Your environment can cause chemical modifications to your DNA that turn genes on or off, or lower or raise the activity of certain genes.\n8. The strategy allows people to adapt to their surroundings much more rapidly than pure genetics allows.\n9. Still, it’s unclear what role epigenetics plays in helping people adapt to a life at high altitude.\n10. So in the new study, a team of international researchers from Peru, Germany, and the United States looked at an epigenetic process called methylation, in which cells add chemical tags called methyl groups to DNA.\n11. The team studied three groups: Quechua who were born and raised above 3,000 meters, Quechua who were born at high altitudes but moved to sea level when they were young, and Quechua whose families moved to sea level before they were born.\n12. (A) Genes involved with creating red blood cells and building endurance muscle were more methylated in Quechua who were born and spent most of their early life at high altitudes, regardless of whether they moved to lower altitudes later in life.\n13. (B) The data revealed significant differences in the methylation patterns among the groups, the team reported last month in Genome Biology and Evolution.\n14. (C) These epigenetic modifications were probably cemented into the DNA of Quechua because they were exposed to low oxygen conditions before birth and during childhood.\n15. But other methylated regions, including around one gene involved in the breakdown of sugar, were exclusive to the group born and raised at high elevation, the team found.\n16. This suggests such changes only arise when Quechua are constantly exposed to high altitude.\n17. The scientists were not able to ascertain whether any of the epigenetic modifications they saw changed the activity of the genes.\n18. But they did find that many of the changes were irreversible, meaning the methylation of DNA in Quechua who moved to lower altitudes as adults continued to act as though they were at high altitude.\n19. “I think it’s exciting that we found anything at all,” says Ainash Childebayeva, a postdoctoral researcher at the Max Planck Institute for the Science of Human History.\n20. The findings, she says, lend more evidence to the idea that humans can evolve to challenging conditions much more rapidly than previously thought.\n21. Childebayeva hopes her work will inspire others to investigate these questions in highland people around the world.\n22. One scientist, at least, is considering it.\n23. The study, Beall says, “makes me want to talk with the person who does my DNA analyses and see if we should look at methylation.”\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① How Do Genetic Adaptations Occur to the People at High Altitudes?\n② How Do Epigenetic Alterations Influence Social Life?\n③ How Can Human Beings Overcome Genetic Modification?\n④ How Can Methylation Patterns Amplify Environmental Stress?"
+    },
+    {
+      "number": 38,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Human evolution is at work in the Andes mountains.",
+        "The Quechua, an indigenous people in Peru who have lived at altitudes above 2,500 meters for at least the past 11,000 years, have evolved genetic adaptations to survive their harsh environment.",
+        "A new study finds these extreme conditions can change chemical modifications that control the activity of that DNA.",
+        "These “epigenetic” alterations are the first evidence that growing up in the mountains can alter not just genes, but how the body uses them.",
+        "Scientists have long wondered whether environmental stress, like low oxygen concentrations, can shape gene activity in highland people, says anthropologist Cynthia Beall who studies high altitude adaptations in Tibet.",
+        "This “pioneering” research shows it is not only possible, says Beall, who was not involved with the study, but likely that epigenetic changes are involved.",
+        "Your environment can cause chemical modifications to your DNA that turn genes on or off, or lower or raise the activity of certain genes.",
+        "The strategy allows people to adapt to their surroundings much more rapidly than pure genetics allows.",
+        "Still, it’s unclear what role epigenetics plays in helping people adapt to a life at high altitude.",
+        "So in the new study, a team of international researchers from Peru, Germany, and the United States looked at an epigenetic process called methylation, in which cells add chemical tags called methyl groups to DNA.",
+        "The team studied three groups: Quechua who were born and raised above 3,000 meters, Quechua who were born at high altitudes but moved to sea level when they were young, and Quechua whose families moved to sea level before they were born.",
+        "(A) Genes involved with creating red blood cells and building endurance muscle were more methylated in Quechua who were born and spent most of their early life at high altitudes, regardless of whether they moved to lower altitudes later in life.",
+        "(B) The data revealed significant differences in the methylation patterns among the groups, the team reported last month in Genome Biology and Evolution.",
+        "(C) These epigenetic modifications were probably cemented into the DNA of Quechua because they were exposed to low oxygen conditions before birth and during childhood.",
+        "But other methylated regions, including around one gene involved in the breakdown of sugar, were exclusive to the group born and raised at high elevation, the team found.",
+        "This suggests such changes only arise when Quechua are constantly exposed to high altitude.",
+        "The scientists were not able to ascertain whether any of the epigenetic modifications they saw changed the activity of the genes.",
+        "But they did find that many of the changes were irreversible, meaning the methylation of DNA in Quechua who moved to lower altitudes as adults continued to act as though they were at high altitude.",
+        "“I think it’s exciting that we found anything at all,” says Ainash Childebayeva, a postdoctoral researcher at the Max Planck Institute for the Science of Human History.",
+        "The findings, she says, lend more evidence to the idea that humans can evolve to challenging conditions much more rapidly than previously thought.",
+        "Childebayeva hopes her work will inspire others to investigate these questions in highland people around the world.",
+        "One scientist, at least, is considering it.",
+        "The study, Beall says, “makes me want to talk with the person who does my DNA analyses and see if we should look at methylation.”"
+      ],
+      "question": "위 글의 문장을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(B) → (A) → (C)"
+        },
+        {
+          "label": "②",
+          "text": "(B) → (C) → (A)"
+        },
+        {
+          "label": "③",
+          "text": "(C) → (A) → (B)"
+        },
+        {
+          "label": "④",
+          "text": "(C) → (B) → (A)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Human evolution is at work in the Andes mountains.\n2. The Quechua, an indigenous people in Peru who have lived at altitudes above 2,500 meters for at least the past 11,000 years, have evolved genetic adaptations to survive their harsh environment.\n3. A new study finds these extreme conditions can change chemical modifications that control the activity of that DNA.\n4. These “epigenetic” alterations are the first evidence that growing up in the mountains can alter not just genes, but how the body uses them.\n5. Scientists have long wondered whether environmental stress, like low oxygen concentrations, can shape gene activity in highland people, says anthropologist Cynthia Beall who studies high altitude adaptations in Tibet.\n6. This “pioneering” research shows it is not only possible, says Beall, who was not involved with the study, but likely that epigenetic changes are involved.\n7. Your environment can cause chemical modifications to your DNA that turn genes on or off, or lower or raise the activity of certain genes.\n8. The strategy allows people to adapt to their surroundings much more rapidly than pure genetics allows.\n9. Still, it’s unclear what role epigenetics plays in helping people adapt to a life at high altitude.\n10. So in the new study, a team of international researchers from Peru, Germany, and the United States looked at an epigenetic process called methylation, in which cells add chemical tags called methyl groups to DNA.\n11. The team studied three groups: Quechua who were born and raised above 3,000 meters, Quechua who were born at high altitudes but moved to sea level when they were young, and Quechua whose families moved to sea level before they were born.\n12. (A) Genes involved with creating red blood cells and building endurance muscle were more methylated in Quechua who were born and spent most of their early life at high altitudes, regardless of whether they moved to lower altitudes later in life.\n13. (B) The data revealed significant differences in the methylation patterns among the groups, the team reported last month in Genome Biology and Evolution.\n14. (C) These epigenetic modifications were probably cemented into the DNA of Quechua because they were exposed to low oxygen conditions before birth and during childhood.\n15. But other methylated regions, including around one gene involved in the breakdown of sugar, were exclusive to the group born and raised at high elevation, the team found.\n16. This suggests such changes only arise when Quechua are constantly exposed to high altitude.\n17. The scientists were not able to ascertain whether any of the epigenetic modifications they saw changed the activity of the genes.\n18. But they did find that many of the changes were irreversible, meaning the methylation of DNA in Quechua who moved to lower altitudes as adults continued to act as though they were at high altitude.\n19. “I think it’s exciting that we found anything at all,” says Ainash Childebayeva, a postdoctoral researcher at the Max Planck Institute for the Science of Human History.\n20. The findings, she says, lend more evidence to the idea that humans can evolve to challenging conditions much more rapidly than previously thought.\n21. Childebayeva hopes her work will inspire others to investigate these questions in highland people around the world.\n22. One scientist, at least, is considering it.\n23. The study, Beall says, “makes me want to talk with the person who does my DNA analyses and see if we should look at methylation.”\nQUESTION:\n위 글의 문장을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (B) → (A) → (C)\n② (B) → (C) → (A)\n③ (C) → (A) → (B)\n④ (C) → (B) → (A)"
+    },
+    {
+      "number": 39,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Objectivity hinges on separating independently verifiable facts from subjective values.",
+        "The concept is associated with the Enlightenment project of rationality and the pursuit of scientific knowledge.",
+        "Such grand thinking has been challenged in recent years, with some postmodernist theorists dismissing as naive empiricism the idea that there is a truth that exists “out there” in the world, independent of discourse, just waiting to be discovered.",
+        "A commitment to objectivity in journalism can be defined as meaning that a person’s statements about the world can be trusted if they are submitted to established rules deemed legitimate by a professional community.",
+        "Michael Schudson further explains that the objectivity norm guides journalists to separate facts from value and to report only the facts.",
+        "According to the objectivity norm, the journalist’s job consists of reporting something called news without commenting on it, slanting it, or shaping its formulation in any way.",
+        "But journalism was not always expected to be objective, and the above norm was not a constituent part of those 18th-century publications such as the Craftsman and the Gentleman’s Magazine that helped establish the press as a genuinely critical organ of a public engaged in critical political debate.",
+        "Before the 1830s newspapers were expected to be partisan and objectivity was not an issue.",
+        "The emergence of the US “penny press”, with many papers being politically neutral or indifferent, brought a new range of news values privileging factual coverage of human interest stories over analysis or opinion.",
+        "The gradual adoption of objectivity as a normative standard of news reporting may have been encouraged by the development of wire services such as Associated Press (AP) from 1848.",
+        "AP had a market imperative to concentrate on the bare facts, compressed into the intro, so that it could sell the same stories to newspapers with widely divergent politics.",
+        "This strategy of unadorned reportage helped AP staff overcome the unreliable nature of the new technology and placed a premium on brevity.",
+        "But Schudson says the journalist’s commitment to separating facts from values may have had more to do with the rising status of reporters in relation to their employers in the late 18th and early 20th centuries, and with a professional debate about objectivity in the years after the First World War.",
+        "Therefore, a self-conscious, articulate ideology of objectivity can be dated to the 1920s.",
+        "In the UK, the move towards a less partisan style of reporting gathered momentum only during the early part of the 20th century, culminating in the imposition of a statutory obligation to be impartial on the fledgling broadcasting industry."
+      ],
+      "question": "위 글의 주제로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The historical progression of objectivity in journalism"
+        },
+        {
+          "label": "②",
+          "text": "The birth of wire services as the beginning of objective journalism"
+        },
+        {
+          "label": "③",
+          "text": "The importance of separating facts from subjective values"
+        },
+        {
+          "label": "④",
+          "text": "The norm of objectivity as a means of attracting wider readers"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Objectivity hinges on separating independently verifiable facts from subjective values.\n2. The concept is associated with the Enlightenment project of rationality and the pursuit of scientific knowledge.\n3. Such grand thinking has been challenged in recent years, with some postmodernist theorists dismissing as naive empiricism the idea that there is a truth that exists “out there” in the world, independent of discourse, just waiting to be discovered.\n4. A commitment to objectivity in journalism can be defined as meaning that a person’s statements about the world can be trusted if they are submitted to established rules deemed legitimate by a professional community.\n5. Michael Schudson further explains that the objectivity norm guides journalists to separate facts from value and to report only the facts.\n6. According to the objectivity norm, the journalist’s job consists of reporting something called news without commenting on it, slanting it, or shaping its formulation in any way.\n7. But journalism was not always expected to be objective, and the above norm was not a constituent part of those 18th-century publications such as the Craftsman and the Gentleman’s Magazine that helped establish the press as a genuinely critical organ of a public engaged in critical political debate.\n8. Before the 1830s newspapers were expected to be partisan and objectivity was not an issue.\n9. The emergence of the US “penny press”, with many papers being politically neutral or indifferent, brought a new range of news values privileging factual coverage of human interest stories over analysis or opinion.\n10. The gradual adoption of objectivity as a normative standard of news reporting may have been encouraged by the development of wire services such as Associated Press (AP) from 1848.\n11. AP had a market imperative to concentrate on the bare facts, compressed into the intro, so that it could sell the same stories to newspapers with widely divergent politics.\n12. This strategy of unadorned reportage helped AP staff overcome the unreliable nature of the new technology and placed a premium on brevity.\n13. But Schudson says the journalist’s commitment to separating facts from values may have had more to do with the rising status of reporters in relation to their employers in the late 18th and early 20th centuries, and with a professional debate about objectivity in the years after the First World War.\n14. Therefore, a self-conscious, articulate ideology of objectivity can be dated to the 1920s.\n15. In the UK, the move towards a less partisan style of reporting gathered momentum only during the early part of the 20th century, culminating in the imposition of a statutory obligation to be impartial on the fledgling broadcasting industry.\nQUESTION:\n위 글의 주제로 가장 적합한 것을 고르시오.\nCHOICES:\n① The historical progression of objectivity in journalism\n② The birth of wire services as the beginning of objective journalism\n③ The importance of separating facts from subjective values\n④ The norm of objectivity as a means of attracting wider readers"
+    },
+    {
+      "number": 40,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Objectivity hinges on separating independently verifiable facts from subjective values.",
+        "The concept is associated with the Enlightenment project of rationality and the pursuit of scientific knowledge.",
+        "Such grand thinking has been challenged in recent years, with some postmodernist theorists dismissing as naive empiricism the idea that there is a truth that exists “out there” in the world, independent of discourse, just waiting to be discovered.",
+        "A commitment to objectivity in journalism can be defined as meaning that a person’s statements about the world can be trusted if they are submitted to established rules deemed legitimate by a professional community.",
+        "Michael Schudson further explains that the objectivity norm guides journalists to separate facts from value and to report only the facts.",
+        "According to the objectivity norm, the journalist’s job consists of reporting something called news without commenting on it, slanting it, or shaping its formulation in any way.",
+        "But journalism was not always expected to be objective, and the above norm was not a constituent part of those 18th-century publications such as the Craftsman and the Gentleman’s Magazine that helped establish the press as a genuinely critical organ of a public engaged in critical political debate.",
+        "Before the 1830s newspapers were expected to be partisan and objectivity was not an issue.",
+        "The emergence of the US “penny press”, with many papers being politically neutral or indifferent, brought a new range of news values privileging factual coverage of human interest stories over analysis or opinion.",
+        "The gradual adoption of objectivity as a normative standard of news reporting may have been encouraged by the development of wire services such as Associated Press (AP) from 1848.",
+        "AP had a market imperative to concentrate on the bare facts, compressed into the intro, so that it could sell the same stories to newspapers with widely divergent politics.",
+        "This strategy of unadorned reportage helped AP staff overcome the unreliable nature of the new technology and placed a premium on brevity.",
+        "But Schudson says the journalist’s commitment to separating facts from values may have had more to do with the rising status of reporters in relation to their employers in the late 18th and early 20th centuries, and with a professional debate about objectivity in the years after the First World War.",
+        "Therefore, a self-conscious, articulate ideology of objectivity can be dated to the 1920s.",
+        "In the UK, the move towards a less partisan style of reporting gathered momentum only during the early part of the 20th century, culminating in the imposition of a statutory obligation to be impartial on the fledgling broadcasting industry."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Theorists who support rationality held the idea that truth is dependent on discourse."
+        },
+        {
+          "label": "②",
+          "text": "In the early 19th century, newspapers kept neutral stances on a social issue."
+        },
+        {
+          "label": "③",
+          "text": "The advent of wire services encouraged news reporting to accept objectivity as a norm."
+        },
+        {
+          "label": "④",
+          "text": "Journalists should accept that the subjective value can be embedded into the facts."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Objectivity hinges on separating independently verifiable facts from subjective values.\n2. The concept is associated with the Enlightenment project of rationality and the pursuit of scientific knowledge.\n3. Such grand thinking has been challenged in recent years, with some postmodernist theorists dismissing as naive empiricism the idea that there is a truth that exists “out there” in the world, independent of discourse, just waiting to be discovered.\n4. A commitment to objectivity in journalism can be defined as meaning that a person’s statements about the world can be trusted if they are submitted to established rules deemed legitimate by a professional community.\n5. Michael Schudson further explains that the objectivity norm guides journalists to separate facts from value and to report only the facts.\n6. According to the objectivity norm, the journalist’s job consists of reporting something called news without commenting on it, slanting it, or shaping its formulation in any way.\n7. But journalism was not always expected to be objective, and the above norm was not a constituent part of those 18th-century publications such as the Craftsman and the Gentleman’s Magazine that helped establish the press as a genuinely critical organ of a public engaged in critical political debate.\n8. Before the 1830s newspapers were expected to be partisan and objectivity was not an issue.\n9. The emergence of the US “penny press”, with many papers being politically neutral or indifferent, brought a new range of news values privileging factual coverage of human interest stories over analysis or opinion.\n10. The gradual adoption of objectivity as a normative standard of news reporting may have been encouraged by the development of wire services such as Associated Press (AP) from 1848.\n11. AP had a market imperative to concentrate on the bare facts, compressed into the intro, so that it could sell the same stories to newspapers with widely divergent politics.\n12. This strategy of unadorned reportage helped AP staff overcome the unreliable nature of the new technology and placed a premium on brevity.\n13. But Schudson says the journalist’s commitment to separating facts from values may have had more to do with the rising status of reporters in relation to their employers in the late 18th and early 20th centuries, and with a professional debate about objectivity in the years after the First World War.\n14. Therefore, a self-conscious, articulate ideology of objectivity can be dated to the 1920s.\n15. In the UK, the move towards a less partisan style of reporting gathered momentum only during the early part of the 20th century, culminating in the imposition of a statutory obligation to be impartial on the fledgling broadcasting industry.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Theorists who support rationality held the idea that truth is dependent on discourse.\n② In the early 19th century, newspapers kept neutral stances on a social issue.\n③ The advent of wire services encouraged news reporting to accept objectivity as a norm.\n④ Journalists should accept that the subjective value can be embedded into the facts."
+    }
+  ]
+}

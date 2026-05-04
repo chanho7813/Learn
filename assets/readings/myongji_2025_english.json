@@ -1,0 +1,998 @@
+{
+  "institution": "myongji",
+  "institution_ko": "명지대",
+  "year": 2025,
+  "exam_kind": "english",
+  "source_text_file": "myongji_2025_english_extracted_complete.txt",
+  "question_count": 30,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "Choose the one that has the closest meaning to the underlined word.",
+      "passage_sentences": [
+        "The turbulent waters caused one of his oars to crack, which—without a motor or a sail—can be severely detrimental to his voyage."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "violent"
+        },
+        {
+          "label": "②",
+          "text": "instrumental"
+        },
+        {
+          "label": "③",
+          "text": "exhausting"
+        },
+        {
+          "label": "④",
+          "text": "disadvantageous"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that has the closest meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. The turbulent waters caused one of his oars to crack, which—without a motor or a sail—can be severely detrimental to his voyage.\nCHOICES:\n① violent\n② instrumental\n③ exhausting\n④ disadvantageous"
+    },
+    {
+      "number": 2,
+      "instruction": "Choose the one that has the closest meaning to the underlined word.",
+      "passage_sentences": [
+        "The decision brings the military more in line with its veterans who have seen combat and found nothing sublime in war."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "glorious"
+        },
+        {
+          "label": "②",
+          "text": "prosperous"
+        },
+        {
+          "label": "③",
+          "text": "conventional"
+        },
+        {
+          "label": "④",
+          "text": "humanitarian"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that has the closest meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. The decision brings the military more in line with its veterans who have seen combat and found nothing sublime in war.\nCHOICES:\n① glorious\n② prosperous\n③ conventional\n④ humanitarian"
+    },
+    {
+      "number": 3,
+      "instruction": "Choose the one that has the closest meaning to the underlined word.",
+      "passage_sentences": [
+        "Her writing style as a lower-court judge was explanatory, and with little rhetorical embellishment."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "illustration"
+        },
+        {
+          "label": "②",
+          "text": "adornment"
+        },
+        {
+          "label": "③",
+          "text": "manipulation"
+        },
+        {
+          "label": "④",
+          "text": "complication"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that has the closest meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. Her writing style as a lower-court judge was explanatory, and with little rhetorical embellishment.\nCHOICES:\n① illustration\n② adornment\n③ manipulation\n④ complication"
+    },
+    {
+      "number": 4,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "The fighters for India's independence were being imprisoned by the British for acting under the inspirations of ideals to which, ironically, the British themselves officially __________ and which they took seriously for their own benefit, at home."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "assessed"
+        },
+        {
+          "label": "②",
+          "text": "banned"
+        },
+        {
+          "label": "③",
+          "text": "subscribed"
+        },
+        {
+          "label": "④",
+          "text": "hypothesized"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The fighters for India's independence were being imprisoned by the British for acting under the inspirations of ideals to which, ironically, the British themselves officially __________ and which they took seriously for their own benefit, at home.\nCHOICES:\n① assessed\n② banned\n③ subscribed\n④ hypothesized"
+    },
+    {
+      "number": 5,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "At the age of twelve years, the human body is at its most vigorous.",
+        "It has yet to reach its full size and strength, and its owner his or her full intelligence; but at this age the likelihood of death is __________."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "plain"
+        },
+        {
+          "label": "②",
+          "text": "least"
+        },
+        {
+          "label": "③",
+          "text": "predicted"
+        },
+        {
+          "label": "④",
+          "text": "undetermined"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. At the age of twelve years, the human body is at its most vigorous.\n2. It has yet to reach its full size and strength, and its owner his or her full intelligence; but at this age the likelihood of death is __________.\nCHOICES:\n① plain\n② least\n③ predicted\n④ undetermined"
+    },
+    {
+      "number": 6,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "Every book has a skeleton hidden between its covers.",
+        "Your job is to find it.",
+        "A book comes to you with flesh on its bare bones and clothes over its flesh.",
+        "It is all dressed up.",
+        "I am not asking you to be impolite or cruel.",
+        "You do not have to undress it or tear flesh off its limbs to get the firm structure that underlie the soft.",
+        "But you must read the book with X-ray eyes, for it is an essential part of your first apprehension of any book to grasp its structure."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "hidden between its covers"
+        },
+        {
+          "label": "②",
+          "text": "to undress it or tear flesh"
+        },
+        {
+          "label": "③",
+          "text": "underlie the soft"
+        },
+        {
+          "label": "④",
+          "text": "to grasp its structure"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Every book has a skeleton hidden between its covers.\n2. Your job is to find it.\n3. A book comes to you with flesh on its bare bones and clothes over its flesh.\n4. It is all dressed up.\n5. I am not asking you to be impolite or cruel.\n6. You do not have to undress it or tear flesh off its limbs to get the firm structure that underlie the soft.\n7. But you must read the book with X-ray eyes, for it is an essential part of your first apprehension of any book to grasp its structure.\nCHOICES:\n① hidden between its covers\n② to undress it or tear flesh\n③ underlie the soft\n④ to grasp its structure"
+    },
+    {
+      "number": 7,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "In his library at Monticello, Jefferson made hundreds of architectural drawings, all of which have been preserved.",
+        "He must have had a great gift of concentration and a real love for his subject to be able to work in a room with such an outlook.",
+        "And what energy he had for this precise and exquisite work was also devoted to riding over his estate, working in his garden, and carry out correspondence with everyone from the Marquis de Lafayette to his youngest grandchild.",
+        "\"Something pursued with ardor\" was Jefferson's prescription for life, and he got the last ounce of excitement and interest out of everything that came to his notice."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "all of which have been preserved"
+        },
+        {
+          "label": "②",
+          "text": "what energy he had for this"
+        },
+        {
+          "label": "③",
+          "text": "carry out correspondence with everyone from"
+        },
+        {
+          "label": "④",
+          "text": "interest out of everything that came"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. In his library at Monticello, Jefferson made hundreds of architectural drawings, all of which have been preserved.\n2. He must have had a great gift of concentration and a real love for his subject to be able to work in a room with such an outlook.\n3. And what energy he had for this precise and exquisite work was also devoted to riding over his estate, working in his garden, and carry out correspondence with everyone from the Marquis de Lafayette to his youngest grandchild.\n4. \"Something pursued with ardor\" was Jefferson's prescription for life, and he got the last ounce of excitement and interest out of everything that came to his notice.\nCHOICES:\n① all of which have been preserved\n② what energy he had for this\n③ carry out correspondence with everyone from\n④ interest out of everything that came"
+    },
+    {
+      "number": 8,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "According to the Anxiety and Depression Association of America, anxiety disorders are the most common mental illness in the United States, affecting 40 million adults in the United States, age 18 and older.",
+        "What’s more, women are twice as likely to be affected than men.",
+        "Anxiety disorders develop from a complex set of risk factors, including genetics, brain chemistry, personality, and life events.",
+        "“Anxiety can be a positive trait,” says a health professional.",
+        "“Someone who worries about being on time or performing at a high level often excels in various aspects of life, both professionally and personally.”"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "affecting 40 million adults in the"
+        },
+        {
+          "label": "②",
+          "text": "affected than men"
+        },
+        {
+          "label": "③",
+          "text": "worries about being on time or"
+        },
+        {
+          "label": "④",
+          "text": "often excels in various aspects of"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. According to the Anxiety and Depression Association of America, anxiety disorders are the most common mental illness in the United States, affecting 40 million adults in the United States, age 18 and older.\n2. What’s more, women are twice as likely to be affected than men.\n3. Anxiety disorders develop from a complex set of risk factors, including genetics, brain chemistry, personality, and life events.\n4. “Anxiety can be a positive trait,” says a health professional.\n5. “Someone who worries about being on time or performing at a high level often excels in various aspects of life, both professionally and personally.”\nCHOICES:\n① affecting 40 million adults in the\n② affected than men\n③ worries about being on time or\n④ often excels in various aspects of"
+    },
+    {
+      "number": 9,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "Some people are proud of telling their own faults.",
+        "They will tell that they are the silliest men in the world; that they cannot help speaking the truth, like children, in anybody’s presence; that they own it is a folly; that they have lost a lot of advantages by it; but that they cannot help it, even if you would give them a world of riches to prevent it; and that there is something in their nature that hate insincerity and hypocrisy, etc."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "proud of telling their own faults"
+        },
+        {
+          "label": "②",
+          "text": "cannot help speaking the truth"
+        },
+        {
+          "label": "③",
+          "text": "they own it is a folly"
+        },
+        {
+          "label": "④",
+          "text": "that hate insincerity and hypocrisy"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Some people are proud of telling their own faults.\n2. They will tell that they are the silliest men in the world; that they cannot help speaking the truth, like children, in anybody’s presence; that they own it is a folly; that they have lost a lot of advantages by it; but that they cannot help it, even if you would give them a world of riches to prevent it; and that there is something in their nature that hate insincerity and hypocrisy, etc.\nCHOICES:\n① proud of telling their own faults\n② cannot help speaking the truth\n③ they own it is a folly\n④ that hate insincerity and hypocrisy"
+    },
+    {
+      "number": 10,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "The use of barter-like methods may date back to at least 100,000 years ago, though there is no evidence of a society or economy that relied primarily on barter.",
+        "Instead, non-monetary societies operated largely along the principles of gift economy and debt.",
+        "When barter did in fact occur, it was usually between either complete strangers or potential enemies.",
+        "Many cultures around the world developed the use of commodity money, i.e., the money whose value comes from a commodity which it is made."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "date back to at least 100"
+        },
+        {
+          "label": "②",
+          "text": "operated largely along the principles of"
+        },
+        {
+          "label": "③",
+          "text": "in fact occur"
+        },
+        {
+          "label": "④",
+          "text": "a commodity which it is made"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. The use of barter-like methods may date back to at least 100,000 years ago, though there is no evidence of a society or economy that relied primarily on barter.\n2. Instead, non-monetary societies operated largely along the principles of gift economy and debt.\n3. When barter did in fact occur, it was usually between either complete strangers or potential enemies.\n4. Many cultures around the world developed the use of commodity money, i.e., the money whose value comes from a commodity which it is made.\nCHOICES:\n① date back to at least 100\n② operated largely along the principles of\n③ in fact occur\n④ a commodity which it is made"
+    },
+    {
+      "number": 11,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "Before the invention of the toothbrush, a variety of oral hygiene measures had been used and this has been verified by archaeological excavations.",
+        "The __________ of the toothbrush is the chew stick.",
+        "Chew sticks were twigs with frayed ends used to brush the teeth while the other end was used as a toothpick.",
+        "The earliest chew sticks were discovered in Sumer in southern Mesopotamia in 3500 BC, in an Egyptian tomb dating from 3000 BC, and mentioned in Chinese records dating from 1600 BC."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "pinnacle"
+        },
+        {
+          "label": "②",
+          "text": "predecessor"
+        },
+        {
+          "label": "③",
+          "text": "evidence"
+        },
+        {
+          "label": "④",
+          "text": "confirmation"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Before the invention of the toothbrush, a variety of oral hygiene measures had been used and this has been verified by archaeological excavations.\n2. The __________ of the toothbrush is the chew stick.\n3. Chew sticks were twigs with frayed ends used to brush the teeth while the other end was used as a toothpick.\n4. The earliest chew sticks were discovered in Sumer in southern Mesopotamia in 3500 BC, in an Egyptian tomb dating from 3000 BC, and mentioned in Chinese records dating from 1600 BC.\nCHOICES:\n① pinnacle\n② predecessor\n③ evidence\n④ confirmation"
+    },
+    {
+      "number": 12,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "The earliest surviving written literature is from ancient Mesopotamia.",
+        "The Epic of Gilgamesh is often cited as the first great composition, although some shorter compositions have survived that are even earlier.",
+        "Apart from its length, the Epic of Gilgamesh may be considered the earliest significant composition because of its __________.",
+        "It is believed, for example, to have influenced other ancient literary works, including the Iliad, the Odyssey, Alexander romance literature, and the Hebrew Bible, all of which continue to have significant literary impact in their own right."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "enduring impact on literature through the ages"
+        },
+        {
+          "label": "②",
+          "text": "beauty in literary style and complexity of plots"
+        },
+        {
+          "label": "③",
+          "text": "exquisite condition in which it was preserved"
+        },
+        {
+          "label": "④",
+          "text": "extraordinary length and meticulous attention to details"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The earliest surviving written literature is from ancient Mesopotamia.\n2. The Epic of Gilgamesh is often cited as the first great composition, although some shorter compositions have survived that are even earlier.\n3. Apart from its length, the Epic of Gilgamesh may be considered the earliest significant composition because of its __________.\n4. It is believed, for example, to have influenced other ancient literary works, including the Iliad, the Odyssey, Alexander romance literature, and the Hebrew Bible, all of which continue to have significant literary impact in their own right.\nCHOICES:\n① enduring impact on literature through the ages\n② beauty in literary style and complexity of plots\n③ exquisite condition in which it was preserved\n④ extraordinary length and meticulous attention to details"
+    },
+    {
+      "number": 13,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "People who are habitually late should undertake at the earliest possible moment to mend their ways and make punctuality one of the main principles of their daily conduct. __________ as much a breach of etiquette as bad table manners or any other habit which is frowned on by the well-bred.",
+        "Many young ladies consider it smart to keep their friends waiting.",
+        "Such conduct is as inexcusable as it is rude.",
+        "Whether you are to meet someone, appear at the family table, or keep a business appointment, remember that punctuality is decreed on all occasions."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "Tardiness is"
+        },
+        {
+          "label": "②",
+          "text": "Formalities are"
+        },
+        {
+          "label": "③",
+          "text": "Conventions are"
+        },
+        {
+          "label": "④",
+          "text": "The code of conduct is"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. People who are habitually late should undertake at the earliest possible moment to mend their ways and make punctuality one of the main principles of their daily conduct. __________ as much a breach of etiquette as bad table manners or any other habit which is frowned on by the well-bred.\n2. Many young ladies consider it smart to keep their friends waiting.\n3. Such conduct is as inexcusable as it is rude.\n4. Whether you are to meet someone, appear at the family table, or keep a business appointment, remember that punctuality is decreed on all occasions.\nCHOICES:\n① Tardiness is\n② Formalities are\n③ Conventions are\n④ The code of conduct is"
+    },
+    {
+      "number": 14,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "It was when I was at school, in the sixth, that I first realized the most important truth about myself, namely, that __________.",
+        "The urge to go one better than the next person, which seems to dominate most people's lives in one way or another, is something I just didn't have built into me.",
+        "As I think it over now, I can see just how much of a puzzle I was to my schoolmasters; in spite of the fact that I didn't cause much trouble and worked fairly steadily I was disliked by nearly all the teachers who had charge of me.",
+        "I was incapable of absorbing the one lesson they were all put up there to teach—that life is competition."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "I’m a pacifist"
+        },
+        {
+          "label": "②",
+          "text": "I’m a late-bloomer"
+        },
+        {
+          "label": "③",
+          "text": "I’m indomitable"
+        },
+        {
+          "label": "④",
+          "text": "I'm noncompetitive"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. It was when I was at school, in the sixth, that I first realized the most important truth about myself, namely, that __________.\n2. The urge to go one better than the next person, which seems to dominate most people's lives in one way or another, is something I just didn't have built into me.\n3. As I think it over now, I can see just how much of a puzzle I was to my schoolmasters; in spite of the fact that I didn't cause much trouble and worked fairly steadily I was disliked by nearly all the teachers who had charge of me.\n4. I was incapable of absorbing the one lesson they were all put up there to teach—that life is competition.\nCHOICES:\n① I’m a pacifist\n② I’m a late-bloomer\n③ I’m indomitable\n④ I'm noncompetitive"
+    },
+    {
+      "number": 15,
+      "instruction": "Choose the one that best fills in the blank.",
+      "passage_sentences": [
+        "Shun the gossip of people as much as possible, because discussion of worldly affairs, even though sincere, is a great distraction inasmuch as we are quickly ensnared and captivated by vanity.",
+        "Many a time I wish that I had held my peace and had not associated with people.",
+        "Why, indeed, do we converse and gossip among ourselves when we so seldom part without a troubled conscience?",
+        "We do so because we seek comfort from one another’s conversation and wish to ease the mind wearied by diverse thoughts.",
+        "Hence, we talk and think quite fondly of things we like very much or of things we dislike intensely.",
+        "But, sad to say, we often talk vainly and to no purpose.",
+        "This external pleasure effectively bars our inward peace.",
+        "Therefore, we must watch lest time pass idly.",
+        "When the right and opportune moment comes for speaking, say something that will edify.",
+        "For the benefit of your inward growth, __________."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "avoid idle talk with other people"
+        },
+        {
+          "label": "②",
+          "text": "carefully choose a conversation partner"
+        },
+        {
+          "label": "③",
+          "text": "focus your thoughts on the topic"
+        },
+        {
+          "label": "④",
+          "text": "pursue your desires and aspirations"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Shun the gossip of people as much as possible, because discussion of worldly affairs, even though sincere, is a great distraction inasmuch as we are quickly ensnared and captivated by vanity.\n2. Many a time I wish that I had held my peace and had not associated with people.\n3. Why, indeed, do we converse and gossip among ourselves when we so seldom part without a troubled conscience?\n4. We do so because we seek comfort from one another’s conversation and wish to ease the mind wearied by diverse thoughts.\n5. Hence, we talk and think quite fondly of things we like very much or of things we dislike intensely.\n6. But, sad to say, we often talk vainly and to no purpose.\n7. This external pleasure effectively bars our inward peace.\n8. Therefore, we must watch lest time pass idly.\n9. When the right and opportune moment comes for speaking, say something that will edify.\n10. For the benefit of your inward growth, __________.\nCHOICES:\n① avoid idle talk with other people\n② carefully choose a conversation partner\n③ focus your thoughts on the topic\n④ pursue your desires and aspirations"
+    },
+    {
+      "number": 16,
+      "instruction": "Which of the following is true of the passage?",
+      "passage_sentences": [
+        "At a dinner in honor of Mark Twain, whose real name was Samuel Clemens, a member of the club which had invited him happened to resemble the guest of the evening.",
+        "With the help of a 'make-up man', the resemblance was so increased that it was difficult to distinguish the original from his double.",
+        "An innocent conspiracy was formed, and at the hour for sitting down at the table the double entered the dining room quickly and sat in the seat of honor, unsuspected by those at the table.",
+        "A few minutes later, the true Mark Twain appeared.",
+        "Everybody looked up in astonishment.",
+        "Mark Twain himself was no less surprised, but he was equal to the occasion.",
+        "\"So, you're Mark Twain, are you?\" he said.",
+        "\"Well, I'm glad to have caught you at last.",
+        "Whenever I do anything good, you're sure to get the credit of it.",
+        "Whenever I do anything bad, Samuel Clemens gets the blame.",
+        "I was getting pretty tired of it, and I'm very glad to tell you so.\""
+      ],
+      "question": "Which of the following is true of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Mark Twain was never surprised or embarrassed."
+        },
+        {
+          "label": "②",
+          "text": "Mark Twain handled a surprising situation very humorously."
+        },
+        {
+          "label": "③",
+          "text": "Mark Twain’s double was greatly disgraced by the occasion."
+        },
+        {
+          "label": "④",
+          "text": "Mark Twain’s host masterminded a malicious prank to hurt him."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is true of the passage?\nPASSAGE_SENTENCES:\n1. At a dinner in honor of Mark Twain, whose real name was Samuel Clemens, a member of the club which had invited him happened to resemble the guest of the evening.\n2. With the help of a 'make-up man', the resemblance was so increased that it was difficult to distinguish the original from his double.\n3. An innocent conspiracy was formed, and at the hour for sitting down at the table the double entered the dining room quickly and sat in the seat of honor, unsuspected by those at the table.\n4. A few minutes later, the true Mark Twain appeared.\n5. Everybody looked up in astonishment.\n6. Mark Twain himself was no less surprised, but he was equal to the occasion.\n7. \"So, you're Mark Twain, are you?\" he said.\n8. \"Well, I'm glad to have caught you at last.\n9. Whenever I do anything good, you're sure to get the credit of it.\n10. Whenever I do anything bad, Samuel Clemens gets the blame.\n11. I was getting pretty tired of it, and I'm very glad to tell you so.\"\nQUESTION:\nWhich of the following is true of the passage?\nCHOICES:\n① Mark Twain was never surprised or embarrassed.\n② Mark Twain handled a surprising situation very humorously.\n③ Mark Twain’s double was greatly disgraced by the occasion.\n④ Mark Twain’s host masterminded a malicious prank to hurt him."
+    },
+    {
+      "number": 17,
+      "instruction": "Which of the following can be correctly inferred from the passage?",
+      "passage_sentences": [
+        "Advances in medical science including antibiotics and vaccines as well as improved standards of living contributed to shifting the burden of illness from acute, infectious illnesses to chronic conditions.",
+        "While advances in modern medicine have produced important treatments for chronic illnesses, most have resulted in ‘halfway’ technologies that extend life but do not cure the underlying disease.",
+        "Examples include long-term renal dialysis for the treatment of kidney failure and, more recently, antiretroviral drugs that extend the lives of people with acquired immunodeficiency syndrome (AIDS).",
+        "Chronic conditions are accompanied by a myriad of functional limitations and social support needs that fall outside the conventional definition of medical practice.",
+        "Nurses, social workers, occupational therapists, physical therapists, and other nonphysician health professionals have demonstrated interest and expertise in helping the chronically ill and frail elderly manage the chronic conditions and medical treatments, thus creating new roles for themselves in the medical division of labor."
+      ],
+      "question": "Which of the following can be correctly inferred from the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Diverse non-medical occupations will replace physicians in the future."
+        },
+        {
+          "label": "②",
+          "text": "Cures for most formerly incurable diseases are to be found in the near future."
+        },
+        {
+          "label": "③",
+          "text": "Underlying diseases will become increasingly serious through complications."
+        },
+        {
+          "label": "④",
+          "text": "An increasing number of patients may live in chronic conditions in the future."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following can be correctly inferred from the passage?\nPASSAGE_SENTENCES:\n1. Advances in medical science including antibiotics and vaccines as well as improved standards of living contributed to shifting the burden of illness from acute, infectious illnesses to chronic conditions.\n2. While advances in modern medicine have produced important treatments for chronic illnesses, most have resulted in ‘halfway’ technologies that extend life but do not cure the underlying disease.\n3. Examples include long-term renal dialysis for the treatment of kidney failure and, more recently, antiretroviral drugs that extend the lives of people with acquired immunodeficiency syndrome (AIDS).\n4. Chronic conditions are accompanied by a myriad of functional limitations and social support needs that fall outside the conventional definition of medical practice.\n5. Nurses, social workers, occupational therapists, physical therapists, and other nonphysician health professionals have demonstrated interest and expertise in helping the chronically ill and frail elderly manage the chronic conditions and medical treatments, thus creating new roles for themselves in the medical division of labor.\nQUESTION:\nWhich of the following can be correctly inferred from the passage?\nCHOICES:\n① Diverse non-medical occupations will replace physicians in the future.\n② Cures for most formerly incurable diseases are to be found in the near future.\n③ Underlying diseases will become increasingly serious through complications.\n④ An increasing number of patients may live in chronic conditions in the future."
+    },
+    {
+      "number": 18,
+      "instruction": "Which of the following is the main topic of the passage?",
+      "passage_sentences": [
+        "People all over the world believe they've seen or heard a ghost, but there's no scientific evidence for spirits, hauntings or the paranormal.",
+        "So, what's behind these \"encounters\"?",
+        "Considering there's no scientific evidence that ghosts exist, why do some people think they've seen or heard them?",
+        "A psychology professor recently wrote a book about the science of the paranormal and said ghost sightings are often \"sincere misinterpretations of things that do have a natural explanation.\" \"Just because you can't think of an explanation doesn't mean there isn't one,\" the professor told Live Science.",
+        "He is a skeptic who explores non-paranormal explanations for ghostly encounters.",
+        "These explanations include hallucinations, or perceptions of things that aren't there; false memories, or recollections of events that didn't happen; and pareidolia, or the tendency to see a face or something significant in an inanimate object or random pattern.",
+        "The human brain is prone to missing things and misremembering events, and it can jump to conclusions when trying to understand an ambiguous experience.",
+        "This is especially true when a person wants to believe they've seen a ghost or another legendary creature."
+      ],
+      "question": "Which of the following is the main topic of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The scientific explanation for ‘ghost encounters’"
+        },
+        {
+          "label": "②",
+          "text": "The clash between the scientific and the spiritual"
+        },
+        {
+          "label": "③",
+          "text": "The story of a psychologist who believe in ghosts"
+        },
+        {
+          "label": "④",
+          "text": "The science of the paranormal and memory failures"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is the main topic of the passage?\nPASSAGE_SENTENCES:\n1. People all over the world believe they've seen or heard a ghost, but there's no scientific evidence for spirits, hauntings or the paranormal.\n2. So, what's behind these \"encounters\"?\n3. Considering there's no scientific evidence that ghosts exist, why do some people think they've seen or heard them?\n4. A psychology professor recently wrote a book about the science of the paranormal and said ghost sightings are often \"sincere misinterpretations of things that do have a natural explanation.\" \"Just because you can't think of an explanation doesn't mean there isn't one,\" the professor told Live Science.\n5. He is a skeptic who explores non-paranormal explanations for ghostly encounters.\n6. These explanations include hallucinations, or perceptions of things that aren't there; false memories, or recollections of events that didn't happen; and pareidolia, or the tendency to see a face or something significant in an inanimate object or random pattern.\n7. The human brain is prone to missing things and misremembering events, and it can jump to conclusions when trying to understand an ambiguous experience.\n8. This is especially true when a person wants to believe they've seen a ghost or another legendary creature.\nQUESTION:\nWhich of the following is the main topic of the passage?\nCHOICES:\n① The scientific explanation for ‘ghost encounters’\n② The clash between the scientific and the spiritual\n③ The story of a psychologist who believe in ghosts\n④ The science of the paranormal and memory failures"
+    },
+    {
+      "number": 19,
+      "instruction": "Choose the sentence that does not belong to the passage.",
+      "passage_sentences": [
+        "Imagine you have a train scheduled for 11 am, and you are stuck in traffic.",
+        "You arrive at 11:30 and miss the train.",
+        "You find out that the train left on time.",
+        "Now, imagine your friend has another train scheduled at 11 am, and he is also stuck in traffic.",
+        "He arrives at 11:30 and misses his train.",
+        "He finds out that his train is 25 minutes late and departs at 11:25.",
+        "Who will feel sadder?",
+        "Research shows that 95% of people will answer that your friend will be more disappointed than you, because he just missed the train by 5 minutes."
+      ],
+      "question": "Choose the sentence that does not belong to the passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "He will curse himself more than you do, and say: “What if I leave 5 minutes early? If I had reduced my shower time by 5 minutes, maybe I could have caught the train. If I had woken up earlier, I would be on my way now.”"
+        },
+        {
+          "label": "②",
+          "text": "Meanwhile, you will feel more at ease thinking about it, because there is no way to go back half an hour, and you will say to yourself, \"Even if I had left 20 minutes earlier, I would still have missed the train.\""
+        },
+        {
+          "label": "③",
+          "text": "You are very sad that you missed the train, and become even sadder because your friend also missed the train."
+        },
+        {
+          "label": "④",
+          "text": "But the fact remains the same: You both were late and missed the train. But this shows that when we analyze something went wrong, we will create a scenario of \"if only I...\" , depending on the opportunities we have. That's also the reason why a silver medalist will be sadder than a bronze medalist."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the sentence that does not belong to the passage.\nPASSAGE_SENTENCES:\n1. Imagine you have a train scheduled for 11 am, and you are stuck in traffic.\n2. You arrive at 11:30 and miss the train.\n3. You find out that the train left on time.\n4. Now, imagine your friend has another train scheduled at 11 am, and he is also stuck in traffic.\n5. He arrives at 11:30 and misses his train.\n6. He finds out that his train is 25 minutes late and departs at 11:25.\n7. Who will feel sadder?\n8. Research shows that 95% of people will answer that your friend will be more disappointed than you, because he just missed the train by 5 minutes.\nQUESTION:\nChoose the sentence that does not belong to the passage.\nCHOICES:\n① He will curse himself more than you do, and say: “What if I leave 5 minutes early? If I had reduced my shower time by 5 minutes, maybe I could have caught the train. If I had woken up earlier, I would be on my way now.”\n② Meanwhile, you will feel more at ease thinking about it, because there is no way to go back half an hour, and you will say to yourself, \"Even if I had left 20 minutes earlier, I would still have missed the train.\"\n③ You are very sad that you missed the train, and become even sadder because your friend also missed the train.\n④ But the fact remains the same: You both were late and missed the train. But this shows that when we analyze something went wrong, we will create a scenario of \"if only I...\" , depending on the opportunities we have. That's also the reason why a silver medalist will be sadder than a bronze medalist."
+    },
+    {
+      "number": 20,
+      "instruction": "Which of the following is true of the passage?",
+      "passage_sentences": [
+        "The fight-or-flight also called ‘hyperarousal’ or the ‘acute stress response’ is a physiological reaction that occurs in response to a perceived harmful event, attack, or threat to survival.",
+        "The theory states that animals react to threats with a general discharge of the sympathetic nervous system, preparing the animal for fighting or fleeing.",
+        "This response is recognized as the first stage of the general adaptation syndrome that regulates stress responses among vertebrates.",
+        "An evolutionary psychology explanation is that early animals had to react to threatening stimuli quickly and did not have time to psychologically and physically prepare themselves.",
+        "The fight-or-flight response provided them with the mechanisms to rapidly respond to threats against survival."
+      ],
+      "question": "Which of the following is true of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The fight-or-flight is partly physiological but largely psychological."
+        },
+        {
+          "label": "②",
+          "text": "The chances of survival with fight-or-flight are more or less the same."
+        },
+        {
+          "label": "③",
+          "text": "Living organisms carefully evaluate options when confronted with a predator."
+        },
+        {
+          "label": "④",
+          "text": "The fight-or-flight is a survival mechanism commonly found among vertebrates."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is true of the passage?\nPASSAGE_SENTENCES:\n1. The fight-or-flight also called ‘hyperarousal’ or the ‘acute stress response’ is a physiological reaction that occurs in response to a perceived harmful event, attack, or threat to survival.\n2. The theory states that animals react to threats with a general discharge of the sympathetic nervous system, preparing the animal for fighting or fleeing.\n3. This response is recognized as the first stage of the general adaptation syndrome that regulates stress responses among vertebrates.\n4. An evolutionary psychology explanation is that early animals had to react to threatening stimuli quickly and did not have time to psychologically and physically prepare themselves.\n5. The fight-or-flight response provided them with the mechanisms to rapidly respond to threats against survival.\nQUESTION:\nWhich of the following is true of the passage?\nCHOICES:\n① The fight-or-flight is partly physiological but largely psychological.\n② The chances of survival with fight-or-flight are more or less the same.\n③ Living organisms carefully evaluate options when confronted with a predator.\n④ The fight-or-flight is a survival mechanism commonly found among vertebrates."
+    },
+    {
+      "number": 21,
+      "instruction": "Which of the following is the passage mainly about?",
+      "passage_sentences": [
+        "Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.",
+        "It is generally agreed to be a cultural universal that is present in all human societies.",
+        "It is often characterized as a highly versatile medium for expressing human creativity.",
+        "Diverse activities are involved in the creation of music, and are often divided into categories of composition, improvisation, and performance.",
+        "Music may be performed using a wide variety of musical instruments, including the human voice.",
+        "It can also be composed, sequenced, or otherwise produced to be indirectly played mechanically or electronically, such as via a music box, barrel organ, or digital audio workstation software on a computer.",
+        "Music often plays a key role in social events and religious ceremony.",
+        "The techniques of making music are often transmitted as part of a cultural tradition, and listening to music is a common means of entertainment."
+      ],
+      "question": "Which of the following is the passage mainly about?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "What are the characteristics of music?"
+        },
+        {
+          "label": "②",
+          "text": "What are categories of musical activities?"
+        },
+        {
+          "label": "③",
+          "text": "What is the usefulness of music in society?"
+        },
+        {
+          "label": "④",
+          "text": "What is the relationship between music and culture?"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is the passage mainly about?\nPASSAGE_SENTENCES:\n1. Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.\n2. It is generally agreed to be a cultural universal that is present in all human societies.\n3. It is often characterized as a highly versatile medium for expressing human creativity.\n4. Diverse activities are involved in the creation of music, and are often divided into categories of composition, improvisation, and performance.\n5. Music may be performed using a wide variety of musical instruments, including the human voice.\n6. It can also be composed, sequenced, or otherwise produced to be indirectly played mechanically or electronically, such as via a music box, barrel organ, or digital audio workstation software on a computer.\n7. Music often plays a key role in social events and religious ceremony.\n8. The techniques of making music are often transmitted as part of a cultural tradition, and listening to music is a common means of entertainment.\nQUESTION:\nWhich of the following is the passage mainly about?\nCHOICES:\n① What are the characteristics of music?\n② What are categories of musical activities?\n③ What is the usefulness of music in society?\n④ What is the relationship between music and culture?"
+    },
+    {
+      "number": 22,
+      "instruction": "Which of the following is the main topic of the passage?",
+      "passage_sentences": [
+        "Human evolution is the lengthy process of change by which people originated from apelike ancestors.",
+        "Scientific evidence shows that the physical and behavioral traits shared by all people originated from apelike ancestors and evolved over a period of approximately six million years.",
+        "One of the earliest defining human traits, bipedalism (the ability to walk on two legs) evolved over 4 million years ago.",
+        "Other important human characteristics—such as a large and complex brain, the ability to make and use tools, and the capacity for language—developed more recently.",
+        "Many advanced traits— including complex symbolic expression, art, and elaborate cultural diversity—emerged mainly during the past 100,000 years.",
+        "Humans are primates.",
+        "Physical and genetic similarities show that the modern human species, Homo sapiens, has a very close relationship to another group of primate species, the apes.",
+        "Humans and the great apes of Africa—chimpanzees and gorillas—share a common ancestor that lived between 8 and 6 million years ago."
+      ],
+      "question": "Which of the following is the main topic of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Common ancestors of modern-day primates"
+        },
+        {
+          "label": "②",
+          "text": "Emergence of bipedalism and language faculty"
+        },
+        {
+          "label": "③",
+          "text": "Humans’ evolution from apelike ancestors"
+        },
+        {
+          "label": "④",
+          "text": "The place of origin of humans and their migration"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is the main topic of the passage?\nPASSAGE_SENTENCES:\n1. Human evolution is the lengthy process of change by which people originated from apelike ancestors.\n2. Scientific evidence shows that the physical and behavioral traits shared by all people originated from apelike ancestors and evolved over a period of approximately six million years.\n3. One of the earliest defining human traits, bipedalism (the ability to walk on two legs) evolved over 4 million years ago.\n4. Other important human characteristics—such as a large and complex brain, the ability to make and use tools, and the capacity for language—developed more recently.\n5. Many advanced traits— including complex symbolic expression, art, and elaborate cultural diversity—emerged mainly during the past 100,000 years.\n6. Humans are primates.\n7. Physical and genetic similarities show that the modern human species, Homo sapiens, has a very close relationship to another group of primate species, the apes.\n8. Humans and the great apes of Africa—chimpanzees and gorillas—share a common ancestor that lived between 8 and 6 million years ago.\nQUESTION:\nWhich of the following is the main topic of the passage?\nCHOICES:\n① Common ancestors of modern-day primates\n② Emergence of bipedalism and language faculty\n③ Humans’ evolution from apelike ancestors\n④ The place of origin of humans and their migration"
+    },
+    {
+      "number": 23,
+      "instruction": "Which of the following is not true of the passage?",
+      "passage_sentences": [
+        "In the animal kingdom, speed can mean the difference between life and death.",
+        "Predators use their speed to overtake and overpower their prey, while animals with few other defenses rely on speed to avoid becoming dinner.",
+        "Here are some of the fastest animals in the world.",
+        "Capable of going from 0 to 60 miles per hour in less than three seconds, the cheetah is considered the fastest land animal, though it is able to maintain such speeds only for short distances.",
+        "Lions are also quite fast when hunting prey, with a top speed of about 50 miles per hour.",
+        "However, the common prey of these African big cats can be pretty speedy as well.",
+        "The springbok, for example, can reach 55 miles per hour when pursued, and the wildebeest has been clocked at 50 miles per hour.",
+        "Whereas the cheetah is the fastest sprinter, the pronghorn is the fastest long-distance runner of the animal kingdom.",
+        "It is capable of maintaining a speed of nearly 35 miles per hour over several miles and is even faster over shorter distances.",
+        "During sprints to elude predators, pronghorns can hit top speeds of about 55 miles per hour thanks to special cushions on their hooves and the ability to take in large quantities of oxygen as they run."
+      ],
+      "question": "Which of the following is not true of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Springbok and pronghorn can outrun lions."
+        },
+        {
+          "label": "②",
+          "text": "Pronghorn is an easy prey for cheetah and lions."
+        },
+        {
+          "label": "③",
+          "text": "Pronghorn is the fastest long-distance runner of land animals."
+        },
+        {
+          "label": "④",
+          "text": "Cheetah is the fastest sprinter of all land animals."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is not true of the passage?\nPASSAGE_SENTENCES:\n1. In the animal kingdom, speed can mean the difference between life and death.\n2. Predators use their speed to overtake and overpower their prey, while animals with few other defenses rely on speed to avoid becoming dinner.\n3. Here are some of the fastest animals in the world.\n4. Capable of going from 0 to 60 miles per hour in less than three seconds, the cheetah is considered the fastest land animal, though it is able to maintain such speeds only for short distances.\n5. Lions are also quite fast when hunting prey, with a top speed of about 50 miles per hour.\n6. However, the common prey of these African big cats can be pretty speedy as well.\n7. The springbok, for example, can reach 55 miles per hour when pursued, and the wildebeest has been clocked at 50 miles per hour.\n8. Whereas the cheetah is the fastest sprinter, the pronghorn is the fastest long-distance runner of the animal kingdom.\n9. It is capable of maintaining a speed of nearly 35 miles per hour over several miles and is even faster over shorter distances.\n10. During sprints to elude predators, pronghorns can hit top speeds of about 55 miles per hour thanks to special cushions on their hooves and the ability to take in large quantities of oxygen as they run.\nQUESTION:\nWhich of the following is not true of the passage?\nCHOICES:\n① Springbok and pronghorn can outrun lions.\n② Pronghorn is an easy prey for cheetah and lions.\n③ Pronghorn is the fastest long-distance runner of land animals.\n④ Cheetah is the fastest sprinter of all land animals."
+    },
+    {
+      "number": 24,
+      "instruction": "Choose the best title for the passage.",
+      "passage_sentences": [
+        "You may have heard that some foods and drinks, such as grapefruit and alcohol, shouldn't be consumed with certain medications.",
+        "But did you know that dairy products can also make some drugs less effective?",
+        "This effect is particularly problematic for certain classes of antibiotics, which are drugs used to treat bacterial infections.",
+        "Antibiotics taken by mouth, for example, need to be absorbed into the bloodstream to work effectively.",
+        "But when taken with dairy products, such as milk, some antibiotics are not absorbed as they should be.",
+        "For instance, one study found that the absorption of an antibiotic called demeclocycline into the bloodstream dropped by a staggering 83% when taken with milk, compared with water and a dairy-free meal.",
+        "Another study showed that when another kind of antibiotics, ciprofloxacin, is taken with milk, levels of the drug in the bloodstream are about 30% to 36% lower than when it is taken with water."
+      ],
+      "question": "Choose the best title for the passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Do Not Take Antibiotics with Milk"
+        },
+        {
+          "label": "②",
+          "text": "Do Not Orally Administer Antibiotics"
+        },
+        {
+          "label": "③",
+          "text": "No Grapefruit or Alcohol When Taking Antibiotics"
+        },
+        {
+          "label": "④",
+          "text": "Read Medicine Labels Before Taking the Medicine"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best title for the passage.\nPASSAGE_SENTENCES:\n1. You may have heard that some foods and drinks, such as grapefruit and alcohol, shouldn't be consumed with certain medications.\n2. But did you know that dairy products can also make some drugs less effective?\n3. This effect is particularly problematic for certain classes of antibiotics, which are drugs used to treat bacterial infections.\n4. Antibiotics taken by mouth, for example, need to be absorbed into the bloodstream to work effectively.\n5. But when taken with dairy products, such as milk, some antibiotics are not absorbed as they should be.\n6. For instance, one study found that the absorption of an antibiotic called demeclocycline into the bloodstream dropped by a staggering 83% when taken with milk, compared with water and a dairy-free meal.\n7. Another study showed that when another kind of antibiotics, ciprofloxacin, is taken with milk, levels of the drug in the bloodstream are about 30% to 36% lower than when it is taken with water.\nQUESTION:\nChoose the best title for the passage.\nCHOICES:\n① Do Not Take Antibiotics with Milk\n② Do Not Orally Administer Antibiotics\n③ No Grapefruit or Alcohol When Taking Antibiotics\n④ Read Medicine Labels Before Taking the Medicine"
+    },
+    {
+      "number": 25,
+      "instruction": "Which of the following is not true of the passage?",
+      "passage_sentences": [
+        "One cannot doubt that the study of history makes people wiser.",
+        "But it is indispensable to understand the limits of historical analogy.",
+        "Most useful historical generalizations are statements about massive social and intellectual movements over a considerable period of time.",
+        "They make large-scale, long-term prediction possible.",
+        "But they do not justify small-scale, short-term prediction.",
+        "It’s because short-run prediction is the prediction of detail and there are simply too many variables to ensure exact forecasts of the immediate future.",
+        "History, in short, can answer questions, after a fashion, at long range.",
+        "Alas, policy makers are rarely interested in the long run and the questions they put to history are thus most often the question which history is least qualified to answer.",
+        "Far from offering a short-cut to clear-sightedness, history teaches us that the future is full of surprises and outwits all our certitudes.",
+        "If thirty years ago anyone had predicted that before the end of the decade of the forties Germany and Japan would be well on the way to becoming close friends and allies of Britain and the United States, the person would have been considered mad.",
+        "If twenty years ago, as Russia and China were signing their thirty-year pact of amity and alliance, anyone had predicted that by the end of the fifties they would be at each other's throats, that person too would have been considered mad.",
+        "The chastening fact is that many of the important events of our age were unforeseen: from the Nazi-Soviet pact and the Tito-Stalin quarrel of years ago to more recent events such as the anti-communist upsurge in Indonesia and the abrupt change in the relationship between the United States and Communist China."
+      ],
+      "question": "Which of the following is not true of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "In general the study of history is beneficial."
+        },
+        {
+          "label": "②",
+          "text": "Short-term predictions from history cannot be accurate."
+        },
+        {
+          "label": "③",
+          "text": "Predictions from history are useful only from a long-term perspective."
+        },
+        {
+          "label": "④",
+          "text": "History tells us that nothing is predictable in life."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is not true of the passage?\nPASSAGE_SENTENCES:\n1. One cannot doubt that the study of history makes people wiser.\n2. But it is indispensable to understand the limits of historical analogy.\n3. Most useful historical generalizations are statements about massive social and intellectual movements over a considerable period of time.\n4. They make large-scale, long-term prediction possible.\n5. But they do not justify small-scale, short-term prediction.\n6. It’s because short-run prediction is the prediction of detail and there are simply too many variables to ensure exact forecasts of the immediate future.\n7. History, in short, can answer questions, after a fashion, at long range.\n8. Alas, policy makers are rarely interested in the long run and the questions they put to history are thus most often the question which history is least qualified to answer.\n9. Far from offering a short-cut to clear-sightedness, history teaches us that the future is full of surprises and outwits all our certitudes.\n10. If thirty years ago anyone had predicted that before the end of the decade of the forties Germany and Japan would be well on the way to becoming close friends and allies of Britain and the United States, the person would have been considered mad.\n11. If twenty years ago, as Russia and China were signing their thirty-year pact of amity and alliance, anyone had predicted that by the end of the fifties they would be at each other's throats, that person too would have been considered mad.\n12. The chastening fact is that many of the important events of our age were unforeseen: from the Nazi-Soviet pact and the Tito-Stalin quarrel of years ago to more recent events such as the anti-communist upsurge in Indonesia and the abrupt change in the relationship between the United States and Communist China.\nQUESTION:\nWhich of the following is not true of the passage?\nCHOICES:\n① In general the study of history is beneficial.\n② Short-term predictions from history cannot be accurate.\n③ Predictions from history are useful only from a long-term perspective.\n④ History tells us that nothing is predictable in life."
+    },
+    {
+      "number": 26,
+      "instruction": "Which of the following best summarizes the main idea of the passage?",
+      "passage_sentences": [
+        "This new device can distinguish between different coffee blends or detect when food or drink may be on the verge of going bad.",
+        "Have you ever wondered if that old carton of fruit juice in the back of your fridge is still safe to drink?",
+        "A new “electronic tongue” could tell you.",
+        "The system, powered by artificial intelligence (AI), can identify issues with food safety and freshness.",
+        "It also offers a glimpse at how AI makes decisions, researchers reported in the journal Nature.",
+        "To make the tongue, researchers used an ion-sensitive field-effect transistor—a device that detects chemical ions.",
+        "The sensor collects information about the ions in a liquid and turns that information into an electrical signal that can be interpreted by a computer.",
+        "\"We’re trying to make an artificial tongue, but the process of how we experience different foods involves more than just the tongue,\" said one of the authors.",
+        "\"We have the tongue itself, consisting of taste receptors that interact with food species and send their information to the gustatory cortex—a biological neural network.\" In the new system, the sensor acts as the tongue, while AI plays the role of the gustatory cortex, the brain region responsible for perceiving taste.",
+        "The team linked the sensor to an artificial neural network, a machine learning program that mimics the way the human brain processes information, to process and interpret the data that the sensor collected.",
+        "Initially, the researchers gave the neural network a handful of parameters to use when finding out how acidic a certain liquid was.",
+        "Using those parameters, the neural network determined acidity with about 91% accuracy.",
+        "When they let the neural network define its own parameters for the acidity analysis, its accuracy improved to more than 95%.",
+        "They then tested the tongue on real-world beverages.",
+        "The system could distinguish between similar soft drinks or coffee blends, assess whether milk has been watered down, and identify when fruit juice has gone bad.",
+        "The device’s decision is unreliable in some situations.",
+        "\"We figured out that we can live with imperfection,\" said one author.",
+        "\"And that’s what nature is—it’s full of imperfections, but it can still make robust decisions, just like our electronic tongue.\""
+      ],
+      "question": "Which of the following best summarizes the main idea of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "An electronic tongue can make accurate decisions about food at all times."
+        },
+        {
+          "label": "②",
+          "text": "An electronic tongue works on exactly the same mechanisms as human tongues."
+        },
+        {
+          "label": "③",
+          "text": "An AI-powered electronic tongue can detect taste differences and food conditions."
+        },
+        {
+          "label": "④",
+          "text": "An AI-powered electronic tongue analyzes diverse nutrients in food for assessment."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following best summarizes the main idea of the passage?\nPASSAGE_SENTENCES:\n1. This new device can distinguish between different coffee blends or detect when food or drink may be on the verge of going bad.\n2. Have you ever wondered if that old carton of fruit juice in the back of your fridge is still safe to drink?\n3. A new “electronic tongue” could tell you.\n4. The system, powered by artificial intelligence (AI), can identify issues with food safety and freshness.\n5. It also offers a glimpse at how AI makes decisions, researchers reported in the journal Nature.\n6. To make the tongue, researchers used an ion-sensitive field-effect transistor—a device that detects chemical ions.\n7. The sensor collects information about the ions in a liquid and turns that information into an electrical signal that can be interpreted by a computer.\n8. \"We’re trying to make an artificial tongue, but the process of how we experience different foods involves more than just the tongue,\" said one of the authors.\n9. \"We have the tongue itself, consisting of taste receptors that interact with food species and send their information to the gustatory cortex—a biological neural network.\" In the new system, the sensor acts as the tongue, while AI plays the role of the gustatory cortex, the brain region responsible for perceiving taste.\n10. The team linked the sensor to an artificial neural network, a machine learning program that mimics the way the human brain processes information, to process and interpret the data that the sensor collected.\n11. Initially, the researchers gave the neural network a handful of parameters to use when finding out how acidic a certain liquid was.\n12. Using those parameters, the neural network determined acidity with about 91% accuracy.\n13. When they let the neural network define its own parameters for the acidity analysis, its accuracy improved to more than 95%.\n14. They then tested the tongue on real-world beverages.\n15. The system could distinguish between similar soft drinks or coffee blends, assess whether milk has been watered down, and identify when fruit juice has gone bad.\n16. The device’s decision is unreliable in some situations.\n17. \"We figured out that we can live with imperfection,\" said one author.\n18. \"And that’s what nature is—it’s full of imperfections, but it can still make robust decisions, just like our electronic tongue.\"\nQUESTION:\nWhich of the following best summarizes the main idea of the passage?\nCHOICES:\n① An electronic tongue can make accurate decisions about food at all times.\n② An electronic tongue works on exactly the same mechanisms as human tongues.\n③ An AI-powered electronic tongue can detect taste differences and food conditions.\n④ An AI-powered electronic tongue analyzes diverse nutrients in food for assessment."
+    },
+    {
+      "number": 27,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "As a rule we greatly exaggerate children’s interest in power struggle with us.",
+        "We are so concerned about maintaining our power over them that we think they are equally concerned about taking [A]it away from us.",
+        "They are very much aware that they are powerless, and that we have great power over them.",
+        "They don’t like this, and in a vague way look forward to a time when [B]it may not be true.",
+        "But they are realistic enough to know that at the moment they are not going to be able to do much to change this.",
+        "In any case, if they are to any degree healthy and happy, and have other things to do, they are busy living.",
+        "They don’t want to quarrel with us all the time.",
+        "As long as we don’t abuse our power intolerably, or weary the children with our constant struggles to assert [C]it, most of them, most of the time, are willing, perhaps even too willing, to accept [D]it.",
+        "Most of the quarrels I've seen between adults and children are caused by the adults needlessly trying to prove to the children what they never suspected: that they are the boss."
+      ],
+      "question": "Which one of the four occurrences of ‘it’ is different from others in what it refers to?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "[A]"
+        },
+        {
+          "label": "②",
+          "text": "[B]"
+        },
+        {
+          "label": "③",
+          "text": "[C]"
+        },
+        {
+          "label": "④",
+          "text": "[D]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. As a rule we greatly exaggerate children’s interest in power struggle with us.\n2. We are so concerned about maintaining our power over them that we think they are equally concerned about taking [A]it away from us.\n3. They are very much aware that they are powerless, and that we have great power over them.\n4. They don’t like this, and in a vague way look forward to a time when [B]it may not be true.\n5. But they are realistic enough to know that at the moment they are not going to be able to do much to change this.\n6. In any case, if they are to any degree healthy and happy, and have other things to do, they are busy living.\n7. They don’t want to quarrel with us all the time.\n8. As long as we don’t abuse our power intolerably, or weary the children with our constant struggles to assert [C]it, most of them, most of the time, are willing, perhaps even too willing, to accept [D]it.\n9. Most of the quarrels I've seen between adults and children are caused by the adults needlessly trying to prove to the children what they never suspected: that they are the boss.\nQUESTION:\nWhich one of the four occurrences of ‘it’ is different from others in what it refers to?\nCHOICES:\n① [A]\n② [B]\n③ [C]\n④ [D]"
+    },
+    {
+      "number": 28,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "As a rule we greatly exaggerate children’s interest in power struggle with us.",
+        "We are so concerned about maintaining our power over them that we think they are equally concerned about taking [A]it away from us.",
+        "They are very much aware that they are powerless, and that we have great power over them.",
+        "They don’t like this, and in a vague way look forward to a time when [B]it may not be true.",
+        "But they are realistic enough to know that at the moment they are not going to be able to do much to change this.",
+        "In any case, if they are to any degree healthy and happy, and have other things to do, they are busy living.",
+        "They don’t want to quarrel with us all the time.",
+        "As long as we don’t abuse our power intolerably, or weary the children with our constant struggles to assert [C]it, most of them, most of the time, are willing, perhaps even too willing, to accept [D]it.",
+        "Most of the quarrels I've seen between adults and children are caused by the adults needlessly trying to prove to the children what they never suspected: that they are the boss."
+      ],
+      "question": "Which of the following is the main theme of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Children know enough about what is wrong and what is right."
+        },
+        {
+          "label": "②",
+          "text": "Children are well aware that adults do not have authority over them."
+        },
+        {
+          "label": "③",
+          "text": "Adults unnecessarily try to assert their power over children."
+        },
+        {
+          "label": "④",
+          "text": "Adults are too realistic and children are too idealistic."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. As a rule we greatly exaggerate children’s interest in power struggle with us.\n2. We are so concerned about maintaining our power over them that we think they are equally concerned about taking [A]it away from us.\n3. They are very much aware that they are powerless, and that we have great power over them.\n4. They don’t like this, and in a vague way look forward to a time when [B]it may not be true.\n5. But they are realistic enough to know that at the moment they are not going to be able to do much to change this.\n6. In any case, if they are to any degree healthy and happy, and have other things to do, they are busy living.\n7. They don’t want to quarrel with us all the time.\n8. As long as we don’t abuse our power intolerably, or weary the children with our constant struggles to assert [C]it, most of them, most of the time, are willing, perhaps even too willing, to accept [D]it.\n9. Most of the quarrels I've seen between adults and children are caused by the adults needlessly trying to prove to the children what they never suspected: that they are the boss.\nQUESTION:\nWhich of the following is the main theme of the passage?\nCHOICES:\n① Children know enough about what is wrong and what is right.\n② Children are well aware that adults do not have authority over them.\n③ Adults unnecessarily try to assert their power over children.\n④ Adults are too realistic and children are too idealistic."
+    },
+    {
+      "number": 29,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The Dunning–Kruger effect is a cognitive bias in which people with limited competence in a particular domain overestimate their abilities.",
+        "It was first described by Justin Kruger and David Dunning in 1999.",
+        "Some researchers also include the opposite effect for high performers: their tendency to underestimate their skills.",
+        "In popular culture, the Dunning–Kruger effect is often misunderstood as a claim about general overconfidence of people with low intelligence instead of specific overconfidence of people unskilled at a particular task.",
+        "[A] There is disagreement, however, about the causes of the Dunning–Kruger effect.",
+        "Researchers are still exploring where the effect applies and how strong it is, as well as its practical consequences.",
+        "[B] Other studies have been conducted across a wide range of tasks.",
+        "They include skills from fields such as business, politics, medicine, driving, aviation, spatial memory, examinations in school, and literacy.",
+        "[C] Numerous studies have been done.",
+        "The Dunning–Kruger effect is usually measured by comparing self-assessment with objective performance.",
+        "For example, participants may take a quiz and estimate their performance afterward, which is then compared to their actual results.",
+        "The original study focused on logical reasoning, grammar, and social skills.",
+        "For instance, inaccurate self-assessment could potentially lead people to making bad decisions, such as choosing a career for which they are unfit, or engaging in dangerous behavior.",
+        "It may also inhibit people from addressing their shortcomings to improve themselves."
+      ],
+      "question": "Choose the best order between the two passages in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "[C]-[B]-[A]"
+        },
+        {
+          "label": "②",
+          "text": "[A]-[C]-[B]"
+        },
+        {
+          "label": "③",
+          "text": "[A]-[B]-[C]"
+        },
+        {
+          "label": "④",
+          "text": "[C]-[A]-[B]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The Dunning–Kruger effect is a cognitive bias in which people with limited competence in a particular domain overestimate their abilities.\n2. It was first described by Justin Kruger and David Dunning in 1999.\n3. Some researchers also include the opposite effect for high performers: their tendency to underestimate their skills.\n4. In popular culture, the Dunning–Kruger effect is often misunderstood as a claim about general overconfidence of people with low intelligence instead of specific overconfidence of people unskilled at a particular task.\n5. [A] There is disagreement, however, about the causes of the Dunning–Kruger effect.\n6. Researchers are still exploring where the effect applies and how strong it is, as well as its practical consequences.\n7. [B] Other studies have been conducted across a wide range of tasks.\n8. They include skills from fields such as business, politics, medicine, driving, aviation, spatial memory, examinations in school, and literacy.\n9. [C] Numerous studies have been done.\n10. The Dunning–Kruger effect is usually measured by comparing self-assessment with objective performance.\n11. For example, participants may take a quiz and estimate their performance afterward, which is then compared to their actual results.\n12. The original study focused on logical reasoning, grammar, and social skills.\n13. For instance, inaccurate self-assessment could potentially lead people to making bad decisions, such as choosing a career for which they are unfit, or engaging in dangerous behavior.\n14. It may also inhibit people from addressing their shortcomings to improve themselves.\nQUESTION:\nChoose the best order between the two passages in the box.\nCHOICES:\n① [C]-[B]-[A]\n② [A]-[C]-[B]\n③ [A]-[B]-[C]\n④ [C]-[A]-[B]"
+    },
+    {
+      "number": 30,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The Dunning–Kruger effect is a cognitive bias in which people with limited competence in a particular domain overestimate their abilities.",
+        "It was first described by Justin Kruger and David Dunning in 1999.",
+        "Some researchers also include the opposite effect for high performers: their tendency to underestimate their skills.",
+        "In popular culture, the Dunning–Kruger effect is often misunderstood as a claim about general overconfidence of people with low intelligence instead of specific overconfidence of people unskilled at a particular task.",
+        "[A] There is disagreement, however, about the causes of the Dunning–Kruger effect.",
+        "Researchers are still exploring where the effect applies and how strong it is, as well as its practical consequences.",
+        "[B] Other studies have been conducted across a wide range of tasks.",
+        "They include skills from fields such as business, politics, medicine, driving, aviation, spatial memory, examinations in school, and literacy.",
+        "[C] Numerous studies have been done.",
+        "The Dunning–Kruger effect is usually measured by comparing self-assessment with objective performance.",
+        "For example, participants may take a quiz and estimate their performance afterward, which is then compared to their actual results.",
+        "The original study focused on logical reasoning, grammar, and social skills.",
+        "For instance, inaccurate self-assessment could potentially lead people to making bad decisions, such as choosing a career for which they are unfit, or engaging in dangerous behavior.",
+        "It may also inhibit people from addressing their shortcomings to improve themselves."
+      ],
+      "question": "Which of the following is not true about the Dunning-Kruger effect, according to the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "It is manifested with regard to diverse skills and capabilities."
+        },
+        {
+          "label": "②",
+          "text": "It is a form of bias occurring in evaluating other person’s intelligence."
+        },
+        {
+          "label": "③",
+          "text": "It is primarily about those with limited capabilities overestimating their skills."
+        },
+        {
+          "label": "④",
+          "text": "Its force and the scope of its applicability have not yet been fully determined."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The Dunning–Kruger effect is a cognitive bias in which people with limited competence in a particular domain overestimate their abilities.\n2. It was first described by Justin Kruger and David Dunning in 1999.\n3. Some researchers also include the opposite effect for high performers: their tendency to underestimate their skills.\n4. In popular culture, the Dunning–Kruger effect is often misunderstood as a claim about general overconfidence of people with low intelligence instead of specific overconfidence of people unskilled at a particular task.\n5. [A] There is disagreement, however, about the causes of the Dunning–Kruger effect.\n6. Researchers are still exploring where the effect applies and how strong it is, as well as its practical consequences.\n7. [B] Other studies have been conducted across a wide range of tasks.\n8. They include skills from fields such as business, politics, medicine, driving, aviation, spatial memory, examinations in school, and literacy.\n9. [C] Numerous studies have been done.\n10. The Dunning–Kruger effect is usually measured by comparing self-assessment with objective performance.\n11. For example, participants may take a quiz and estimate their performance afterward, which is then compared to their actual results.\n12. The original study focused on logical reasoning, grammar, and social skills.\n13. For instance, inaccurate self-assessment could potentially lead people to making bad decisions, such as choosing a career for which they are unfit, or engaging in dangerous behavior.\n14. It may also inhibit people from addressing their shortcomings to improve themselves.\nQUESTION:\nWhich of the following is not true about the Dunning-Kruger effect, according to the passage?\nCHOICES:\n① It is manifested with regard to diverse skills and capabilities.\n② It is a form of bias occurring in evaluating other person’s intelligence.\n③ It is primarily about those with limited capabilities overestimating their skills.\n④ Its force and the scope of its applicability have not yet been fully determined."
+    }
+  ]
+}

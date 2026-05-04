@@ -1,0 +1,821 @@
+{
+  "university": "chungang",
+  "university_name": "중앙대학교",
+  "year": 2026,
+  "subject": "math",
+  "subject_name": "수학",
+  "source_text_file": "chungang_2026_math_extracted_complete.txt",
+  "question_count": 30,
+  "questions": [
+    {
+      "number": 1,
+      "points": "2.8점",
+      "stem": "\\frac{d}{dx} ln(\\frac{1+x}{1-x} )|x = \\frac{1}{2} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{4}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{8}{3}"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "3점",
+      "stem": "\\int 0 1 xln\\sqrt{x^2} +1 dx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{2} ln2- \\frac{1}{4}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{2} ln2+ \\frac{1}{4}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "ln2- \\frac{1}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "ln2+ \\frac{1}{2}"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "3.4점",
+      "stem": "행렬 [ [ | ] ] ] 1 2 3 2 3 5 1 0 2 의 역행렬을  = (ij)이라고 할 때, 12 +21 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-4"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "2.8점",
+      "stem": "f(x) = \\frac{+2x+2}{x^2} x 이라고 할 때, lim h\\to0 \\frac{f(2+h)-f(2-h)}{2h} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{25}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{1}{50}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{50}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{25}"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "3점",
+      "stem": "\\int 0 \\pi sin2xcos3xdx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{4}{5}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{2}{5}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{2}{5}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{4}{5}"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "3.8점",
+      "stem": "5\\times5 행렬 5 = (ij) , ij = \\begin{cases} \\end{cases} 1 (i+j = 6), 0 (i+j\\neq6) 에 대하여,\n<보기>\n중 틀린 것은?\n<보기>\n(가) 5\\times5 행렬 의 첫째 열(column)과 다섯째 열이 같으면, 5 =  이다.\n(나) 5 의 모든 대각원소의 합은 1 이다.\n(다) (1, 2, 2, 2, 1), (1, -3, 3, -3, -1) 은 모두 5 의 고유벡터(eigenvector)이다.\n(라) 5 의 역행렬이 존재하고, 역행렬은 5 와 동일하다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(다)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(라)"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "3점",
+      "stem": "타원 x^2 +4y^2 = 8 위의 임의의 점 (x, y) 에 대하여, xy 가 취할 수 있는 최댓값을 , 최솟값을 m 이라고 할 때,  - m 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "4"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "6"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "3점",
+      "stem": "\\sum n = 1 \\infty \\frac{(-1)n+}{n} 1 = 1- \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + ⋯ 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-ln2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "1 - ln2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "ln2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1+ln2"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "3.8점",
+      "stem": "\\int 0 \\pi lnsinxdx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-2\\piln 2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-\\piln 2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "- \\frac{\\pi}{2} ln 2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "- \\frac{\\pi}{4} ln 2"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "3점",
+      "stem": "유클리드 공간 \\mathbb{R}n 에서 u(x) = ||x||\\alpha = (\\sqrt{x\\cdotx} )\\alpha 라고 하자. 모든 x\\neq0 에 대하여 u(x) = (\\frac{2}{x1} 2 + ⋯ + \\frac{2}{xn} 2 )u(x) = 0, x = (x1,⋯,xn ), 의 방정식을 만족시키는 \\alpha 의 값을 구하면? (단, n \\geq 3 )",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\alpha = 1-n"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\alpha = 2-n"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\alpha = n-1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\alpha = n-2"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "3.2점",
+      "stem": "\\sum n = 1 \\infty \\frac{(n+2)^2}{(n+1)} = \\frac{32}{2} + \\frac{42}{3} + \\frac{52}{4} + ⋯의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2(e -1)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "3(e -1)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "4(e -1)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "5(e -1)"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "2.8점",
+      "stem": "x > 0 일 때, 적분 \\int 0 \\infty e- xt sintdt 을 계산하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{+1}{x^2} x"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{+1}{x^2} 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{+1}{x^2} x +1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{+1}{x^2} x -1"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "3.2점",
+      "stem": "방정식 xyex + y +(x+y)exy = 1 에 의해 정의되는 함수 y = y(x) 에 대하여 \\frac{dy}{dx} |x = 0 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-e-2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-e-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "-e"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "-e +1"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "3점",
+      "stem": " = \\int 0 \\frac{\\pi}{2} \\frac{1}{3+2cos\\theta} d\\theta 이라고 할 때,  를 x = tan(\\frac{\\theta}{2} )의 표현으로 바꾸면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": " = 2\\int 0 1 \\frac{1}{5+x^2} dx"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": " = 2\\int 0 1 \\frac{(1+x^2}{5+x^2} )^2 dx"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": " = 2\\int 0 1 \\frac{1}{1+5x^2} dx"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": " = 2\\int 0 1 \\frac{(1+x^2}{1+5x^2} )^2 dx"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "4.2점",
+      "stem": "실수 와 자연수 k에 대하여 k = \\int k\\pi (k+ 1)\\pi \\frac{sint}{t} dt 이라고 할 때, 다음 중에서 \\sum k = 1 \\infty k 는 수렴하지만 \\sum k = 1 \\infty |k| 는 발산하는 경우는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": " = 0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": " = \\frac{1}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": " = \\frac{5}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": " = 2"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "3점",
+      "stem": "f(x) = (\\frac{1+tanhx}{1-tanhx} ) \\frac{1}{6} 에 대하여 f(x)의 도함수를 f'(x)라고 할 때, \\frac{f'(x)}{f(x)} 를 구하면?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{1}{3} tanhx"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{3} coshx"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{3}"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": "3점",
+      "stem": "|x| < 1 일 때, \\int 0 x \\frac{tan-}{u} 1 u du = \\sum k = 0 \\infty k x^2k+ 1 의 전개식에서 \\frac{3}{4} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{81}{49}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{49}{25}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "- \\frac{25}{9}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{81}{25}"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": "4.2점",
+      "stem": "x > 0 의 범위에서 다음 방정식을 만족하는 실근의 개수는? \\frac{1}{x} + \\frac{1}{x-1} + ⋯ + \\frac{1}{x-} = x (단,  \\geq 2 )",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": ""
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "+1"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": "4점",
+      "stem": "실수 전체에서 정의된 함수 u = u(t)가 미분방정식 \\frac{d2}{dt2} u + 4u = t^3 +1, u(0) = \\frac{1}{2} , u'(0) = \\frac{1}{8} 의 해라고 할 때, u(1) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{4} (cos2 + sin2) + \\frac{1}{8}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{4} (cos2 - sin2) + \\frac{1}{8}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{4} (cos2 + sin2) + \\frac{3}{32}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{4} (cos2 - sin2) + \\frac{3}{32}"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": "4점",
+      "stem": "\\mathbb{R}^3 에서 다음과 같이 매개변수 (r, \\theta)로 표현되는 곡면  의 표면적(surface area)은?  : u(r,\\theta) = rcos\\thetai + rsin\\thetaj + rk (0 \\leq r \\leq 2, 0 \\leq \\theta \\leq 2\\pi)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\pi\\sqrt{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2\\pi\\sqrt{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "4\\pi\\sqrt{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "8\\pi\\sqrt{2}"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": "3점",
+      "stem": "\\mathbb{R}^3 의 벡터 a = (1, -1, 1), b = (1, 1, 0), c = (3, 4, 5) 에 대하여, 벡터 c 를 선형결합 c = c1 a + c^2 b +c^3 (a \\timesb) 이라고 표현할 때, 모든 계수의 곱 c1 c^2 c^3 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{22}{9}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{14}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{77}{12}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{77}{9}"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "points": "3.8점",
+      "stem": "함수 (x) 를 다음과 같이 정의할 때, 2차 미분계수  ''(0) 의 값은?  (x) = \\begin{cases} \\end{cases} \\frac{1}{x} \\int 0 x \\frac{sint}{t} dt (x\\neq0), 1 (x = 0).",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{4}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{1}{9}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{27}"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": "3점",
+      "stem": "구간 0, \\infty)에서 정의된 함수 x = x(t)가 미분방정식 \\frac{dx}{dt} = k(x-a)(x-b), x(0) = 0 의 해라고 할 때, x(t)를 구하면? (단, a, b, k 는 상수이고, 0 < a < b 이며 k > 0 이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "x(t) = \\frac{k(b-}{a-be-} a)t ab1-e- k(b- a)t "
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "x(t) = \\frac{k(b-}{a+be-} a)t ab1-e- k(b- a)t "
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "x(t) = \\frac{k(b-}{b-ae-} a)t ab1-e- k(b- a)t "
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "x(t) = \\frac{k(b-}{b+ae-} a)t ab1-e- k(b- a)t "
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": "3.3점",
+      "stem": "모든 성분이 실수인 n\\timesn 행렬의 벡터공간을 n\\timesn (\\mathbb{R}) 이라 하고, 대칭행렬의 부분공간을  = { \\in n\\timesn (\\mathbb{R}) :  =  }이라고 할 때,  의 차원(dimension)은? (단, n \\geq 2 )",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "n-1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "n"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{n(n-1)}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{n(n+1)}{2}"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": "3점",
+      "stem": "좌표평면의 1사분면에서 y = cosx 와 4x^2 + \\pi2 y^2 = \\pi2 사이의 영역을 이라고 할 때, 의 면적을 구하면? (은 아래 그림의 빗금 친 부분에 해당한다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\pi2}{8} -2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{\\pi2}{8} -1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi2}{8} +1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{\\pi2}{8} +2"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": "4.4점",
+      "stem": " = {(x, y, z)\\in\\mathbb{R}^3 : \\frac{x^2}{a^2} + \\frac{y^2}{b^2} + \\frac{z^2}{c^2} \\leq 1}이라고 할 때, \\iiint  (\\frac{x^2}{a^2} +\\frac{y^2}{b^2} + \\frac{z^2}{c^2} ) 3 dxdydz 를 계산하면? (단, a > 0, b > 0, c > 0 이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\pi}{9} abc"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2\\pi}{9} abc"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi}{3} abc"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{4\\pi}{9} abc"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "points": "3.3점",
+      "stem": "유클리드 공간 \\mathbb{R}^4 에 속하는 벡터 a \\neq 0 에 대하여, 선형변환  : \\mathbb{R}^4 \\to \\mathbb{R}^4 를 x = x - 2(\\frac{a\\cdotx}{a\\cdota} )a (x \\in\\mathbb{R}^4 ) 이라고 하자. 표준기저에 관한 의 행렬표현을 라고 할 때,  의 특성다항식 (characteristic polynomial) f(\\lambda) = |\\lambda -| 을 구하면? (단,  는 4\\times4 단위행렬이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "f(\\lambda) = (\\lambda-1)^4"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "f(\\lambda) = (\\lambda+1)^4"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "f(\\lambda) = (\\lambda-1)^3 (\\lambda+1)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "f(\\lambda) = (\\lambda-1)(\\lambda+1)^3 ※ 문제 [28], [29]에서 주어진 곡선 \\gamma는 좌표 평면상에서 \\gamma : x = tcost, y = tsint (0 \\leq t \\leq 2\\pi)와 같이 매개변수 t 로 표현되는 나선형 곡선을 나타낸다. (그림 참조)"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "points": "3.5점",
+      "stem": "\\Omega 를 곡선 \\gamma 와 양의 x축으로 둘러싸인 영역이라고 할 때, \\Omega 의 넓이는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2}{3} \\pi3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\pi3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4}{3} \\pi3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{8}{3} \\pi3"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "points": "3점",
+      "stem": "곡선 \\gamma 의 t 에서의 곡률(curvature)을 (t)라고 할 때, (\\sqrt{3} )의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{5}{64}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{5}{8}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{5}{4}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{5}{2}"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "points": "3.5점",
+      "stem": "벡터함수 f= (f1, f2, f3 ) : \\mathbb{R}^3 \\to\\mathbb{R}^3 를 fj (x1, x^2, x^3) = \\frac{+x^2}{1+x1} +x^3 xj , j = 1, 2, 3 이라고 정의할 때, f (x1, x^2, x^3) = \\frac{x^2,}{(x1,} x^3) (f1, f2, f3) = | | \\frac{f1}{x1} \\frac{f1}{x^2} \\frac{f1}{x^3} \\frac{f2}{x1} \\frac{f2}{x^2} \\frac{f2}{x^3} \\frac{f3}{x1} \\frac{f3}{x^2} \\frac{f3}{x^3} 을 구하면? (단, 1+x1 +x^2 +x^3 \\neq0 이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{+x^2}{(1+x1} +x^3)^6 1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{+x^2}{(1+x1} +x^3)^6 1-x1x^2x^3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{+x^2}{(1+x1} +x^3)^4 1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{+x^2}{(1+x1} +x^3)^4 1-x1x^2x^3"
+        }
+      ]
+    }
+  ]
+}

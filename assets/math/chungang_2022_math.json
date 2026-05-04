@@ -1,0 +1,821 @@
+{
+  "university": "chungang",
+  "university_name": "중앙대학교",
+  "year": 2022,
+  "subject": "math",
+  "subject_name": "수학",
+  "source_text_file": "chungang_2022_math_extracted_complete.txt",
+  "question_count": 30,
+  "questions": [
+    {
+      "number": 1,
+      "points": "3.5점",
+      "stem": "-1 < x < 1 에서 secx = \\sum n = 0 \\infty anxn 일 때, a0 +a1 +a^2 +a^3 +a^4 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{43}{24}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{41}{24}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{41}{24}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{43}{24}"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "3점",
+      "stem": "곡선 x \\frac{2}{3} +y \\frac{2}{3} = 1, x \\geq 0, y \\geq 0 의 길이는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{3}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{7}{6}"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "3.5점",
+      "stem": "방정식 5x^2 +2xy+5y^2 = 12 를 만족하는 두 실수 x, y 에 대하여 y 의 최댓값과 최솟값의 차는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\sqrt{5}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\sqrt{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\sqrt{8}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\sqrt{10}"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "3점",
+      "stem": "행렬 \\begin{pmatrix} \\end{pmatrix} 0 1 1 1 0 1 1 1 0 의 역행렬의 대각합은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{3}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{5}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "- \\frac{7}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{9}{2}"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "3.5점",
+      "stem": "반원판 x^2 +(y- \\frac{16}{3\\pi} ) 2 \\leq 1, y \\geq \\frac{16}{3\\pi} 을 x 축 중심으로 회전하여 얻은 회전체의 부피는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{25\\pi}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{11\\sqrt{3}}{3} \\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{5\\sqrt{3\\pi}}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{20\\pi}{3}"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "3.5점",
+      "stem": "다음\n<보기>\n의 급수 중에서 수렴하는 것의 개수는?\n<보기>\n(가) \\sum\nn = 3\n\\infty\nln\n(1+ \\frac{-1}{n^2}\n1\n)\n(나) \\sum\nn = 1\n\\infty\n\\frac{\\frac{1}{\\sqrt{2}}}{n(1+}\n+⋯+ \\frac{1}{\\sqrt{n}}\n)\n1\n(다) \\sum\nn = 1\n\\infty\n\\frac{1}{\\sqrt{n}}\nln(\\frac{n+1}{n}\n)\n(라) \\sum\nn = 1\n\\infty\nsin(\\frac{1}{n}\n)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "3.5점",
+      "stem": "함수 f(x) = \\sqrt{3} \\frac{(-1}{1+x^2} < x < 1) 에 대하여 f(6) (0) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{5}{81}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{10}{27}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{400}{9}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{2000}{3}"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "3.5점",
+      "stem": "구 x^2 +y^2 +z^2 = 3 위의 점 P와 두 점 A(1, 2, 3), B(3, 2, 1) 을 꼭짓점으로 가지는 삼각형 ABP 의 넓이의 최댓값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\sqrt{6}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2\\sqrt{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "3\\sqrt{6}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "4\\sqrt{6}"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "2.5점",
+      "stem": "행렬 \\begin{pmatrix} \\end{pmatrix} 78 3 \\pi \\sqrt{2} 1675 67 6 e 3025 121 11 5 1100 44 4 2 의 행렬식은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "6"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-12"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "24"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "-48"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "4점",
+      "stem": "선형사상  : \\mathbb{R}^3 \\to \\mathbb{R}^3 을 다음과 같이 정의하자. v = v,  = \\begin{pmatrix} \\end{pmatrix} 3 2 1 1 1 1 1 2 3 , v\\in\\mathbb{R}^3 .  의 치역은 \\mathbb{R}^3 에서 평면을 이룬다. 이 평면에 대하여 점 (1, 1, 1) 과 대칭인 점을 (a, b, c) 라 할 때, a+b+c 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{23}{12}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{23}{9}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{25}{6}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{25}{3}"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "3점",
+      "stem": "2\\times2 행렬 에 대하여 3 의 특성다항식(characteristic polynomial) q(t) 가 q(0) = -216, q(1) = -234 를 만족한다고 하자. 의 특성다항식을 p(t) 라 할 때, p(1) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-12"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-6"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "6"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "4점",
+      "stem": "두 직선 y = x, y = ex 와 두 쌍곡선 xy = 1, xy = 7 에 의해 둘러싸인 제1 사분면 위의 영역을  라 할 때, \\iint  xy dxdy 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "15"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "12"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "10"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "2.5점",
+      "stem": "세 벡터 w1 = (1, 0, 0, 0), w2 = (1, 1, 1, 0), w3 = (1, 2, 0, 1) 에 그람-슈미트 과정(Gram–Schmidt process)을 적용하여 얻은 정규직교 벡터(orthonormal vectors)가 u1 = (1, 0, 0, 0), u2 = (0, a, a, b), u3 = (0, c, d, c) 일 때, a^2 +b^2 +c^2 +d2 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{5}{6}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{7}{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{11}{12}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{13}{12}"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "3.5점",
+      "stem": "반지름이 1 인 원에 외접하는 정n각형과 내접하는 정n각형의 넓이 차를 n 이라 하자. lim n\\to\\infty nk n 이 0 이 아닌 값으로 존재하도록 하는 상수 k 에 대하여 lim n\\to\\infty nk n = \\alpha 라 할 때, \\alphak 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\pi2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\pi3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\pi6"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "4점",
+      "stem": "점 (1, 1, 0) 에서 곡면 z = x^2 +y^2 에 그은 접선들과 곡면 z = x^2 +y^2 으로 둘러싸인 영역의 부피는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2}{3} \\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{2} \\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{5}{6} \\pi"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "2.5점",
+      "stem": "극한 lim x\\to 0 \\frac{sinx-tan-}{x^3} 1 x 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{12}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{4}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{3}"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": "3.5점",
+      "stem": "x > 1에서 정의된 곡선 y = \\frac{\\sqrt{2}}{x-1} 위의 점 P 를 포함하는 두 직선이 각각 점 A와 점 B에서 원 x^2 +y^2 = 1 에 접한다. 내적 \\frac{PA\\cdot\\frac}{}  PB 의 최솟값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{7}{3}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{8}{3}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{10}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{11}{3}"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": "3점",
+      "stem": "함수 f(x,y) = \\int xy x^2 + y^2 et2 dt 의 편미분계수 \\frac{f}{x} (1,1)의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "e4 -2e"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "e4 -e"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2e4 -2e"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2e4 -e"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": "4점",
+      "stem": "\\int 0 \\infty \\frac{x+xlnx}{1+x^4} dx 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\pi-2}{4}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{\\pi-1}{4}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi}{4}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{\\pi+1}{4}"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": "3.5점",
+      "stem": "x > 0, y > 0 에서 정의된 x^4 +y^4 = 16에 대하여 x = 1 에서 \\frac{d2}{dx2} y 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{\\frac}{3} 4 3 5 \\frac{7}{4} 24"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{\\frac}{3} 4 3 5 \\frac{7}{4} 25"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "- \\frac{\\frac}{3} 4 5 5 \\frac{7}{4} 24"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "- \\frac{\\frac}{3} 4 5 5 \\frac{7}{4} 25"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": "3.5점",
+      "stem": "좌표평면에서 y = x^4 -x^5 과 y = 0 으로 둘러싸인 영역을 y 축을 중심으로 회전시킬 때 생기는 입체의 부 피는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\pi}{24}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{\\pi}{23}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi}{22}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{\\pi}{21}"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "points": "3점",
+      "stem": "\\sum k = 0 \\infty (k+1)(k+2)(\\frac{1}{2} ) \\frac{k}{2} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "38+26\\sqrt{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "38+28\\sqrt{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "40+26\\sqrt{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "40+28\\sqrt{2}"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": "3점",
+      "stem": "행렬  = ( ) 1 -2 2 -1 에 대하여 \\sum k = 1 \\infty det( k )k(\\frac{1}{4} ) k- 1 의 값은? (단, det( )는 정사각행렬  의 행렬식을 나타낸다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "16"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "24"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "48"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "72"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": "3.5점",
+      "stem": "행렬  = \\begin{pmatrix} \\end{pmatrix} 9 1 1 -1 -9 1 3 0 0 에 대하여 det(3 -81)의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "27 33 5"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "26 34 5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "28 33 5"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "28 34 5"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": "2.5점",
+      "stem": "곡면 x^2 -xyz+z^3 = 1 이 있다. 이 곡면 위의 점 (1, 1, 1)에서의 접평면과 z 축의 교점의 좌표는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(0, 0, \\frac{3}{4} )"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(0, 0, 1)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(0, 0, \\frac{5}{4} )"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(0, 0, \\frac{3}{2} )"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": "3.5점",
+      "stem": "선형사상  : \\mathbb{R}^3 \\to\\mathbb{R}^3 은 (x, y, z) = (x+2y+3z, 2x+y, 3x+2z)로 정의된다. 구 x^2 +y^2 +z^2 = 1 위의 점 (x, y, z)에 대하여 ∥(x, y, x)∥의 최솟값은? (단, ∥(a, b, c)∥ = \\sqrt{a^2} +b^2 +c^2 이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\sqrt{13-2}}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{\\sqrt{13}}{2} -1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\sqrt{13}}{2} +1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{\\sqrt{13}}{2} +2"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "points": "3.5점",
+      "stem": "\\int 0 1 \\int \\sqrt{x} 1 \\sqrt{y^3} +2 dydx의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2}{3} \\sqrt{3} - \\frac{5}{9} \\sqrt{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2}{3} \\sqrt{3-} \\frac{4}{9} \\sqrt{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{2}{3} \\sqrt{3} - \\frac{2}{9} \\sqrt{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{2}{3} \\sqrt{3-} \\frac{1}{9} \\sqrt{2}"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "points": "3.5점",
+      "stem": "0 \\leq t \\leq \\pi에서 정의된 곡선  는 r(t) = (et sint, et cost)로 주어지고 t = 0 에서 출발하여 t = \\pi 에서 끝난 다. 벡터장 (x, y) = (3+ 2xy, x^2 -3y^2 )에 대하여 선적분 \\int  \\cdotdr의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "e3\\pi +1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "e3\\pi +2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "e5\\pi +1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "e5\\pi +2"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "points": "4점",
+      "stem": "두 평면 z = 0, z = 3 과 원기둥 x^2 +y^2 = 1로 둘러싸인 영역  의 경계를  라 하자. 이때 곡면  에 대한 벡터장 = (xex2 +y^2 , yex2 + y^2 , zex2 +y^2 )의 유량(flux) \\iint  \\cdotd 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2\\pi(2e -1)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "3\\pi(2e -1)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2\\pi(3e -1)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3\\pi(3e -1)"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "points": "3점",
+      "stem": "행렬  = \\begin{pmatrix} \\end{pmatrix} 3 0 1 0 2 0 0 2 1 에 대하여, 3 의 고윳값의 합은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "34"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "35"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "36"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "37"
+        }
+      ]
+    }
+  ]
+}

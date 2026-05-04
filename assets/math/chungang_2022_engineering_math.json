@@ -1,0 +1,821 @@
+{
+  "university": "chungang",
+  "university_name": "중앙대학교",
+  "year": 2022,
+  "subject": "engineering_math",
+  "subject_name": "공업수학",
+  "source_text_file": "chungang_2022_engineering_math_extracted_complete.txt",
+  "question_count": 30,
+  "questions": [
+    {
+      "number": 1,
+      "points": "3점",
+      "stem": "방정식 5x^2 +2xy+5y^2 = 12 를 만족하는 두 실수 x, y 에 대하여 y 의 최댓값과 최솟값의 차는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\sqrt{6}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\sqrt{8}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\sqrt{10}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\sqrt{12}"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "4점",
+      "stem": "선형사상  : \\mathbb{R}^3 \\to \\mathbb{R}^3 을 다음과 같이 정의하자. v = v,  = \\begin{pmatrix} \\end{pmatrix} 3 2 1 1 1 1 1 2 3 , v\\in\\mathbb{R}^3 .  의 치역은 \\mathbb{R}^3 에서 평면을 이룬다. 이 평면에 대하여 점 (1, 1, 1) 과 대칭인 점을 (a, b, c) 라 할 때, a+b+c 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{23}{12}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{23}{9}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{25}{6}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{25}{3}"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "4점",
+      "stem": "두 직선 y = x, y = ex 와 두 쌍곡선 xy = 1, xy = 7 에 의해 둘러싸인 제1 사분면 위의 영역을  이라 할 때, \\iint  xy dxdy 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "4"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "6"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "12"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "2.5점",
+      "stem": "세 벡터 w1 = (1, 0, 0, 0), w2 = (1, 1, 1, 0), w3 = (1, 2, 0, 1) 에 그람-슈미트 과정(Gram–Schmidt process)을 적용하여 얻은 정규직교 벡터(orthonormal vectors)가 u1 = (1, 0, 0, 0), u2 = (0, a, a, b), u3 = (0, c, d, c) 일 때, a^2 +b^2 +c^2 +d2 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{5}{6}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{7}{6}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{11}{12}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{13}{12}"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "3.5점",
+      "stem": "반지름이 1 인 원에 외접하는 정n각형과 내접하는 정n각형의 넓이 차를 n 이라 하자. lim n\\to\\infty nk n 이 존재하도록 하는 상수 k 에 대하여 lim n\\to\\infty nk n = \\alpha 라 할 때, \\alphak 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\pi2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\pi3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\pi6"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\pi12"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "2.5점",
+      "stem": "극한 lim x\\to 0 \\frac{sinx-tan-}{x^3} 1 x 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{4}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{3}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "3점",
+      "stem": "함수 f(x,y) = \\int xy x^2 + y^2 et2 dt 의 편미분계수 \\frac{f}{x} (1,1) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "e4 -2e"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "e4 -e"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2e4 -2e"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2e4 -e"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "3.5점",
+      "stem": "좌표평면에서 y = x^4 -x^5 과 y = 0 으로 둘러싸인 영역을 y 축을 중심으로 회전시킬 때 생기는 입체의 부피는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{\\pi}{23}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{\\pi}{22}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{\\pi}{21}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{\\pi}{20}"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "3.5점",
+      "stem": "행렬  = \\begin{pmatrix} \\end{pmatrix} 9 1 1 -1 -9 1 3 0 0 에 대하여 det(3 -81) 의 값은? (단, det 는 정사각행렬  의 행렬식(determinant)을 나타낸다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "27 33 5"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "26 34 5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "28 33 5"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "28 34 5"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "4점",
+      "stem": "두 평면 z = 0, z = 3 과 원기둥 x^2 +y^2 = 1 로 둘러싸인 영역  의 경계를  라 하자. 이때 곡면  에 대한 벡터장  = (xex2 + y^2 , yex2 +y^2 , zex2 +y^2 ) 의 유량(flux) \\iint  \\cdotd 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2\\pi(2e -1)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "3\\pi(2e -1)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2\\pi(3e -1)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "3\\pi(3e -1)"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "3.5점",
+      "stem": "y = y(x) 가 미분 방정식 y''+2y'-8y = 2e- 2x -e- x , y(0) = 1, y'(0) = 0 의 해일 때, y = ae2x +be-4x +ce- 2x +de-x 이다. c+d 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{14}{36}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{5}{36}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{4}{36}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{13}{36}"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "3.5점",
+      "stem": "f(t) 가 적분 방정식 f(t) = cost +\\int 0 t e-  f(t-)d 를 만족할 때, f(\\frac{\\pi}{6} )의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1+\\sqrt{3}}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{-1-\\sqrt{3}}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{-1+\\sqrt{3}}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1-\\sqrt{3}}{2}"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "3.5점",
+      "stem": "y = y(x) 가 미분 방정식 y'''+2y''-5y'-6y = 0, y(0) = y'(0) = 0, y''(0) = 1 의 해일 때, y = eax +ebx +ecx 이다. \\timesa+\\timesb+\\timesc 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{1}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "0"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "3점",
+      "stem": "미분 방정식 y''+16y = (t-2\\pi), y(0) = 0, y'(0) = 0 의 해는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1}{4} sin (4t)u(t+2\\pi)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1}{4} cos (4t)u(t-2\\pi)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1}{4} cos (4t)u(t+2\\pi)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1}{4} sin (4t)u(t-2\\pi)"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "3.5점",
+      "stem": "y = y(x) 가 미분 방정식 y''-4y'+4y = (12x^2 -6x)e2x , y(0) = 1, y'(0) = 0 의 해일 때, y(-2) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "5e- 4"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "13e- 4"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "21e- 4"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "29e- 4"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "3점",
+      "stem": "미분 방정식 (2ysinxcosx-y+2y^2 exy2 )dx = (x-sin2 x-4xyexy2 )dy 의 해는?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "ysin2 x-xy+4exy2 = c"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "ysin2 x-xy+2ex2 y = c"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "ysin2 x-xy+2exy2 = c"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "ysin2 x-xy+4ex2 y = c"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": "3.5점",
+      "stem": "x = x(t), y = y(t) 가 연립 미분 방정식 2x'(t)+y'(t)-2x = 1, x'(t)+y'(t)-3x-3y = 2, x(0) = 0, y(0) = 0 의 해일 때, x(1)+y(1) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{2}{3} (e2 -1)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{2}{3} (e3 -1)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "e2 -1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "e3 -1"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": "3점",
+      "stem": "y = y(x) 가 미분 방정식 y''+9y = ex , y(0) = 0, y'(0) = 0 의 해일 때, y(\\pi) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{e\\pi}{10} - \\frac{1}{10}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{e\\pi}{10} - \\frac{1}{30}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{e\\pi}{10} + \\frac{1}{30}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{e\\pi}{10} + \\frac{1}{10}"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": "3.5점",
+      "stem": "함수 g(t) = e- 2t cos(t- \\frac{\\pi}{6} )의 Laplace 변환이 (s) 로 주어질 때, (-3) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1-2\\sqrt{3}}{4}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1-\\sqrt{3}}{4}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{1+\\sqrt{3}}{4}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{1+2\\sqrt{3}}{4}"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": "3.5점",
+      "stem": "y = y(x) 가 미분 방정식 y''-2y'+5y = 1+x, y(0) = 0, y'(0) = 4 의 해일 때, y(\\frac{\\pi}{4} )= a+b(\\frac{\\pi}{4} )+ce \\frac{\\pi}{4} 이다. a+b+c의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{9}{25}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{27}{25}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{45}{25}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{63}{25}"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": "3점",
+      "stem": "y = y(x) 가 미분 방정식 xy2 \\frac{dy}{dx} = y^3 -x^3 , y(1) = 2 의 해일 때, y(e) 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "5 \\frac{1}{3} e"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "1+5 \\frac{1}{3} e"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "5e"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1+5e"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "points": "2.5점",
+      "stem": "주기가 2인 함수 f(x) 를 다음과 같이 정의하자. f(x) = x+5, -1 < x < 1 f(x) 를 아래와 같이 Fourier 급수로 나타낼 때, a^3 +b^2 +c^3 의 값은? f(x) = \\frac{a0}{2} + \\sum n = 1 \\infty (an cosn\\pix+bn sinn\\pix) = \\sum n =- \\infty \\infty cnein\\pix",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{-3-i}{3\\pi}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{-3+i}{3\\pi}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{3-i}{3\\pi}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{3+i}{3\\pi}"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": "2.5점",
+      "stem": "함수 f(x) 를 다음과 같이 정의하자. f(x) = {0, x < 0 e- x , x \\geq 0 f(x) 를 아래와 같이 Fourier 적분으로 나타낼 때, (\\alpha)+(\\alpha) 를 계산하면? f (x) = \\frac{1}{\\pi} \\int 0 \\infty (\\alpha)cos\\alphax +  (\\alpha)sin\\alphaxd\\alpha",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{1+\\alpha}{1+\\alpha2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{1-\\alpha}{1+\\alpha2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{-1+\\alpha}{1+\\alpha2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{-1-\\alpha}{1+\\alpha2}"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": "4점",
+      "stem": "다음\n<보기>\n중 복소함수 f(z) 의 Laurent 급수와 수렴영역이 올바르게 짝지어진 것은 모두\n몇 개인가?\n<보기>\nf(z) = \\frac{(z^2}{z^2}\n+3z +2)\nz+4\n(가) f(z) = \\frac{2}{z^2}\n- \\frac{5}{2z}\n+ \\sum\nn = 0\n\\infty\n(-1)n\n(3- \\frac{2}{2n+}\n1\n)zn\n, 0 < |z|< 1\n(나) f(z) = \\sum\nn = 2\n\\infty\n\\frac{1}{zn+}\n3(-1)n\n- \\frac{1}{z^2}\n+ \\frac{1}{2z}\n- \\sum\nn = 0\n\\infty\n\\frac{(-1)n}{2n+2}\nzn\n, 1 < |z|< 2\n(다) f(z) = \\sum\nn = 3\n\\infty\n\\frac{(-1)n+}{zn} 1\n(3-2n- 1\n)\n, 2 < |z|< \\infty\n(라) f(z) = \\frac{3}{z+1}\n+ \\sum\nn = 0\n\\infty\n(2n+ \\frac{7}{2}\n- \\frac{(-1)n}{2}\n)(z +1)n\n, 0 < |z+1|< 1",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "1 개"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2 개"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "3 개"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "4 개"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": "3점",
+      "stem": "\\int 1- 2i \\pii coszdz 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-sin1cosh2+i(sinh\\pi-cos1sinh2)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-sin1cosh2+i(-sinh\\pi+cos1sinh2)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "-sin1cosh2+i(sinh\\pi+cos1sinh2)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "-sin1cosh2-i(sinh\\pi+cos1sinh2)"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": "4점",
+      "stem": "다음\n<보기>\n중 옳은 것은 모두 몇 개인가?\n<보기>\n(가) z = \\frac{-\\sqrt{3}}{2} +i\n일 때 z603\n= i 이다.\n(나) 복소방정식 (z-1)^7\n= (z+2)^7\n을 만족하는 해의 개수는 모두 6개이다.\n(다) 복소함수 f(z) = e\n\\frac{는}{z} 복소평면 위의 어떤 점에서도 해석적이지 않다.\n(단, \\frac{는}{z} z 의 켤레복소수이다.)\n(라) 복소함수 f(z) = \\frac{sinz}{z^{2010}}\n는 z0 = 0 에서 차수가 2009인 극(pole)을 갖고 Res(f(z),z0)= \\frac{1}{2009}\n이다.\n(단, z0 에서 f(z) 의 유수(residue)는 Res(f(z),z0) 로 나타낸다.)\n(마) 선형분수변환 (z) = \\frac{z-i}{z}\n에 대한 원 |z-1|= 1 의 상(image)은 직선이다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2 개"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "3 개"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "4 개"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "5 개"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "points": "3점",
+      "stem": "복소함수 f(z) = cos2 z 를 중심 z0 = \\pi 인 Taylor 급수 f(z) = 1+ \\sum n = 1 \\infty an (z-\\pi)n 으로 전개하였을 때, \\frac{a^8}{a10} 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "- \\frac{45}{2}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "- \\frac{39}{2}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "- \\frac{33}{2}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "- \\frac{17}{2}"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "points": "3.5점",
+      "stem": " 를 원 |z -i|= 2 이라 할 때, \\int  (\\frac{+6i)(z}{(z} -2i) 4e- iz + \\frac{)dz}{z} 를 계산하면? (단,  의 방향은 시계반대방향이고 \\frac{는}{z} z 의 켤레복소수이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(\\frac{1}{2e2} +4i)\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(\\frac{1}{e2} +8i )\\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(e2 +4i)\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(e2 +8i)\\pi"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "points": "4점",
+      "stem": "\\int 0 2\\pi cos10 \\theta d\\theta 의 값은?",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{55\\pi}{128}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{59\\pi}{128}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{63\\pi}{128}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{67\\pi}{128}"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "points": "3.5점",
+      "stem": " 를 원 |z|= \\frac{1}{2} 이라 할 때, \\int  (\\frac{(1-z)}{z^4} ez -1 +z^3 cos \\frac{1}{z} )dz 를 계산하면? (단,  의 방향은 시계반대방향이다.)",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac{25\\pii}{12}"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac{33\\pii}{12}"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac{41\\pii}{12}"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac{49\\pii}{12}"
+        }
+      ]
+    }
+  ]
+}

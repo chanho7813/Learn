@@ -1,0 +1,842 @@
+{
+  "university": "seoul",
+  "university_name": "서울시립대학교",
+  "year": 2024,
+  "subject": "math_natural1",
+  "subject_name": "수학 자연계열Ⅰ",
+  "source_pdf": "서울시_24_수학.pdf",
+  "question_count": 30,
+  "questions": [
+    {
+      "number": 1,
+      "points": "3점",
+      "stem": "\\\\operatorname{sech} x=\\frac 3 2일 때, \\\\tanhx의 값은? (단, x>0이다.) [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 3 \\sqrt\\frac 5"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 2 \\sqrt\\frac 5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 2 \\sqrt\\frac 13"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 5 2\\sqrt\\frac 5"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 5 3\\sqrt\\frac 5"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "3점",
+      "stem": "곡선 \\ln(x^{2}+y^{2})-xy^{2}=0 위의 점 (0,1)에서 접선 의 기울기는? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\frac 2 3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-\\frac 2 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 2 1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 2 3"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "3점",
+      "stem": "곡선 x=2e\\cost, y=e\\sin^{3}t (\\frac 2 \\pi<t<\\pi)이 수평접선 을 가지는 t의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 12 11\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 6 5\\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 4 3\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 3 2\\pi"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 12 7\\pi"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "3점",
+      "stem": "급수가 다음을 만족할 때, a+10b의 값은? [3점] (가) \\sum n=0 \\infty\\frac 62n-1(2n+1) (-1)n\\pi2n+1 =a (나) \\sum n=2 \\infty\\frac 21n\\lnn \\sqrt\\frac n+5(3x-1)n 의 수렴 반지름은 b이다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "78"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "88"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "92"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "96"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "98"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "3점",
+      "stem": "정적분 \\int 0 1\\frac \\sqrt\\frac 4-x^{2} 3x^{2} dx의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 2 \\pi-\\frac 2 3\\sqrt\\frac 3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 2 \\pi+\\frac 2 3\\sqrt\\frac 3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\pi-\\frac 2 3\\sqrt\\frac 3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\pi+\\frac 2 \\sqrt\\frac 3"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\pi+\\frac 2 3\\sqrt\\frac 3"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "3점",
+      "stem": "점 (1,\\frac 2 1)에서 함수 f(x,y)=\\frac 4 1-x^{2}y\\cos (\\pix+\\piy) 의 선형화를 L(x,y)=ax+by+c라 할 때, a+b+c 의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 8 1-\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 4 1-\\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 2 1-\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 4 1+\\pi"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 8 1+\\pi"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "3점",
+      "stem": "극한 \\lim x→0\\frac x^{6} \\int 0 2x^{2} \\sin(\\frac 3 t^{2} )dt 의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 3 2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 9 8"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 3 8"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\infty"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "3점",
+      "stem": "정적분 \\int 0 \\sqrt\\frac 3 2x\\tan^{-1}xdx의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 3 2\\pi-\\sqrt\\frac 3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 3 2\\pi-\\frac 2 \\sqrt\\frac 3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 3 2\\pi+\\sqrt\\frac 3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 3 4\\pi-\\sqrt\\frac 3"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 3 5\\pi-\\sqrt\\frac 3"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "3점",
+      "stem": "곡선 x=3+2t^{3}2, y=3t (0\\leqt\\leq3)의 호의 길이 는? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "14"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "15"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "16"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "17"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "3점",
+      "stem": "직선 과 평면 P의 방정식은 다음과 같다. :4-x=\\frac 3 y+1=\\frac 2 z-2 P :3x+y-2z=3 평면 Q가 다음을 만족할 때 a+b+c의 값은? [3점] (가) 평면 Q의 방정식은 ax+by+cz=1이다. (나) 평면 Q는 직선 을 포함한다. (다) 평면 Q는 평면 P에 수직이다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\frac 4 1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-\\frac 2 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 2 1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 4 1"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "3점",
+      "stem": "C가 점 (1,e,\\frac e 1)로부터 점 (e,1,0)까지의 선분일 때, 벡터장 F (x,y,z)=\\langle \\frac x y^{3} -2xyz,3y^{2}\\lnx-x^{2}z,-x^{2}y\\rangle 의 선적분 \\int C F \\cdotdr의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "-\\frac 2 1"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 2 1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "3점",
+      "stem": "함수 f(x,y)=e\\sqrt\\frac x\\ln (y^{2}+1)이고, 2x-y=, x+y=t라 하자. =1, t=2일 때 편도함수 \\frac t f의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 6 e(\\ln^{2}-4)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 6 e(\\ln^{2}+4)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 3 e(\\ln^{2}-2)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 3 e(\\ln^{2}+2)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 3 e(\\ln^{2}+4)"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "3점",
+      "stem": "곡선 y=x^{2}과 직선 y=2로 둘러싸인 영역을 직선 x=2를 축으로 회전시켜 얻은 입체의 부피는? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 3 16\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 3 16\\sqrt\\frac 2\\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 3 32\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 3 32\\sqrt\\frac 2\\pi"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "4\\pi(2\\sqrt\\frac 2-1)"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "4점",
+      "stem": "함수 f와 g가 다음을 만족한다. (가) f(x,y,z)=x+y^{2}+z-6 (나) g(x,y,z)는 미분가능한 함수이다. (다) g(1,2,1)=2 점 (1,2,1)에서 벡터 u =\\langle 0,\\frac \\sqrt\\frac 2 1,\\frac \\sqrt\\frac 2 1 \\rangle 방향에 대한 함수 fg의 방향도함수의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 2 5\\sqrt\\frac 2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "5\\sqrt\\frac 2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "10\\sqrt\\frac 2"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "3점",
+      "stem": "원기둥 x^{2}+y^{2}=1과 두 평면 z=\\sqrt\\frac 3y, z=0으로 둘러싸인 입체의 겉넓이는? (단, z \\geq 0) [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 2 \\pi+2\\sqrt\\frac 3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\pi+\\sqrt\\frac 3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\pi+2\\sqrt\\frac 3"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 2 3\\pi+\\sqrt\\frac 3"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 2 3\\pi+2\\sqrt\\frac 3"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "4점",
+      "stem": "벡터장 F (x,y,z)=\\langle 2xz,4xy,-z^{2}\\rangle이고 S는 두 곡면 y=\\sqrt\\frac x, y=2\\sqrt\\frac x와 평면 z=0, z=1-y에 의하여 유계된 영역의 곡면일 때, 면적분 \\left| S F \\cdotdS의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 16 1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 32 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "-\\frac 32 1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "-\\frac 16 1"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": "3점",
+      "stem": "다음 반복적분의 값을 구하시오. [3점] \\int\\frac \\sqrt\\frac 2 1 1\\int\\sqrt\\frac 1-x^{2} x ex^{2}+y^{2} dydx+\\int 1 \\sqrt\\frac 2\\int 0 x ex^{2}+y^{2} dydx +\\int\\sqrt\\frac 2 2\\int 0 \\sqrt\\frac 4-x^{2} ex^{2}+y^{2} dydx",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 8 \\pi(e^{4}-e^{2})"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 8 \\pi(e^{4}-e)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 6 \\pi(e^{4}-e^{2})"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 6 \\pi(e^{4}-e)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 4 \\pi(e^{4}-e^{2})"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": "3점",
+      "stem": "행렬 A = \\begin{pmatrix} \\end{pmatrix} 2 10 -101 4 21 의 역행렬을 A -1= \\begin{pmatrix} \\end{pmatrix} abc def gi 라 할 때, b+d+f+의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": "3점",
+      "stem": "행렬 A = \\begin{pmatrix} \\end{pmatrix} 40 -2 25 4 00 5 에 대하여 옳은 것을 모두 고르시오. [3점] (가) 행렬 A는 서로 다른 세 개의 고윳값을 갖는다. (나) 행렬 A는 대각화 가능하다. (다) 행렬 A는 가역행렬이다. (라) 고유공간들 차원의 합은 3이다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나), (다)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가), (나), (다)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(나), (다), (라)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "(가), (나), (다), (라)"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": "3점",
+      "stem": "행렬 A = \\begin{pmatrix} \\end{pmatrix} 1 3 1 -4 -132 0 -1 5 에 대하여 \\det(adjA)의 값은? (단, adjA는 행렬 A의 수반행렬이다.) [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": "3점",
+      "stem": "초깃값 문제 y\\frac dx dy=x\\sin x, y(0)=2의 해에 대하여 \\{y(\\pi)\\}2의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\pi+2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2\\pi+2"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "2\\pi+"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "points": "3점",
+      "stem": "함수 y=(axb+cxd)ex가 미분방정식 y″-2y′+y=(2x+1)ex 의 특수해일 때, ab+cd의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "3"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "4"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "5"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": "3점",
+      "stem": "\\mathcal{L}을 라플라스 변환이라 하고, \\mathcal{L}-1을 \\mathcal{L}의 역변환이라 하자. 함수 F()=\\frac 2+4  e-\\pi에 대해 \\mathcal{L}-1\\{F()\\}을 f(t)라 할 때, f(2\\pi)의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\pi"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": "3점",
+      "stem": "함수 f(x)=2x (-1<x<1)의 푸리에(Fourier) 급수는? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\sum n=1 \\infty\\frac n\\pi 2(-1)n+1 \\sinn\\pix"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\sum n=1 \\infty\\frac n\\pi 4(-1)n \\sinn\\pix"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\sum n=1 \\infty\\frac n\\pi 4(-1)n+1 \\sinn\\pix"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\sum n=1 \\infty\\frac n\\pi 4(-1)n+1 \\cosn\\pix"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\sum n=1 \\infty\\frac n\\pi 2(-1)n+1 \\cosn\\pix"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": "4점",
+      "stem": "행렬 A= \\begin{pmatrix} \\end{pmatrix} 4 2 -1 -11 3 1 1 2 를 A =PDP -1의 형태로 대각화하자. 행렬 D= \\begin{pmatrix} \\end{pmatrix} 100 020 0 03 가 1<2<3을 만족하고, 행렬 P = \\begin{pmatrix} \\end{pmatrix} abc def gi 에서 a=3, b=1, c=3 일 때 d^{2}+e^{2}+f2+g2+2+i2의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "19"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "20"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "21"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "22"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "23"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": "4점",
+      "stem": "좌표평면 위의 점 (0,0), (1,1), (1,2), (0,3), (-1,3), (-2,2), (-2,1), (-1,0)에 대하여, 점 (0,0)부터 점 (-1,0)까지 주어진 순서대로 선분으로 연결한 곡선을 C라 하자. 벡터장 F (x,y)=\\langle ex-y,x-ey^{2}\\rangle 의 선적분 \\int C F\\cdotdr=a+\\frac e b일 때, 10a+b의 값은? (단, a와 b는 정수이고 e는 자연상수이다.) [4점]",
+      "choices": []
+    },
+    {
+      "number": 27,
+      "points": "4점",
+      "stem": "정적분 \\int 0 \\frac 2 \\pi t^{2}\\sintdt=a\\pi+b일 때, 120(a^{2}+b^{2})의 값은? (단, a와 b는 유리수이다.) [4점]",
+      "choices": []
+    },
+    {
+      "number": 28,
+      "points": "4점",
+      "stem": "극곡선 r=-3\\cos\\theta의 내부와 극곡선 r=1-\\cos\\theta의 외부에 놓인 영역의 넓이가 a\\pi+b일 때, 11a^{2}+b^{2} 의 값은? (단, a와 b는 유리수이다.) [4점]",
+      "choices": []
+    },
+    {
+      "number": 29,
+      "points": "5점",
+      "stem": "두 곡면 =1-\\cos와 =\\cos (0\\leq\\leq\\frac 2 \\pi)로 둘러싸인 입체 에 대해, \\iiint \\frac \\pi 480dV 의 값은? (단, 두 곡면은 구면좌표계로 표현되었다.) [5점]",
+      "choices": []
+    },
+    {
+      "number": 30,
+      "points": "5점",
+      "stem": "y^{1}(t), y^{2}(t)를 초깃값 문제 ( ) y^{1}′ y^{2}′ =( ) 41 14() y^{1} y^{2} , y^{1}(0)=3, y^{2}(0)=1 의 해라고 하자. y^{1}(1)y^{2}(1)=aeb+ced일 때, a^{2}+b^{2}+c^{2}+d^{2}의 값은? (단, a, b, c, d는 정수이고 e는 자연상수이다.) [5점]",
+      "choices": []
+    }
+  ],
+  "source_text_file": "seoul_2024_math_natural1_extracted_complete.txt"
+}

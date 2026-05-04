@@ -1,28 +1,42 @@
-class SentencePair {
-  final String en;
-  final String ko;
+class ReadingChoice {
+  final String label;
+  final String text;
 
-  const SentencePair({required this.en, required this.ko});
+  const ReadingChoice({required this.label, required this.text});
 }
 
-class ReadingSection {
-  final String title;
-  final List<SentencePair> sentences;
+class ReadingQuestion {
+  final int number;
+  final String instruction;
+  final List<String> passageSentences;
+  final String? question;
+  final List<ReadingChoice> choices;
 
-  const ReadingSection({required this.title, required this.sentences});
+  const ReadingQuestion({
+    required this.number,
+    required this.instruction,
+    required this.passageSentences,
+    this.question,
+    required this.choices,
+  });
 }
 
-class ReadingPassage {
-  final String title;
+class ReadingExam {
+  final String institution;
+  final String institutionKo;
+  final int year;
   final String fileName;
-  final List<ReadingSection> sections;
+  final int questionCount;
+  final List<ReadingQuestion> questions;
 
-  const ReadingPassage({
-    required this.title,
+  const ReadingExam({
+    required this.institution,
+    required this.institutionKo,
+    required this.year,
     required this.fileName,
-    required this.sections,
+    required this.questionCount,
+    required this.questions,
   });
 
-  int get totalSentences =>
-      sections.fold(0, (sum, s) => sum + s.sentences.length);
+  String get title => '$institutionKo ${year}학년도 편입 영어';
 }

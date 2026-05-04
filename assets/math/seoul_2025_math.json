@@ -1,0 +1,552 @@
+{
+  "university": "seoul",
+  "university_name": "서울시립대학교",
+  "year": 2025,
+  "subject": "math",
+  "subject_name": "수학",
+  "source_pdf": "서울시_25_수학.pdf",
+  "question_count": 25,
+  "questions": [
+    {
+      "number": 1,
+      "points": "3점",
+      "stem": "미분방정식 x^{2}y″-2xy′+2y=0 의 해 y(x)가 y(1)=3, y′(1)=4를 만족시킬 때, y(3)의 값은? [3점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "15"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "16"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "17"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "18"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "19"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": "4점",
+      "stem": "미분방정식 (x^{2}+4)\\frac dx dy+4xy=2x 의 해 y(x)가 y(0)=1을 만족시킬 때, y(2)의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 64 5"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\frac 32 5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 16 5"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 8 5"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 4 5"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": "4점",
+      "stem": "적분방정식 f(t)+\\int 0 t f(\\tau)et-\\taud\\tau=\\sin^{2}t 를 만족시키는 f(t)에 대하여, f(\\pi)의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-1"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-\\frac 2 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 2 1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": "4점",
+      "stem": "함수 f(x)=x(-\\pi<x<\\pi)의 복소 푸리에(Fourier) 급수가 f(x)=\\sum n=-\\infty \\infty cneinx일 때, c^{2}의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\frac 2 i"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-\\frac 4 i"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 4 i"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 2 i"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": "4점",
+      "stem": "다음에서 차수가 3 이하인 실수 계수 다항식으로 이루어진 벡터공간 \\mathcal{P}3의 부분공간만을 모두 고른 것은? [4점] (가) \\{x^{3}+a\\mida는실수\\} (나) \\{f(x)\\in\\mathcal{P}3\\midf′(-1)=0\\} (다) \\{ax^{2}+bx+c\\mida,b,c는정수\\}",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가), (나)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(가), (다)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "(나), (다)"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": "5점",
+      "stem": "행렬 A= \\begin{pmatrix} \\end{pmatrix} -403 0 40 -201 에 대하여 A^{2025}의 모든 성분의 합은? [5점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "42024-4"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "42024-2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "42025-4"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "42025-2"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "42025"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": "4점",
+      "stem": "다음에서 행렬 A= \\begin{pmatrix} \\end{pmatrix} 100-2 312 2 103 1 300 6 에 대한 설명 중 옳은 것만을 모두 고른 것은? [4점] (가) \\operatorname{rank}(A)=4 (나) \\det(\\frac 3 1A)=12 (다) 행렬 A는 대각화 가능하다.",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가), (나)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(가), (다)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "(나), (다)"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": "4점",
+      "stem": "두 곡선 y=\\sec^{2}x,y=\\tan^{2}x와 두 직선 x=0, x=1로 둘러싸인 영역을 직선 x=-1을 축으로 회전시켜 얻은 입체의 부피는? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\frac 2 \\pi"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\pi"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 2 3\\pi"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2\\pi"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "3\\pi"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": "4점",
+      "stem": "다음에서 이상적분이 수렴하는 것만을 모두 고른 것은? [4점] (가) \\int 1 \\infty\\frac \\sqrt\\frac x^{4}+x dx (나) \\int 1 \\infty e-x^{3}\\tan^{-1}xdx (다) \\int 0 1\\frac x\\sqrt\\frac x ex dx",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가), (나)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(가), (다)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "(나), (다)"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": "4점",
+      "stem": "극한 \\lim x→0\\frac \\sin^{-1}x-\\tan^{-1}x \\tan^{2}x-\\sin^{2}x의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "0"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "2"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "4"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "6"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": "4점",
+      "stem": "이중적분 \\int -1 1\\int |y| 1 e^{1}+x^{2} dxdy의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "e^{2}-e"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "e^{2}+e"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "2(e^{2}-e)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "2(e^{2}+e)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "4(e^{2}+e)"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": "4점",
+      "stem": "다음에서 극한이 존재하는 것만을 모두 고른 것은? [4점] (가) \\lim (x,y)→(0,0)\\frac x^{2}+y^{4} xy^{2}\\cosy (나) \\lim (x,y)→(0,0) x^{2}y\\sin(\\frac x^{2}+y^{2} 1 ) (다) \\lim (x,y)→(0,0)\\frac \\sqrt\\frac x^{2}+y^{2} x\\sin^{-1}y",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "(가)"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "(나)"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "(가), (나)"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "(가), (다)"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "(나), (다)"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": "4점",
+      "stem": "극곡선 r=1+\\cos\\theta(0\\leq\\theta\\leq2\\pi)에서 벡터장 F (x,y)=\\tan^{-1}yi +(2xy+\\frac 1+y^{2} x)j 의 선적분의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\frac 3 2"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "0"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\frac 3 2"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 3 4"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": "4점",
+      "stem": "점 P 는 원점으로부터 거리가 6이고 점 Q 는 원점으로부터 거리가 8인 점이다. 점 P 에서 점 Q 까지 연결하는 매끄러운 곡선 C와 벡터장 F (x,y,z)=\\frac (x^{2}+y^{2}+z^{2}) 32 xi +yj +zk 에 대하여 \\int C F \\cdotdr 의 값은? [4점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "-\\frac 24 7"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "-\\frac 24 1"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "0"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\frac 24 1"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\frac 24 7"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": "5점",
+      "stem": "정적분 \\int 0 \\frac 2 \\pi\\frac 2\\sinx+\\cosx+2 1 dx의 값은? [5점]",
+      "choices": [
+        {
+          "label": "①",
+          "number": 1,
+          "text": "\\ln \\frac 2 3"
+        },
+        {
+          "label": "②",
+          "number": 2,
+          "text": "\\ln \\frac 3 5"
+        },
+        {
+          "label": "③",
+          "number": 3,
+          "text": "\\ln \\frac 4 7"
+        },
+        {
+          "label": "④",
+          "number": 4,
+          "text": "\\ln \\frac 5 9"
+        },
+        {
+          "label": "⑤",
+          "number": 5,
+          "text": "\\ln\\frac 6"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": "3점",
+      "stem": "곡선 xy=yx의 점 (e^{2},e^{2})에서 접선의 기울기가 a일 때, 14a의 값을 구하시오. [3점]",
+      "choices": []
+    },
+    {
+      "number": 17,
+      "points": "3점",
+      "stem": "정적분 \\int 0 3\\sqrt\\frac 3\\frac \\sqrt\\frac 9+x^{2} x^{3} dx의 값을 구하시오. [3점]",
+      "choices": []
+    },
+    {
+      "number": 18,
+      "points": "3점",
+      "stem": "다음 두 조건을 만족시키는 벡터 a, b에 대하여 |\\operatorname{proj} ab\\times \\operatorname{proj} ba|의 값을 구하시오. [3점] (1) 벡터 a, b의 사이의 각은 \\frac 6 \\pi이다. (2) a\\times b=\\langle 1,\\sqrt\\frac 6,3\\rangle",
+      "choices": []
+    },
+    {
+      "number": 19,
+      "points": "4점",
+      "stem": "급수 \\sum n=1 \\infty\\frac 3n 4n(n+1)의 값을 구하시오. [4점]",
+      "choices": []
+    },
+    {
+      "number": 20,
+      "points": "4점",
+      "stem": "점 (-2,-3,1)을 지나고, 두 평면 x+2y+3z=2 와 2x-y+z=4의 교선을 포함하는 평면이 ax+by+cz=4일 때, abc의 값을 구하시오. [4점]",
+      "choices": []
+    },
+    {
+      "number": 21,
+      "points": "4점",
+      "stem": "함수 f(x,y)=xy(18-3x-2y)의 극댓값을 구하시오. [4점]",
+      "choices": []
+    },
+    {
+      "number": 22,
+      "points": "4점",
+      "stem": "원뿔 z=1+\\sqrt\\frac x^{2}+y^{2}은 구 x^{2}+y^{2}+z^{2}=25를 두 입체로 나눈다. 두 입체의 부피 중 작은 값을 a라 할 때, \\frac \\pi 3a의 값을 구하시오. [4점]",
+      "choices": []
+    },
+    {
+      "number": 23,
+      "points": "4점",
+      "stem": "이중적분 \\int 0 \\tan^{-1}\\frac 3 2 \\int 0 3\\sec\\theta r^{3}drd\\theta+\\int \\tan^{-1}\\frac 3 2 \\frac 2 \\pi \\int 0 2csc\\theta r^{3}drd\\theta 의 값을 구하시오. [4점]",
+      "choices": []
+    },
+    {
+      "number": 24,
+      "points": "5점",
+      "stem": "벡터장 F (x,y,z)=yzi +exyzj -2xyk 와 곡면 S=\\{(x,y,z)\\mid^{4}x^{2}+y^{2}+4z^{2}=5,y\\geq1\\} 에 대하여 |\\frac \\pi 1\\left| S \\operatorname{curl} F\\cdotdS |의 값을 구하시오. [5점]",
+      "choices": []
+    },
+    {
+      "number": 25,
+      "points": "5점",
+      "stem": "일엽쌍곡면 x^{2}+y^{2}-z^{2}=1의 0\\leqz\\leq1인 곡면을 S라 하자. S의 넓이가 \\frac \\sqrt\\frac 2 \\pi\\{\\sqrt\\frac a+\\ln(\\sqrt\\frac 2+\\sqrt\\frac b)\\} 일 때, 10a+b의 값을 구하시오. (단, a, b는 자연수 이다.) [5점]",
+      "choices": []
+    }
+  ],
+  "source_text_file": "seoul_2025_math_extracted_complete.txt"
+}

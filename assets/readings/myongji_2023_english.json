@@ -1,0 +1,1005 @@
+{
+  "institution": "myongji",
+  "institution_ko": "명지대",
+  "year": 2023,
+  "exam_kind": "english",
+  "source_text_file": "myongji_2023_english_extracted_complete.txt",
+  "question_count": 30,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "Choose the one that comes closest in meaning to the underlined word.",
+      "passage_sentences": [
+        "The world is so inextricably interconnected that cultural and economic isolationism is unthinkable."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "intricately"
+        },
+        {
+          "label": "②",
+          "text": "inseparably"
+        },
+        {
+          "label": "③",
+          "text": "intrinsically"
+        },
+        {
+          "label": "④",
+          "text": "inexplicably"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that comes closest in meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. The world is so inextricably interconnected that cultural and economic isolationism is unthinkable.\nCHOICES:\n① intricately\n② inseparably\n③ intrinsically\n④ inexplicably"
+    },
+    {
+      "number": 2,
+      "instruction": "Choose the one that comes closest in meaning to the underlined word.",
+      "passage_sentences": [
+        "The understanding was based on more than just impressions of their malaise."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "supremacy"
+        },
+        {
+          "label": "②",
+          "text": "misbehavior"
+        },
+        {
+          "label": "③",
+          "text": "unease"
+        },
+        {
+          "label": "④",
+          "text": "temperament"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that comes closest in meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. The understanding was based on more than just impressions of their malaise.\nCHOICES:\n① supremacy\n② misbehavior\n③ unease\n④ temperament"
+    },
+    {
+      "number": 3,
+      "instruction": "Choose the one that comes closest in meaning to the underlined word.",
+      "passage_sentences": [
+        "Americans have separated Clinton’s squalid personal behavior from his official stewardship."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "filthy"
+        },
+        {
+          "label": "②",
+          "text": "unsullied"
+        },
+        {
+          "label": "③",
+          "text": "despotic"
+        },
+        {
+          "label": "④",
+          "text": "lofty"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that comes closest in meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. Americans have separated Clinton’s squalid personal behavior from his official stewardship.\nCHOICES:\n① filthy\n② unsullied\n③ despotic\n④ lofty"
+    },
+    {
+      "number": 4,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "How can a tube as ________ as a mosquito’s proboscis be stiff enough to act as a hollow boring tool?"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "opaque"
+        },
+        {
+          "label": "②",
+          "text": "tangy"
+        },
+        {
+          "label": "③",
+          "text": "flimsy"
+        },
+        {
+          "label": "④",
+          "text": "intrusive"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. How can a tube as ________ as a mosquito’s proboscis be stiff enough to act as a hollow boring tool?\nCHOICES:\n① opaque\n② tangy\n③ flimsy\n④ intrusive"
+    },
+    {
+      "number": 5,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "Italy’s industrial heartland came to a(n) _________ as floodwaters blocked more than 170 roads and damaged factories around Turin."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "standstill"
+        },
+        {
+          "label": "②",
+          "text": "affluence"
+        },
+        {
+          "label": "③",
+          "text": "integrity"
+        },
+        {
+          "label": "④",
+          "text": "resolution"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Italy’s industrial heartland came to a(n) _________ as floodwaters blocked more than 170 roads and damaged factories around Turin.\nCHOICES:\n① standstill\n② affluence\n③ integrity\n④ resolution"
+    },
+    {
+      "number": 6,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "Humans assign beauty to objects that please the senses or the intellect.",
+        "Beauty is a very subjective property and differs from culture to culture.",
+        "Nevertheless, many scientists tried to define and even more measure it.",
+        "The first step toward this goal is to identify elementary properties which as a whole make up or at least contribute to beauty.",
+        "If we can count or in some way quantify all these properties, then we can quantify beauty by the sum of the elementary measures.",
+        "In essence, therefore, beauty is reduced to a number and once we measure the beauty of two objects, we can say one is nicer than other if its measure is greater."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "that please the senses or the"
+        },
+        {
+          "label": "②",
+          "text": "to identify elementary properties which as"
+        },
+        {
+          "label": "③",
+          "text": "all these properties"
+        },
+        {
+          "label": "④",
+          "text": "other if its measure is greater"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Humans assign beauty to objects that please the senses or the intellect.\n2. Beauty is a very subjective property and differs from culture to culture.\n3. Nevertheless, many scientists tried to define and even more measure it.\n4. The first step toward this goal is to identify elementary properties which as a whole make up or at least contribute to beauty.\n5. If we can count or in some way quantify all these properties, then we can quantify beauty by the sum of the elementary measures.\n6. In essence, therefore, beauty is reduced to a number and once we measure the beauty of two objects, we can say one is nicer than other if its measure is greater.\nCHOICES:\n① that please the senses or the\n② to identify elementary properties which as\n③ all these properties\n④ other if its measure is greater"
+    },
+    {
+      "number": 7,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "Thousands of foreign soldiers have travelled to Ukraine to fight and the number of Taiwanese among them is small, estimated at about 10.",
+        "But Russia's invasion has resonated on the self-ruled island halfway around the world.",
+        "China claims Taiwan as part of its territory and said it will unify it by force if necessary.",
+        "Taiwan sees itself as distinct from the mainland.",
+        "Tensions in the Taiwan Strait increased sharply followed the visit of US politician Nancy Pelosi in August, which infuriated Beijing.",
+        "China responded with military drills around the island."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "is small"
+        },
+        {
+          "label": "②",
+          "text": "has resonated on the self-ruled island"
+        },
+        {
+          "label": "③",
+          "text": "itself as distinct from the mainland"
+        },
+        {
+          "label": "④",
+          "text": "followed the visit of US politician"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Thousands of foreign soldiers have travelled to Ukraine to fight and the number of Taiwanese among them is small, estimated at about 10.\n2. But Russia's invasion has resonated on the self-ruled island halfway around the world.\n3. China claims Taiwan as part of its territory and said it will unify it by force if necessary.\n4. Taiwan sees itself as distinct from the mainland.\n5. Tensions in the Taiwan Strait increased sharply followed the visit of US politician Nancy Pelosi in August, which infuriated Beijing.\n6. China responded with military drills around the island.\nCHOICES:\n① is small\n② has resonated on the self-ruled island\n③ itself as distinct from the mainland\n④ followed the visit of US politician"
+    },
+    {
+      "number": 8,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "First proposed by the late criminologist James Q.",
+        "Wilson in 1982, the broken windows theory of criminal justice holds that seems minor instances of social and physical disorder in urban spaces can contribute to an atmosphere of lawlessness that encourages more serious crimes.",
+        "By making aggressive misdemeanor arrests for crimes like vandalism, the theory goes, police can reduce and prevent felonious activity in neighborhoods they patrol.",
+        "New York City Mayor Rudy Giuliani brought broken windows doctrine to national attention in the 1990s with his campaign against squeegee men who harassed drivers with unsolicited windshield washing."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "First proposed by the late criminologist"
+        },
+        {
+          "label": "②",
+          "text": "seems minor instances of social and"
+        },
+        {
+          "label": "③",
+          "text": "the theory goes"
+        },
+        {
+          "label": "④",
+          "text": "washing"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. First proposed by the late criminologist James Q.\n2. Wilson in 1982, the broken windows theory of criminal justice holds that seems minor instances of social and physical disorder in urban spaces can contribute to an atmosphere of lawlessness that encourages more serious crimes.\n3. By making aggressive misdemeanor arrests for crimes like vandalism, the theory goes, police can reduce and prevent felonious activity in neighborhoods they patrol.\n4. New York City Mayor Rudy Giuliani brought broken windows doctrine to national attention in the 1990s with his campaign against squeegee men who harassed drivers with unsolicited windshield washing.\nCHOICES:\n① First proposed by the late criminologist\n② seems minor instances of social and\n③ the theory goes\n④ washing"
+    },
+    {
+      "number": 9,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "When I moved to New York a couple of years ago, I threw myself into all the activities one typically does when they move to the city.",
+        "I saw show on Broadway, picnicked in Prospect Park and became a regular at my bodega.",
+        "I also started to take improv classes, which seemed like one of those New York things to do.",
+        "For three hours every week, I learned the art of performing comedy without a script.",
+        "And I found that the classes were helping to combat my anxiety and my tendency to overthink— not just onstage, but in daily life.",
+        "I used to be shy about speaking up at meetings, for example, but after doing sketches in front of a live audience, it seemed like a piece of cake.",
+        "It turns out there are several mental health benefits of performing this art."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "saw show on Broadway"
+        },
+        {
+          "label": "②",
+          "text": "to do"
+        },
+        {
+          "label": "③",
+          "text": "used to be shy about speaking"
+        },
+        {
+          "label": "④",
+          "text": "turns out there are several mental"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. When I moved to New York a couple of years ago, I threw myself into all the activities one typically does when they move to the city.\n2. I saw show on Broadway, picnicked in Prospect Park and became a regular at my bodega.\n3. I also started to take improv classes, which seemed like one of those New York things to do.\n4. For three hours every week, I learned the art of performing comedy without a script.\n5. And I found that the classes were helping to combat my anxiety and my tendency to overthink— not just onstage, but in daily life.\n6. I used to be shy about speaking up at meetings, for example, but after doing sketches in front of a live audience, it seemed like a piece of cake.\n7. It turns out there are several mental health benefits of performing this art.\nCHOICES:\n① saw show on Broadway\n② to do\n③ used to be shy about speaking\n④ turns out there are several mental"
+    },
+    {
+      "number": 10,
+      "instruction": "Choose the part that is not grammatically acceptable.",
+      "passage_sentences": [
+        "In 2017, a controversy arose between two billionaires, Mark Zuckerberg, founder of Facebook, and Elon Musk of Space X and Tesla.",
+        "Zuckerberg maintained that artificial intelligence was a great generator of wealth and prosperity that will enrich all of society.",
+        "Musk, however, took a much darker view and stated that AI actually posed an existential risk to all of humanity, that one day our creations may turn on us.",
+        "Who is correct?",
+        "If we depend so heavily on robots to maintain our lunar bases and cities on Mars, then what happens if they decide one day that they don’t need us anymore?",
+        "Would we have created colonies in outer space only to lose them to robots?",
+        "This fear is an old one and was actually expressed as far back as 1863 by novelist Samuel Butler, who warned, “We are ourselves creating our own successors.",
+        "Man will become to the machine which the horse and the dog are to man.”"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "that will enrich all of society"
+        },
+        {
+          "label": "②",
+          "text": "turn on us"
+        },
+        {
+          "label": "③",
+          "text": "only to lose them to robots"
+        },
+        {
+          "label": "④",
+          "text": "the machine which the horse and"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. In 2017, a controversy arose between two billionaires, Mark Zuckerberg, founder of Facebook, and Elon Musk of Space X and Tesla.\n2. Zuckerberg maintained that artificial intelligence was a great generator of wealth and prosperity that will enrich all of society.\n3. Musk, however, took a much darker view and stated that AI actually posed an existential risk to all of humanity, that one day our creations may turn on us.\n4. Who is correct?\n5. If we depend so heavily on robots to maintain our lunar bases and cities on Mars, then what happens if they decide one day that they don’t need us anymore?\n6. Would we have created colonies in outer space only to lose them to robots?\n7. This fear is an old one and was actually expressed as far back as 1863 by novelist Samuel Butler, who warned, “We are ourselves creating our own successors.\n8. Man will become to the machine which the horse and the dog are to man.”\nCHOICES:\n① that will enrich all of society\n② turn on us\n③ only to lose them to robots\n④ the machine which the horse and"
+    },
+    {
+      "number": 11,
+      "instruction": "Which of the following best captures the main purpose of the passage?",
+      "passage_sentences": [
+        "This issue of wristwatches is reserved strictly for current owners of one or more Brequet timepieces, with an eye for outstanding examples of watchmaking at its finest.",
+        "Only 225 such watches will ever be made.",
+        "From the first day of its existence in 1775, the Company has steadfastly pursued its founder Abraham-Louis Brequet’s original values— utter purity of form and line enhancing the elegance of an ongoing succession of inspired inventions and resourceful developments.",
+        "For 225 years, Brequet timepieces have thus fascinated many of the world’s leading writers, not least Balzac, Stendhal and Pushkin, along with distinguished patrons as Marie Antoinette, General Napoleon Bonaparte, and Sir Winston Churchill.",
+        "Today, Nicholas G.",
+        "Hayek and Brequet wish to share the Company’s 225th anniversary celebration with Brequet collectors and patrons by offering them an opportunity to acquire a commemorative timepiece in a numbered edition limited to 225 self-winding wristwatches in platinum, saluting the excellence of Brequet craftsmanship.",
+        "Its design is directly inspired by a famous pocket watch made by Brequet in 1813 for Maréchal Ney.",
+        "It makes the most of the materials and techniques of the period: cambered dial plate with oven-fired enamelling, hand-painted with Brequet-style Arabic numerals; 18 carat gold Brequet hands; secret signature."
+      ],
+      "question": "Which of the following best captures the main purpose of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "to promote the limited edition of a new release"
+        },
+        {
+          "label": "②",
+          "text": "to invite customers to an anniversary celebration"
+        },
+        {
+          "label": "③",
+          "text": "to propagate the corporate history to new customers"
+        },
+        {
+          "label": "④",
+          "text": "to apologize for a recall of newly released models"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following best captures the main purpose of the passage?\nPASSAGE_SENTENCES:\n1. This issue of wristwatches is reserved strictly for current owners of one or more Brequet timepieces, with an eye for outstanding examples of watchmaking at its finest.\n2. Only 225 such watches will ever be made.\n3. From the first day of its existence in 1775, the Company has steadfastly pursued its founder Abraham-Louis Brequet’s original values— utter purity of form and line enhancing the elegance of an ongoing succession of inspired inventions and resourceful developments.\n4. For 225 years, Brequet timepieces have thus fascinated many of the world’s leading writers, not least Balzac, Stendhal and Pushkin, along with distinguished patrons as Marie Antoinette, General Napoleon Bonaparte, and Sir Winston Churchill.\n5. Today, Nicholas G.\n6. Hayek and Brequet wish to share the Company’s 225th anniversary celebration with Brequet collectors and patrons by offering them an opportunity to acquire a commemorative timepiece in a numbered edition limited to 225 self-winding wristwatches in platinum, saluting the excellence of Brequet craftsmanship.\n7. Its design is directly inspired by a famous pocket watch made by Brequet in 1813 for Maréchal Ney.\n8. It makes the most of the materials and techniques of the period: cambered dial plate with oven-fired enamelling, hand-painted with Brequet-style Arabic numerals; 18 carat gold Brequet hands; secret signature.\nQUESTION:\nWhich of the following best captures the main purpose of the passage?\nCHOICES:\n① to promote the limited edition of a new release\n② to invite customers to an anniversary celebration\n③ to propagate the corporate history to new customers\n④ to apologize for a recall of newly released models"
+    },
+    {
+      "number": 12,
+      "instruction": "Choose the best title for the following passage.",
+      "passage_sentences": [
+        "Amy Domini is a capitalist tool from a different mold.",
+        "“Making money,” says the mutual fund mogul, “is different from stealing money.” Companies that manufacture cigarettes, pollute rivers or sell sweatshop goods are robbing from the public welfare, as she sees it.",
+        "Capital is the tool Domini uses to knock them over the head.",
+        "A Boston University grad who started as a photocopy clerk at a brokerage, Domini, 50, manages $1.17 billion in private portfolio as well as her $1.89 billion Domini Social Equity Funds, the oldest and biggest socially screened index funds in the U.S. Domini does not just exclude “booze, butts and bets”—alcohol, tobacco and gambling stocks.",
+        "She also files shareholder resolutions and haggles with Walt Disney for better working conditions overseas or with Coca-Cola for more recycling.",
+        "“Global companies are more powerful than governments,” she says.",
+        "“The way we invest creates the world we live in.” Domini’s latest crusade: persuading the $7 trillion U.S. mutual-fund industry to post shareholder-resolution votes on its websites.",
+        "“It’s outrageous that managers are not telling investors how they vote,” says Domini.",
+        "“The small investor wants to fatten her wallet, but she also wants to breathe clean air and work in a safe environment.”"
+      ],
+      "question": "Choose the best title for the following passage.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "You Get What You Pay For"
+        },
+        {
+          "label": "②",
+          "text": "Hard Work and Honest Fund Will Thrive"
+        },
+        {
+          "label": "③",
+          "text": "How Green Is Your Money?"
+        },
+        {
+          "label": "④",
+          "text": "An Untrodden Road to a Safer Workplace"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best title for the following passage.\nPASSAGE_SENTENCES:\n1. Amy Domini is a capitalist tool from a different mold.\n2. “Making money,” says the mutual fund mogul, “is different from stealing money.” Companies that manufacture cigarettes, pollute rivers or sell sweatshop goods are robbing from the public welfare, as she sees it.\n3. Capital is the tool Domini uses to knock them over the head.\n4. A Boston University grad who started as a photocopy clerk at a brokerage, Domini, 50, manages $1.17 billion in private portfolio as well as her $1.89 billion Domini Social Equity Funds, the oldest and biggest socially screened index funds in the U.S. Domini does not just exclude “booze, butts and bets”—alcohol, tobacco and gambling stocks.\n5. She also files shareholder resolutions and haggles with Walt Disney for better working conditions overseas or with Coca-Cola for more recycling.\n6. “Global companies are more powerful than governments,” she says.\n7. “The way we invest creates the world we live in.” Domini’s latest crusade: persuading the $7 trillion U.S. mutual-fund industry to post shareholder-resolution votes on its websites.\n8. “It’s outrageous that managers are not telling investors how they vote,” says Domini.\n9. “The small investor wants to fatten her wallet, but she also wants to breathe clean air and work in a safe environment.”\nQUESTION:\nChoose the best title for the following passage.\nCHOICES:\n① You Get What You Pay For\n② Hard Work and Honest Fund Will Thrive\n③ How Green Is Your Money?\n④ An Untrodden Road to a Safer Workplace"
+    },
+    {
+      "number": 13,
+      "instruction": "Choose the best place for the sentence given in the box.",
+      "passage_sentences": [
+        "Our planet was like a giant ovum floating in space, fertilised by space dust, meteors and asteroids, the spermatozoa of the universe, which brought DNA to us.",
+        "The earth is roughly 4.5 billion years old and probably began as a whirling cloud, cooling and solidifying, its waters gradually ending their cycle of rain and evaporation, reducing the surface temperature of our red planet enough to accumulate in turbulent, lifeless, hot oceans inhospitable to all life, in the Precambrian period’s Archaean Eon.",
+        "("
+      ],
+      "question": "Choose the best place for the sentence given in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": ") But phosphates, sugars, nitrogen were about in the oceanic stew, and from these the first carbohydrates and other building blocks of life were formed. ("
+        },
+        {
+          "label": "②",
+          "text": ") At least, that is one possible explanation. ("
+        },
+        {
+          "label": "③",
+          "text": ") Another account offered by scientists is that replicating DNA wholly originated in space and was brought to earth by meteorite or asteroid. This proposal for the origin of DNA is known as ‘panspermia.’ According to the proponents of this view, nucleotides are more easily formed in the cold and ice of comets. ("
+        },
+        {
+          "label": "④",
+          "text": ") There is even some convincing evidence for this view. Meteorites regularly enter earth’s atmosphere. Some of these might have brought DNA to earth from another part of the universe or solar system. Or perhaps meteors brought not DNA but nucleotides from other parts of space."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best place for the sentence given in the box.\nPASSAGE_SENTENCES:\n1. Our planet was like a giant ovum floating in space, fertilised by space dust, meteors and asteroids, the spermatozoa of the universe, which brought DNA to us.\n2. The earth is roughly 4.5 billion years old and probably began as a whirling cloud, cooling and solidifying, its waters gradually ending their cycle of rain and evaporation, reducing the surface temperature of our red planet enough to accumulate in turbulent, lifeless, hot oceans inhospitable to all life, in the Precambrian period’s Archaean Eon.\n3. (\nQUESTION:\nChoose the best place for the sentence given in the box.\nCHOICES:\n① ) But phosphates, sugars, nitrogen were about in the oceanic stew, and from these the first carbohydrates and other building blocks of life were formed. (\n② ) At least, that is one possible explanation. (\n③ ) Another account offered by scientists is that replicating DNA wholly originated in space and was brought to earth by meteorite or asteroid. This proposal for the origin of DNA is known as ‘panspermia.’ According to the proponents of this view, nucleotides are more easily formed in the cold and ice of comets. (\n④ ) There is even some convincing evidence for this view. Meteorites regularly enter earth’s atmosphere. Some of these might have brought DNA to earth from another part of the universe or solar system. Or perhaps meteors brought not DNA but nucleotides from other parts of space."
+    },
+    {
+      "number": 14,
+      "instruction": "Which of the following is mentioned in the passage?",
+      "passage_sentences": [
+        "Surveying is the process by which a surveyor measures certain dimensions that occur on or near the surface of the Earth.",
+        "Surveying equipment such as levels and theodolites are used for accurate measurement of angular deviation, horizontal, vertical and slope distances.",
+        "With computerisation, electronic distance measurement (EDM), total stations, GPS surveying and laser scanning have to a large extent supplanted traditional instruments.",
+        "Data collected by survey measurement is converted into a graphical representation of the Earth's surface in the form of a map.",
+        "This information is then used by civil engineers, contractors and realtors to design from, build on, and trade, respectively.",
+        "Elements of a structure must be sized and positioned in relation to each other and to site boundaries and adjacent structures.",
+        "Although surveying is a distinct profession with separate qualifications and licensing arrangements, civil engineers are trained in the basics of surveying and mapping, as well as geographic information systems."
+      ],
+      "question": "Which of the following is mentioned in the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "which areas or structures need to be thoroughly surveyed"
+        },
+        {
+          "label": "②",
+          "text": "why surveying is important in studying the surface of Earth"
+        },
+        {
+          "label": "③",
+          "text": "whether the advent of computers changed surveying instruments"
+        },
+        {
+          "label": "④",
+          "text": "what qualifications are required to become a professional surveyor"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is mentioned in the passage?\nPASSAGE_SENTENCES:\n1. Surveying is the process by which a surveyor measures certain dimensions that occur on or near the surface of the Earth.\n2. Surveying equipment such as levels and theodolites are used for accurate measurement of angular deviation, horizontal, vertical and slope distances.\n3. With computerisation, electronic distance measurement (EDM), total stations, GPS surveying and laser scanning have to a large extent supplanted traditional instruments.\n4. Data collected by survey measurement is converted into a graphical representation of the Earth's surface in the form of a map.\n5. This information is then used by civil engineers, contractors and realtors to design from, build on, and trade, respectively.\n6. Elements of a structure must be sized and positioned in relation to each other and to site boundaries and adjacent structures.\n7. Although surveying is a distinct profession with separate qualifications and licensing arrangements, civil engineers are trained in the basics of surveying and mapping, as well as geographic information systems.\nQUESTION:\nWhich of the following is mentioned in the passage?\nCHOICES:\n① which areas or structures need to be thoroughly surveyed\n② why surveying is important in studying the surface of Earth\n③ whether the advent of computers changed surveying instruments\n④ what qualifications are required to become a professional surveyor"
+    },
+    {
+      "number": 15,
+      "instruction": "Choose the best order after the sentences given in the box.",
+      "passage_sentences": [
+        "In 2006, I set out to prove that there is a unique fingerprint of chemicals in exhaled breath that can distinguish one person from another, and can even distinguish one disease from another disease.",
+        "These chemicals are often called volatile organic compounds, and they can be measured.",
+        "[A] I hope that someday in the not too distant future, these devices will be available to individuals who can breathe on them at home, and the results will immediately be sent via Wi-Fi to their doctor’s office.",
+        "This will allow doctors to monitor a patient remotely, and it might be able to detect a relapse of cancer at a very early stage.",
+        "The patient then would be called in for follow-up testing to confirm the results.",
+        "[B] After we established the scientific basis for this for the first time ever, we proceeded to develop very tiny devices that imitate the olfactory system of dogs, in order to detect the signatures of various diseases.",
+        "We developed sensors that were proven in both the laboratory and the clinic to detect more than 20 different illnesses, including gastric cancer, lung cancer, COVID-19, Alzheimer’s, Parkinson’s and other illnesses.",
+        "Not only can these sensors detect disease, they can detect it in the early stages when it is more treatable.",
+        "[C] The sensor, which is called a NaNose, can also be tailored to detect the genetic mutations of a given disease, which will then allow personalized diagnosis and treatment.",
+        "We now have device prototypes in several hospitals."
+      ],
+      "question": "Choose the best order after the sentences given in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "[B] - [A] - [C]"
+        },
+        {
+          "label": "②",
+          "text": "[B] - [C] - [A]"
+        },
+        {
+          "label": "③",
+          "text": "[C] - [A] - [B]"
+        },
+        {
+          "label": "④",
+          "text": "[C] - [B] - [A]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the best order after the sentences given in the box.\nPASSAGE_SENTENCES:\n1. In 2006, I set out to prove that there is a unique fingerprint of chemicals in exhaled breath that can distinguish one person from another, and can even distinguish one disease from another disease.\n2. These chemicals are often called volatile organic compounds, and they can be measured.\n3. [A] I hope that someday in the not too distant future, these devices will be available to individuals who can breathe on them at home, and the results will immediately be sent via Wi-Fi to their doctor’s office.\n4. This will allow doctors to monitor a patient remotely, and it might be able to detect a relapse of cancer at a very early stage.\n5. The patient then would be called in for follow-up testing to confirm the results.\n6. [B] After we established the scientific basis for this for the first time ever, we proceeded to develop very tiny devices that imitate the olfactory system of dogs, in order to detect the signatures of various diseases.\n7. We developed sensors that were proven in both the laboratory and the clinic to detect more than 20 different illnesses, including gastric cancer, lung cancer, COVID-19, Alzheimer’s, Parkinson’s and other illnesses.\n8. Not only can these sensors detect disease, they can detect it in the early stages when it is more treatable.\n9. [C] The sensor, which is called a NaNose, can also be tailored to detect the genetic mutations of a given disease, which will then allow personalized diagnosis and treatment.\n10. We now have device prototypes in several hospitals.\nQUESTION:\nChoose the best order after the sentences given in the box.\nCHOICES:\n① [B] - [A] - [C]\n② [B] - [C] - [A]\n③ [C] - [A] - [B]\n④ [C] - [B] - [A]"
+    },
+    {
+      "number": 16,
+      "instruction": "Which of the following is true of ‘technical art history’ in the passage below?",
+      "passage_sentences": [
+        "Both terms ‘scientific conservation’ and ‘technical art history’ are of significantly more recent making, and interestingly, both terms were coined in a specific, somewhat polemical context in which the legitimacy of their approaches within the broader fields of conservation and art history was contested.",
+        "Technical art history is a twenty-first-century term.",
+        "In the late 1990s, David Bomford, trained as a chemist and formerly a Senior Restorer at the National Gallery in London where he was responsible for several publication projects in the seminal ‘Art in the Making’ series, coined the term technical art history to refer to a field of study concerned with the making of art that “goes far beyond the physical materials of works of art into questions of artists’ methods and intentions.",
+        "Bomford invented the term in reaction against the New Art History, which he considered to be too one-sidedly focused on social context; technical art history, instead, entailed a return of the discipline to the object, as it privileged object-based museum research with a strong emphasis on the study of materials as the object of investigation and technical analysis as an approach and method."
+      ],
+      "question": "Which of the following is true of ‘technical art history’ in the passage below?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "It was developed by Bomford as a term that encompasses New Art History."
+        },
+        {
+          "label": "②",
+          "text": "Its approaches have long been appreciated along with those of conservation."
+        },
+        {
+          "label": "③",
+          "text": "It emphasizes a technical, object-based analysis of artworks."
+        },
+        {
+          "label": "④",
+          "text": "It takes a balanced view on artworks and their social contexts."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is true of ‘technical art history’ in the passage below?\nPASSAGE_SENTENCES:\n1. Both terms ‘scientific conservation’ and ‘technical art history’ are of significantly more recent making, and interestingly, both terms were coined in a specific, somewhat polemical context in which the legitimacy of their approaches within the broader fields of conservation and art history was contested.\n2. Technical art history is a twenty-first-century term.\n3. In the late 1990s, David Bomford, trained as a chemist and formerly a Senior Restorer at the National Gallery in London where he was responsible for several publication projects in the seminal ‘Art in the Making’ series, coined the term technical art history to refer to a field of study concerned with the making of art that “goes far beyond the physical materials of works of art into questions of artists’ methods and intentions.\n4. Bomford invented the term in reaction against the New Art History, which he considered to be too one-sidedly focused on social context; technical art history, instead, entailed a return of the discipline to the object, as it privileged object-based museum research with a strong emphasis on the study of materials as the object of investigation and technical analysis as an approach and method.\nQUESTION:\nWhich of the following is true of ‘technical art history’ in the passage below?\nCHOICES:\n① It was developed by Bomford as a term that encompasses New Art History.\n② Its approaches have long been appreciated along with those of conservation.\n③ It emphasizes a technical, object-based analysis of artworks.\n④ It takes a balanced view on artworks and their social contexts."
+    },
+    {
+      "number": 17,
+      "instruction": "Which of the following is not true of the author of the passage?",
+      "passage_sentences": [
+        "One student with muscular dystrophy was welcomed into the marching band, and another described her professors as generous and accommodating.",
+        "A professor who had been around since the 1980s insisted that conditions at our university are much better today than they were in the recent past.",
+        "And the panelists and audience agreed that there was a general climate of acceptance and good will toward accommodating people with disabilities on campus.",
+        "They also agreed that good will is hardly enough.",
+        "But neither are the requirements for accommodation mandated by the Americans with Disabilities Act, which fall far short of making college campuses genuinely inclusive environments for people with disabilities.",
+        "Recent news stories indicate that my university is hardly alone in confronting these problems.",
+        "At County College of Morris, in New Jersey, a student was told not to participate in class discussions because the instructor found his severe stutter to be disruptive."
+      ],
+      "question": "Which of the following is not true of the author of the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "She must be affiliated with a higher-education institution."
+        },
+        {
+          "label": "②",
+          "text": "She refers to media reports to support her argument."
+        },
+        {
+          "label": "③",
+          "text": "She claims that the status quo is satisfactory."
+        },
+        {
+          "label": "④",
+          "text": "She begins by illustrating cases in educational settings."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is not true of the author of the passage?\nPASSAGE_SENTENCES:\n1. One student with muscular dystrophy was welcomed into the marching band, and another described her professors as generous and accommodating.\n2. A professor who had been around since the 1980s insisted that conditions at our university are much better today than they were in the recent past.\n3. And the panelists and audience agreed that there was a general climate of acceptance and good will toward accommodating people with disabilities on campus.\n4. They also agreed that good will is hardly enough.\n5. But neither are the requirements for accommodation mandated by the Americans with Disabilities Act, which fall far short of making college campuses genuinely inclusive environments for people with disabilities.\n6. Recent news stories indicate that my university is hardly alone in confronting these problems.\n7. At County College of Morris, in New Jersey, a student was told not to participate in class discussions because the instructor found his severe stutter to be disruptive.\nQUESTION:\nWhich of the following is not true of the author of the passage?\nCHOICES:\n① She must be affiliated with a higher-education institution.\n② She refers to media reports to support her argument.\n③ She claims that the status quo is satisfactory.\n④ She begins by illustrating cases in educational settings."
+    },
+    {
+      "number": 18,
+      "instruction": "Which of the following is not true of the new research below?",
+      "passage_sentences": [
+        "Even in an increasingly digital age, many readers find that they take in more information when reading a book than when reading a screen.",
+        "New research finds that the way they breathe may explain why.",
+        "Participants read passages on a smartphone or from a book, while researchers tracked respiratory patterns and brain activity.",
+        "As expected, smartphone users scored worse on a comprehension test than those who read books.",
+        "Prefrontal activity increased during reading in both media; however, overactivity in the prefrontal cortex was seen in the smartphone group.",
+        "Breathing became shallower for all participants—but those who read books took more frequent deep breaths, often in the form of sighing.",
+        "Sighing is tied to improved executive function and may reduce cognitive load on the prefrontal cortex, the authors note.",
+        "They speculate that blue light from screens inhibits sigh generation, hindering the brain’s ability to comprehend what’s being read."
+      ],
+      "question": "Which of the following is not true of the new research below?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "It showed that smartphone readers understood less than book readers."
+        },
+        {
+          "label": "②",
+          "text": "It proved how blue light hinders screen readers from taking frequent sighs."
+        },
+        {
+          "label": "③",
+          "text": "It examined the subjects’ breathing patterns and their prefrontal cortex activity."
+        },
+        {
+          "label": "④",
+          "text": "It implies that the deeper you breathe, the better your brain functions improve."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Which of the following is not true of the new research below?\nPASSAGE_SENTENCES:\n1. Even in an increasingly digital age, many readers find that they take in more information when reading a book than when reading a screen.\n2. New research finds that the way they breathe may explain why.\n3. Participants read passages on a smartphone or from a book, while researchers tracked respiratory patterns and brain activity.\n4. As expected, smartphone users scored worse on a comprehension test than those who read books.\n5. Prefrontal activity increased during reading in both media; however, overactivity in the prefrontal cortex was seen in the smartphone group.\n6. Breathing became shallower for all participants—but those who read books took more frequent deep breaths, often in the form of sighing.\n7. Sighing is tied to improved executive function and may reduce cognitive load on the prefrontal cortex, the authors note.\n8. They speculate that blue light from screens inhibits sigh generation, hindering the brain’s ability to comprehend what’s being read.\nQUESTION:\nWhich of the following is not true of the new research below?\nCHOICES:\n① It showed that smartphone readers understood less than book readers.\n② It proved how blue light hinders screen readers from taking frequent sighs.\n③ It examined the subjects’ breathing patterns and their prefrontal cortex activity.\n④ It implies that the deeper you breathe, the better your brain functions improve."
+    },
+    {
+      "number": 19,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "Beware!",
+        "It’s October, the scary month for investors.",
+        "The Wall Street crash in October 1929 heralded the Great Depression.",
+        "Oct. 19, 1987—the “Black Monday” when Dow Jones industrial average fell 22.6%—was the worst single day in U.S. stock-trading history.",
+        "Markets also took huge October dives in 1989, 1997 and, here we go again, this year.",
+        "Actually, a little calm research, unruffled by the prevailing paranoia, reveals that a few well-publicized disasters have given October an __________ bad rep.",
+        "If you look at the Standard & Poor’s 500 index over the past 50 years, you find that the worst month for investors is really September, when the S&P 500 suffers an average loss of 0.2%.",
+        "Every other month is in positive territory on average.",
+        "Even October."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "undeservedly"
+        },
+        {
+          "label": "②",
+          "text": "auspiciously"
+        },
+        {
+          "label": "③",
+          "text": "amicably"
+        },
+        {
+          "label": "④",
+          "text": "undeniably"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Beware!\n2. It’s October, the scary month for investors.\n3. The Wall Street crash in October 1929 heralded the Great Depression.\n4. Oct. 19, 1987—the “Black Monday” when Dow Jones industrial average fell 22.6%—was the worst single day in U.S. stock-trading history.\n5. Markets also took huge October dives in 1989, 1997 and, here we go again, this year.\n6. Actually, a little calm research, unruffled by the prevailing paranoia, reveals that a few well-publicized disasters have given October an __________ bad rep.\n7. If you look at the Standard & Poor’s 500 index over the past 50 years, you find that the worst month for investors is really September, when the S&P 500 suffers an average loss of 0.2%.\n8. Every other month is in positive territory on average.\n9. Even October.\nCHOICES:\n① undeservedly\n② auspiciously\n③ amicably\n④ undeniably"
+    },
+    {
+      "number": 20,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "For humans it is the form or shape of an item that is usually its most salient feature, leading to our recognition of it.",
+        "Dogs, by contrast, are generally ambivalent about the shape in which, say, their dog biscuits come (it is we who think they should be bone-shaped).",
+        "Instead, motion, so readily detected by the retinae of dogs, is ________________________.",
+        "A running squirrel and an idle squirrel may as well be different squirrels; a skateboarding child and a child holding a skateboard are different children.",
+        "Moving things are more interesting than still ones—as befits an animal at one time designed to chase moving prey.",
+        "(Dogs will stalk motionless squirrels and birds, of course, once they have learned that they often spontaneously become squirrels running and birds on the wing.) Rolling quickly on a skateboard, a child is exciting, worth barking at; stop the skateboard and the motion, the dog calms."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "the fundamental developmental stage"
+        },
+        {
+          "label": "②",
+          "text": "the unique indicator of their livelihood"
+        },
+        {
+          "label": "③",
+          "text": "an intrinsic part of the identity of objects"
+        },
+        {
+          "label": "④",
+          "text": "an essential component in canine survival"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. For humans it is the form or shape of an item that is usually its most salient feature, leading to our recognition of it.\n2. Dogs, by contrast, are generally ambivalent about the shape in which, say, their dog biscuits come (it is we who think they should be bone-shaped).\n3. Instead, motion, so readily detected by the retinae of dogs, is ________________________.\n4. A running squirrel and an idle squirrel may as well be different squirrels; a skateboarding child and a child holding a skateboard are different children.\n5. Moving things are more interesting than still ones—as befits an animal at one time designed to chase moving prey.\n6. (Dogs will stalk motionless squirrels and birds, of course, once they have learned that they often spontaneously become squirrels running and birds on the wing.) Rolling quickly on a skateboard, a child is exciting, worth barking at; stop the skateboard and the motion, the dog calms.\nCHOICES:\n① the fundamental developmental stage\n② the unique indicator of their livelihood\n③ an intrinsic part of the identity of objects\n④ an essential component in canine survival"
+    },
+    {
+      "number": 21,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "With newspapers still struggling amid digital competition, a research team decided to investigate _______________________________.",
+        "The researchers gathered data on U.S. corporate misconduct in the years 2000 to 2017 from Violation Tracker, which records information on infractions and penalties from 44 federal regulatory agencies.",
+        "They found 26,450 violations by 1,383 public firms.",
+        "They then identified 33 local newspapers that shut their doors at some point from 2003 to 2014.",
+        "Comparing local-area violations and penalties in the three years before and after each paper folded, they saw that when a newspaper vanished, violations (encompassing such things as accounting fraud, over- billing, unsafe workplaces, and discrimination) rose by 1.1%, on average.",
+        "The severity of violations also increased, and penalties spiked by 15%.",
+        "Finally, toxic emissions, which must be reported even when they’re legal, jumped by nearly 20%."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "the link between local newspapers and local economy"
+        },
+        {
+          "label": "②",
+          "text": "the effects of local media closures on corporate crime"
+        },
+        {
+          "label": "③",
+          "text": "how corruption in media leads to corporate misconduct"
+        },
+        {
+          "label": "④",
+          "text": "whether firms’ misconduct gets due reports in local press"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. With newspapers still struggling amid digital competition, a research team decided to investigate _______________________________.\n2. The researchers gathered data on U.S. corporate misconduct in the years 2000 to 2017 from Violation Tracker, which records information on infractions and penalties from 44 federal regulatory agencies.\n3. They found 26,450 violations by 1,383 public firms.\n4. They then identified 33 local newspapers that shut their doors at some point from 2003 to 2014.\n5. Comparing local-area violations and penalties in the three years before and after each paper folded, they saw that when a newspaper vanished, violations (encompassing such things as accounting fraud, over- billing, unsafe workplaces, and discrimination) rose by 1.1%, on average.\n6. The severity of violations also increased, and penalties spiked by 15%.\n7. Finally, toxic emissions, which must be reported even when they’re legal, jumped by nearly 20%.\nCHOICES:\n① the link between local newspapers and local economy\n② the effects of local media closures on corporate crime\n③ how corruption in media leads to corporate misconduct\n④ whether firms’ misconduct gets due reports in local press"
+    },
+    {
+      "number": 22,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "Being the editor of a high-profile fashion magazine has its rewards: an impressive salary, a generous clothing allowance and at least two trips to Paris and Milan. ___________________________: gossip columnists feast on your every hem length and heel height; sycophantic employees copy your wardrobe; and photographers with prodigious egos must be flattered and indulged.",
+        "And then there is the pitfall of having your earnest editorial pursuits overshadowed by the more tabloid-friendly stories of where you stand on sable or mink and with whom you are allegedly at war.",
+        "These are some of the trials experienced in recent months by Kate Betts, 35, the newly installed editor in chief at Harper’s Bazaar."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "The younger, the more vulnerable"
+        },
+        {
+          "label": "②",
+          "text": "But there are drawbacks as well"
+        },
+        {
+          "label": "③",
+          "text": "Even snowballing to a seasoned editor"
+        },
+        {
+          "label": "④",
+          "text": "And get ready for a harsher competition"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Being the editor of a high-profile fashion magazine has its rewards: an impressive salary, a generous clothing allowance and at least two trips to Paris and Milan. ___________________________: gossip columnists feast on your every hem length and heel height; sycophantic employees copy your wardrobe; and photographers with prodigious egos must be flattered and indulged.\n2. And then there is the pitfall of having your earnest editorial pursuits overshadowed by the more tabloid-friendly stories of where you stand on sable or mink and with whom you are allegedly at war.\n3. These are some of the trials experienced in recent months by Kate Betts, 35, the newly installed editor in chief at Harper’s Bazaar.\nCHOICES:\n① The younger, the more vulnerable\n② But there are drawbacks as well\n③ Even snowballing to a seasoned editor\n④ And get ready for a harsher competition"
+    },
+    {
+      "number": 23,
+      "instruction": "Choose the one that would best fill in the blank.",
+      "passage_sentences": [
+        "Air seems so thin and insubstantial that we cannot intuitively grasp its role as a global circulator of the essential nutrients CARBON, NITROGEN, and SULFUR as well as of that universal medium of life, WATER.",
+        "How can something so light, invisible, even odorless, be so critical to life?",
+        "We know that the air holds up birds and airplanes in flight.",
+        "We can recall the delicious caress of a summer breeze on our skin, or the bite of subzero winter air in our noses.",
+        "Yet, looking across a room, we’re conscious only of the people or objects in the room, not of the air that fills it.",
+        "Indeed, ___________________ —unless it blows down our houses or fills our lungs with smoke or smog.",
+        "We forget that without air, we couldn’t even hear each other, since it transmits sound."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "we usually take a deep breath"
+        },
+        {
+          "label": "②",
+          "text": "we ordinarily ignore air"
+        },
+        {
+          "label": "③",
+          "text": "air is everywhere"
+        },
+        {
+          "label": "④",
+          "text": "air is not always filtered"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Air seems so thin and insubstantial that we cannot intuitively grasp its role as a global circulator of the essential nutrients CARBON, NITROGEN, and SULFUR as well as of that universal medium of life, WATER.\n2. How can something so light, invisible, even odorless, be so critical to life?\n3. We know that the air holds up birds and airplanes in flight.\n4. We can recall the delicious caress of a summer breeze on our skin, or the bite of subzero winter air in our noses.\n5. Yet, looking across a room, we’re conscious only of the people or objects in the room, not of the air that fills it.\n6. Indeed, ___________________ —unless it blows down our houses or fills our lungs with smoke or smog.\n7. We forget that without air, we couldn’t even hear each other, since it transmits sound.\nCHOICES:\n① we usually take a deep breath\n② we ordinarily ignore air\n③ air is everywhere\n④ air is not always filtered"
+    },
+    {
+      "number": 24,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "She’s getting as long in the tooth as (A)she is in the snout, but Concorde is still the only supermodel in the sky.",
+        "Launched in 1976, the Anglo-French supersonic airliner remains the epitome of dash.",
+        "The bullet plane once did New York to London in 2 hours, 52 minutes—65% quicker than your typical jumbo jet.",
+        "Its speed, rarity (only 13 were built) and high ticket price mean the Concorde’s 100 seats tend to be filled by the world’s rich and famous.",
+        "But (B)it cannot fly forever, and the industry is already hungry for the next generation of supersonic travel.",
+        "Fasten your seatbelt: the next trend in supersonic travel is likely to be up close and personal.",
+        "Building on the craze for corporate jets—more than 550 are expected to be sold worldwide this year—manufacturers are busily exploring how to create a practical and affordable small-scale model that can let executives fly privately in excess of the sound barrier.",
+        "France’s aerospace heavyweight Dassault Aviation pointed to the future last year when it unveiled plans for the Falcon SST, a supersonic business jet.",
+        "Though it may be another decade before the plane actually pokes (C)its nose out of anyone’s hangar, the announcement convinced the aviation industry that mini-SSTs are truly on their way.",
+        "According to plans, the Falcon, built to accommodate eight passengers, will be able to fly farther than Concorde without refueling.",
+        "And, thanks to noise-suppression technology, it won’t generate the sonic boom that prevents (D)the big bird from landing in cities like Tokyo.",
+        "That’s music to environmentalists’ ears—and practical, too, since “quiet” supersonic aircraft can use existing corporate airport runways."
+      ],
+      "question": "Choose the one that does not refer to the same as the rest.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. She’s getting as long in the tooth as (A)she is in the snout, but Concorde is still the only supermodel in the sky.\n2. Launched in 1976, the Anglo-French supersonic airliner remains the epitome of dash.\n3. The bullet plane once did New York to London in 2 hours, 52 minutes—65% quicker than your typical jumbo jet.\n4. Its speed, rarity (only 13 were built) and high ticket price mean the Concorde’s 100 seats tend to be filled by the world’s rich and famous.\n5. But (B)it cannot fly forever, and the industry is already hungry for the next generation of supersonic travel.\n6. Fasten your seatbelt: the next trend in supersonic travel is likely to be up close and personal.\n7. Building on the craze for corporate jets—more than 550 are expected to be sold worldwide this year—manufacturers are busily exploring how to create a practical and affordable small-scale model that can let executives fly privately in excess of the sound barrier.\n8. France’s aerospace heavyweight Dassault Aviation pointed to the future last year when it unveiled plans for the Falcon SST, a supersonic business jet.\n9. Though it may be another decade before the plane actually pokes (C)its nose out of anyone’s hangar, the announcement convinced the aviation industry that mini-SSTs are truly on their way.\n10. According to plans, the Falcon, built to accommodate eight passengers, will be able to fly farther than Concorde without refueling.\n11. And, thanks to noise-suppression technology, it won’t generate the sonic boom that prevents (D)the big bird from landing in cities like Tokyo.\n12. That’s music to environmentalists’ ears—and practical, too, since “quiet” supersonic aircraft can use existing corporate airport runways.\nQUESTION:\nChoose the one that does not refer to the same as the rest.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 25,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "She’s getting as long in the tooth as (A)she is in the snout, but Concorde is still the only supermodel in the sky.",
+        "Launched in 1976, the Anglo-French supersonic airliner remains the epitome of dash.",
+        "The bullet plane once did New York to London in 2 hours, 52 minutes—65% quicker than your typical jumbo jet.",
+        "Its speed, rarity (only 13 were built) and high ticket price mean the Concorde’s 100 seats tend to be filled by the world’s rich and famous.",
+        "But (B)it cannot fly forever, and the industry is already hungry for the next generation of supersonic travel.",
+        "Fasten your seatbelt: the next trend in supersonic travel is likely to be up close and personal.",
+        "Building on the craze for corporate jets—more than 550 are expected to be sold worldwide this year—manufacturers are busily exploring how to create a practical and affordable small-scale model that can let executives fly privately in excess of the sound barrier.",
+        "France’s aerospace heavyweight Dassault Aviation pointed to the future last year when it unveiled plans for the Falcon SST, a supersonic business jet.",
+        "Though it may be another decade before the plane actually pokes (C)its nose out of anyone’s hangar, the announcement convinced the aviation industry that mini-SSTs are truly on their way.",
+        "According to plans, the Falcon, built to accommodate eight passengers, will be able to fly farther than Concorde without refueling.",
+        "And, thanks to noise-suppression technology, it won’t generate the sonic boom that prevents (D)the big bird from landing in cities like Tokyo.",
+        "That’s music to environmentalists’ ears—and practical, too, since “quiet” supersonic aircraft can use existing corporate airport runways."
+      ],
+      "question": "Which of the following is true according the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Though incredibly expensive, a Concorde is available for purchase by any airline."
+        },
+        {
+          "label": "②",
+          "text": "Concorde will be updated into a model of bigger scale and capacity."
+        },
+        {
+          "label": "③",
+          "text": "The Falcon has distinguished itself for more seats than the previous models."
+        },
+        {
+          "label": "④",
+          "text": "The Falcon technology is to be welcomed by environmentalists."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. She’s getting as long in the tooth as (A)she is in the snout, but Concorde is still the only supermodel in the sky.\n2. Launched in 1976, the Anglo-French supersonic airliner remains the epitome of dash.\n3. The bullet plane once did New York to London in 2 hours, 52 minutes—65% quicker than your typical jumbo jet.\n4. Its speed, rarity (only 13 were built) and high ticket price mean the Concorde’s 100 seats tend to be filled by the world’s rich and famous.\n5. But (B)it cannot fly forever, and the industry is already hungry for the next generation of supersonic travel.\n6. Fasten your seatbelt: the next trend in supersonic travel is likely to be up close and personal.\n7. Building on the craze for corporate jets—more than 550 are expected to be sold worldwide this year—manufacturers are busily exploring how to create a practical and affordable small-scale model that can let executives fly privately in excess of the sound barrier.\n8. France’s aerospace heavyweight Dassault Aviation pointed to the future last year when it unveiled plans for the Falcon SST, a supersonic business jet.\n9. Though it may be another decade before the plane actually pokes (C)its nose out of anyone’s hangar, the announcement convinced the aviation industry that mini-SSTs are truly on their way.\n10. According to plans, the Falcon, built to accommodate eight passengers, will be able to fly farther than Concorde without refueling.\n11. And, thanks to noise-suppression technology, it won’t generate the sonic boom that prevents (D)the big bird from landing in cities like Tokyo.\n12. That’s music to environmentalists’ ears—and practical, too, since “quiet” supersonic aircraft can use existing corporate airport runways.\nQUESTION:\nWhich of the following is true according the passage?\nCHOICES:\n① Though incredibly expensive, a Concorde is available for purchase by any airline.\n② Concorde will be updated into a model of bigger scale and capacity.\n③ The Falcon has distinguished itself for more seats than the previous models.\n④ The Falcon technology is to be welcomed by environmentalists."
+    },
+    {
+      "number": 26,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.",
+        "Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others ( ① ); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination ( ② ).",
+        "His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.",
+        "Professional baseball, it turns out, provides a rich opportunity to test Becker’s theories—as well as alternative “statistical discrimination” models in which differential treatment of workers results from uncertainty about an individual’s productivity.",
+        "As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 ( ③ ).",
+        "Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that— consciously or not—his observation of Robinson’s celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic, if not the development of his theories.",
+        "In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players ( ④ ) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized."
+      ],
+      "question": "Choose the best place for the sentence given in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": ""
+        },
+        {
+          "label": "②",
+          "text": ""
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.\n2. Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others ( ① ); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination ( ② ).\n3. His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.\n4. Professional baseball, it turns out, provides a rich opportunity to test Becker’s theories—as well as alternative “statistical discrimination” models in which differential treatment of workers results from uncertainty about an individual’s productivity.\n5. As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 ( ③ ).\n6. Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that— consciously or not—his observation of Robinson’s celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic, if not the development of his theories.\n7. In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players ( ④ ) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized.\nQUESTION:\nChoose the best place for the sentence given in the box.\nCHOICES:\n①\n②\n③\n④"
+    },
+    {
+      "number": 27,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.",
+        "Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others ( ① ); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination ( ② ).",
+        "His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.",
+        "Professional baseball, it turns out, provides a rich opportunity to test Becker’s theories—as well as alternative “statistical discrimination” models in which differential treatment of workers results from uncertainty about an individual’s productivity.",
+        "As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 ( ③ ).",
+        "Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that— consciously or not—his observation of Robinson’s celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic, if not the development of his theories.",
+        "In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players ( ④ ) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized."
+      ],
+      "question": "Which of the following is not true about Gary Becker according to the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "He further developed the economic notion of prejudice widely accepted at the time."
+        },
+        {
+          "label": "②",
+          "text": "He argued that unprejudiced employers could eventually be more competitive than the prejudiced."
+        },
+        {
+          "label": "③",
+          "text": "His dissertation led many economists to study the topic of prejudice."
+        },
+        {
+          "label": "④",
+          "text": "Baseball proves to be a good “field laboratory” to test his theories."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.\n2. Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others ( ① ); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination ( ② ).\n3. His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.\n4. Professional baseball, it turns out, provides a rich opportunity to test Becker’s theories—as well as alternative “statistical discrimination” models in which differential treatment of workers results from uncertainty about an individual’s productivity.\n5. As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 ( ③ ).\n6. Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that— consciously or not—his observation of Robinson’s celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic, if not the development of his theories.\n7. In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players ( ④ ) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized.\nQUESTION:\nWhich of the following is not true about Gary Becker according to the passage?\nCHOICES:\n① He further developed the economic notion of prejudice widely accepted at the time.\n② He argued that unprejudiced employers could eventually be more competitive than the prejudiced.\n③ His dissertation led many economists to study the topic of prejudice.\n④ Baseball proves to be a good “field laboratory” to test his theories."
+    },
+    {
+      "number": 28,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The notion that nothing good happens after midnight does not seem to apply to times of birth.",
+        "Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.",
+        "This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.",
+        "[A] The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.",
+        "They were divided into two groups that were considered to be both culturally and genetically distinct.",
+        "One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.",
+        "The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.",
+        "Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.",
+        "Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.",
+        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.",
+        "The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.",
+        "Both showed a surge in births between 2am and 3am, and a big trough around 5am.",
+        "More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.",
+        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.",
+        "As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles."
+      ],
+      "question": "Choose the best order after the paragraph given in the box.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "[B] - [A] - [C]"
+        },
+        {
+          "label": "②",
+          "text": "[B] - [C] - [A]"
+        },
+        {
+          "label": "③",
+          "text": "[C] - [A] - [B]"
+        },
+        {
+          "label": "④",
+          "text": "[C] - [B] - [A]"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The notion that nothing good happens after midnight does not seem to apply to times of birth.\n2. Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.\n3. This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.\n4. [A] The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.\n5. They were divided into two groups that were considered to be both culturally and genetically distinct.\n6. One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.\n7. The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.\n8. Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.\n9. Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.\n10. [B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.\n11. The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.\n12. Both showed a surge in births between 2am and 3am, and a big trough around 5am.\n13. More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.\n14. [C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.\n15. As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles.\nQUESTION:\nChoose the best order after the paragraph given in the box.\nCHOICES:\n① [B] - [A] - [C]\n② [B] - [C] - [A]\n③ [C] - [A] - [B]\n④ [C] - [B] - [A]"
+    },
+    {
+      "number": 29,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The notion that nothing good happens after midnight does not seem to apply to times of birth.",
+        "Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.",
+        "This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.",
+        "[A] The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.",
+        "They were divided into two groups that were considered to be both culturally and genetically distinct.",
+        "One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.",
+        "The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.",
+        "Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.",
+        "Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.",
+        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.",
+        "The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.",
+        "Both showed a surge in births between 2am and 3am, and a big trough around 5am.",
+        "More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.",
+        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.",
+        "As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles."
+      ],
+      "question": "Choose the one that would best fill in both blanks above.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "It depends"
+        },
+        {
+          "label": "②",
+          "text": "Maybe yes"
+        },
+        {
+          "label": "③",
+          "text": "Not so"
+        },
+        {
+          "label": "④",
+          "text": "You never know"
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The notion that nothing good happens after midnight does not seem to apply to times of birth.\n2. Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.\n3. This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.\n4. [A] The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.\n5. They were divided into two groups that were considered to be both culturally and genetically distinct.\n6. One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.\n7. The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.\n8. Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.\n9. Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.\n10. [B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.\n11. The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.\n12. Both showed a surge in births between 2am and 3am, and a big trough around 5am.\n13. More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.\n14. [C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.\n15. As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles.\nQUESTION:\nChoose the one that would best fill in both blanks above.\nCHOICES:\n① It depends\n② Maybe yes\n③ Not so\n④ You never know"
+    },
+    {
+      "number": 30,
+      "instruction": "Read the passage below and answer the questions that follow.",
+      "passage_sentences": [
+        "The notion that nothing good happens after midnight does not seem to apply to times of birth.",
+        "Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.",
+        "This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.",
+        "[A] The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.",
+        "They were divided into two groups that were considered to be both culturally and genetically distinct.",
+        "One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.",
+        "The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.",
+        "Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.",
+        "Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.",
+        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.",
+        "The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.",
+        "Both showed a surge in births between 2am and 3am, and a big trough around 5am.",
+        "More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.",
+        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.",
+        "As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles."
+      ],
+      "question": "Which of the following is true according to the study of child births in the passage?",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The average time of birth varied greatly depending on the lifestyle of groups."
+        },
+        {
+          "label": "②",
+          "text": "The Criollo mothers were living in farms and ranches and were selected as a traditional lifestyle group."
+        },
+        {
+          "label": "③",
+          "text": "A significant drop in the number of births was recorded around 5am in both groups."
+        },
+        {
+          "label": "④",
+          "text": "The Argentine law requires rural mothers to give birth at home."
+        }
+      ],
+      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The notion that nothing good happens after midnight does not seem to apply to times of birth.\n2. Around the world the peak hours for vaginal births that have not been induced by drugs fall between 1am and 7am; the numbers then dwindle throughout the rest of the day.\n3. This has led many scientists to believe that giving birth during the early morning offers some sort of evolutionary advantage, perhaps gained long ago when hunter-gatherer mothers and their infants would benefit from having their group reunited during the small hours to help with care and to defend them against any predators.\n4. [A] The mothers that Ms Chaney and her colleagues chose to study live in Formosa, a rural province in Argentina.\n5. They were divided into two groups that were considered to be both culturally and genetically distinct.\n6. One group consisted of 1,278 women from the Criollo population, a people of mixed Spanish and indigenous heritage who live relatively modern lives and typically engage in small-scale farming and cattle-ranching.\n7. The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.\n8. Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.\n9. Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.\n10. [B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.\n11. The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.\n12. Both showed a surge in births between 2am and 3am, and a big trough around 5am.\n13. More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.\n14. [C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.\n15. As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles.\nQUESTION:\nWhich of the following is true according to the study of child births in the passage?\nCHOICES:\n① The average time of birth varied greatly depending on the lifestyle of groups.\n② The Criollo mothers were living in farms and ranches and were selected as a traditional lifestyle group.\n③ A significant drop in the number of births was recorded around 5am in both groups.\n④ The Argentine law requires rural mothers to give birth at home."
+    }
+  ]
+}

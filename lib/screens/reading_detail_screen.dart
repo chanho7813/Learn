@@ -13,20 +13,19 @@ String _cleanWord(String raw) {
 }
 
 class ReadingDetailScreen extends StatefulWidget {
-  final ReadingPassage passage;
+  final ReadingExam exam;
 
-  const ReadingDetailScreen({super.key, required this.passage});
+  const ReadingDetailScreen({super.key, required this.exam});
 
   @override
   State<ReadingDetailScreen> createState() => _ReadingDetailScreenState();
 }
 
 class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
-  final Set<String> _revealedSentences = {};
   final Set<String> _selectedWords = {};
-  bool _showAll = false;
+  bool _showChoices = false;
   double _fontSize = 16.0;
-  int _currentSectionIndex = 0;
+  int _currentIndex = 0;
 
   @override
   void initState() {
@@ -40,50 +39,17 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
     if (mounted) {
       setState(() {
         _fontSize = size;
-        _currentSectionIndex =
-            section.clamp(0, widget.passage.sections.length - 1);
+        _currentIndex = section.clamp(0, widget.exam.questions.length - 1);
       });
     }
   }
 
-  String _sentenceKey(int sectionIndex, int sentenceIndex) =>
-      '$sectionIndex-$sentenceIndex';
-
-  void _toggleSentence(int sectionIndex, int sentenceIndex) {
-    final key = _sentenceKey(sectionIndex, sentenceIndex);
+  void _goTo(int index) {
+    final clamped = index.clamp(0, widget.exam.questions.length - 1);
+    if (clamped == _currentIndex) return;
     setState(() {
-      if (_revealedSentences.contains(key)) {
-        _revealedSentences.remove(key);
-      } else {
-        _revealedSentences.add(key);
-      }
-    });
-  }
-
-  void _toggleAll() {
-    setState(() {
-      _showAll = !_showAll;
-      if (_showAll) {
-        for (int s = 0; s < widget.passage.sections.length; s++) {
-          for (int i = 0;
-              i < widget.passage.sections[s].sentences.length;
-              i++) {
-            _revealedSentences.add(_sentenceKey(s, i));
-          }
-        }
-      } else {
-        _revealedSentences.clear();
-      }
-    });
-  }
-
-  void _goToSection(int index) {
-    final clamped = index.clamp(0, widget.passage.sections.length - 1);
-    if (clamped == _currentSectionIndex) return;
-    setState(() {
-      _currentSectionIndex = clamped;
-      _revealedSentences.clear();
-      _showAll = false;
+      _currentIndex = clamped;
+      _showChoices = false;
     });
     SettingsService.setLastReadingSection(clamped);
   }
@@ -124,11 +90,11 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
         sentence: sentence,
       );
       if (!mounted) return;
-      Navigator.pop(context); // dismiss loading
+      Navigator.pop(context);
       _showWordAnalysisSheet(result);
     } catch (e) {
       if (!mounted) return;
-      Navigator.pop(context); // dismiss loading
+      Navigator.pop(context);
       final msg = e.toString().replaceFirst('Exception: ', '');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(msg)),
@@ -173,7 +139,6 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                         ),
                       ),
                       const SizedBox(height: 16),
-                      // Header: word + pronunciation + bookmark
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
@@ -183,16 +148,14 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                               children: [
                                 Text(
                                   result.word,
-                                  style:
-                                      theme.textTheme.headlineSmall?.copyWith(
+                                  style: theme.textTheme.headlineSmall?.copyWith(
                                     fontWeight: FontWeight.w800,
                                   ),
                                 ),
                                 if (result.pronunciation.isNotEmpty)
                                   Text(
                                     result.pronunciation,
-                                    style:
-                                        theme.textTheme.bodyMedium?.copyWith(
+                                    style: theme.textTheme.bodyMedium?.copyWith(
                                       color: cs.onSurface.withAlpha(153),
                                     ),
                                   ),
@@ -203,12 +166,11 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                             onPressed: added
                                 ? null
                                 : () async {
-                                    final count = await StorageService
-                                        .addWords([result]);
+                                    final count =
+                                        await StorageService.addWords([result]);
                                     if (count > 0) {
-                                      setState(() =>
-                                          _selectedWords.add(
-                                              result.word.toLowerCase()));
+                                      setState(() => _selectedWords
+                                          .add(result.word.toLowerCase()));
                                       setSheetState(() => added = true);
                                       if (mounted) {
                                         ScaffoldMessenger.of(context)
@@ -224,8 +186,8 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                                         ScaffoldMessenger.of(context)
                                             .showSnackBar(
                                           const SnackBar(
-                                              content: Text(
-                                                  '이미 단어장에 있는 단어입니다')),
+                                              content:
+                                                  Text('이미 단어장에 있는 단어입니다')),
                                         );
                                       }
                                     }
@@ -242,14 +204,10 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                         ],
                       ),
                       const SizedBox(height: 12),
-                      // Brief meaning
                       Text(
                         result.meaning,
-                        style: theme.textTheme.bodyLarge?.copyWith(
-                          height: 1.5,
-                        ),
+                        style: theme.textTheme.bodyLarge?.copyWith(height: 1.5),
                       ),
-                      // Etymology
                       if (result.etymology.isNotEmpty) ...[
                         const SizedBox(height: 14),
                         Row(
@@ -267,12 +225,9 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                           ],
                         ),
                         const SizedBox(height: 4),
-                        Text(
-                          result.etymology,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            height: 1.4,
-                          ),
-                        ),
+                        Text(result.etymology,
+                            style:
+                                theme.textTheme.bodySmall?.copyWith(height: 1.4)),
                         if (result.etymologyExplain.isNotEmpty)
                           Text(
                             '→ ${result.etymologyExplain}',
@@ -283,18 +238,16 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                             ),
                           ),
                       ],
-                      // Related words
                       if (result.relatedWords.isNotEmpty) ...[
                         const SizedBox(height: 8),
                         Text(
-                          '🔗 관련어: ${result.relatedWords}',
+                          '관련어: ${result.relatedWords}',
                           style: theme.textTheme.bodySmall?.copyWith(
                             color: cs.primary,
                             height: 1.4,
                           ),
                         ),
                       ],
-                      // Example
                       if (result.exampleEn.isNotEmpty) ...[
                         const SizedBox(height: 14),
                         Container(
@@ -326,95 +279,6 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                           ),
                         ),
                       ],
-                      // Nuances
-                      if (result.nuances.isNotEmpty) ...[
-                        const SizedBox(height: 14),
-                        Row(
-                          children: [
-                            Icon(Icons.palette_outlined,
-                                size: 16, color: cs.tertiary),
-                            const SizedBox(width: 6),
-                            Text(
-                              '뉘앙스 비교',
-                              style: theme.textTheme.labelLarge?.copyWith(
-                                color: cs.tertiary,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 6),
-                        ...result.nuances.map((n) {
-                          final isMain = n.word.toLowerCase() ==
-                              result.word.toLowerCase();
-                          return Padding(
-                            padding: const EdgeInsets.only(bottom: 6),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Row(
-                                  crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                  children: [
-                                    Container(
-                                      padding: const EdgeInsets.symmetric(
-                                          horizontal: 7, vertical: 3),
-                                      decoration: BoxDecoration(
-                                        color: isMain
-                                            ? cs.primaryContainer
-                                            : cs.surfaceContainerHighest,
-                                        borderRadius:
-                                            BorderRadius.circular(5),
-                                      ),
-                                      child: Text(
-                                        n.word,
-                                        style: TextStyle(
-                                          fontWeight: isMain
-                                              ? FontWeight.bold
-                                              : FontWeight.w500,
-                                          fontSize: 12,
-                                          color: isMain
-                                              ? cs.onPrimaryContainer
-                                              : cs.onSurface,
-                                        ),
-                                      ),
-                                    ),
-                                    const SizedBox(width: 8),
-                                    Expanded(
-                                      child: Padding(
-                                        padding:
-                                            const EdgeInsets.only(top: 3),
-                                        child: Text(
-                                          n.description,
-                                          style: theme.textTheme.bodySmall
-                                              ?.copyWith(
-                                            color: cs.onSurface
-                                                .withAlpha(179),
-                                            height: 1.3,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                                if (n.etymology.isNotEmpty)
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                        left: 16, top: 1),
-                                    child: Text(
-                                      '└ ${n.etymology}',
-                                      style: theme.textTheme.bodySmall
-                                          ?.copyWith(
-                                        color: Colors.orange,
-                                        fontSize: 11,
-                                      ),
-                                    ),
-                                  ),
-                              ],
-                            ),
-                          );
-                        }),
-                      ],
                     ],
                   ),
                 );
@@ -426,198 +290,41 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
     );
   }
 
-  void _showSelectedWords() {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-
-    showModalBottomSheet(
-      context: context,
-      isScrollControlled: true,
-      builder: (ctx) {
-        return StatefulBuilder(
-          builder: (ctx, setSheetState) {
-            final words = _selectedWords.toList()..sort();
-            return SafeArea(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Center(
-                      child: Container(
-                        width: 40,
-                        height: 4,
-                        decoration: BoxDecoration(
-                          color: colorScheme.onSurface.withAlpha(51),
-                          borderRadius: BorderRadius.circular(2),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                    Row(
-                      children: [
-                        Text(
-                          '추가 예정 단어',
-                          style: theme.textTheme.titleMedium?.copyWith(
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                        const SizedBox(width: 8),
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 8, vertical: 2),
-                          decoration: BoxDecoration(
-                            color: colorScheme.primary,
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          child: Text(
-                            '${words.length}',
-                            style: TextStyle(
-                              color: colorScheme.onPrimary,
-                              fontSize: 12,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                        ),
-                        const Spacer(),
-                        if (words.isNotEmpty)
-                          TextButton(
-                            onPressed: () {
-                              setState(() => _selectedWords.clear());
-                              setSheetState(() {});
-                            },
-                            child: const Text('초기화'),
-                          ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                    if (words.isEmpty)
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 32),
-                        child: Center(
-                          child: Text(
-                            '영어 문장에서 단어를 길게 눌러 추가하세요',
-                            style: theme.textTheme.bodyMedium?.copyWith(
-                              color: colorScheme.onSurface.withAlpha(128),
-                            ),
-                          ),
-                        ),
-                      )
-                    else ...[
-                      ConstrainedBox(
-                        constraints: const BoxConstraints(maxHeight: 300),
-                        child: SingleChildScrollView(
-                          child: Wrap(
-                            spacing: 8,
-                            runSpacing: 8,
-                            children: words.map((word) {
-                              return Chip(
-                                label: Text(word),
-                                deleteIcon:
-                                    const Icon(Icons.close, size: 16),
-                                onDeleted: () {
-                                  setState(
-                                      () => _selectedWords.remove(word));
-                                  setSheetState(() {});
-                                },
-                              );
-                            }).toList(),
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 16),
-                      SizedBox(
-                        width: double.infinity,
-                        child: FilledButton.icon(
-                          onPressed: () async {
-                            final newWords = words
-                                .map((w) => Word(
-                                      number: 0,
-                                      word: w,
-                                      briefMeaning: '',
-                                      meaning: '',
-                                      exampleEn: '',
-                                      exampleKo: '',
-                                      nuances: [],
-                                      etymology: '',
-                                      etymologyExplain: '',
-                                      relatedWords: '',
-                                    ))
-                                .toList();
-                            final added =
-                                await StorageService.addWords(newWords);
-                            if (!context.mounted) return;
-                            Navigator.pop(ctx);
-                            setState(() => _selectedWords.clear());
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              SnackBar(
-                                content: Text(
-                                    '${words.length}개 중 $added개 단어장에 추가됨'),
-                              ),
-                            );
-                          },
-                          icon: const Icon(Icons.bookmark_add, size: 18),
-                          label: const Text('단어장에 추가'),
-                        ),
-                      ),
-                    ],
-                  ],
-                ),
-              ),
-            );
-          },
-        );
-      },
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
-    final sections = widget.passage.sections;
-    final section = sections[_currentSectionIndex];
+    final questions = widget.exam.questions;
+    final q = questions[_currentIndex];
 
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          widget.passage.title,
+          widget.exam.title,
           style: const TextStyle(fontSize: 14),
         ),
         actions: [
-          Badge(
-            isLabelVisible: _selectedWords.isNotEmpty,
-            label: Text('${_selectedWords.length}'),
-            child: IconButton(
-              onPressed: _showSelectedWords,
-              icon: const Icon(Icons.bookmark_add_outlined),
-              tooltip: '추가 예정 단어',
+          if (_selectedWords.isNotEmpty)
+            Badge(
+              label: Text('${_selectedWords.length}'),
+              child: IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.bookmark_add_outlined),
+              ),
             ),
-          ),
-          IconButton(
-            onPressed: _toggleAll,
-            icon: Icon(
-              _showAll
-                  ? Icons.visibility_off_outlined
-                  : Icons.visibility_outlined,
-            ),
-            tooltip: _showAll ? '전체 해석 숨기기' : '전체 해석 보기',
-          ),
         ],
       ),
       body: Column(
         children: [
-          if (sections.length > 1)
+          if (questions.length > 1)
             Padding(
-              padding:
-                  const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+              padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   IconButton(
-                    onPressed: _currentSectionIndex > 0
-                        ? () => _goToSection(_currentSectionIndex - 1)
+                    onPressed: _currentIndex > 0
+                        ? () => _goTo(_currentIndex - 1)
                         : null,
                     icon: const Icon(Icons.chevron_left),
                     style: IconButton.styleFrom(
@@ -639,7 +346,7 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
-                      section.title,
+                      '${q.number}번',
                       style: theme.textTheme.titleSmall?.copyWith(
                         fontWeight: FontWeight.w700,
                         color: colorScheme.onPrimaryContainer,
@@ -648,8 +355,8 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                   ),
                   const SizedBox(width: 12),
                   IconButton(
-                    onPressed: _currentSectionIndex < sections.length - 1
-                        ? () => _goToSection(_currentSectionIndex + 1)
+                    onPressed: _currentIndex < questions.length - 1
+                        ? () => _goTo(_currentIndex + 1)
                         : null,
                     icon: const Icon(Icons.chevron_right),
                     style: IconButton.styleFrom(
@@ -662,36 +369,154 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
             ),
           Expanded(
             child: GestureDetector(
-              onHorizontalDragEnd: sections.length > 1
+              onHorizontalDragEnd: questions.length > 1
                   ? (details) {
                       final velocity = details.primaryVelocity ?? 0;
-                      if (velocity > 300) {
-                        _goToSection(_currentSectionIndex - 1);
-                      } else if (velocity < -300) {
-                        _goToSection(_currentSectionIndex + 1);
-                      }
+                      if (velocity > 300) _goTo(_currentIndex - 1);
+                      if (velocity < -300) _goTo(_currentIndex + 1);
                     }
                   : null,
               behavior: HitTestBehavior.translucent,
-              child: ListView.builder(
+              child: ListView(
                 padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
-                itemCount: section.sentences.length,
-                itemBuilder: (context, index) {
-                  final pair = section.sentences[index];
-                  final key = _sentenceKey(_currentSectionIndex, index);
-                  final isRevealed = _revealedSentences.contains(key);
-
-                  return _SentenceCard(
-                    pair: pair,
-                    isRevealed: isRevealed,
-                    fontSize: _fontSize,
-                    selectedWords: _selectedWords,
-                    onTap: () =>
-                        _toggleSentence(_currentSectionIndex, index),
-                    onWordAnalyze: (word) =>
-                        _analyzeWord(word, pair.en),
-                  );
-                },
+                children: [
+                  if (q.instruction.isNotEmpty) ...[
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(14),
+                      decoration: BoxDecoration(
+                        color: colorScheme.surfaceContainerHighest.withAlpha(51),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        q.instruction,
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: colorScheme.onSurface.withAlpha(179),
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+                  ],
+                  if (q.passageSentences.isNotEmpty) ...[
+                    ...q.passageSentences.map((sentence) {
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: Container(
+                          width: double.infinity,
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 14),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(
+                              color: colorScheme.outlineVariant.withAlpha(51),
+                              width: 0.5,
+                            ),
+                          ),
+                          child: Wrap(
+                            children: _buildWordWidgets(
+                                sentence, colorScheme),
+                          ),
+                        ),
+                      );
+                    }),
+                    const SizedBox(height: 12),
+                  ],
+                  if (q.question != null && q.question!.isNotEmpty) ...[
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.orange.withAlpha(15),
+                        border: Border.all(
+                          color: Colors.orange.withAlpha(77),
+                          width: 0.8,
+                        ),
+                      ),
+                      child: Text(
+                        q.question!,
+                        style: TextStyle(
+                          fontSize: _fontSize,
+                          height: 1.6,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 12),
+                  ],
+                  if (q.choices.isNotEmpty) ...[
+                    Material(
+                      color: Colors.transparent,
+                      child: InkWell(
+                        onTap: () =>
+                            setState(() => _showChoices = !_showChoices),
+                        borderRadius: BorderRadius.circular(12),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 12, horizontal: 16),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(
+                                _showChoices
+                                    ? Icons.visibility_off_outlined
+                                    : Icons.list,
+                                size: 20,
+                                color: _showChoices
+                                    ? colorScheme.onSurface.withAlpha(128)
+                                    : colorScheme.primary,
+                              ),
+                              const SizedBox(width: 8),
+                              Text(
+                                _showChoices ? '보기 숨기기' : '보기 보기',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: _showChoices
+                                      ? colorScheme.onSurface.withAlpha(128)
+                                      : colorScheme.primary,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    AnimatedSize(
+                      duration: const Duration(milliseconds: 200),
+                      curve: Curves.easeInOut,
+                      alignment: Alignment.topLeft,
+                      child: _showChoices
+                          ? Container(
+                              width: double.infinity,
+                              padding: const EdgeInsets.all(16),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(12),
+                                border: Border.all(
+                                  color: colorScheme.outlineVariant.withAlpha(77),
+                                  width: 0.8,
+                                ),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: q.choices.map((c) {
+                                  return Padding(
+                                    padding: const EdgeInsets.only(bottom: 10),
+                                    child: Text(
+                                      '${c.label} ${c.text}',
+                                      style: TextStyle(
+                                        fontSize: _fontSize,
+                                        height: 1.6,
+                                      ),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            )
+                          : const SizedBox.shrink(),
+                    ),
+                  ],
+                ],
               ),
             ),
           ),
@@ -699,115 +524,20 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
       ),
     );
   }
-}
 
-class _SentenceCard extends StatelessWidget {
-  final SentencePair pair;
-  final bool isRevealed;
-  final double fontSize;
-  final Set<String> selectedWords;
-  final VoidCallback onTap;
-  final ValueChanged<String> onWordAnalyze;
-
-  const _SentenceCard({
-    required this.pair,
-    required this.isRevealed,
-    required this.fontSize,
-    required this.selectedWords,
-    required this.onTap,
-    required this.onWordAnalyze,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    final isDark = theme.brightness == Brightness.dark;
-
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 6),
-      child: Material(
-        color: Colors.transparent,
-        child: InkWell(
-          onTap: onTap,
-          borderRadius: BorderRadius.circular(12),
-          child: Container(
-            width: double.infinity,
-            padding:
-                const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12),
-              color: isRevealed
-                  ? colorScheme.primaryContainer
-                      .withAlpha(isDark ? 51 : 38)
-                  : Colors.transparent,
-              border: Border.all(
-                color: isRevealed
-                    ? colorScheme.primary.withAlpha(77)
-                    : colorScheme.outlineVariant.withAlpha(51),
-                width: isRevealed ? 1.0 : 0.5,
-              ),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Wrap(
-                  children: _buildWordWidgets(colorScheme),
-                ),
-                AnimatedSize(
-                  duration: const Duration(milliseconds: 200),
-                  curve: Curves.easeInOut,
-                  alignment: Alignment.topLeft,
-                  child: isRevealed
-                      ? Padding(
-                          padding: const EdgeInsets.only(top: 10),
-                          child: Container(
-                            width: double.infinity,
-                            padding: const EdgeInsets.only(
-                                left: 12, top: 8, bottom: 8, right: 8),
-                            decoration: BoxDecoration(
-                              border: Border(
-                                left: BorderSide(
-                                  color:
-                                      colorScheme.primary.withAlpha(128),
-                                  width: 2.5,
-                                ),
-                              ),
-                            ),
-                            child: Text(
-                              pair.ko,
-                              style: TextStyle(
-                                fontSize: fontSize - 1,
-                                height: 1.6,
-                                color:
-                                    colorScheme.onSurface.withAlpha(179),
-                              ),
-                            ),
-                          ),
-                        )
-                      : const SizedBox.shrink(),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  List<Widget> _buildWordWidgets(ColorScheme colorScheme) {
-    final words = pair.en.split(' ');
+  List<Widget> _buildWordWidgets(String sentence, ColorScheme colorScheme) {
+    final words = sentence.split(' ');
     return List.generate(words.length, (i) {
       final word = words[i];
       final clean = _cleanWord(word);
-      final isSelected = clean.isNotEmpty && selectedWords.contains(clean);
+      final isSelected = clean.isNotEmpty && _selectedWords.contains(clean);
       final display = i < words.length - 1 ? '$word ' : word;
 
       if (clean.isEmpty) {
         return Text(
           display,
           style: TextStyle(
-            fontSize: fontSize,
+            fontSize: _fontSize,
             height: 1.6,
             color: colorScheme.onSurface,
           ),
@@ -815,7 +545,7 @@ class _SentenceCard extends StatelessWidget {
       }
 
       return GestureDetector(
-        onLongPress: () => onWordAnalyze(clean),
+        onLongPress: () => _analyzeWord(clean, sentence),
         child: Container(
           decoration: isSelected
               ? BoxDecoration(
@@ -826,11 +556,9 @@ class _SentenceCard extends StatelessWidget {
           child: Text(
             display,
             style: TextStyle(
-              fontSize: fontSize,
+              fontSize: _fontSize,
               height: 1.6,
-              color: isSelected
-                  ? colorScheme.primary
-                  : colorScheme.onSurface,
+              color: isSelected ? colorScheme.primary : colorScheme.onSurface,
               fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400,
             ),
           ),

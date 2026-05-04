@@ -1,0 +1,1335 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2025,
+  "exam_kind": "english",
+  "source_text_file": "chungang_2025_english_extracted_complete_final.txt",
+  "question_count": 40,
+  "schema": {
+    "number": "문제 번호",
+    "instruction": "문제 유형/지시문",
+    "passage_sentences": "지문 문장 단위 배열",
+    "question": "별도 질문 문구가 있는 경우. 없으면 null",
+    "choices": "보기 배열. label은 ①,② 등 원문 번호",
+    "raw_text": "검수용 원문 블록"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "As it was about a quarter past five, I went home, had some tea, and walked up to the station to waylay him."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "fool"
+        },
+        {
+          "label": "②",
+          "text": "persuade"
+        },
+        {
+          "label": "③",
+          "text": "respect"
+        },
+        {
+          "label": "④",
+          "text": "detain"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. As it was about a quarter past five, I went home, had some tea, and walked up to the station to waylay him.\nCHOICES:\n① fool\n② persuade\n③ respect\n④ detain"
+    },
+    {
+      "number": 2,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "It was simply a triumph of the diaphanous over the coldness and solidity of marble."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "rickety"
+        },
+        {
+          "label": "②",
+          "text": "earthly"
+        },
+        {
+          "label": "③",
+          "text": "girthy"
+        },
+        {
+          "label": "④",
+          "text": "filmy"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. It was simply a triumph of the diaphanous over the coldness and solidity of marble.\nCHOICES:\n① rickety\n② earthly\n③ girthy\n④ filmy"
+    },
+    {
+      "number": 3,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Will these attempts to impugn the overweening state and accuse mainstream politicians of medical fascism work?"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "preludious"
+        },
+        {
+          "label": "②",
+          "text": "strenuous"
+        },
+        {
+          "label": "③",
+          "text": "presumptuous"
+        },
+        {
+          "label": "④",
+          "text": "stupendous"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Will these attempts to impugn the overweening state and accuse mainstream politicians of medical fascism work?\nCHOICES:\n① preludious\n② strenuous\n③ presumptuous\n④ stupendous"
+    },
+    {
+      "number": 4,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The child tried to wheedle a cookie out of her mother."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "maraud"
+        },
+        {
+          "label": "②",
+          "text": "fabricate"
+        },
+        {
+          "label": "③",
+          "text": "engulf"
+        },
+        {
+          "label": "④",
+          "text": "inveigle"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The child tried to wheedle a cookie out of her mother.\nCHOICES:\n① maraud\n② fabricate\n③ engulf\n④ inveigle"
+    },
+    {
+      "number": 5,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Your boorish remarks to the driver of the other car were not warranted by the situation."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "coarse"
+        },
+        {
+          "label": "②",
+          "text": "bonny"
+        },
+        {
+          "label": "③",
+          "text": "suave"
+        },
+        {
+          "label": "④",
+          "text": "demotic"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Your boorish remarks to the driver of the other car were not warranted by the situation.\nCHOICES:\n① coarse\n② bonny\n③ suave\n④ demotic"
+    },
+    {
+      "number": 6,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "Your insouciant attitude indicates that you do not understand the gravity of the situation."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "indifferent"
+        },
+        {
+          "label": "②",
+          "text": "irresistible"
+        },
+        {
+          "label": "③",
+          "text": "incontinent"
+        },
+        {
+          "label": "④",
+          "text": "irrefragable"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Your insouciant attitude indicates that you do not understand the gravity of the situation.\nCHOICES:\n① indifferent\n② irresistible\n③ incontinent\n④ irrefragable"
+    },
+    {
+      "number": 7,
+      "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
+      "passage_sentences": [
+        "The lawyer argued that the spoliation of evidence harmed the case."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "slander"
+        },
+        {
+          "label": "②",
+          "text": "pillaging"
+        },
+        {
+          "label": "③",
+          "text": "quagmire"
+        },
+        {
+          "label": "④",
+          "text": "underpinning"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The lawyer argued that the spoliation of evidence harmed the case.\nCHOICES:\n① slander\n② pillaging\n③ quagmire\n④ underpinning"
+    },
+    {
+      "number": 8,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: I can’t wait any longer. I need to tell that person to find out what’s going on. B: Can’t you hold yourself back? Don’t throw a monkey wrench into the works."
+        },
+        {
+          "label": "②",
+          "text": "A: I hold the pioneers in esteem. B: That’s only natural. They helped pave the way for us today."
+        },
+        {
+          "label": "③",
+          "text": "A: Why hasn’t Michael spoken up in the meeting? He’s always so quiet. B: He’s probably just keeping a high profile. He knows when to avoid trouble."
+        },
+        {
+          "label": "④",
+          "text": "A: You’ve always been too big for your britches! 【7 문제지[A형] B: Don’t make things up! I’ve always known my place!"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)\nCHOICES:\n① A: I can’t wait any longer. I need to tell that person to find out what’s going on. B: Can’t you hold yourself back? Don’t throw a monkey wrench into the works.\n② A: I hold the pioneers in esteem. B: That’s only natural. They helped pave the way for us today.\n③ A: Why hasn’t Michael spoken up in the meeting? He’s always so quiet. B: He’s probably just keeping a high profile. He knows when to avoid trouble.\n④ A: You’ve always been too big for your britches! 【7 문제지[A형] B: Don’t make things up! I’ve always known my place!"
+    },
+    {
+      "number": 9,
+      "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
+      "passage_sentences": [
+        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "A: I heard Tom’s been putting all his eggs in one basket with that startup. B: Yeah, if it doesn’t work, he could be in deep water."
+        },
+        {
+          "label": "②",
+          "text": "A: Lisa’s really been pushing the envelope with her new project. B: I know. I hope she doesn’t bite off more than she can chew."
+        },
+        {
+          "label": "③",
+          "text": "A: Mark thinks he can smooth things over with his boss soon. B: Yes, he’s always talking out of both sides of his mouth."
+        },
+        {
+          "label": "④",
+          "text": "A: You know what? You really put him on the spot last night. B: I know. I should’ve kept it between us instead of airing the dirty laundry."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)\nCHOICES:\n① A: I heard Tom’s been putting all his eggs in one basket with that startup. B: Yeah, if it doesn’t work, he could be in deep water.\n② A: Lisa’s really been pushing the envelope with her new project. B: I know. I hope she doesn’t bite off more than she can chew.\n③ A: Mark thinks he can smooth things over with his boss soon. B: Yes, he’s always talking out of both sides of his mouth.\n④ A: You know what? You really put him on the spot last night. B: I know. I should’ve kept it between us instead of airing the dirty laundry."
+    },
+    {
+      "number": 10,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "Our responses would appear to depend, to greater or lesser extent, on acculturation, although primary"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "colors red and blue would seem to most of us"
+        },
+        {
+          "label": "②",
+          "text": "stimulating and rest, respectively. No error"
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Our responses would appear to depend, to greater or lesser extent, on acculturation, although primary\nCHOICES:\n① colors red and blue would seem to most of us\n② stimulating and rest, respectively. No error\n③ \n④"
+    },
+    {
+      "number": 11,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "In fact, the brain tissue that is closest to empathy"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "in the sense of compassion is neither a patch of cortex nor a subcortical organ than a system of hormonal"
+        },
+        {
+          "label": "②",
+          "text": "plumbing. No error"
+        },
+        {
+          "label": "③",
+          "text": ""
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. In fact, the brain tissue that is closest to empathy\nCHOICES:\n① in the sense of compassion is neither a patch of cortex nor a subcortical organ than a system of hormonal\n② plumbing. No error\n③ \n④"
+    },
+    {
+      "number": 12,
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "passage_sentences": [
+        "Italian church composers in the second half of the seventeenth century continued to cultivate the old"
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "contrapuntal style modelling on Palestrina alongside the"
+        },
+        {
+          "label": "②",
+          "text": "newer concerted styles featuring basso continuo and solo singers, sometimes mixing the two in the same"
+        },
+        {
+          "label": "③",
+          "text": "work. No error"
+        },
+        {
+          "label": "④",
+          "text": ""
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Italian church composers in the second half of the seventeenth century continued to cultivate the old\nCHOICES:\n① contrapuntal style modelling on Palestrina alongside the\n② newer concerted styles featuring basso continuo and solo singers, sometimes mixing the two in the same\n③ work. No error\n④"
+    },
+    {
+      "number": 13,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "While the WTO cannot prevent the two largest trading partners from exchanging _______ of restrictive trade measures, there could be some at some point positive WTO involvement."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "kudos"
+        },
+        {
+          "label": "②",
+          "text": "futures"
+        },
+        {
+          "label": "③",
+          "text": "salves"
+        },
+        {
+          "label": "④",
+          "text": "salvos"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. While the WTO cannot prevent the two largest trading partners from exchanging _______ of restrictive trade measures, there could be some at some point positive WTO involvement.\nCHOICES:\n① kudos\n② futures\n③ salves\n④ salvos"
+    },
+    {
+      "number": 14,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "Even when the day is cloudy or the light _______ because of the time of day, the views are still splendid, and so are the photo ops."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "radiant"
+        },
+        {
+          "label": "②",
+          "text": "vivid"
+        },
+        {
+          "label": "③",
+          "text": "thick"
+        },
+        {
+          "label": "④",
+          "text": "flat"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. Even when the day is cloudy or the light _______ because of the time of day, the views are still splendid, and so are the photo ops.\nCHOICES:\n① radiant\n② vivid\n③ thick\n④ flat"
+    },
+    {
+      "number": 15,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "Her dance performance felt like stepping into a _______ in South Africa, full of vibrant energy and diversity from various animals."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "netherworld"
+        },
+        {
+          "label": "②",
+          "text": "menagerie"
+        },
+        {
+          "label": "③",
+          "text": "torpor"
+        },
+        {
+          "label": "④",
+          "text": "rebus"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. Her dance performance felt like stepping into a _______ in South Africa, full of vibrant energy and diversity from various animals.\nCHOICES:\n① netherworld\n② menagerie\n③ torpor\n④ rebus"
+    },
+    {
+      "number": 16,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "She decided to _______ when asked to take on additional responsibilities at work, citing her overwhelming current workload."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "demur"
+        },
+        {
+          "label": "②",
+          "text": "jubilate"
+        },
+        {
+          "label": "③",
+          "text": "thaw"
+        },
+        {
+          "label": "④",
+          "text": "irrupt"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. She decided to _______ when asked to take on additional responsibilities at work, citing her overwhelming current workload.\nCHOICES:\n① demur\n② jubilate\n③ thaw\n④ irrupt"
+    },
+    {
+      "number": 17,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "Tending an infant’s requirement for _______ stimulation, for touching and holding, is as crucial to forming a bond as is tending to the requirements of physical safety, warmth, and food."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "osphretic"
+        },
+        {
+          "label": "②",
+          "text": "gustatory"
+        },
+        {
+          "label": "③",
+          "text": "auricular"
+        },
+        {
+          "label": "④",
+          "text": "tactile"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. Tending an infant’s requirement for _______ stimulation, for touching and holding, is as crucial to forming a bond as is tending to the requirements of physical safety, warmth, and food.\nCHOICES:\n① osphretic\n② gustatory\n③ auricular\n④ tactile"
+    },
+    {
+      "number": 18,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "His _______ actions, betraying the trust of everyone who relied on him, left a deep scar on the team, making it difficult for anyone to forgive him or ever trust him again."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "perfidious"
+        },
+        {
+          "label": "②",
+          "text": "preemptive"
+        },
+        {
+          "label": "③",
+          "text": "perfunctory"
+        },
+        {
+          "label": "④",
+          "text": "preliminary"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. His _______ actions, betraying the trust of everyone who relied on him, left a deep scar on the team, making it difficult for anyone to forgive him or ever trust him again.\nCHOICES:\n① perfidious\n② preemptive\n③ perfunctory\n④ preliminary"
+    },
+    {
+      "number": 19,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "The beauty of the sunset was so _______ that it seemed to vanish before anyone could truly appreciate it, leaving behind only a fleeting memory of its vibrant colors."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "forthcoming"
+        },
+        {
+          "label": "②",
+          "text": "flippant"
+        },
+        {
+          "label": "③",
+          "text": "fulminating"
+        },
+        {
+          "label": "④",
+          "text": "fugacious"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. The beauty of the sunset was so _______ that it seemed to vanish before anyone could truly appreciate it, leaving behind only a fleeting memory of its vibrant colors.\nCHOICES:\n① forthcoming\n② flippant\n③ fulminating\n④ fugacious"
+    },
+    {
+      "number": 20,
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어",
+      "passage_sentences": [
+        "The politician’s reputation was _______ by false accusations, which spread quickly and caused irreversible damage to his public image."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "beguiled"
+        },
+        {
+          "label": "②",
+          "text": "bequeathed"
+        },
+        {
+          "label": "③",
+          "text": "besmirched"
+        },
+        {
+          "label": "④",
+          "text": "berated"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점) - 1 】 편입학 시험 영어\nPASSAGE_SENTENCES:\n1. The politician’s reputation was _______ by false accusations, which spread quickly and caused irreversible damage to his public image.\nCHOICES:\n① beguiled\n② bequeathed\n③ besmirched\n④ berated"
+    },
+    {
+      "number": 21,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Those who are esteemed umpires of taste are often persons who have acquired some knowledge of admired pictures or sculptures, and have an _______ for 【7 문제지[A형] whatever is elegant; but if you inquire whether they are beautiful souls, and whether their own acts are like fair pictures, you learn that they are selfish and sensual.",
+        "Their cultivation is ________, as if you should rub a log of dry wood in one spot to produce fire, all the rest remaining cold.",
+        "Their knowledge of the fine arts is some study of rules and particulars, or some limited judgment of color or form, which is exercised for amusement or for show.",
+        "It is a proof of the shallowness of the doctrine of beauty as it lies in the minds of our amateurs, that men seem to have lost the perception of the instant dependence of form upon soul.",
+        "There is no doctrine of forms in our philosophy.",
+        "We were put into our bodies, as fire is put into a pan to be carried about; but there is no accurate adjustment between the spirit and the organ, much less is the latter the germination of the former.",
+        "So in regard to other forms, the intellectual men do not believe in any essential dependence of the __________ world on thought and volition."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "inclination — local — material"
+        },
+        {
+          "label": "②",
+          "text": "inspiration — permanent — mundane"
+        },
+        {
+          "label": "③",
+          "text": "attraction — penetrating — celestial"
+        },
+        {
+          "label": "④",
+          "text": "affection — clumsy — eternal"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Those who are esteemed umpires of taste are often persons who have acquired some knowledge of admired pictures or sculptures, and have an _______ for 【7 문제지[A형] whatever is elegant; but if you inquire whether they are beautiful souls, and whether their own acts are like fair pictures, you learn that they are selfish and sensual.\n2. Their cultivation is ________, as if you should rub a log of dry wood in one spot to produce fire, all the rest remaining cold.\n3. Their knowledge of the fine arts is some study of rules and particulars, or some limited judgment of color or form, which is exercised for amusement or for show.\n4. It is a proof of the shallowness of the doctrine of beauty as it lies in the minds of our amateurs, that men seem to have lost the perception of the instant dependence of form upon soul.\n5. There is no doctrine of forms in our philosophy.\n6. We were put into our bodies, as fire is put into a pan to be carried about; but there is no accurate adjustment between the spirit and the organ, much less is the latter the germination of the former.\n7. So in regard to other forms, the intellectual men do not believe in any essential dependence of the __________ world on thought and volition.\nCHOICES:\n① inclination — local — material\n② inspiration — permanent — mundane\n③ attraction — penetrating — celestial\n④ affection — clumsy — eternal"
+    },
+    {
+      "number": 22,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "The subjective experience of ageing is particularly difficult to capture.",
+        "It is hard to represent, let alone give compelling narrative shape to what Kathleen Woodward has described as an “infinitesimally incremental process of the subtraction of strengths.” In this sense, ageing is grindingly _______―an inexorable process with no dramatic arc.",
+        "Conversely, however, it is also bafflingly, unpredictably complex.",
+        "We may feel creaky one day, and sprightly the next.",
+        "We can feel old at forty and young, at least temporarily, at seventy."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "fickle"
+        },
+        {
+          "label": "②",
+          "text": "linear"
+        },
+        {
+          "label": "③",
+          "text": "sporadic"
+        },
+        {
+          "label": "④",
+          "text": "isomorphic"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. The subjective experience of ageing is particularly difficult to capture.\n2. It is hard to represent, let alone give compelling narrative shape to what Kathleen Woodward has described as an “infinitesimally incremental process of the subtraction of strengths.” In this sense, ageing is grindingly _______―an inexorable process with no dramatic arc.\n3. Conversely, however, it is also bafflingly, unpredictably complex.\n4. We may feel creaky one day, and sprightly the next.\n5. We can feel old at forty and young, at least temporarily, at seventy.\nCHOICES:\n① fickle\n② linear\n③ sporadic\n④ isomorphic"
+    },
+    {
+      "number": 23,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Plants may engage in additional strategies to defend themselves.",
+        "First, they can grow next to unpalatable plants that tend to deter herbivores, a phenomenon known as associational resistance.",
+        "Second, they may selectively ________ leaves heavily infested by sessile insects such as leaf miners or aphids, causing the leaves to fall to the ground and preventing the insect from completing its life cycle.",
+        "Third, some specialized species-specific plant defenses exist.",
+        "For example, some tropical vines of the genus Passiflora produce physical structures that mimic eggs of the Heliconius butterflies.",
+        "Because females are less likely to lay eggs where other eggs are present, oviposition is ________."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "withhold — suppressed"
+        },
+        {
+          "label": "②",
+          "text": "decollate — sustained"
+        },
+        {
+          "label": "③",
+          "text": "retain — expedited"
+        },
+        {
+          "label": "④",
+          "text": "abscise — discouraged"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Plants may engage in additional strategies to defend themselves.\n2. First, they can grow next to unpalatable plants that tend to deter herbivores, a phenomenon known as associational resistance.\n3. Second, they may selectively ________ leaves heavily infested by sessile insects such as leaf miners or aphids, causing the leaves to fall to the ground and preventing the insect from completing its life cycle.\n4. Third, some specialized species-specific plant defenses exist.\n5. For example, some tropical vines of the genus Passiflora produce physical structures that mimic eggs of the Heliconius butterflies.\n6. Because females are less likely to lay eggs where other eggs are present, oviposition is ________.\nCHOICES:\n① withhold — suppressed\n② decollate — sustained\n③ retain — expedited\n④ abscise — discouraged"
+    },
+    {
+      "number": 24,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "Bitcoin is a digital currency started in 2009 by a mystery figure named Satoshi Nakamoto, whose true identity is still unknown.",
+        "It is _______ traditional currencies because it has no chungang bank, nation state - 2 】 편입학 시험 영어 or regulatory authority backing it up.",
+        "The “coins” are made by computers solving a set of complex maths problems.",
+        "To spend them, users buy bitcoin and conduct transactions with them using exchanges such as San Francisco-based Coinbase. ________ a chungang authority validating transactions, they are all recorded on a public ledger, called the blockchain."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "based on — Unlike"
+        },
+        {
+          "label": "②",
+          "text": "against — Similar to"
+        },
+        {
+          "label": "③",
+          "text": "unlike — Rather than"
+        },
+        {
+          "label": "④",
+          "text": "dependent on — Despite"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Bitcoin is a digital currency started in 2009 by a mystery figure named Satoshi Nakamoto, whose true identity is still unknown.\n2. It is _______ traditional currencies because it has no chungang bank, nation state - 2 】 편입학 시험 영어 or regulatory authority backing it up.\n3. The “coins” are made by computers solving a set of complex maths problems.\n4. To spend them, users buy bitcoin and conduct transactions with them using exchanges such as San Francisco-based Coinbase. ________ a chungang authority validating transactions, they are all recorded on a public ledger, called the blockchain.\nCHOICES:\n① based on — Unlike\n② against — Similar to\n③ unlike — Rather than\n④ dependent on — Despite"
+    },
+    {
+      "number": 25,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "A fundamental principle of pharmacology is that all drugs have multiple actions.",
+        "Actions that are desirable in the treatment of disease are considered _______, while those that are undesirable or pose risks to the patient are called ‘effects.’ Adverse drug effects range from the trivial, e.g., nausea or dry mouth, to the serious, e.g., massive gastrointestinal bleeding or thromboembolism; and some drugs can be even _______.",
+        "Therefore, an effective system for the detection of adverse drug effects is an important component of the health care system of any advanced nation.",
+        "Much of the research conducted on new drugs aims at identifying the conditions of use that maximize beneficial effects and minimize the risk of adverse effects.",
+        "The intent of drug _______ is to reflect this body of knowledge accurately so that physicians can properly prescribe the drug; or, if it is to be sold without prescription, so that consumers can properly use the drug."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "therapeutic — lethal — labeling"
+        },
+        {
+          "label": "②",
+          "text": "tautologous — terminal — testing"
+        },
+        {
+          "label": "③",
+          "text": "regenerative — courtly — formation"
+        },
+        {
+          "label": "④",
+          "text": "hemostatic — perilous — therapy"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. A fundamental principle of pharmacology is that all drugs have multiple actions.\n2. Actions that are desirable in the treatment of disease are considered _______, while those that are undesirable or pose risks to the patient are called ‘effects.’ Adverse drug effects range from the trivial, e.g., nausea or dry mouth, to the serious, e.g., massive gastrointestinal bleeding or thromboembolism; and some drugs can be even _______.\n3. Therefore, an effective system for the detection of adverse drug effects is an important component of the health care system of any advanced nation.\n4. Much of the research conducted on new drugs aims at identifying the conditions of use that maximize beneficial effects and minimize the risk of adverse effects.\n5. The intent of drug _______ is to reflect this body of knowledge accurately so that physicians can properly prescribe the drug; or, if it is to be sold without prescription, so that consumers can properly use the drug.\nCHOICES:\n① therapeutic — lethal — labeling\n② tautologous — terminal — testing\n③ regenerative — courtly — formation\n④ hemostatic — perilous — therapy"
+    },
+    {
+      "number": 26,
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
+      "passage_sentences": [
+        "In the years following 9500 B.C, the descendants of the Natufians continued to gather and process cereals, but they also began to cultivate them in more and more _______ ways.",
+        "When gathering wild grains, they took care to lay aside part of the harvest to sow the fields next season.",
+        "They discovered that they could achieve much better results by sowing the grains deep in the ground rather than _______ scattering them on the surface.",
+        "So they began to hoe and plough.",
+        "Gradually they also started to weed the fields, to guard them against parasites, and to water and fertilise them.",
+        "As more effort was directed toward cereal cultivation, there was less time to gather and hunt wild species.",
+        "The _______ became farmers."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "esoteric — conspicuously — nomads"
+        },
+        {
+          "label": "②",
+          "text": "elaborate — haphazardly — foragers"
+        },
+        {
+          "label": "③",
+          "text": "efficient — intentionally — primates"
+        },
+        {
+          "label": "④",
+          "text": "methodical — randomly — vandals"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. In the years following 9500 B.C, the descendants of the Natufians continued to gather and process cereals, but they also began to cultivate them in more and more _______ ways.\n2. When gathering wild grains, they took care to lay aside part of the harvest to sow the fields next season.\n3. They discovered that they could achieve much better results by sowing the grains deep in the ground rather than _______ scattering them on the surface.\n4. So they began to hoe and plough.\n5. Gradually they also started to weed the fields, to guard them against parasites, and to water and fertilise them.\n6. As more effort was directed toward cereal cultivation, there was less time to gather and hunt wild species.\n7. The _______ became farmers.\nCHOICES:\n① esoteric — conspicuously — nomads\n② elaborate — haphazardly — foragers\n③ efficient — intentionally — primates\n④ methodical — randomly — vandals"
+    },
+    {
+      "number": 27,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Chopin was born near Warsaw to a French father and a Polish mother in a section of Poland that was then under Russian domination.",
+        "(A)His talent as pianist, 【7 문제지[A형] improviser, and composer showed early, and at age seven he published his first piece and played his first public concert, as a concerto soloist.",
+        "After studies at the Warsaw Conservatory, he performed in Vienna and toured Germany and Italy.",
+        "His pieces with a strong Polish character were especially successful, encouraging him to write more.",
+        "(B)The national favor of his music and its brilliant virtuosity won him a strong following in Poland.",
+        "Seeking an international reputation, he returned to Vienna and to Germany in 1830.",
+        "When he heard of the failed Polish revolt against Russia that November, he continued on to Paris, where he settled in 1831, never to see Poland again.",
+        "Chopin soon met the leading musicians in Paris, including Rossini, Meyerbeer, Berlioz, and Liszt, and entered the highest social circles.",
+        "He became the most fashionable piano teacher for wealthy students.",
+        "(C)Their fees meant he could not give up public performance and play only at private concerts and at salons hosted by the leading women of the city.",
+        "In turn, the rarity of his appearances increased his cachet and allowed him to charge very high fees for lessons.",
+        "(D)He also earned considerable sums from publications.",
+        "He never married, but had a tempestuous nine-year affair with the novelist Aurore Dudevant, known by her pseudonym George Sand.",
+        "The 1848 revolutions in Paris disrupted his teaching and forced a grueling tour of England and Scotland.",
+        "By then, he was ravaged by tuberculosis, and he died in Paris in 1849.",
+        "위 글에서 논지의 흐름상 가장 적합하지 않은 문장을 고 르시오."
+      ],
+      "question": null,
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Chopin was born near Warsaw to a French father and a Polish mother in a section of Poland that was then under Russian domination.\n2. (A)His talent as pianist, 【7 문제지[A형] improviser, and composer showed early, and at age seven he published his first piece and played his first public concert, as a concerto soloist.\n3. After studies at the Warsaw Conservatory, he performed in Vienna and toured Germany and Italy.\n4. His pieces with a strong Polish character were especially successful, encouraging him to write more.\n5. (B)The national favor of his music and its brilliant virtuosity won him a strong following in Poland.\n6. Seeking an international reputation, he returned to Vienna and to Germany in 1830.\n7. When he heard of the failed Polish revolt against Russia that November, he continued on to Paris, where he settled in 1831, never to see Poland again.\n8. Chopin soon met the leading musicians in Paris, including Rossini, Meyerbeer, Berlioz, and Liszt, and entered the highest social circles.\n9. He became the most fashionable piano teacher for wealthy students.\n10. (C)Their fees meant he could not give up public performance and play only at private concerts and at salons hosted by the leading women of the city.\n11. In turn, the rarity of his appearances increased his cachet and allowed him to charge very high fees for lessons.\n12. (D)He also earned considerable sums from publications.\n13. He never married, but had a tempestuous nine-year affair with the novelist Aurore Dudevant, known by her pseudonym George Sand.\n14. The 1848 revolutions in Paris disrupted his teaching and forced a grueling tour of England and Scotland.\n15. By then, he was ravaged by tuberculosis, and he died in Paris in 1849.\n16. 위 글에서 논지의 흐름상 가장 적합하지 않은 문장을 고 르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 28,
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
+      "passage_sentences": [
+        "Integrally related to the lack of interest in logic in the East has been a distrust of decontextualization, that is, of considering the structure of an argument apart from its content, as well as a distaste for making inferences on the basis of underlying abstract propositions alone.",
+        "Two studies by me and other researchers show how this remains true for ordinary people in 21st-century Asia.",
+        "Consider the following two deductive arguments.",
+        "Is one more convincing than the other? (1) All birds have ulnar arteries.",
+        "Therefore all eagles have ulnar arteries. (2) All birds have ulnar arteries.",
+        "Therefore, all penguins have ulnar arteries.",
+        "One way to measure the extent to which people spontaneously rely on formal logic versus experiential knowledge in reasoning is to examine how they ‘project’ properties―‘ulnar arteries’ in the above example―from superordinate categories (birds) to subordinate categories (eagles, penguins).",
+        "Notice that the two arguments have identical premises but their conclusions vary in how typical the target bird is.",
+        "Eagles are more typical birds than penguins.",
+        "If you are in pure logical mode when you evaluate propositions like those above, you will supply the implicit middle premises of the arguments (“All eagles are birds,” and - 3 】 편입학 시험 영어 “All penguins are birds.”).",
+        "People who do this would find the two arguments equally convincing.",
+        "But people often find arguments to a typical instance to be more convincing than arguments to atypical ones.",
+        "Prior experience makes them more comfortable with regarding eagles as birds than regarding penguins as birds.",
+        "We asked Korean, Asian American, and European American participants to evaluate the convincingness of twenty such arguments, ten with typical targets like eagles in the conclusion and ten with atypical targets like penguins.",
+        "We found that Koreans were more convinced by typical arguments than by atypical arguments.",
+        "European Americans, in contrast, were almost equally convinced by typical and atypical arguments.",
+        "Asian Americans’ responses were in between those of European Americans and Koreans."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The Role of Formal Logic in Argument Evaluation"
+        },
+        {
+          "label": "②",
+          "text": "The Influence of Cultural Differences on Logical Reasoning"
+        },
+        {
+          "label": "③",
+          "text": "The Relationship Between Ulnar Arteries and Bird Categories"
+        },
+        {
+          "label": "④",
+          "text": "The Role of Deductive Arguments in Decision Making Process"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Integrally related to the lack of interest in logic in the East has been a distrust of decontextualization, that is, of considering the structure of an argument apart from its content, as well as a distaste for making inferences on the basis of underlying abstract propositions alone.\n2. Two studies by me and other researchers show how this remains true for ordinary people in 21st-century Asia.\n3. Consider the following two deductive arguments.\n4. Is one more convincing than the other? (1) All birds have ulnar arteries.\n5. Therefore all eagles have ulnar arteries. (2) All birds have ulnar arteries.\n6. Therefore, all penguins have ulnar arteries.\n7. One way to measure the extent to which people spontaneously rely on formal logic versus experiential knowledge in reasoning is to examine how they ‘project’ properties―‘ulnar arteries’ in the above example―from superordinate categories (birds) to subordinate categories (eagles, penguins).\n8. Notice that the two arguments have identical premises but their conclusions vary in how typical the target bird is.\n9. Eagles are more typical birds than penguins.\n10. If you are in pure logical mode when you evaluate propositions like those above, you will supply the implicit middle premises of the arguments (“All eagles are birds,” and - 3 】 편입학 시험 영어 “All penguins are birds.”).\n11. People who do this would find the two arguments equally convincing.\n12. But people often find arguments to a typical instance to be more convincing than arguments to atypical ones.\n13. Prior experience makes them more comfortable with regarding eagles as birds than regarding penguins as birds.\n14. We asked Korean, Asian American, and European American participants to evaluate the convincingness of twenty such arguments, ten with typical targets like eagles in the conclusion and ten with atypical targets like penguins.\n15. We found that Koreans were more convinced by typical arguments than by atypical arguments.\n16. European Americans, in contrast, were almost equally convinced by typical and atypical arguments.\n17. Asian Americans’ responses were in between those of European Americans and Koreans.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① The Role of Formal Logic in Argument Evaluation\n② The Influence of Cultural Differences on Logical Reasoning\n③ The Relationship Between Ulnar Arteries and Bird Categories\n④ The Role of Deductive Arguments in Decision Making Process"
+    },
+    {
+      "number": 29,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy. (A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career. In like manner with geology. So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science. (B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin. So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life. (C) Lithology and mineralogy there might be, but anything like world-history was impossible. But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy.",
+        "(A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career.",
+        "In like manner with geology.",
+        "So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science.",
+        "(B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin.",
+        "So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life.",
+        "(C) Lithology and mineralogy there might be, but anything like world-history was impossible.",
+        "But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward."
+      ],
+      "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A) →(B) →(C)"
+        },
+        {
+          "label": "②",
+          "text": "(A) →(C) →(B)"
+        },
+        {
+          "label": "③",
+          "text": "(B) →(A) →(C)"
+        },
+        {
+          "label": "④",
+          "text": "(B) →(C) →(A)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy. (A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career. In like manner with geology. So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science. (B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin. So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life. (C) Lithology and mineralogy there might be, but anything like world-history was impossible. But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy.\n2. (A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career.\n3. In like manner with geology.\n4. So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science.\n5. (B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin.\n6. So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life.\n7. (C) Lithology and mineralogy there might be, but anything like world-history was impossible.\n8. But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward.\nQUESTION:\n위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (A) →(B) →(C)\n② (A) →(C) →(B)\n③ (B) →(A) →(C)\n④ (B) →(C) →(A)"
+    },
+    {
+      "number": 30,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy. (A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career. In like manner with geology. So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science. (B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin. So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life. (C) Lithology and mineralogy there might be, but anything like world-history was impossible. But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy.",
+        "(A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career.",
+        "In like manner with geology.",
+        "So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science.",
+        "(B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin.",
+        "So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life.",
+        "(C) Lithology and mineralogy there might be, but anything like world-history was impossible.",
+        "But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward."
+      ],
+      "question": "위 글의 내용과 일치하지 않는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The heliocentric doctrine marked a turning point for the progress of astronomy."
+        },
+        {
+          "label": "②",
+          "text": "Geology’s progress was significantly hindered by beliefs tied to the Noachian flood."
+        },
+        {
+          "label": "③",
+          "text": "During the height of the geocentric doctrine’s influence, significant progress was made in the field of geology."
+        },
+        {
+          "label": "④",
+          "text": "The Geological Society, established in 1809, contributed to significant advancements in geological science."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy. (A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career. In like manner with geology. So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science. (B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin. So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life. (C) Lithology and mineralogy there might be, but anything like world-history was impossible. But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy.\n2. (A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career.\n3. In like manner with geology.\n4. So long as our earth was believed to be only a few thousand years old, and every phenomenon in its rocky exterior ascribed to the Noachian deluge, there was not and could not be any real progress in geological science.\n5. (B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin.\n6. So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life.\n7. (C) Lithology and mineralogy there might be, but anything like world-history was impossible.\n8. But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains 【7 문제지[A형] of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward.\nQUESTION:\n위 글의 내용과 일치하지 않는 것을 고르시오.\nCHOICES:\n① The heliocentric doctrine marked a turning point for the progress of astronomy.\n② Geology’s progress was significantly hindered by beliefs tied to the Noachian flood.\n③ During the height of the geocentric doctrine’s influence, significant progress was made in the field of geology.\n④ The Geological Society, established in 1809, contributed to significant advancements in geological science."
+    },
+    {
+      "number": 31,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced. It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God. Instead, it depends on the idea that we are rational beings, worthy of dignity and respect. Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later. He came from a family of modest means. His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works. He excelled at the University of Konigsberg, which he entered at age sixteen. For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures. He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology. In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke. Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy. Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism. It argues that morality is not about maximizing happiness or any other end. Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789). In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced.",
+        "It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God.",
+        "Instead, it depends on the idea that we are rational beings, worthy of dignity and respect.",
+        "Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later.",
+        "He came from a family of modest means.",
+        "His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works.",
+        "He excelled at the University of Konigsberg, which he entered at age sixteen.",
+        "For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures.",
+        "He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology.",
+        "In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke.",
+        "Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy.",
+        "Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism.",
+        "It argues that morality is not about maximizing happiness or any other end.",
+        "Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).",
+        "In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Kant’s Legacy: Rationality, Morality, and Universal Rights"
+        },
+        {
+          "label": "②",
+          "text": "Morals and Reason: How Kant Constructed Rationality"
+        },
+        {
+          "label": "③",
+          "text": "The Kant’s Critical Pure Reason and Its Consequences"
+        },
+        {
+          "label": "④",
+          "text": "The Aftermath of Kant’s Academic Achievements"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced. It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God. Instead, it depends on the idea that we are rational beings, worthy of dignity and respect. Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later. He came from a family of modest means. His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works. He excelled at the University of Konigsberg, which he entered at age sixteen. For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures. He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology. In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke. Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy. Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism. It argues that morality is not about maximizing happiness or any other end. Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789). In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced.\n2. It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God.\n3. Instead, it depends on the idea that we are rational beings, worthy of dignity and respect.\n4. Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later.\n5. He came from a family of modest means.\n6. His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works.\n7. He excelled at the University of Konigsberg, which he entered at age sixteen.\n8. For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures.\n9. He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology.\n10. In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke.\n11. Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy.\n12. Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism.\n13. It argues that morality is not about maximizing happiness or any other end.\n14. Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).\n15. In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Kant’s Legacy: Rationality, Morality, and Universal Rights\n② Morals and Reason: How Kant Constructed Rationality\n③ The Kant’s Critical Pure Reason and Its Consequences\n④ The Aftermath of Kant’s Academic Achievements"
+    },
+    {
+      "number": 32,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced. It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God. Instead, it depends on the idea that we are rational beings, worthy of dignity and respect. Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later. He came from a family of modest means. His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works. He excelled at the University of Konigsberg, which he entered at age sixteen. For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures. He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology. In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke. Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy. Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism. It argues that morality is not about maximizing happiness or any other end. Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789). In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced.",
+        "It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God.",
+        "Instead, it depends on the idea that we are rational beings, worthy of dignity and respect.",
+        "Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later.",
+        "He came from a family of modest means.",
+        "His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works.",
+        "He excelled at the University of Konigsberg, which he entered at age sixteen.",
+        "For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures.",
+        "He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology.",
+        "In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke.",
+        "Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy.",
+        "Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism.",
+        "It argues that morality is not about maximizing happiness or any other end.",
+        "Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).",
+        "In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights."
+      ],
+      "question": "위 글을 통해 추론할 수 없는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Kant’s moral philosophy emphasizes the dignity and autonomy of individuals."
+        },
+        {
+          "label": "②",
+          "text": "Kant lectured on a wide range of subjects, including metaphysics, ethics, and geography."
+        },
+        {
+          "label": "③",
+          "text": "The Groundwork for the Metaphysics of Morals criticizes the utilitarian approach to morality."
+        },
+        {
+          "label": "④",
+          "text": "Kant’s critique of utilitarianism indirectly influenced the American Revolution and the French Revolution."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced. It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God. Instead, it depends on the idea that we are rational beings, worthy of dignity and respect. Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later. He came from a family of modest means. His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works. He excelled at the University of Konigsberg, which he entered at age sixteen. For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures. He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology. In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke. Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy. Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism. It argues that morality is not about maximizing happiness or any other end. Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789). In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced.\n2. It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God.\n3. Instead, it depends on the idea that we are rational beings, worthy of dignity and respect.\n4. Kant was born in the East Prussian city of Konigsberg in 1724, and died there, almost eighty years later.\n5. He came from a family of modest means.\n6. His father was a harness-maker and his parents were Pietists, members of a Protestant faith that emphasized the inner religious life and the doing of good works.\n7. He excelled at the University of Konigsberg, which he entered at age sixteen.\n8. For a time, he worked as a private tutor, and then, at thirty-one, he received his first academic job, as an unsalaried lecturer, for which he was paid based on the number of students who showed up at his lectures.\n9. He was a popular and industrious lecturer, giving about twenty lectures a week on subjects including metaphysics, logic, ethics, law, geography, and anthropology.\n10. In 1781, at age fifty-seven, he published his first major book, The Critique of Pure Reason, which challenged the empiricist theory of knowledge associated with David Hume and John Locke.\n11. Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy.\n12. Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism.\n13. It argues that morality is not about maximizing happiness or any other end.\n14. Instead, it is about respecting persons as ends in themselves. - 4 】 편입학 시험 영어 Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).\n15. In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights.\nQUESTION:\n위 글을 통해 추론할 수 없는 것을 고르시오.\nCHOICES:\n① Kant’s moral philosophy emphasizes the dignity and autonomy of individuals.\n② Kant lectured on a wide range of subjects, including metaphysics, ethics, and geography.\n③ The Groundwork for the Metaphysics of Morals criticizes the utilitarian approach to morality.\n④ Kant’s critique of utilitarianism indirectly influenced the American Revolution and the French Revolution."
+    },
+    {
+      "number": 33,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama. (A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character. Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart. As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process. Time can be compressed or expanded across the cut. (B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set. Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor. Time may also be compressed (or expanded) as a character crosses from one place to another. In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away. (C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question. There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved. Simultaneous actions may also demonstrate manipulated, indeed cheated, time. (D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time. Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection. To be credible and suspenseful, it must be expertly assembled.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama.",
+        "(A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character.",
+        "Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart.",
+        "As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process.",
+        "Time can be compressed or expanded across the cut.",
+        "(B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set.",
+        "Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor.",
+        "Time may also be compressed (or expanded) as a character crosses from one place to another.",
+        "In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away.",
+        "(C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question.",
+        "There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved.",
+        "Simultaneous actions may also demonstrate manipulated, indeed cheated, time.",
+        "(D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time.",
+        "Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection.",
+        "To be credible and suspenseful, it must be expertly assembled."
+      ],
+      "question": "위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(A)"
+        },
+        {
+          "label": "②",
+          "text": "(B)"
+        },
+        {
+          "label": "③",
+          "text": "(C)"
+        },
+        {
+          "label": "④",
+          "text": "(D)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama. (A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character. Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart. As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process. Time can be compressed or expanded across the cut. (B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set. Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor. Time may also be compressed (or expanded) as a character crosses from one place to another. In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away. (C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question. There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved. Simultaneous actions may also demonstrate manipulated, indeed cheated, time. (D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time. Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection. To be credible and suspenseful, it must be expertly assembled.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama.\n2. (A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character.\n3. Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart.\n4. As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process.\n5. Time can be compressed or expanded across the cut.\n6. (B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set.\n7. Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor.\n8. Time may also be compressed (or expanded) as a character crosses from one place to another.\n9. In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away.\n10. (C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question.\n11. There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved.\n12. Simultaneous actions may also demonstrate manipulated, indeed cheated, time.\n13. (D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time.\n14. Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection.\n15. To be credible and suspenseful, it must be expertly assembled.\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+    },
+    {
+      "number": 34,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama. (A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character. Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart. As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process. Time can be compressed or expanded across the cut. (B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set. Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor. Time may also be compressed (or expanded) as a character crosses from one place to another. In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away. (C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question. There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved. Simultaneous actions may also demonstrate manipulated, indeed cheated, time. (D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time. Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection. To be credible and suspenseful, it must be expertly assembled.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama.",
+        "(A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character.",
+        "Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart.",
+        "As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process.",
+        "Time can be compressed or expanded across the cut.",
+        "(B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set.",
+        "Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor.",
+        "Time may also be compressed (or expanded) as a character crosses from one place to another.",
+        "In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away.",
+        "(C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question.",
+        "There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved.",
+        "Simultaneous actions may also demonstrate manipulated, indeed cheated, time.",
+        "(D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time.",
+        "Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection.",
+        "To be credible and suspenseful, it must be expertly assembled."
+      ],
+      "question": "위 글의 요지로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Editing primarily concentrates on proper use of transitions as a means of strong connection between narrative units."
+        },
+        {
+          "label": "②",
+          "text": "The editor has the ability to manipulate both space and time to enhance the narrative and drama of a film."
+        },
+        {
+          "label": "③",
+          "text": "The diverse angles might provide focus on a continuing exchange between characters."
+        },
+        {
+          "label": "④",
+          "text": "It is desirable for all scenes to adhere to the physical reality of the set or location."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama. (A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character. Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart. As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process. Time can be compressed or expanded across the cut. (B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set. Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor. Time may also be compressed (or expanded) as a character crosses from one place to another. In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away. (C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question. There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved. Simultaneous actions may also demonstrate manipulated, indeed cheated, time. (D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time. Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection. To be credible and suspenseful, it must be expertly assembled.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama.\n2. (A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character.\n3. Through selection of available coverage and angles the editor may offer a faithful recreation of physical reality or its fictional counterpart.\n4. As with space, the modulation, and indeed the manipulation of the passage of time, is of prime importance in the editing process.\n5. Time can be compressed or expanded across the cut.\n6. (B)A conversation shot on reverse singles might consist of individual shots shortened or held in the editing process, which changes its onscreen duration from the original length of an exchange on set.\n7. Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor.\n8. Time may also be compressed (or expanded) as a character crosses from one place to another.\n9. In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away.\n10. (C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space 【7 문제지[A형] in question.\n11. There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved.\n12. Simultaneous actions may also demonstrate manipulated, indeed cheated, time.\n13. (D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time.\n14. Such a covariance is regularly employed in the thrillers and action movies, in which we readily accept the misdirection.\n15. To be credible and suspenseful, it must be expertly assembled.\nQUESTION:\n위 글의 요지로 가장 적합한 것을 고르시오.\nCHOICES:\n① Editing primarily concentrates on proper use of transitions as a means of strong connection between narrative units.\n② The editor has the ability to manipulate both space and time to enhance the narrative and drama of a film.\n③ The diverse angles might provide focus on a continuing exchange between characters.\n④ It is desirable for all scenes to adhere to the physical reality of the set or location."
+    },
+    {
+      "number": 35,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process. Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials. The basic elements in Deleuzian thought are not static but entities in becoming. Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into. Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms. Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical. This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS). While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS. And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive. Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science. However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields. It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics. And it suggests different ways of conceiving the links between these fields and the practices they study.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process.",
+        "Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials.",
+        "The basic elements in Deleuzian thought are not static but entities in becoming.",
+        "Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into.",
+        "Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms.",
+        "Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical.",
+        "This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS).",
+        "While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS.",
+        "And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive.",
+        "Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science.",
+        "However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.",
+        "It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics.",
+        "And it suggests different ways of conceiving the links between these fields and the practices they study."
+      ],
+      "question": "빈 칸에 들어가기에 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "STS is often characterized by close empirical studies of scientific practice and discourse."
+        },
+        {
+          "label": "②",
+          "text": "Deleuze drew freely on physical, mathematical and biological concepts while paying little attention to the social processes through which these were generated."
+        },
+        {
+          "label": "③",
+          "text": "Rather, our general argument is that Deleuzian analysis offers many opportunities for rethinking important issues both in and among social anthropology and STS."
+        },
+        {
+          "label": "④",
+          "text": "Instead, STS has had the aim of redefining science from a rational truth-seeking endeavour to a product of social interest and negotiation."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process. Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials. The basic elements in Deleuzian thought are not static but entities in becoming. Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into. Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms. Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical. This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS). While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS. And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive. Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science. However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields. It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics. And it suggests different ways of conceiving the links between these fields and the practices they study.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process.\n2. Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials.\n3. The basic elements in Deleuzian thought are not static but entities in becoming.\n4. Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into.\n5. Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms.\n6. Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical.\n7. This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS).\n8. While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS.\n9. And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive.\n10. Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science.\n11. However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.\n12. It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics.\n13. And it suggests different ways of conceiving the links between these fields and the practices they study.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① STS is often characterized by close empirical studies of scientific practice and discourse.\n② Deleuze drew freely on physical, mathematical and biological concepts while paying little attention to the social processes through which these were generated.\n③ Rather, our general argument is that Deleuzian analysis offers many opportunities for rethinking important issues both in and among social anthropology and STS.\n④ Instead, STS has had the aim of redefining science from a rational truth-seeking endeavour to a product of social interest and negotiation."
+    },
+    {
+      "number": 36,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process. Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials. The basic elements in Deleuzian thought are not static but entities in becoming. Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into. Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms. Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical. This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS). While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS. And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive. Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science. However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields. It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics. And it suggests different ways of conceiving the links between these fields and the practices they study.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process.",
+        "Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials.",
+        "The basic elements in Deleuzian thought are not static but entities in becoming.",
+        "Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into.",
+        "Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms.",
+        "Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical.",
+        "This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS).",
+        "While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS.",
+        "And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive.",
+        "Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science.",
+        "However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.",
+        "It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics.",
+        "And it suggests different ways of conceiving the links between these fields and the practices they study."
+      ],
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Rooted in traditional philosophy, Deleuze provides essential methodologies for beginners in philosophical studies."
+        },
+        {
+          "label": "②",
+          "text": "Anthropologists drawing on Deleuze’s theories employ science as an instrumental tool within an ontological context."
+        },
+        {
+          "label": "③",
+          "text": "Deleuze’s philosophy aids in cultivating integrated thinking across various disciplines, including anthropology."
+        },
+        {
+          "label": "④",
+          "text": "Deleuzian thinking distinctly defines the limits between anthropology and science, thus benefiting anthropologists working in scientific domains."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process. Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials. The basic elements in Deleuzian thought are not static but entities in becoming. Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into. Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms. Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical. This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS). While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS. And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive. Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science. However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields. It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics. And it suggests different ways of conceiving the links between these fields and the practices they study.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process.\n2. Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials.\n3. The basic elements in Deleuzian thought are not static but entities in becoming.\n4. Consequently, the question to be asked is not what something is, but rather what it is turning into, or might be capable of turning into.\n5. Practice, knowledge, politics, culture and agency are seen as continually produced in heterogeneous processes without definite control mechanisms.\n6. Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical.\n7. This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS).\n8. While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS.\n9. And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn. - 5 】 편입학 시험 영어 The distinction between STS and anthropology evoked here is somewhat elusive.\n10. Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science.\n11. However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.\n12. It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics.\n13. And it suggests different ways of conceiving the links between these fields and the practices they study.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.\nCHOICES:\n① Rooted in traditional philosophy, Deleuze provides essential methodologies for beginners in philosophical studies.\n② Anthropologists drawing on Deleuze’s theories employ science as an instrumental tool within an ontological context.\n③ Deleuze’s philosophy aids in cultivating integrated thinking across various disciplines, including anthropology.\n④ Deleuzian thinking distinctly defines the limits between anthropology and science, thus benefiting anthropologists working in scientific domains."
+    },
+    {
+      "number": 37,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists. Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine. Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil. Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone. But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage. The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century. The history of the herb wormwood, however, dates from far earlier times. Its earliest recorded use is found in Egyptian writings from 3550 B.C. Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing. Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland. Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy. Extracts of other plants were added to enhance the liqueur’s color and flavor. These ingredients had been used in herbal remedies for thousands of years without ill effects. Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion. Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed. Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics. Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation. The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested. When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud. The drink became fashionable among creative people. Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works. It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence. From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold. In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders. The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later. Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists.",
+        "Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine.",
+        "Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil.",
+        "Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone.",
+        "But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage.",
+        "The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.",
+        "The history of the herb wormwood, however, dates from far earlier times.",
+        "Its earliest recorded use is found in Egyptian writings from 3550 B.C.",
+        "Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing.",
+        "Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland.",
+        "Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy.",
+        "Extracts of other plants were added to enhance the liqueur’s color and flavor.",
+        "These ingredients had been used in herbal remedies for thousands of years without ill effects.",
+        "Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion.",
+        "Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed.",
+        "Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics.",
+        "Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation.",
+        "The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested.",
+        "When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud.",
+        "The drink became fashionable among creative people.",
+        "Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works.",
+        "It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence.",
+        "From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold.",
+        "In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders.",
+        "The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later.",
+        "Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis."
+      ],
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The Rise and Fall of Absinthe: A Toxic Elixir"
+        },
+        {
+          "label": "②",
+          "text": "Wormwood: From Ancient to Modern Controversy"
+        },
+        {
+          "label": "③",
+          "text": "The Artistic and Cultural Impact of Absinthe"
+        },
+        {
+          "label": "④",
+          "text": "The Chemistry and Craft of Herbal Liqueurs"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists. Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine. Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil. Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone. But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage. The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century. The history of the herb wormwood, however, dates from far earlier times. Its earliest recorded use is found in Egyptian writings from 3550 B.C. Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing. Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland. Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy. Extracts of other plants were added to enhance the liqueur’s color and flavor. These ingredients had been used in herbal remedies for thousands of years without ill effects. Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion. Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed. Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics. Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation. The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested. When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud. The drink became fashionable among creative people. Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works. It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence. From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold. In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders. The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later. Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists.\n2. Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine.\n3. Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil.\n4. Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone.\n5. But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage.\n6. The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.\n7. The history of the herb wormwood, however, dates from far earlier times.\n8. Its earliest recorded use is found in Egyptian writings from 3550 B.C.\n9. Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing.\n10. Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland.\n11. Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy.\n12. Extracts of other plants were added to enhance the liqueur’s color and flavor.\n13. These ingredients had been used in herbal remedies for thousands of years without ill effects.\n14. Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion.\n15. Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed.\n16. Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics.\n17. Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation.\n18. The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested.\n19. When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud.\n20. The drink became fashionable among creative people.\n21. Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works.\n22. It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence.\n23. From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold.\n24. In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders.\n25. The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later.\n26. Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① The Rise and Fall of Absinthe: A Toxic Elixir\n② Wormwood: From Ancient to Modern Controversy\n③ The Artistic and Cultural Impact of Absinthe\n④ The Chemistry and Craft of Herbal Liqueurs"
+    },
+    {
+      "number": 38,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists. Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine. Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil. Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone. But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage. The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century. The history of the herb wormwood, however, dates from far earlier times. Its earliest recorded use is found in Egyptian writings from 3550 B.C. Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing. Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland. Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy. Extracts of other plants were added to enhance the liqueur’s color and flavor. These ingredients had been used in herbal remedies for thousands of years without ill effects. Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion. Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed. Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics. Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation. The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested. When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud. The drink became fashionable among creative people. Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works. It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence. From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold. In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders. The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later. Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists.",
+        "Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine.",
+        "Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil.",
+        "Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone.",
+        "But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage.",
+        "The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.",
+        "The history of the herb wormwood, however, dates from far earlier times.",
+        "Its earliest recorded use is found in Egyptian writings from 3550 B.C.",
+        "Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing.",
+        "Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland.",
+        "Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy.",
+        "Extracts of other plants were added to enhance the liqueur’s color and flavor.",
+        "These ingredients had been used in herbal remedies for thousands of years without ill effects.",
+        "Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion.",
+        "Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed.",
+        "Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics.",
+        "Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation.",
+        "The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested.",
+        "When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud.",
+        "The drink became fashionable among creative people.",
+        "Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works.",
+        "It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence.",
+        "From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold.",
+        "In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders.",
+        "The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later.",
+        "Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis."
+      ],
+      "question": "위 글을 통해 추론할 수 없는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "Absinthe’s popularity in the late 19th century was partly due to its association with artists and poets."
+        },
+        {
+          "label": "②",
+          "text": "The use of wormwood in absinthe contributed to its - 6 】 편입학 시험 영어 hallucinogenic properties and potential health risks."
+        },
+        {
+          "label": "③",
+          "text": "Absinthe production ceased immediately after its prohibition in 1915 and became illegal."
+        },
+        {
+          "label": "④",
+          "text": "Wormwood had various medicinal uses long before it was incorporated into absinthe."
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists. Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine. Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil. Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone. But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage. The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century. The history of the herb wormwood, however, dates from far earlier times. Its earliest recorded use is found in Egyptian writings from 3550 B.C. Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing. Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland. Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy. Extracts of other plants were added to enhance the liqueur’s color and flavor. These ingredients had been used in herbal remedies for thousands of years without ill effects. Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion. Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed. Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics. Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation. The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested. When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud. The drink became fashionable among creative people. Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works. It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence. From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold. In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders. The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later. Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists.\n2. Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine.\n3. Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil.\n4. Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone.\n5. But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage.\n6. The disease known as absinthism, featuring such symptoms, was recognized in 【7 문제지[A형] the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.\n7. The history of the herb wormwood, however, dates from far earlier times.\n8. Its earliest recorded use is found in Egyptian writings from 3550 B.C.\n9. Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing.\n10. Ancient Romans drank a wine spiked with wormwood extract, but it was not until the eighteenth century and the invention of liqueurs that the recipe for absinthe was developed in Switzerland.\n11. Absinthe’s hallucinogenic and toxic properties arise from the chemical thujone, found in wormwood (the principal source for absinthe) and other plants such as sage and tansy.\n12. Extracts of other plants were added to enhance the liqueur’s color and flavor.\n13. These ingredients had been used in herbal remedies for thousands of years without ill effects.\n14. Wormwood had long played a positive role in medicine and, for the ancient Egyptians, religion.\n15. Even the toxic properties of wormwood, or thujone, proved constructive after the liqueur was outlawed.\n16. Since thujone and camphor induce convulsions, they were used effectively during the 1920s and 1930s in the study of epilepsy and in convulsive therapy for some schizophrenics.\n17. Absinthe tippling was popular not only for the drink’s unusual effects, but for the elaborate cult that developed around its presentation.\n18. The bitter liqueur came to be served in a special drip glass, over which a lump of sugar in a slotted spoon rested.\n19. When cold water was poured over the sugar and into the glass, the clear green liqueur turned to a pearly golden cloud.\n20. The drink became fashionable among creative people.\n21. Symbolist poets sang the praises of the beverage; painters from Manet to Picasso depicted it in their works.\n22. It is not surprising, then, that the drink’s popularity increased during the late nineteenth century, even in the face of scientific evidence describing the dangers of overindulgence.\n23. From 1875 to 1913, annual per capita consumption of absinthe in France increased fifteen-fold.\n24. In regions where consumption was high, so too were incidences of stillbirths, psychoses, and other neurological disorders.\n25. The French finally outlawed absinthe in 1915, but production and consumption did not actually cease until several years later.\n26. Many drinks that are similar in taste but contain no wormwood have been developed since, including anisette, ouzo, and pastis.\nQUESTION:\n위 글을 통해 추론할 수 없는 것을 고르시오.\nCHOICES:\n① Absinthe’s popularity in the late 19th century was partly due to its association with artists and poets.\n② The use of wormwood in absinthe contributed to its - 6 】 편입학 시험 영어 hallucinogenic properties and potential health risks.\n③ Absinthe production ceased immediately after its prohibition in 1915 and became illegal.\n④ Wormwood had various medicinal uses long before it was incorporated into absinthe."
+    },
+    {
+      "number": 39,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells. While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I. When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells. (A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B. Robertson began performing “indirect” blood transfusions on the Western front. In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting. By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks. “Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial. (C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains. “The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says. It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time. Around the same time, Oswald H. Robertson (no relation to Lawrence), a U.S. Army doctor, established the first blood depot: an ice chest stocked with flasks of blood. Roberston was sent to France to help the British army establish similar systems. He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants. It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains. The first successful transfusion from this early blood bank model took place in 1917.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells.",
+        "While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I.",
+        "When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells.",
+        "(A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B.",
+        "Robertson began performing “indirect” blood transfusions on the Western front.",
+        "In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting.",
+        "By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks.",
+        "“Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial.",
+        "(C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains.",
+        "“The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says.",
+        "It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time.",
+        "Around the same time, Oswald H.",
+        "Robertson (no relation to Lawrence), a U.S.",
+        "Army doctor, established the first blood depot: an ice chest stocked with flasks of blood.",
+        "Roberston was sent to France to help the British army establish similar systems.",
+        "He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants.",
+        "It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains.",
+        "The first successful transfusion from this early blood bank model took place in 1917."
+      ],
+      "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "(B) →(A) →(C) 【7 문제지[A형]"
+        },
+        {
+          "label": "②",
+          "text": "(B) →(C) →(A)"
+        },
+        {
+          "label": "③",
+          "text": "(C) →(A) →(B)"
+        },
+        {
+          "label": "④",
+          "text": "(C) →(B) →(A)"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells. While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I. When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells. (A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B. Robertson began performing “indirect” blood transfusions on the Western front. In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting. By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks. “Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial. (C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains. “The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says. It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time. Around the same time, Oswald H. Robertson (no relation to Lawrence), a U.S. Army doctor, established the first blood depot: an ice chest stocked with flasks of blood. Roberston was sent to France to help the British army establish similar systems. He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants. It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains. The first successful transfusion from this early blood bank model took place in 1917.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells.\n2. While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I.\n3. When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells.\n4. (A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B.\n5. Robertson began performing “indirect” blood transfusions on the Western front.\n6. In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting.\n7. By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks.\n8. “Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial.\n9. (C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains.\n10. “The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says.\n11. It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time.\n12. Around the same time, Oswald H.\n13. Robertson (no relation to Lawrence), a U.S.\n14. Army doctor, established the first blood depot: an ice chest stocked with flasks of blood.\n15. Roberston was sent to France to help the British army establish similar systems.\n16. He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants.\n17. It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains.\n18. The first successful transfusion from this early blood bank model took place in 1917.\nQUESTION:\n위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (B) →(A) →(C) 【7 문제지[A형]\n② (B) →(C) →(A)\n③ (C) →(A) →(B)\n④ (C) →(B) →(A)"
+    },
+    {
+      "number": 40,
+      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells. While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I. When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells. (A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B. Robertson began performing “indirect” blood transfusions on the Western front. In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting. By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks. “Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial. (C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains. “The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says. It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time. Around the same time, Oswald H. Robertson (no relation to Lawrence), a U.S. Army doctor, established the first blood depot: an ice chest stocked with flasks of blood. Roberston was sent to France to help the British army establish similar systems. He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants. It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains. The first successful transfusion from this early blood bank model took place in 1917.",
+      "passage_sentences": [
+        "다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells.",
+        "While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I.",
+        "When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells.",
+        "(A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B.",
+        "Robertson began performing “indirect” blood transfusions on the Western front.",
+        "In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting.",
+        "By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks.",
+        "“Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial.",
+        "(C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains.",
+        "“The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says.",
+        "It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time.",
+        "Around the same time, Oswald H.",
+        "Robertson (no relation to Lawrence), a U.S.",
+        "Army doctor, established the first blood depot: an ice chest stocked with flasks of blood.",
+        "Roberston was sent to France to help the British army establish similar systems.",
+        "He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants.",
+        "It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains.",
+        "The first successful transfusion from this early blood bank model took place in 1917."
+      ],
+      "question": "위 글의 내용과 일치하지 않는 것을 고르시오.",
+      "choices": [
+        {
+          "label": "①",
+          "text": "The first blood transfusions during World War I used a direct vein-to-vein method in France."
+        },
+        {
+          "label": "②",
+          "text": "The first blood banks were established in 1914 and used refrigeration to preserve blood for transfusions."
+        },
+        {
+          "label": "③",
+          "text": "Lawrence B. Robertson performed indirect blood transfusions using syringes and narrow tubes to prevent clotting."
+        },
+        {
+          "label": "④",
+          "text": "Oswald H. Robertson collected O negative blood treated with anticoagulants to stock the first blood depot. - 7 】"
+        }
+      ],
+      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells. While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I. When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells. (A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B. Robertson began performing “indirect” blood transfusions on the Western front. In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting. By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks. “Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial. (C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains. “The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says. It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time. Around the same time, Oswald H. Robertson (no relation to Lawrence), a U.S. Army doctor, established the first blood depot: an ice chest stocked with flasks of blood. Roberston was sent to France to help the British army establish similar systems. He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants. It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains. The first successful transfusion from this early blood bank model took place in 1917.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells.\n2. While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I.\n3. When surgeons did not test blood for compatibility before a transfusion, the result could be fatal if the patient’s immune system attacked the new blood cells.\n4. (A) Then, in the spring of 1917, a Canadian military doctor named Lawrence B.\n5. Robertson began performing “indirect” blood transfusions on the Western front.\n6. In these procedures, blood was transferred from donors using syringes and narrow tubes to prevent clotting.\n7. By November 1917, he described 36 cases using his indirect transfusion method in an article in The Lancet, writing that “in the cases of severe primary hemorrhage accompanied by shock, blood transfusion frequently produces an immediate and almost incredible improvement.” (B) The war also focused on advances in the development of anticoagulant and short-term storage techniques—all vital elements to setting up effective and safe blood banks.\n8. “Blood transfusions, which we now view as routine, were still experimental at the start of the war,” notes Lora Vogt, vice president of education and interpretation at the National WWI Museum and Memorial.\n9. (C) The first blood transfusions were done in France in 1914 through a direct vein-to-vein method, from donor to patient, Frederick Schneid, a history professor specializing in military history at High Point University, explains.\n10. “The problem was that there was no way to preserve the blood after it was taken, so the transfusion had to be immediate,” he says.\n11. It was also difficult to find enough available donors and surgeons when multiple patients required a transfusion at the same time.\n12. Around the same time, Oswald H.\n13. Robertson (no relation to Lawrence), a U.S.\n14. Army doctor, established the first blood depot: an ice chest stocked with flasks of blood.\n15. Roberston was sent to France to help the British army establish similar systems.\n16. He collected O negative blood (since it is the universal donor blood) and treated the blood with anticoagulants.\n17. It was then poured into one-liter glass bottles that were packed in straw in ammunition boxes, Schneid explains.\n18. The first successful transfusion from this early blood bank model took place in 1917.\nQUESTION:\n위 글의 내용과 일치하지 않는 것을 고르시오.\nCHOICES:\n① The first blood transfusions during World War I used a direct vein-to-vein method in France.\n② The first blood banks were established in 1914 and used refrigeration to preserve blood for transfusions.\n③ Lawrence B. Robertson performed indirect blood transfusions using syringes and narrow tubes to prevent clotting.\n④ Oswald H. Robertson collected O negative blood treated with anticoagulants to stock the first blood depot. - 7 】"
+    }
+  ]
+}

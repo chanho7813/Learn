@@ -3,7 +3,6 @@ import 'package:flutter/services.dart' show rootBundle;
 import '../models/math_problem.dart';
 import '../services/math_parser.dart';
 import '../services/settings_service.dart';
-import '../services/storage_service.dart';
 import 'math_detail_screen.dart';
 
 class MathListScreen extends StatefulWidget {
@@ -17,10 +16,31 @@ class _MathListScreenState extends State<MathListScreen> {
   List<MathExam> _exams = [];
   bool _loading = true;
   int _lastMathIndex = 0;
-  int _assetExamCount = 0;
 
   static const _mathFiles = [
-    'myongji_2023_math.txt',
+    'chungang_2026_math.json',
+    'chungang_2025_math.json',
+    'chungang_2024_math.json',
+    'chungang_2023_math.json',
+    'chungang_2023_engineering_math.json',
+    'chungang_2022_math.json',
+    'chungang_2022_engineering_math.json',
+    'chungang_2021_math.json',
+    'chungang_2021_engineering_math.json',
+    'chungang_2020_math.json',
+    'chungang_2020_engineering_math.json',
+    'myongji_2025_math.json',
+    'myongji_2024_math.json',
+    'myongji_2023_math.json',
+    'myongji_2022_math.json',
+    'myongji_2021_math.json',
+    'myongji_2020_math.json',
+    'aerospace_2026_math.json',
+    'aerospace_2025_math.json',
+    'seoul_2025_math.json',
+    'seoul_2024_math_natural1.json',
+    'seoul_2024_math_natural2.json',
+    'seoul_2023_math.json',
   ];
 
   @override
@@ -34,16 +54,7 @@ class _MathListScreenState extends State<MathListScreen> {
     for (final file in _mathFiles) {
       try {
         final content = await rootBundle.loadString('assets/math/$file');
-        exams.add(MathParser.parse(content, file));
-      } catch (_) {}
-    }
-    final assetCount = exams.length;
-
-    final customExams = await StorageService.getCustomMathExams();
-    for (int i = 0; i < customExams.length; i++) {
-      try {
-        final exam = MathParser.parse(customExams[i], 'custom_$i.txt');
-        if (exam.sections.isNotEmpty) exams.add(exam);
+        exams.add(MathParser.parseJson(content, file));
       } catch (_) {}
     }
 
@@ -51,37 +62,10 @@ class _MathListScreenState extends State<MathListScreen> {
     if (mounted) {
       setState(() {
         _exams = exams;
-        _assetExamCount = assetCount;
         _lastMathIndex = exams.isEmpty ? 0 : lastIndex.clamp(0, exams.length - 1);
         _loading = false;
       });
     }
-  }
-
-  Future<void> _deleteCustomExam(int examIndex) async {
-    final customIndex = examIndex - _assetExamCount;
-    if (customIndex < 0) return;
-    final confirm = await showDialog<bool>(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: const Text('시험 삭제'),
-        content: Text('${_exams[examIndex].title}을(를) 삭제할까요?'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: const Text('취소'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            child: Text('삭제',
-                style: TextStyle(color: Theme.of(ctx).colorScheme.error)),
-          ),
-        ],
-      ),
-    );
-    if (confirm != true) return;
-    await StorageService.removeCustomMathExam(customIndex);
-    _loadExams();
   }
 
   @override
@@ -107,13 +91,11 @@ class _MathListScreenState extends State<MathListScreen> {
                   itemCount: _exams.length,
                   itemBuilder: (context, index) {
                     final exam = _exams[index];
-                    final isCustom = index >= _assetExamCount;
                     return Padding(
                       padding: const EdgeInsets.only(bottom: 12),
                       child: _ExamCard(
                         exam: exam,
                         isLastRead: index == _lastMathIndex,
-                        isCustom: isCustom,
                         onTap: () async {
                           await SettingsService.setLastMathIndex(index);
                           setState(() => _lastMathIndex = index);
@@ -125,7 +107,6 @@ class _MathListScreenState extends State<MathListScreen> {
                             ),
                           );
                         },
-                        onLongPress: isCustom ? () => _deleteCustomExam(index) : null,
                       ),
                     );
                   },
@@ -137,16 +118,12 @@ class _MathListScreenState extends State<MathListScreen> {
 class _ExamCard extends StatelessWidget {
   final MathExam exam;
   final bool isLastRead;
-  final bool isCustom;
   final VoidCallback onTap;
-  final VoidCallback? onLongPress;
 
   const _ExamCard({
     required this.exam,
     this.isLastRead = false,
-    this.isCustom = false,
     required this.onTap,
-    this.onLongPress,
   });
 
   @override
@@ -164,7 +141,6 @@ class _ExamCard extends StatelessWidget {
       shadowColor: colorScheme.shadow.withAlpha(26),
       child: InkWell(
         onTap: onTap,
-        onLongPress: onLongPress,
         borderRadius: BorderRadius.circular(16),
         child: Container(
           padding: const EdgeInsets.all(20),
@@ -200,40 +176,15 @@ class _ExamCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Row(
-                      children: [
-                        Flexible(
-                          child: Text(
-                            exam.title,
-                            style: theme.textTheme.titleSmall?.copyWith(
-                              fontWeight: FontWeight.w700,
-                            ),
-                          ),
-                        ),
-                        if (isCustom) ...[
-                          const SizedBox(width: 6),
-                          Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
-                            decoration: BoxDecoration(
-                              color: colorScheme.tertiaryContainer,
-                              borderRadius: BorderRadius.circular(4),
-                            ),
-                            child: Text(
-                              'AI',
-                              style: theme.textTheme.labelSmall?.copyWith(
-                                color: colorScheme.onTertiaryContainer,
-                                fontSize: 10,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ],
+                    Text(
+                      exam.title,
+                      style: theme.textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      isLastRead
-                          ? '${exam.totalProblems}문제 · 마지막으로 봄'
-                          : '${exam.totalProblems}문제${isCustom ? ' · 길게 눌러 삭제' : ''}',
+                      '${exam.totalProblems}문제${isLastRead ? ' · 마지막으로 봄' : ''}',
                       style: theme.textTheme.bodySmall?.copyWith(
                         color: isLastRead
                             ? colorScheme.primary

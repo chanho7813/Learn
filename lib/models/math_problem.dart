@@ -1,36 +1,45 @@
-class MathProblem {
-  final String question;
-  final String choices;
-  final String solution;
-  final String concepts;
-  final String answer;
+class MathChoice {
+  final String label;
+  final String text;
 
-  const MathProblem({
-    required this.question,
-    required this.choices,
-    required this.solution,
-    required this.concepts,
-    required this.answer,
-  });
+  const MathChoice({required this.label, required this.text});
 }
 
-class MathSection {
-  final String title;
-  final MathProblem problem;
+class MathQuestion {
+  final int number;
+  final String points;
+  final String stem;
+  final List<MathChoice> choices;
 
-  const MathSection({required this.title, required this.problem});
+  const MathQuestion({
+    required this.number,
+    required this.points,
+    required this.stem,
+    required this.choices,
+  });
 }
 
 class MathExam {
-  final String title;
+  final String university;
+  final String universityName;
+  final int year;
+  final String subject;
+  final String subjectName;
   final String fileName;
-  final List<MathSection> sections;
+  final int questionCount;
+  final List<MathQuestion> questions;
 
   const MathExam({
-    required this.title,
+    required this.university,
+    required this.universityName,
+    required this.year,
+    required this.subject,
+    required this.subjectName,
     required this.fileName,
-    required this.sections,
+    required this.questionCount,
+    required this.questions,
   });
 
-  int get totalProblems => sections.length;
+  String get title => '$universityName ${year}학년도 편입$subjectName';
+  int get totalProblems => questions.length;
 }
