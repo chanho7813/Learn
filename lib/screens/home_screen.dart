@@ -4,7 +4,7 @@ import '../models/word.dart';
 import '../services/storage_service.dart';
 import '../services/vocabulary_parser.dart';
 import 'word_list_screen.dart';
-import 'reading_list_screen.dart';
+import 'english_list_screen.dart';
 import 'math_list_screen.dart';
 import 'extract_screen.dart';
 import 'settings_screen.dart';
@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '영어 단어 암기 · 리딩 · 수학',
+                      '영어 단어 암기 · 영어 · 수학',
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: colorScheme.onSurface.withAlpha(153),
                       ),
@@ -147,13 +147,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     const SizedBox(height: 12),
                     _MenuButton(
                       icon: Icons.auto_stories_outlined,
-                      label: '리딩',
-                      subtitle: '영어 지문 읽기 연습',
+                      label: '영어',
+                      subtitle: '편입 영어 기출문제',
                       onTap: () async {
                         await Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (_) => const ReadingListScreen(),
+                            builder: (_) => const EnglishListScreen(),
                           ),
                         );
                         _loadWords();

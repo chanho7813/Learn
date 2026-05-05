@@ -246,7 +246,7 @@ class _ExtractScreenState extends State<ExtractScreen> {
 
   String _ensureFileName(String content) {
     if (content.contains(RegExp(r'fileName\s*:'))) return content;
-    final typeName = _type == ExtractionType.math ? 'math' : 'reading';
+    final typeName = _type == ExtractionType.math ? 'math' : 'english';
     final fallback = '${typeName}_${DateTime.now().millisecondsSinceEpoch}';
     final titleMatch = RegExp(r'title:[^\n]*').firstMatch(content);
     if (titleMatch != null) {
@@ -263,10 +263,10 @@ class _ExtractScreenState extends State<ExtractScreen> {
       if (_type == ExtractionType.math) {
         await StorageService.addCustomMathExam(content);
       } else {
-        await StorageService.addCustomReadingExam(content);
+        await StorageService.addCustomEnglishExam(content);
       }
       if (mounted) {
-        final label = _type == ExtractionType.math ? '수학' : '리딩';
+        final label = _type == ExtractionType.math ? '수학' : '영어';
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('$label 카테고리에 저장되었습니다!')),
         );
@@ -312,7 +312,7 @@ class _ExtractScreenState extends State<ExtractScreen> {
                 icon: Icon(Icons.calculate_outlined),
               ),
               ButtonSegment(
-                value: ExtractionType.reading,
+                value: ExtractionType.english,
                 label: Text('영어'),
                 icon: Icon(Icons.auto_stories_outlined),
               ),
@@ -513,7 +513,7 @@ class _ExtractScreenState extends State<ExtractScreen> {
                             size: 18,
                           ),
                           label: Text(
-                            _type == ExtractionType.math ? '수학에 저장' : '리딩에 저장',
+                            _type == ExtractionType.math ? '수학에 저장' : '영어에 저장',
                           ),
                         ),
                       ),

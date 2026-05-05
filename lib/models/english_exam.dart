@@ -1,18 +1,18 @@
-class ReadingChoice {
+class EnglishChoice {
   final String label;
   final String text;
 
-  const ReadingChoice({required this.label, required this.text});
+  const EnglishChoice({required this.label, required this.text});
 }
 
-class ReadingQuestion {
+class EnglishQuestion {
   final int number;
   final String instruction;
   final List<String> passageSentences;
   final String? question;
-  final List<ReadingChoice> choices;
+  final List<EnglishChoice> choices;
 
-  const ReadingQuestion({
+  const EnglishQuestion({
     required this.number,
     required this.instruction,
     required this.passageSentences,
@@ -21,15 +21,15 @@ class ReadingQuestion {
   });
 }
 
-class ReadingExam {
+class EnglishExam {
   final String institution;
   final String institutionKo;
   final int year;
   final String fileName;
   final int questionCount;
-  final List<ReadingQuestion> questions;
+  final List<EnglishQuestion> questions;
 
-  const ReadingExam({
+  const EnglishExam({
     required this.institution,
     required this.institutionKo,
     required this.year,

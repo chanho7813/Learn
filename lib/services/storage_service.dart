@@ -100,26 +100,26 @@ class StorageService {
     }
   }
 
-  static const _customReadingKey = 'custom_reading_exams';
+  static const _customEnglishKey = 'custom_english_exams';
 
-  static Future<List<String>> getCustomReadingExams() async {
+  static Future<List<String>> getCustomEnglishExams() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getStringList(_customReadingKey) ?? [];
+    return prefs.getStringList(_customEnglishKey) ?? [];
   }
 
-  static Future<void> addCustomReadingExam(String content) async {
+  static Future<void> addCustomEnglishExam(String content) async {
     final prefs = await SharedPreferences.getInstance();
-    final exams = prefs.getStringList(_customReadingKey) ?? [];
+    final exams = prefs.getStringList(_customEnglishKey) ?? [];
     exams.add(content);
-    await prefs.setStringList(_customReadingKey, exams);
+    await prefs.setStringList(_customEnglishKey, exams);
   }
 
-  static Future<void> removeCustomReadingExam(int index) async {
+  static Future<void> removeCustomEnglishExam(int index) async {
     final prefs = await SharedPreferences.getInstance();
-    final exams = prefs.getStringList(_customReadingKey) ?? [];
+    final exams = prefs.getStringList(_customEnglishKey) ?? [];
     if (index >= 0 && index < exams.length) {
       exams.removeAt(index);
-      await prefs.setStringList(_customReadingKey, exams);
+      await prefs.setStringList(_customEnglishKey, exams);
     }
   }
 }

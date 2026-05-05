@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import '../models/reading.dart';
-import '../services/reading_parser.dart';
+import '../models/english_exam.dart';
+import '../services/english_parser.dart';
 import '../services/settings_service.dart';
-import 'reading_detail_screen.dart';
+import 'english_detail_screen.dart';
 
-class ReadingListScreen extends StatefulWidget {
-  const ReadingListScreen({super.key});
+class EnglishListScreen extends StatefulWidget {
+  const EnglishListScreen({super.key});
 
   @override
-  State<ReadingListScreen> createState() => _ReadingListScreenState();
+  State<EnglishListScreen> createState() => _EnglishListScreenState();
 }
 
-class _ReadingListScreenState extends State<ReadingListScreen> {
-  List<ReadingExam> _exams = [];
+class _EnglishListScreenState extends State<EnglishListScreen> {
+  List<EnglishExam> _exams = [];
   bool _loading = true;
-  int _lastReadingIndex = 0;
+  int _lastEnglishIndex = 0;
 
-  static const _readingFiles = [
+  static const _englishFiles = [
     'chungang_2026_english.json',
     'chungang_2025_english.json',
     'chungang_2024_english.json',
@@ -45,19 +45,19 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
   }
 
   Future<void> _loadExams() async {
-    final exams = <ReadingExam>[];
-    for (final file in _readingFiles) {
+    final exams = <EnglishExam>[];
+    for (final file in _englishFiles) {
       try {
-        final content = await rootBundle.loadString('assets/readings/$file');
-        exams.add(ReadingParser.parseJson(content, file));
+        final content = await rootBundle.loadString('assets/english/$file');
+        exams.add(EnglishParser.parseJson(content, file));
       } catch (_) {}
     }
 
-    final lastIndex = await SettingsService.getLastReadingIndex();
+    final lastIndex = await SettingsService.getLastEnglishIndex();
     if (mounted) {
       setState(() {
         _exams = exams;
-        _lastReadingIndex = exams.isEmpty ? 0 : lastIndex.clamp(0, exams.length - 1);
+        _lastEnglishIndex = exams.isEmpty ? 0 : lastIndex.clamp(0, exams.length - 1);
         _loading = false;
       });
     }
@@ -69,7 +69,7 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
     final colorScheme = theme.colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('리딩')),
+      appBar: AppBar(title: const Text('영어')),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _exams.isEmpty
@@ -90,15 +90,15 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
                       padding: const EdgeInsets.only(bottom: 12),
                       child: _ExamCard(
                         exam: exam,
-                        isLastRead: index == _lastReadingIndex,
+                        isLastRead: index == _lastEnglishIndex,
                         onTap: () async {
-                          await SettingsService.setLastReadingIndex(index);
-                          setState(() => _lastReadingIndex = index);
+                          await SettingsService.setLastEnglishIndex(index);
+                          setState(() => _lastEnglishIndex = index);
                           if (!context.mounted) return;
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) => ReadingDetailScreen(exam: exam),
+                              builder: (_) => EnglishDetailScreen(exam: exam),
                             ),
                           );
                         },
@@ -111,7 +111,7 @@ class _ReadingListScreenState extends State<ReadingListScreen> {
 }
 
 class _ExamCard extends StatelessWidget {
-  final ReadingExam exam;
+  final EnglishExam exam;
   final bool isLastRead;
   final VoidCallback onTap;
 

@@ -13,8 +13,8 @@ class SettingsService {
   static const _showNuanceKey = 'show_nuance';
   static const _lastDayKey = 'last_day';
   static const _lastScrollOffsetKey = 'last_scroll_offset';
-  static const _lastReadingIndexKey = 'last_reading_index';
-  static const _lastReadingSectionKey = 'last_reading_section';
+  static const _lastEnglishIndexKey = 'last_english_index';
+  static const _lastEnglishSectionKey = 'last_english_section';
   static const _lastMathIndexKey = 'last_math_index';
   static const _lastMathSectionKey = 'last_math_section';
   static const _claudeApiKeyKey = 'claude_api_key';
@@ -143,24 +143,24 @@ class SettingsService {
     await prefs.setDouble(_lastScrollOffsetKey, value);
   }
 
-  static Future<int> getLastReadingIndex() async {
+  static Future<int> getLastEnglishIndex() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(_lastReadingIndexKey) ?? 0;
+    return prefs.getInt(_lastEnglishIndexKey) ?? 0;
   }
 
-  static Future<void> setLastReadingIndex(int value) async {
+  static Future<void> setLastEnglishIndex(int value) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt(_lastReadingIndexKey, value);
+    await prefs.setInt(_lastEnglishIndexKey, value);
   }
 
-  static Future<int> getLastReadingSection() async {
+  static Future<int> getLastEnglishSection() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(_lastReadingSectionKey) ?? 0;
+    return prefs.getInt(_lastEnglishSectionKey) ?? 0;
   }
 
-  static Future<void> setLastReadingSection(int value) async {
+  static Future<void> setLastEnglishSection(int value) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt(_lastReadingSectionKey, value);
+    await prefs.setInt(_lastEnglishSectionKey, value);
   }
 
   static Future<int> getLastMathIndex() async {

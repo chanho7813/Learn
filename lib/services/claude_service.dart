@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'settings_service.dart';
 
-enum ExtractionType { math, reading }
+enum ExtractionType { math, english }
 
 enum AiProvider {
   groq,
@@ -108,7 +108,7 @@ class ClaudeService {
 
     final prompt = type == ExtractionType.math
         ? _mathPrompt(examTitle)
-        : _readingPrompt(examTitle);
+        : _englishPrompt(examTitle);
 
     if (provider == AiProvider.claude) {
       return _callClaude(files, prompt, apiKey);
@@ -293,7 +293,7 @@ fileName: (title 기반 영문 스네이크케이스)
 
 모든 문제를 빠짐없이 추출하고 풀이하세요. 보기가 없는 문제는 [보기] 섹션을 생략하세요.''';
 
-  static String _readingPrompt(String examTitle) => '''
+  static String _englishPrompt(String examTitle) => '''
 당신은 편입영어 시험 문제 추출 전문가입니다.
 
 첨부된 시험지에서 모든 영어 문제를 추출하여 아래 형식으로 출력하세요.

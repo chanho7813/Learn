@@ -1,8 +1,8 @@
 import 'dart:convert';
-import '../models/reading.dart';
+import '../models/english_exam.dart';
 
-class ReadingParser {
-  static ReadingExam parseJson(String content, String fileName) {
+class EnglishParser {
+  static EnglishExam parseJson(String content, String fileName) {
     final Map<String, dynamic> data = json.decode(content);
 
     final institution = data['institution'] as String? ?? '';
@@ -10,15 +10,15 @@ class ReadingParser {
     final year = data['year'] as int? ?? 0;
     final questionCount = data['question_count'] as int? ?? 0;
 
-    final questions = <ReadingQuestion>[];
+    final questions = <EnglishQuestion>[];
     final rawQuestions = data['questions'] as List<dynamic>? ?? [];
 
     for (final q in rawQuestions) {
       final map = q as Map<String, dynamic>;
-      final choices = <ReadingChoice>[];
+      final choices = <EnglishChoice>[];
       for (final c in (map['choices'] as List<dynamic>? ?? [])) {
         final cMap = c as Map<String, dynamic>;
-        choices.add(ReadingChoice(
+        choices.add(EnglishChoice(
           label: cMap['label'] as String? ?? '',
           text: cMap['text'] as String? ?? '',
         ));
@@ -44,7 +44,7 @@ class ReadingParser {
         instruction = '';
       }
 
-      questions.add(ReadingQuestion(
+      questions.add(EnglishQuestion(
         number: map['number'] as int? ?? 0,
         instruction: instruction,
         passageSentences: sentences,
@@ -53,7 +53,7 @@ class ReadingParser {
       ));
     }
 
-    return ReadingExam(
+    return EnglishExam(
       institution: institution,
       institutionKo: institutionKo,
       year: year,

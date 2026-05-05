@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show HapticFeedback;
-import '../models/reading.dart';
+import '../models/english_exam.dart';
 import '../models/word.dart';
 import '../services/settings_service.dart';
 import '../services/ai_service.dart';
@@ -12,16 +12,16 @@ String _cleanWord(String raw) {
   return cleaned.toLowerCase();
 }
 
-class ReadingDetailScreen extends StatefulWidget {
-  final ReadingExam exam;
+class EnglishDetailScreen extends StatefulWidget {
+  final EnglishExam exam;
 
-  const ReadingDetailScreen({super.key, required this.exam});
+  const EnglishDetailScreen({super.key, required this.exam});
 
   @override
-  State<ReadingDetailScreen> createState() => _ReadingDetailScreenState();
+  State<EnglishDetailScreen> createState() => _EnglishDetailScreenState();
 }
 
-class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
+class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
   final Set<String> _selectedWords = {};
   double _fontSize = 16.0;
   int _currentIndex = 0;
@@ -34,7 +34,7 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
 
   Future<void> _loadSettings() async {
     final size = await SettingsService.getFontSize();
-    final section = await SettingsService.getLastReadingSection();
+    final section = await SettingsService.getLastEnglishSection();
     if (mounted) {
       setState(() {
         _fontSize = size;
@@ -49,7 +49,7 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
     setState(() {
       _currentIndex = clamped;
     });
-    SettingsService.setLastReadingSection(clamped);
+    SettingsService.setLastEnglishSection(clamped);
   }
 
   Future<void> _analyzeWord(String word, String sentence) async {
