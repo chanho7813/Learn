@@ -4,816 +4,874 @@
   "year": 2023,
   "subject": "engineering_math",
   "subject_name": "공업수학",
-  "source_text_file": "chungang_2023_engineering_math_extracted_complete.txt",
+  "source_pdf": "중앙_23_공업수학.pdf",
   "question_count": 30,
   "questions": [
     {
       "number": 1,
       "points": "3.5점",
-      "stem": "선형변환  : \\mathbb{R}^3 \\to \\mathbb{R}^3 가  \\begin{pmatrix} \\end{pmatrix} 1 0 0 = \\begin{pmatrix} \\end{pmatrix} 1 2 2 ,  \\begin{pmatrix} \\end{pmatrix} 1 1 0 = \\begin{pmatrix} \\end{pmatrix} -4 5 1 ,  \\begin{pmatrix} \\end{pmatrix} 1 1 1 = \\begin{pmatrix} \\end{pmatrix} 5 -3 1 을 만족한다고 하자.  의 핵(kernel)에 속하는 점과 점 \\begin{pmatrix} \\end{pmatrix} 1 -2 3 사이의 최소 거리는?",
+      "stem": "선형변환 $T:\\mathbb{R}^3\\to\\mathbb{R}^3$가 $T\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix}=\\begin{bmatrix}1\\\\2\\\\2\\end{bmatrix}$, $T\\begin{bmatrix}1\\\\1\\\\0\\end{bmatrix}=\\begin{bmatrix}-4\\\\5\\\\1\\end{bmatrix}$, $T\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}=\\begin{bmatrix}5\\\\-3\\\\1\\end{bmatrix}$을 만족한다고 하자. $T$의 핵(kernel)에 속하는 점과 점 $\\begin{bmatrix}1\\\\-2\\\\3\\end{bmatrix}$ 사이의 최소 거리는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\sqrt{8}"
+          "text": "$\\sqrt{8}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\sqrt{10}"
+          "text": "$\\sqrt{10}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\sqrt{12}"
+          "text": "$\\sqrt{12}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\sqrt{14}"
+          "text": "$\\sqrt{14}$"
         }
       ]
     },
     {
       "number": 2,
       "points": "4점",
-      "stem": "두 부등식 x^2 + y^2 \\geq 4, x^2 + (y-\\sqrt{3)^2} \\leq 1 을 만족하는 점들이 이루는 영역의 넓이는?",
+      "stem": "두 부등식 $x^2+y^2\\geq4$, $x^2+(y-\\sqrt{3})^2\\leq1$을 만족하는 점들이 이루는 영역의 넓이는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\sqrt{3} - \\frac{\\pi}{6}"
+          "text": "$\\sqrt{3}-\\frac{\\pi}{6}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\sqrt{6} - \\frac{\\pi}{3}"
+          "text": "$\\sqrt{6}-\\frac{\\pi}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\sqrt{3} - \\frac{\\pi}{4}"
+          "text": "$\\sqrt{3}-\\frac{\\pi}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\sqrt{6} - \\frac{\\pi}{4}"
+          "text": "$\\sqrt{6}-\\frac{\\pi}{4}$"
         }
       ]
     },
     {
       "number": 3,
       "points": "3.5점",
-      "stem": "차수가 2 이하인 다항식으로 이루어진 벡터공간 \\mathbb{P}^2 에 정의된 선형사상  : \\mathbb{P}^2 \\to \\mathbb{P}^2 가 주어져 있다. \\mathbb{P}^2 의 순서기저(ordered basis)  = {1 + t^2 , t + t^2 , 1 + 2t + t^2 }에 대한  의 행렬표현이 다음과 같고   = \\begin{pmatrix} \\end{pmatrix} 3 4 0 0 5 -1 1 -2 7 p(t) =  (1 + t + t^2 )라 할 때, p(-1)의 값은?",
+      "stem": "차수가 2 이하인 다항식으로 이루어진 벡터공간 $P_2$에 정의된 선형사상 $T:P_2\\to P_2$가 주어져 있다. $P_2$의 순서기저(ordered basis) $B=\\{1+t^2,\\ t+t^2,\\ 1+2t+t^2\\}$에 대한 $T$의 행렬표현이 다음과 같고 $[T]_B=\\begin{bmatrix}3&4&0\\\\0&5&-1\\\\1&-2&7\\end{bmatrix}$, $p(t)=T(1+t+t^2)$라 할 때, $p(-1)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "0"
+          "text": "$0$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "3"
+          "text": "$3$"
         }
       ]
     },
     {
       "number": 4,
       "points": "3점",
-      "stem": "모든 성분이 실수인 m\\timesn행렬 에 대하여 의 영공간(null space)과  의 영공간은 그 차원이 각각 7, 2이고   는 차원이 k인 영공간을 갖는다고 하자. m - n +k의 값은? (여기서,  는 의 전치행렬이다.)",
+      "stem": "모든 성분이 실수인 $m\\times n$행렬 $A$에 대하여 $A$의 영공간(null space)과 $A^T$의 영공간은 그 차원이 각각 $7$, $2$이고 $A^TA$는 차원이 $k$인 영공간을 갖는다고 하자. $m-n+k$의 값은? (여기서, $A^T$는 $A$의 전치행렬이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-5"
+          "text": "$-5$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-2"
+          "text": "$-2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "5"
+          "text": "$5$"
         }
       ]
     },
     {
       "number": 5,
       "points": "2.5점",
-      "stem": "극한 lim x\\to0 \\frac{sinhx-x}{x^3} 의 값은?",
+      "stem": "극한 $\\lim_{x\\to0}\\frac{\\sinh x-x}{x^3}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{1}{12}"
+          "text": "$\\frac{1}{12}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{1}{6}"
+          "text": "$\\frac{1}{6}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{1}{3}"
+          "text": "$\\frac{1}{3}$"
         }
       ]
     },
     {
       "number": 6,
       "points": "3점",
-      "stem": "점 (1, 4)와 곡선 y^2 = 2x 위의 점 (x, y) 사이의 거리의 최솟값은?",
+      "stem": "점 $(1,4)$와 곡선 $y^2=2x$ 위의 점 $(x,y)$ 사이의 거리의 최솟값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{3\\sqrt{5}}{5}"
+          "text": "$\\frac{3\\sqrt{5}}{5}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{4\\sqrt{5}}{5}"
+          "text": "$\\frac{4\\sqrt{5}}{5}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\sqrt{5}"
+          "text": "$\\sqrt{5}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{6\\sqrt{5}}{5}"
+          "text": "$\\frac{6\\sqrt{5}}{5}$"
         }
       ]
     },
     {
       "number": 7,
       "points": "4점",
-      "stem": "곡선 y = \\frac{-x^2}{x^3} -x+1 2 와 세 직선 y = 0, x = 0, x = \\frac{1}{2} 로 둘러싸인 영역을 y 축을 중심으로 회전하여 얻은 회전체의 부피는?",
+      "stem": "곡선 $y=\\frac{2}{x^3-x^2-x+1}$와 세 직선 $y=0$, $x=0$, $x=\\frac{1}{2}$로 둘러싸인 영역을 $y$축을 중심으로 회전하여 얻은 회전체의 부피는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\pi(2-ln2)"
+          "text": "$\\pi(2-\\ln2)$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\pi(2-ln3)"
+          "text": "$\\pi(2-\\ln3)$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\pi(3-ln2)"
+          "text": "$\\pi(3-\\ln2)$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\pi(3-ln3)"
+          "text": "$\\pi(3-\\ln3)$"
         }
       ]
     },
     {
       "number": 8,
       "points": "2.5점",
-      "stem": "영역 x^2 +y^2 \\leq 4 에서 함수 f(x,y) = e - x^2 - y^2 (x^2 +2y^2 )의 최댓값은?",
+      "stem": "영역 $x^2+y^2\\leq4$에서 함수 $f(x,y)=e^{-x^2-y^2}(x^2+2y^2)$의 최댓값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{2}{e}"
+          "text": "$\\frac{2}{e}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{4}{e2}"
+          "text": "$\\frac{4}{e^2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{6}{e3}"
+          "text": "$\\frac{6}{e^3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{8}{e4}"
+          "text": "$\\frac{8}{e^4}$"
         }
       ]
     },
     {
       "number": 9,
       "points": "3.5점",
-      "stem": "0 \\leq t \\leq 1 에서 정의된 곡선  는 r(t) = (et cost, et sint)로 주어지고 t = 0 에서 출발하여 t = 1 에서 끝난다. 벡터장 (x, y) = \\frac{+y^2}{x^2} (-y, x) 에 대하여 선적분 \\int  \\cdotdr의 값은?",
+      "stem": "$0\\leq t\\leq1$에서 정의된 곡선 $C$는 $\\mathbf{r}(t)=(e^t\\cos t,e^t\\sin t)$로 주어지고 $t=0$에서 출발하여 $t=1$에서 끝난다. 벡터장 $\\mathbf{F}(x,y)=\\frac{(-y,x)}{x^2+y^2}$에 대하여 선적분 $\\int_C\\mathbf{F}\\cdot d\\mathbf{r}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{3}{2}"
+          "text": "$\\frac{3}{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{5}{2}"
+          "text": "$\\frac{5}{2}$"
         }
       ]
     },
     {
       "number": 10,
       "points": "4점",
-      "stem": "구면  : x^2 +y^2 +z^2 = 4 에 대하여 \\iint  \\frac{+y^2}{\\sqrt{x^2}} +(z -1)^2 d 의 값은?",
+      "stem": "구면 $S:x^2+y^2+z^2=4$에 대하여 $\\iint_S\\frac{dS}{\\sqrt{x^2+y^2+(z-1)^2}}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "8\\pi-1"
+          "text": "$8\\pi-1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "8\\pi"
+          "text": "$8\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "8\\pi+1"
+          "text": "$8\\pi+1$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "8\\pi+2"
+          "text": "$8\\pi+2$"
         }
       ]
     },
     {
       "number": 11,
       "points": "3점",
-      "stem": "미분방정식 (x+1)\\frac{dy}{dx} +y-lnx = 0, y(1) = 0 의 해가 y(x) 일 때, y(3) = + ln 이다. ++ 의 값은?",
+      "stem": "미분방정식 $(x+1)\\frac{dy}{dx}+y-\\ln x=0$, $y(1)=0$의 해가 $y(x)$일 때, $y(3)=A+B\\ln C$이다. $A+B+C$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{11}{4}"
+          "text": "$\\frac{11}{4}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{13}{4}"
+          "text": "$\\frac{13}{4}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{15}{4}"
+          "text": "$\\frac{15}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{17}{4}"
+          "text": "$\\frac{17}{4}$"
         }
       ]
     },
     {
       "number": 12,
       "points": "3.5점",
-      "stem": "연립미분방정식 \\frac{d2}{dt2} x +10x-4y = 0, \\frac{d2}{dt2} y +4y-4x = 0, x(0) = 0, y(0) = 0, \\frac{dx}{dt} (0) =-1, \\frac{dy}{dt} (0) = 1 의 해가 x(t), y(t) 일 때, x(1)+y(1) 의 값은?",
+      "stem": "연립미분방정식 $\\frac{d^2x}{dt^2}+10x-4y=0$, $\\frac{d^2y}{dt^2}+4y-4x=0$, $x(0)=0$, $y(0)=0$, $\\frac{dx}{dt}(0)=-1$, $\\frac{dy}{dt}(0)=1$의 해가 $x(t)$, $y(t)$일 때, $x(1)+y(1)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{3\\sqrt{2}}{10} sin\\sqrt{2-} \\frac{\\sqrt{3}}{10} sin2\\sqrt{3}"
+          "text": "$\\frac{3\\sqrt{2}}{10}\\sin(\\sqrt{2})-\\frac{\\sqrt{3}}{10}\\sin(2\\sqrt{3})$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{7\\sqrt{2}}{10} sin\\sqrt{2-} \\frac{3\\sqrt{3}}{10} sin2\\sqrt{3}"
+          "text": "$\\frac{7\\sqrt{2}}{10}\\sin(\\sqrt{2})-\\frac{3\\sqrt{3}}{10}\\sin(2\\sqrt{3})$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{3\\sqrt{2}}{10} sin\\sqrt{2+} \\frac{\\sqrt{3}}{10} sin2\\sqrt{3}"
+          "text": "$\\frac{3\\sqrt{2}}{10}\\sin(\\sqrt{2})+\\frac{\\sqrt{3}}{10}\\sin(2\\sqrt{3})$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{7\\sqrt{2}}{10} sin\\sqrt{2+} \\frac{3\\sqrt{3}}{10} sin2\\sqrt{3}"
+          "text": "$\\frac{7\\sqrt{2}}{10}\\sin(\\sqrt{2})+\\frac{3\\sqrt{3}}{10}\\sin(2\\sqrt{3})$"
         }
       ]
     },
     {
       "number": 13,
       "points": "3점",
-      "stem": "xy2 \\frac{dy}{dx} = y^3 +x^3 , y(1) = 1 의 해가 y(x) 라고 할 때, y(2) 의 값은?",
+      "stem": "$xy^2\\frac{dy}{dx}=y^3+x^3$, $y(1)=1$의 해가 $y(x)$라고 할 때, $y(2)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\sqrt{3} \\frac{ln2-8}{24}"
+          "text": "$\\sqrt[3]{24\\ln2-8}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\sqrt{3} \\frac{ln2+24}{-8}"
+          "text": "$\\sqrt[3]{-8\\ln2+24}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\sqrt{3} \\frac{ln2+8}{24}"
+          "text": "$\\sqrt[3]{24\\ln2+8}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\sqrt{3} \\frac{ln2+24}{8}"
+          "text": "$\\sqrt[3]{8\\ln2+24}$"
         }
       ]
     },
     {
       "number": 14,
       "points": "3.5점",
-      "stem": "미분방정식 y''+y = \\sqrt{2sin\\sqrt\\frac} 2x, y(0) = 1, y'(0) = 0 의 해가 y(x) = sinx+sin\\sqrt{2} x+cosx 라고 할 때, ++ 의 값은?",
+      "stem": "미분방정식 $y''+y=\\sqrt{2}\\sin(\\sqrt{2}x)$, $y(0)=1$, $y'(0)=0$의 해가 $y(x)=A\\sin x+B\\sin(\\sqrt{2}x)+C\\cos x$라고 할 때, $A+B+C$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1-\\sqrt{2}"
+          "text": "$1-\\sqrt{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "1+\\sqrt{2}"
+          "text": "$1+\\sqrt{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "3-\\sqrt{2}"
+          "text": "$3-\\sqrt{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "3+\\sqrt{2}"
+          "text": "$3+\\sqrt{2}$"
         }
       ]
     },
     {
       "number": 15,
       "points": "3.5점",
-      "stem": "미분방정식 y'''+8y''+16y' = 0, y(0) = 0, y'(0) = 0, y''(0) = 1 의 해가 y(x) = \\frac{1}{} eax (ebx +x+) 라고 할 때, ÷(++) 의 값은?",
+      "stem": "미분방정식 $y'''+8y''+16y'=0$, $y(0)=0$, $y'(0)=0$, $y''(0)=1$의 해가 $y(x)=\\frac{1}{A}e^{ax}(Be^{bx}+Cx+D)$라고 할 때, $A\\div(B+C+D)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-4"
+          "text": "$-4$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-2"
+          "text": "$-2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "4"
+          "text": "$4$"
         }
       ]
     },
     {
       "number": 16,
       "points": "3.5점",
-      "stem": "주기가 1인 함수 g(t) 를 다음과 같이 정의하자. g(t) = t, 0 ≦ t < 1 g(t) 의 Laplace 변환이  (s) 로 주어질 때, (1) 의 값은?",
+      "stem": "주기가 $1$인 함수 $g(t)$를 다음과 같이 정의하자. $g(t)=t$, $0\\leq t<1$. $g(t)$의 Laplace 변환이 $G(s)$로 주어질 때, $G(1)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1+ \\frac{+1}{e} 1"
+          "text": "$1+\\frac{1}{e+1}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "1- \\frac{+1}{e} 1"
+          "text": "$1-\\frac{1}{e+1}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "1+ \\frac{-1}{e} 1"
+          "text": "$1+\\frac{1}{e-1}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "1- \\frac{-1}{e} 1"
+          "text": "$1-\\frac{1}{e-1}$"
         }
       ]
     },
     {
       "number": 17,
       "points": "3.5점",
-      "stem": "미분방정식 y''+4y'+3y = sinex 의 해가 y(x) = c1eax +c^2ebx -ecx sinex -edx cosex 라고 할 때, a+b+c+d 의 값은?",
+      "stem": "미분방정식 $y''+4y'+3y=\\sin(e^x)$의 해가 $y(x)=c_1e^{ax}+c_2e^{bx}-e^{cx}\\sin(e^x)-e^{dx}\\cos(e^x)$라고 할 때, $a+b+c+d$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-18"
+          "text": "$-18$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-9"
+          "text": "$-9$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "9"
+          "text": "$9$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "18"
+          "text": "$18$"
         }
       ]
     },
     {
       "number": 18,
       "points": "3.5점",
-      "stem": "미분방정식 y''-2xy'+8y = 0, y(0) = 1, y'(0) = 0 의 거듭제곱급수 해가 y(x) = \\sum n = 0 \\infty cnxn 이라고 할 때, y(1) 의 값은?",
+      "stem": "미분방정식 $y''-2xy'+8y=0$, $y(0)=1$, $y'(0)=0$의 거듭제곱급수 해가 $y(x)=\\sum_{n=0}^{\\infty}c_nx^n$이라고 할 때, $y(1)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "- \\frac{2}{3}"
+          "text": "$-\\frac{2}{3}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "- \\frac{5}{3}"
+          "text": "$-\\frac{5}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "- \\frac{8}{3}"
+          "text": "$-\\frac{8}{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-4"
+          "text": "$-4$"
         }
       ]
     },
     {
       "number": 19,
       "points": "3.5점",
-      "stem": "미분방정식 x^2 y'' + xy' -y = 2lnx, y(1) = 1, y'(1) = 0 의 해가 y(x) 라고 할 때, y(\\frac{1}{2} )의 값은? (단, ln2 = 0.7 로 계산한다.)",
+      "stem": "미분방정식 $x^2y''+xy'-y=2\\ln x$, $y(1)=1$, $y'(1)=0$의 해가 $y(x)$라고 할 때, $y(\\frac{1}{2})$의 값은? (단, $\\ln2=0.7$로 계산한다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "0.85"
+          "text": "$0.85$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "0.95"
+          "text": "$0.95$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "1.05"
+          "text": "$1.05$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "1.15"
+          "text": "$1.15$"
         }
       ]
     },
     {
       "number": 20,
       "points": "3점",
-      "stem": "미분방정식 3xy''+(2-x)y'-y = 0 의 해를 구하기 위해 해의 형태가 (가)라고 가정하고 Frobenius 방법을 적용하면 결정방정식(indicial equation)이 (나)와 같이 구해진다. (가), (나)가 바르게 짝지어진 것은?",
+      "stem": "미분방정식 $3xy''+(2-x)y'-y=0$의 해를 구하기 위해 해의 형태가 (가)라고 가정하고 Frobenius 방법을 적용하면 결정방정식(indicial equation)이 (나)와 같이 구해진다. (가), (나)가 바르게 짝지어진 것은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "(가) y(x) = \\sum m = 0 \\infty am xm + r (나) 3r^2 -r = 0"
+          "text": "(가) $y(x)=\\sum_{m=0}^{\\infty}a_mx^{m+r}$ (나) $3r^2-r=0$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "(가) y(x) = \\sum m = 0 \\infty am xmr (나) 3r^2 -r = 0"
+          "text": "(가) $y(x)=\\sum_{m=0}^{\\infty}a_mx^{mr}$ (나) $3r^2-r=0$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "(가) y(x) = \\sum m = 0 \\infty am xm + r (나) 5r^2 -3r = 0"
+          "text": "(가) $y(x)=\\sum_{m=0}^{\\infty}a_mx^{m+r}$ (나) $5r^2-3r=0$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "(가) y(x) = \\sum m = 0 \\infty am xmr (나) 5r^2 -3r = 0"
+          "text": "(가) $y(x)=\\sum_{m=0}^{\\infty}a_mx^{mr}$ (나) $5r^2-3r=0$"
         }
       ]
     },
     {
       "number": 21,
       "points": "3점",
-      "stem": "미분방정식 y''+4y'+13y = (t-2\\pi), y(0) = 0, y'(0) = 0 의 해는?",
+      "stem": "미분방정식 $y''+4y'+13y=\\delta(t-2\\pi)$, $y(0)=0$, $y'(0)=0$의 해는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "y = \\frac{1}{2} e- 3t sin2t u(t-2\\pi)"
+          "text": "$y=\\frac{1}{2}e^{-3t}\\sin(2t)u(t-2\\pi)$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "y = \\frac{1}{2} e- 3(t - 2\\pi) sin2t u(t-2\\pi)"
+          "text": "$y=\\frac{1}{2}e^{-3(t-2\\pi)}\\sin(2t)u(t-2\\pi)$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "y = \\frac{1}{3} e- 2t sin3t u(t-2\\pi)"
+          "text": "$y=\\frac{1}{3}e^{-2t}\\sin(3t)u(t-2\\pi)$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "y = \\frac{1}{3} e- 2(t - 2\\pi) sin3t u(t-2\\pi)"
+          "text": "$y=\\frac{1}{3}e^{-2(t-2\\pi)}\\sin(3t)u(t-2\\pi)$"
         }
       ]
     },
     {
       "number": 22,
       "points": "2.5점",
-      "stem": "주기가 2\\pi 인 함수 f(x) 를 다음과 같이 정의하자. f(x) = e- x , -\\pi < x < \\pi f(x) 를 아래와 같이 Fourier 급수로 나타낼 때, \\frac{b^2c^2}{a^2} 의 값은? f(x) = \\frac{a0}{2} + \\sum n = 1 \\infty (an cosnx+bn sinnx) = \\sum n =- \\infty \\infty cneinx",
+      "stem": "주기가 $2\\pi$인 함수 $f(x)$를 다음과 같이 정의하자. $f(x)=e^{-x}$, $-\\pi<x<\\pi$. $f(x)$를 아래와 같이 Fourier 급수로 나타낼 때, $\\frac{b_2c_2}{a_2}$의 값은? $f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)=\\sum_{n=-\\infty}^{\\infty}c_ne^{inx}$",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{(1-2i)sinh\\pi}{5\\pi}"
+          "text": "$\\frac{(1-2i)\\sinh\\pi}{5\\pi}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{(1+2i)sinh\\pi}{5\\pi}"
+          "text": "$\\frac{(1+2i)\\sinh\\pi}{5\\pi}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{2(1-2i)sinh\\pi}{5\\pi}"
+          "text": "$\\frac{2(1-2i)\\sinh\\pi}{5\\pi}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{2(1+2i)sinh\\pi}{5\\pi}"
+          "text": "$\\frac{2(1+2i)\\sinh\\pi}{5\\pi}$"
         }
       ]
     },
     {
       "number": 23,
       "points": "3점",
-      "stem": "다음\n<보기>\n중 복소함수 f(z) 에 대해 고립 특이점(isolated singularity) z0 = 0 을 중심으로 하는\nLaurent 급수를 전개하였을 때, 고립 특이점의 종류와 유수(residue)가 바르게 짝지어진 것은 몇 개인가?\n(단, 고립 특이점 z0 에서 f(z) 의 유수는 Res(f(z),z0) 로 나타낸다.)",
+      "stem": "다음 <보기> 중 복소함수 $f(z)$에 대해 고립 특이점(isolated singularity) $z_0=0$을 중심으로 하는 Laurent 급수를 전개하였을 때, 고립 특이점의 종류와 유수(residue)가 바르게 짝지어진 것은 몇 개인가? (단, 고립 특이점 $z_0$에서 $f(z)$의 유수는 $\\operatorname{Res}(f(z),z_0)$로 나타낸다.)",
+      "statement_box": [
+        {
+          "label": "(가)",
+          "text": "$f(z)=(1-z^3)e^{\\frac{1}{z}}$, 진성 특이점(essential singularity), $\\operatorname{Res}(f(z),z_0)=\\frac{21}{24}$"
+        },
+        {
+          "label": "(나)",
+          "text": "$f(z)=\\frac{1-\\cos z}{z^2}$, 제거 가능 특이점(removable singularity), $\\operatorname{Res}(f(z),z_0)=0$"
+        },
+        {
+          "label": "(다)",
+          "text": "$f(z)=(1-z^2)\\sin\\left(\\frac{1}{z}\\right)$, 단순극(simple pole), $\\operatorname{Res}(f(z),z_0)=\\frac{5}{6}$"
+        },
+        {
+          "label": "(라)",
+          "text": "$f(z)=\\frac{\\cos z}{z^2-z^3}$, 차수가 2인 극(pole), $\\operatorname{Res}(f(z),z_0)=0$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1 개"
+          "text": "$1$개"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "2 개"
+          "text": "$2$개"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "3 개"
+          "text": "$3$개"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "4 개 <보기> (가) f(z) = (1-z^3 )e \\frac{1}{z} , 진성 특이점(essential singularity), Res(f(z),z0) = \\frac{21}{24} (나) f(z) = \\frac{1-cosz}{z^2} , 제거 가능 특이점(removable singularity), Res(f(z),z0) = 0 (다) f(z) = (1-z^2 )sin(\\frac{1}{z} ), 단순극(simple pole), Res(f(z),z0) = \\frac{5}{6} (라) f(z) = \\frac{-z^3}{z^2} cosz , 차수가 2인 극(pole), Res(f(z),z0) = 0"
+          "text": "$4$개"
         }
       ]
     },
     {
       "number": 24,
       "points": "4점",
-      "stem": "다음\n<보기>\n중 주어진 영역에서 수렴하는 Laurent 급수가 올바르게 구해진 것은 모두 몇 개인가?\n<보기>\n(가) \\frac{-1)(z}{(z} +5)\nz +1\n= \\sum\nn = 0\n\\infty\n\\frac{1}{3} [\n[\n|\\frac{1}{5n+}\n2(-1)n\n-1\n]\n]\n]zn\n, 0 < |z|< 1\n(나) \\frac{-2)(z}{(z} +3)\n3z-1\n= \\sum\nn = 1\n\\infty\n2n- 1\n+2(-3)n- 1\nz- n\n, |z|> 3\n(다) \\frac{-1}{z^2}\n2(z +2)\n=- \\sum\nn = 1\n\\infty\n\\frac{(z+2)n}{3n}\n- \\sum\nn = 0\n\\infty\n(z +2)- n\n, 1 < |z+2|< 3\n(라) \\frac{+2)(z^2}{(z}\n+1)\n10\n= \\sum\nn = 0\n\\infty\n(- \\frac{1}{2}\n)\nn\nzn\n+ \\sum\nn = 0\n\\infty\n2(-1)n+ 1\nz- (2n+ 1)\n+ \\sum\nn = 1\n\\infty\n4(-1)n+ 1\nz- 2n\n, 1 < |z|< 2",
+      "stem": "다음 <보기> 중 주어진 영역에서 수렴하는 Laurent 급수가 올바르게 구해진 것은 모두 몇 개인가?",
+      "statement_box": [
+        {
+          "label": "(가)",
+          "text": "$\\frac{z+1}{(z-1)(z+5)}=\\sum_{n=0}^{\\infty}\\frac{1}{3}\\left[\\frac{2(-1)^n}{5^{n+1}}-1\\right]z^n$, $0<|z|<1$"
+        },
+        {
+          "label": "(나)",
+          "text": "$\\frac{3z-1}{(z-2)(z+3)}=\\sum_{n=1}^{\\infty}\\left[2^{n-1}+2(-3)^{n-1}\\right]z^{-n}$, $|z|>3$"
+        },
+        {
+          "label": "(다)",
+          "text": "$\\frac{2(z+2)}{z^2-1}=-\\sum_{n=1}^{\\infty}\\frac{(z+2)^n}{3^n}-\\sum_{n=0}^{\\infty}(z+2)^{-n}$, $1<|z+2|<3$"
+        },
+        {
+          "label": "(라)",
+          "text": "$\\frac{10}{(z+2)(z^2+1)}=\\sum_{n=0}^{\\infty}\\left(-\\frac{1}{2}\\right)^nz^n+\\sum_{n=0}^{\\infty}2(-1)^{n+1}z^{-(2n+1)}+\\sum_{n=1}^{\\infty}4(-1)^{n+1}z^{-2n}$, $1<|z|<2$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1 개"
+          "text": "$1$개"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "2 개"
+          "text": "$2$개"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "3 개"
+          "text": "$3$개"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "4 개"
+          "text": "$4$개"
         }
       ]
     },
     {
       "number": 25,
       "points": "2.5점",
-      "stem": "tan- 1 (3i) 를 나타내는 값은?",
+      "stem": "$\\tan^{-1}(3i)$를 나타내는 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-3\\pi+iloge2"
+          "text": "$-3\\pi+i\\log_e2$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "- \\frac{3\\pi}{2} +iloge2"
+          "text": "$-\\frac{3\\pi}{2}+i\\log_e2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{9\\pi}{2} +iloge \\sqrt{2}"
+          "text": "$\\frac{9\\pi}{2}+i\\log_e\\sqrt{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "5\\pi+iloge \\sqrt{2}"
+          "text": "$5\\pi+i\\log_e\\sqrt{2}$"
         }
       ]
     },
     {
       "number": 26,
       "points": "4점",
-      "stem": "다음\n<보기>\n중 옳은 것은 모두 몇 개인가?\n<보기>\n(가) 복소함수 f(z) = ez\n에 대하여 z1 \\neqz2 일 때, 항상 f(z1)\\neqf(z^2 )가 성립한다.\n(나) 복소방정식 (z+1)^5\n= z^5\n을 만족하는 해는 모두 4개이며 서로 다른 값을 가진다.\n(다) 복소방정식 \\frac{+e-}{ez} z\nez\n-e- z\n= i 를 만족하는 해는 항상 순허수(purely imaginary number)이다.\n(라) 복소함수 f(z) = \\frac{sinhz}{z^3}\n는 z = 0 에서 차수가 3인 극(pole)을 갖는다.\n(마) 복소함수 f(z) = 3z +ez\n+4 에 의한 사상(mapping)에서 등각사상(conformal mapping) 영역에\nz = loge3-2\\pii 는 포함된다.",
+      "stem": "다음 <보기> 중 옳은 것은 모두 몇 개인가?",
+      "statement_box": [
+        {
+          "label": "(가)",
+          "text": "복소함수 $f(z)=e^z$에 대하여 $z_1\\ne z_2$일 때, 항상 $f(z_1)\\ne f(z_2)$가 성립한다."
+        },
+        {
+          "label": "(나)",
+          "text": "복소방정식 $(z+1)^5=z^5$을 만족하는 해는 모두 $4$개이며 서로 다른 값을 가진다."
+        },
+        {
+          "label": "(다)",
+          "text": "복소방정식 $\\frac{e^z-e^{-z}}{e^z+e^{-z}}=i$를 만족하는 해는 항상 순허수(purely imaginary number)이다."
+        },
+        {
+          "label": "(라)",
+          "text": "복소함수 $f(z)=\\frac{\\sinh z}{z^3}$는 $z=0$에서 차수가 $3$인 극(pole)을 갖는다."
+        },
+        {
+          "label": "(마)",
+          "text": "복소함수 $f(z)=3z+e^z+4$에 의한 사상(mapping)에서 등각사상(conformal mapping) 영역에 $z=\\log_e3-2\\pi i$는 포함된다."
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "2 개"
+          "text": "$2$개"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "3 개"
+          "text": "$3$개"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "4 개"
+          "text": "$4$개"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "5 개"
+          "text": "$5$개"
         }
       ]
     },
     {
       "number": 27,
       "points": "3점",
-      "stem": "복소함수 f(z) = \\frac{sinz}{1+z^2} 에 대한 \\frac{d5}{dz5} f (0) 의 값은?",
+      "stem": "복소함수 $f(z)=\\frac{\\sin z}{1+z^2}$에 대한 $\\frac{d^5f}{dz^5}(0)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "141"
+          "text": "$141$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "143"
+          "text": "$143$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "145"
+          "text": "$145$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "147"
+          "text": "$147$"
         }
       ]
     },
     {
       "number": 28,
       "points": "3.5점",
-      "stem": "1 은 원 |z|= 4 , 2 는 원 |z|= 2 이라 할 때, \\int 1 \\frac{ez}{sinz} dz +\\int 2 \\frac{z}{zsin2} 1 dz 를 계산하면? (단, 1 , 2 의 방향은 시계반대방향이다.)",
+      "stem": "$C_1$은 원 $|z|=4$, $C_2$는 원 $|z|=2$이라 할 때, $\\int_{C_1}\\frac{e^z}{\\sin z}\\,dz+\\int_{C_2}\\frac{1}{z\\sin^2z}\\,dz$를 계산하면? (단, $C_1$, $C_2$의 방향은 시계반대방향이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "4\\pii(\\frac{1}{3} -cosh\\pi)"
+          "text": "$4\\pi i\\left(\\frac{1}{3}-\\cosh\\pi\\right)$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "4\\pii(\\frac{2}{3} -cosh\\pi)"
+          "text": "$4\\pi i\\left(\\frac{2}{3}-\\cosh\\pi\\right)$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "8\\pii(\\frac{1}{3} -cosh\\pi)"
+          "text": "$8\\pi i\\left(\\frac{1}{3}-\\cosh\\pi\\right)$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "8\\pii(\\frac{2}{3} -cosh\\pi)"
+          "text": "$8\\pi i\\left(\\frac{2}{3}-\\cosh\\pi\\right)$"
         }
       ]
     },
     {
       "number": 29,
       "points": "4점",
-      "stem": "\\int 0 2\\pi \\frac{sin5\\theta}{sin\\theta} d\\theta 의 값은?",
+      "stem": "$\\int_0^{2\\pi}\\frac{\\sin5\\theta}{\\sin\\theta}\\,d\\theta$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{\\pi}{2}"
+          "text": "$\\frac{\\pi}{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\pi"
+          "text": "$\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{3\\pi}{2}"
+          "text": "$\\frac{3\\pi}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "2\\pi"
+          "text": "$2\\pi$"
         }
       ]
     },
     {
       "number": 30,
       "points": "3.5점",
-      "stem": "\\int - \\infty \\infty \\frac{)^6}{(1+x^2} 1 dx 의 Cauchy 주치(Cauchy principal value)를 계산하면?",
+      "stem": "$\\int_{-\\infty}^{\\infty}\\frac{1}{(1+x^2)^6}\\,dx$의 Cauchy 주치(Cauchy principal value)를 계산하면?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{(5)^2}{211} 9\\pi"
+          "text": "$\\frac{9!\\pi}{2^{11}(5!)^2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{(5)^2}{210} 9\\pi"
+          "text": "$\\frac{9!\\pi}{2^{10}(5!)^2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{(5)^2}{210} 10\\pi"
+          "text": "$\\frac{10!\\pi}{2^{10}(5!)^2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{(5)^2}{29} 10\\pi"
+          "text": "$\\frac{10!\\pi}{2^9(5!)^2}$"
         }
       ]
     }

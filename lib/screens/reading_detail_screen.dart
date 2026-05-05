@@ -23,7 +23,6 @@ class ReadingDetailScreen extends StatefulWidget {
 
 class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
   final Set<String> _selectedWords = {};
-  bool _showChoices = false;
   double _fontSize = 16.0;
   int _currentIndex = 0;
 
@@ -49,7 +48,6 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
     if (clamped == _currentIndex) return;
     setState(() {
       _currentIndex = clamped;
-      _showChoices = false;
     });
     SettingsService.setLastReadingSection(clamped);
   }
@@ -445,77 +443,39 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                     ),
                     const SizedBox(height: 12),
                   ],
-                  if (q.choices.isNotEmpty) ...[
-                    Material(
-                      color: Colors.transparent,
-                      child: InkWell(
-                        onTap: () =>
-                            setState(() => _showChoices = !_showChoices),
+                  if (q.choices.isNotEmpty)
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(
-                              vertical: 12, horizontal: 16),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Icon(
-                                _showChoices
-                                    ? Icons.visibility_off_outlined
-                                    : Icons.list,
-                                size: 20,
-                                color: _showChoices
-                                    ? colorScheme.onSurface.withAlpha(128)
-                                    : colorScheme.primary,
-                              ),
-                              const SizedBox(width: 8),
-                              Text(
-                                _showChoices ? '보기 숨기기' : '보기 보기',
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: _showChoices
-                                      ? colorScheme.onSurface.withAlpha(128)
-                                      : colorScheme.primary,
-                                ),
-                              ),
-                            ],
-                          ),
+                        border: Border.all(
+                          color: colorScheme.outlineVariant.withAlpha(77),
+                          width: 0.8,
                         ),
                       ),
-                    ),
-                    AnimatedSize(
-                      duration: const Duration(milliseconds: 200),
-                      curve: Curves.easeInOut,
-                      alignment: Alignment.topLeft,
-                      child: _showChoices
-                          ? Container(
-                              width: double.infinity,
-                              padding: const EdgeInsets.all(16),
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(12),
-                                border: Border.all(
-                                  color: colorScheme.outlineVariant.withAlpha(77),
-                                  width: 0.8,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: q.choices.map((c) {
+                          return Padding(
+                            padding: const EdgeInsets.only(bottom: 10),
+                            child: Wrap(
+                              crossAxisAlignment: WrapCrossAlignment.center,
+                              children: [
+                                Text(
+                                  '${c.label} ',
+                                  style: TextStyle(
+                                    fontSize: _fontSize,
+                                    height: 1.6,
+                                  ),
                                 ),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: q.choices.map((c) {
-                                  return Padding(
-                                    padding: const EdgeInsets.only(bottom: 10),
-                                    child: Text(
-                                      '${c.label} ${c.text}',
-                                      style: TextStyle(
-                                        fontSize: _fontSize,
-                                        height: 1.6,
-                                      ),
-                                    ),
-                                  );
-                                }).toList(),
-                              ),
-                            )
-                          : const SizedBox.shrink(),
+                                ..._buildWordWidgets(c.text, colorScheme),
+                              ],
+                            ),
+                          );
+                        }).toList(),
+                      ),
                     ),
-                  ],
                 ],
               ),
             ),

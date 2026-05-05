@@ -26,11 +26,29 @@ class ReadingParser {
 
       final rawSentences = map['passage_sentences'] as List<dynamic>? ?? [];
 
+      final splitRegex =
+          RegExp(r'(?<=[.!?][\"”’]?)\s+(?=[A-Z])');
+      final sentences = <String>[];
+      for (final s in rawSentences) {
+        final text = s.toString();
+        sentences.addAll(
+          text.split(splitRegex).where((p) => p.trim().isNotEmpty),
+        );
+      }
+
+      var instruction = map['instruction'] as String? ?? '';
+      var question = map['question'] as String?;
+
+      if (question == null || question.trim().isEmpty) {
+        question = instruction;
+        instruction = '';
+      }
+
       questions.add(ReadingQuestion(
         number: map['number'] as int? ?? 0,
-        instruction: map['instruction'] as String? ?? '',
-        passageSentences: rawSentences.map((s) => s.toString()).toList(),
-        question: map['question'] as String?,
+        instruction: instruction,
+        passageSentences: sentences,
+        question: question,
         choices: choices,
       ));
     }

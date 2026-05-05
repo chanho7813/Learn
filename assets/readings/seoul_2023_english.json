@@ -372,7 +372,6 @@
       "number": 13,
       "instruction": "",
       "passage_sentences": [
-        "아래 두 빈칸에 공통으로 들어가기에 가장 적절한 것은?",
         "His book had been thoroughly _______ by scholars, and his reputation was tarnished.",
         "A scientific study may be _______ if it turns out it was secretly written up by someone paid by a drug company."
       ],
@@ -491,7 +490,6 @@
       "number": 17,
       "instruction": "",
       "passage_sentences": [
-        "아래 문단 다음에 이어질 순서로 가장 적절한 것은?",
         "For the past half century, the underlying assumption of economic globalization has been that capital, goods and people can and should move wherever it is most productive for them to do so.",
         "But “productive” often ended up meaning cheap.",
         "Multinational businesses could move money, jobs and production lines where it suited them; labor was far less mobile.",
@@ -528,7 +526,6 @@
       "number": 18,
       "instruction": "",
       "passage_sentences": [
-        "다음 글의 핵심 내용과 가장 가까운 문장은?",
         "It was a month of eerie parallels.",
         "On 12 December, the disgraced crypto founder Sam Bankman-Fried was arrested on fraud charges in the Bahamas, marking a dramatic end to his reign as the head of the now defunct cryptocurrency exchange FTX.",
         "His arrest came just weeks after the former Theranos founder Elizabeth Holmes was sentenced to more than 11 years in prison for similar charges.",
@@ -563,7 +560,6 @@
       "number": 19,
       "instruction": "",
       "passage_sentences": [
-        "다음 글에서 전체 흐름과 관계가 없는 문장은?",
         "Correlation is a very appealing tool.",
         "Clearly there is some sort of a systematic relationship between the height and weight of people.",
         "But equally clearly, it is not a simple one.",
@@ -594,7 +590,6 @@
       "number": 20,
       "instruction": "",
       "passage_sentences": [
-        "지문을 읽고 유추할 수 있는 내용으로 가장 적절한 것은?",
         "There are certainly a lot of so-called hangover cures, some dating back centuries.",
         "While the only cure for a hangover is time, there are things you can do to ease your transition.",
         "Forget eating a greasy breakfast in the wee hours after a night of drinking—you’re adding insult to injury.",
@@ -632,7 +627,6 @@
       "number": 21,
       "instruction": "",
       "passage_sentences": [
-        "지문을 읽고 추론할 수 없는 것을 고르시오.",
         "The pandemic has dramatically disrupted kids’ normal routines, but a new study suggests the initial lockdowns of 2020 did not necessarily hinder preschoolers’ language development.",
         "In fact, researchers found, there was an unanticipated “lockdown boost” in youngsters’ vocabulary growth—possibly because parents were spending more time at home.",
         "Studying families in 13 countries, the researchers found that, on average, babies and toddlers made greater 2023. 1. 18.(수) 11:00 ~ 12:00 gains in vocabulary during that early lockdown period, versus the pre-pandemic norm for youngsters their age.",
@@ -666,7 +660,6 @@
       "number": 22,
       "instruction": "",
       "passage_sentences": [
-        "아래 글을 읽고 (1)-(4)의 내용을 다이어그램으로 가장 적절하게 표현한 것은?",
         "A technique for the analysis of arguments is diagramming.",
         "With a diagram we can represent the structure of an argument graphically; the flow of premises and conclusions is displayed in a two-dimensional chart on the page.",
         "To construct the diagram of an argument we must first number all the propositions it contains, in the order in which they appear, circling each number.",
@@ -701,10 +694,8 @@
     },
     {
       "number": 23,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Breathing problems may explain why some bees are more vulnerable than others, shortening their life spans. Like most bees, bumble bees are having a tough time. Pesticides, habitat loss, light pollution, and parasites have caused a steep decline in their populations, in the few places researchers have tracked the insects for long periods of time. Now, scientists have identified a new way global warming may be taking a toll on some of these key pollinators. Rising temperatures are forcing some bees to take shallow, rapid breaths—essentially hyperventilating— which burns more energy and _________________.",
-      "passage_sentences": [
-        "밑줄 친 decline과 가장 유사한 의미를 지닌 단어는?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -728,10 +719,8 @@
     },
     {
       "number": 24,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Breathing problems may explain why some bees are more vulnerable than others, shortening their life spans. Like most bees, bumble bees are having a tough time. Pesticides, habitat loss, light pollution, and parasites have caused a steep decline in their populations, in the few places researchers have tracked the insects for long periods of time. Now, scientists have identified a new way global warming may be taking a toll on some of these key pollinators. Rising temperatures are forcing some bees to take shallow, rapid breaths—essentially hyperventilating— which burns more energy and _________________.",
-      "passage_sentences": [
-        "빈칸에 들어갈 표현으로 가장 적절한 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -755,10 +744,8 @@
     },
     {
       "number": 25,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. AlphaCode goes beyond the previous standard-bearer in AI code writing: Codex, a system released in 2021 by the nonprofit research lab OpenAI. The lab had already developed GPT-3, a “large language model” that is adept at imitating and interpreting human text after being trained on billions of words from digital books, Wikipedia articles, and other pages of internet text. By fine-tuning GPT-3 on more than 100 gigabytes of code from Github, an online software repository, OpenAI came up with Codex. The software can write code when prompted with an everyday description of what it is supposed to do—for instance counting the vowels in a string of text. But _________ when tasked with tricky problems.",
-      "passage_sentences": [
-        "밑줄 친 adept와 반대되는 의미를 지닌 단어는?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -782,10 +769,8 @@
     },
     {
       "number": 26,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. AlphaCode goes beyond the previous standard-bearer in AI code writing: Codex, a system released in 2021 by the nonprofit research lab OpenAI. The lab had already developed GPT-3, a “large language model” that is adept at imitating and interpreting human text after being trained on billions of words from digital books, Wikipedia articles, and other pages of internet text. By fine-tuning GPT-3 on more than 100 gigabytes of code from Github, an online software repository, OpenAI came up with Codex. The software can write code when prompted with an everyday description of what it is supposed to do—for instance counting the vowels in a string of text. But _________ when tasked with tricky problems.",
-      "passage_sentences": [
-        "빈칸에 들어갈 표현으로 가장 적절한 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -809,10 +794,8 @@
     },
     {
       "number": 27,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Our dependence on others for knowledge runs profoundly deep. A moment’s reflection shows that knowledge of historical events before we were born, or of current events in geographically distant regions, could never have been acquired without a—hopefully reliable—chain of reporters connecting us to the original events. Some of our most commonplace beliefs—that the Earth is round, that the Second World War ended in 1945 or that humanity has (so far) not discovered extraterrestrial life—are in some way, shape or form the result of our relying on others for knowledge. I know that the Second World War ended in 1945 because, presumably, our history teacher in school told us so. Or perhaps I first inferred it from background knowledge (e.g., testimonial knowledge of when my mother was born), combined with my grandmother’s vivid description of returning to the rubble of Berlin, with her 5-year-old daughter in tow, in the summer after the war. Either way, I know that this is the kind of knowledge claim I could not have acquired without, at some point, relying on the word of others as a source of knowledge. In short, much of our knowledge has a social component, not because it is about social facts, but because ___________. 5 page",
-      "passage_sentences": [
-        "밑줄 친 commonplace와 반대되는 의미를 지닌 단어는?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -836,10 +819,8 @@
     },
     {
       "number": 28,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Our dependence on others for knowledge runs profoundly deep. A moment’s reflection shows that knowledge of historical events before we were born, or of current events in geographically distant regions, could never have been acquired without a—hopefully reliable—chain of reporters connecting us to the original events. Some of our most commonplace beliefs—that the Earth is round, that the Second World War ended in 1945 or that humanity has (so far) not discovered extraterrestrial life—are in some way, shape or form the result of our relying on others for knowledge. I know that the Second World War ended in 1945 because, presumably, our history teacher in school told us so. Or perhaps I first inferred it from background knowledge (e.g., testimonial knowledge of when my mother was born), combined with my grandmother’s vivid description of returning to the rubble of Berlin, with her 5-year-old daughter in tow, in the summer after the war. Either way, I know that this is the kind of knowledge claim I could not have acquired without, at some point, relying on the word of others as a source of knowledge. In short, much of our knowledge has a social component, not because it is about social facts, but because ___________. 5 page",
-      "passage_sentences": [
-        "빈칸에 들어갈 표현으로 가장 적절한 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -863,10 +844,8 @@
     },
     {
       "number": 29,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Diverse industry sectors are experimenting with integrating the metaverse into every aspect of the industry. The automobile sector is also (A) on the verge of a transformation with the adoption of virtual reality (VR) in automobile operations. The use of VR in automobile manufacturing and (B) integrating of the digital environment in the automobile industry is transforming the car buying experience. One of the key advantages of the metaverse is that it helps potential consumers learn and comprehend the working of their cars. Through VR in automobile, potential buyers can see exactly how their cars look and how they would appear in the real world. (C) With the use of the metaverse, people may not only get a close-up view of the car’s interior and exterior, but they can also interact with relevant statistics and other options to personalize it in any way they see fit. Since VR comes without a biased sales pitch or even visiting a showroom, this entire experience (D) helps boost buyers’ confidence and makes for a more pleasant shopping experience. With VR’s many benefits, one might be worried if it will replace car dealers altogether. However, that might not be the case. In VR, you can display as many models as you like, in any color, with additional or different features, all of this without having to shell out cash to create a physical prototype. This can be done anywhere, be it virtual showrooms or trade shows. All of this ultimately allows dealers to give customers a positive experience without having to hold onto any automobiles. Since they made their purchasing decisions in VR, satisfied customers also require less inventory, which saves both time and money.",
-      "passage_sentences": [
-        "위 (A)-(D) 중 문법적으로 잘못된 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -890,10 +869,8 @@
     },
     {
       "number": 30,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Diverse industry sectors are experimenting with integrating the metaverse into every aspect of the industry. The automobile sector is also (A) on the verge of a transformation with the adoption of virtual reality (VR) in automobile operations. The use of VR in automobile manufacturing and (B) integrating of the digital environment in the automobile industry is transforming the car buying experience. One of the key advantages of the metaverse is that it helps potential consumers learn and comprehend the working of their cars. Through VR in automobile, potential buyers can see exactly how their cars look and how they would appear in the real world. (C) With the use of the metaverse, people may not only get a close-up view of the car’s interior and exterior, but they can also interact with relevant statistics and other options to personalize it in any way they see fit. Since VR comes without a biased sales pitch or even visiting a showroom, this entire experience (D) helps boost buyers’ confidence and makes for a more pleasant shopping experience. With VR’s many benefits, one might be worried if it will replace car dealers altogether. However, that might not be the case. In VR, you can display as many models as you like, in any color, with additional or different features, all of this without having to shell out cash to create a physical prototype. This can be done anywhere, be it virtual showrooms or trade shows. All of this ultimately allows dealers to give customers a positive experience without having to hold onto any automobiles. Since they made their purchasing decisions in VR, satisfied customers also require less inventory, which saves both time and money.",
-      "passage_sentences": [
-        "위 글을 읽고 유추할 수 없는 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -917,10 +894,8 @@
     },
     {
       "number": 31,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Lethally sharp projectile points found along the banks of a river in southwestern Idaho, dated to nearly 16,000 years ago according to a study published today, could represent the oldest evidence of the first tool technology brought to the Americas. The site where the points were unearthed a few years ago is on the banks of Idaho’s Salmon River. (A) At the time, an overland route into the North American continent from the Bering Strait would have been blocked by massive ice sheets. (B) But some researchers have proposed that the earliest migrants from Siberia could have boated along the ice-covered Bering Strait’s shores and down the Pacific coast. (C) Sixteen thousand years ago, the river sat in an ice-free corridor inside a glacial amphitheater left by the tail end of an ice age.",
-      "passage_sentences": [
-        "밑줄 친 unearthed와 반대되는 의미를 지닌 단어는?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -944,10 +919,8 @@
     },
     {
       "number": 32,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. Lethally sharp projectile points found along the banks of a river in southwestern Idaho, dated to nearly 16,000 years ago according to a study published today, could represent the oldest evidence of the first tool technology brought to the Americas. The site where the points were unearthed a few years ago is on the banks of Idaho’s Salmon River. (A) At the time, an overland route into the North American continent from the Bering Strait would have been blocked by massive ice sheets. (B) But some researchers have proposed that the earliest migrants from Siberia could have boated along the ice-covered Bering Strait’s shores and down the Pacific coast. (C) Sixteen thousand years ago, the river sat in an ice-free corridor inside a glacial amphitheater left by the tail end of an ice age.",
-      "passage_sentences": [
-        "위 문단의 순서가 바르게 배열된 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -971,10 +944,8 @@
     },
     {
       "number": 33,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. The two triggers of the Civilizing Process—the Leviathan and gentle commerce—are related. The positive-sum cooperation of commerce flourishes best inside a big tent presided over by a Leviathan. Not only is a state well suited to provide the public goods that serve as infrastructure for economic cooperation, such as money and 6 page roads, but it can put a thumb on the scale on which players weigh the relative payoffs of raiding and trading. Suppose a knight can either plunder ten bushels of grain from his neighbor or, by expending the same amount of time and energy, raise the money to buy five bushels from him. The theft option looks pretty good. But if the knight anticipates that the state will fine him six bushels for the theft, he’d be left with only four, so he’s better off with honest toil. Not only do the Leviathan’s incentives make commerce more attractive, but commerce makes the job of the Leviathan easier. If the honest alternative of buying the grain hadn’t been available, the state would have had to threaten to squeeze ten bushels out of the knight to deter him from plundering, which is harder to enforce than squeezing five bushels out of him. Of course, in reality the state’s sanctions may be the threat of physical punishment rather than a fine, but the principle is the same: it’s easier to deter people from crime if the lawful alternative is more appealing. The two civilizing forces, then, reinforce each other, and Elias considered them to be part of a single process. The chungangization of state control and its monopolization of violence, the growth of craft guilds and bureaucracies, the replacement of barter with money, the development of technology, the enhancement of trade, the growing webs of dependency among far-flung individuals, all fit into an organic whole.",
-      "passage_sentences": [
-        "위 글에서 설명하는 “Leviathan”의 역할과 가장 관계가 적은 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -998,10 +969,8 @@
     },
     {
       "number": 34,
-      "instruction": ". 아래 지문을 읽고 문제에 답하시오. The two triggers of the Civilizing Process—the Leviathan and gentle commerce—are related. The positive-sum cooperation of commerce flourishes best inside a big tent presided over by a Leviathan. Not only is a state well suited to provide the public goods that serve as infrastructure for economic cooperation, such as money and 6 page roads, but it can put a thumb on the scale on which players weigh the relative payoffs of raiding and trading. Suppose a knight can either plunder ten bushels of grain from his neighbor or, by expending the same amount of time and energy, raise the money to buy five bushels from him. The theft option looks pretty good. But if the knight anticipates that the state will fine him six bushels for the theft, he’d be left with only four, so he’s better off with honest toil. Not only do the Leviathan’s incentives make commerce more attractive, but commerce makes the job of the Leviathan easier. If the honest alternative of buying the grain hadn’t been available, the state would have had to threaten to squeeze ten bushels out of the knight to deter him from plundering, which is harder to enforce than squeezing five bushels out of him. Of course, in reality the state’s sanctions may be the threat of physical punishment rather than a fine, but the principle is the same: it’s easier to deter people from crime if the lawful alternative is more appealing. The two civilizing forces, then, reinforce each other, and Elias considered them to be part of a single process. The chungangization of state control and its monopolization of violence, the growth of craft guilds and bureaucracies, the replacement of barter with money, the development of technology, the enhancement of trade, the growing webs of dependency among far-flung individuals, all fit into an organic whole.",
-      "passage_sentences": [
-        "위 글에서 설명하는 “Leviathan”과 “gentle commerce”의 관계를 가장 잘 설명하는 단어는?"
-      ],
+      "instruction": ". 아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1025,10 +994,8 @@
     },
     {
       "number": 35,
-      "instruction": ". 아래 지문을 읽고 질문에 답하시오. Twenty-five centuries ago, the Greeks seem to have realized this. Because as Greek tragedy evolved, it developed a mechanism for increasing our self-efficacy—a mechanism that’s precisely identified by Aristotle in the Poetics. (A) This is a highly intricate structure for a story. It requires the storyteller to construct a way for trauma to strike a character without the character realizing it; hence 2023.",
-      "passage_sentences": [
-        "위 (A)-(D) 문단들의 순서가 논리적으로 올바르게 배열된 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 질문에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1052,10 +1019,8 @@
     },
     {
       "number": 36,
-      "instruction": ". 아래 지문을 읽고 질문에 답하시오. Twenty-five centuries ago, the Greeks seem to have realized this. Because as Greek tragedy evolved, it developed a mechanism for increasing our self-efficacy—a mechanism that’s precisely identified by Aristotle in the Poetics. (A) This is a highly intricate structure for a story. It requires the storyteller to construct a way for trauma to strike a character without the character realizing it; hence 2023.",
-      "passage_sentences": [
-        "문맥상 밑줄 친 primes의 의미와 가장 가까운 단어는?"
-      ],
+      "instruction": ". 아래 지문을 읽고 질문에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1079,10 +1044,8 @@
     },
     {
       "number": 37,
-      "instruction": ". 아래 지문을 읽고 질문에 답하시오. In this book, we defìne “Asianisms” as discursive constructs of Asia and their related political, cultural and social practices. As the discursive construction of Asia is a highly (A)_______ fìeld, we feel a need to somewhat broaden the historical meaning of Asianisms. We refer to Asianisms as a concept that encompasses processes of entanglement as well as differentiation, and we apply it to integration and (B)_________. We use the term in the plural in order to capture the whole spectrum of discursive constructs as well as practices. These discourses and their related practices may have originated in Asia, but they can also be traced back to Europe or North America. As several of the chapters reveal, Asianist discourses and practices were also invented in the West, where they circulated as distinct forms of knowledge about Asia. At times, these western-produced Asianisms were imported to Asia or constituted themselves as products of the interaction of non-Asian and Asian actors. Asianisms relate to pan-Asianism, but they go beyond the term and meaning，as they draw upon the plurality, diversity and inconsistency of intra-, trans- and extraregional conceptions of Asia. Asianisms can not only be detected in processes of integration; they can also relate to moments of rivalry, competition or exclusion within and between political entities.",
-      "passage_sentences": [
-        "(A)와 (B)에 들어갈 가장 적절한 표현으로 구성된 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 질문에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1106,10 +1069,8 @@
     },
     {
       "number": 38,
-      "instruction": ". 아래 지문을 읽고 질문에 답하시오. In this book, we defìne “Asianisms” as discursive constructs of Asia and their related political, cultural and social practices. As the discursive construction of Asia is a highly (A)_______ fìeld, we feel a need to somewhat broaden the historical meaning of Asianisms. We refer to Asianisms as a concept that encompasses processes of entanglement as well as differentiation, and we apply it to integration and (B)_________. We use the term in the plural in order to capture the whole spectrum of discursive constructs as well as practices. These discourses and their related practices may have originated in Asia, but they can also be traced back to Europe or North America. As several of the chapters reveal, Asianist discourses and practices were also invented in the West, where they circulated as distinct forms of knowledge about Asia. At times, these western-produced Asianisms were imported to Asia or constituted themselves as products of the interaction of non-Asian and Asian actors. Asianisms relate to pan-Asianism, but they go beyond the term and meaning，as they draw upon the plurality, diversity and inconsistency of intra-, trans- and extraregional conceptions of Asia. Asianisms can not only be detected in processes of integration; they can also relate to moments of rivalry, competition or exclusion within and between political entities.",
-      "passage_sentences": [
-        "위 글의 내용과 가장 거리가 먼 것은?"
-      ],
+      "instruction": ". 아래 지문을 읽고 질문에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1133,10 +1094,8 @@
     },
     {
       "number": 39,
-      "instruction": ". 다음 연설문을 읽고 질문에 답하시오. It is now our generation’s task to carry on what those pioneers began. For our journey is not complete until our 2023.",
-      "passage_sentences": [
-        "위 글의 흐름상 빈칸에 들어가기에 가장 적절한 것은?"
-      ],
+      "instruction": ". 다음 연설문을 읽고 질문에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1160,10 +1119,8 @@
     },
     {
       "number": 40,
-      "instruction": ". 다음 연설문을 읽고 질문에 답하시오. It is now our generation’s task to carry on what those pioneers began. For our journey is not complete until our 2023.",
-      "passage_sentences": [
-        "위 글에서 화자의 입장과 가장 거리가 먼 것은?"
-      ],
+      "instruction": ". 다음 연설문을 읽고 질문에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {

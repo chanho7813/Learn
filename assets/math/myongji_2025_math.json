@@ -4,109 +4,123 @@
   "year": 2025,
   "subject": "math",
   "subject_name": "수학",
-  "source_text_file": "myongji_2025_math_extracted_complete.txt",
+  "source_pdf": "명지_25_수학.pdf",
   "question_count": 25,
   "questions": [
     {
       "number": 1,
       "points": "2점",
-      "stem": "매개방정식 \\(x=1+t^2,\\;y=2-t^3\\)에 대하여 \\(t=-1\\)일 때, \\(\\frac{dy}{dx}\\)의 값은?",
+      "stem": "매개방정식 $x=1+t^2,\\;y=2-t^3$에 대하여 $t=-1$일 때, $\\frac{dy}{dx}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{1}{2}\\)"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(1\\)"
+          "text": "$1$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{3}{2}\\)"
+          "text": "$\\frac{3}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(2\\)"
+          "text": "$2$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{5}{2}\\)"
+          "text": "$\\frac{5}{2}$"
         }
       ]
     },
     {
       "number": 2,
       "points": "2점",
-      "stem": "함수 \\(f(x)=1-\\frac{1}{x}+\\frac{1}{x^2}\\;(x\\neq0)\\)은 \\(x=a\\)에서 극소이고, 그 그래프의 변곡점의 \\(x\\)좌표는 \\(b\\)이다. \\(a+b\\)의 값은?",
+      "stem": "함수 $f(x)=1-\\frac{1}{x}+\\frac{1}{x^2}\\;(x\\neq0)$은 $x=a$에서 극소이고, 그 그래프의 변곡점의 $x$좌표는 $b$이다. $a+b$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(1\\)"
+          "text": "$1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(2\\)"
+          "text": "$2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(3\\)"
+          "text": "$3$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(4\\)"
+          "text": "$4$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(5\\)"
+          "text": "$5$"
         }
       ]
     },
     {
       "number": 3,
       "points": "3점",
-      "stem": "그림과 같이 실수 \\(a\\)가 \\(0<a<2\\)일 때, 포물선 \\(y=(x-2)^2\\) 위의 점 \\((a,(a-2)^2)\\)에서의 접선과 포물선 및 \\(x\\)축과 \\(y\\)축으로 둘러싸인 부분의 넓이를 \\(S(a)\\)라 하자. \\(S(a)\\)의 값이 최소가 되도록 하는 \\(a\\)의 값은?",
+      "stem": "그림과 같이 실수 $a$가 $0<a<2$일 때, 포물선 $y=(x-2)^2$ 위의 점 $(a,(a-2)^2)$에서의 접선과 포물선 및 $x$축과 $y$축으로 둘러싸인 부분의 넓이를 $S(a)$라 하자. $S(a)$의 값이 최소가 되도록 하는 $a$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{1}{6}\\)"
+          "text": "$\\frac{1}{6}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{1}{3}\\)"
+          "text": "$\\frac{1}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{1}{2}\\)"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{2}{3}\\)"
+          "text": "$\\frac{2}{3}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{5}{6}\\)"
+          "text": "$\\frac{5}{6}$"
         }
       ]
     },
     {
       "number": 4,
       "points": "3점",
-      "stem": "<보기>에서 수렴하는 급수만을 있는 대로 고른 것은?\n<보기>\nㄱ. \\(\\sum_{n=2}^{\\infty}(-1)^n\\frac{\\sqrt{n}}{\\ln n}\\)\nㄴ. \\(\\sum_{n=1}^{\\infty}\\frac{(n+1)4^n}{3^{2n+1}}\\)\nㄷ. \\(\\sum_{n=1}^{\\infty}\\left(\\frac{2n+5}{3n+4}\\right)^n\\)",
+      "stem": "<보기>에서 수렴하는 급수만을 있는 대로 고른 것은?",
+      "statement_box": [
+        {
+          "label": "ㄱ",
+          "text": "$\\sum_{n=2}^{\\infty}(-1)^n\\frac{\\sqrt{n}}{\\ln n}$"
+        },
+        {
+          "label": "ㄴ",
+          "text": "$\\sum_{n=1}^{\\infty}\\frac{(n+1)4^n}{3^{2n+1}}$"
+        },
+        {
+          "label": "ㄷ",
+          "text": "$\\sum_{n=1}^{\\infty}\\left(\\frac{2n+5}{3n+4}\\right)^n$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
@@ -138,423 +152,449 @@
     {
       "number": 5,
       "points": "3점",
-      "stem": "두 벡터 \\(\\vec u=\\langle 1,2,\\sqrt{3}\\rangle\\), \\(\\vec v=\\langle a,0,b\\rangle\\)가 \\(|\\vec u\\times\\vec v|=|\\vec u||\\vec v|\\), \\(|\\vec u+\\vec v|^2=|\\vec u|^2+1\\)을 만족시킬 때, \\(\\frac{b^2}{a^2}\\)의 값은?",
+      "stem": "두 벡터 $\\vec u=\\langle 1,2,\\sqrt{3}\\rangle$, $\\vec v=\\langle a,0,b\\rangle$가 $|\\vec u\\times\\vec v|=|\\vec u||\\vec v|$, $|\\vec u+\\vec v|^2=|\\vec u|^2+1$을 만족시킬 때, $\\frac{b^2}{a^2}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{1}{6}\\)"
+          "text": "$\\frac{1}{6}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{1}{3}\\)"
+          "text": "$\\frac{1}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{1}{2}\\)"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{2}{3}\\)"
+          "text": "$\\frac{2}{3}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{5}{6}\\)"
+          "text": "$\\frac{5}{6}$"
         }
       ]
     },
     {
       "number": 6,
       "points": "3점",
-      "stem": "삼변수함수 \\(f(x,y,z)=x\\tan^{-1}y+z\\sin(xy)\\)에 대하여 점 \\(P\\left(\\frac{\\pi}{2},1,1\\right)\\)에서 \\(\\vec v=\\langle 2,-2,1\\rangle\\) 방향으로의 \\(f\\)의 변화율은?",
+      "stem": "삼변수함수 $f(x,y,z)=x\\tan^{-1}y+z\\sin(xy)$에 대하여 점 $P\\left(\\frac{\\pi}{2},1,1\\right)$에서 $\\vec v=\\langle 2,-2,1\\rangle$ 방향으로의 $f$의 변화율은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(-\\frac{1}{3}\\)"
+          "text": "$-\\frac{1}{3}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(-\\frac{1}{4}\\)"
+          "text": "$-\\frac{1}{4}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(0\\)"
+          "text": "$0$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{1}{4}\\)"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{1}{3}\\)"
+          "text": "$\\frac{1}{3}$"
         }
       ]
     },
     {
       "number": 7,
       "points": "3점",
-      "stem": "그림과 같이 두 직선도로가 한 지점 \\(O\\)에서 만나고, 점 \\(O\\)에서 두 도로가 이루는 각의 크기는 \\(60^\\circ\\)이다. 두 자동차 \\(A,B\\)가 점 \\(O\\)에서 동시에 출발하여 두 도로를 따라 달리고 있다. 자동차 \\(A\\)의 속도는 \\(80\\mathrm{km/h}\\)이고 자동차 \\(B\\)의 속도는 \\(60\\mathrm{km/h}\\)일 때, \\(30\\)분 후 두 자동차 \\(A,B\\) 사이의 거리의 변화율은? (단, 변화율의 단위는 \\(\\mathrm{km/h}\\)이고, 도로의 폭은 무시한다.)",
+      "stem": "그림과 같이 두 직선도로가 한 지점 $O$에서 만나고, 점 $O$에서 두 도로가 이루는 각의 크기는 $60^\\circ$이다. 두 자동차 $A,B$가 점 $O$에서 동시에 출발하여 두 도로를 따라 달리고 있다. 자동차 $A$의 속도는 $80\\mathrm{km/h}$이고 자동차 $B$의 속도는 $60\\mathrm{km/h}$일 때, $30$분 후 두 자동차 $A,B$ 사이의 거리의 변화율은? (단, 변화율의 단위는 $\\mathrm{km/h}$이고, 도로의 폭은 무시한다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(20\\sqrt{13}\\)"
+          "text": "$20\\sqrt{13}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(25\\sqrt{13}\\)"
+          "text": "$25\\sqrt{13}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(30\\sqrt{13}\\)"
+          "text": "$30\\sqrt{13}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(35\\sqrt{13}\\)"
+          "text": "$35\\sqrt{13}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(40\\sqrt{13}\\)"
+          "text": "$40\\sqrt{13}$"
         }
       ]
     },
     {
       "number": 8,
       "points": "3점",
-      "stem": "\\(x>0\\)에서 미분가능한 함수 \\(f(x)\\)가 다음 조건을 만족시킨다.\n(가) \\(f(1)=-1\\)\n(나) \\(x^2f(x)+\\{f(x)\\}^4=0\\)\n함수 \\(f(x)\\)의 \\(x=1\\)에서의 선형화(일차근사식)을 \\(L(x)\\)라 할 때, \\(L(1.1)\\)의 값은?",
+      "stem": "$x>0$에서 미분가능한 함수 $f(x)$가 다음 조건을 만족시킨다.",
+      "statement_box_title": "",
+      "statement_box": [
+        {
+          "label": "(가)",
+          "text": "$f(1)=-1$"
+        },
+        {
+          "label": "(나)",
+          "text": "$x^2f(x)+\\{f(x)\\}^4=0$"
+        }
+      ],
+      "stem_after_box": "함수 $f(x)$의 $x=1$에서의 선형화(일차근사식)을 $L(x)$라 할 때, $L(1.1)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(-\\frac{16}{15}\\)"
+          "text": "$-\\frac{16}{15}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(-\\frac{11}{10}\\)"
+          "text": "$-\\frac{11}{10}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(-\\frac{17}{15}\\)"
+          "text": "$-\\frac{17}{15}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(-\\frac{7}{6}\\)"
+          "text": "$-\\frac{7}{6}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(-\\frac{6}{5}\\)"
+          "text": "$-\\frac{6}{5}$"
         }
       ]
     },
     {
       "number": 9,
       "points": "4점",
-      "stem": "두 벡터 \\(\\vec u=\\langle a,b,c\\rangle\\), \\(\\vec v=\\langle 2,\\sqrt{2},1\\rangle\\)에 대하여 \\(\\vec u\\)의 방향코사인을 성분으로 하는 벡터가 \\(\\left\\langle\\frac{1}{2},\\frac{\\sqrt{2}}{2},t\\right\\rangle\\)이고 \\(\\vec u\\cdot\\vec v=3\\sqrt{2}\\)일 때, \\(a^2+b^2+c^2\\)의 값은? (단, \\(t<0\\))",
+      "stem": "두 벡터 $\\vec u=\\langle a,b,c\\rangle$, $\\vec v=\\langle 2,\\sqrt{2},1\\rangle$에 대하여 $\\vec u$의 방향코사인을 성분으로 하는 벡터가 $\\left\\langle\\frac{1}{2},\\frac{\\sqrt{2}}{2},t\\right\\rangle$이고 $\\vec u\\cdot\\vec v=3\\sqrt{2}$일 때, $a^2+b^2+c^2$의 값은? (단, $t<0$)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(6\\)"
+          "text": "$6$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(8\\)"
+          "text": "$8$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(10\\)"
+          "text": "$10$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(12\\)"
+          "text": "$12$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(14\\)"
+          "text": "$14$"
         }
       ]
     },
     {
       "number": 10,
       "points": "4점",
-      "stem": "양의 정수 \\(k\\)에 대하여 \\(f(k)=\\int_1^e x^{k-1}\\ln x\\,dx\\)라 할 때, \\(16f(4)-9f(3)\\)의 값은?",
+      "stem": "양의 정수 $k$에 대하여 $f(k)=\\int_1^e x^{k-1}\\ln x\\,dx$라 할 때, $16f(4)-9f(3)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(e^3(e-2)\\)"
+          "text": "$e^3(e-2)$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(2e^3(e-1)\\)"
+          "text": "$2e^3(e-1)$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(e^3(3e-2)\\)"
+          "text": "$e^3(3e-2)$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(2e^4(e-1)\\)"
+          "text": "$2e^4(e-1)$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(e^4(3e-2)\\)"
+          "text": "$e^4(3e-2)$"
         }
       ]
     },
     {
       "number": 11,
       "points": "4점",
-      "stem": "두 곡선 \\(y=x^2-2x+2\\)와 \\(y=2x-1\\)로 둘러싸인 영역을 \\(y\\)축으로 회전시켜 얻은 입체의 부피는?",
+      "stem": "두 곡선 $y=x^2-2x+2$와 $y=2x-1$로 둘러싸인 영역을 $y$축으로 회전시켜 얻은 입체의 부피는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{10}{3}\\pi\\)"
+          "text": "$\\frac{10}{3}\\pi$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(4\\pi\\)"
+          "text": "$4\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{14}{3}\\pi\\)"
+          "text": "$\\frac{14}{3}\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{16}{3}\\pi\\)"
+          "text": "$\\frac{16}{3}\\pi$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(6\\pi\\)"
+          "text": "$6\\pi$"
         }
       ]
     },
     {
       "number": 12,
       "points": "4점",
-      "stem": "\\(0<x<\\frac{\\pi}{2}\\)에서 정의된 두 함수 \\(\\tan x,\\cot x\\)의 역함수를 각각 \\(\\tan^{-1}x,\\cot^{-1}x\\)라 할 때, \\(\\sum_{n=1}^{\\infty}\\left(\\tan^{-1}(n+1)-\\cot^{-1}(n+1)-\\tan^{-1}n+\\cot^{-1}n\\right)\\)의 값은?",
+      "stem": "$0<x<\\frac{\\pi}{2}$에서 정의된 두 함수 $\\tan x,\\cot x$의 역함수를 각각 $\\tan^{-1}x,\\cot^{-1}x$라 할 때, $\\sum_{n=1}^{\\infty}\\left(\\tan^{-1}(n+1)-\\cot^{-1}(n+1)-\\tan^{-1}n+\\cot^{-1}n\\right)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(0\\)"
+          "text": "$0$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{\\pi}{4}\\)"
+          "text": "$\\frac{\\pi}{4}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{\\pi}{2}\\)"
+          "text": "$\\frac{\\pi}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{3\\pi}{4}\\)"
+          "text": "$\\frac{3\\pi}{4}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\pi\\)\n\n【13~14】 좌표평면에서 두 극곡선 \\(C_1:r=2\\cos2\\theta\\)와 \\(C_2:r=1\\)에 대하여 13번과 14번의 두 물음에 답하시오."
+          "text": "$\\pi$"
         }
       ]
     },
     {
       "number": 13,
       "points": "4점",
-      "stem": "곡선 \\(C_1\\)과 곡선 \\(C_2\\)가 제1사분면에서 만나는 서로 다른 두 점을 각각 \\(A,B\\)라 할 때, 부채꼴 \\(OAB\\)의 넓이는? (단, \\(O\\)는 원점이다.)",
+      "stem": "좌표평면에서 두 극곡선 $C_1:r=2\\cos2\\theta$와 $C_2:r=1$에 대하여, 곡선 $C_1$과 곡선 $C_2$가 제1사분면에서 만나는 서로 다른 두 점을 각각 $A,B$라 할 때, 부채꼴 $OAB$의 넓이는? (단, $O$는 원점이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{\\pi}{12}\\)"
+          "text": "$\\frac{\\pi}{12}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{\\pi}{10}\\)"
+          "text": "$\\frac{\\pi}{10}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{\\pi}{8}\\)"
+          "text": "$\\frac{\\pi}{8}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{\\pi}{6}\\)"
+          "text": "$\\frac{\\pi}{6}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{\\pi}{4}\\)"
+          "text": "$\\frac{\\pi}{4}$"
         }
       ]
     },
     {
       "number": 14,
       "points": "4점",
-      "stem": "곡선 \\(C_1\\)의 외부와 곡선 \\(C_2\\)의 내부에 놓여 있는 공통 영역의 넓이는?",
+      "stem": "좌표평면에서 두 극곡선 $C_1:r=2\\cos2\\theta$와 $C_2:r=1$에 대하여, 곡선 $C_1$의 외부와 곡선 $C_2$의 내부에 놓여 있는 공통 영역의 넓이는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{\\sqrt{3}}{2}-\\frac{\\pi}{6}\\)"
+          "text": "$\\frac{\\sqrt{3}}{2}-\\frac{\\pi}{6}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\sqrt{3}-\\frac{\\pi}{3}\\)"
+          "text": "$\\sqrt{3}-\\frac{\\pi}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{3\\sqrt{3}}{2}-\\frac{\\pi}{2}\\)"
+          "text": "$\\frac{3\\sqrt{3}}{2}-\\frac{\\pi}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(2\\sqrt{3}-\\frac{2\\pi}{3}\\)"
+          "text": "$2\\sqrt{3}-\\frac{2\\pi}{3}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{5\\sqrt{3}}{2}-\\frac{5\\pi}{6}\\)"
+          "text": "$\\frac{5\\sqrt{3}}{2}-\\frac{5\\pi}{6}$"
         }
       ]
     },
     {
       "number": 15,
       "points": "4점",
-      "stem": "함수 \\(f(t)=\\int_{3t}^{4t}e^{-s^2}\\,ds\\)에 대하여 \\(\\lim_{x\\to0}\\frac{\\int_x^{2x}f(t)\\,dt}{1-\\cos x}\\)의 값은?",
+      "stem": "함수 $f(t)=\\int_{3t}^{4t}e^{-s^2}\\,ds$에 대하여 $\\lim_{x\\to0}\\frac{\\int_x^{2x}f(t)\\,dt}{1-\\cos x}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(1\\)"
+          "text": "$1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(2\\)"
+          "text": "$2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(3\\)"
+          "text": "$3$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(4\\)"
+          "text": "$4$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(5\\)"
+          "text": "$5$"
         }
       ]
     },
     {
       "number": 16,
       "points": "5점",
-      "stem": "\\(\\lim_{n\\to\\infty}\\int_0^{1/2}(x+x^3+\\cdots+x^{2n+1})\\,dx\\)의 값은?",
+      "stem": "$\\lim_{n\\to\\infty}\\int_0^{1/2}(x+x^3+\\cdots+x^{2n+1})\\,dx$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\ln(2\\sqrt{3})\\)"
+          "text": "$\\ln(2\\sqrt{3})$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\ln\\frac{5\\sqrt{3}}{3}\\)"
+          "text": "$\\ln\\frac{5\\sqrt{3}}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\ln\\frac{4\\sqrt{3}}{3}\\)"
+          "text": "$\\ln\\frac{4\\sqrt{3}}{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\ln\\sqrt{3}\\)"
+          "text": "$\\ln\\sqrt{3}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\ln\\frac{2\\sqrt{3}}{3}\\)"
+          "text": "$\\ln\\frac{2\\sqrt{3}}{3}$"
         }
       ]
     },
     {
       "number": 17,
       "points": "5점",
-      "stem": "함수 \\(f:\\mathbb{R}\\to\\mathbb{R}\\)과 \\(g:\\mathbb{R}^2\\to\\mathbb{R}\\)이 \\(f'(0)=1\\), \\(\\frac{\\partial^2g}{\\partial y\\partial x}(e,0)=\\frac{1}{e}\\)를 만족시킨다. 이변수함수 \\(h(x,y)=f\\left(\\frac{y}{x}\\right)+g(e^x,\\sin y)\\)에 대하여 \\(\\frac{\\partial^2h}{\\partial y\\partial x}(1,0)\\)의 값은? (단, \\(f''(x)\\)와 \\(g(x,y)\\)의 이계편도함수가 존재한다.)",
+      "stem": "함수 $f:\\mathbb{R}\\to\\mathbb{R}$과 $g:\\mathbb{R}^2\\to\\mathbb{R}$이 $f'(0)=1$, $\\frac{\\partial^2g}{\\partial y\\partial x}(e,0)=\\frac{1}{e}$를 만족시킨다. 이변수함수 $h(x,y)=f\\left(\\frac{y}{x}\\right)+g(e^x,\\sin y)$에 대하여 $\\frac{\\partial^2h}{\\partial y\\partial x}(1,0)$의 값은? (단, $f''(x)$와 $g(x,y)$의 이계편도함수가 존재한다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(0\\)"
+          "text": "$0$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{1}{e}\\)"
+          "text": "$\\frac{1}{e}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{2}{e}\\)"
+          "text": "$\\frac{2}{e}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(1\\)"
+          "text": "$1$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(e\\)"
+          "text": "$e$"
         }
       ]
     },
     {
       "number": 18,
       "points": "5점",
-      "stem": "<보기>에서 옳은 것만을 있는 대로 고른 것은?\n<보기>\nㄱ. \\(\\lim_{x\\to\\pi^-}\\frac{\\cos x}{1-\\sin x}=0\\)\nㄴ. \\(\\lim_{x\\to0}\\frac{\\tan x-x}{x^2}=0\\)\nㄷ. \\(\\lim_{x\\to1^+}\\left(\\frac{1}{\\ln x}-\\frac{1}{x-1}\\right)=\\frac{1}{2}\\)",
+      "stem": "<보기>에서 옳은 것만을 있는 대로 고른 것은?",
+      "statement_box": [
+        {
+          "label": "ㄱ",
+          "text": "$\\lim_{x\\to\\pi^-}\\frac{\\cos x}{1-\\sin x}=0$"
+        },
+        {
+          "label": "ㄴ",
+          "text": "$\\lim_{x\\to0}\\frac{\\tan x-x}{x^2}=0$"
+        },
+        {
+          "label": "ㄷ",
+          "text": "$\\lim_{x\\to1^+}\\left(\\frac{1}{\\ln x}-\\frac{1}{x-1}\\right)=\\frac{1}{2}$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
@@ -586,135 +626,164 @@
     {
       "number": 19,
       "points": "5점",
-      "stem": "함수 \\(f(x)=\\int_0^x\\sin(\\pi t^2)\\,dt\\)의 매클로린(Maclaurin) 급수가 \\(\\sum_{n=0}^{\\infty}a_nx^n\\)일 때, 급수 \\(\\sum_{n=1}^{\\infty}\\frac{a_n}{2^n}\\)의 값은?",
+      "stem": "함수 $f(x)=\\int_0^x\\sin(\\pi t^2)\\,dt$의 매클로린(Maclaurin) 급수가 $\\sum_{n=0}^{\\infty}a_nx^n$일 때, 급수 $\\sum_{n=1}^{\\infty}\\frac{n}{2^n}a_n$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\sqrt{2}\\)"
+          "text": "$\\sqrt{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
+          "text": "$\\frac{\\sqrt{2}}{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{\\sqrt{2}}{3}\\)"
+          "text": "$\\frac{\\sqrt{2}}{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{\\sqrt{2}}{4}\\)"
+          "text": "$\\frac{\\sqrt{2}}{4}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{\\sqrt{2}}{5}\\)"
+          "text": "$\\frac{\\sqrt{2}}{5}$"
         }
       ]
     },
     {
       "number": 20,
       "points": "5점",
-      "stem": "곡선 \\(\\vec r(t)=\\langle a\\cos t,a\\sin t,2t\\rangle\\)의 단위접선벡터 \\(\\vec T(t)\\)가 \\(\\frac{1}{|\\vec v|}\\left|\\frac{d\\vec T}{dt}\\right|=\\frac{1}{4}\\)를 만족시킬 때, \\(t=0\\)에서 \\(t=5\\)까지 곡선 \\(\\vec r(t)\\)의 길이는? (단, \\(a>0\\)이고 \\(\\vec v\\)는 \\(\\vec r\\)의 속도벡터를 나타낸다.)",
+      "stem": "곡선 $\\vec r(t)=\\langle a\\cos t,a\\sin t,2t\\rangle$의 단위접선벡터 $\\vec T(t)$가 $\\frac{1}{|\\vec v|}\\left|\\frac{d\\vec T}{dt}\\right|=\\frac{1}{4}$를 만족시킬 때, $t=0$에서 $t=5$까지 곡선 $\\vec r(t)$의 길이는? (단, $a>0$이고 $\\vec v$는 $\\vec r$의 속도벡터를 나타낸다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(5\\sqrt{5}\\)"
+          "text": "$5\\sqrt{5}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(10\\sqrt{2}\\)"
+          "text": "$10\\sqrt{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(5\\sqrt{13}\\)"
+          "text": "$5\\sqrt{13}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(10\\sqrt{5}\\)"
+          "text": "$10\\sqrt{5}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(10\\sqrt{13}\\)"
+          "text": "$10\\sqrt{13}$"
         }
       ]
     },
     {
       "number": 21,
       "points": "5점",
-      "stem": "좌표평면에서 \\(f(\\theta)=1+\\sin\\theta\\)에 대하여 \\(\\theta=\\frac{\\pi}{3}\\)일 때 극곡선 \\(r=f(\\theta)\\) 위의 점을 \\(P\\)라 하자. 점 \\(P\\)에서 극곡선 \\(r=f(\\theta)\\)에 접하는 직선이 \\(x\\)축과 만나는 점을 \\(Q\\)라 할 때, \\(\\angle OPQ\\)의 크기는? (단, \\(O\\)는 원점이다.)",
+      "stem": "좌표평면에서 $f(\\theta)=1+\\sin\\theta$에 대하여 $\\theta=\\frac{\\pi}{3}$일 때 극곡선 $r=f(\\theta)$ 위의 점을 $P$라 하자. 점 $P$에서 극곡선 $r=f(\\theta)$에 접하는 직선이 $x$축과 만나는 점을 $Q$라 할 때, $\\angle OPQ$의 크기는? (단, $O$는 원점이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{\\pi}{4}\\)"
+          "text": "$\\frac{\\pi}{4}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{\\pi}{3}\\)"
+          "text": "$\\frac{\\pi}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{5\\pi}{12}\\)"
+          "text": "$\\frac{5\\pi}{12}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{\\pi}{2}\\)"
+          "text": "$\\frac{\\pi}{2}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{7\\pi}{12}\\)"
+          "text": "$\\frac{7\\pi}{12}$"
         }
       ]
     },
     {
       "number": 22,
       "points": "5점",
-      "stem": "행렬 \\(A=\\begin{pmatrix}-1&-10&1\\\\2&7&-1\\\\2&2&0\\end{pmatrix}\\)의 고윳값 \\(\\lambda\\)와 이에 대응하는 고유벡터 \\(\\langle a,b,c\\rangle\\)가 다음 조건을 만족시킬 때, \\(ab+bc+ca\\)의 값은?\n(가) \\(\\lambda\\)는 실수이다.\n(나) \\(a^2+b^2+c^2=1\\)",
+      "stem": "행렬 $A=\\begin{pmatrix}-1&-10&1\\\\2&7&-1\\\\2&2&0\\end{pmatrix}$의 고윳값 $\\lambda$와 이에 대응하는 고유벡터 $\\langle a,b,c\\rangle$가 다음 조건을 만족시킬 때, $ab+bc+ca$의 값은?",
+      "statement_box_title": "",
+      "statement_box": [
+        {
+          "label": "(가)",
+          "text": "$\\lambda$는 실수이다."
+        },
+        {
+          "label": "(나)",
+          "text": "$a^2+b^2+c^2=1$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{2}{5}\\)"
+          "text": "$\\frac{2}{5}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{4}{5}\\)"
+          "text": "$\\frac{4}{5}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{6}{5}\\)"
+          "text": "$\\frac{6}{5}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{8}{5}\\)"
+          "text": "$\\frac{8}{5}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(2\\)"
+          "text": "$2$"
         }
       ]
     },
     {
       "number": 23,
       "points": "5점",
-      "stem": "<보기>에서 수렴하는 것만을 있는 대로 고른 것은?\n<보기>\nㄱ. \\(\\int_{-2}^{1}\\frac{1}{x^2}\\,dx\\)\nㄴ. \\(\\int_0^1\\frac{\\ln x}{\\sqrt{x}}\\,dx\\)\nㄷ. \\(\\int_1^{\\infty}\\frac{1+e^{-x}}{x}\\,dx\\)\nㄹ. \\(\\int_0^{\\infty}\\frac{e^x}{e^{2x}+4}\\,dx\\)",
+      "stem": "<보기>에서 수렴하는 것만을 있는 대로 고른 것은?",
+      "statement_box": [
+        {
+          "label": "ㄱ",
+          "text": "$\\int_{-2}^{2}\\frac{1}{x^2}\\,dx$"
+        },
+        {
+          "label": "ㄴ",
+          "text": "$\\int_0^1\\frac{\\ln x}{\\sqrt{x}}\\,dx$"
+        },
+        {
+          "label": "ㄷ",
+          "text": "$\\int_1^{\\infty}\\frac{1+e^{-x}}{x}\\,dx$"
+        },
+        {
+          "label": "ㄹ",
+          "text": "$\\int_0^{\\infty}\\frac{e^x}{e^{2x}+4}\\,dx$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
@@ -746,64 +815,64 @@
     {
       "number": 24,
       "points": "5점",
-      "stem": "타원판 \\(\\{(x,y)\\mid x^2+4y^2\\leq8\\}\\) 위에서 함수 \\(f(x,y)=x^2+2xy+4y^2\\)의 최댓값은?",
+      "stem": "타원판 $\\{(x,y)\\mid x^2+4y^2\\leq8\\}$ 위에서 함수 $f(x,y)=x^2+2xy+4y^2$의 최댓값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(10\\)"
+          "text": "$10$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(12\\)"
+          "text": "$12$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(14\\)"
+          "text": "$14$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(16\\)"
+          "text": "$16$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(18\\)"
+          "text": "$18$"
         }
       ]
     },
     {
       "number": 25,
       "points": "5점",
-      "stem": "\\(x\\geq0\\)에서 정의된 함수 \\(f(x)=\\begin{cases}x &(0\\leq x\\leq1)\\\\0 &(1<x)\\end{cases}\\)에 대하여 영역 \\(D=\\{(x,y)\\mid x\\geq0\\}\\)에서의 중적분 \\(\\iint_D f(x)f(x^2+y^2)\\,dA\\)의 값은?",
+      "stem": "$x\\geq0$에서 정의된 함수 $f(x)=\\begin{cases}x &(0\\leq x\\leq1)\\\\0 &(1<x)\\end{cases}$에 대하여 영역 $D=\\{(x,y)\\mid x\\geq0\\}$에서의 중적분 $\\iint_D f(x)f(x^2+y^2)\\,dA$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\(\\frac{1}{5}\\)"
+          "text": "$\\frac{1}{5}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\(\\frac{3}{10}\\)"
+          "text": "$\\frac{3}{10}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\(\\frac{2}{5}\\)"
+          "text": "$\\frac{2}{5}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\(\\frac{1}{2}\\)"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "⑤",
           "number": 5,
-          "text": "\\(\\frac{3}{5}\\)"
+          "text": "$\\frac{3}{5}$"
         }
       ]
     }

@@ -206,9 +206,7 @@
     {
       "number": 8,
       "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
-      "passage_sentences": [
-        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오."
-      ],
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -233,9 +231,7 @@
     {
       "number": 9,
       "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
-      "passage_sentences": [
-        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오."
-      ],
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -261,7 +257,8 @@
       "number": 10,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "For companies like FedEx, the optimization problem of efficiently routing holiday packages is so complicated that they often employ highly specializing software to find a solution. No error."
+        "For companies like FedEx, the optimization problem of efficiently routing holiday packages is so complicated that they often employ highly specializing software to find a solution.",
+        "No error."
       ],
       "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
       "choices": [
@@ -288,7 +285,8 @@
       "number": 11,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "This concept was developed in the 1970 by a group of Dutch women dissatisfied with the increasing importation of food and the decreasing number of farms and farmers in their communities. No error."
+        "This concept was developed in the 1970 by a group of Dutch women dissatisfied with the increasing importation of food and the decreasing number of farms and farmers in their communities.",
+        "No error."
       ],
       "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
       "choices": [
@@ -315,7 +313,8 @@
       "number": 12,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Lewis Rutherford was educated as a lawyer, and among his inventions was a micrometer for the measure of astronomical photographs. No error."
+        "Lewis Rutherford was educated as a lawyer, and among his inventions was a micrometer for the measure of astronomical photographs.",
+        "No error."
       ],
       "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
       "choices": [
@@ -1000,7 +999,8 @@
         "Mental institutions became frightening and depressing places in which the rights of patients were all but forgotten.",
         "These conditions continued until after World War II.",
         "At that time, new treatments were discovered for some major mental illnesses theretofore considered untreatable (penicillin for syphilis of the brain and insulin treatment for schizophrenia and depressions), and a succession of books, motion pictures, and newspaper exposés called attention to the plight of the mentally ill.",
-        "(B) Improvements were made, and Dr. David Vail’s Humane Practices Program became a beacon for today.",
+        "(B) Improvements were made, and Dr.",
+        "David Vail’s Humane Practices Program became a beacon for today.",
         "But changes were slow in coming until the early 1960s.",
         "At that time, the Civil Rights movement led lawyers to investigate America’s prisons, which were disproportionately populated by blacks, and they in turn followed prisoners into the only institutions that were worse than the prisons—the hospitals for the criminally insane.",
         "The prisons were filled with angry young men who, encouraged by legal support, were quick to demand their rights.",
@@ -1045,7 +1045,8 @@
         "Mental institutions became frightening and depressing places in which the rights of patients were all but forgotten.",
         "These conditions continued until after World War II.",
         "At that time, new treatments were discovered for some major mental illnesses theretofore considered untreatable (penicillin for syphilis of the brain and insulin treatment for schizophrenia and depressions), and a succession of books, motion pictures, and newspaper exposés called attention to the plight of the mentally ill.",
-        "(B) Improvements were made, and Dr. David Vail’s Humane Practices Program became a beacon for today.",
+        "(B) Improvements were made, and Dr.",
+        "David Vail’s Humane Practices Program became a beacon for today.",
         "But changes were slow in coming until the early 1960s.",
         "At that time, the Civil Rights movement led lawyers to investigate America’s prisons, which were disproportionately populated by blacks, and they in turn followed prisoners into the only institutions that were worse than the prisons—the hospitals for the criminally insane.",
         "The prisons were filled with angry young men who, encouraged by legal support, were quick to demand their rights.",

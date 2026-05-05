@@ -179,9 +179,7 @@
     {
       "number": 7,
       "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
-      "passage_sentences": [
-        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오."
-      ],
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -206,9 +204,7 @@
     {
       "number": 8,
       "instruction": "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.",
-      "passage_sentences": [
-        "다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오."
-      ],
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -234,7 +230,8 @@
       "number": 9,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Despite the success on the battlefield, his mental state had been deteriorating, which prompted some of his generals and advisers to challenge him. No error."
+        "Despite the success on the battlefield, his mental state had been deteriorating, which prompted some of his generals and advisers to challenge him.",
+        "No error."
       ],
       "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
       "choices": [
@@ -261,7 +258,8 @@
       "number": 10,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "The Depression curtailed regional development, but contrary to the experience of their urban counterparts elsewhere, the city exhibited patterns of demographic and economic growth throughout the 1930s. No error."
+        "The Depression curtailed regional development, but contrary to the experience of their urban counterparts elsewhere, the city exhibited patterns of demographic and economic growth throughout the 1930s.",
+        "No error."
       ],
       "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
       "choices": [
@@ -288,7 +286,8 @@
       "number": 11,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Reflexivity and the foregrounding of subjective experience may have become increasingly fashioning in the mainstream media as well as the blogosphere, but for the most part news journalism remains a bastion of the authoritative-sounding objective approach. No error."
+        "Reflexivity and the foregrounding of subjective experience may have become increasingly fashioning in the mainstream media as well as the blogosphere, but for the most part news journalism remains a bastion of the authoritative-sounding objective approach.",
+        "No error."
       ],
       "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
       "choices": [

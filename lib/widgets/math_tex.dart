@@ -30,6 +30,14 @@ class MathTex extends StatelessWidget {
             child: Math.tex(
               part.content,
               textStyle: TextStyle(fontSize: fontSize, color: textColor),
+              onErrorFallback: (_) => Text(
+                part.content,
+                style: TextStyle(
+                  fontSize: fontSize,
+                  height: height,
+                  color: textColor,
+                ),
+              ),
             ),
           );
         }
@@ -47,24 +55,56 @@ class MathTex extends StatelessWidget {
 
   static List<_Part> _parse(String input) {
     final parts = <_Part>[];
-    final regex = RegExp(r'\$\$(.+?)\$\$|\$(.+?)\$', dotAll: true);
-    int lastEnd = 0;
+    final delimiterRegex = RegExp(
+      r'\\\((.+?)\\\)|\\\[(.+?)\\\]|\$\$(.+?)\$\$|\$(.+?)\$',
+      dotAll: true,
+    );
 
-    for (final match in regex.allMatches(input)) {
-      if (match.start > lastEnd) {
-        final text = input.substring(lastEnd, match.start);
-        if (text.isNotEmpty) parts.add(_Part(text, false));
+    if (delimiterRegex.hasMatch(input)) {
+      int lastEnd = 0;
+      for (final match in delimiterRegex.allMatches(input)) {
+        if (match.start > lastEnd) {
+          final text = input.substring(lastEnd, match.start);
+          if (text.isNotEmpty) parts.add(_Part(text, false));
+        }
+        final latex = match.groups([1, 2, 3, 4]).whereType<String>().first;
+        parts.add(_Part(latex, true));
+        lastEnd = match.end;
       }
-      final latex = match.group(1) ?? match.group(2) ?? '';
-      parts.add(_Part(latex, true));
-      lastEnd = match.end;
-    }
+      if (lastEnd < input.length) {
+        parts.add(_Part(input.substring(lastEnd), false));
+      }
+    } else if (_hasLatexCommands(input)) {
+      final koreanRun = RegExp(r'[가-힣ㄱ-ㅣ][가-힣ㄱ-ㅣ\s,.\-?!:;()~·…“”]*');
+      int lastEnd = 0;
 
-    if (lastEnd < input.length) {
-      parts.add(_Part(input.substring(lastEnd), false));
+      for (final match in koreanRun.allMatches(input)) {
+        if (match.start > lastEnd) {
+          final mathPart = input.substring(lastEnd, match.start).trim();
+          if (mathPart.isNotEmpty) parts.add(_Part(mathPart, true));
+        }
+        final textPart = match.group(0)!.trim();
+        if (textPart.isNotEmpty) parts.add(_Part(' $textPart ', false));
+        lastEnd = match.end;
+      }
+
+      if (lastEnd < input.length) {
+        final mathPart = input.substring(lastEnd).trim();
+        if (mathPart.isNotEmpty) parts.add(_Part(mathPart, true));
+      }
+
+      if (parts.isEmpty) {
+        parts.add(_Part(input, true));
+      }
+    } else {
+      parts.add(_Part(input, false));
     }
 
     return parts;
+  }
+
+  static bool _hasLatexCommands(String text) {
+    return RegExp(r'\\[a-zA-Z]+').hasMatch(text);
   }
 }
 

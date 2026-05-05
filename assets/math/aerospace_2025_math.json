@@ -4,549 +4,580 @@
   "year": 2025,
   "subject": "math",
   "subject_name": "수학",
-  "source_pdf": "항공_25_영어+수학(1).pdf",
+  "source_pdf": "항공_25_영어+수학.pdf",
   "question_count": 20,
   "questions": [
     {
       "number": 1,
       "points": "3.8점",
-      "stem": "함수 y(x)가 미분방정식 x^{2}y′′ -2xy′ +2y=0에 대하여 조건 y(1)=1과 y′(1)=3을 만족할 때, y(2)의 값은? [3.8점]",
+      "stem": "함수 $y(x)$가 미분방정식 $x^2y''-2xy'+2y=0$에 대하여 조건 $y(1)=1$과 $y'(1)=3$을 만족할 때, $y(2)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "3"
+          "text": "$3$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "4"
+          "text": "$4$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "6"
+          "text": "$6$"
         }
       ]
     },
     {
       "number": 2,
       "points": "3.8점",
-      "stem": "함수 y(x)가 미분방정식 y′ =2xy^{2}에 대하여 조건 y(1)=\\frac 2 1을 만족할 때, y(3)의 값은? [3.8점]",
+      "stem": "함수 $y(x)$가 미분방정식 $y'=2xy^2$에 대하여 조건 $y(1)=\\frac{1}{2}$를 만족할 때, $y(3)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-\\frac 9 1"
+          "text": "$-\\frac{1}{9}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-\\frac 6 1"
+          "text": "$-\\frac{1}{6}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-\\frac 4 1"
+          "text": "$-\\frac{1}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-\\frac 2 1 수학"
+          "text": "$-\\frac{1}{2}$"
         }
       ]
     },
     {
       "number": 3,
       "points": "4.1점",
-      "stem": "다음 중 대각화가 불가능한 행렬은? [4.1점]",
+      "stem": "다음 중 대각화가 불가능한 행렬은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\begin{bmatrix} \\end{bmatrix} 1 2 4 1"
+          "text": "$\\begin{bmatrix}1&2\\\\4&1\\end{bmatrix}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\begin{bmatrix} \\end{bmatrix} 2 2 0 -3"
+          "text": "$\\begin{bmatrix}2&2\\\\0&-3\\end{bmatrix}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\begin{bmatrix} \\end{bmatrix} 2 -1 1 4"
+          "text": "$\\begin{bmatrix}2&-1\\\\1&4\\end{bmatrix}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\begin{bmatrix} \\end{bmatrix} 1 2 0 4"
+          "text": "$\\begin{bmatrix}1&2\\\\0&4\\end{bmatrix}$"
         }
       ]
     },
     {
       "number": 4,
       "points": "4.2점",
-      "stem": "행렬 \\begin{bmatrix} \\end{bmatrix} 1 2 3 4 2 3 1 5 3 4 5 2 4 5 6 2 의 행렬식 값은? [4.2점]",
+      "stem": "행렬 $\\begin{bmatrix}1&2&3&4\\\\2&3&1&5\\\\3&4&5&2\\\\4&5&6&2\\end{bmatrix}$의 행렬식 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-24"
+          "text": "$-24$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-18"
+          "text": "$-18$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-12"
+          "text": "$-12$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-6"
+          "text": "$-6$"
         }
       ]
     },
     {
       "number": 5,
       "points": "4.3점",
-      "stem": "영역 D=\\{(x,y)\\mid^{4}x^{2}+y^{2}\\leq16\\}에서의 이변수 함수 f(x,y)=8x^{2}+4y의 최댓값을 , 최솟값을  이라 할 때, \\frac  의 값은? [4.3점]",
+      "stem": "영역 $D=\\{(x,y)\\mid 4x^2+y^2\\leq16\\}$에서의 이변수 함수 $f(x,y)=8x^2+4y$의 최댓값을 $M$, 최솟값을 $m$이라 할 때, $\\frac{m}{M}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-\\frac 34 11"
+          "text": "$-\\frac{11}{34}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-\\frac 17 8"
+          "text": "$-\\frac{8}{17}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-\\frac 34 21"
+          "text": "$-\\frac{21}{34}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-\\frac 17 13"
+          "text": "$-\\frac{13}{17}$"
         }
       ]
     },
     {
       "number": 6,
       "points": "4.4점",
-      "stem": "<보기>의 급수 중 수렴하는 급수의 개수는? [4.4점] <보기> ㉠ \\sum n=2 \\infty (\\frac \\lnn n) n ㉡ \\sum n=1 \\infty\\frac 3\\cdot^{7}\\cdot^{11}\\cdot⋯\\cdot(4n-1) 2\\cdot^{5}\\cdot^{8}\\cdot⋯\\cdot(3n-1) ㉢ \\sum n=2 \\infty\\frac n\\lnn 1",
+      "stem": "<보기>의 급수 중 수렴하는 급수의 개수는?",
+      "statement_box": [
+        {
+          "label": "㉠",
+          "text": "$\\sum_{n=2}^{\\infty}\\left(\\frac{n}{\\ln n}\\right)^n$"
+        },
+        {
+          "label": "㉡",
+          "text": "$\\sum_{n=1}^{\\infty}\\frac{2\\cdot5\\cdot8\\cdots(3n-1)}{3\\cdot7\\cdot11\\cdots(4n-1)}$"
+        },
+        {
+          "label": "㉢",
+          "text": "$\\sum_{n=2}^{\\infty}\\frac{1}{n\\ln n}$"
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "0"
+          "text": "$0$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "3"
+          "text": "$3$"
         }
       ]
     },
     {
       "number": 7,
       "points": "4.5점",
-      "stem": "극한 \\lim x→0\\frac 2x^{2}\\sinx x\\cosx-\\sinx의 값은? [4.5점]",
+      "stem": "극한 $\\lim_{x\\to0}\\frac{x\\cos x-\\sin x}{2x^2\\sin x}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-6"
+          "text": "$-6$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-\\frac 6 1"
+          "text": "$-\\frac{1}{6}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-\\frac 4 1"
+          "text": "$-\\frac{1}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-4"
+          "text": "$-4$"
         }
       ]
     },
     {
       "number": 8,
       "points": "4.6점",
-      "stem": "미분방정식 (3x^{2}y+2y^{3})dx+(x^{3}+6xy^{2})dy=0의 일반해를 axyn+bxvy=C라 할 때, \\frac b a(+n+v+)의 값으로 가능한 것은? [4.6점]",
+      "stem": "미분방정식 $(3x^2y+2y^3)dx+(x^3+6xy^2)dy=0$의 일반해를 $ax^m y^n+bx^v y^w=C$라 할 때, $\\frac{a}{b}(m+n+v+w)$의 값으로 가능한 것은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "4"
+          "text": "$4$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "8"
+          "text": "$8$"
         }
       ]
     },
     {
       "number": 9,
       "points": "4.7점",
-      "stem": "함수 y(t)가 미분방정식 \\frac dt dy+y-6\\int 0 t y(\\tau)d\\tau=5에 대하여 조건 y(0)=5를 만족할 때, y(\\ln^{2})의 값은? [4.7점]",
+      "stem": "함수 $y(t)$가 미분방정식 $\\frac{dy}{dt}+y-6\\int_0^t y(\\tau)\\,d\\tau=5$에 대하여 조건 $y(0)=5$를 만족할 때, $y(\\ln2)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac 4 49"
+          "text": "$\\frac{49}{4}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac 8 65"
+          "text": "$\\frac{65}{8}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac 8 33"
+          "text": "$\\frac{33}{8}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac 4 17"
+          "text": "$\\frac{17}{4}$"
         }
       ]
     },
     {
       "number": 10,
       "points": "4.8점",
-      "stem": "영행렬이 아닌 n\\timesn 행렬 A와 에 대하여 <보기> 중 참인 명제는 모두 몇 개인가? [4.8점] <보기> ㉠ A가 대칭행렬이고 가 대각행렬이면 A=A이다. ㉡ AA는 대칭행렬이다. ㉢ tr(A)\\geqtr()이면 tr(A^{2})\\geqtr(2)이다. ㉣ \\det(A)\\geq\\det()이면 \\det(A^{2})\\geq\\det(2)이다.",
+      "stem": "영행렬이 아닌 $n\\times n$ 행렬 $A$와 $B$에 대하여 <보기> 중 참인 명제는 모두 몇 개인가?",
+      "statement_box": [
+        {
+          "label": "㉠",
+          "text": "$A$가 대칭행렬이고 $B$가 대각행렬이면 $AB=BA$이다."
+        },
+        {
+          "label": "㉡",
+          "text": "$AA^T$는 대칭행렬이다."
+        },
+        {
+          "label": "㉢",
+          "text": "$\\operatorname{tr}(A)\\geq\\operatorname{tr}(B)$이면 $\\operatorname{tr}(A^2)\\geq\\operatorname{tr}(B^2)$이다."
+        },
+        {
+          "label": "㉣",
+          "text": "$\\det(A)\\geq\\det(B)$이면 $\\det(A^2)\\geq\\det(B^2)$이다."
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "2"
+          "text": "$2$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "3"
+          "text": "$3$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "4"
+          "text": "$4$"
         }
       ]
     },
     {
       "number": 11,
       "points": "4.9점",
-      "stem": "미분방정식 y′′ -y′ -6y=xex의 해를 y(x)=c^{1}eax+c^{2}ebx+Axex+ex이라 할 때, \\frac  abA의 값은? [4.9점]",
+      "stem": "미분방정식 $y''-y'-6y=xe^x$의 해를 $y(x)=c_1e^{ax}+c_2e^{bx}+Axe^x+Be^x$라 할 때, $\\frac{abA}{B}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-6"
+          "text": "$-6$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-12"
+          "text": "$-12$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-36"
+          "text": "$-36$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-48"
+          "text": "$-48$"
         }
       ]
     },
     {
       "number": 12,
       "points": "5.1점",
-      "stem": "정적분 \\int 0 1\\frac \\sqrt\\frac 3-2x-x^{2} x dx의 값은? [5.1점]",
+      "stem": "정적분 $\\int_0^1\\frac{x}{\\sqrt{3-2x-x^2}}\\,dx$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\sqrt\\frac 3-\\frac 3 \\pi"
+          "text": "$\\sqrt{3}-\\frac{\\pi}{3}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\sqrt\\frac 3-\\frac 4 \\pi"
+          "text": "$\\sqrt{3}-\\frac{\\pi}{4}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\sqrt\\frac 3+\\frac 4 \\pi"
+          "text": "$\\sqrt{3}+\\frac{\\pi}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\sqrt\\frac 3+\\frac 3 \\pi"
+          "text": "$\\sqrt{3}+\\frac{\\pi}{3}$"
         }
       ]
     },
     {
       "number": 13,
       "points": "5.3점",
-      "stem": "함수 g(x)=\\int 0 \\cos x \\sqrt\\frac 1+\\sint+\\costdt에 대하여 함수 f(x)=\\int 1 g(x)\\frac \\sqrt\\frac 1+t^{3} 1 dt일 때, f′(\\frac 2 \\pi)의 값 은? [5.3점]",
+      "stem": "함수 $g(x)=\\int_0^{\\cos x}\\sqrt{1+\\sin t+\\cos t}\\,dt$에 대하여 함수 $f(x)=\\int_1^{g(x)}\\frac{1}{\\sqrt{1+t^3}}\\,dt$일 때, $f'\\left(\\frac{\\pi}{2}\\right)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-\\frac 2 \\pi"
+          "text": "$-\\frac{\\pi}{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-\\sqrt\\frac 2"
+          "text": "$-\\sqrt{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-\\frac 3 \\pi"
+          "text": "$-\\frac{\\pi}{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "-\\frac 2 \\sqrt\\frac 2"
+          "text": "$-\\frac{\\sqrt{2}}{2}$"
         }
       ]
     },
     {
       "number": 14,
       "points": "5.4점",
-      "stem": "극좌표로 정의된 두 곡선 r=\\cos2\\theta와 r=\\frac 2 1로 만들어지는 영역 중 색칠된 영역의 넓이는? [5.4점]",
+      "stem": "극좌표로 정의된 두 곡선 $r=\\cos2\\theta$와 $r=\\frac{1}{2}$로 만들어지는 영역 중 색칠된 영역의 넓이는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac 48 3\\sqrt\\frac 3+\\pi"
+          "text": "$\\frac{3\\sqrt{3}+\\pi}{48}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac 16 -4+\\sqrt\\frac 3+\\pi"
+          "text": "$\\frac{-4+\\sqrt{3}+\\pi}{16}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac 16 -8+3\\sqrt\\frac 3+\\pi"
+          "text": "$\\frac{-8+3\\sqrt{3}+\\pi}{16}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac 48 3\\sqrt\\frac 3-\\pi"
+          "text": "$\\frac{3\\sqrt{3}-\\pi}{48}$"
         }
       ]
     },
     {
       "number": 15,
       "points": "5.5점",
-      "stem": "벡터장 F(x,y,z)=z\\sin^{-1}(y^{3})i +z^{3}\\ln(x^{100}+1)j +z^{2}k에 대하여, 포물면 x^{2}+y^{2}+z=3과 평면 z=2로 둘러싸인 영역에서의 선다발(flux)을 구하면? (단, 영역의 방향은 바깥쪽 방향이다.) [5.5점]",
+      "stem": "벡터장 $\\mathbf{F}(x,y,z)=z\\sin^{-1}(y^3)\\mathbf{i}+z^3\\ln(x^{100}+1)\\mathbf{j}+z^2\\mathbf{k}$에 대하여, 포물면 $x^2+y^2+z=3$과 평면 $z=2$로 둘러싸인 영역에서의 선다발(flux)을 구하면? (단, 영역의 방향은 바깥쪽 방향이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac 3 7\\pi"
+          "text": "$\\frac{7}{3}\\pi$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac 3 13\\pi"
+          "text": "$\\frac{13}{3}\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac 3 19\\pi"
+          "text": "$\\frac{19}{3}\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac 3 25\\pi"
+          "text": "$\\frac{25}{3}\\pi$"
         }
       ]
     },
     {
       "number": 16,
       "points": "5.7점",
-      "stem": "벡터장 F(x,y)=(\\frac x^{2}+y^{2} x^{5}+x^{3}y^{2}-y)i+(\\frac x^{2}+y^{2} x^{2}\\cosy+y^{2}\\cosy+x)j 에 대하여 선적분 \\int C F\\cdotdr을 구하면? (단, C는 타원 \\frac 4 x^{2} +\\frac 9 y^{2} =1이며 양의 방향의 곡선이다.) [5.7점]",
+      "stem": "벡터장 $\\mathbf{F}(x,y)=\\left(\\frac{x^5+x^3y^2-y}{x^2+y^2}\\right)\\mathbf{i}+\\left(\\frac{x^2\\cos y+y^2\\cos y+x}{x^2+y^2}\\right)\\mathbf{j}$에 대하여 선적분 $\\int_C \\mathbf{F}\\cdot d\\mathbf{r}$을 구하면? (단, $C$는 타원 $\\frac{x^2}{4}+\\frac{y^2}{9}=1$이며 양의 방향의 곡선이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\pi"
+          "text": "$\\pi$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "2\\pi"
+          "text": "$2\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "3\\pi"
+          "text": "$3\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "4\\pi"
+          "text": "$4\\pi$"
         }
       ]
     },
     {
       "number": 17,
       "points": "5.9점",
-      "stem": "행렬 A=\\begin{bmatrix} \\end{bmatrix} 2 5 -1 8, 벡터 b =\\begin{bmatrix} \\end{bmatrix} -2 4와 모든 성분이 실수인 벡터 x에 대하여 xAx +xb가 최소가 되게 하는 벡터 x의 모든 성분의 합은? [5.9점]",
+      "stem": "행렬 $A=\\begin{bmatrix}2&5\\\\-1&8\\end{bmatrix}$, 벡터 $\\mathbf{b}=\\begin{bmatrix}-2\\\\4\\end{bmatrix}$와 모든 성분이 실수인 벡터 $\\mathbf{x}$에 대하여 $\\mathbf{x}^TA\\mathbf{x}+\\mathbf{x}^T\\mathbf{b}$가 최소가 되게 하는 벡터 $\\mathbf{x}$의 모든 성분의 합은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac 2 3"
+          "text": "$\\frac{3}{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-\\frac 2 5"
+          "text": "$-\\frac{5}{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-\\frac 2 3"
+          "text": "$-\\frac{3}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac 2 1"
+          "text": "$\\frac{1}{2}$"
         }
       ]
     },
     {
       "number": 18,
       "points": "6.2점",
-      "stem": "고윳값으로 2와 3을 갖는 3\\times3 행렬 A에 대하여, 고윳값 2에 대한 고유벡터는 \\begin{bmatrix} \\end{bmatrix} 1 2 -2 이고 고윳값 3에 대한 고유벡터는 \\begin{bmatrix} \\end{bmatrix} 2 1 -3 일 때, A^{3}\\begin{bmatrix} \\end{bmatrix} 0 3 -1 의 모든 성분의 합은? [6.2점]",
+      "stem": "고윳값으로 $2$와 $3$을 갖는 $3\\times3$ 행렬 $A$에 대하여, 고윳값 $2$에 대한 고유벡터는 $\\begin{bmatrix}1\\\\2\\\\-2\\end{bmatrix}$이고, 고윳값 $3$에 대한 고유벡터는 $\\begin{bmatrix}2\\\\1\\\\-3\\end{bmatrix}$일 때, $A^3\\begin{bmatrix}0\\\\3\\\\-1\\end{bmatrix}$의 모든 성분의 합은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "16"
+          "text": "$16$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "27"
+          "text": "$27$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "35"
+          "text": "$35$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "42"
+          "text": "$42$"
         }
       ]
     },
     {
       "number": 19,
       "points": "6.3점",
-      "stem": "반복적분 \\int 0 1\\int \\sin^{-1}y \\frac 2 \\pi (\\cosx)\\sqrt\\frac 3+\\cos2xdxdy의 값은? [6.3점]",
+      "stem": "반복적분 $\\int_0^1\\int_{\\sin^{-1}y}^{\\frac{\\pi}{2}}(\\cos x)\\sqrt{3+\\cos^2 x}\\,dxdy$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac 3 4-\\sqrt\\frac 2"
+          "text": "$\\frac{4}{3}-\\sqrt{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac 3 8-\\sqrt\\frac 2"
+          "text": "$\\frac{8}{3}-\\sqrt{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac 3 4-\\sqrt\\frac 3"
+          "text": "$\\frac{4}{3}-\\sqrt{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac 3 8-\\sqrt\\frac 3"
+          "text": "$\\frac{8}{3}-\\sqrt{3}$"
         }
       ]
     },
     {
       "number": 20,
       "points": "6.5점",
-      "stem": "점 P (0,0,1)\\in\\mathbb{R}3에서 삼변수 함수 f(x,y,z)=3z+ex^{2}-y^{2} 의 최대변화율을 이라 하자. 점 P에서 의 f의 방향도함수의 값이 \\frac 3 이 되는 모든 벡터 v 에 대하여, \\frac |v| v 의 끝점이 만드는 도형의 둘레 의 길이는? [6.5점]",
+      "stem": "점 $P(0,0,1)\\in\\mathbb{R}^3$에서 삼변수 함수 $f(x,y,z)=3z+e^{x^2-y^2}$의 최대변화율을 $M$이라 하자. 점 $P$에서의 $f$의 방향도함수의 값이 $\\frac{M}{3}$이 되는 모든 벡터 $\\mathbf{v}$에 대하여, $\\frac{\\mathbf{v}}{|\\mathbf{v}|}$의 끝점이 만드는 도형의 둘레의 길이는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\pi"
+          "text": "$\\pi$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac 3 2\\sqrt\\frac 2\\pi"
+          "text": "$\\frac{2\\sqrt{2}}{3}\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac 3 4\\sqrt\\frac 2\\pi"
+          "text": "$\\frac{4\\sqrt{2}}{3}\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac 9 8\\pi"
+          "text": "$\\frac{8}{9}\\pi$"
         }
       ]
     }
-  ],
-  "source_text_file": "aerospace_2025_math_extracted_complete.txt"
+  ]
 }

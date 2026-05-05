@@ -254,7 +254,6 @@
       "number": 9,
       "instruction": "",
       "passage_sentences": [
-        "빈칸에 들어갈 단어로 가장 적절한 것을 고르시 오.",
         "One way to take the pulse of global cities is to use real―time ________ indicators.",
         "The Economist has constructed an “exodus index” using Google data on visits to sites of retail and recreation, public transport, and workplaces."
       ],
@@ -338,7 +337,6 @@
       "number": 12,
       "instruction": "",
       "passage_sentences": [
-        "(A)와 (B)에 들어갈 가장 적절한 표현을 순서대로 고르시오.",
         "In the United States, the great replacement conspiracy theory has been supercharged over the past decade by social media and the backlash to the election of President Barack Obama.",
         "The theory holds that there is an ongoing (A) of white people and culture as part of a deliberate strategy by Jews and liberal elites.",
         "The great replacement theory’s spread was (B) by the terrorist strategy known as accelerationism, an effort to foment cataclysmic violent chaos as a means to seize power."
@@ -368,7 +366,8 @@
       "number": 13,
       "instruction": "다음 글에 이어질 내용을 글의 흐름상 가장 적 절하게 배열한 것을 고르시오.",
       "passage_sentences": [
-        "H. G.",
+        "H.",
+        "G.",
         "Wells may not have been an expert in any particular scientific field, but he believed wholeheartedly in the idea of science, especially when it came to the rational government of human beings. 2 page [A] At different times, he called this virtuous elite the New Republicans, the Samurai, and the Open Conspiracy; it can be thought of as an idealized version of the Fabian Society, the elite socialist group to which Wells briefly belonged.",
         "[B] In book after book, novels and nonfiction alike, Wells hammered home the message that humanity could improve its lot only by entrusting power to a self-selected caste of enlightened technicians, who would rule according to the dictates of science.",
         "[C] “The dominant men of the new time,” he writes, will “all be artists in reality, with a passion for simplicity and directness and an impatience of confusion and inefficiency,” dedicated to creating the “future world state to which all things are pointing.” [D] He first described this caste in Anticipations, the 1901 book he called “the keystone to the main arch of my book.”"
@@ -490,10 +489,8 @@
     },
     {
       "number": 17,
-      "instruction": "다음 글을 읽고 문제에 답하시오. On the first day of class, Jerry Uelsmann, a professor at the University of Florida, divided his film photography students into two groups. Everyone on the left side of the classroom, he explained, would be in the “quantity” group. They would be graded solely on the amount of work they produced. On the final day of class, he would tally the number of photos submitted by each student. One hundred photos would rate an A, ninety photos a B, eighty photos a C, and so on. Meanwhile, everyone on the right side of the room would be in the “quality” group. They would be graded only on the excellence of their work. They would only need to produce one photo during the semester, but to get an A, it had to be a nearly perfect image. 2024.",
-      "passage_sentences": [
-        "(A)와 (B)에 들어갈 단어들을 순서대로 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -517,10 +514,8 @@
     },
     {
       "number": 18,
-      "instruction": "다음 글을 읽고 문제에 답하시오. On the first day of class, Jerry Uelsmann, a professor at the University of Florida, divided his film photography students into two groups. Everyone on the left side of the classroom, he explained, would be in the “quantity” group. They would be graded solely on the amount of work they produced. On the final day of class, he would tally the number of photos submitted by each student. One hundred photos would rate an A, ninety photos a B, eighty photos a C, and so on. Meanwhile, everyone on the right side of the room would be in the “quality” group. They would be graded only on the excellence of their work. They would only need to produce one photo during the semester, but to get an A, it had to be a nearly perfect image. 2024.",
-      "passage_sentences": [
-        "(C)에 가장 알맞은 문장을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -544,10 +539,8 @@
     },
     {
       "number": 19,
-      "instruction": "다음 글을 읽고 문제에 답하시오. With an environment devoid of oxygen and high in methane, for much of its history Earth would not have been a welcoming place for animals. The earliest life forms we know of were microscopic organisms (microbes) that left signals of their presence in rocks about 3.7 billion years old. [A] When cyanobacteria evolved, they set the stage for a remarkable transformation. They became Earth’s first photo-synthesizers, making food using water and 4 page the Sun’s energy, and releasing oxygen as a result. This catalyzed a sudden, dramatic rise in oxygen, making the environment less hospitable for other microbes that could not tolerate oxygen. [B] Something revolutionary happened as microbes began living inside other microbes, functioning as organelles for them. Mitochondria, the organelles that process food into energy, evolved from these mutually beneficial relationships. Also, for the first time, DNA became packaged in nuclei. The new complex cells boasted specialized parts playing specialized roles that supported the whole cell. [C] These clusters of specialized, cooperating cells eventually became the first animals. Sponges were among the earliest animals. By about 580 million years ago (the Ediacaran Period) there was a proliferation of other organisms, in addition to sponges. However, about 541 million years ago, most of the Ediacaran creatures disappeared. [D] The Cambrian Period witnessed a wild explosion of new life forms. A shift also occurred towards more active animals, with defined heads and tails for directional movement to chase prey. However, despite all the changes that were to come, by the end of the Cambrian Period nearly all existing animal types or phyla were established.",
-      "passage_sentences": [
-        "글의 흐름에 맞게 배열하시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -571,7 +564,7 @@
     },
     {
       "number": 20,
-      "instruction": "다음 글을 읽고 문제에 답하시오. With an environment devoid of oxygen and high in methane, for much of its history Earth would not have been a welcoming place for animals. The earliest life forms we know of were microscopic organisms (microbes) that left signals of their presence in rocks about 3.7 billion years old. [A] When cyanobacteria evolved, they set the stage for a remarkable transformation. They became Earth’s first photo-synthesizers, making food using water and 4 page the Sun’s energy, and releasing oxygen as a result. This catalyzed a sudden, dramatic rise in oxygen, making the environment less hospitable for other microbes that could not tolerate oxygen. [B] Something revolutionary happened as microbes began living inside other microbes, functioning as organelles for them. Mitochondria, the organelles that process food into energy, evolved from these mutually beneficial relationships. Also, for the first time, DNA became packaged in nuclei. The new complex cells boasted specialized parts playing specialized roles that supported the whole cell. [C] These clusters of specialized, cooperating cells eventually became the first animals. Sponges were among the earliest animals. By about 580 million years ago (the Ediacaran Period) there was a proliferation of other organisms, in addition to sponges. However, about 541 million years ago, most of the Ediacaran creatures disappeared. [D] The Cambrian Period witnessed a wild explosion of new life forms. A shift also occurred towards more active animals, with defined heads and tails for directional movement to chase prey. However, despite all the changes that were to come, by the end of the Cambrian Period nearly all existing animal types or phyla were established.",
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
       "passage_sentences": [
         "(a) The great oxidation event (b) Extinction of non-avian dinosaurs (c) Disappearance of the Neanderthals (d) Appearance of multicellular lives"
       ],
@@ -598,10 +591,8 @@
     },
     {
       "number": 21,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Quantum Information Science and Technology, which includes quantum computing, networking, sensing, and metrology, leverages the fundamental properties of matter to generate new information technologies. For example, quantum computers can, in principle, use the unique properties of atoms and photons to solve certain types of problems exponentially faster than a conventional computer can. Over many decades, harnessing quantum aspects of nature has produced critical technologies. Quantum Information Science and Technology will bring new capabilities for both civilian and military purposes. Prior examples of quantum-related technologies include semiconductor microelectronics, photonics, the global positioning system, and magnetic resonance imaging. Future scientific and technological discoveries in quantum may be even more impactful. Aside from their potential benefits, quantum technologies can also pose national security challenges. With further advancements in coming years, a large-scale quantum computer could potentially allow for the decryption of most commonly used cybersecurity protocols, putting at risk the infrastructure protecting today’s economic and national security communications. In short, whoever wins the race for quantum computing supremacy could potentially compromise the communications of others. Without effective mitigation, the impact of adversarial use of a quantum computer could be devastating to national security systems and the nation.",
-      "passage_sentences": [
-        "밑줄 친 devastating과 가장 유사한 의미를 지닌 단어를 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "밑줄 친 devastating과 가장 유사한 의미를 지닌 단어를 고르시오.",
       "choices": [
         {
@@ -625,10 +616,8 @@
     },
     {
       "number": 22,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Quantum Information Science and Technology, which includes quantum computing, networking, sensing, and metrology, leverages the fundamental properties of matter to generate new information technologies. For example, quantum computers can, in principle, use the unique properties of atoms and photons to solve certain types of problems exponentially faster than a conventional computer can. Over many decades, harnessing quantum aspects of nature has produced critical technologies. Quantum Information Science and Technology will bring new capabilities for both civilian and military purposes. Prior examples of quantum-related technologies include semiconductor microelectronics, photonics, the global positioning system, and magnetic resonance imaging. Future scientific and technological discoveries in quantum may be even more impactful. Aside from their potential benefits, quantum technologies can also pose national security challenges. With further advancements in coming years, a large-scale quantum computer could potentially allow for the decryption of most commonly used cybersecurity protocols, putting at risk the infrastructure protecting today’s economic and national security communications. In short, whoever wins the race for quantum computing supremacy could potentially compromise the communications of others. Without effective mitigation, the impact of adversarial use of a quantum computer could be devastating to national security systems and the nation.",
-      "passage_sentences": [
-        "위 글을 읽고 유추하기 가장 어려운 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글을 읽고 유추하기 가장 어려운 것을 고르시오.",
       "choices": [
         {
@@ -652,10 +641,8 @@
     },
     {
       "number": 23,
-      "instruction": "다음 글을 읽고 문제에 답하시오. In the days immediately after the United States dropped atomic bombs on Hiroshima and Nagasaki, radiation was largely a mystery to the Japanese public; men and women had survived the explosion but were succumbing to a new illness—an “evil spirit,” as a national newspaper put it. Nine years later, Japan had another encounter with nuclear technology: on March 1, 1954, the U.S. tested what was the world’s most powerful hydrogen bomb on Bikini Atoll, in the Pacific. The blast was more than twice the size that engineers had predicted, and a shower of radioactive ash reached far enough to envelop a voyaging Japanese tuna boat named the Lucky Dragon No.",
-      "passage_sentences": [
-        "빈칸에 들어갈 표현으로 가장 적절한 것을 고 르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -679,10 +666,8 @@
     },
     {
       "number": 24,
-      "instruction": "다음 글을 읽고 문제에 답하시오. In the days immediately after the United States dropped atomic bombs on Hiroshima and Nagasaki, radiation was largely a mystery to the Japanese public; men and women had survived the explosion but were succumbing to a new illness—an “evil spirit,” as a national newspaper put it. Nine years later, Japan had another encounter with nuclear technology: on March 1, 1954, the U.S. tested what was the world’s most powerful hydrogen bomb on Bikini Atoll, in the Pacific. The blast was more than twice the size that engineers had predicted, and a shower of radioactive ash reached far enough to envelop a voyaging Japanese tuna boat named the Lucky Dragon No.",
-      "passage_sentences": [
-        "위 글의 내용과 가장 거리가 먼 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글의 내용과 가장 거리가 먼 것을 고르시오.",
       "choices": [
         {
@@ -706,10 +691,8 @@
     },
     {
       "number": 25,
-      "instruction": "다음 글을 읽고 문제에 답하시오. If the conscious mind is like a general atop a platform who sees the world from a distance and analyzes things linearly and linguistically, the unconscious mind is like a million little scouts. The scouts careen across the landscape, sending back a constant flow of signals and generating instant responses. They maintain no distance from the environment around them, but are immersed in it. They scurry about, interpenetrating other minds, landscapes, and ideas. These scouts coat things with emotional significance. They come across an old friend and send back a surge of affection. They descend into a dark cave and send back a surge of 6 page fear. Contact with a beautiful landscape produces a feeling of sublime elevation. Contact with a brilliant insight produces delight while contact with unfairness produces righteous anger. Each (A) __________ has its own flavor, texture, and force, and reactions loop around the mind in a stream of sensations, impulses, judgments, and desires. These signals don’t control our lives, but they shape our interpretation of the world and they guide us, like a spiritual GPS, as we (B) __________ our courses. If the general thinks in data and speaks in prose, the scouts crystallize with emotion, and their work is best expressed in stories, poetry, music, image, prayer, and myth.",
-      "passage_sentences": [
-        "(A), (B)에 들어갈 가장 적절한 표현을 순서대로 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -733,10 +716,8 @@
     },
     {
       "number": 26,
-      "instruction": "다음 글을 읽고 문제에 답하시오. If the conscious mind is like a general atop a platform who sees the world from a distance and analyzes things linearly and linguistically, the unconscious mind is like a million little scouts. The scouts careen across the landscape, sending back a constant flow of signals and generating instant responses. They maintain no distance from the environment around them, but are immersed in it. They scurry about, interpenetrating other minds, landscapes, and ideas. These scouts coat things with emotional significance. They come across an old friend and send back a surge of affection. They descend into a dark cave and send back a surge of 6 page fear. Contact with a beautiful landscape produces a feeling of sublime elevation. Contact with a brilliant insight produces delight while contact with unfairness produces righteous anger. Each (A) __________ has its own flavor, texture, and force, and reactions loop around the mind in a stream of sensations, impulses, judgments, and desires. These signals don’t control our lives, but they shape our interpretation of the world and they guide us, like a spiritual GPS, as we (B) __________ our courses. If the general thinks in data and speaks in prose, the scouts crystallize with emotion, and their work is best expressed in stories, poetry, music, image, prayer, and myth.",
-      "passage_sentences": [
-        "위 글의 내용과 가장 거리가 먼 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글의 내용과 가장 거리가 먼 것을 고르시오.",
       "choices": [
         {
@@ -760,10 +741,8 @@
     },
     {
       "number": 27,
-      "instruction": "다음 글을 읽고 문제에 답하시오. The debate over whether companies should allow flexible work-from-home (WFH) arrangements versus mandating their employees to return to the office continues to divide the US workforce. But the booming South Korean office market may (A) undermine arguments that it is better for employees to head back to the office—at least for those watching the US's struggling commercial-real-estate sector. In Seoul, over 98% of grade-A offices are 2024.",
-      "passage_sentences": [
-        "밑줄 친 단어 중 문맥상 가장 적절치 않은 것 을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "밑줄 친 단어 중 문맥상 가장 적절치 않은 것 을 고르시오.",
       "choices": [
         {
@@ -787,10 +766,8 @@
     },
     {
       "number": 28,
-      "instruction": "다음 글을 읽고 문제에 답하시오. The debate over whether companies should allow flexible work-from-home (WFH) arrangements versus mandating their employees to return to the office continues to divide the US workforce. But the booming South Korean office market may (A) undermine arguments that it is better for employees to head back to the office—at least for those watching the US's struggling commercial-real-estate sector. In Seoul, over 98% of grade-A offices are 2024.",
-      "passage_sentences": [
-        "위 글에 이어질 내용으로 가장 적절한 것을 고 르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -815,9 +792,7 @@
     {
       "number": 29,
       "instruction": "다음 글을 읽고 문제에 답하시오. [A] It’s clear that prioritizing the development of __________ strategies is vital in the face of volatility and uncertainty. But what exactly do leaders need to prepare for? And what should be prioritized to make __________ operations a reality? [B] But these disruptions aren’t happening in isolation. We’re seeing a ripple effect on multiple industries and individuals, with those less prepared to weather such challenges taking the biggest hit. [C] No matter where you are in the world right now, economies are struggling. Geopolitical tensions, rising inflation and interest rates, and many other external factors continue to impact businesses across the globe. [D] The UK, for instance, just reached the country’s highest interest rates since the 2008 financial crisis. And this news follows on from higher-than-expected inflation data which continues to remind us of the challenges businesses are facing today.",
-      "passage_sentences": [
-        "빈칸에 공통적으로 들어갈 가장 적절한 말을 고르시오."
-      ],
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -842,9 +817,7 @@
     {
       "number": 30,
       "instruction": "다음 글을 읽고 문제에 답하시오. [A] It’s clear that prioritizing the development of __________ strategies is vital in the face of volatility and uncertainty. But what exactly do leaders need to prepare for? And what should be prioritized to make __________ operations a reality? [B] But these disruptions aren’t happening in isolation. We’re seeing a ripple effect on multiple industries and individuals, with those less prepared to weather such challenges taking the biggest hit. [C] No matter where you are in the world right now, economies are struggling. Geopolitical tensions, rising inflation and interest rates, and many other external factors continue to impact businesses across the globe. [D] The UK, for instance, just reached the country’s highest interest rates since the 2008 financial crisis. And this news follows on from higher-than-expected inflation data which continues to remind us of the challenges businesses are facing today.",
-      "passage_sentences": [
-        "위 문단들을 논리적 순서에 맞게 배열하시오."
-      ],
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -868,10 +841,8 @@
     },
     {
       "number": 31,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Electric vehicle (EV) markets are still showing great strength across the board, breaking new records as sales surge. A total of 14% of all new cars sold were electric in 2022, up from around 9% in 2021 and less than 5% in 2020. Despite surging EV sales, the transition has really only just begun. This means that demand should continue to soar on the back of subsidies and future phase-out targets and regulations for internal combustion engine (ICE) vehicles. When total costs of EV ownership are _____ with those of ICE vehicles (and even begin to drop below them) in the second half of the decade, we can expect an extra upswing. As the demand for EVs rises rapidly, so does the demand for the minerals inside their batteries. The rapid increase in electric vehicle sales during the Covid-19 pandemic has exacerbated concerns over China’s dominance in lithium battery supply chains. Meanwhile, the ongoing war in Ukraine has pushed prices of raw materials―including cobalt, lithium, and nickel―to record highs. The dependence on specific suppliers is not the only concern. Batteries make up a big part of an EV’s total cost and typically account for 30% to 40% of their value, but this proportion increases with larger battery sizes. Europe is currently pushing hard to develop its battery supply chain, but this takes time and sourcing dependencies remain. The EU’s Critical Raw Materials Act is the bloc’s attempt to secure supply chains and boost European autonomy to ensure the EU has access to materials needed to meet the bloc’s target of moving to net-zero greenhouse gas emissions by 2050.",
-      "passage_sentences": [
-        "빈칸에 들어갈 가장 적절한 표현을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -895,10 +866,8 @@
     },
     {
       "number": 32,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Electric vehicle (EV) markets are still showing great strength across the board, breaking new records as sales surge. A total of 14% of all new cars sold were electric in 2022, up from around 9% in 2021 and less than 5% in 2020. Despite surging EV sales, the transition has really only just begun. This means that demand should continue to soar on the back of subsidies and future phase-out targets and regulations for internal combustion engine (ICE) vehicles. When total costs of EV ownership are _____ with those of ICE vehicles (and even begin to drop below them) in the second half of the decade, we can expect an extra upswing. As the demand for EVs rises rapidly, so does the demand for the minerals inside their batteries. The rapid increase in electric vehicle sales during the Covid-19 pandemic has exacerbated concerns over China’s dominance in lithium battery supply chains. Meanwhile, the ongoing war in Ukraine has pushed prices of raw materials―including cobalt, lithium, and nickel―to record highs. The dependence on specific suppliers is not the only concern. Batteries make up a big part of an EV’s total cost and typically account for 30% to 40% of their value, but this proportion increases with larger battery sizes. Europe is currently pushing hard to develop its battery supply chain, but this takes time and sourcing dependencies remain. The EU’s Critical Raw Materials Act is the bloc’s attempt to secure supply chains and boost European autonomy to ensure the EU has access to materials needed to meet the bloc’s target of moving to net-zero greenhouse gas emissions by 2050.",
-      "passage_sentences": [
-        "위 글을 읽고 유추할 수 없는 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글을 읽고 유추할 수 없는 것을 고르시오.",
       "choices": [
         {
@@ -922,10 +891,8 @@
     },
     {
       "number": 33,
-      "instruction": "다음 글을 읽고 문제에 답하시오. The new trend, known as \"tang ping\", is described as a(n) (A) ________ to society's pressures to find jobs and perform well while working long shifts. China has a shrinking labour market and young people often work more hours. The term \"tang ping\" is believed to have originated in a post on a popular Chinese social media site. \"Lying flat is my wise movement,\" a user wrote in a since-deleted post on the discussion forum Tieba, adding: \"Only by lying down can humans become the measure of all things.\" The comments were later discussed on Sina Weibo, another popular Chinese microblogging site, and the term soon became a (B) ________. The idea behind \"tang ping\"―not overworking, being content with more attainable achievements, and allowing time to unwind―has been praised by many and inspired numerous memes. It has been described as a spiritual movement.",
-      "passage_sentences": [
-        "(A)와 (B)에 들어갈 적절한 말을 순서대로 고 르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -949,10 +916,8 @@
     },
     {
       "number": 34,
-      "instruction": "다음 글을 읽고 문제에 답하시오. The new trend, known as \"tang ping\", is described as a(n) (A) ________ to society's pressures to find jobs and perform well while working long shifts. China has a shrinking labour market and young people often work more hours. The term \"tang ping\" is believed to have originated in a post on a popular Chinese social media site. \"Lying flat is my wise movement,\" a user wrote in a since-deleted post on the discussion forum Tieba, adding: \"Only by lying down can humans become the measure of all things.\" The comments were later discussed on Sina Weibo, another popular Chinese microblogging site, and the term soon became a (B) ________. The idea behind \"tang ping\"―not overworking, being content with more attainable achievements, and allowing time to unwind―has been praised by many and inspired numerous memes. It has been described as a spiritual movement.",
-      "passage_sentences": [
-        "위 글을 읽고 유추하기 가장 어려운 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글을 읽고 유추하기 가장 어려운 것을 고르시오.",
       "choices": [
         {
@@ -976,10 +941,8 @@
     },
     {
       "number": 35,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Digital humanities is not a unified field but an array of (A) ________ practices that explore a universe in which: a) print is no longer the exclusive or the normative medium in which knowledge is produced and/or disseminated; instead, print finds itself absorbed into new, multimedia configurations; and b) digital tools, techniques, and media have altered the production and dissemination of knowledge in the arts, human and social sciences. Digital humanities seeks to play an inaugural role with respect to a world in which, no longer the sole producers, stewards, and disseminators of knowledge or culture, universities are called upon to shape natively digital models of scholarly discourse for the newly emergent public spheres of the present era (the www, the blogosphere, digital libraries, etc.), to model excellence and innovation in these domains, and to facilitate the formation of networks of knowledge production, exchange, and dissemination that are, at once, global and local. The first wave of digital humanities work was (B) ________, mobilizing the search and retrieval powers of the database, automating corpus linguistics, stacking hypercards into critical arrays. The second wave is qualitative, interpretive, experiential, emotive, and generative in character. It harnesses digital toolkits in the service of the humanities’ core methodological strengths: attention to complexity, medium specificity, historical context, analytical depth, critique and interpretation. Such a crudely drawn dichotomy does not exclude the emotional, even sublime potentiality of the quantitative any more than it excludes embeddings of quantitative analysis within qualitative 9 page frameworks. Rather it imagines new couplings and scalings that are facilitated both by new models of research practice and by the availability of new tools and technologies.",
-      "passage_sentences": [
-        "(A), (B)에 들어갈 가장 적절한 단어를 순서대로 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1003,10 +966,8 @@
     },
     {
       "number": 36,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Digital humanities is not a unified field but an array of (A) ________ practices that explore a universe in which: a) print is no longer the exclusive or the normative medium in which knowledge is produced and/or disseminated; instead, print finds itself absorbed into new, multimedia configurations; and b) digital tools, techniques, and media have altered the production and dissemination of knowledge in the arts, human and social sciences. Digital humanities seeks to play an inaugural role with respect to a world in which, no longer the sole producers, stewards, and disseminators of knowledge or culture, universities are called upon to shape natively digital models of scholarly discourse for the newly emergent public spheres of the present era (the www, the blogosphere, digital libraries, etc.), to model excellence and innovation in these domains, and to facilitate the formation of networks of knowledge production, exchange, and dissemination that are, at once, global and local. The first wave of digital humanities work was (B) ________, mobilizing the search and retrieval powers of the database, automating corpus linguistics, stacking hypercards into critical arrays. The second wave is qualitative, interpretive, experiential, emotive, and generative in character. It harnesses digital toolkits in the service of the humanities’ core methodological strengths: attention to complexity, medium specificity, historical context, analytical depth, critique and interpretation. Such a crudely drawn dichotomy does not exclude the emotional, even sublime potentiality of the quantitative any more than it excludes embeddings of quantitative analysis within qualitative 9 page frameworks. Rather it imagines new couplings and scalings that are facilitated both by new models of research practice and by the availability of new tools and technologies.",
-      "passage_sentences": [
-        "위 글을 읽고 가장 유추하기 어려운 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글을 읽고 가장 유추하기 어려운 것을 고르시오.",
       "choices": [
         {
@@ -1030,10 +991,8 @@
     },
     {
       "number": 37,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Cities can make us (A) ________. They always have―diseases spread more easily when more people are close to one another. And disease is hardly the only ill that accompanies urban density. Cities have been demonized as breeding grounds for vice and crime from Sodom and Gomorrah on. But cities have flourished nonetheless because they are humanity’s greatest invention, indispensable engines for creativity, 2024.",
-      "passage_sentences": [
-        "(A), (B)에 들어갈 가장 적절한 단어를 순서대로 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": null,
       "choices": [
         {
@@ -1057,10 +1016,8 @@
     },
     {
       "number": 38,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Cities can make us (A) ________. They always have―diseases spread more easily when more people are close to one another. And disease is hardly the only ill that accompanies urban density. Cities have been demonized as breeding grounds for vice and crime from Sodom and Gomorrah on. But cities have flourished nonetheless because they are humanity’s greatest invention, indispensable engines for creativity, 2024.",
-      "passage_sentences": [
-        "위 글의 주제로 가장 적합한 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글의 주제로 가장 적합한 것을 고르시오.",
       "choices": [
         {
@@ -1084,10 +1041,8 @@
     },
     {
       "number": 39,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Plato describes love in such a way that constancy is not an important feature of it, let alone a logically necessary condition. At the lowest stage of Plato’s ladder of love, x loves y because y is physically beautiful. This kind of love will not be constant (we might think) because physical beauty fades with time, sometimes very quickly. But this is not exactly why, for Plato, love at this lowest stage is not constant. For Aristotle, if x loves y because y is pleasant or useful to x, x’s love will not endure precisely because y’s being pleasant or useful is not something that lasts. (A) Thus, in Aristotle, we find the claim that because x loves y for P, x will no longer love y when P is gone. But in Plato, x’s love for y, when it is based on y’s physical beauty, is not constant for a different reason: x (B) initially realizes not only that the physical beauty possessed by y is also possessed by many other people but also that physical beauty does not hold a candle to other kinds of beauty. There is no hint in Plato that x’s love for y, when it is based on y’s physical beauty, ends exactly when y’s beauty fades. Rather, x’s love for y ends even (C) before that beauty fades. The lover, ideally, recognizes that y’s beauty will fade and hence that this sort of beauty is inferior to other kinds. Thus x, not wanting to become overly attached to lesser beauty―since happiness does not lie here―progresses to the next level of Plato’s ladder, at which a more substantial beauty provides the basis of love: moral virtue and intellectual excellence. Again, however, x realizes that even this superior type of beauty or goodness is not what x is yearning for. It, too, is widespread and fades with time (even if slowly). People die, taking their mental beauty with them, so that sort of beauty is perishable and hence inferior. Love can be constant, for Plato, only when its object is (D) perfectly beautiful or good. This means not 2024.",
-      "passage_sentences": [
-        "다음 중 문맥상 어색한 단어를 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "다음 중 문맥상 어색한 단어를 고르시오.",
       "choices": [
         {
@@ -1111,10 +1066,8 @@
     },
     {
       "number": 40,
-      "instruction": "다음 글을 읽고 문제에 답하시오. Plato describes love in such a way that constancy is not an important feature of it, let alone a logically necessary condition. At the lowest stage of Plato’s ladder of love, x loves y because y is physically beautiful. This kind of love will not be constant (we might think) because physical beauty fades with time, sometimes very quickly. But this is not exactly why, for Plato, love at this lowest stage is not constant. For Aristotle, if x loves y because y is pleasant or useful to x, x’s love will not endure precisely because y’s being pleasant or useful is not something that lasts. (A) Thus, in Aristotle, we find the claim that because x loves y for P, x will no longer love y when P is gone. But in Plato, x’s love for y, when it is based on y’s physical beauty, is not constant for a different reason: x (B) initially realizes not only that the physical beauty possessed by y is also possessed by many other people but also that physical beauty does not hold a candle to other kinds of beauty. There is no hint in Plato that x’s love for y, when it is based on y’s physical beauty, ends exactly when y’s beauty fades. Rather, x’s love for y ends even (C) before that beauty fades. The lover, ideally, recognizes that y’s beauty will fade and hence that this sort of beauty is inferior to other kinds. Thus x, not wanting to become overly attached to lesser beauty―since happiness does not lie here―progresses to the next level of Plato’s ladder, at which a more substantial beauty provides the basis of love: moral virtue and intellectual excellence. Again, however, x realizes that even this superior type of beauty or goodness is not what x is yearning for. It, too, is widespread and fades with time (even if slowly). People die, taking their mental beauty with them, so that sort of beauty is perishable and hence inferior. Love can be constant, for Plato, only when its object is (D) perfectly beautiful or good. This means not 2024.",
-      "passage_sentences": [
-        "위 글에서 유추할 수 있는 가장 적절한 것을 고르시오."
-      ],
+      "instruction": "다음 글을 읽고 문제에 답하시오.",
+      "passage_sentences": [],
       "question": "위 글에서 유추할 수 있는 가장 적절한 것을 고르시오.",
       "choices": [
         {

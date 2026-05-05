@@ -4,816 +4,834 @@
   "year": 2021,
   "subject": "math",
   "subject_name": "수학",
-  "source_text_file": "chungang_2021_math_extracted_complete.txt",
+  "source_pdf": "중앙_21_수학.pdf",
   "question_count": 30,
   "questions": [
     {
       "number": 1,
       "points": "3점",
-      "stem": "lim x \\to0 \\frac{\\sqrt{a+tanx-\\sqrt\\frac}}{x^3} a+sinx = \\frac{1}{32} 이 되도록 하는 양수 a의 값은?",
+      "stem": "$\\lim_{x\\to0}\\frac{\\sqrt{a+\\tan x}-\\sqrt{a+\\sin x}}{x^3}=\\frac{1}{32}$이 되도록 하는 양수 $a$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "8"
+          "text": "$8$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "16"
+          "text": "$16$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "32"
+          "text": "$32$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "64"
+          "text": "$64$"
         }
       ]
     },
     {
       "number": 2,
       "points": "3.5점",
-      "stem": "행렬  = ( ) -1 2 -1 3 과 x = \\frac{1}{4} 에 대하여 \\sum k = 0 \\infty tr(k ) xk- 1 의 값은? (단, tr( )는 정사각행렬  의 대각합 (trace)이고 0 = ( ) 1 0 0 1 , k = k- 1 \\cdot (k = 1, 2, 3,⋯)이다.)",
+      "stem": "행렬 $A=\\begin{pmatrix}-1&2\\\\-1&3\\end{pmatrix}$과 $x=\\frac{1}{4}$에 대하여 $\\sum_{k=0}^{\\infty}\\operatorname{tr}(A^k)x^{k-1}$의 값은? (단, $\\operatorname{tr}(B)$는 정사각행렬 $B$의 대각합(trace)이고 $A^0=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$, $A^k=A^{k-1}\\cdot A$ $(k=1,2,3,\\cdots)$이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{95}{8}"
+          "text": "$\\frac{95}{8}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{96}{7}"
+          "text": "$\\frac{96}{7}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{97}{6}"
+          "text": "$\\frac{97}{6}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{98}{5}"
+          "text": "$\\frac{98}{5}$"
         }
       ]
     },
     {
       "number": 3,
       "points": "3.5점",
-      "stem": "정사각행렬  = \\begin{pmatrix} \\end{pmatrix} a1 b1 c1 d1 a^2 b^2 c^2 d2 a^3 b^3 c^3 d3 a^4 b^4 c^4 d4 에 대하여 다음의 방정식을 만족하는 상수 k의 값은? (단, det 는 정사각행렬 의 행렬식(determinant)을 나타낸다.) det \\begin{pmatrix} \\end{pmatrix} b1 +c1 +d1 b^2 +c^2 +d2 b^3 +c^3 +d3 b^4 +c^4 +d4 a1 +c1 +d1 a^2 +c^2 +d2 a^3 +c^3 +d3 a^4 +c^4 +d4 a1 +b1 +d1 a^2 +b^2 +d2 a^3 +b^3 +d3 a^4 +b^4 +d4 a1 +b1 +c1 a^2 +b^2 +c^2 a^3 +b^3 +c^3 a^4 +b^4 +c^4 = k\\cdotdet",
+      "stem": "정사각행렬 $A=\\begin{pmatrix}a_1&b_1&c_1&d_1\\\\a_2&b_2&c_2&d_2\\\\a_3&b_3&c_3&d_3\\\\a_4&b_4&c_4&d_4\\end{pmatrix}$에 대하여 다음의 방정식을 만족하는 상수 $k$의 값은? (단, $\\det B$는 정사각행렬 $B$의 행렬식(determinant)을 나타낸다.) $\\det\\begin{pmatrix}b_1+c_1+d_1&b_2+c_2+d_2&b_3+c_3+d_3&b_4+c_4+d_4\\\\a_1+c_1+d_1&a_2+c_2+d_2&a_3+c_3+d_3&a_4+c_4+d_4\\\\a_1+b_1+d_1&a_2+b_2+d_2&a_3+b_3+d_3&a_4+b_4+d_4\\\\a_1+b_1+c_1&a_2+b_2+c_2&a_3+b_3+c_3&a_4+b_4+c_4\\end{pmatrix}=k\\cdot\\det A$",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-3"
+          "text": "$-3$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-1"
+          "text": "$-1$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "3"
+          "text": "$3$"
         }
       ]
     },
     {
       "number": 4,
       "points": "2.5점",
-      "stem": "x, y, z 에 대한 다음의 일차연립방정식이 무한히 많은 해를 갖도록 하는 상수 a의 값을 모두 곱하면? \\begin{cases} \\end{cases} x+y+2z = -3 2x+y+3z = -2a -3x+4y+z = a^2",
+      "stem": "$x$, $y$, $z$에 대한 다음의 일차연립방정식이 무한히 많은 해를 갖도록 하는 상수 $a$의 값을 모두 곱하면? $\\begin{cases}x+y+2z=-3\\\\2x+y+3z=-2a\\\\-3x+4y+z=a^2\\end{cases}$",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "14"
+          "text": "$14$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "6"
+          "text": "$6$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-9"
+          "text": "$-9$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "33"
+          "text": "$33$"
         }
       ]
     },
     {
       "number": 5,
       "points": "3.5점",
-      "stem": "직선 \\frac{x}{3} + \\frac{y}{2} = 1 위의 점  를 통과하는 두 직선이 각각 점  와 점  에서 원 x^2 +y^2 = 1 에 접한다. 내적 \\frac{\\cdot\\frac}{}   의 최솟값은?",
+      "stem": "직선 $\\frac{x}{3}+\\frac{y}{2}=1$ 위의 점 $P$를 통과하는 두 직선이 각각 점 $A$와 점 $B$에서 원 $x^2+y^2=1$에 접한다. 내적 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}$의 최솟값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{115}{234}"
+          "text": "$\\frac{115}{234}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{511}{432}"
+          "text": "$\\frac{511}{432}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{151}{342}"
+          "text": "$\\frac{151}{342}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{151}{324}"
+          "text": "$\\frac{151}{324}$"
         }
       ]
     },
     {
       "number": 6,
       "points": "2.5점",
-      "stem": "선형사상  : \\mathbb{R}^2 \\to \\mathbb{R}^3 가 (-1, 1) = (2, 9, 0),  (0, 1) = (3, 3, 4),  (a, b) = (0, 21, -8)을 만족할 때, a+b 의 값은?",
+      "stem": "선형사상 $T:\\mathbb{R}^2\\to\\mathbb{R}^3$가 $T(-1,1)=(2,9,0)$, $T(0,1)=(3,3,4)$, $T(a,b)=(0,21,-8)$을 만족할 때, $a+b$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-2"
+          "text": "$-2$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "0"
+          "text": "$0$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "1"
+          "text": "$1$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "3"
+          "text": "$3$"
         }
       ]
     },
     {
       "number": 7,
       "points": "4점",
-      "stem": "\\int0 \\frac{\\pi}{6} \\frac{x+}{sin4} cos4 x sinxcosx dx = \\alpha 라 할 때, sin(2\\alpha)의 값은?",
+      "stem": "$\\int_0^{\\frac{\\pi}{6}}\\frac{\\sin x\\cos x}{\\sin^4x+\\cos^4x}\\,dx=\\alpha$라 할 때, $\\sin(2\\alpha)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{\\sqrt{2}}{2}"
+          "text": "$\\frac{\\sqrt{2}}{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{\\sqrt{3}}{3}"
+          "text": "$\\frac{\\sqrt{3}}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{\\sqrt{5}}{5}"
+          "text": "$\\frac{\\sqrt{5}}{5}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{\\sqrt{10}}{10}"
+          "text": "$\\frac{\\sqrt{10}}{10}$"
         }
       ]
     },
     {
       "number": 8,
       "points": "3.5점",
-      "stem": "곡선  는 점 (0, 0)을 출발하여 점 (0, 4)와 점 (2, 4)를 차례로 거쳐서 점 (0, 0)으로 돌아오도록 향(orientation)이 주어진 삼각형의 둘레이다. 선적분 \\int (ycosx-xysinx)dx + (xy+xcosx)dy 의 값은?",
+      "stem": "곡선 $C$는 점 $(0,0)$을 출발하여 점 $(0,4)$와 점 $(2,4)$를 차례로 거쳐서 점 $(0,0)$으로 돌아오도록 향(orientation)이 주어진 삼각형의 둘레이다. 선적분 $\\int_C(y\\cos x-xy\\sin x)\\,dx+(xy+x\\cos x)\\,dy$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "- \\frac{16}{3}"
+          "text": "$-\\frac{16}{3}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "- \\frac{32}{3}"
+          "text": "$-\\frac{32}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{32}{3}"
+          "text": "$\\frac{32}{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{16}{3}"
+          "text": "$\\frac{16}{3}$"
         }
       ]
     },
     {
       "number": 9,
       "points": "3점",
-      "stem": "함수 f(x) = (1+x^5 )30 에 대하여 \\frac{f(10)}{10} (0) 의 값은?",
+      "stem": "함수 $f(x)=(1+x^5)^{30}$에 대하여 $\\frac{f^{(10)}(0)}{10!}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "345"
+          "text": "$345$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "435"
+          "text": "$435$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "543"
+          "text": "$543$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "534"
+          "text": "$534$"
         }
       ]
     },
     {
       "number": 10,
       "points": "4점",
-      "stem": "곡면 x^2 +y^2 = \\frac{z^2}{4} 과 평면 x+y+z = 1 이 만나서 이루는 곡선이 평면 x+y+z = 1에서 둘러싸는 영역의 넓이는?",
+      "stem": "곡면 $x^2+y^2=\\frac{z^2}{4}$과 평면 $x+y+z=1$이 만나서 이루는 곡선이 평면 $x+y+z=1$에서 둘러싸는 영역의 넓이는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{\\pi}{\\sqrt{2}}"
+          "text": "$\\frac{\\pi}{\\sqrt{2}}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\sqrt{\\frac} \\frac{2}{3} \\pi"
+          "text": "$\\sqrt{\\frac{2}{3}}\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\pi"
+          "text": "$\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\sqrt{\\frac} \\frac{3}{2} \\pi"
+          "text": "$\\sqrt{\\frac{3}{2}}\\pi$"
         }
       ]
     },
     {
       "number": 11,
       "points": "3.5점",
-      "stem": "두 급수 \\sum n = 1 \\infty cn xn 과 \\sum n = 1 \\infty dn xn 의 수렴반경이 각각 2 와 3일 때, 급수 \\sum n = 1 \\infty (\\frac{cn}{5n} + \\frac{dn}{4n} )xn 의 수렴반경은?",
+      "stem": "두 급수 $\\sum_{n=1}^{\\infty}c_nx^n$과 $\\sum_{n=1}^{\\infty}d_nx^n$의 수렴반경이 각각 $2$와 $3$일 때, 급수 $\\sum_{n=1}^{\\infty}\\left(\\frac{c_n}{5^n}+\\frac{d_n}{4^n}\\right)x^n$의 수렴반경은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "10"
+          "text": "$10$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "20"
+          "text": "$20$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "25"
+          "text": "$25$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "50"
+          "text": "$50$"
         }
       ]
     },
     {
       "number": 12,
       "points": "3.5점",
-      "stem": "다음의 선형사상  : \\mathbb{R}^4 \\to\\mathbb{R}^3 가 차원이 2 인 핵(kernel)을 갖도록 a를 정하면?  (x,y,z,w) = (3x-3y-z-4w, 2x-7y-6w, -x+2y+az+2w)",
+      "stem": "다음의 선형사상 $T:\\mathbb{R}^4\\to\\mathbb{R}^3$가 차원이 $2$인 핵(kernel)을 갖도록 $a$를 정하면? $T(x,y,z,w)=(3x-3y-z-4w,\\ 2x-7y-6w,\\ -x+2y+az+2w)$",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{1}{3}"
+          "text": "$\\frac{1}{3}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{2}{3}"
+          "text": "$\\frac{2}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{1}{5}"
+          "text": "$\\frac{1}{5}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{4}{5}"
+          "text": "$\\frac{4}{5}$"
         }
       ]
     },
     {
       "number": 13,
       "points": "3점",
-      "stem": "0 \\leq x \\leq 1 에서 정의된 곡선 y = sin- 1 x + \\sqrt{1-x^2} 의 길이는?",
+      "stem": "$0\\leq x\\leq1$에서 정의된 곡선 $y=\\sin^{-1}x+\\sqrt{1-x^2}$의 길이는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\sqrt{2}"
+          "text": "$\\sqrt{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "2\\sqrt{2}"
+          "text": "$2\\sqrt{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2-\\sqrt{2}"
+          "text": "$2-\\sqrt{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "4-2\\sqrt{2}"
+          "text": "$4-2\\sqrt{2}$"
         }
       ]
     },
     {
       "number": 14,
       "points": "4점",
-      "stem": "f(0) = 1, f(1) = 10 을 만족하는 이차함수 f(x)에 대하여 \\int\\frac{(x+1)^2}{x^3} f(x) dx 가 유리함수일 때, f(2)의 값은?",
+      "stem": "$f(0)=1$, $f(1)=10$을 만족하는 이차함수 $f(x)$에 대하여 $\\int\\frac{f(x)}{x^3(x+1)^2}\\,dx$가 유리함수일 때, $f(2)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "9"
+          "text": "$9$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "-9"
+          "text": "$-9$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-19"
+          "text": "$-19$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "29"
+          "text": "$29$"
         }
       ]
     },
     {
       "number": 15,
       "points": "4점",
-      "stem": "모든 실수 x에 대하여 f(-x) = f(x), f(x+3) = f(x)를 만족하는 연속함수 f(x)에 대하여 \\int0 2 f(x)dx = 5 와 \\int0 3 f(x)dx = 7 이 성립한다. 이때, \\int- 4 9 f(x)dx의 값은?",
+      "stem": "모든 실수 $x$에 대하여 $f(-x)=f(x)$, $f(x+3)=f(x)$를 만족하는 연속함수 $f(x)$에 대하여 $\\int_0^2f(x)\\,dx=5$와 $\\int_0^3f(x)\\,dx=7$이 성립한다. 이때, $\\int_{-4}^9f(x)\\,dx$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "26"
+          "text": "$26$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "28"
+          "text": "$28$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "30"
+          "text": "$30$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "32"
+          "text": "$32$"
         }
       ]
     },
     {
       "number": 16,
       "points": "3점",
-      "stem": "곡선  = {(x,y)\\in\\mathbb{R}^2 | x = cost, y = sint, 0 \\leq t \\leq \\frac{\\pi}{4} } 일 때, 선적분 \\int \\frac{1}{x} ds 의 값은? (단, s는 호의 길이 를 매개화한 것이다.)",
+      "stem": "곡선 $C=\\{(x,y)\\in\\mathbb{R}^2\\mid x=\\cos t,\\ y=\\sin t,\\ 0\\leq t\\leq\\frac{\\pi}{4}\\}$일 때, 선적분 $\\int_C\\frac{1}{x}\\,ds$의 값은? (단, $s$는 호의 길이를 매개화한 것이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "ln(\\sqrt{3} +1)"
+          "text": "$\\ln(\\sqrt{3}+1)$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "ln(\\sqrt{2} +1)"
+          "text": "$\\ln(\\sqrt{2}+1)$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "ln\\sqrt{3}"
+          "text": "$\\ln\\sqrt{3}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "ln\\sqrt{2}"
+          "text": "$\\ln\\sqrt{2}$"
         }
       ]
     },
     {
       "number": 17,
       "points": "2.5점",
-      "stem": "세 직선 x = 0, y = 0, \\frac{x}{2} +y = 1 로 둘러싸인 삼각형에 내접하는 직사각형 중 한 변이 직선 \\frac{x}{2} +y = 1 위 에 놓인 직사각형의 넓이의 최댓값은?",
+      "stem": "세 직선 $x=0$, $y=0$, $\\frac{x}{2}+y=1$로 둘러싸인 삼각형에 내접하는 직사각형 중 한 변이 직선 $\\frac{x}{2}+y=1$ 위에 놓인 직사각형의 넓이의 최댓값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{\\sqrt{2}}{4}"
+          "text": "$\\frac{\\sqrt{2}}{4}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{\\sqrt{2}}{2}"
+          "text": "$\\frac{\\sqrt{2}}{2}$"
         }
       ]
     },
     {
       "number": 18,
       "points": "3.5점",
-      "stem": "극한 lim m,n\\to\\infty \\sum k = 1 n \\sum j = 1 m \\frac{\\pik}{n} sin(\\frac{\\pijk}{4mn} )\\frac{1}{mn} 의 값은?",
+      "stem": "극한 $\\lim_{m,n\\to\\infty}\\sum_{k=1}^{n}\\sum_{j=1}^{m}\\frac{\\pi k}{n}\\sin\\left(\\frac{\\pi jk}{4mn}\\right)\\frac{1}{mn}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "2(1- \\frac{2\\sqrt{2}}{\\pi} )"
+          "text": "$2\\left(1-\\frac{2\\sqrt{2}}{\\pi}\\right)$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "4(1- \\frac{\\sqrt{2}}{\\pi} )"
+          "text": "$4\\left(1-\\frac{\\sqrt{2}}{\\pi}\\right)$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "4(1- \\frac{2\\sqrt{2}}{\\pi} )"
+          "text": "$4\\left(1-\\frac{2\\sqrt{2}}{\\pi}\\right)$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "2(1- \\frac{\\sqrt{2}}{\\pi} )"
+          "text": "$2\\left(1-\\frac{\\sqrt{2}}{\\pi}\\right)$"
         }
       ]
     },
     {
       "number": 19,
       "points": "2.5점",
-      "stem": "극한 lim x\\to0 \\frac{6x^2}{x^{17}} sinx3 -6x^5 +x11 의 값은?",
+      "stem": "극한 $\\lim_{x\\to0}\\frac{6x^2\\sin x^3-6x^5+x^{11}}{x^{17}}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{1}{10}"
+          "text": "$\\frac{1}{10}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{1}{15}"
+          "text": "$\\frac{1}{15}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{1}{20}"
+          "text": "$\\frac{1}{20}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{1}{60}"
+          "text": "$\\frac{1}{60}$"
         }
       ]
     },
     {
       "number": 20,
       "points": "3.5점",
-      "stem": "좌표공간에서 평면 z = 2- \\frac{x}{2} 와 곡면 z = \\sqrt{x^2} +y^2 으로 둘러싸인 비스듬한 원뿔의 옆면의 넓이를 구하면?",
+      "stem": "좌표공간에서 평면 $z=2-\\frac{x}{2}$와 곡면 $z=\\sqrt{x^2+y^2}$으로 둘러싸인 비스듬한 원뿔의 옆면의 넓이를 구하면?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{32\\sqrt{6}}{9} \\pi"
+          "text": "$\\frac{32\\sqrt{6}}{9}\\pi$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{16\\sqrt{6}}{9} \\pi"
+          "text": "$\\frac{16\\sqrt{6}}{9}\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{64\\sqrt{6}}{9} \\pi"
+          "text": "$\\frac{64\\sqrt{6}}{9}\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{64\\sqrt{3}}{9} \\pi"
+          "text": "$\\frac{64\\sqrt{3}}{9}\\pi$"
         }
       ]
     },
     {
       "number": 21,
       "points": "3.5점",
-      "stem": " : \\mathbb{R}^3 \\to\\mathbb{R}^3 는 (x,y,z) = (3x+y+2z, x+y, 2x+4z) 로 정의된 선형사상이다. 구 x^2 +y^2 +z^2 = 1 위의 점 (x,y,z)에 대하여 ∥(∘ )(x,y,z)∥의 최댓값은? (단, ∥(a,b,c)∥= \\sqrt{a^2} +b^2 +c^2 이고, (∘ )(x,y,z) = ((x,y,z)) 이다.)",
+      "stem": "$T:\\mathbb{R}^3\\to\\mathbb{R}^3$는 $T(x,y,z)=(3x+y+2z,\\ x+y,\\ 2x+4z)$로 정의된 선형사상이다. 구 $x^2+y^2+z^2=1$ 위의 점 $(x,y,z)$에 대하여 $\\|(T\\circ T)(x,y,z)\\|$의 최댓값은? (단, $\\|(a,b,c)\\|=\\sqrt{a^2+b^2+c^2}$이고, $(T\\circ T)(x,y,z)=T(T(x,y,z))$이다.)",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "16"
+          "text": "$16$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "16+6\\sqrt{7}"
+          "text": "$16+6\\sqrt{7}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "16+8\\sqrt{7}"
+          "text": "$16+8\\sqrt{7}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "16+9\\sqrt{7}"
+          "text": "$16+9\\sqrt{7}$"
         }
       ]
     },
     {
       "number": 22,
       "points": "3.5점",
-      "stem": "f(x) = \\frac{1}{\\sqrt{2\\pi}} e - \\frac{x^2}{2} 에 대하여 \\int0 \\infty \\int0 \\infty (x+2y)^2 f(x)f(y)dxdy 의 값은?",
+      "stem": "$f(x)=\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{x^2}{2}}$에 대하여 $\\int_0^{\\infty}\\int_0^{\\infty}(x+2y)^2f(x)f(y)\\,dx\\,dy$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{5}{4} + \\frac{4}{\\pi}"
+          "text": "$\\frac{5}{4}+\\frac{4}{\\pi}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{5}{4} + \\frac{2}{\\pi}"
+          "text": "$\\frac{5}{4}+\\frac{2}{\\pi}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{5}{2} + \\frac{4}{\\pi}"
+          "text": "$\\frac{5}{2}+\\frac{4}{\\pi}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{5}{2} + \\frac{2}{\\pi}"
+          "text": "$\\frac{5}{2}+\\frac{2}{\\pi}$"
         }
       ]
     },
     {
       "number": 23,
       "points": "4점",
-      "stem": "선형사상  : \\mathbb{R}^3 \\to \\mathbb{P}^2 (x),  (e1) = 1-x^2 , (e2) = x+x^2 , (e3) =-1+x 를 \\mathbb{R}^3 의 순서기저 {e1= (1,0,0), e2= (0,1,0), e3= (0,0,1)} 와 \\mathbb{P}^2 (x) = {a0 +a1x+a^2x^2 | a0, a1, a^2\\in\\mathbb{R}} 의 순서기저 {1, x, x^2 }에 대하여 표현한 3\\times3 행렬을  라 하자. 100 \\begin{pmatrix} \\end{pmatrix} a1 a^2 a^3 = \\begin{pmatrix} \\end{pmatrix} 0 0 1 이라 할 때, a1 +a^2 +a^3 의 값은?",
+      "stem": "선형사상 $T:\\mathbb{R}^3\\to\\mathbb{P}_2(x)$, $T(e_1)=1-x^2$, $T(e_2)=x+x^2$, $T(e_3)=-1+x$를 $\\mathbb{R}^3$의 순서기저 $\\{e_1=(1,0,0),\\ e_2=(0,1,0),\\ e_3=(0,0,1)\\}$와 $\\mathbb{P}_2(x)=\\{a_0+a_1x+a_2x^2\\mid a_0,a_1,a_2\\in\\mathbb{R}\\}$의 순서기저 $\\{1,x,x^2\\}$에 대하여 표현한 $3\\times3$ 행렬을 $A$라 하자. $A^{100}\\begin{pmatrix}a_1\\\\a_2\\\\a_3\\end{pmatrix}=\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}$이라 할 때, $a_1+a_2+a_3$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{1}{3} + \\frac{1}{3\\cdot299}"
+          "text": "$\\frac{1}{3}+\\frac{1}{3\\cdot2^{99}}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{1}{3} + \\frac{1}{3\\cdot2100}"
+          "text": "$\\frac{1}{3}+\\frac{1}{3\\cdot2^{100}}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{2}{3} + \\frac{1}{3\\cdot2100}"
+          "text": "$\\frac{2}{3}+\\frac{1}{3\\cdot2^{100}}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{2}{3} + \\frac{1}{3\\cdot299}"
+          "text": "$\\frac{2}{3}+\\frac{1}{3\\cdot2^{99}}$"
         }
       ]
     },
     {
       "number": 24,
       "points": "3점",
-      "stem": "함수 f(x) = det \\begin{pmatrix} \\end{pmatrix} x x-1 x-2 x-3 x-1 x-2 x-3 x x-2 x-3 x x-1 x-3 x x-1 x-2 라 할 때, 다음 중 f(x) = 0 의 실근은?",
+      "stem": "함수 $f(x)=\\det\\begin{pmatrix}x&x-1&x-2&x-3\\\\x-1&x-2&x-3&x\\\\x-2&x-3&x&x-1\\\\x-3&x&x-1&x-2\\end{pmatrix}$라 할 때, 다음 중 $f(x)=0$의 실근은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "-3"
+          "text": "$-3$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "3"
+          "text": "$3$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "- \\frac{3}{2}"
+          "text": "$-\\frac{3}{2}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{3}{2}"
+          "text": "$\\frac{3}{2}$"
         }
       ]
     },
     {
       "number": 25,
       "points": "3.5점",
-      "stem": "값이 실수인 두 수열 an, bn (n = 0, 1, 2,⋯)에 대하여 다음\n<보기>\n중 참인 명제는 몇 개인가?\n<보기>\n(가) \\sum\nn = 0\n\\infty\nan, \\sum\nn = 0\n\\infty\nbn 이 둘 다 수렴하면 lim n\\to\\infty\nanbn = 0 이다.\n(나) \\sum\nn = 0\n\\infty\nan, \\sum\nn = 0\n\\infty\nbn 이 둘 다 수렴하면 \\sum\nn = 0\n\\infty\nanbn 도 수렴한다.\n(다) \\sum\nn = 0\n\\infty\nan, \\sum\nn = 0\n\\infty\nbn 이 둘 다 발산하면 \\sum\nn = 0\n\\infty\nanbn 도 발산한다.\n(라) \\sum\nn = 0\n\\infty\nan 이 수렴하고 \\sum\nn = 0\n\\infty\nbn 이 발산하며, 모든 n = 0, 1, 2,⋯ 에 대하여 bn \\neq0\n이면, \\sum\nn = 0\n\\infty\n\\frac{an}{bn}\n은 수렴한다.",
+      "stem": "값이 실수인 두 수열 $a_n$, $b_n$ $(n=0,1,2,\\cdots)$에 대하여 다음 <보기> 중 참인 명제는 몇 개인가?",
+      "statement_box": [
+        {
+          "label": "(가)",
+          "text": "$\\sum_{n=0}^{\\infty}a_n$, $\\sum_{n=0}^{\\infty}b_n$이 둘 다 수렴하면 $\\lim_{n\\to\\infty}a_nb_n=0$이다."
+        },
+        {
+          "label": "(나)",
+          "text": "$\\sum_{n=0}^{\\infty}a_n$, $\\sum_{n=0}^{\\infty}b_n$이 둘 다 수렴하면 $\\sum_{n=0}^{\\infty}a_nb_n$도 수렴한다."
+        },
+        {
+          "label": "(다)",
+          "text": "$\\sum_{n=0}^{\\infty}a_n$, $\\sum_{n=0}^{\\infty}b_n$이 둘 다 발산하면 $\\sum_{n=0}^{\\infty}a_nb_n$도 발산한다."
+        },
+        {
+          "label": "(라)",
+          "text": "$\\sum_{n=0}^{\\infty}a_n$이 수렴하고 $\\sum_{n=0}^{\\infty}b_n$이 발산하며, 모든 $n=0,1,2,\\cdots$에 대하여 $b_n\\neq0$이면, $\\sum_{n=0}^{\\infty}\\frac{a_n}{b_n}$은 수렴한다."
+        }
+      ],
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "0 개"
+          "text": "$0$개"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "1 개"
+          "text": "$1$개"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2 개"
+          "text": "$2$개"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "3 개"
+          "text": "$3$개"
         }
       ]
     },
     {
       "number": 26,
       "points": "3.5점",
-      "stem": "좌표평면에서 y = \\frac{x+3}{x^3} , x = 1, x = 4, y = 0 으로 둘러싸인 영역을 y축을 중심으로 회전시킬 때 생기는 입체의 부피는?",
+      "stem": "좌표평면에서 $y=\\frac{x+3}{x^3}$, $x=1$, $x=4$, $y=0$으로 둘러싸인 영역을 $y$축을 중심으로 회전시킬 때 생기는 입체의 부피는?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{69}{16} \\pi"
+          "text": "$\\frac{69}{16}\\pi$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{69}{8} \\pi"
+          "text": "$\\frac{69}{8}\\pi$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "2\\pi(ln4+ \\frac{9}{4} )"
+          "text": "$2\\pi\\left(\\ln4+\\frac{9}{4}\\right)$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "2\\pi(ln16+ \\frac{9}{2} )"
+          "text": "$2\\pi\\left(\\ln16+\\frac{9}{2}\\right)$"
         }
       ]
     },
     {
       "number": 27,
       "points": "3점",
-      "stem": "f(x) = 3x+2cosx 일 때, (f - 1 )''(2) 의 값은?",
+      "stem": "$f(x)=3x+2\\cos x$일 때, $(f^{-1})''(2)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{2}{27}"
+          "text": "$\\frac{2}{27}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{2}{9}"
+          "text": "$\\frac{2}{9}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "- \\frac{2}{9}"
+          "text": "$-\\frac{2}{9}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "- \\frac{2}{27}"
+          "text": "$-\\frac{2}{27}$"
         }
       ]
     },
     {
       "number": 28,
       "points": "3점",
-      "stem": "\\sum n = 1 \\infty tan- 1 \\begin{pmatrix} \\frac{\\frac{1}{n(n+1)}}{1+} \\frac{1}{n(n+1)} \\end{pmatrix} 의 값은?",
+      "stem": "$\\sum_{n=1}^{\\infty}\\tan^{-1}\\left(\\frac{\\frac{1}{n(n+1)}}{1+\\frac{1}{n(n+1)}}\\right)$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{\\pi}{2}"
+          "text": "$\\frac{\\pi}{2}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{\\pi}{3}"
+          "text": "$\\frac{\\pi}{3}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{\\pi}{4}"
+          "text": "$\\frac{\\pi}{4}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{\\pi}{6}"
+          "text": "$\\frac{\\pi}{6}$"
         }
       ]
     },
     {
       "number": 29,
       "points": "3.5점",
-      "stem": "\\sum n = 0 \\infty (-1)n \\frac{)^2n}{(\\sqrt{3}} 1 = a, \\sum n = 0 \\infty (-1)n \\frac{+}{(2n+1)(\\sqrt{3)^2n}} 1 1 = b 라 할 때, ab 의 값은?",
+      "stem": "$\\sum_{n=0}^{\\infty}(-1)^n\\frac{1}{(\\sqrt{3})^{2n}}=a$, $\\sum_{n=0}^{\\infty}(-1)^n\\frac{1}{(2n+1)(\\sqrt{3})^{2n+1}}=b$라 할 때, $ab$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "\\frac{3\\pi}{4}"
+          "text": "$\\frac{3\\pi}{4}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "\\frac{\\pi}{4}"
+          "text": "$\\frac{\\pi}{4}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "\\frac{\\pi}{6}"
+          "text": "$\\frac{\\pi}{6}$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "\\frac{\\pi}{8}"
+          "text": "$\\frac{\\pi}{8}$"
         }
       ]
     },
     {
       "number": 30,
       "points": "3.5점",
-      "stem": "벡터장 \\mathbf{F} 는 \\mathbf{F}(x,y,z) = (xy+xe z^2 , -2y^2 -ye z^2 , z +x^2 ) 이고,  는 향이 (0,0,-1) 로 주어진 원판  = {(x,y,z)\\in\\mathbb{R}^3 | x^2 +y^2 \\leq 1, z = 0} 일 때, 유량(flux) \\iint \\mathbf{F}\\cdotd 의 값은?",
+      "stem": "벡터장 $\\mathbf{F}$는 $\\mathbf{F}(x,y,z)=(xy+xe^{z^2},\\ -2y^2-ye^{z^2},\\ z+x^2)$이고, $S$는 향이 $(0,0,-1)$로 주어진 원판 $S=\\{(x,y,z)\\in\\mathbb{R}^3\\mid x^2+y^2\\leq1,\\ z=0\\}$일 때, 유량(flux) $\\iint_S\\mathbf{F}\\cdot d\\mathbf{S}$의 값은?",
       "choices": [
         {
           "label": "①",
           "number": 1,
-          "text": "- \\frac{\\pi}{4}"
+          "text": "$-\\frac{\\pi}{4}$"
         },
         {
           "label": "②",
           "number": 2,
-          "text": "- \\frac{\\pi}{2}"
+          "text": "$-\\frac{\\pi}{2}$"
         },
         {
           "label": "③",
           "number": 3,
-          "text": "-\\pi"
+          "text": "$-\\pi$"
         },
         {
           "label": "④",
           "number": 4,
-          "text": "0"
+          "text": "$0$"
         }
       ]
     }

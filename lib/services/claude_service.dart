@@ -294,16 +294,34 @@ fileName: (title 기반 영문 스네이크케이스)
 모든 문제를 빠짐없이 추출하고 풀이하세요. 보기가 없는 문제는 [보기] 섹션을 생략하세요.''';
 
   static String _readingPrompt(String examTitle) => '''
-당신은 편입영어 시험 지문 추출 전문가입니다.
+당신은 편입영어 시험 문제 추출 전문가입니다.
 
-첨부된 시험지에서 모든 영어 지문과 문제를 추출하여 아래 형식으로 출력하세요.
+첨부된 시험지에서 모든 영어 문제를 추출하여 아래 형식으로 출력하세요.
 
-## 규칙
+## [지문] 규칙 — 가장 중요
+- [지문]에 해당 문제의 영어 지문 전체를 빠짐없이 넣으세요. 한 문장도 빠뜨리면 안 됩니다.
+- 반드시 한 문장(마침표/물음표/느낌표로 끝나는 단위)씩 줄바꿈하세요.
+- 절대로 두 문장 이상을 한 줄에 쓰지 마세요.
+- 영어 문장 바로 다음 줄에 한국어 해석을 쓰세요.
+- 빈칸(_____)이 있는 문장도 지문에 포함하되, 빈칸은 그대로 유지하세요.
+
+## [문제] 규칙
+- 문제 번호와 지시문(질문)만 쓰세요. 예: "다음 빈칸에 들어갈 가장 적절한 것은?"
+- 지문 내용을 [문제]에 다시 복사하지 마세요. 지문은 이미 [지문]에 있습니다.
+- 한국어 해석 없이 원문만 적으세요.
+
+## [보기] 규칙
+- 각 보기 바로 다음 줄에 한국어 해석을 반드시 쓰세요. 예외 없음.
+- 보기가 단어 하나여도 한국어 뜻을 반드시 쓰세요.
+
+## 기타 규칙
+- [정답]: 정답 번호만 간결하게 (예: ③)
+- [풀이]: 왜 그 답이 정답인지 한국어로 상세히 설명
+- [핵심 개념]: 해당 문제의 문법·어휘·독해 핵심 포인트 정리
 - 지문 원문을 정확하게 옮기세요 (오탈자 수정하지 말 것)
-- 각 문장을 영어 한 줄, 바로 다음 줄에 한국어 해석 한 줄로 쌍을 이루게 하세요
-- 밑줄(_____)이나 빈칸은 그대로 유지
-- 문제 번호를 섹션 제목으로 사용하세요
-${examTitle.isEmpty ? '- title: 시험지에서 학교명, 연도, 과목 등을 파악하여 적절한 제목을 작성하세요 (예: 명지대 2025 편입영어)\n' : ''}- fileName: title을 영문 스네이크케이스로 변환하세요 (예: 명지대 2025 편입영어 → myongji_2025_english)
+- 문제 번호를 ## 섹션 제목으로 사용하세요
+- 지문이 없는 문제(어휘, 문법 등)는 [지문] 없이 [문제]부터 시작
+${examTitle.isEmpty ? '- title: 시험지에서 학교명, 연도, 과목 등을 파악하여 적절한 제목 작성 (예: 명지대 2025 편입영어)\n' : ''}- fileName: title을 영문 스네이크케이스로 변환 (예: 명지대 2025 편입영어 → myongji_2025_english)
 
 ## 출력 형식
 ---
@@ -311,20 +329,55 @@ title: ${examTitle.isEmpty ? '(시험지에서 자동 감지하여 작성)' : ex
 fileName: (title 기반 영문 스네이크케이스)
 ---
 
-## 1번
+## 21번
 
-The English sentence from the passage.
-지문의 영어 문장에 대한 한국어 해석.
+[지문]
+The government of Madagascar has recently designated portions of the territory and the surrounding islands as protected reserves for wildlife.
+마다가스카르 정부는 최근 영토의 일부와 주변 섬들을 야생동물 보호구역으로 지정했다.
 
-Another English sentence continues here.
-또 다른 영어 문장의 한국어 해석이 여기에 이어집니다.
+Madagascar is such an island.
+마다가스카르는 그런 섬 중 하나이다.
 
-## 2번
+The aye-aye is initially categorized as a member of the order Rodentia.
+아이아이는 처음에 설치류 목의 일원으로 분류되었다.
 
-Next passage's first sentence.
-다음 지문의 첫 번째 문장.
+The aye-aye is more _____ than its fellow primates.
+아이아이는 다른 영장류보다 더 _____하다.
+
+Since the aye-aye is so different from its fellow _____, it is on the brink of extinction.
+아이아이는 같은 _____들과 너무 달라서 멸종 위기에 처해 있다.
+
+[문제]
+Choose the most appropriate pair of words for the blanks.
+
+[보기]
+① large - red
+① 큰 - 빨간
+
+② long - extant
+② 긴 - 현존하는
+
+③ adaptations - prototypes
+③ 적응 - 원형
+
+④ sympatry - nonsympatry
+④ 공서 - 비공서
+
+[정답]
+③
+
+[풀이]
+지문에서 aye-aye가 다른 영장류보다 더 많은 적응(adaptations)을 가지고 있다고 설명하고 있다. 또한 같은 원형(prototypes)들과 다르다는 내용이 이어지므로 ③이 정답이다.
+
+[핵심 개념]
+adaptation: 적응, 순응 (생물학적 맥락에서 환경에 맞게 변화하는 것)
+prototype: 원형, 시제품 (같은 분류 내의 기본 형태)
+on the brink of extinction: 멸종 위기에 처한
+Rodentia: 설치류 목
+
+## 22번
 
 ...
 
-모든 지문의 모든 문장을 빠짐없이 추출하고, 각 문장마다 자연스러운 한국어 해석을 붙이세요.''';
+모든 문제를 빠짐없이 추출하세요.''';
 }

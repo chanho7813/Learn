@@ -38,5 +38,5 @@ class ReadingExam {
     required this.questions,
   });
 
-  String get title => '$institutionKo ${year}학년도 편입 영어';
+  String get title => '$institutionKo $year학년도 편입 영어';
 }

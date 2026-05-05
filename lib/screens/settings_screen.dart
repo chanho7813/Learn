@@ -341,12 +341,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
               );
               if (confirm != true) return;
               await StorageService.clearAll();
+              if (!context.mounted) return;
               widget.onDataCleared();
-              if (mounted) {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('모든 단어가 삭제되었습니다.')),
-                );
-              }
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('모든 단어가 삭제되었습니다.')),
+              );
             },
           ),
           const Divider(),

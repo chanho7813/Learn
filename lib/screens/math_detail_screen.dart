@@ -53,10 +53,7 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          widget.exam.title,
-          style: const TextStyle(fontSize: 14),
-        ),
+        title: Text(widget.exam.title, style: const TextStyle(fontSize: 14)),
       ),
       body: Column(
         children: [
@@ -72,14 +69,16 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
                         : null,
                     icon: const Icon(Icons.chevron_left),
                     style: IconButton.styleFrom(
-                      backgroundColor:
-                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                      backgroundColor: colorScheme.surfaceContainerHighest
+                          .withAlpha(128),
                     ),
                   ),
                   const SizedBox(width: 12),
                   Container(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 24, vertical: 8),
+                      horizontal: 24,
+                      vertical: 8,
+                    ),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
@@ -104,8 +103,8 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
                         : null,
                     icon: const Icon(Icons.chevron_right),
                     style: IconButton.styleFrom(
-                      backgroundColor:
-                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                      backgroundColor: colorScheme.surfaceContainerHighest
+                          .withAlpha(128),
                     ),
                   ),
                 ],
@@ -185,33 +184,152 @@ class _QuestionCard extends StatelessWidget {
             fontSize: fontSize,
             color: colorScheme.onSurface,
           ),
+          if (question.statementBox.isNotEmpty) ...[
+            const SizedBox(height: 16),
+            _StatementBox(
+              lines: question.statementBox,
+              title: question.statementBoxTitle,
+              fontSize: fontSize,
+            ),
+          ],
+          if (question.stemAfterBox.isNotEmpty) ...[
+            const SizedBox(height: 16),
+            MathTex(
+              text: question.stemAfterBox,
+              fontSize: fontSize,
+              color: colorScheme.onSurface,
+            ),
+          ],
           if (question.choices.isNotEmpty) ...[
             const SizedBox(height: 16),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(14),
-              decoration: BoxDecoration(
-                color: colorScheme.surfaceContainerHighest.withAlpha(51),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: question.choices.map((c) {
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 8),
-                    child: MathTex(
-                      text: '${c.label} ${c.text}',
-                      fontSize: fontSize - 1,
-                      color: colorScheme.onSurface.withAlpha(204),
-                    ),
-                  );
-                }).toList(),
-              ),
-            ),
+            _ChoiceGrid(choices: question.choices, fontSize: fontSize),
           ],
         ],
       ),
     );
+  }
+}
+
+class _StatementBox extends StatelessWidget {
+  final List<MathStatement> lines;
+  final String title;
+  final double fontSize;
+
+  const _StatementBox({
+    required this.lines,
+    required this.title,
+    required this.fontSize,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(14, 10, 14, 14),
+      decoration: BoxDecoration(
+        border: Border.all(color: colorScheme.outlineVariant, width: 1),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (title.isNotEmpty) ...[
+            Center(
+              child: Text(
+                title,
+                style: theme.textTheme.labelLarge?.copyWith(
+                  fontWeight: FontWeight.w700,
+                  color: colorScheme.onSurface,
+                ),
+              ),
+            ),
+            const SizedBox(height: 8),
+          ],
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              for (var i = 0; i < lines.length; i++)
+                Padding(
+                  padding: EdgeInsets.only(
+                    bottom: i == lines.length - 1 ? 0 : 8,
+                  ),
+                  child: MathTex(
+                    text: _formatLine(lines[i]),
+                    fontSize: fontSize - 1,
+                    color: colorScheme.onSurface,
+                  ),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _formatLine(MathStatement statement) {
+    if (statement.label.isEmpty) return statement.text;
+    return '${statement.label} ${statement.text}';
+  }
+}
+
+class _ChoiceGrid extends StatelessWidget {
+  final List<MathChoice> choices;
+  final double fontSize;
+
+  const _ChoiceGrid({required this.choices, required this.fontSize});
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: colorScheme.surfaceContainerHighest.withAlpha(51),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          const spacing = 28.0;
+          const runSpacing = 12.0;
+          final columns = _columnCount(constraints.maxWidth);
+          final itemWidth =
+              (constraints.maxWidth - spacing * (columns - 1)) / columns;
+
+          return Wrap(
+            spacing: spacing,
+            runSpacing: runSpacing,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            children: choices.map((choice) {
+              return SizedBox(
+                width: itemWidth,
+                child: MathTex(
+                  text: '${choice.label} ${choice.text}',
+                  fontSize: fontSize - 1,
+                  color: colorScheme.onSurface.withAlpha(204),
+                ),
+              );
+            }).toList(),
+          );
+        },
+      ),
+    );
+  }
+
+  int _columnCount(double width) {
+    final longestChoice = choices.fold<int>(
+      0,
+      (longest, choice) =>
+          choice.text.length > longest ? choice.text.length : longest,
+    );
+
+    if (width < 420 || longestChoice > 90) return 1;
+    if (width < 760 || longestChoice > 40) return 2;
+    return 4;
   }
 }
 
@@ -281,10 +399,7 @@ class _AnswerHint extends StatelessWidget {
       decoration: BoxDecoration(
         color: colorScheme.primaryContainer.withAlpha(77),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: colorScheme.primary.withAlpha(77),
-          width: 1,
-        ),
+        border: Border.all(color: colorScheme.primary.withAlpha(77), width: 1),
       ),
       child: Row(
         children: [
