@@ -12,6 +12,17 @@ String _cleanWord(String raw) {
   return cleaned.toLowerCase();
 }
 
+String _stripInlineMarkup(String raw) {
+  return raw.replaceAll(RegExp(r'</?u>'), '');
+}
+
+class _InlineTextSegment {
+  final String text;
+  final bool underlined;
+
+  const _InlineTextSegment(this.text, {required this.underlined});
+}
+
 class EnglishDetailScreen extends StatefulWidget {
   final EnglishExam exam;
 
@@ -23,13 +34,23 @@ class EnglishDetailScreen extends StatefulWidget {
 
 class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
   final Set<String> _selectedWords = {};
+  final TextEditingController _passageSearchController =
+      TextEditingController();
   double _fontSize = 16.0;
   int _currentIndex = 0;
+  bool _isSearchingPassage = false;
+  String _passageSearch = '';
 
   @override
   void initState() {
     super.initState();
     _loadSettings();
+  }
+
+  @override
+  void dispose() {
+    _passageSearchController.dispose();
+    super.dispose();
   }
 
   Future<void> _loadSettings() async {
@@ -50,6 +71,28 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
       _currentIndex = clamped;
     });
     SettingsService.setLastEnglishSection(clamped);
+  }
+
+  void _togglePassageSearch() {
+    setState(() {
+      _isSearchingPassage = !_isSearchingPassage;
+      if (!_isSearchingPassage) {
+        _passageSearch = '';
+        _passageSearchController.clear();
+      }
+    });
+  }
+
+  int _passageSearchHitCount(EnglishQuestion question) {
+    final query = _passageSearch.trim();
+    if (query.isEmpty) return 0;
+
+    final pattern = RegExp(RegExp.escape(query), caseSensitive: false);
+    return question.passageSentences.fold<int>(
+      0,
+      (count, sentence) =>
+          count + pattern.allMatches(_stripInlineMarkup(sentence)).length,
+    );
   }
 
   Future<void> _analyzeWord(String word, String sentence) async {
@@ -94,9 +137,7 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
       if (!mounted) return;
       Navigator.pop(context);
       final msg = e.toString().replaceFirst('Exception: ', '');
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(msg)),
-      );
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
     }
   }
 
@@ -119,8 +160,9 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                 return Container(
                   decoration: BoxDecoration(
                     color: theme.scaffoldBackgroundColor,
-                    borderRadius:
-                        const BorderRadius.vertical(top: Radius.circular(20)),
+                    borderRadius: const BorderRadius.vertical(
+                      top: Radius.circular(20),
+                    ),
                   ),
                   child: ListView(
                     controller: scrollController,
@@ -146,9 +188,8 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                               children: [
                                 Text(
                                   result.word,
-                                  style: theme.textTheme.headlineSmall?.copyWith(
-                                    fontWeight: FontWeight.w800,
-                                  ),
+                                  style: theme.textTheme.headlineSmall
+                                      ?.copyWith(fontWeight: FontWeight.w800),
                                 ),
                                 if (result.pronunciation.isNotEmpty)
                                   Text(
@@ -164,28 +205,36 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                             onPressed: added
                                 ? null
                                 : () async {
-                                    final count =
-                                        await StorageService.addWords([result]);
+                                    final count = await StorageService.addWords(
+                                      [result],
+                                    );
                                     if (count > 0) {
-                                      setState(() => _selectedWords
-                                          .add(result.word.toLowerCase()));
+                                      setState(
+                                        () => _selectedWords.add(
+                                          result.word.toLowerCase(),
+                                        ),
+                                      );
                                       setSheetState(() => added = true);
                                       if (mounted) {
-                                        ScaffoldMessenger.of(context)
-                                            .showSnackBar(
+                                        ScaffoldMessenger.of(
+                                          context,
+                                        ).showSnackBar(
                                           SnackBar(
-                                              content: Text(
-                                                  '\'${result.word}\' 단어장에 추가됨')),
+                                            content: Text(
+                                              '\'${result.word}\' 단어장에 추가됨',
+                                            ),
+                                          ),
                                         );
                                       }
                                     } else {
                                       setSheetState(() => added = true);
                                       if (mounted) {
-                                        ScaffoldMessenger.of(context)
-                                            .showSnackBar(
+                                        ScaffoldMessenger.of(
+                                          context,
+                                        ).showSnackBar(
                                           const SnackBar(
-                                              content:
-                                                  Text('이미 단어장에 있는 단어입니다')),
+                                            content: Text('이미 단어장에 있는 단어입니다'),
+                                          ),
                                         );
                                       }
                                     }
@@ -210,8 +259,11 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                         const SizedBox(height: 14),
                         Row(
                           children: [
-                            Icon(Icons.history_edu,
-                                size: 16, color: Colors.orange),
+                            Icon(
+                              Icons.history_edu,
+                              size: 16,
+                              color: Colors.orange,
+                            ),
                             const SizedBox(width: 6),
                             Text(
                               '어원',
@@ -223,9 +275,12 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                           ],
                         ),
                         const SizedBox(height: 4),
-                        Text(result.etymology,
-                            style:
-                                theme.textTheme.bodySmall?.copyWith(height: 1.4)),
+                        Text(
+                          result.etymology,
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            height: 1.4,
+                          ),
+                        ),
                         if (result.etymologyExplain.isNotEmpty)
                           Text(
                             '→ ${result.etymologyExplain}',
@@ -297,11 +352,13 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          widget.exam.title,
-          style: const TextStyle(fontSize: 14),
-        ),
+        title: Text(widget.exam.title, style: const TextStyle(fontSize: 14)),
         actions: [
+          IconButton(
+            onPressed: _togglePassageSearch,
+            icon: Icon(_isSearchingPassage ? Icons.close : Icons.search),
+            tooltip: _isSearchingPassage ? '검색 닫기' : '지문 검색',
+          ),
           if (_selectedWords.isNotEmpty)
             Badge(
               label: Text('${_selectedWords.length}'),
@@ -314,6 +371,39 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
       ),
       body: Column(
         children: [
+          if (_isSearchingPassage)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+              child: TextField(
+                controller: _passageSearchController,
+                autofocus: true,
+                textInputAction: TextInputAction.search,
+                onChanged: (value) => setState(() {
+                  _passageSearch = value;
+                }),
+                decoration: InputDecoration(
+                  isDense: true,
+                  prefixIcon: const Icon(Icons.search),
+                  hintText: '현재 지문에서 검색',
+                  helperText: _passageSearch.trim().isEmpty
+                      ? null
+                      : '${_passageSearchHitCount(q)}개 일치',
+                  suffixIcon: _passageSearch.isEmpty
+                      ? null
+                      : IconButton(
+                          onPressed: () {
+                            _passageSearchController.clear();
+                            setState(() => _passageSearch = '');
+                          },
+                          icon: const Icon(Icons.clear),
+                          tooltip: '검색어 지우기',
+                        ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+              ),
+            ),
           if (questions.length > 1)
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
@@ -326,14 +416,16 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                         : null,
                     icon: const Icon(Icons.chevron_left),
                     style: IconButton.styleFrom(
-                      backgroundColor:
-                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                      backgroundColor: colorScheme.surfaceContainerHighest
+                          .withAlpha(128),
                     ),
                   ),
                   const SizedBox(width: 12),
                   Container(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 24, vertical: 8),
+                      horizontal: 24,
+                      vertical: 8,
+                    ),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
@@ -358,8 +450,8 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                         : null,
                     icon: const Icon(Icons.chevron_right),
                     style: IconButton.styleFrom(
-                      backgroundColor:
-                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                      backgroundColor: colorScheme.surfaceContainerHighest
+                          .withAlpha(128),
                     ),
                   ),
                 ],
@@ -383,7 +475,9 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                       width: double.infinity,
                       padding: const EdgeInsets.all(14),
                       decoration: BoxDecoration(
-                        color: colorScheme.surfaceContainerHighest.withAlpha(51),
+                        color: colorScheme.surfaceContainerHighest.withAlpha(
+                          51,
+                        ),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Text(
@@ -397,27 +491,26 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                     const SizedBox(height: 16),
                   ],
                   if (q.passageSentences.isNotEmpty) ...[
-                    ...q.passageSentences.map((sentence) {
-                      return Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 16, vertical: 14),
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(12),
-                            border: Border.all(
-                              color: colorScheme.outlineVariant.withAlpha(51),
-                              width: 0.5,
-                            ),
-                          ),
-                          child: Wrap(
-                            children: _buildWordWidgets(
-                                sentence, colorScheme),
-                          ),
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 14,
+                      ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        border: Border.all(
+                          color: colorScheme.outlineVariant.withAlpha(51),
+                          width: 0.5,
                         ),
-                      );
-                    }),
+                      ),
+                      child: Wrap(
+                        children: _buildPassageWidgets(
+                          q.passageSentences,
+                          colorScheme,
+                        ),
+                      ),
+                    ),
                     const SizedBox(height: 12),
                   ],
                   if (q.question != null && q.question!.isNotEmpty) ...[
@@ -485,45 +578,169 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
     );
   }
 
-  List<Widget> _buildWordWidgets(String sentence, ColorScheme colorScheme) {
-    final words = sentence.split(' ');
-    return List.generate(words.length, (i) {
-      final word = words[i];
-      final clean = _cleanWord(word);
-      final isSelected = clean.isNotEmpty && _selectedWords.contains(clean);
-      final display = i < words.length - 1 ? '$word ' : word;
+  List<Widget> _buildPassageWidgets(
+    List<String> sentences,
+    ColorScheme colorScheme,
+  ) {
+    final widgets = <Widget>[];
+    for (var i = 0; i < sentences.length; i++) {
+      final sentence = sentences[i].trim();
+      if (sentence.isEmpty) continue;
+      widgets.addAll(
+        _buildWordWidgets(
+          sentence,
+          colorScheme,
+          highlightSearch: true,
+          appendTrailingSpace: i < sentences.length - 1,
+        ),
+      );
+    }
+    return widgets;
+  }
 
-      if (clean.isEmpty) {
-        return Text(
-          display,
+  List<Widget> _buildWordWidgets(
+    String sentence,
+    ColorScheme colorScheme, {
+    bool highlightSearch = false,
+    bool appendTrailingSpace = false,
+  }) {
+    final plainSentence = _stripInlineMarkup(sentence);
+    final segments = _parseInlineSegments(sentence);
+    final query = _passageSearch.trim().toLowerCase();
+    final widgets = <Widget>[];
+
+    for (final segment in segments) {
+      final matches = RegExp(r'\s+|\S+').allMatches(segment.text);
+      for (final match in matches) {
+        final token = match.group(0) ?? '';
+        if (token.isEmpty) continue;
+
+        if (token.trim().isEmpty) {
+          widgets.add(
+            Text(
+              token,
+              style: TextStyle(
+                fontSize: _fontSize,
+                height: 1.6,
+                color: colorScheme.onSurface,
+              ),
+            ),
+          );
+          continue;
+        }
+
+        widgets.add(
+          _buildTextToken(
+            token,
+            plainSentence,
+            colorScheme,
+            highlightSearch: highlightSearch,
+            underlined: segment.underlined,
+            query: query,
+          ),
+        );
+      }
+    }
+
+    if (appendTrailingSpace) {
+      widgets.add(
+        Text(
+          ' ',
           style: TextStyle(
             fontSize: _fontSize,
             height: 1.6,
             color: colorScheme.onSurface,
           ),
-        );
-      }
-
-      return GestureDetector(
-        onLongPress: () => _analyzeWord(clean, sentence),
-        child: Container(
-          decoration: isSelected
-              ? BoxDecoration(
-                  color: colorScheme.primary.withAlpha(38),
-                  borderRadius: BorderRadius.circular(3),
-                )
-              : null,
-          child: Text(
-            display,
-            style: TextStyle(
-              fontSize: _fontSize,
-              height: 1.6,
-              color: isSelected ? colorScheme.primary : colorScheme.onSurface,
-              fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400,
-            ),
-          ),
         ),
       );
-    });
+    }
+
+    return widgets;
+  }
+
+  List<_InlineTextSegment> _parseInlineSegments(String sentence) {
+    final segments = <_InlineTextSegment>[];
+    final pattern = RegExp(r'<u>(.*?)</u>', dotAll: true);
+    var index = 0;
+
+    for (final match in pattern.allMatches(sentence)) {
+      if (match.start > index) {
+        segments.add(
+          _InlineTextSegment(
+            sentence.substring(index, match.start),
+            underlined: false,
+          ),
+        );
+      }
+      segments.add(_InlineTextSegment(match.group(1) ?? '', underlined: true));
+      index = match.end;
+    }
+
+    if (index < sentence.length) {
+      segments.add(
+        _InlineTextSegment(sentence.substring(index), underlined: false),
+      );
+    }
+
+    return segments.isEmpty
+        ? [_InlineTextSegment(sentence, underlined: false)]
+        : segments;
+  }
+
+  Widget _buildTextToken(
+    String word,
+    String sentence,
+    ColorScheme colorScheme, {
+    required bool highlightSearch,
+    required bool underlined,
+    required String query,
+  }) {
+    final clean = _cleanWord(word);
+    final isSelected = clean.isNotEmpty && _selectedWords.contains(clean);
+    final isSearchHit =
+        highlightSearch &&
+        query.isNotEmpty &&
+        word.toLowerCase().contains(query);
+
+    if (clean.isEmpty) {
+      return Text(
+        word,
+        style: TextStyle(
+          fontSize: _fontSize,
+          height: 1.6,
+          color: colorScheme.onSurface,
+          decoration: underlined ? TextDecoration.underline : null,
+          decorationThickness: underlined ? 1.2 : null,
+        ),
+      );
+    }
+
+    return GestureDetector(
+      onLongPress: () => _analyzeWord(clean, sentence),
+      child: Container(
+        decoration: isSearchHit
+            ? BoxDecoration(
+                color: Colors.amber.withAlpha(90),
+                borderRadius: BorderRadius.circular(3),
+              )
+            : isSelected
+            ? BoxDecoration(
+                color: colorScheme.primary.withAlpha(38),
+                borderRadius: BorderRadius.circular(3),
+              )
+            : null,
+        child: Text(
+          word,
+          style: TextStyle(
+            fontSize: _fontSize,
+            height: 1.6,
+            color: isSelected ? colorScheme.primary : colorScheme.onSurface,
+            fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400,
+            decoration: underlined ? TextDecoration.underline : null,
+            decorationThickness: underlined ? 1.2 : null,
+          ),
+        ),
+      ),
+    );
   }
 }

@@ -3,15 +3,13 @@
   "institution_ko": "중앙대",
   "year": 2024,
   "exam_kind": "english",
-  "source_text_file": "chungang_2024_english_extracted_complete.txt",
   "question_count": 40,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
@@ -38,8 +36,7 @@
           "label": "④",
           "text": "glide"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. As we walked together, she’d now and then lurch into me.\nCHOICES:\n① stagger\n② jive\n③ saunter\n④ glide"
+      ]
     },
     {
       "number": 2,
@@ -65,8 +62,7 @@
           "label": "④",
           "text": "silverware"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. We manufacture in quality and, relatively speaking, in price the finest and best value crockery in the world.\nCHOICES:\n① cutlery\n② dish\n③ glassware\n④ silverware"
+      ]
     },
     {
       "number": 3,
@@ -92,8 +88,7 @@
           "label": "④",
           "text": "override"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. If citizens respond in a negative way to what we are saying, we should be the last people to reprehend them.\nCHOICES:\n① fulminate\n② approve\n③ eulogize\n④ override"
+      ]
     },
     {
       "number": 4,
@@ -119,8 +114,7 @@
           "label": "④",
           "text": "correctified"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Development programs have been vitiated by the rise in population.\nCHOICES:\n① vilified\n② accentuated\n③ invalidated\n④ correctified"
+      ]
     },
     {
       "number": 5,
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "freshet"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. I am very happy to be able to provide you with this victual.\nCHOICES:\n① ticket\n② food\n③ truce\n④ freshet"
+      ]
     },
     {
       "number": 6,
@@ -173,8 +166,7 @@
           "label": "④",
           "text": "soporific"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The centurion found the wells in this area were brackish.\nCHOICES:\n① gooey\n② palatable\n③ saline\n④ soporific"
+      ]
     },
     {
       "number": 7,
@@ -200,8 +192,7 @@
           "label": "④",
           "text": "postmortem"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The difficulties anticipated by the doctors at parturition did not materialize.\nCHOICES:\n① diagnosis\n② delivery\n③ operation\n④ postmortem"
+      ]
     },
     {
       "number": 8,
@@ -225,8 +216,7 @@
           "label": "④",
           "text": "A: Is that pizza place legit? B: Do you doubt it?"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nCHOICES:\n① A: No one is likely to buy it anymore.\n   B: We’d better phase it out immediately.\n② A: When are we going to open?\n   B: Christmas day. The schedule is tight, but we can pull this down.\n③ A: Welcome to my office. How was the weather getting in?\n   B: I am in a hurry. Let’s cut to the chase.\n④ A: Is that pizza place legit?\n   B: Do you doubt it?"
+      ]
     },
     {
       "number": 9,
@@ -250,8 +240,7 @@
           "label": "④",
           "text": "A: He’s fallen head over heel about her. B: No wonder. She is a knockout."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nCHOICES:\n① A: I have to wade through the hefty document.\n   B: That is right. You need to skim the surface of the subject.\n② A: For her re-election, Sam must have pulled up her socks and decided to go the extra mile.\n   B: You bet. Every dog has its day.\n③ A: I am sure I will hit the jackpot this time.\n   B: Wait. Don’t count your chickens before they hatch.\n④ A: He’s fallen head over heel about her.\n   B: No wonder. She is a knockout."
+      ]
     },
     {
       "number": 10,
@@ -278,8 +267,7 @@
           "label": "④",
           "text": "No error"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. For companies like FedEx, the optimization problem of efficiently routing holiday packages is so complicated that they often employ highly specializing software to find a solution. No error.\nQUESTION:\n밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.\nCHOICES:\n① optimization\n② routing\n③ specializing\n④ No error"
+      ]
     },
     {
       "number": 11,
@@ -306,8 +294,7 @@
           "label": "④",
           "text": "No error"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. This concept was developed in the 1970 by a group of Dutch women dissatisfied with the increasing importation of food and the decreasing number of farms and farmers in their communities. No error.\nQUESTION:\n밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.\nCHOICES:\n① in the 1970\n② the increasing\n③ their communities\n④ No error"
+      ]
     },
     {
       "number": 12,
@@ -334,8 +321,7 @@
           "label": "④",
           "text": "No error"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Lewis Rutherford was educated as a lawyer, and among his inventions was a micrometer for the measure of astronomical photographs. No error.\nQUESTION:\n밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.\nCHOICES:\n① was educated\n② was a micrometer\n③ measure\n④ No error"
+      ]
     },
     {
       "number": 13,
@@ -361,8 +347,7 @@
           "label": "④",
           "text": "homilies"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. He was sickened by _______ and panegyrics expressed by speakers who had previously been among the first to slander the man.\nCHOICES:\n① anecdotes\n② stipends\n③ encomiums\n④ homilies"
+      ]
     },
     {
       "number": 14,
@@ -388,8 +373,7 @@
           "label": "④",
           "text": "redoubtable"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Even though the king was a(n) _______ man, the sudden attack took him by surprise, and his resistance was short-lived.\nCHOICES:\n① inane\n② germinal\n③ congenial\n④ redoubtable"
+      ]
     },
     {
       "number": 15,
@@ -415,8 +399,7 @@
           "label": "④",
           "text": "buttress"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. In 1633, the inquisition of the Roman Catholic Church forced Galileo Galilei to _______ his theory that the Earth moves around the Sun.\nCHOICES:\n① recant\n② retard\n③ beatify\n④ buttress"
+      ]
     },
     {
       "number": 16,
@@ -442,8 +425,7 @@
           "label": "④",
           "text": "depression"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. The cycles include a wide variety of factors that cause the economy to go from recession to _______ to recession over a period of years.\nCHOICES:\n① anomaly\n② obloquy\n③ expansion\n④ depression"
+      ]
     },
     {
       "number": 17,
@@ -469,8 +451,7 @@
           "label": "④",
           "text": "collaborated with"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. The prominence of the independent filmmaker at this time underscores the fact that filmmaking largely remained an individual enterprise at the outset of the twentieth century, _______ the corporatist structure of film production that became synonymous with Hollywood and the studio system by the 1920s.\nCHOICES:\n① removed from\n② associated with\n③ resulted from\n④ collaborated with"
+      ]
     },
     {
       "number": 18,
@@ -496,8 +477,7 @@
           "label": "④",
           "text": "commandeer"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Arriving in New Orleans days after Hurricane Katrina had passed and without an adequate number of vehicles of its own, the armed forces began to _______ any working form of transportation they could find.\nCHOICES:\n① abrogate\n② encumber\n③ rehabilitate\n④ commandeer"
+      ]
     },
     {
       "number": 19,
@@ -523,8 +503,7 @@
           "label": "④",
           "text": "benignant"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Some anthropologists contend that the ancient Egyptians switched from grain production to barley after excessive irrigation and salt accumulation made the soil _______ to grains.\nCHOICES:\n① inhospitable\n② acrimonious\n③ evanescent\n④ benignant"
+      ]
     },
     {
       "number": 20,
@@ -550,8 +529,7 @@
           "label": "④",
           "text": "rudimentary"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Because mercury has a variety of innocuous uses, including in thermometers and dental fillings, few people realize that it is one of the most _______ substances on the planet.\nCHOICES:\n① congenital\n② deleterious\n③ antiquated\n④ rudimentary"
+      ]
     },
     {
       "number": 21,
@@ -583,8 +561,7 @@
           "label": "④",
           "text": "nomenclatures"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. The government of Madagascar has recently designated portions of the territory and the surrounding islands as protected reserves for wildlife.\n2. Madagascar is home to a vast array of unique, exotic creatures.\n3. One such animal is the aye-aye.\n4. Initially categorized as a member of the order Rodentia, the aye-aye is more closely related to the lemur, a member of the primate order.\n5. Since the aye-aye is so different from its fellow primates, however, it was given its own family: Daubento-niidae.\n6. The aye-aye is perhaps best known for its large, round eyes and long, extremely thin middle finger.\n7. These _______ are quite sensible, allowing the aye-aye to be awake at night and retrieve grubs, which are one of its primary food sources, from deep within hollow branches.\nCHOICES:\n① adaptations\n② similitudes\n③ prototypes\n④ nomenclatures"
+      ]
     },
     {
       "number": 22,
@@ -614,8 +591,7 @@
           "label": "④",
           "text": "abandoning — compromising — influenced"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. By the late 1880s and early 1890s, Impressionism was a firmly established feature of the art landscape, familiar even outside France, and was continually attracting new followers.\n2. Its fate was that of every modern creative concept: on the one hand, traditionalists continued to combat the movement, accusing it of _______ aesthetic norms and, in the broadest of political terms, of undermining the existing order; on the other hand, Impressionism had itself become the target of newer movements with their own new scales of values.\n3. Any style is necessarily one-sided and will offer opponents a purchase if they choose to highlight its shortcomings.\n4. The Impressionists no longer saw any point in _______ with academic views in order to gain entry to the Salon.\n5. Indeed, certain aspects of the Impressionist programme had meanwhile _______ the art that was given official support.\nCHOICES:\n① adhering to — aligning — mirrored\n② embracing — opposing — contrasted\n③ challenging — departing — superseded\n④ abandoning — compromising — influenced"
+      ]
     },
     {
       "number": 23,
@@ -646,8 +622,7 @@
           "label": "④",
           "text": "alignment — beneficial"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Medical practice at the beginning of the 17th century was still largely based on the system of medicine introduced by Hippocrates.\n2. This had been consolidated as a comprehensive theoretical system of treatment by Galen in the 2nd century.\n3. It was believed that disease was caused by the _______ of the body's four humours.\n4. Physicians examined their patients to determine which humour was in excess and prescribed accordingly.\n5. Many of the treatments involved bleeding, purgatives, diaphoretics and clysters (enemas) to rid the body of these _______ influences.\n6. It was not unusual for heroic treatment to further weaken an already weak patient, although presumably those of a more robust constitution took such medicine in their stride.\nCHOICES:\n① proportion — neutral\n② composition — natural\n③ imbalance — noxious\n④ alignment — beneficial"
+      ]
     },
     {
       "number": 24,
@@ -678,8 +653,7 @@
           "label": "④",
           "text": "indigenous — isotopic"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Microbes probably took root on land early in Earth history, but it is plants that changed the world, providing both food and physical structure for complex terrestrial ecosystems.\n2. Today, some 400,000 species of land plant account for half of Earth’s photosynthesis and an estimated 80 percent of our planet’s total biomass.\n3. Indeed, Earth’s resplendent robe of green is such a _______ feature of our planet that it can be detected from space.\n4. In 1990, as NASA’s Galileo spacecraft winged toward Jupiter, it trained its mechanical eyes on the distant Earth, revealing in our planet’s reflected light a distinctive peak in the so-called Vegetation Red Edge.\n5. This signature arises because land vegetation strongly absorbs incoming visible radiation but reflects _______ wavelengths back to space.\n6. Visitors to the early Earth would have observed no such feature.\nCHOICES:\n① lugubrious — radioactive\n② clairvoyant — embellished\n③ pervasive — infrared\n④ indigenous — isotopic"
+      ]
     },
     {
       "number": 25,
@@ -708,8 +682,7 @@
           "label": "④",
           "text": "barge in"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. The importance of language becomes evident when looking at names and terminology, which carry surprisingly strong meanings.\n2. For example, recent research shows that the language used to describe health threats can affect people’s memory and risk perceptions.\n3. Furthermore, the words we choose can influence how well our listeners _______ new information.\n4. The use of figurative speech and metaphors, for example, can make abstract concepts easier to grasp.\nCHOICES:\n① hand in\n② take in\n③ give in\n④ barge in"
+      ]
     },
     {
       "number": 26,
@@ -740,8 +713,7 @@
           "label": "④",
           "text": "diffused into — losing"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.\nPASSAGE_SENTENCES:\n1. Saltwater fish drink water through their gills, where it is _______ the bloodstream.\n2. Since seawater has a high level of salinity, saltwater fish are at risk of having too much salt in their system.\n3. This problem is overcome by using special cells in the gills and scales that excrete excess salt.\n4. The other main difficulty that saltwater fish face is that they dehydrate easily.\n5. The relative salinity of the seawater that surrounds them is much higher than the water inside their own body, so they are constantly _______ water through osmosis—the process by which water naturally goes from an area of low to high density.\n6. To make up for this, saltwater fish urinate infrequently, and in small and highly concentrated amounts.\nCHOICES:\n① passed through — ensuring\n② infiltrated in — inhaling\n③ enlivened by — keeping\n④ diffused into — losing"
+      ]
     },
     {
       "number": 27,
@@ -787,8 +759,7 @@
           "label": "④",
           "text": "(C) → (A) → (B)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. To go into solitude, a man needs to retire as much from his chamber as from society.\n2. I am not solitary whilst I read and write, though nobody is with me.\n3. But if a man would be alone, let him look at the stars.\n4. (A) The stars awaken a certain reverence, because though always present, they are inaccessible; but all natural objects make a kindred impression, when the mind is open to their influence.\n5. Nature never wears a mean appearance.\n6. Neither does the wisest man extort her secret, and lose his curiosity by finding out all her perfection.\n7. Nature never became a toy to a wise spirit.\n8. The flowers, the animals, the mountains, reflected the wisdom of his best hour, as much as they had delighted the simplicity of his childhood.\n9. (B) When we speak of nature in this manner, we have a distinct but most poetical sense in the mind.\n10. We mean the integrity of impression made by manifold natural objects.\n11. It is this which distinguishes the stick of timber of the wood-cutter, from the tree of the poet.\n12. The charming landscape which I saw this morning, is indubitably made up of some twenty or thirty farms.\n13. Miller owns this field, Locke that, and Manning the woodland beyond.\n14. But none of them owns the landscape.\n15. There is a property in the horizon which no man has but he whose eye can integrate all the parts, that is, the poet.\n16. This is the best part of these men’s farms, yet to this their warranty-deeds give no title.\n17. (C) The rays that come from those heavenly worlds, will separate between him and what he touches.\n18. One might think the atmosphere was made transparent with this design, to give man, in the heavenly bodies, the perpetual presence of the sublime.\n19. Seen in the streets of cities, how great they are!\n20. If the stars should appear one night in a thousand years, how would men believe and adore; and preserve for many generations the remembrance of the city of God which had been shown!\n21. But every night come out these envoys of beauty, and light the universe with their admonishing smile.\nQUESTION:\n위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (B) → (A) → (C)\n② (B) → (C) → (A)\n③ (C) → (B) → (A)\n④ (C) → (A) → (B)"
+      ]
     },
     {
       "number": 28,
@@ -824,8 +795,7 @@
           "label": "④",
           "text": "At the top of Jungfrau, about 12,000 feet above the town of Interlaken in Switzerland, the temperature is usually 42∘ colder than on the ground."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. The layer of air next to the earth, which extends toward for about 10 miles, is known as the troposphere.\n2. On the whole, the troposphere makes up about 75% of all the weight of atmosphere.\n3. It is the warmest part of the atmosphere because most of the solar radiation is absorbed by the earth’s surface, which warms the air immediately surrounding it.\n4. A steady decrease of temperature with increasing elevation is a most striking characteristic of this region, whose upper layers are colder because of their greater distance from the earth’s surface and because of the rapid radiation of heat into space.\n5. Temperatures within the troposphere decrease about 3.5∘ per 1,000-foot increase in altitude.\n6. Within the troposphere, winds and air currents distribute heat and moisture.\n7. Strong winds, called jet streams, are located at the upper levels of the troposphere.\n8. These jet streams are both complex and widespread in occurrence.\n9. They normally show a wave-shaped pattern and move from west to east at velocities of 150 mph, but velocities as high as 400 mph have been noted.\n10. The influences of changing locations and strengths of jet streams upon weather conditions and patterns are no doubt considerable.\n11. Current intensive research may eventually reveal their true significance.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① On average, the velocities in the jet streams within the troposphere are around 275 mph.\n② The atmosphere is thicker than the remaining 25% of the troposphere for its proximity to the earth.\n③ A jet plane will usually have its better rate of speed on its run from Seoul to Washington DC than the other way round.\n④ At the top of Jungfrau, about 12,000 feet above the town of Interlaken in Switzerland, the temperature is usually 42∘ colder than on the ground."
+      ]
     },
     {
       "number": 29,
@@ -867,8 +837,7 @@
           "label": "④",
           "text": "the atomic level"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. While the 20th century was the century of physics, electronics, and communication, the years to come are considered to be mainly dominated by the biological revolution that already started in the second half of the 20th century as well as nanotechnology.\n2. It is an exciting new front that deals with minuscule nanometer-scaled assemblies and devices.\n3. Traditionally, miniaturization was a process in which devices became smaller and smaller by continuous improvement of existing techniques.\n4. Yet, we rapidly approach the limits of miniaturization using the conventional top-down fabrication tools.\n5. One of the key futuristic ways of making tiny machines will be to scale them up from _______.\n6. For that purpose, many lessons could be learned about the arrangement of nano-scale machines as occurs in each and every biological system.\n7. The living cell is actually the only place in which genuine functional molecular machines, as often described in futuristic presentations of nanotechnology, could actually be found.\n8. Molecular motors, ultrasensitive nano-scale sensors, DNA replication machines, protein synthesis machines, and many other miniature devices exist even in the very simple early pre-bacterial cells that evolved more than 3 billion years ago.\n9. When we climb higher on the evolution tree, the nanomachines of course become more sophisticated and powerful.\n10. Yet, only billions of years after life emerged, we are beginning to utilize the concepts of recognition and assembly that lead to the formation of nano-scale machines for our technological needs.\n11. On the other hand many principles and applications of nano-technology that were developed for non-biological systems could be very useful for immediate biological applications such as advanced sensors and molecular scaffolds for tissue engineering as well as long-term prospects such as in situ modifications at the protein and DNA levels.\n12. While the fields of nanobiotechnology and bionanotechnology are very new, their prospects are immense.\n13. The marriage between biotechnology and nanotechnology could lead to a dramatic advancement in the medical sciences.\n14. It may well be a place in which many of the current diseases and human disorders will be eradicated.\n15. In a reasonable time-scale, cancer and AIDS may be regarded in the same way that polio and tuberculosis are being considered now.\n16. Genetic defects could be identified and corrected already even before birth.\n17. Nano-scale robots that may be inserted into our body could perform very complicated surgical tasks such as a brain surgery.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① the bacterial level\n② the physical level\n③ the molecular level\n④ the atomic level"
+      ]
     },
     {
       "number": 30,
@@ -910,8 +879,7 @@
           "label": "④",
           "text": "Nano-scale robots and machines could revolutionize the medical technologies, performing intricate surgeries and cellular-level manipulations."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. While the 20th century was the century of physics, electronics, and communication, the years to come are considered to be mainly dominated by the biological revolution that already started in the second half of the 20th century as well as nanotechnology.\n2. It is an exciting new front that deals with minuscule nanometer-scaled assemblies and devices.\n3. Traditionally, miniaturization was a process in which devices became smaller and smaller by continuous improvement of existing techniques.\n4. Yet, we rapidly approach the limits of miniaturization using the conventional top-down fabrication tools.\n5. One of the key futuristic ways of making tiny machines will be to scale them up from _______.\n6. For that purpose, many lessons could be learned about the arrangement of nano-scale machines as occurs in each and every biological system.\n7. The living cell is actually the only place in which genuine functional molecular machines, as often described in futuristic presentations of nanotechnology, could actually be found.\n8. Molecular motors, ultrasensitive nano-scale sensors, DNA replication machines, protein synthesis machines, and many other miniature devices exist even in the very simple early pre-bacterial cells that evolved more than 3 billion years ago.\n9. When we climb higher on the evolution tree, the nanomachines of course become more sophisticated and powerful.\n10. Yet, only billions of years after life emerged, we are beginning to utilize the concepts of recognition and assembly that lead to the formation of nano-scale machines for our technological needs.\n11. On the other hand many principles and applications of nano-technology that were developed for non-biological systems could be very useful for immediate biological applications such as advanced sensors and molecular scaffolds for tissue engineering as well as long-term prospects such as in situ modifications at the protein and DNA levels.\n12. While the fields of nanobiotechnology and bionanotechnology are very new, their prospects are immense.\n13. The marriage between biotechnology and nanotechnology could lead to a dramatic advancement in the medical sciences.\n14. It may well be a place in which many of the current diseases and human disorders will be eradicated.\n15. In a reasonable time-scale, cancer and AIDS may be regarded in the same way that polio and tuberculosis are being considered now.\n16. Genetic defects could be identified and corrected already even before birth.\n17. Nano-scale robots that may be inserted into our body could perform very complicated surgical tasks such as a brain surgery.\nQUESTION:\n위 글을 통해 추론할 수 없는 것을 고르시오.\nCHOICES:\n① The 21st century is dominated by biological revolution and nanotechnology, a shift from traditional sciences.\n② Nanobiotechnology barely promises treatments for diseases such as cancer and AIDS, similar to the way cures were found for polio and tuberculosis.\n③ Miniaturization approaches its limits; future technology focuses on nano-scale machine development.\n④ Nano-scale robots and machines could revolutionize the medical technologies, performing intricate surgeries and cellular-level manipulations."
+      ]
     },
     {
       "number": 31,
@@ -947,8 +915,7 @@
           "label": "④",
           "text": "weighty"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. In Baltimore, as in many communities with a lot of drug addicts, the city sends out a van stocked with thousands of clean syringes to certain street corners in its inner-city neighborhoods at certain times in a week.\n2. The idea is that for every dirty, used needle that addicts hand over, they can get a free clean needle in return.\n3. (A)In principle, needle exchange sounds like a good way to fight AIDS, since the reuse of old HIV-infected needles is responsible for so much of the virus’s spread.\n4. But, at least on first examination, it seems to have some (B)obvious limitations.\n5. Addicts, for one, aren’t the most organized and reliable of people.\n6. So what guarantee is there that they are going to be able to regularly (C)break into the needle van?\n7. Second, most heroin addicts go through about one needle a day, shooting up at least five or six times—if not more—until the tip of the syringe becomes so blunt that it is _______.\n8. They need a lot of needles.\n9. How can a van, coming by once a week, serve the needs of addicts who are shooting up (D)around the clock?\n10. What if the van comes by on Tuesday, and by Saturday night an addict has run out?\n11. To analyze how well the needle program was working, researchers at Johns Hopkins University began to ride along with the vans in order to talk to the people handing in needles.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① effective\n② useless\n③ refined\n④ weighty"
+      ]
     },
     {
       "number": 32,
@@ -984,8 +951,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. In Baltimore, as in many communities with a lot of drug addicts, the city sends out a van stocked with thousands of clean syringes to certain street corners in its inner-city neighborhoods at certain times in a week.\n2. The idea is that for every dirty, used needle that addicts hand over, they can get a free clean needle in return.\n3. (A)In principle, needle exchange sounds like a good way to fight AIDS, since the reuse of old HIV-infected needles is responsible for so much of the virus’s spread.\n4. But, at least on first examination, it seems to have some (B)obvious limitations.\n5. Addicts, for one, aren’t the most organized and reliable of people.\n6. So what guarantee is there that they are going to be able to regularly (C)break into the needle van?\n7. Second, most heroin addicts go through about one needle a day, shooting up at least five or six times—if not more—until the tip of the syringe becomes so blunt that it is _______.\n8. They need a lot of needles.\n9. How can a van, coming by once a week, serve the needs of addicts who are shooting up (D)around the clock?\n10. What if the van comes by on Tuesday, and by Saturday night an addict has run out?\n11. To analyze how well the needle program was working, researchers at Johns Hopkins University began to ride along with the vans in order to talk to the people handing in needles.\nQUESTION:\n위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 33,
@@ -1030,8 +996,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. The mental health movement in the United States began with a period of considerable enlightenment.\n2. Dorothea Dix was shocked to find the mentally ill in jails and almshouses and crusaded for the establishment of asylums in which people could receive humane care in hospital-like environments and treatment which might help restore them to sanity.\n3. By the mid 1800s, 20 states had established asylums, but during the late 1800s and early 1900s, in the face of economic depression, legislatures were unable to appropriate sufficient funds for decent care.\n4. (A) Asylums became overcrowded and prison-like.\n5. Additionally, patients were more resistant to treatment than the pioneers in the mental health field had anticipated, and security and restraints were needed to protect patients and others.\n6. Mental institutions became frightening and depressing places in which the rights of patients were all but forgotten.\n7. These conditions continued until after World War II.\n8. At that time, new treatments were discovered for some major mental illnesses theretofore considered untreatable (penicillin for syphilis of the brain and insulin treatment for schizophrenia and depressions), and a succession of books, motion pictures, and newspaper exposés called attention to the plight of the mentally ill.\n9. (B) Improvements were made, and Dr. David Vail’s Humane Practices Program became a beacon for today.\n10. But changes were slow in coming until the early 1960s.\n11. At that time, the Civil Rights movement led lawyers to investigate America’s prisons, which were disproportionately populated by blacks, and they in turn followed prisoners into the only institutions that were worse than the prisons—the hospitals for the criminally insane.\n12. The prisons were filled with angry young men who, encouraged by legal support, were quick to demand their rights.\n13. (C) The young cadre of public interest lawyers liked their role in the mental hospitals.\n14. The lawyers found a population that was both passive and easy to champion.\n15. These were, after all, people who, unlike criminals, had done nothing wrong.\n16. And in many states, they were being kept in horrendous institutions, an injustice, which once exposed, was bound to shock the public and, particularly, the judicial conscience.\n17. Patients’ rights groups successfully encouraged reform by lobbying in state legislatures.\n18. Judicial interventions have had some definite positive effects, but there is growing awareness that courts cannot provide the standards and the review mechanisms that assure good patient care.\n19. (D) The details of providing day-to-day care simply cannot be mandated by a court, so it is time to take from the courts the responsibility for delivery of mental health care and assurance of patients rights and return it to the state mental health administrators to whom the mandate was originally given.\nQUESTION:\n아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. The hospitals for the criminally insane, by contrast, were populated with people who were considered “crazy” and who were often kept obediently in the place through the use of severe bodily restraints and large doses of major tranquilizers.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 34,
@@ -1076,8 +1041,7 @@
           "label": "④",
           "text": "Role of the Judicial Interventions in Improving the Mental Institutions"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. The mental health movement in the United States began with a period of considerable enlightenment.\n2. Dorothea Dix was shocked to find the mentally ill in jails and almshouses and crusaded for the establishment of asylums in which people could receive humane care in hospital-like environments and treatment which might help restore them to sanity.\n3. By the mid 1800s, 20 states had established asylums, but during the late 1800s and early 1900s, in the face of economic depression, legislatures were unable to appropriate sufficient funds for decent care.\n4. (A) Asylums became overcrowded and prison-like.\n5. Additionally, patients were more resistant to treatment than the pioneers in the mental health field had anticipated, and security and restraints were needed to protect patients and others.\n6. Mental institutions became frightening and depressing places in which the rights of patients were all but forgotten.\n7. These conditions continued until after World War II.\n8. At that time, new treatments were discovered for some major mental illnesses theretofore considered untreatable (penicillin for syphilis of the brain and insulin treatment for schizophrenia and depressions), and a succession of books, motion pictures, and newspaper exposés called attention to the plight of the mentally ill.\n9. (B) Improvements were made, and Dr. David Vail’s Humane Practices Program became a beacon for today.\n10. But changes were slow in coming until the early 1960s.\n11. At that time, the Civil Rights movement led lawyers to investigate America’s prisons, which were disproportionately populated by blacks, and they in turn followed prisoners into the only institutions that were worse than the prisons—the hospitals for the criminally insane.\n12. The prisons were filled with angry young men who, encouraged by legal support, were quick to demand their rights.\n13. (C) The young cadre of public interest lawyers liked their role in the mental hospitals.\n14. The lawyers found a population that was both passive and easy to champion.\n15. These were, after all, people who, unlike criminals, had done nothing wrong.\n16. And in many states, they were being kept in horrendous institutions, an injustice, which once exposed, was bound to shock the public and, particularly, the judicial conscience.\n17. Patients’ rights groups successfully encouraged reform by lobbying in state legislatures.\n18. Judicial interventions have had some definite positive effects, but there is growing awareness that courts cannot provide the standards and the review mechanisms that assure good patient care.\n19. (D) The details of providing day-to-day care simply cannot be mandated by a court, so it is time to take from the courts the responsibility for delivery of mental health care and assurance of patients rights and return it to the state mental health administrators to whom the mandate was originally given.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① Development of Mental Health Treatment in Correctional Facilities\n② Reform of Asylums after the Civil Rights Movement\n③ Long-term Care of the Mentally Ill for the Benefit of Community\n④ Role of the Judicial Interventions in Improving the Mental Institutions"
+      ]
     },
     {
       "number": 35,
@@ -1090,7 +1054,7 @@
         "His travels to volcanic areas in Italy led him to the same conclusion.",
         "Lyell practiced law from 1825 to 1827 but poor eyesight suggested he needed a different career, and he chose geology.",
         "He was elected a fellow of the Geological Society in 1826.",
-        "In 1828 he visited the Auvergne volcanic region in south-chungang France with Murchison.",
+        "In 1828 he visited the Auvergne volcanic region in south-central France with Murchison.",
         "In 1831 he was appointed professor at King's College London where he lectured in geology, but did not remain there for long.",
         "His interests turned to publishing a book on geology, possibly for better financial gain compared to that of academia.",
         "He published the first edition of his most important work, Principles of Geology, in three volumes between 1830 and 1833; it was very popular among the general public and underwent twelve editions (the last edition being posthumous).",
@@ -1121,8 +1085,7 @@
           "label": "④",
           "text": "he argued that the Earth had largely been shaped by sudden, short-lived, and violent events."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. By 1829 Lyell was beginning to formulate an idea that would occupy him all his life, namely that present day natural forces could explain all geological events and there was no need for catastrophes in the geologic past.\n2. Cuvier and Brongniart had published an important study of the sediments and fossils of the Paris basin in 1811.\n3. They saw that freshwater shells alternated with marine shells, and they interpreted this to be due to revolutions in Earth history, but Lyell thought the pattern could also be explained by slow alternation between freshwater and marine conditions.\n4. He saw a similarity between present-day Scottish lake sediments that he had studied earlier and the older Paris sediments, and saw no need to invoke Earth revolutions.\n5. His travels to volcanic areas in Italy led him to the same conclusion.\n6. Lyell practiced law from 1825 to 1827 but poor eyesight suggested he needed a different career, and he chose geology.\n7. He was elected a fellow of the Geological Society in 1826.\n8. In 1828 he visited the Auvergne volcanic region in south-chungang France with Murchison.\n9. In 1831 he was appointed professor at King's College London where he lectured in geology, but did not remain there for long.\n10. His interests turned to publishing a book on geology, possibly for better financial gain compared to that of academia.\n11. He published the first edition of his most important work, Principles of Geology, in three volumes between 1830 and 1833; it was very popular among the general public and underwent twelve editions (the last edition being posthumous).\n12. For Lyell, not only were presently operative causes able to explain past events, but _____________.\n13. This made his book quite controversial, especially among catastrophists such as Sedgwick and Conybeare.\n14. Lyell also did not accept that the Earth was undergoing long-term cooling, which would have invalidated his uniformity of nature assumption.\n15. Lord Kelvin, the English physicist repeatedly pointed out that Lyell’s view violated the second law of thermodynamics.\n16. Charles Darwin and Lyell became good friends: “I saw more of Lyell than of any other man both before and after my marriage.\n17. His mind was characterized, as it appeared to me, by clearness, caution, sound judgment and a good deal of originality.”\n18. Lyell welcomed Darwin’s new theory on coral reefs but was much less enthusiastic about Darwin’s natural selection theory in Origin of the Species (1859).\n19. For Lyell, the evolution of the species implied a progressive path which was inconsistent with his repetitive cyclic approach and his concept of uniformity in nature.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① he thought cataclysmic events played a significant role in the formation of the Earth’s surface.\n② he implausibly maintained their intensity was the same as today.\n③ he firmly believed the laws that govern geologic processes had changed during Earth’s history.\n④ he argued that the Earth had largely been shaped by sudden, short-lived, and violent events."
+      ]
     },
     {
       "number": 36,
@@ -1135,7 +1098,7 @@
         "His travels to volcanic areas in Italy led him to the same conclusion.",
         "Lyell practiced law from 1825 to 1827 but poor eyesight suggested he needed a different career, and he chose geology.",
         "He was elected a fellow of the Geological Society in 1826.",
-        "In 1828 he visited the Auvergne volcanic region in south-chungang France with Murchison.",
+        "In 1828 he visited the Auvergne volcanic region in south-central France with Murchison.",
         "In 1831 he was appointed professor at King's College London where he lectured in geology, but did not remain there for long.",
         "His interests turned to publishing a book on geology, possibly for better financial gain compared to that of academia.",
         "He published the first edition of his most important work, Principles of Geology, in three volumes between 1830 and 1833; it was very popular among the general public and underwent twelve editions (the last edition being posthumous).",
@@ -1166,8 +1129,7 @@
           "label": "④",
           "text": "Darwin and Lyell were close; Lyell admired Darwin’s coral reef theory, agreeing with his concept of natural selection."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. By 1829 Lyell was beginning to formulate an idea that would occupy him all his life, namely that present day natural forces could explain all geological events and there was no need for catastrophes in the geologic past.\n2. Cuvier and Brongniart had published an important study of the sediments and fossils of the Paris basin in 1811.\n3. They saw that freshwater shells alternated with marine shells, and they interpreted this to be due to revolutions in Earth history, but Lyell thought the pattern could also be explained by slow alternation between freshwater and marine conditions.\n4. He saw a similarity between present-day Scottish lake sediments that he had studied earlier and the older Paris sediments, and saw no need to invoke Earth revolutions.\n5. His travels to volcanic areas in Italy led him to the same conclusion.\n6. Lyell practiced law from 1825 to 1827 but poor eyesight suggested he needed a different career, and he chose geology.\n7. He was elected a fellow of the Geological Society in 1826.\n8. In 1828 he visited the Auvergne volcanic region in south-chungang France with Murchison.\n9. In 1831 he was appointed professor at King's College London where he lectured in geology, but did not remain there for long.\n10. His interests turned to publishing a book on geology, possibly for better financial gain compared to that of academia.\n11. He published the first edition of his most important work, Principles of Geology, in three volumes between 1830 and 1833; it was very popular among the general public and underwent twelve editions (the last edition being posthumous).\n12. For Lyell, not only were presently operative causes able to explain past events, but _____________.\n13. This made his book quite controversial, especially among catastrophists such as Sedgwick and Conybeare.\n14. Lyell also did not accept that the Earth was undergoing long-term cooling, which would have invalidated his uniformity of nature assumption.\n15. Lord Kelvin, the English physicist repeatedly pointed out that Lyell’s view violated the second law of thermodynamics.\n16. Charles Darwin and Lyell became good friends: “I saw more of Lyell than of any other man both before and after my marriage.\n17. His mind was characterized, as it appeared to me, by clearness, caution, sound judgment and a good deal of originality.”\n18. Lyell welcomed Darwin’s new theory on coral reefs but was much less enthusiastic about Darwin’s natural selection theory in Origin of the Species (1859).\n19. For Lyell, the evolution of the species implied a progressive path which was inconsistent with his repetitive cyclic approach and his concept of uniformity in nature.\nQUESTION:\n위 글의 내용과 일치하지 않는 것을 고르시오.\nCHOICES:\n① Lyell’s view of constant past and present natural forces clashed with catastrophists and violated thermodynamics principles.\n② Lyell argued that slow and continuous natural forces could explain Earth’s geological history.\n③ Lyell, initially a lawyer, became a renowned geologist and authored Principles of Geology.\n④ Darwin and Lyell were close; Lyell admired Darwin’s coral reef theory, agreeing with his concept of natural selection."
+      ]
     },
     {
       "number": 37,
@@ -1205,8 +1167,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Let’s ask the deceptively simple question, What is artificial intelligence?\n2. If you ask someone in the street, they might mention Apple’s Siri, Amazon’s cloud service, Tesla’s cars, or Google’s search algorithm.\n3. If you ask experts in deep learning, they might give you a technical response about how neural nets are organized into dozens of layers that receive labeled data, are assigned weights and thresholds, and can classify data in ways that cannot yet be fully explained.\n4. (A) In 1978, when discussing expert systems, Professor Donald Michie described AI as knowledge refining, where “a reliability and competence of codification can be produced which far surpasses the highest level that the unaided human expert has ever, perhaps even could ever, attain.”\n5. In one of the most popular textbooks on the subject, Stuart Russell and Peter Norvig state that AI is the attempt to understand and build intelligent entities.\n6. “Intelligence is concerned mainly with rational action,“ they claim.\n7. “Ideally, an intelligent agent takes the best possible action in a situation.”\n8. (B) What are the social and material consequences of including AI and related algorithmic systems into the decision-making systems of social institutions like education and health care, finance, government operations, workplace interactions and hiring, communication systems, and the justice system?\n9. There are a lot of issues on code and algorithms or the latest thinking in computer vision or natural language processing or reinforcement learning.\n10. (C) Each way of defining artificial intelligence is doing work, setting a frame for how it will be understood, measured, valued, and governed.\n11. If AI is defined by consumer brands for corporate infrastructure, then marketing and advertising have predetermined the horizon.\n12. If AI systems are seen as more reliable or rational than any human expert, able to take the “best possible action,” then it suggests that they should be trusted to make high-stakes decisions in health, education, and criminal justice.\n13. (D) When specific algorithmic techniques are the sole focus, it suggests that only continual technical progress matters, with no consideration of the computational cost of those approaches and their far-reaching impacts on a planet under strain.\nQUESTION:\n위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 38,
@@ -1244,8 +1205,7 @@
           "label": "④",
           "text": "The computational impacts on AI’s high-stakes decisions"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Let’s ask the deceptively simple question, What is artificial intelligence?\n2. If you ask someone in the street, they might mention Apple’s Siri, Amazon’s cloud service, Tesla’s cars, or Google’s search algorithm.\n3. If you ask experts in deep learning, they might give you a technical response about how neural nets are organized into dozens of layers that receive labeled data, are assigned weights and thresholds, and can classify data in ways that cannot yet be fully explained.\n4. (A) In 1978, when discussing expert systems, Professor Donald Michie described AI as knowledge refining, where “a reliability and competence of codification can be produced which far surpasses the highest level that the unaided human expert has ever, perhaps even could ever, attain.”\n5. In one of the most popular textbooks on the subject, Stuart Russell and Peter Norvig state that AI is the attempt to understand and build intelligent entities.\n6. “Intelligence is concerned mainly with rational action,“ they claim.\n7. “Ideally, an intelligent agent takes the best possible action in a situation.”\n8. (B) What are the social and material consequences of including AI and related algorithmic systems into the decision-making systems of social institutions like education and health care, finance, government operations, workplace interactions and hiring, communication systems, and the justice system?\n9. There are a lot of issues on code and algorithms or the latest thinking in computer vision or natural language processing or reinforcement learning.\n10. (C) Each way of defining artificial intelligence is doing work, setting a frame for how it will be understood, measured, valued, and governed.\n11. If AI is defined by consumer brands for corporate infrastructure, then marketing and advertising have predetermined the horizon.\n12. If AI systems are seen as more reliable or rational than any human expert, able to take the “best possible action,” then it suggests that they should be trusted to make high-stakes decisions in health, education, and criminal justice.\n13. (D) When specific algorithmic techniques are the sole focus, it suggests that only continual technical progress matters, with no consideration of the computational cost of those approaches and their far-reaching impacts on a planet under strain.\nQUESTION:\n위 글의 주제로 가장 적합한 것을 고르시오.\nCHOICES:\n① The primary reason for focusing on AI’s rational and intelligent action\n② The various ways of defining and understanding AI as an intelligent system\n③ The importance of human experts in managing AI systems\n④ The computational impacts on AI’s high-stakes decisions"
+      ]
     },
     {
       "number": 39,
@@ -1285,8 +1245,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. It has been a long-held belief within the field of biology that our DNA is fixed and unchangeable.\n2. While environmental factors may cause us to gain weight, lose a limb, or contract a virus, our underlying genetic sequence will remain constant.\n3. (A)However, this popular view among scientists is beginning to shift towards a more fluid definition of the human genome; a new subfield within genetics, epigenetics, is exploring how environmental factors can actually change the expression of our genetic code throughout the course of our lives.\n4. Epigenetics is the study of heritable changes to the cellular phenotypes of the DNA sequence, changes that have occurred as a result of external environmental factors after conception.\n5. (B)Environmental factors are able to stimulate a particular gene, switching it on or off or altering it in some way.\n6. Through cellular division, the changes to the gene then have the potential to be passed on as heritable traits in subsequent generations.\n7. One way that scientists are delving into epigenetic inquiry is by studying heritability in animals.\n8. (C)Scientists have been able to show that when a rat is subjected to a stressful environment during pregnancy, epigenetic changes to the fetus can engender behavioral problems in the rat’s progeny as they mature and reach adulthood.\n9. Scientists are also using human twins to better understand epigenetics and a related process called DNA methylation.\n10. DNA methylation causes genes to be expressed either stronger or weaker.\n11. By testing DNA samples taken from identical twins, scientists are able to identify areas where DNA methylation has impacted the expression of a particular gene in the sequence.\n12. (D)Since identical twins have identical DNA, creating a methylation profile for each twin allows scientists to account for any subtle to extreme differences in behavior, closing the window to understanding how epigenetic processes affect both our personalities and our genetic code.\n13. Epigenetics is still in the nascent stages of its development as a field of biological study, but it is nonetheless an incredibly exciting and groundbreaking area.\n14. It throws a wrench into Darwin’s theory of evolution since it demonstrates how evolutionary changes can occur within one generation instead of spanning thousands of years.\n15. The possibility of such rapid evolutionary changes has major implications for how we think of not only life on earth but also the power we have to impact it, for better or worse.\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은 것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 40,
@@ -1326,8 +1285,8 @@
           "label": "④",
           "text": "Biological changes are not determined by the function of DNA in both animals and humans."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. It has been a long-held belief within the field of biology that our DNA is fixed and unchangeable.\n2. While environmental factors may cause us to gain weight, lose a limb, or contract a virus, our underlying genetic sequence will remain constant.\n3. (A)However, this popular view among scientists is beginning to shift towards a more fluid definition of the human genome; a new subfield within genetics, epigenetics, is exploring how environmental factors can actually change the expression of our genetic code throughout the course of our lives.\n4. Epigenetics is the study of heritable changes to the cellular phenotypes of the DNA sequence, changes that have occurred as a result of external environmental factors after conception.\n5. (B)Environmental factors are able to stimulate a particular gene, switching it on or off or altering it in some way.\n6. Through cellular division, the changes to the gene then have the potential to be passed on as heritable traits in subsequent generations.\n7. One way that scientists are delving into epigenetic inquiry is by studying heritability in animals.\n8. (C)Scientists have been able to show that when a rat is subjected to a stressful environment during pregnancy, epigenetic changes to the fetus can engender behavioral problems in the rat’s progeny as they mature and reach adulthood.\n9. Scientists are also using human twins to better understand epigenetics and a related process called DNA methylation.\n10. DNA methylation causes genes to be expressed either stronger or weaker.\n11. By testing DNA samples taken from identical twins, scientists are able to identify areas where DNA methylation has impacted the expression of a particular gene in the sequence.\n12. (D)Since identical twins have identical DNA, creating a methylation profile for each twin allows scientists to account for any subtle to extreme differences in behavior, closing the window to understanding how epigenetic processes affect both our personalities and our genetic code.\n13. Epigenetics is still in the nascent stages of its development as a field of biological study, but it is nonetheless an incredibly exciting and groundbreaking area.\n14. It throws a wrench into Darwin’s theory of evolution since it demonstrates how evolutionary changes can occur within one generation instead of spanning thousands of years.\n15. The possibility of such rapid evolutionary changes has major implications for how we think of not only life on earth but also the power we have to impact it, for better or worse.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① Epigenetics is a subfield of biological study focusing on the variability of heritability.\n② Darwin’s theory illustrates the way evolutionary changes go along with epigenetics.\n③ DNA methylation profiles show where DNA structures have affected the environmental factors.\n④ Biological changes are not determined by the function of DNA in both animals and humans."
+      ]
     }
-  ]
+  ],
+  "source_pdf": "중앙_24_영어.pdf"
 }

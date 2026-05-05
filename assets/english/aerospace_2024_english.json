@@ -3,22 +3,20 @@
   "institution_ko": "한국항공대",
   "year": 2024,
   "exam_kind": "english",
-  "source_text_file": "aerospace_2024_english_extracted_complete.txt",
   "question_count": 30,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
       "number": 1,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "The euro approached parity with the U.S. dollar for the first time in over a decade."
+        "The euro approached <u>parity</u> with the U.S. dollar for the first time in over a decade."
       ],
       "question": null,
       "choices": [
@@ -38,14 +36,13 @@
           "label": "④",
           "text": "division"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. The euro approached parity with the U.S. dollar for the first time in over a decade.\nCHOICES:\n① paucity\n② disparity\n③ equality\n④ division"
+      ]
     },
     {
       "number": 2,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "As ingenious as we humans may be, the natural world is smarter."
+        "As <u>ingenious</u> as we humans may be, the natural world is smarter."
       ],
       "question": null,
       "choices": [
@@ -65,14 +62,13 @@
           "label": "④",
           "text": "opulent"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. As ingenious as we humans may be, the natural world is smarter.\nCHOICES:\n① clever\n② inept\n③ inexperienced\n④ opulent"
+      ]
     },
     {
       "number": 3,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "She is not a big fan of social media because she does not like to draw undue attention to herself."
+        "She is not a big fan of social media because she does not like to draw <u>undue</u> attention to herself."
       ],
       "question": null,
       "choices": [
@@ -92,14 +88,13 @@
           "label": "④",
           "text": "fair"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. She is not a big fan of social media because she does not like to draw undue attention to herself.\nCHOICES:\n① poor\n② excessive\n③ green\n④ fair"
+      ]
     },
     {
       "number": 4,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "It is an austerity program, demonstrating how to get by while scrimping."
+        "It is an austerity program, demonstrating how to get by while <u>scrimping</u>."
       ],
       "question": null,
       "choices": [
@@ -119,14 +114,13 @@
           "label": "④",
           "text": "enjoying"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. It is an austerity program, demonstrating how to get by while scrimping.\nCHOICES:\n① skimping\n② squandering\n③ dissipating\n④ enjoying"
+      ]
     },
     {
       "number": 5,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "The circumstance leads one to consider the much-mooted question as to how far it may be accepted as veracious history."
+        "The circumstance leads one to consider the much-mooted question as to how far it may be accepted as <u>veracious</u> history."
       ],
       "question": null,
       "choices": [
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "quarrelsome"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. The circumstance leads one to consider the much-mooted question as to how far it may be accepted as veracious history.\nCHOICES:\n① boundless\n② deceptive\n③ factual\n④ quarrelsome [6-10] Choose the one that best completes the sentence. [각 3.3점]"
+      ]
     },
     {
       "number": 6,
@@ -157,7 +150,7 @@
         "One is that knowledge involves true beliefs, at least as a necessary (if not sufficient) condition.",
         "I can't know that humans have 30 chromosomes (because it isn't true).",
         "And if someone doesn't believe that humans evolved through natural selection, we wouldn't say that she knows it (even though it's true).",
-        "A second common set of commitments is that understanding goes beyond knowledge in being more (it requires seeing how different pieces of information fit together) and in being more functional (it requires being able to work with the information in some way).",
+        "A second common set of commitments is that understanding goes beyond knowledge in being more __________ (it requires seeing how different pieces of information fit together) and in being more functional (it requires being able to work with the information in some way).",
         "The authors use these common commitments to develop the following baseline definition of understanding: One understands a subject (issue, concept, theory, ...) only if one grasps how a constellation of facts relevant to that subject are related to one another (causally, inferentially, explanatorily, etc.) in such a way as to be able to make new connections or draw new inferences with novel information.",
         "As a result, the object of understanding is always a body - and never a single piece - of information."
       ],
@@ -179,16 +172,15 @@
           "label": "④",
           "text": "holistic"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Epistemologists argue about the exact nature of knowledge and understanding, but a few commitments are widely shared.\n2. One is that knowledge involves true beliefs, at least as a necessary (if not sufficient) condition.\n3. I can't know that humans have 30 chromosomes (because it isn't true).\n4. And if someone doesn't believe that humans evolved through natural selection, we wouldn't say that she knows it (even though it's true).\n5. A second common set of commitments is that understanding goes beyond knowledge in being more (it requires seeing how different pieces of information fit together) and in being more functional (it requires being able to work with the information in some way).\n6. The authors use these common commitments to develop the following baseline definition of understanding: One understands a subject (issue, concept, theory, ...) only if one grasps how a constellation of facts relevant to that subject are related to one another (causally, inferentially, explanatorily, etc.) in such a way as to be able to make new connections or draw new inferences with novel information.\n7. As a result, the object of understanding is always a body - and never a single piece - of information.\nCHOICES:\n① diverse\n② implicit\n③ physical\n④ holistic"
+      ]
     },
     {
       "number": 7,
       "instruction": "Choose the one that best completes the sentence.",
       "passage_sentences": [
-        "In his new book, Goldfarb explains how roads and cars areﾠchanging the lives of wildlife all over the world - and how roadkill has created a crisis for biodiversity.",
+        "In his new book, Goldfarb explains how roads and cars are changing the lives of wildlife all over the world - and how roadkill has created a crisis for biodiversity.",
         "For species like ocelots and Florida panthers and tiger salamanders, roadkill is a true existential threat.",
-        "Roadkill is not only eliminating animals, it's in many cases eliminating those healthy animals that populations need to remain strong. the issue of roadkill, highways are cutting off animals from their sources of food and their migration paths, while traffic noise drowns out their ability to communicate with each other.",
+        "Roadkill is not only eliminating animals, it's in many cases eliminating those healthy animals that populations need to remain strong. __________ the issue of roadkill, highways are cutting off animals from their sources of food and their migration paths, while traffic noise drowns out their ability to communicate with each other.",
         "Amid these challenges, Goldfarb says, certain species have made remarkable adaptations.",
         "He notes that Chicago's coyotes allegedly look both ways before crossing the street and use crosswalks at red lights.",
         "We think about roads as these forces that are universally or exclusively harmful to animals, and certainly they're incredibly destructive.",
@@ -212,20 +204,19 @@
           "label": "④",
           "text": "Albeit"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. In his new book, Goldfarb explains how roads and cars areﾠchanging the lives of wildlife all over the world - and how roadkill has created a crisis for biodiversity.\n2. For species like ocelots and Florida panthers and tiger salamanders, roadkill is a true existential threat.\n3. Roadkill is not only eliminating animals, it's in many cases eliminating those healthy animals that populations need to remain strong. the issue of roadkill, highways are cutting off animals from their sources of food and their migration paths, while traffic noise drowns out their ability to communicate with each other.\n4. Amid these challenges, Goldfarb says, certain species have made remarkable adaptations.\n5. He notes that Chicago's coyotes allegedly look both ways before crossing the street and use crosswalks at red lights.\n6. We think about roads as these forces that are universally or exclusively harmful to animals, and certainly they're incredibly destructive.\n7. But wildlife is also incredibly adaptive and clever and they're finding ways to make a living in our midst.\nCHOICES:\n① For\n② Beyond\n③ Lest\n④ Albeit"
+      ]
     },
     {
       "number": 8,
       "instruction": "Choose the one that best completes the sentence.",
       "passage_sentences": [
         "The Federal Aviation Administration says it's steadily preparing for air taxi travel to become a reality - at least, at some point.",
-        "In May, the agencyﾠreleased an updated blueprint for airspace and procedure changes to accommodate this type of aircraft.",
+        "In May, the agency released an updated blueprint for airspace and procedure changes to accommodate this type of aircraft.",
         "Joby Aviation bills itself as providing a \"faster, cleaner, and smarter way to carry people through their lives,\" with \"a green alternative to driving that's bookable at the touch of an app.\" But, experts say, that doesn't necessarily mean this kind of transportation is going to be available to just anyone who wants to spend less time in rush hour traffic.",
         "It's a great innovation for those with means.",
         "But, the industry faces challenges from noise to NIMBY concerns.",
         "There's also the optics: Rich people flying above the rest of us normal folks.",
-        "Because this type of transportation will likely mainly be provided by private sector companies, there are concerns that it will exclude low-income people. there will be funding mechanisms to make this an affordable option to all, integrating it into existing transit systems, it will not be accessible to all."
+        "Because this type of transportation will likely mainly be provided by private sector companies, there are concerns that it will exclude low-income people. __________ there will be funding mechanisms to make this an affordable option to all, integrating it into existing transit systems, it will not be accessible to all."
       ],
       "question": null,
       "choices": [
@@ -245,8 +236,7 @@
           "label": "④",
           "text": "Because"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. The Federal Aviation Administration says it's steadily preparing for air taxi travel to become a reality - at least, at some point.\n2. In May, the agencyﾠreleased an updated blueprint for airspace and procedure changes to accommodate this type of aircraft.\n3. Joby Aviation bills itself as providing a \"faster, cleaner, and smarter way to carry people through their lives,\" with \"a green alternative to driving that's bookable at the touch of an app.\" But, experts say, that doesn't necessarily mean this kind of transportation is going to be available to just anyone who wants to spend less time in rush hour traffic.\n4. It's a great innovation for those with means.\n5. But, the industry faces challenges from noise to NIMBY concerns.\n6. There's also the optics: Rich people flying above the rest of us normal folks.\n7. Because this type of transportation will likely mainly be provided by private sector companies, there are concerns that it will exclude low-income people. there will be funding mechanisms to make this an affordable option to all, integrating it into existing transit systems, it will not be accessible to all.\nCHOICES:\n① Unless\n② Once\n③ Only if\n④ Because"
+      ]
     },
     {
       "number": 9,
@@ -257,7 +247,7 @@
         "A previous study found that people who exercise regularly report fewer days of bad mental health.",
         "And a recent meta-analysis found that physical activity was more effective than medications in reducing symptoms of depression.",
         "Antidepressant medicines tend to be faster in treating an episode of depression.",
-        "But physical exercise has more effects than an antidepressant does.",
+        "But physical exercise has more __________ effects than an antidepressant does.",
         "For some people, medication gives them a benefit in the beginning, but then it fades over time, whereas a lifestyle change can have a more permanent and lasting effect.",
         "Researchers use a range of evidence-based recommendations and tools, from medicines to therapy to behavioral approaches including fitness, nutrition, sleep and stress management, to help empower patients."
       ],
@@ -279,8 +269,7 @@
           "label": "④",
           "text": "inexpensive"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Exercise is an elixir.\n2. There's a solid body of evidence linking physical activity to improved moods.\n3. A previous study found that people who exercise regularly report fewer days of bad mental health.\n4. And a recent meta-analysis found that physical activity was more effective than medications in reducing symptoms of depression.\n5. Antidepressant medicines tend to be faster in treating an episode of depression.\n6. But physical exercise has more effects than an antidepressant does.\n7. For some people, medication gives them a benefit in the beginning, but then it fades over time, whereas a lifestyle change can have a more permanent and lasting effect.\n8. Researchers use a range of evidence-based recommendations and tools, from medicines to therapy to behavioral approaches including fitness, nutrition, sleep and stress management, to help empower patients.\nCHOICES:\n① acute\n② durable\n③ resilient\n④ inexpensive"
+      ]
     },
     {
       "number": 10,
@@ -292,7 +281,7 @@
         "Ehrlich published the best-selling book The Population Bomb, in which he warned that overpopulation would soon lead to mass starvation.",
         "Birth control became a cornerstone of aid policy.",
         "They were saying that we should focus aid on what they called 'the walking wounded' who could be saved.",
-        "This way of thinking was very prevalent in the 1970s and that was the time when the Chinese leadership was considering its new population policy. , when China declared in 1980 that most Chinese families would only be permitted to have one child - and would be punished for violating the law – this was absolutely not occurring in a vacuum.",
+        "This way of thinking was very prevalent in the 1970s and that was the time when the Chinese leadership was considering its new population policy. __________, when China declared in 1980 that most Chinese families would only be permitted to have one child - and would be punished for violating the law - this was absolutely not occurring in a vacuum.",
         "When the one-child policy was unveiled, it didn't even face much international criticism.",
         "The program had a lot of apologists in the West.",
         "It was seen as not only acceptable but as pioneering."
@@ -315,8 +304,7 @@
           "label": "④",
           "text": "In other words"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. After World War II, the focus of demographic scholars and policymakers shifted from worries about too few babies to fears of too many - specifically in poor countries.\n2. Many of these thinkers were based in the United States.\n3. In 1968, Paul R.\n4. Ehrlich published the best-selling book The Population Bomb, in which he warned that overpopulation would soon lead to mass starvation.\n5. Birth control became a cornerstone of aid policy.\n6. They were saying that we should focus aid on what they called 'the walking wounded' who could be saved.\n7. This way of thinking was very prevalent in the 1970s and that was the time when the Chinese leadership was considering its new population policy. , when China declared in 1980 that most Chinese families would only be permitted to have one child - and would be punished for violating the law – this was absolutely not occurring in a vacuum.\n8. When the one-child policy was unveiled, it didn't even face much international criticism.\n9. The program had a lot of apologists in the West.\n10. It was seen as not only acceptable but as pioneering.\nCHOICES:\n① In contrast\n② What is worse\n③ Instead\n④ In other words [11-12] Choose the one that is either ungrammatical or unacceptable. [각 3.8점]"
+      ]
     },
     {
       "number": 11,
@@ -325,34 +313,33 @@
         "As a species, who are we?",
         "Are humans innately hostile and violent toward people who belong to communities other than our own?",
         "Or are we inherently friendly and cooperative?",
-        "These are difficult questions to crack open.",
+        "These are difficult questions ① <u>to crack</u> open.",
         "Over the years, some researchers - primatologists, evolutionary biologists and others - have tried to make headway by looking to chimpanzees and bonobos, our closest living relatives, for insights.",
-        "Now, in a study, two collaborators argue that wild bonobos - known for friendlierﾠand more peaceful tendencies compared to chimpanzees - cooperate not just within their own communal group but also across other bonobo groups, with more cooperative individuals leading the charge.",
+        "Now, in a study, two collaborators argue that wild bonobos - known ② <u>for</u> friendlier and more peaceful tendencies compared to chimpanzees - cooperate not just within their own ③ <u>communal</u> group but also across other bonobo groups, with more cooperative individuals leading the charge.",
         "This paves the way for the broader groups to form social ties.",
         "The researchers say this suggests that warfare may not be humanity's inevitable evolutionary legacy.",
-        "Cooperation and peace may as well be a deep part of who we are too.",
+        "Cooperation and peace ④ <u>may as well</u> be a deep part of who we are too.",
         "That is, both the capacity for war and the capacity for peace may live inside us, alongside one another."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "to crack open."
+          "text": "to crack"
         },
         {
           "label": "②",
-          "text": "for friendlierﾠand more peaceful tendencies compared to chimpanzees - cooperate not just w"
+          "text": "for"
         },
         {
           "label": "③",
-          "text": "communal group but also across other bonobo groups, with more cooperative individuals lead"
+          "text": "communal"
         },
         {
           "label": "④",
-          "text": "may as well be a deep part of who we are too."
+          "text": "may as well"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is either ungrammatical or unacceptable.\nPASSAGE_SENTENCES:\n1. As a species, who are we?\n2. Are humans innately hostile and violent toward people who belong to communities other than our own?\n3. Or are we inherently friendly and cooperative?\n4. These are difficult questions to crack open.\n5. Over the years, some researchers - primatologists, evolutionary biologists and others - have tried to make headway by looking to chimpanzees and bonobos, our closest living relatives, for insights.\n6. Now, in a study, two collaborators argue that wild bonobos - known for friendlierﾠand more peaceful tendencies compared to chimpanzees - cooperate not just within their own communal group but also across other bonobo groups, with more cooperative individuals leading the charge.\n7. This paves the way for the broader groups to form social ties.\n8. The researchers say this suggests that warfare may not be humanity's inevitable evolutionary legacy.\n9. Cooperation and peace may as well be a deep part of who we are too.\n10. That is, both the capacity for war and the capacity for peace may live inside us, alongside one another.\nCHOICES:\n① to crack open.\n② for friendlierﾠand more peaceful tendencies compared to chimpanzees - cooperate not just w\n③ communal group but also across other bonobo groups, with more cooperative individuals lead\n④ may as well be a deep part of who we are too."
+      ]
     },
     {
       "number": 12,
@@ -363,9 +350,9 @@
         "Here's what happened: In 1793, the brand new United States of America needed a standard measuring system because the states were using a hodgepodge of systems.",
         "For example, in New York, they were using Dutch systems, and in New England, they were using English systems.",
         "This made interstate commerce difficult.",
-        "Thomas Jefferson knew about a new French system and thought it was just what America needed.",
+        "Thomas Jefferson knew about a new French system and thought it was just ① <u>what</u> America needed.",
         "He wrote to his pals in France, and the French sent a scientist named Joseph Dombey off to Jefferson carrying a small copper cylinder with a little handle on top.",
-        "It was about 3 inch tall and about the same wide.",
+        "It was about 3 ② <u>inch</u> tall and about the same wide.",
         "This object was intended to be a standard for weighing things, part of a weights and measure system being developed in France, now known as the metric system.",
         "The object's weight was 1 kilogram.",
         "Crossing the Atlantic, Dombey ran into a giant storm.",
@@ -373,33 +360,31 @@
         "And you know who was lurking in Caribbean waters in the late 1700s?",
         "Pirates.",
         "These pirates were basically water-borne criminals tacitly supported by the British government, and they were tasked with harassing enemy shipping.",
-        "The pirates took Joseph Dombey prisoner on the island of Montserrat, hoping to obtain a ransom for him.",
+        "The pirates took Joseph Dombey prisoner on the island of Montserrat, hoping ③ <u>to obtain</u> a ransom for him.",
         "The pirates weren't interested in the objects Dombey was carrying.",
         "They were auctioned off along with the rest of the contents of his ship.",
-        "Would it really have made any difference if Dombey had been able to deliver his kilogram to Jefferson?",
-        "We don't know for sure, but it seems like there was a missed opportunity there.",
-        "[13-17] Choose the best for the blank."
+        "Would it really have made any difference if Dombey ④ <u>had been</u> able to deliver his kilogram to Jefferson?",
+        "We don't know for sure, but it seems like there was a missed opportunity there."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "what America needed."
+          "text": "what"
         },
         {
           "label": "②",
-          "text": "inch tall and about the same wide."
+          "text": "inch"
         },
         {
           "label": "③",
-          "text": "to obtain a ransom for him."
+          "text": "to obtain"
         },
         {
           "label": "④",
-          "text": "had been able to deliver his kilogram to Jefferson?"
+          "text": "had been"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is either ungrammatical or unacceptable.\nPASSAGE_SENTENCES:\n1. If the United States were more like the rest of the world, a McDonald's Quarter Pounder might be known as the McDonald's 113-Grammer, John Henry's 9-pound hammer would be 4.08 kilograms, and any 800-pound gorillas in the room would likely weigh 362 kilos.\n2. One reason this country never adopted the metric system might be pirates.\n3. Here's what happened: In 1793, the brand new United States of America needed a standard measuring system because the states were using a hodgepodge of systems.\n4. For example, in New York, they were using Dutch systems, and in New England, they were using English systems.\n5. This made interstate commerce difficult.\n6. Thomas Jefferson knew about a new French system and thought it was just what America needed.\n7. He wrote to his pals in France, and the French sent a scientist named Joseph Dombey off to Jefferson carrying a small copper cylinder with a little handle on top.\n8. It was about 3 inch tall and about the same wide.\n9. This object was intended to be a standard for weighing things, part of a weights and measure system being developed in France, now known as the metric system.\n10. The object's weight was 1 kilogram.\n11. Crossing the Atlantic, Dombey ran into a giant storm.\n12. It blew his ship quite far south into the Caribbean Sea.\n13. And you know who was lurking in Caribbean waters in the late 1700s?\n14. Pirates.\n15. These pirates were basically water-borne criminals tacitly supported by the British government, and they were tasked with harassing enemy shipping.\n16. The pirates took Joseph Dombey prisoner on the island of Montserrat, hoping to obtain a ransom for him.\n17. The pirates weren't interested in the objects Dombey was carrying.\n18. They were auctioned off along with the rest of the contents of his ship.\n19. Would it really have made any difference if Dombey had been able to deliver his kilogram to Jefferson?\n20. We don't know for sure, but it seems like there was a missed opportunity there.\n21. [13-17] Choose the best for the blank.\n22. [각 3.5점]\nCHOICES:\n① what America needed.\n② inch tall and about the same wide.\n③ to obtain a ransom for him.\n④ had been able to deliver his kilogram to Jefferson?"
+      ]
     },
     {
       "number": 13,
@@ -410,9 +395,9 @@
         "\"They have venom, so they will sting you and they will bite you.",
         "It's not that bad.",
         "It's just that you're usually getting stung by hundreds of them at once.\" The ants are fierce predators, devouring other insects - sometimes even frogs, lizards and birds.",
-        "But what's even more remarkable about them is their .",
+        "But what's even more remarkable about them is their __________.",
         "Muratore has been studying how army ants build bridges by linking their bodies, which could give scientists insights into controlling swarms of robots.",
-        "Commonly found in chungang America, South America and Africa, the ants scour forest floors in long foraging lines.",
+        "Commonly found in Central America, South America and Africa, the ants scour forest floors in long foraging lines.",
         "When they encounter obstacles - like a gap between leaves or branches - they build a bridge, linking themselves together like a barrel of monkeys.",
         "The workers will string themselves across that gap, and then other workers will walk on top of them.",
         "Basically, they create shortcuts to make things easier for the other ants or just to allow them to traverse something that they otherwise couldn't."
@@ -435,8 +420,7 @@
           "label": "④",
           "text": "unconditional oblation"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Studying army ants for a living comes with certain occupational hazards.\n2. \"They're very aggressive,\" says Isabella Muratore.\n3. \"They have venom, so they will sting you and they will bite you.\n4. It's not that bad.\n5. It's just that you're usually getting stung by hundreds of them at once.\" The ants are fierce predators, devouring other insects - sometimes even frogs, lizards and birds.\n6. But what's even more remarkable about them is their .\n7. Muratore has been studying how army ants build bridges by linking their bodies, which could give scientists insights into controlling swarms of robots.\n8. Commonly found in chungang America, South America and Africa, the ants scour forest floors in long foraging lines.\n9. When they encounter obstacles - like a gap between leaves or branches - they build a bridge, linking themselves together like a barrel of monkeys.\n10. The workers will string themselves across that gap, and then other workers will walk on top of them.\n11. Basically, they create shortcuts to make things easier for the other ants or just to allow them to traverse something that they otherwise couldn't.\nCHOICES:\n① fatal virulence\n② misdemeanor offense\n③ architectural prowess\n④ unconditional oblation"
+      ]
     },
     {
       "number": 14,
@@ -451,7 +435,7 @@
         "That's partly what gives variability to our sense of time - why new experiences, like traveling to a foreign land, seem to stretch the day out, or why hours seem to vaporize for a kid engrossed in a video game.",
         "Miyawaki, who is also a psychiatrist, says sometimes you can even see the differences in someone's internal sense of time.",
         "He's treated severely depressed patients who move extremely slowly, almost like sloths, because their emotional state has so altered their timing.",
-        "\"The idea that is just wrong,\" says Miyawaki."
+        "\"The idea that __________ is just wrong,\" says Miyawaki."
       ],
       "question": null,
       "choices": [
@@ -471,8 +455,7 @@
           "label": "④",
           "text": "time gets twisted beyond recognition"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. How our emotions such as fear influence our sense of time is a complex process that science only partially understands, says Ed Miyawaki, a neurologist; there is not a single place in the brain involved in timekeeping, but several.\n2. One place near the optic nerve tracks time, for example, which is how people sense time of day by daylight.\n3. Dopamine-rich networks in the brain teach us to anticipate rewards, he says, and the cerebellum, which allows us to time our movements, also has its own kind of clock.\n4. \"There's an emotional clock, there's a memory clock, there are all these kinds of clocks,\" Miyawaki says.\n5. However, they aren't particularly synchronized; the brain has no master clock.\n6. There's just complex interplay among our senses that act on our sense of time.\n7. That's partly what gives variability to our sense of time - why new experiences, like traveling to a foreign land, seem to stretch the day out, or why hours seem to vaporize for a kid engrossed in a video game.\n8. Miyawaki, who is also a psychiatrist, says sometimes you can even see the differences in someone's internal sense of time.\n9. He's treated severely depressed patients who move extremely slowly, almost like sloths, because their emotional state has so altered their timing.\n10. \"The idea that is just wrong,\" says Miyawaki.\nCHOICES:\n① time helps record memories\n② time is just one monolithic thing\n③ time depends on emotion\n④ time gets twisted beyond recognition"
+      ]
     },
     {
       "number": 15,
@@ -482,7 +465,7 @@
         "Businesses are using machines to kill jobs without generating significantly lower production costs, while also imposing all the costs on society that comes with greater unemployment and lower wages.",
         "Businesses don't take into account these social costs when making the decision to automate away jobs (economists call these social costs \"negative externalities\").",
         "They say it's not just business that's to blame.",
-        "Companies may be guilty of excessively automating because they don't factor in all the social costs it creates. .",
+        "Companies may be guilty of excessively automating because they don't factor in all the social costs it creates. __________.",
         "In the U.S., the government, through the tax code, is actually giving companies extra encouragement to automate jobs.",
         "That's because it taxes capital at a lower rate than labor and provides all sorts of tax write offs for purchasing machines, software, and equipment."
       ],
@@ -504,15 +487,14 @@
           "label": "④",
           "text": "To the contrary, governments are not accountable"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Economists argue that much of the automation we've seen in recent years is excessive.\n2. Businesses are using machines to kill jobs without generating significantly lower production costs, while also imposing all the costs on society that comes with greater unemployment and lower wages.\n3. Businesses don't take into account these social costs when making the decision to automate away jobs (economists call these social costs \"negative externalities\").\n4. They say it's not just business that's to blame.\n5. Companies may be guilty of excessively automating because they don't factor in all the social costs it creates. .\n6. In the U.S., the government, through the tax code, is actually giving companies extra encouragement to automate jobs.\n7. That's because it taxes capital at a lower rate than labor and provides all sorts of tax write offs for purchasing machines, software, and equipment.\nCHOICES:\n① Accordingly, governments inevitably intervene\n② But governments are also culpable\n③ Thus aggressive tax policy emerges in no time\n④ To the contrary, governments are not accountable"
+      ]
     },
     {
       "number": 16,
       "instruction": "Choose the best for the blank.",
       "passage_sentences": [
         "New research shows that if carbon emissions soar, we could end up with super-sized lobsters.",
-        "But you'll have to strap that bib on fast; .",
+        "But you'll have to strap that bib on fast; __________.",
         "A new study shows that if carbon dioxide emissions reach extreme levels, the changes in the world's oceans might result in lobsters 50 percent bigger than normal.",
         "Lobsters can take carbon from the water and use it to build their exoskeletons, says marine geologist Justin Ries.",
         "The theory is that lobsters are able to convert the extra carbon into material for building up their shells.",
@@ -543,8 +525,7 @@
           "label": "④",
           "text": "the jumbo lobsters probably wouldn't last for long"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. New research shows that if carbon emissions soar, we could end up with super-sized lobsters.\n2. But you'll have to strap that bib on fast; .\n3. A new study shows that if carbon dioxide emissions reach extreme levels, the changes in the world's oceans might result in lobsters 50 percent bigger than normal.\n4. Lobsters can take carbon from the water and use it to build their exoskeletons, says marine geologist Justin Ries.\n5. The theory is that lobsters are able to convert the extra carbon into material for building up their shells.\n6. His research team built several tanks to hold marine life, and simulated high-CO2 environments at the rates predicted for 100 years from now, 200 years from now and beyond.\n7. Lobsters, crabs and shrimp did well in the environment, according to Ries, but other things didn't - corals and other \"calcifiers\" like clams, scallops and oysters, for example.\n8. Unlike the lobsters, these species' shells grew thinner in the increased CO2 environments.\n9. \"Actually, six of these species began to dissolve under the highest CO2 level,\" Ries says.\n10. And that's why those giant lobsters might want to stay trim.\n11. Clams and other species are part of the lobster's diet.\n12. If thinner shells make them easier prey, the lobsters' food source won't last long - not good news for the predators.\n13. Even though lobsters are building stronger shells, their populations would probably be sure to follow.\nCHOICES:\n① the jumbo lobsters would be inedible\n② carbon emissions would decrease quickly\n③ there would be no predator for the jumbo lobsters\n④ the jumbo lobsters probably wouldn't last for long"
+      ]
     },
     {
       "number": 17,
@@ -559,7 +540,7 @@
         "Being a physics student, I knew about Albert Einstein's famous recognition that riding on an upwardly accelerating elevator would be the same as feeling the force of gravity while being stationary on a planet's surface.",
         "It was this equivalence that led him to key parts of the General Theory of Relativity.",
         "Being the dork that I was, I kept a red ball with me - so that every time I got on an elevator, I could toss it upwards at the exact moment the elevator accelerated upwards or downwards.",
-        "If I caught it just right, the ball would seem to hang in the air for a moment, like .",
+        "If I caught it just right, the ball would seem to hang in the air for a moment, like __________.",
         "Everyone else in those workday elevators thought I was nuts - but it always blew my mind."
       ],
       "question": null,
@@ -578,16 +559,28 @@
         },
         {
           "label": "④",
-          "text": "Einstein had recognized gravity [18-30] Read the following passages and answer the questions. [각 3.3점] [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons."
+          "text": "Einstein had recognized gravity"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. A long time ago, in between undergrad and grad school, I had a job as a New York City foot messenger.\n2. It was pretty cool.\n3. I got to know the subway system with startling accuracy.\n4. I delivered stuff to Annie Leibovitz's studio weekly.\n5. And I got to peer into the lives of many working for investment banks.\n6. But the best part of the job was the elevators - those long, high-speed elevator rides.\n7. Being a physics student, I knew about Albert Einstein's famous recognition that riding on an upwardly accelerating elevator would be the same as feeling the force of gravity while being stationary on a planet's surface.\n8. It was this equivalence that led him to key parts of the General Theory of Relativity.\n9. Being the dork that I was, I kept a red ball with me - so that every time I got on an elevator, I could toss it upwards at the exact moment the elevator accelerated upwards or downwards.\n10. If I caught it just right, the ball would seem to hang in the air for a moment, like .\n11. Everyone else in those workday elevators thought I was nuts - but it always blew my mind.\nCHOICES:\n① space-time had been warped by gravity\n② a perfect harmony of natural law had been met\n③ gravity had been canceled\n④ Einstein had recognized gravity [18-30] Read the following passages and answer the questions. [각 3.3점] [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons."
+      ]
     },
     {
       "number": 18,
-      "instruction": "Read the following passages and answer the questions.  [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons.",
+      "instruction": "[18-19] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride.",
+        "We are happy to drink sodas, sports drinks, and even tap water that contain a little salt.",
+        "But if you imagine a very high concentration of sodium like ocean water, you really hate it.",
+        "This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days.",
+        "But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up.",
+        "Animals start liking ocean water.",
+        "The reason for this change involves at least two different interactions between the body and brain.",
+        "When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt.",
+        "If you stimulate these neurons, then animals run to a sodium source and start eating.",
+        "__________, a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming.",
+        "And usually, these neurons will set an upper limit on saltiness.",
+        "But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons.",
+        "That allows mice to tolerate the saltiness of sea water.",
+        "The scientists were able to mimic this phenomenon in the lab by stimulating these neurons."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -607,14 +600,26 @@
           "label": "④",
           "text": "Salt overconsumption can raise the risk for heart disease and stroke."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Brain cells play a role in altering salt tolerance.\n② Our body knows why we are never thirsty for ocean water.\n③ Animals need only a tiny amount of sodium in their diet.\n④ Salt overconsumption can raise the risk for heart disease and stroke."
+      ]
     },
     {
       "number": 19,
-      "instruction": "Read the following passages and answer the questions.  [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons.",
+      "instruction": "[18-19] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the words that best fill in the blank."
+        "Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride.",
+        "We are happy to drink sodas, sports drinks, and even tap water that contain a little salt.",
+        "But if you imagine a very high concentration of sodium like ocean water, you really hate it.",
+        "This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days.",
+        "But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up.",
+        "Animals start liking ocean water.",
+        "The reason for this change involves at least two different interactions between the body and brain.",
+        "When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt.",
+        "If you stimulate these neurons, then animals run to a sodium source and start eating.",
+        "__________, a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming.",
+        "And usually, these neurons will set an upper limit on saltiness.",
+        "But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons.",
+        "That allows mice to tolerate the saltiness of sea water.",
+        "The scientists were able to mimic this phenomenon in the lab by stimulating these neurons."
       ],
       "question": "Choose the words that best fill in the blank.",
       "choices": [
@@ -632,16 +637,27 @@
         },
         {
           "label": "④",
-          "text": "Above all [20] The typical assumption is when prices fall people buy more. This seems obvious, but why? Economists identify two factors. First is the \"substitution effect:\" if the price of apples fall relative to oranges people will substitute away from oranges toward apples, and the demand for apples rises. Second is the \"income effect:\" if you were buying apples before their price went down, and your money income is constant, a lower price for apples raises your overall purchasing power. Some of this additional purchasing power will be spent on apples, so the demand for apples goes up. This is all perfectly sensible for individual goods, considered in isolation. But what happens in the aggregate? If the prices of all goods and services fall (including wages) due to a generalized insufficiency of aggregate demand, then there is no substitution effect, since the price of everything is going down. Furthermore, one person's spending is someone else's income, so if the price of everything is falling, so are money incomes. Thus, the income effect disappears when we aggregate. Things can get much more complicated. There are some channels for price adjustment that are stabilizing and some that are destabilizing."
+          "text": "Above all"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons.\nPASSAGE_SENTENCES:\n1. Choose the words that best fill in the blank.\nQUESTION:\nChoose the words that best fill in the blank.\nCHOICES:\n① Arguably\n② Meanwhile\n③ Not to mention\n④ Above all [20] The typical assumption is when prices fall people buy more. This seems obvious, but why? Economists identify two factors. First is the \"substitution effect:\" if the price of apples fall relative to oranges people will substitute away from oranges toward apples, and the demand for apples rises. Second is the \"income effect:\" if you were buying apples before their price went down, and your money income is constant, a lower price for apples raises your overall purchasing power. Some of this additional purchasing power will be spent on apples, so the demand for apples goes up. This is all perfectly sensible for individual goods, considered in isolation. But what happens in the aggregate? If the prices of all goods and services fall (including wages) due to a generalized insufficiency of aggregate demand, then there is no substitution effect, since the price of everything is going down. Furthermore, one person's spending is someone else's income, so if the price of everything is falling, so are money incomes. Thus, the income effect disappears when we aggregate. Things can get much more complicated. There are some channels for price adjustment that are stabilizing and some that are destabilizing."
+      ]
     },
     {
       "number": 20,
-      "instruction": "Read the following passages and answer the questions.  [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons.",
+      "instruction": "[20] Read the following passage and answer the question.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "The typical assumption is when prices fall people buy more.",
+        "This seems obvious, but why?",
+        "Economists identify two factors.",
+        "First is the \"substitution effect:\" if the price of apples fall relative to oranges people will substitute away from oranges toward apples, and the demand for apples rises.",
+        "Second is the \"income effect:\" if you were buying apples before their price went down, and your money income is constant, a lower price for apples raises your overall purchasing power.",
+        "Some of this additional purchasing power will be spent on apples, so the demand for apples goes up.",
+        "This is all perfectly sensible for individual goods, considered in isolation.",
+        "But what happens in the aggregate?",
+        "If the prices of all goods and services fall (including wages) due to a generalized insufficiency of aggregate demand, then there is no substitution effect, since the price of everything is going down.",
+        "Furthermore, one person's spending is someone else's income, so if the price of everything is falling, so are money incomes.",
+        "Thus, the income effect disappears when we aggregate.",
+        "Things can get much more complicated.",
+        "There are some channels for price adjustment that are stabilizing and some that are destabilizing."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -659,16 +675,26 @@
         },
         {
           "label": "④",
-          "text": "Natural price adjustment will solve the deflation problem in the long term. [21-22] We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have. But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives. In fact, I would argue they're not just irrelevant, they can be detrimental to living our daily lives. An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life. But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world. And those commonalities, those patterns are what actually allow us to make intelligent decisions. If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen. It doesn't matter that it doesn't have brown spots or a white tail. What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs. Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner. Evolution doesn't care if you can remember who hit the home run in the 1968 World Series. Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival."
+          "text": "Natural price adjustment will solve the deflation problem in the long term."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] Studies sought to explain the complicated relationship that people and animals have with salt, also known as sodium chloride. We are happy to drink sodas, sports drinks, and even tap water that contain a little salt. But if you imagine a very high concentration of sodium like ocean water, you really hate it. This aversion to super salty foods and beverages holds unless your body is really low on salt, something that's pretty rare in people these days. But experiments with mice found that when salt levels plummet, the tolerance for salty water goes up. Animals start liking ocean water. The reason for this change involves at least two different interactions between the body and brain. When the concentration of sodium in the bloodstream begins to fall below healthy levels, a set of neurons in the back of the brain respond by dialing up an animal's craving for salt. If you stimulate these neurons, then animals run to a sodium source and start eating. , a different set of neurons in the front of the brain monitors the saltiness of any food or water the mice are consuming. And usually, these neurons will set an upper limit on saltiness. But when salt levels get extremely low, the body sends a signal that overrides these salt-limiting neurons. That allows mice to tolerate the saltiness of sea water. The scientists were able to mimic this phenomenon in the lab by stimulating these neurons.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① The logic of micro demand cannot be easily extended to the whole system.\n② Falling prices would not be a cure for inflation.\n③ Wage and price adjustment may solve the macro problem of under-utilized resources.\n④ Natural price adjustment will solve the deflation problem in the long term. [21-22] We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have. But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives. In fact, I would argue they're not just irrelevant, they can be detrimental to living our daily lives. An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life. But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world. And those commonalities, those patterns are what actually allow us to make intelligent decisions. If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen. It doesn't matter that it doesn't have brown spots or a white tail. What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs. Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner. Evolution doesn't care if you can remember who hit the home run in the 1968 World Series. Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival."
+      ]
     },
     {
       "number": 21,
-      "instruction": "We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have. But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives. In fact, I would argue they're not just irrelevant, they can be detrimental to living our daily lives. An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life. But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world. And those commonalities, those patterns are what actually allow us to make intelligent decisions. If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen. It doesn't matter that it doesn't have brown spots or a white tail. What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs. Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner. Evolution doesn't care if you can remember who hit the home run in the 1968 World Series. Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival.",
+      "instruction": "[21-22] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the words that best fill in the blank."
+        "We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have.",
+        "But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives.",
+        "In fact, I would argue they're not just irrelevant, __________ they can be detrimental to living our daily lives.",
+        "An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life.",
+        "But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world.",
+        "And those commonalities, those patterns are what actually allow us to make intelligent decisions.",
+        "If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen.",
+        "It doesn't matter that it doesn't have brown spots or a white tail.",
+        "What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs.",
+        "Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner.",
+        "Evolution doesn't care if you can remember who hit the home run in the 1968 World Series.",
+        "Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival."
       ],
       "question": "Choose the words that best fill in the blank.",
       "choices": [
@@ -688,14 +714,24 @@
           "label": "④",
           "text": "but"
         }
-      ],
-      "raw_text": "INSTRUCTION: We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have. But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives. In fact, I would argue they're not just irrelevant, they can be detrimental to living our daily lives. An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life. But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world. And those commonalities, those patterns are what actually allow us to make intelligent decisions. If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen. It doesn't matter that it doesn't have brown spots or a white tail. What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs. Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner. Evolution doesn't care if you can remember who hit the home run in the 1968 World Series. Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival.\nPASSAGE_SENTENCES:\n1. Choose the words that best fill in the blank.\nQUESTION:\nChoose the words that best fill in the blank.\nCHOICES:\n① whether\n② although\n③ once\n④ but"
+      ]
     },
     {
       "number": 22,
-      "instruction": "We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have. But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives. In fact, I would argue they're not just irrelevant, they can be detrimental to living our daily lives. An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life. But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world. And those commonalities, those patterns are what actually allow us to make intelligent decisions. If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen. It doesn't matter that it doesn't have brown spots or a white tail. What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs. Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner. Evolution doesn't care if you can remember who hit the home run in the 1968 World Series. Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival.",
+      "instruction": "[21-22] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What would be the best title of the passage above?"
+        "We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have.",
+        "But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives.",
+        "In fact, I would argue they're not just irrelevant, __________ they can be detrimental to living our daily lives.",
+        "An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life.",
+        "But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world.",
+        "And those commonalities, those patterns are what actually allow us to make intelligent decisions.",
+        "If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen.",
+        "It doesn't matter that it doesn't have brown spots or a white tail.",
+        "What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs.",
+        "Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner.",
+        "Evolution doesn't care if you can remember who hit the home run in the 1968 World Series.",
+        "Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival."
       ],
       "question": "What would be the best title of the passage above?",
       "choices": [
@@ -713,18 +749,28 @@
         },
         {
           "label": "④",
-          "text": "Never fading memories could help with evolution [23-24] Most people are focused on the present: today, tomorrow, maybe next year. (A) Fixing your flat tire is more pressing than figuring out if you should use an electric car. Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise. That basic human relationship with time makes climate change a tricky problem. \"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert. (B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are. (C) Many companies are focused on quarterly earnings and growth. That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse. Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action. (D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions. The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight. The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future."
+          "text": "Never fading memories could help with evolution"
         }
-      ],
-      "raw_text": "INSTRUCTION: We've all heard of people who have encyclopedic memories, and a lot of us probably assume that'd be a great thing to have. But I argue that it's actually not, because a lot of memories contain details that are irrelevant to living our daily lives. In fact, I would argue they're not just irrelevant, they can be detrimental to living our daily lives. An interesting case comes from this old study by a Russian neuropsychologist Luria, who had this patient, Patient S., who he reported was able to memorize basically everything from his life. But Patient S. was actually at a disadvantage, because he had trouble identifying the commonalities, the patterns in the world. And those commonalities, those patterns are what actually allow us to make intelligent decisions. If you see a dog off leash, barking at you, and previously you've been bitten by a dog barking at you off leash, you probably want to avoid that dog, even if it doesn't look exactly like a previous dog you've seen. It doesn't matter that it doesn't have brown spots or a white tail. What matters is that it has those features that indicate it's one of those broad categories of aggressive dogs. Our memories ultimately are there to help us make decisions, to act in the world in an intelligent manner. Evolution doesn't care if you can remember who hit the home run in the 1968 World Series. Evolution cares about whether or not you are an individual who's making appropriate decisions in the environment to maximize your chances of survival.\nPASSAGE_SENTENCES:\n1. What would be the best title of the passage above?\nQUESTION:\nWhat would be the best title of the passage above?\nCHOICES:\n① Danger of messing with short-term memory\n② Brains rewrite memories\n③ Best memory system could be one that forgets\n④ Never fading memories could help with evolution [23-24] Most people are focused on the present: today, tomorrow, maybe next year. (A) Fixing your flat tire is more pressing than figuring out if you should use an electric car. Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise. That basic human relationship with time makes climate change a tricky problem. \"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert. (B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are. (C) Many companies are focused on quarterly earnings and growth. That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse. Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action. (D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions. The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight. The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future."
+      ]
     },
     {
       "number": 23,
-      "instruction": "Most people are focused on the present: today, tomorrow, maybe next year. (A) Fixing your flat tire is more pressing than figuring out if you should use an electric car. Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise. That basic human relationship with time makes climate change a tricky problem. \"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert. (B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are. (C) Many companies are focused on quarterly earnings and growth. That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse. Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action. (D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions. The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight. The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future.",
+      "instruction": "[23-24] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "For example, there are ways to highlight the quick payoff for addressing climate change."
+        "Most people are focused on the present: today, tomorrow, maybe next year.",
+        "(A) Fixing your flat tire is more pressing than figuring out if you should use an electric car.",
+        "Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise.",
+        "That basic human relationship with time makes climate change a tricky problem.",
+        "\"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert.",
+        "(B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are.",
+        "(C) Many companies are focused on quarterly earnings and growth.",
+        "That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse.",
+        "Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action.",
+        "(D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions.",
+        "The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight.",
+        "The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future."
       ],
-      "question": "Find the best place for the following sentence.",
+      "question": "Find the best place for the following sentence.\n\nFor example, there are ways to highlight the quick payoff for addressing climate change.",
       "choices": [
         {
           "label": "①",
@@ -742,14 +788,24 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: Most people are focused on the present: today, tomorrow, maybe next year. (A) Fixing your flat tire is more pressing than figuring out if you should use an electric car. Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise. That basic human relationship with time makes climate change a tricky problem. \"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert. (B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are. (C) Many companies are focused on quarterly earnings and growth. That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse. Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action. (D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions. The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight. The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future.\nPASSAGE_SENTENCES:\n1. For example, there are ways to highlight the quick payoff for addressing climate change.\nQUESTION:\nFind the best place for the following sentence.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 24,
-      "instruction": "Most people are focused on the present: today, tomorrow, maybe next year. (A) Fixing your flat tire is more pressing than figuring out if you should use an electric car. Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise. That basic human relationship with time makes climate change a tricky problem. \"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert. (B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are. (C) Many companies are focused on quarterly earnings and growth. That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse. Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action. (D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions. The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight. The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future.",
+      "instruction": "[23-24] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What would be the best title of the passage above?"
+        "Most people are focused on the present: today, tomorrow, maybe next year.",
+        "(A) Fixing your flat tire is more pressing than figuring out if you should use an electric car.",
+        "Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise.",
+        "That basic human relationship with time makes climate change a tricky problem.",
+        "\"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert.",
+        "(B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are.",
+        "(C) Many companies are focused on quarterly earnings and growth.",
+        "That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse.",
+        "Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action.",
+        "(D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions.",
+        "The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight.",
+        "The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future."
       ],
       "question": "What would be the best title of the passage above?",
       "choices": [
@@ -767,16 +823,31 @@
         },
         {
           "label": "④",
-          "text": "Why the public is skeptical that climate activism will make changes [25-26] Economies happen in places, and they have an effect on the physical form of places. If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result? The short answer: denser and better connected. An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible. A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option. But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles. Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities. But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties. A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance. Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart. As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\" These effects are staggering. As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: . The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away. Obviously walk-ability isn't the sine qua non of innovation. The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent. But you have to wonder how many ideas we've missed because people were driving, not walking."
+          "text": "Why the public is skeptical that climate activism will make changes"
         }
-      ],
-      "raw_text": "INSTRUCTION: Most people are focused on the present: today, tomorrow, maybe next year. (A) Fixing your flat tire is more pressing than figuring out if you should use an electric car. Living by the beach is a lot more fun than figuring out when your house will be underwater because of sea level rise. That basic human relationship with time makes climate change a tricky problem. \"I consider climate change the policy problem from hell because you almost couldn't design a worse fit for our underlying psychology, or our institutions of decision-making,\" says a climate expert. (B) Those institutions - including companies and governments that ultimately have the power to dramatically reduce greenhouse gas emissions - can be even more obsessed with the present than individuals are. (C) Many companies are focused on quarterly earnings and growth. That helps drive short-term behavior, such as leasing new land to drill for fossil fuels, that makes long-term climate change worse. Fortunately, our collective focus on the present also offers hints about how to harness that hyperfocus on the present to inspire action. (D) In the political realm, that could mean that an elected official gets more votes because they support policies that reduce emissions. The promise of a benefit in the next election may be more galvanizing than the goal of protecting future generations, even if the latter has more moral weight. The benefits that we get today are more salient, and we want them more than benefits that may be larger, but will accrue in the future.\nPASSAGE_SENTENCES:\n1. What would be the best title of the passage above?\nQUESTION:\nWhat would be the best title of the passage above?\nCHOICES:\n① How our perception of time shapes our approach to climate change\n② Our obsession with the future obscures the present\n③ Extreme weather starts to catch our policy-makers' attention\n④ Why the public is skeptical that climate activism will make changes [25-26] Economies happen in places, and they have an effect on the physical form of places. If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result? The short answer: denser and better connected. An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible. A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option. But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles. Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities. But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties. A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance. Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart. As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\" These effects are staggering. As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: . The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away. Obviously walk-ability isn't the sine qua non of innovation. The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent. But you have to wonder how many ideas we've missed because people were driving, not walking."
+      ]
     },
     {
       "number": 25,
-      "instruction": "Economies happen in places, and they have an effect on the physical form of places. If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result? The short answer: denser and better connected. An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible. A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option. But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles. Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities. But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties. A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance. Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart. As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\" These effects are staggering. As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: . The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away. Obviously walk-ability isn't the sine qua non of innovation. The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent. But you have to wonder how many ideas we've missed because people were driving, not walking.",
+      "instruction": "[25-26] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the best for the blank."
+        "Economies happen in places, and they have an effect on the physical form of places.",
+        "If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result?",
+        "The short answer: denser and better connected.",
+        "An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible.",
+        "A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option.",
+        "But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles.",
+        "Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities.",
+        "But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties.",
+        "A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance.",
+        "Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart.",
+        "As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\"",
+        "These effects are staggering.",
+        "As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: __________.",
+        "The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away.",
+        "Obviously walk-ability isn't the sine qua non of innovation.",
+        "The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent.",
+        "But you have to wonder how many ideas we've missed because people were driving, not walking."
       ],
       "question": "Choose the best for the blank.",
       "choices": [
@@ -796,14 +867,29 @@
           "label": "④",
           "text": "Agglomeration mediates exponential growth of employment"
         }
-      ],
-      "raw_text": "INSTRUCTION: Economies happen in places, and they have an effect on the physical form of places. If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result? The short answer: denser and better connected. An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible. A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option. But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles. Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities. But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties. A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance. Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart. As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\" These effects are staggering. As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: . The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away. Obviously walk-ability isn't the sine qua non of innovation. The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent. But you have to wonder how many ideas we've missed because people were driving, not walking.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① Agglomeration economies attenuate with distance\n② Idea-generating benefits of agglomeration are inversely related to psychological distance\n③ Speed and direction of agglomeration matter\n④ Agglomeration mediates exponential growth of employment"
+      ]
     },
     {
       "number": 26,
-      "instruction": "Economies happen in places, and they have an effect on the physical form of places. If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result? The short answer: denser and better connected. An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible. A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option. But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles. Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities. But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties. A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance. Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart. As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\" These effects are staggering. As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: . The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away. Obviously walk-ability isn't the sine qua non of innovation. The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent. But you have to wonder how many ideas we've missed because people were driving, not walking.",
+      "instruction": "[25-26] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "Economies happen in places, and they have an effect on the physical form of places.",
+        "If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result?",
+        "The short answer: denser and better connected.",
+        "An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible.",
+        "A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option.",
+        "But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles.",
+        "Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities.",
+        "But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties.",
+        "A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance.",
+        "Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart.",
+        "As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\"",
+        "These effects are staggering.",
+        "As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: __________.",
+        "The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away.",
+        "Obviously walk-ability isn't the sine qua non of innovation.",
+        "The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent.",
+        "But you have to wonder how many ideas we've missed because people were driving, not walking."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -821,16 +907,36 @@
         },
         {
           "label": "④",
-          "text": "The next American economy will depend on humans actually spontaneously talking. [27-28] Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images. His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids. \"We wanted to invert your typical global health tropes.\" In his small-scale exploration, here's what happened: his specifications, the AI program almost always depicted the children as Black. As for the doctors, he estimates that in 22 of over 350 images, they were white. For this experiment, they used an AI site called Midjourney. Alenichev didn't just put in one phrase to see what would happen. He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists. They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children. It was the combination of those two requests that was problematic. So they decided to be more specific. They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering. They also asked for images depicting different health scenarios like \"HIV patient receiving care.\" Try as they might, the team was unable to get Black doctors and white patients in one image. Out of 150 images of HIV patients, 148 were Black and two were white. \"You didn't get any sense of modernity in Africa\" in the images, Alenichev says. \"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\" Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords. The results it produces are, in effect, remixes of existing content. And there's a long history of photos that depict suffering people of color and white Western health and aid workers. Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\" To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\""
+          "text": "The next American economy will depend on humans actually spontaneously talking."
         }
-      ],
-      "raw_text": "INSTRUCTION: Economies happen in places, and they have an effect on the physical form of places. If the next American economy will be export-oriented, lower-carbon, and innovation-driven, as Larry Summers has posited, what kind of landscape will result? The short answer: denser and better connected. An export-oriented economy will need a robust port infrastructure, which the U.S. more or less has, but also a freight network, guided by an intelligent, coordinated freight strategy, which the U.S. sorely lacks, so American manufactured goods can make it to the ports as fast as possible. A lower-carbon economy will also increase the value of denser places, where transit makes sense, and where a detached single-family home isn't the only residential option. But what's jaw-dropping to me is how much innovation also relies on density - measured in blocks, not miles. Ed Glaeser and others, going as far back as Alfred Marshall in 1890, have noted the gains from agglomeration, or geographically clustered activities. But they've generally looked at agglomeration at the metropolitan scale, and metros tend to be quite far-flung places, stretching across several counties. A couple of papers have described how dramatically the benefits of innovation and agglomeration fall off once people spread out beyond walking distance. Some researchers found that the intellectual spillovers that drive innovation and employment drop off dramatically as firms and people move more than a mile apart. As they note, \"Information spillovers that require frequent contact between workers may dissipate over a short distance as walking to a meeting place becomes difficult or as random encounters become rare.\" These effects are staggering. As you move out beyond just one mile, the power of intellectual ferment to create another new firm or even another new job drops to one-tenth or less of what it is closer in, or as the economists say in their inimitable prose: . The initial attenuation is rapid, with the effect of own-industry employment in the first mile up to 10 to 1000 times larger than the effect two to five miles away. Obviously walk-ability isn't the sine qua non of innovation. The greater Boston area's innovation hub is actually named for a highway (Route 128), and Silicon Valley and Austin are both car-dependent. But you have to wonder how many ideas we've missed because people were driving, not walking.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Physical proximity is the first and foremost prerequisite to sharing economy.\n② Investment is tied to innovation, which stimulates job growth.\n③ Geographically clustered activities should be analyzed in the metropolitan level.\n④ The next American economy will depend on humans actually spontaneously talking. [27-28] Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images. His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids. \"We wanted to invert your typical global health tropes.\" In his small-scale exploration, here's what happened: his specifications, the AI program almost always depicted the children as Black. As for the doctors, he estimates that in 22 of over 350 images, they were white. For this experiment, they used an AI site called Midjourney. Alenichev didn't just put in one phrase to see what would happen. He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists. They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children. It was the combination of those two requests that was problematic. So they decided to be more specific. They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering. They also asked for images depicting different health scenarios like \"HIV patient receiving care.\" Try as they might, the team was unable to get Black doctors and white patients in one image. Out of 150 images of HIV patients, 148 were Black and two were white. \"You didn't get any sense of modernity in Africa\" in the images, Alenichev says. \"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\" Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords. The results it produces are, in effect, remixes of existing content. And there's a long history of photos that depict suffering people of color and white Western health and aid workers. Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\" To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\""
+      ]
     },
     {
       "number": 27,
-      "instruction": "Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images. His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids. \"We wanted to invert your typical global health tropes.\" In his small-scale exploration, here's what happened: his specifications, the AI program almost always depicted the children as Black. As for the doctors, he estimates that in 22 of over 350 images, they were white. For this experiment, they used an AI site called Midjourney. Alenichev didn't just put in one phrase to see what would happen. He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists. They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children. It was the combination of those two requests that was problematic. So they decided to be more specific. They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering. They also asked for images depicting different health scenarios like \"HIV patient receiving care.\" Try as they might, the team was unable to get Black doctors and white patients in one image. Out of 150 images of HIV patients, 148 were Black and two were white. \"You didn't get any sense of modernity in Africa\" in the images, Alenichev says. \"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\" Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords. The results it produces are, in effect, remixes of existing content. And there's a long history of photos that depict suffering people of color and white Western health and aid workers. Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\" To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\"",
+      "instruction": "[27-28] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the words that best fill in the blank."
+        "Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images.",
+        "His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids.",
+        "\"We wanted to invert your typical global health tropes.\"",
+        "In his small-scale exploration, here's what happened: __________ his specifications, the AI program almost always depicted the children as Black.",
+        "As for the doctors, he estimates that in 22 of over 350 images, they were white.",
+        "For this experiment, they used an AI site called Midjourney.",
+        "Alenichev didn't just put in one phrase to see what would happen.",
+        "He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists.",
+        "They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children.",
+        "It was the combination of those two requests that was problematic.",
+        "So they decided to be more specific.",
+        "They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering.",
+        "They also asked for images depicting different health scenarios like \"HIV patient receiving care.\"",
+        "Try as they might, the team was unable to get Black doctors and white patients in one image.",
+        "Out of 150 images of HIV patients, 148 were Black and two were white.",
+        "\"You didn't get any sense of modernity in Africa\" in the images, Alenichev says.",
+        "\"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\"",
+        "Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords.",
+        "The results it produces are, in effect, remixes of existing content.",
+        "And there's a long history of photos that depict suffering people of color and white Western health and aid workers.",
+        "Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\"",
+        "To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\""
       ],
       "question": "Choose the words that best fill in the blank.",
       "choices": [
@@ -850,14 +956,34 @@
           "label": "④",
           "text": "Without"
         }
-      ],
-      "raw_text": "INSTRUCTION: Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images. His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids. \"We wanted to invert your typical global health tropes.\" In his small-scale exploration, here's what happened: his specifications, the AI program almost always depicted the children as Black. As for the doctors, he estimates that in 22 of over 350 images, they were white. For this experiment, they used an AI site called Midjourney. Alenichev didn't just put in one phrase to see what would happen. He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists. They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children. It was the combination of those two requests that was problematic. So they decided to be more specific. They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering. They also asked for images depicting different health scenarios like \"HIV patient receiving care.\" Try as they might, the team was unable to get Black doctors and white patients in one image. Out of 150 images of HIV patients, 148 were Black and two were white. \"You didn't get any sense of modernity in Africa\" in the images, Alenichev says. \"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\" Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords. The results it produces are, in effect, remixes of existing content. And there's a long history of photos that depict suffering people of color and white Western health and aid workers. Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\" To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\"\nPASSAGE_SENTENCES:\n1. Choose the words that best fill in the blank.\nQUESTION:\nChoose the words that best fill in the blank.\nCHOICES:\n① According to\n② Despite\n③ On top of\n④ Without"
+      ]
     },
     {
       "number": 28,
-      "instruction": "Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images. His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids. \"We wanted to invert your typical global health tropes.\" In his small-scale exploration, here's what happened: his specifications, the AI program almost always depicted the children as Black. As for the doctors, he estimates that in 22 of over 350 images, they were white. For this experiment, they used an AI site called Midjourney. Alenichev didn't just put in one phrase to see what would happen. He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists. They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children. It was the combination of those two requests that was problematic. So they decided to be more specific. They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering. They also asked for images depicting different health scenarios like \"HIV patient receiving care.\" Try as they might, the team was unable to get Black doctors and white patients in one image. Out of 150 images of HIV patients, 148 were Black and two were white. \"You didn't get any sense of modernity in Africa\" in the images, Alenichev says. \"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\" Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords. The results it produces are, in effect, remixes of existing content. And there's a long history of photos that depict suffering people of color and white Western health and aid workers. Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\" To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\"",
+      "instruction": "[27-28] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images.",
+        "His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids.",
+        "\"We wanted to invert your typical global health tropes.\"",
+        "In his small-scale exploration, here's what happened: __________ his specifications, the AI program almost always depicted the children as Black.",
+        "As for the doctors, he estimates that in 22 of over 350 images, they were white.",
+        "For this experiment, they used an AI site called Midjourney.",
+        "Alenichev didn't just put in one phrase to see what would happen.",
+        "He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists.",
+        "They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children.",
+        "It was the combination of those two requests that was problematic.",
+        "So they decided to be more specific.",
+        "They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering.",
+        "They also asked for images depicting different health scenarios like \"HIV patient receiving care.\"",
+        "Try as they might, the team was unable to get Black doctors and white patients in one image.",
+        "Out of 150 images of HIV patients, 148 were Black and two were white.",
+        "\"You didn't get any sense of modernity in Africa\" in the images, Alenichev says.",
+        "\"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\"",
+        "Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords.",
+        "The results it produces are, in effect, remixes of existing content.",
+        "And there's a long history of photos that depict suffering people of color and white Western health and aid workers.",
+        "Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\"",
+        "To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\""
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -875,16 +1001,31 @@
         },
         {
           "label": "④",
-          "text": "AI-generated images can propagate stereotypes. [29-30] Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law. In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield. It was adopted by 12 European countries. Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields. In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt fourﾠtreaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians. They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war. Since then, the rules of war have been ratified by 196 states. They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed. They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime. If a warring party is accused of violating international humanitarian law – whether by an individual, group, country or observer - countries are obligated to investigate. The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentiveﾠfor warring parties toﾠcomply with the rules of war. Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts. Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime. Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed. Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas. If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out. There is one caveat: a civilian structures, for example a school, if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse."
+          "text": "AI-generated images can propagate stereotypes."
         }
-      ],
-      "raw_text": "INSTRUCTION: Arsenii Alenichev typed a sentence like \"Black African doctors providing care for white suffering children\" into an artificial intelligence program designed to generate photo-like images. His goal was to see if AI would come up with images that flip the stereotype of white saviors or the suffering Black kids. \"We wanted to invert your typical global health tropes.\" In his small-scale exploration, here's what happened: his specifications, the AI program almost always depicted the children as Black. As for the doctors, he estimates that in 22 of over 350 images, they were white. For this experiment, they used an AI site called Midjourney. Alenichev didn't just put in one phrase to see what would happen. He brainstormed ways to see if he could get AI images that matched his specifications, collaborating with anthropologists. They realized AI did fine at providing on-point images if asked to show either Black African doctors or white suffering children. It was the combination of those two requests that was problematic. So they decided to be more specific. They entered phrases that mentioned Black African doctors providing food, vaccines or medicine to white children who were poor or suffering. They also asked for images depicting different health scenarios like \"HIV patient receiving care.\" Try as they might, the team was unable to get Black doctors and white patients in one image. Out of 150 images of HIV patients, 148 were Black and two were white. \"You didn't get any sense of modernity in Africa\" in the images, Alenichev says. \"It's all harking back to a time that it never existed, but it's a time that exists in the imagination of people that have very negative ideas about Africa.\" Generally, AI programs that create images from a text prompt will draw from a massive database of existing photos and images that people have described with keywords. The results it produces are, in effect, remixes of existing content. And there's a long history of photos that depict suffering people of color and white Western health and aid workers. Uganda entrepreneur Teddy Ruge says that the idea of the \"white savior\" is a remnant of colonialism, a time when the Global North put forth the idea of \"white expertise over the savages.\" To compensate for decades of white savior imagery, Ruge says, Africans and people from the Global South \"have to contribute largely to changing the databases and overwhelming the databases, so that we are also visible.\"\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Global community needs to have conversations about who should be held accountable when AI generates biased images.\n② AI comes up with on-point images as long as we provide detailed specifications.\n③ We should insist on understanding AI as something apolitical, because it is.\n④ AI-generated images can propagate stereotypes. [29-30] Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law. In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield. It was adopted by 12 European countries. Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields. In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt fourﾠtreaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians. They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war. Since then, the rules of war have been ratified by 196 states. They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed. They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime. If a warring party is accused of violating international humanitarian law – whether by an individual, group, country or observer - countries are obligated to investigate. The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentiveﾠfor warring parties toﾠcomply with the rules of war. Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts. Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime. Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed. Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas. If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out. There is one caveat: a civilian structures, for example a school, if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse."
+      ]
     },
     {
       "number": 29,
-      "instruction": "Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law. In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield. It was adopted by 12 European countries. Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields. In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt fourﾠtreaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians. They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war. Since then, the rules of war have been ratified by 196 states. They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed. They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime. If a warring party is accused of violating international humanitarian law – whether by an individual, group, country or observer - countries are obligated to investigate. The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentiveﾠfor warring parties toﾠcomply with the rules of war. Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts. Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime. Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed. Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas. If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out. There is one caveat: a civilian structures, for example a school, if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse.",
+      "instruction": "[29-30] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the best for the blank."
+        "Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law.",
+        "In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield.",
+        "It was adopted by 12 European countries.",
+        "Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields.",
+        "In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt four treaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians.",
+        "They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war.",
+        "Since then, the rules of war have been ratified by 196 states.",
+        "They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed.",
+        "They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime.",
+        "If a warring party is accused of violating international humanitarian law - whether by an individual, group, country or observer - countries are obligated to investigate.",
+        "The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentive for warring parties to comply with the rules of war.",
+        "Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts.",
+        "Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime.",
+        "Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed.",
+        "Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas.",
+        "If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out.",
+        "There is one caveat: a civilian structures, for example a school, __________ if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse."
       ],
       "question": "Choose the best for the blank.",
       "choices": [
@@ -904,14 +1045,29 @@
           "label": "④",
           "text": "can avoid ratifying the rules of war"
         }
-      ],
-      "raw_text": "INSTRUCTION: Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law. In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield. It was adopted by 12 European countries. Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields. In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt fourﾠtreaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians. They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war. Since then, the rules of war have been ratified by 196 states. They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed. They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime. If a warring party is accused of violating international humanitarian law – whether by an individual, group, country or observer - countries are obligated to investigate. The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentiveﾠfor warring parties toﾠcomply with the rules of war. Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts. Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime. Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed. Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas. If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out. There is one caveat: a civilian structures, for example a school, if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① can be disguised\n② must be registered beforehand\n③ may become a legitimate target\n④ can avoid ratifying the rules of war"
+      ]
     },
     {
       "number": 30,
-      "instruction": "Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law. In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield. It was adopted by 12 European countries. Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields. In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt fourﾠtreaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians. They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war. Since then, the rules of war have been ratified by 196 states. They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed. They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime. If a warring party is accused of violating international humanitarian law – whether by an individual, group, country or observer - countries are obligated to investigate. The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentiveﾠfor warring parties toﾠcomply with the rules of war. Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts. Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime. Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed. Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas. If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out. There is one caveat: a civilian structures, for example a school, if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse.",
+      "instruction": "[29-30] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law.",
+        "In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield.",
+        "It was adopted by 12 European countries.",
+        "Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields.",
+        "In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt four treaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians.",
+        "They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war.",
+        "Since then, the rules of war have been ratified by 196 states.",
+        "They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed.",
+        "They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime.",
+        "If a warring party is accused of violating international humanitarian law - whether by an individual, group, country or observer - countries are obligated to investigate.",
+        "The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentive for warring parties to comply with the rules of war.",
+        "Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts.",
+        "Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime.",
+        "Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed.",
+        "Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas.",
+        "If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out.",
+        "There is one caveat: a civilian structures, for example a school, __________ if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -931,8 +1087,8 @@
           "label": "④",
           "text": "The Geneva Conventions allow exceptions to harm soldiers incapacitated in combat."
         }
-      ],
-      "raw_text": "INSTRUCTION: Although our modern rules of war can be traced back to ancient civilizations and religions, it was Henri Dunant, the founder of the Red Cross, who began the process of codifying these customs into international humanitarian law. In 1864, he helped establish the first Geneva Convention, an international treaty that required armies to care for the sick and wounded on the battlefield. It was adopted by 12 European countries. Over the next 85 years, diplomats debated and adopted additional amendments and treaties to address the treatment of combatants at sea and prisoners of war - not just combatants on battlefields. In 1949, after the horrors of World War II, diplomats gathered again in Geneva to adopt fourﾠtreaties that reaffirmed and updated the previous treaties and expanded the rules to protect civilians. They're now collectively known as the Geneva Conventions of 1949 and contain the most important rules of war. Since then, the rules of war have been ratified by 196 states. They protect people who are not fighting in the conflict and curb the brutality of war by setting limits on the weapons and tactics that can be employed. They're also used in domestic and international courts to determine if a government or non-governmental militant group is guilty of a war crime. If a warring party is accused of violating international humanitarian law – whether by an individual, group, country or observer - countries are obligated to investigate. The U.N. Security Council, a group of 15 countries at the U.N. charged to maintain international peace and security, may also impose sanctions - like a travel ban or an arms embargo - as an incentiveﾠfor warring parties toﾠcomply with the rules of war. Although there are many rules contained in the Conventions, here are several crucial principles that are relevant to ongoing conflicts. Intentionally targeting civilians, buildings such as schools or houses and infrastructure like water sources or sanitation facilities is a war crime. Killing or injuring a person who has surrendered or is no longer able to fight is also prohibited, as is punishing someone for an act that another person, even a family member, has committed. Attacks should only be directed at military objectives, and military targets such as bases and stockpiles should not be placed in or near populated areas. If the expected incidental civilian damage of an attack is excessive and disproportionate to the anticipated military gain, then the attack legally cannot be carried out. There is one caveat: a civilian structures, for example a school, if it is being used for specific military operations - as a base to launch attacks, for example, or a weapons storehouse.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① It is debatable that any retaliation must be proportionate during the war.\n② Enforcing the rules of war can be difficult because unanimous consent is required by the warring countries.\n③ The rules of war help guarantee safe passage for civilians to flee violence.\n④ The Geneva Conventions allow exceptions to harm soldiers incapacitated in combat."
+      ]
     }
-  ]
+  ],
+  "source_pdf": "항공_24_영어.pdf"
 }

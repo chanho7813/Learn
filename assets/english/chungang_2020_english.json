@@ -3,15 +3,13 @@
   "institution_ko": "중앙대",
   "year": 2020,
   "exam_kind": "english",
-  "source_text_file": "chungang_2020_english_extracted_complete_final.txt",
   "question_count": 40,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
@@ -24,22 +22,21 @@
       "choices": [
         {
           "label": "①",
-          "text": ""
+          "text": "noncommittal"
         },
         {
           "label": "②",
-          "text": "noncommittal flatfooted"
+          "text": "flatfooted"
         },
         {
           "label": "③",
-          "text": ""
+          "text": "squalid"
         },
         {
           "label": "④",
-          "text": "squalid amicable"
+          "text": "amicable"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. I wonder why the manager maintained such an intransigent position.\nCHOICES:\n① \n② noncommittal flatfooted\n③ \n④ squalid amicable"
+      ]
     },
     {
       "number": 2,
@@ -65,8 +62,7 @@
           "label": "④",
           "text": "barren tract"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. The whole region has become a tinderbox since the new king was inaugurated.\nCHOICES:\n① powder keg\n② black sheep\n③ red herring\n④ barren tract"
+      ]
     },
     {
       "number": 3,
@@ -92,8 +88,7 @@
           "label": "④",
           "text": "meddled"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Perhaps it was the flaring sunlight that addled his mind.\nCHOICES:\n① demesmerized\n② muddled\n③ dulcified\n④ meddled"
+      ]
     },
     {
       "number": 4,
@@ -119,8 +114,7 @@
           "label": "④",
           "text": "decrepit"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Many are shacks of corrugated iron over a rickety timber frame.\nCHOICES:\n① extravagant\n② slippery\n③ solid\n④ decrepit"
+      ]
     },
     {
       "number": 5,
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "saddened"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. I knew that she was bridled by the news of my staying.\nCHOICES:\n① relieved\n② surprised\n③ offended\n④ saddened"
+      ]
     },
     {
       "number": 6,
@@ -173,8 +166,7 @@
           "label": "④",
           "text": "rectify"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. Once you know what question you want to answer, it’s time to scour the book for things that will help you answer the question.\nCHOICES:\n① comb\n② swathe\n③ carve\n④ rectify"
+      ]
     },
     {
       "number": 7,
@@ -200,8 +192,7 @@
           "label": "④",
           "text": "sparseness"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.\nPASSAGE_SENTENCES:\n1. As the giddiness of the Roaring Twenties dissolved into the bleakness of the Great Depression, he battled alcoholism, which hampered his writing.\nCHOICES:\n① dizziness\n② rabidity\n③ equilibrium\n④ sparseness"
+      ]
     },
     {
       "number": 8,
@@ -225,8 +216,7 @@
           "label": "④",
           "text": "A: Come in. Have a seat and take the load off. B: Thanks. I’ve been on my feet all day long."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)\nCHOICES:\n① A: I can’t understand why so many people think that Sam and Jack are a lot alike. B: I don’t see it either. Actually, I think that they are poles apart.\n② A: Sorry to hear that your friend left you high and dry. B: Yeah. I’m not going to let this destroy me. I’m going to make the best of it.\n③ A: My sister got so angry with me, but I guess I had it coming. B: Yes, I’ll be bitter if I were you.\n④ A: Come in. Have a seat and take the load off. B: Thanks. I’ve been on my feet all day long."
+      ]
     },
     {
       "number": 9,
@@ -250,8 +240,7 @@
           "label": "④",
           "text": "A: I always see eye to eye with him. B: Oh, he’s really hard to work with."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오.\nPASSAGE_SENTENCES:\n1. 다음의 대화들 중 흐름이 가장 적절하지 않은 것을 고르시오. (각 2점)\nCHOICES:\n① A: You don’t know how hard it is to run a restaurant in the city. B: I’ve been there. You don’t need to spell it out.\n② A: How does a nice hot chocolate sound? B: Wow, I think that would hit the spot.\n③ A: Is that the right answer? B: No, now you’re getting colder.\n④ A: I always see eye to eye with him. B: Oh, he’s really hard to work with."
+      ]
     },
     {
       "number": 10,
@@ -275,10 +264,9 @@
         },
         {
           "label": "④",
-          "text": ""
+          "text": "밑줄 ④"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. Not only is the prose-account obsessed with\nCHOICES:\n① circumstantial detail, but that detail also happens to be extremely apologetic, explaining whatever it\n② could happen that a man gets trapped by the criminal.\n③ No error.\n④"
+      ]
     },
     {
       "number": 11,
@@ -302,10 +290,9 @@
         },
         {
           "label": "④",
-          "text": ""
+          "text": "밑줄 ④"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. In the process of helping us perceive the world\nCHOICES:\n① a little differently, poets often compare one thing\n② we readily recognize with another, present us\n③ with quite an attention-grabbing surprise. No error.\n④"
+      ]
     },
     {
       "number": 12,
@@ -321,7 +308,7 @@
         },
         {
           "label": "②",
-          "text": ""
+          "text": "밑줄 ②"
         },
         {
           "label": "③",
@@ -329,10 +316,9 @@
         },
         {
           "label": "④",
-          "text": ""
+          "text": "밑줄 ④"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.\nPASSAGE_SENTENCES:\n1. It is said that under no previous historical system\nCHOICES:\n① did people live as comfortable a material life or have such a range of alternative life-experiences at their\n② \n③ disposal as in this present system. No error.\n④"
+      ]
     },
     {
       "number": 13,
@@ -358,8 +344,7 @@
           "label": "④",
           "text": "elf"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The _______, whom many kids in the town believe not to be awakened from the winter sleep, pretends that the eminence is not worth attaining, declines altogether the struggle, and calls himself a philosopher.\nCHOICES:\n① sluggard\n② gopher\n③ ratter\n④ elf"
+      ]
     },
     {
       "number": 14,
@@ -385,8 +370,7 @@
           "label": "④",
           "text": "abscond"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Asked by our senior officers to pull together this South Yorkshire Police evidence for the Taylor inquiry, we are willing to _______ a story that all of the Liverpool fans were drunk, and that we were afraid they were going to break down the gates so we decided to open them.\nCHOICES:\n① punctuate\n② appraise\n③ concoct\n④ abscond"
+      ]
     },
     {
       "number": 15,
@@ -412,8 +396,7 @@
           "label": "④",
           "text": "calefactory"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Love and politics are no more _______ than water and oil especially if the politics is rancid.\nCHOICES:\n① congenial\n② callous\n③ congenital\n④ calefactory"
+      ]
     },
     {
       "number": 16,
@@ -439,8 +422,7 @@
           "label": "④",
           "text": "aseptic"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. For their study, researchers implemented four initiatives that included ongoing education for operating room staff on _______ technique, sterility and standardization of skin-site preparation.\nCHOICES:\n① acid\n② toxic\n③ nitrous\n④ aseptic"
+      ]
     },
     {
       "number": 17,
@@ -467,8 +449,7 @@
           "label": "④",
           "text": "blithe"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. The old general used to make extremely dull speeches.\n2. He churns out lots of _______ stories on military matters and can be considered an official mouthpiece of the country.\nCHOICES:\n① turgid\n② vitriolic\n③ ablative\n④ blithe"
+      ]
     },
     {
       "number": 18,
@@ -494,8 +475,7 @@
           "label": "④",
           "text": "distributed"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Our modern, low-floor bus fleet offers access to all those with impaired mobility and provides one _______ wheelchair space in the lower saloon.\nCHOICES:\n① desiccated\n② discharged\n③ dedicated\n④ distributed"
+      ]
     },
     {
       "number": 19,
@@ -522,8 +502,7 @@
           "label": "④",
           "text": "innervation"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. There are various ways of making a charm more efficient, and the most common method is by ________.\n2. When a hunter of the Tanala tribe wants to make his hunting successful, he cuts his lip and puts a charm mixture in the cut.\nCHOICES:\n① inculcation\n② inoculation\n③ extirpation\n④ innervation"
+      ]
     },
     {
       "number": 20,
@@ -551,8 +530,7 @@
           "label": "④",
           "text": "elliptical"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어를 고르시오.\nPASSAGE_SENTENCES:\n1. Her poetry requires repeated and careful readings.\n2. Her _______ syntax occasionally departs from the normal pattern.\n3. Readers must consequently fill in the gaps her language creates.\nCHOICES:\n① ornamental\n② archaic\n③ loquacious\n④ elliptical"
+      ]
     },
     {
       "number": 21,
@@ -584,14 +562,13 @@
           "label": "④",
           "text": "caviling"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. In describing the ideal type of “primary friendship,” Aristotle proposed three kinds of friendship.\n2. The first two are friendship for the sake of utility and friendship for the sake of pleasure.\n3. Those who form friendships for the sake of utility do so because they are useful for themselves.\n4. Similarly, those who form friendships for the sake of pleasure do so because they are pleasurable for themselves.\n5. Because of the _______ nature of these types of friendships, Aristotle regarded them as imperfect ones.\n6. In contrast, he viewed the third type of friendship as perfect.\n7. Perfect friendship is the friendship of people who are good and alike in virtue.\nCHOICES:\n① egocentric\n② debonaire\n③ amorphous\n④ caviling"
+      ]
     },
     {
       "number": 22,
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "For 10 years, chungang Chile has been gripped by unrelenting drought.",
+        "For 10 years, central Chile has been gripped by unrelenting drought.",
         "With 30% less rainfall than normal, verdant landscapes have withered, reservoirs are low, and more than 100,000 farm animals have died.",
         "The dry spell has lasted so long that researchers are calling it a “megadrought,” rivaling dry stretches centuries ago.",
         "It ________________ the decade-long drought that California, some 8000 kilometers away, endured until this year.",
@@ -615,8 +592,7 @@
           "label": "④",
           "text": "is not so relevant to — historically show the similar pattern"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. For 10 years, chungang Chile has been gripped by unrelenting drought.\n2. With 30% less rainfall than normal, verdant landscapes have withered, reservoirs are low, and more than 100,000 farm animals have died.\n3. The dry spell has lasted so long that researchers are calling it a “megadrought,” rivaling dry stretches centuries ago.\n4. It ________________ the decade-long drought that California, some 8000 kilometers away, endured until this year.\n5. By analyzing tree ring records, scientists have now found evidence that such tandem droughts ________________: They are surprisingly common over the past 1200 years, and they may often — share a common cause an abnormally cool state of the eastern Pacific Ocean known as La Niña.\nCHOICES:\n① — is caused by may cause the disastrous rainfall\n② — is traced to would persist for a specific period\n③ is not so different from — are more than a coincidence\n④ is not so relevant to — historically show the similar pattern"
+      ]
     },
     {
       "number": 23,
@@ -646,8 +622,7 @@
           "label": "④",
           "text": "arrogance— fear"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Major literary figures, such as Alexander Pope, Jonathan Swift, Samuel Butler, and Samuel Johnson, became increasingly critical of the moral failings they saw as being engendered by the very success of the new science.\n2. First, resurrecting the Faustus image, they believed that scientists were attempting to discover more than it was proper for humanity to know.\n3. Second, they shared a barely suppressed anger at what they saw as the _______ of scientists, especially the proponents of Baconian method, with its assumption that eventually man will fully understand and exploit the mysteries of the universe.\n4. Here, again, there are echoes of Faustus the overreacher, particularly in the implications of Bacon’s dictum that knowledge is power.\n5. The third and essentially new component in the eighteenth-century criticism of scientists was the _______ that science might indeed succeed in deriving a self-sufficient, purely mechanistic system, with no moral dimension and no need of God.\nCHOICES:\n① audacity— hope\n② — irresolution nonsense\n③ — impatience expectation\n④ arrogance— fear"
+      ]
     },
     {
       "number": 24,
@@ -676,8 +651,7 @@
           "label": "④",
           "text": "fluency— affix"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. My father expressed a wish that I should attend a course of lectures upon natural philosophy, to which I cheerfully consented.\n2. Some accident prevented my attending these lectures until the course was nearly finished.\n3. The lecture, being therefore one of the last, was entirely incomprehensible to me.\n4. The professor discoursed with the greatest _______ of potassium and boron, of sulphates and oxyds, terms to which I could _______ no idea; and I became disgusted with the science of natural philosophy, although I still read Pliny and Buffon with delight, authors, in my estimation, of nearly equal interest and utility.\nCHOICES:\n① — interest have\n② knowledge— invoke\n③ concern— ascribe\n④ fluency— affix"
+      ]
     },
     {
       "number": 25,
@@ -706,8 +680,7 @@
           "label": "④",
           "text": "defalcated"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. A system of free markets seems to promise not merely liberty but equality of an important sort as well, since everyone in a free market is given an equal right to transact and participate in market arrangements.\n2. This form of equality should not be _______.\n3. For example, race and sex discrimination has often consisted of exclusions of certain classes of people from the market domain.\n4. In both South Africa and the United States, discriminatory practices frequently took the form of incursions on free markets in employment.\nCHOICES:\n① lauded\n② disparaged\n③ embellished\n④ defalcated"
+      ]
     },
     {
       "number": 26,
@@ -742,8 +715,7 @@
           "label": "④",
           "text": "people have a more general tendency to choose for themselves"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.\nPASSAGE_SENTENCES:\n1. Consider a simple experiment.\n2. Half the students in a class are given coffee mugs with the insignia of their home university embossed on it.\n3. The students who do not get a mug are asked to examine their neighbor’s mugs.\n4. Then mug owners are invited to sell their mugs and nonowners are invited to buy them.\n5. They do so by answering the question “At each of the following prices, indicate whether you would be willing to (give up your mug/buy a mug).” The results show that those with mugs demand roughly twice as much to give up their mugs as others are willing to pay to get one.\n6. Thousands of mugs have been used in dozens of replications of this experiment, but the results are nearly always the same.\n7. Once I have a mug, I don’t want to give it up.\n8. But if I don’t have one, I don’t feel an urgent need to buy one.\n9. What this means is that _____________________.\n10. When they have to give something up, they are hurt more than they are pleased if they acquire the very same thing.\nCHOICES:\n① people are less reluctant to give up specific objects\n② people do not assign specific values to objects\n③ people tend to have doubt about their choice\n④ people have a more general tendency to choose for themselves"
+      ]
     },
     {
       "number": 27,
@@ -778,8 +750,7 @@
           "label": "④",
           "text": "Reducing taxation might do more than an increase in wages to improve workers’ motivation."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. The results of a new survey indicate that most people are not motivated to work hard.\n2. The survey suggests that most full-time workers do not wish to work harder than they do at present, and are interested in more leisure rather than extra money.\n3. This is shown by the fact that 51% of those questioned said they would not work longer hours even for more money.\n4. The majority of workers, 56%, said that they could not work more efficiently than at present, but over four out of ten admitted that it would be possible for them to do so.\n5. Over half the employees said that they had no ambition to be rich, and 45% did not regard themselves as having any ambition at all.\n6. This suggests that a substantial number of workers could work harder than they do, but have little drive or ambition and would not work harder even if they were paid much more.\n7. However, there is serious evidence for the view that this lack of motivation is not due to boredom or low wages.\n8. Only 5% of workers, for instance, found their jobs boring or hated their work, while only 10% gave low wages as a reason for lack of effort.\n9. A significantly larger proportion of workers, in contrast, blamed old fashioned equipment, while three out of ten workers identified inefficiency with poor management or bad organization.\n10. By far the largest proportion of workers, however, put the blame on heavy taxation.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합하지 않은 것을 고르시오.\nCHOICES:\n① The main reasons for the lack of will to work are to be found in external factors rather than in dissatisfaction with the job itself.\n② More effort should be put into improving working conditions in the factories and making their organization more efficient.\n③ Introducing a new monetary reward seems to be urgent rather than improving the working environment.\n④ Reducing taxation might do more than an increase in wages to improve workers’ motivation."
+      ]
     },
     {
       "number": 28,
@@ -811,8 +782,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. In the 1950s, Festinger proposed his theories of social comparison and cognitive dissonance, suggesting that others can play a (A)substantial role in the development of opinions and needs as well as reduction of dissonant cognitions.\n2. These theories focus on the fact that people look to others in their environment in order to evaluate their own opinions, beliefs, and attitudes.\n3. Through this process, one can evaluate where one stands with reference to the opinions and attitudes of an appropriate comparison group, composed of others similar to oneself.\n4. With regard to abilities, one may compare performance on a given task to (B)a standard(e.g., how fast one can run the mile can be compared to an average time for a runner of the same age).\n5. However, evaluation of one’s opinions or attitudes has (C)incompatible reference and yields information that is relative only to the anchor provided by the comparison group that one chooses.\n6. Essentially, researchers have determined that individuals evaluate their opinions, beliefs, and attitudes through comparison with similar others and, partly as a result of such findings, propositions have been made that social support may (D)be derived from the social comparison process.\n7. More specifically, it is possible that the processes involved in social comparison provide a basis for the beneficial action of social support.\n8. 위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르 시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 29,
@@ -844,8 +814,7 @@
           "label": "④",
           "text": "(C) → (B) → (A)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Clive Bell was one of the major apologists at the beginning of this century for those revolutionary movements in postimpressionistic painting and sculpture that gave up the old ideal of “imitating nature,” not out of incompetence, but on principle.\n2. These movements went from the wilful “distortion” of the objects of ordinary experience, as in Cubism, to their elimination, as in Mondrian, to the uninhibited squiggles and splashes of pigments in the “action painting” and “abstract expressionism” of our own day.\n3. (A) It is fair to say that Bell’s theory has not been widely accepted among aestheticians.\n4. The wholesale exclusion of representation from the definition of “art” ― is thought too extreme as I suggested earlier, it misses the point to think that this is a matter of “mere ― definition” and Bell’s injunction that we should “look through” the person or event depicted in the painting, to the form, is too expensive.\n5. (B) Bell’s strategy was his legislative use of the term “art”: story-telling and description on canvas are not, as has been generally thought, art at all; only its organization of the elements of line, mass, and color, or what Bell calls “significant form,” entitles a painting or sculpture to be called a “work of art.” (C) Bell’s formalism is extreme, and yet it is not a lunatic fringe theory of the sort that can comfortably be ignored.\n6. If you read at all widely in recent aesthetics and criticism, you find Bell being “refuted” at almost every turn.\n7. Those who will not believe him have had to come to terms with him.\nQUESTION:\n위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것 으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (B) → (A) → (C)\n② (B) → (C) → (A)\n③ (C) → (A) → (B)\n④ (C) → (B) → (A)"
+      ]
     },
     {
       "number": 30,
@@ -876,8 +845,7 @@
           "label": "④",
           "text": "Physicists and chemists are almost like soldiers on a battlefield."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오.\nPASSAGE_SENTENCES:\n1. Laboratories and discoveries are correlative terms; if you suppress laboratories, physical science will become stricken with barrenness and death; it will become mere powerless information instead of a science of progress and futurity; give it back its laboratories, and life, fecundity and power will reappear.\n2. Away from their laboratories, physicists and chemists are but disarmed soldiers on a battlefield.\n3. The deduction from these principles is evident: if the ― conquests useful to humanity touch your heart if you remain confounded before the marvels of electric telegraphy, of anaesthesia, of the daguerreotype and ― many other admirable discoveries if you are jealous of ― the share your country may boast in these wonders then, I implore you, take some interest in those sacred dwellings meaningly described as laboratories.\n4. Ask that they may be multiplied and completed.\n5. They are the temples of the future, of riches and of comfort.\n6. There humanity grows greater, better, stronger.\nQUESTION:\n위 글의 요지로 가장 적합한 것을 고르시오.\nCHOICES:\n① Life, fecundity and power would be impossible without laboratories.\n② Laboratories are sacred dwellings.\n③ The future of science depends on laboratories.\n④ Physicists and chemists are almost like soldiers on a battlefield."
+      ]
     },
     {
       "number": 31,
@@ -914,8 +882,7 @@
           "label": "④",
           "text": "Changing scenery around the ants notably affects the frequency of their peeking."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) When walking forward, Spanish desert ants (Cataglyphis velox) use a strategy called “path integration”: They remember the feeling of the twists and turns they took and how many steps they are from the nest, which they use to compute the fastest route back home. They also rely on the angle of the Sun to get their bearings, and they look around at the passing scenery and remember certain landmarks that can help them on their return journey. But how they know where they’re going while walking backward is less clear. While it has been observed that the ants sometimes drop their food and ― turn around to see the path ahead a behavior called ― peeking before picking up the crumb again and trudging along on their backward way, it is not certain that the ants generally use such a path integration skill. In order to figure out if the ants recognize anything visually while they’re walking backwards, Schwarz and his research team selected ants that had already walked to a feeder from their nest in the desert so they knew where they were. (In other words, they had their path integration information already.) They deposited the ants some distance away from their nest with a giant crumb of ant-approved cookie. As the ants began to drag the cookie back to the nest, the researchers would sometimes change the scenery around them, mimicking strange mountains by adding black plastic bags and tarps alongside the path. When confronted with such new landmarks, the ants peeked after walking only 3.2 meters along the 8-meter path, whereas ants on familiar paths could go nearly 6 meters without turning around. The observations reveal that the insects were taking in their surroundings as they walked backward and using them to navigate and decide when to peek. As expected, _____________________. They could walk for longer distances before they peeked behind them, and more of them made it home with their cookie. A few “clueless” ants got lost, but surprisingly, others were able to find their way back to the nest even when they hadn’t previously tracked where they walked using path integration, which means they must have only been using their visual memories of their surroundings and possibly the angle of the Sun.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) When walking forward, Spanish desert ants (Cataglyphis velox) use a strategy called “path integration”: They remember the feeling of the twists and turns they took and how many steps they are from the nest, which they use to compute the fastest route back home.\n2. They also rely on the angle of the Sun to get their bearings, and they look around at the passing scenery and remember certain landmarks that can help them on their return journey.\n3. But how they know where they’re going while walking backward is less clear.\n4. While it has been observed that the ants sometimes drop their food and ― turn around to see the path ahead a behavior called ― peeking before picking up the crumb again and trudging along on their backward way, it is not certain that the ants generally use such a path integration skill.\n5. In order to figure out if the ants recognize anything visually while they’re walking backwards, Schwarz and his research team selected ants that had already walked to a feeder from their nest in the desert so they knew where they were. (In other words, they had their path integration information already.) They deposited the ants some distance away from their nest with a giant crumb of ant-approved cookie.\n6. As the ants began to drag the cookie back to the nest, the researchers would sometimes change the scenery around them, mimicking strange mountains by adding black plastic bags and tarps alongside the path.\n7. When confronted with such new landmarks, the ants peeked after walking only 3.2 meters along the 8-meter path, whereas ants on familiar paths could go nearly 6 meters without turning around.\n8. The observations reveal that the insects were taking in their surroundings as they walked backward and using them to navigate and decide when to peek.\n9. As expected, _____________________.\n10. They could walk for longer distances before they peeked behind them, and more of them made it home with their cookie.\n11. A few “clueless” ants got lost, but surprisingly, others were able to find their way back to the nest even when they hadn’t previously tracked where they walked using path integration, which means they must have only been using their visual memories of their surroundings and possibly the angle of the Sun.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.\nCHOICES:\n① Spanish desert ants use olfactory sensation in memorizing the route.\n② Many researchers clarified what navigation skills the ants use when they walk backward.\n③ The research team gave a small snack to see how the ants can hold it aloft in their tiny jaws.\n④ Changing scenery around the ants notably affects the frequency of their peeking."
+      ]
     },
     {
       "number": 32,
@@ -952,8 +919,7 @@
           "label": "④",
           "text": "ants were eager to find clues which help them find cookie with their companions"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) When walking forward, Spanish desert ants (Cataglyphis velox) use a strategy called “path integration”: They remember the feeling of the twists and turns they took and how many steps they are from the nest, which they use to compute the fastest route back home. They also rely on the angle of the Sun to get their bearings, and they look around at the passing scenery and remember certain landmarks that can help them on their return journey. But how they know where they’re going while walking backward is less clear. While it has been observed that the ants sometimes drop their food and ― turn around to see the path ahead a behavior called ― peeking before picking up the crumb again and trudging along on their backward way, it is not certain that the ants generally use such a path integration skill. In order to figure out if the ants recognize anything visually while they’re walking backwards, Schwarz and his research team selected ants that had already walked to a feeder from their nest in the desert so they knew where they were. (In other words, they had their path integration information already.) They deposited the ants some distance away from their nest with a giant crumb of ant-approved cookie. As the ants began to drag the cookie back to the nest, the researchers would sometimes change the scenery around them, mimicking strange mountains by adding black plastic bags and tarps alongside the path. When confronted with such new landmarks, the ants peeked after walking only 3.2 meters along the 8-meter path, whereas ants on familiar paths could go nearly 6 meters without turning around. The observations reveal that the insects were taking in their surroundings as they walked backward and using them to navigate and decide when to peek. As expected, _____________________. They could walk for longer distances before they peeked behind them, and more of them made it home with their cookie. A few “clueless” ants got lost, but surprisingly, others were able to find their way back to the nest even when they hadn’t previously tracked where they walked using path integration, which means they must have only been using their visual memories of their surroundings and possibly the angle of the Sun.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) When walking forward, Spanish desert ants (Cataglyphis velox) use a strategy called “path integration”: They remember the feeling of the twists and turns they took and how many steps they are from the nest, which they use to compute the fastest route back home.\n2. They also rely on the angle of the Sun to get their bearings, and they look around at the passing scenery and remember certain landmarks that can help them on their return journey.\n3. But how they know where they’re going while walking backward is less clear.\n4. While it has been observed that the ants sometimes drop their food and ― turn around to see the path ahead a behavior called ― peeking before picking up the crumb again and trudging along on their backward way, it is not certain that the ants generally use such a path integration skill.\n5. In order to figure out if the ants recognize anything visually while they’re walking backwards, Schwarz and his research team selected ants that had already walked to a feeder from their nest in the desert so they knew where they were. (In other words, they had their path integration information already.) They deposited the ants some distance away from their nest with a giant crumb of ant-approved cookie.\n6. As the ants began to drag the cookie back to the nest, the researchers would sometimes change the scenery around them, mimicking strange mountains by adding black plastic bags and tarps alongside the path.\n7. When confronted with such new landmarks, the ants peeked after walking only 3.2 meters along the 8-meter path, whereas ants on familiar paths could go nearly 6 meters without turning around.\n8. The observations reveal that the insects were taking in their surroundings as they walked backward and using them to navigate and decide when to peek.\n9. As expected, _____________________.\n10. They could walk for longer distances before they peeked behind them, and more of them made it home with their cookie.\n11. A few “clueless” ants got lost, but surprisingly, others were able to find their way back to the nest even when they hadn’t previously tracked where they walked using path integration, which means they must have only been using their visual memories of their surroundings and possibly the angle of the Sun.\nQUESTION:\n빈 칸에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① ants that already knew where they were did much better regardless of the scenery\n② ants vigorously safeguarded their fodder from the natural enemies\n③ ants had difficulty in finding the ways even in the familiar environment\n④ ants were eager to find clues which help them find cookie with their companions"
+      ]
     },
     {
       "number": 33,
@@ -991,8 +957,7 @@
           "label": "④",
           "text": "Geographical distance does not contribute to forming the homogeneity of the language network."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) To find out how a concept like love varies from language to language, Joshua Conrad Jackson, a cultural psychologist, tried a new approach using statistics. He teamed up with Johann-Mattis List, a computational linguist, who manages the Database of Cross-Linguistic Colexifications(CLICS). CLICS uses data from field linguists and anthropologists to catalog relationships between concepts and the words that represent them in nearly 3000 languages. (A) People generally believed that a universally-accepted concept about an emotion such as love might be implicitly and explicitly observed in every language. Importantly, CLICS can take words that represent more than one concept, like “dull,” and reveal other words that express the same concepts in all languages in the database. Over 2 years, Jackson and List assembled a team of statisticians, psychologists, and linguists to analyze the CLICS data in the largest ever study of its kind. They started with 24 emotional concepts and used multiple statistical methods to map how they were related to different words in 2474 languages in 20 language families. (B) The more words the two concepts had in common, the closer their relationship. For example, the concepts love and pity are both expressed by the subtle Hawaiian expression “aloha.” (That connection between “pity” and “love” seemed to be particularly strong in the Austronesian language family.) After aggregating the data, the researchers visualized ― these connections in 21 networks one for each of the different language families and one that aggregated all findings into a universal network. (C) When the researchers analyzed the networks, they found that the links between emotional concepts differed even more than expected across language families. And when they repeated the process with 13 concepts related to color ― which are already known to be relatively culture ― specific they found that the emotional concepts had three times as much variability by language family. (D) For example, Persian uses one term, ænduh, to express both grief and regret, but the Dargwa word for grief, dard, also expresses not regret, but anxiety. What’s more, geographically close language families have more closely aligned networks than distant ones, suggesting ― that culture either through shared experiences or ― ancestry may be responsible for the evolution of some of these terms.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) To find out how a concept like love varies from language to language, Joshua Conrad Jackson, a cultural psychologist, tried a new approach using statistics.\n2. He teamed up with Johann-Mattis List, a computational linguist, who manages the Database of Cross-Linguistic Colexifications(CLICS).\n3. CLICS uses data from field linguists and anthropologists to catalog relationships between concepts and the words that represent them in nearly 3000 languages.\n4. (A) People generally believed that a universally-accepted concept about an emotion such as love might be implicitly and explicitly observed in every language.\n5. Importantly, CLICS can take words that represent more than one concept, like “dull,” and reveal other words that express the same concepts in all languages in the database.\n6. Over 2 years, Jackson and List assembled a team of statisticians, psychologists, and linguists to analyze the CLICS data in the largest ever study of its kind.\n7. They started with 24 emotional concepts and used multiple statistical methods to map how they were related to different words in 2474 languages in 20 language families.\n8. (B) The more words the two concepts had in common, the closer their relationship.\n9. For example, the concepts love and pity are both expressed by the subtle Hawaiian expression “aloha.” (That connection between “pity” and “love” seemed to be particularly strong in the Austronesian language family.) After aggregating the data, the researchers visualized ― these connections in 21 networks one for each of the different language families and one that aggregated all findings into a universal network.\n10. (C) When the researchers analyzed the networks, they found that the links between emotional concepts differed even more than expected across language families.\n11. And when they repeated the process with 13 concepts related to color ― which are already known to be relatively culture ― specific they found that the emotional concepts had three times as much variability by language family.\n12. (D) For example, Persian uses one term, ænduh, to express both grief and regret, but the Dargwa word for grief, dard, also expresses not regret, but anxiety.\n13. What’s more, geographically close language families have more closely aligned networks than distant ones, suggesting ― that culture either through shared experiences or ― ancestry may be responsible for the evolution of some of these terms.\nQUESTION:\n위 글의 내용과 일치하는 것을 고르시오.\nCHOICES:\n① List manages CLICS which includes data from field linguists of more than 3000 languages.\n② Using one statistical method, the research team show how emotional concepts are connected to different words in various languages.\n③ Emotional concepts vary widely in their meaning from language family to language family.\n④ Geographical distance does not contribute to forming the homogeneity of the language network."
+      ]
     },
     {
       "number": 34,
@@ -1030,8 +995,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3점) To find out how a concept like love varies from language to language, Joshua Conrad Jackson, a cultural psychologist, tried a new approach using statistics. He teamed up with Johann-Mattis List, a computational linguist, who manages the Database of Cross-Linguistic Colexifications(CLICS). CLICS uses data from field linguists and anthropologists to catalog relationships between concepts and the words that represent them in nearly 3000 languages. (A) People generally believed that a universally-accepted concept about an emotion such as love might be implicitly and explicitly observed in every language. Importantly, CLICS can take words that represent more than one concept, like “dull,” and reveal other words that express the same concepts in all languages in the database. Over 2 years, Jackson and List assembled a team of statisticians, psychologists, and linguists to analyze the CLICS data in the largest ever study of its kind. They started with 24 emotional concepts and used multiple statistical methods to map how they were related to different words in 2474 languages in 20 language families. (B) The more words the two concepts had in common, the closer their relationship. For example, the concepts love and pity are both expressed by the subtle Hawaiian expression “aloha.” (That connection between “pity” and “love” seemed to be particularly strong in the Austronesian language family.) After aggregating the data, the researchers visualized ― these connections in 21 networks one for each of the different language families and one that aggregated all findings into a universal network. (C) When the researchers analyzed the networks, they found that the links between emotional concepts differed even more than expected across language families. And when they repeated the process with 13 concepts related to color ― which are already known to be relatively culture ― specific they found that the emotional concepts had three times as much variability by language family. (D) For example, Persian uses one term, ænduh, to express both grief and regret, but the Dargwa word for grief, dard, also expresses not regret, but anxiety. What’s more, geographically close language families have more closely aligned networks than distant ones, suggesting ― that culture either through shared experiences or ― ancestry may be responsible for the evolution of some of these terms.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3점) To find out how a concept like love varies from language to language, Joshua Conrad Jackson, a cultural psychologist, tried a new approach using statistics.\n2. He teamed up with Johann-Mattis List, a computational linguist, who manages the Database of Cross-Linguistic Colexifications(CLICS).\n3. CLICS uses data from field linguists and anthropologists to catalog relationships between concepts and the words that represent them in nearly 3000 languages.\n4. (A) People generally believed that a universally-accepted concept about an emotion such as love might be implicitly and explicitly observed in every language.\n5. Importantly, CLICS can take words that represent more than one concept, like “dull,” and reveal other words that express the same concepts in all languages in the database.\n6. Over 2 years, Jackson and List assembled a team of statisticians, psychologists, and linguists to analyze the CLICS data in the largest ever study of its kind.\n7. They started with 24 emotional concepts and used multiple statistical methods to map how they were related to different words in 2474 languages in 20 language families.\n8. (B) The more words the two concepts had in common, the closer their relationship.\n9. For example, the concepts love and pity are both expressed by the subtle Hawaiian expression “aloha.” (That connection between “pity” and “love” seemed to be particularly strong in the Austronesian language family.) After aggregating the data, the researchers visualized ― these connections in 21 networks one for each of the different language families and one that aggregated all findings into a universal network.\n10. (C) When the researchers analyzed the networks, they found that the links between emotional concepts differed even more than expected across language families.\n11. And when they repeated the process with 13 concepts related to color ― which are already known to be relatively culture ― specific they found that the emotional concepts had three times as much variability by language family.\n12. (D) For example, Persian uses one term, ænduh, to express both grief and regret, but the Dargwa word for grief, dard, also expresses not regret, but anxiety.\n13. What’s more, geographically close language families have more closely aligned networks than distant ones, suggesting ― that culture either through shared experiences or ― ancestry may be responsible for the evolution of some of these terms.\nQUESTION:\n위 글의 흐름상 가장 적합하지 않은 것을 고르시오.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 35,
@@ -1074,8 +1038,7 @@
           "label": "④",
           "text": "(B) → (A) → (D) → (C)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) (A) For, whether intended or not, the effect of obedience to the law is to uphold the authority of those who make decisions about what the law should be, and how it is to be enforced. To uphold this authority is to aid in maintaining aspects of the distribution of power to make decisions for society. Similarly, all violations of the law constitute political behavior; every violation of law is ipso facto a defiance of constituted authority. It threatens the maintenance of the existing pattern of distribution of the power to make decisions for society. If the incidence of violations of law continues to increase, political authority eventually atrophies; that is axiomatic. (B) An attempt to define political stability must begin by clarifying the concepts of politics and political structure. Political behavior is any act by any member of a society that affects the distribution of the power to make decisions for that society. Political behavior is ubiquitous. Members of society behave politically insofar as, in obeying or disobeying the laws of the society, they support or undermine the power stratification system. Obedience to the law constitutes political behavior just as much as contesting elections does. (C) We have clearly not defined the political in the usual sense of demarcating particular acts that are political from those that are not. Nor do we intend to offer such a definition, because it is misleading to delineate the political in that fashion. Strictly speaking, there is no human act, even so simple as wearing hair long, that is intrinsically nonpolitical. This is true because the “politicalness” of an act is not a quality inherent in that act but rather a characterization of it according to the context in which we study it, and the context in which it occurs. (D) To illustrate, we would not ordinarily consider long hair a form of political behavior. Yet a puritanical despot might decide that this act corrupts and consequently command everyone to cut his hair short. Suppose that shortly after such a decree has been widely and intensively publicized, all the men invited by the despot to a state ceremony arrive with long hair. In the circumstances, we would legitimately conclude that these men were committing a very bold act of political disobedience.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) (A) For, whether intended or not, the effect of obedience to the law is to uphold the authority of those who make decisions about what the law should be, and how it is to be enforced.\n2. To uphold this authority is to aid in maintaining aspects of the distribution of power to make decisions for society.\n3. Similarly, all violations of the law constitute political behavior; every violation of law is ipso facto a defiance of constituted authority.\n4. It threatens the maintenance of the existing pattern of distribution of the power to make decisions for society.\n5. If the incidence of violations of law continues to increase, political authority eventually atrophies; that is axiomatic.\n6. (B) An attempt to define political stability must begin by clarifying the concepts of politics and political structure.\n7. Political behavior is any act by any member of a society that affects the distribution of the power to make decisions for that society.\n8. Political behavior is ubiquitous.\n9. Members of society behave politically insofar as, in obeying or disobeying the laws of the society, they support or undermine the power stratification system.\n10. Obedience to the law constitutes political behavior just as much as contesting elections does.\n11. (C) We have clearly not defined the political in the usual sense of demarcating particular acts that are political from those that are not.\n12. Nor do we intend to offer such a definition, because it is misleading to delineate the political in that fashion.\n13. Strictly speaking, there is no human act, even so simple as wearing hair long, that is intrinsically nonpolitical.\n14. This is true because the “politicalness” of an act is not a quality inherent in that act but rather a characterization of it according to the context in which we study it, and the context in which it occurs.\n15. (D) To illustrate, we would not ordinarily consider long hair a form of political behavior.\n16. Yet a puritanical despot might decide that this act corrupts and consequently command everyone to cut his hair short.\n17. Suppose that shortly after such a decree has been widely and intensively publicized, all the men invited by the despot to a state ceremony arrive with long hair.\n18. In the circumstances, we would legitimately conclude that these men were committing a very bold act of political disobedience.\nQUESTION:\n위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.\nCHOICES:\n① (D) → (B) → (C) → (A)\n② (B) → (A) → (C) → (D)\n③ (A) → (C) → (B) → (D)\n④ (B) → (A) → (D) → (C)"
+      ]
     },
     {
       "number": 36,
@@ -1118,8 +1081,7 @@
           "label": "④",
           "text": "Defining the political stability in the relations between politics and political structure"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) (A) For, whether intended or not, the effect of obedience to the law is to uphold the authority of those who make decisions about what the law should be, and how it is to be enforced. To uphold this authority is to aid in maintaining aspects of the distribution of power to make decisions for society. Similarly, all violations of the law constitute political behavior; every violation of law is ipso facto a defiance of constituted authority. It threatens the maintenance of the existing pattern of distribution of the power to make decisions for society. If the incidence of violations of law continues to increase, political authority eventually atrophies; that is axiomatic. (B) An attempt to define political stability must begin by clarifying the concepts of politics and political structure. Political behavior is any act by any member of a society that affects the distribution of the power to make decisions for that society. Political behavior is ubiquitous. Members of society behave politically insofar as, in obeying or disobeying the laws of the society, they support or undermine the power stratification system. Obedience to the law constitutes political behavior just as much as contesting elections does. (C) We have clearly not defined the political in the usual sense of demarcating particular acts that are political from those that are not. Nor do we intend to offer such a definition, because it is misleading to delineate the political in that fashion. Strictly speaking, there is no human act, even so simple as wearing hair long, that is intrinsically nonpolitical. This is true because the “politicalness” of an act is not a quality inherent in that act but rather a characterization of it according to the context in which we study it, and the context in which it occurs. (D) To illustrate, we would not ordinarily consider long hair a form of political behavior. Yet a puritanical despot might decide that this act corrupts and consequently command everyone to cut his hair short. Suppose that shortly after such a decree has been widely and intensively publicized, all the men invited by the despot to a state ceremony arrive with long hair. In the circumstances, we would legitimately conclude that these men were committing a very bold act of political disobedience.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) (A) For, whether intended or not, the effect of obedience to the law is to uphold the authority of those who make decisions about what the law should be, and how it is to be enforced.\n2. To uphold this authority is to aid in maintaining aspects of the distribution of power to make decisions for society.\n3. Similarly, all violations of the law constitute political behavior; every violation of law is ipso facto a defiance of constituted authority.\n4. It threatens the maintenance of the existing pattern of distribution of the power to make decisions for society.\n5. If the incidence of violations of law continues to increase, political authority eventually atrophies; that is axiomatic.\n6. (B) An attempt to define political stability must begin by clarifying the concepts of politics and political structure.\n7. Political behavior is any act by any member of a society that affects the distribution of the power to make decisions for that society.\n8. Political behavior is ubiquitous.\n9. Members of society behave politically insofar as, in obeying or disobeying the laws of the society, they support or undermine the power stratification system.\n10. Obedience to the law constitutes political behavior just as much as contesting elections does.\n11. (C) We have clearly not defined the political in the usual sense of demarcating particular acts that are political from those that are not.\n12. Nor do we intend to offer such a definition, because it is misleading to delineate the political in that fashion.\n13. Strictly speaking, there is no human act, even so simple as wearing hair long, that is intrinsically nonpolitical.\n14. This is true because the “politicalness” of an act is not a quality inherent in that act but rather a characterization of it according to the context in which we study it, and the context in which it occurs.\n15. (D) To illustrate, we would not ordinarily consider long hair a form of political behavior.\n16. Yet a puritanical despot might decide that this act corrupts and consequently command everyone to cut his hair short.\n17. Suppose that shortly after such a decree has been widely and intensively publicized, all the men invited by the despot to a state ceremony arrive with long hair.\n18. In the circumstances, we would legitimately conclude that these men were committing a very bold act of political disobedience.\nQUESTION:\n위 글의 주제로 가장 적합한 것을 고르시오\nCHOICES:\n① Psychological effects of individual and group behaviors in organized society\n② Knowing the concepts of political election and obedience\n③ The contribution of cultural power to stabilize society\n④ Defining the political stability in the relations between politics and political structure"
+      ]
     },
     {
       "number": 37,
@@ -1152,8 +1114,7 @@
           "label": "④",
           "text": "Aftermath of Women’s Participation in Art"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is no lack of evidence of women’s participation in the history of arts of all forms, culture and periods, from ancient traditions, such as pottery and carving or silk-weaving and painting in China, to the present and numerous forms of artistic expression. (A) Yet traditional art history has kept us in systematic ignorance of the fact that women have always made art. It took the emergence of feminism in the late 20th century to redress the almost complete neglect of women artists by art history and to undermine the stereotyped views of art made by women. When discussed, art by women was derogatively categorized as ‘women’s art’ in order to distinguish it from ‘art,’ which, despite its lack of adjectival qualification, had come to be exclusively identified with a canon of white men. (B) Since the 1960s many books have been published on the history of women in all areas of the visual arts in all periods and many cultures. (C) The evidence for women as artists is overwhelming, but the project of restoring women to the history of art has raised major historiographical, political and theoretical issues. It has been shown that it is only in the 20th century, when art history was fully consolidated as an academic discipline, that women artists were systematically effaced from the record of the history of art. (D) It is necessary, therefore, to distinguish between the history of art as the field of historical artistic practice, and art history as the organized discipline that has studied this field in selective ways.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is no lack of evidence of women’s participation in the history of arts of all forms, culture and periods, from ancient traditions, such as pottery and carving or silk-weaving and painting in China, to the present and numerous forms of artistic expression.\n2. (A) Yet traditional art history has kept us in systematic ignorance of the fact that women have always made art.\n3. It took the emergence of feminism in the late 20th century to redress the almost complete neglect of women artists by art history and to undermine the stereotyped views of art made by women.\n4. When discussed, art by women was derogatively categorized as ‘women’s art’ in order to distinguish it from ‘art,’ which, despite its lack of adjectival qualification, had come to be exclusively identified with a canon of white men.\n5. (B) Since the 1960s many books have been published on the history of women in all areas of the visual arts in all periods and many cultures.\n6. (C) The evidence for women as artists is overwhelming, but the project of restoring women to the history of art has raised major historiographical, political and theoretical issues.\n7. It has been shown that it is only in the 20th century, when art history was fully consolidated as an academic discipline, that women artists were systematically effaced from the record of the history of art.\n8. (D) It is necessary, therefore, to distinguish between the history of art as the field of historical artistic practice, and art history as the organized discipline that has studied this field in selective ways.\nQUESTION:\n위 글의 제목으로 가장 적합한 것을 고르시오.\nCHOICES:\n① The Emergence of Women’s Rights in the Early 20th Century Art\n② Women and Their Arts in the History of Art\n③ Theory and Practice in Women’s Arts\n④ Aftermath of Women’s Participation in Art"
+      ]
     },
     {
       "number": 38,
@@ -1179,8 +1140,7 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 3.5점) There is no lack of evidence of women’s participation in the history of arts of all forms, culture and periods, from ancient traditions, such as pottery and carving or silk-weaving and painting in China, to the present and numerous forms of artistic expression. (A) Yet traditional art history has kept us in systematic ignorance of the fact that women have always made art. It took the emergence of feminism in the late 20th century to redress the almost complete neglect of women artists by art history and to undermine the stereotyped views of art made by women. When discussed, art by women was derogatively categorized as ‘women’s art’ in order to distinguish it from ‘art,’ which, despite its lack of adjectival qualification, had come to be exclusively identified with a canon of white men. (B) Since the 1960s many books have been published on the history of women in all areas of the visual arts in all periods and many cultures. (C) The evidence for women as artists is overwhelming, but the project of restoring women to the history of art has raised major historiographical, political and theoretical issues. It has been shown that it is only in the 20th century, when art history was fully consolidated as an academic discipline, that women artists were systematically effaced from the record of the history of art. (D) It is necessary, therefore, to distinguish between the history of art as the field of historical artistic practice, and art history as the organized discipline that has studied this field in selective ways.\nPASSAGE_SENTENCES:\n1. 아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르 시오.\n2. This raises the question of why this has happened and produces the second problem of whether art history as established can accommodate the different histories of art that alone would account for women’s experiences as artists and make legible what they produced.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 39,
@@ -1189,7 +1149,7 @@
         "Most critics, especially the highbrow kind, deplored the mass culture of the 1950s.",
         "And there was plenty to ― deplore.",
         "The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience.",
-        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist 【6-6 Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.",
+        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.",
         "As old habits decline, such as reading books and thinking thoughts, TV will absorb their time.",
         "By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it.",
         "In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product.",
@@ -1224,8 +1184,7 @@
           "label": "④",
           "text": "— (A) literate (B) relentless (A) impulsive (B) unremitting"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.5점) Most critics, especially the highbrow kind, deplored the mass culture of the 1950s. And there was plenty to ― deplore. The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience. Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist 【6-6 Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute. As old habits decline, such as reading books and thinking thoughts, TV will absorb their time. By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it. In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product. Yet the situation was not so dismal as the pessimists claimed. For one thing, the much abused media seemed quite responsible at times. In 1956, the National Broadcasting Company paid out $500,000 to present the premier of Laurence Olivier’s film version of Shakespeare’s Richard III. Fifty million people tuned in, and about half of them stayed on through its entire three hours. Life magazine ― ― in 1952 regaled or challenged its several million readers by devoting a whole issue to the publication of Ernest Hemingway’s new novel, The Old Man and the Sea. There were other oases in the cultural wasteland. In painting, a group of innovators led by Jackson Pollock moved the capital of the art world from Paris to New York. Egghead humor, as purveyed by sharp-tongued satirists such as Mort Sahl, graduated from small clubs to big audiences on network variety shows. Paperback publishers propagated millions of copies of standard classics at prices low enough($0.25 to $1.35) to attract cultural window-shoppers. Classical music was riding a spectacular wave of national interest. In mid-decade the country boasted some 200 symphony orchestras, up 80 per cent since 1940, and 2,500 towns offered concert series, an increase of 150 per cent in the same period. Music, in fact, went a long way toward proving that America’s cultural oases might yet become bigger than the wasteland itself: in 1955 some 35 million people ― went to classical music performances more than twice the year’s attendance at major league baseball games.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.5점) Most critics, especially the highbrow kind, deplored the mass culture of the 1950s.\n2. And there was plenty to ― deplore.\n3. The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience.\n4. Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist 【6-6 Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.\n5. As old habits decline, such as reading books and thinking thoughts, TV will absorb their time.\n6. By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it.\n7. In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product.\n8. Yet the situation was not so dismal as the pessimists claimed.\n9. For one thing, the much abused media seemed quite responsible at times.\n10. In 1956, the National Broadcasting Company paid out $500,000 to present the premier of Laurence Olivier’s film version of Shakespeare’s Richard III.\n11. Fifty million people tuned in, and about half of them stayed on through its entire three hours.\n12. Life magazine ― ― in 1952 regaled or challenged its several million readers by devoting a whole issue to the publication of Ernest Hemingway’s new novel, The Old Man and the Sea.\n13. There were other oases in the cultural wasteland.\n14. In painting, a group of innovators led by Jackson Pollock moved the capital of the art world from Paris to New York.\n15. Egghead humor, as purveyed by sharp-tongued satirists such as Mort Sahl, graduated from small clubs to big audiences on network variety shows.\n16. Paperback publishers propagated millions of copies of standard classics at prices low enough($0.25 to $1.35) to attract cultural window-shoppers.\n17. Classical music was riding a spectacular wave of national interest.\n18. In mid-decade the country boasted some 200 symphony orchestras, up 80 per cent since 1940, and 2,500 towns offered concert series, an increase of 150 per cent in the same period.\n19. Music, in fact, went a long way toward proving that America’s cultural oases might yet become bigger than the wasteland itself: in 1955 some 35 million people ― went to classical music performances more than twice the year’s attendance at major league baseball games.\nQUESTION:\n빈 칸 (A)와 (B)에 들어가기에 가장 적합한 것을 고르시오.\nCHOICES:\n① —\n② — (A) obdurate (B) opportune\n③ — (A) thoughtful (B) facilitative\n④ — (A) literate (B) relentless (A) impulsive (B) unremitting"
+      ]
     },
     {
       "number": 40,
@@ -1234,7 +1193,7 @@
         "Most critics, especially the highbrow kind, deplored the mass culture of the 1950s.",
         "And there was plenty to ― deplore.",
         "The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience.",
-        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist 【6-6 Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.",
+        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.",
         "As old habits decline, such as reading books and thinking thoughts, TV will absorb their time.",
         "By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it.",
         "In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product.",
@@ -1267,10 +1226,10 @@
         },
         {
           "label": "④",
-          "text": "rock-and-roll. As the popularity of television and three penny magazines grew, movie lost viewers. 】"
+          "text": "rock-and-roll. As the popularity of television and three penny magazines grew, movie lost viewers."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글을 읽고 물음에 답하시오. (각 2.5점) Most critics, especially the highbrow kind, deplored the mass culture of the 1950s. And there was plenty to ― deplore. The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience. Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist 【6-6 Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute. As old habits decline, such as reading books and thinking thoughts, TV will absorb their time. By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it. In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product. Yet the situation was not so dismal as the pessimists claimed. For one thing, the much abused media seemed quite responsible at times. In 1956, the National Broadcasting Company paid out $500,000 to present the premier of Laurence Olivier’s film version of Shakespeare’s Richard III. Fifty million people tuned in, and about half of them stayed on through its entire three hours. Life magazine ― ― in 1952 regaled or challenged its several million readers by devoting a whole issue to the publication of Ernest Hemingway’s new novel, The Old Man and the Sea. There were other oases in the cultural wasteland. In painting, a group of innovators led by Jackson Pollock moved the capital of the art world from Paris to New York. Egghead humor, as purveyed by sharp-tongued satirists such as Mort Sahl, graduated from small clubs to big audiences on network variety shows. Paperback publishers propagated millions of copies of standard classics at prices low enough($0.25 to $1.35) to attract cultural window-shoppers. Classical music was riding a spectacular wave of national interest. In mid-decade the country boasted some 200 symphony orchestras, up 80 per cent since 1940, and 2,500 towns offered concert series, an increase of 150 per cent in the same period. Music, in fact, went a long way toward proving that America’s cultural oases might yet become bigger than the wasteland itself: in 1955 some 35 million people ― went to classical music performances more than twice the year’s attendance at major league baseball games.\nPASSAGE_SENTENCES:\n1. 다음 글을 읽고 물음에 답하시오. (각 2.5점) Most critics, especially the highbrow kind, deplored the mass culture of the 1950s.\n2. And there was plenty to ― deplore.\n3. The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience.\n4. Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist 【6-6 Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.\n5. As old habits decline, such as reading books and thinking thoughts, TV will absorb their time.\n6. By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it.\n7. In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product.\n8. Yet the situation was not so dismal as the pessimists claimed.\n9. For one thing, the much abused media seemed quite responsible at times.\n10. In 1956, the National Broadcasting Company paid out $500,000 to present the premier of Laurence Olivier’s film version of Shakespeare’s Richard III.\n11. Fifty million people tuned in, and about half of them stayed on through its entire three hours.\n12. Life magazine ― ― in 1952 regaled or challenged its several million readers by devoting a whole issue to the publication of Ernest Hemingway’s new novel, The Old Man and the Sea.\n13. There were other oases in the cultural wasteland.\n14. In painting, a group of innovators led by Jackson Pollock moved the capital of the art world from Paris to New York.\n15. Egghead humor, as purveyed by sharp-tongued satirists such as Mort Sahl, graduated from small clubs to big audiences on network variety shows.\n16. Paperback publishers propagated millions of copies of standard classics at prices low enough($0.25 to $1.35) to attract cultural window-shoppers.\n17. Classical music was riding a spectacular wave of national interest.\n18. In mid-decade the country boasted some 200 symphony orchestras, up 80 per cent since 1940, and 2,500 towns offered concert series, an increase of 150 per cent in the same period.\n19. Music, in fact, went a long way toward proving that America’s cultural oases might yet become bigger than the wasteland itself: in 1955 some 35 million people ― went to classical music performances more than twice the year’s attendance at major league baseball games.\nQUESTION:\n위 글을 통해 추론할 수 있는 것으로 가장 적합 한 것을 고르시오.\nCHOICES:\n① The prevailing mood of the 1950s was pessimism, as there was much more talk of avant-garde in literary\n② and intellectual circles. Despite the decadence of the mass culture, the\n③ culture of the 1950s was not so bleak. During the 1950s, a number of people found their oases in new and controversial styles of music like\n④ rock-and-roll. As the popularity of television and three penny magazines grew, movie lost viewers. 】"
+      ]
     }
-  ]
+  ],
+  "source_pdf": "중앙_20_영어.pdf"
 }

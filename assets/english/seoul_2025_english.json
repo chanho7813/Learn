@@ -3,22 +3,20 @@
   "institution_ko": "서울시립대",
   "year": 2025,
   "exam_kind": "english",
-  "source_text_file": "seoul_2025_english_extracted_complete.txt",
   "question_count": 30,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
       "number": 1,
       "instruction": "밑줄 친 enigmatical와 의미가 가장 먼 것을 고르시오.",
       "passage_sentences": [
-        "[3점] Artificial intelligence (AI) has evolved from simple rule-based systems to complex algorithms capable of learning and adapting.",
+        "Artificial intelligence (AI) has evolved from simple rule-based systems to complex algorithms capable of learning and adapting.",
         "Early AI systems relied heavily on predefined rules and lacked the ability to handle enigmatical or unforeseen situations."
       ],
       "question": null,
@@ -39,14 +37,13 @@
           "label": "④",
           "text": "intricate"
         }
-      ],
-      "raw_text": "INSTRUCTION: 밑줄 친 enigmatical와 의미가 가장 먼 것을 고르시오.\nPASSAGE_SENTENCES:\n1. [3점] Artificial intelligence (AI) has evolved from simple rule-based systems to complex algorithms capable of learning and adapting.\n2. Early AI systems relied heavily on predefined rules and lacked the ability to handle enigmatical or unforeseen situations.\nCHOICES:\n① unequivocal\n② unstipulated\n③ nebulous\n④ intricate"
+      ]
     },
     {
       "number": 2,
       "instruction": "밑줄 친 prescient와 의미가 가장 가까운 것을 고르시오.",
       "passage_sentences": [
-        "[3점] Edison’s genius lay in his ability to conceive of a fully developed marketplace, not simply a discrete device.",
+        "Edison’s genius lay in his ability to conceive of a fully developed marketplace, not simply a discrete device.",
         "He was able to envision how people would want to use what he made, and he engineered toward that insight.",
         "He wasn’t always prescient (he originally believed the phonograph would be used mainly as a business machine for recording and replaying dictation), but he invariably gave great consideration to users’ needs and preferences."
       ],
@@ -68,14 +65,13 @@
           "label": "④",
           "text": "foresighted"
         }
-      ],
-      "raw_text": "INSTRUCTION: 밑줄 친 prescient와 의미가 가장 가까운 것을 고르시오.\nPASSAGE_SENTENCES:\n1. [3점] Edison’s genius lay in his ability to conceive of a fully developed marketplace, not simply a discrete device.\n2. He was able to envision how people would want to use what he made, and he engineered toward that insight.\n3. He wasn’t always prescient (he originally believed the phonograph would be used mainly as a business machine for recording and replaying dictation), but he invariably gave great consideration to users’ needs and preferences.\nCHOICES:\n① precarious\n② foregone\n③ prerequisite\n④ foresighted"
+      ]
     },
     {
       "number": 3,
       "instruction": "밑줄 친 solace와 의미가 가장 가까운 것을 고르시오.",
       "passage_sentences": [
-        "[3점] “Eat the Night” understands the lived-in comforts of a virtual space when compared to the horrors of the outside world.",
+        "“Eat the Night” understands the lived-in comforts of a virtual space when compared to the horrors of the outside world.",
         "The film works best when it cogitates on this theme.",
         "For a younger generation becoming more isolated in a deteriorating environment with political unrest, it’s not only understandable but necessary to seek solace mediated through the safety of a screen."
       ],
@@ -97,20 +93,18 @@
           "label": "④",
           "text": "application"
         }
-      ],
-      "raw_text": "INSTRUCTION: 밑줄 친 solace와 의미가 가장 가까운 것을 고르시오.\nPASSAGE_SENTENCES:\n1. [3점] “Eat the Night” understands the lived-in comforts of a virtual space when compared to the horrors of the outside world.\n2. The film works best when it cogitates on this theme.\n3. For a younger generation becoming more isolated in a deteriorating environment with political unrest, it’s not only understandable but necessary to seek solace mediated through the safety of a screen.\nCHOICES:\n① condemnation\n② consolation\n③ allegation\n④ application"
+      ]
     },
     {
       "number": 4,
       "instruction": "다음 빈 칸에 들어갈 단어로 가장 적절한 것을 고르시오.",
       "passage_sentences": [
-        "[3점] “What is deviant behavior?” cannot be answered in a straightforward manner.",
+        "“What is deviant behavior?” cannot be answered in a straightforward manner.",
         "Whether an act is labeled deviant or not depends on many factors, including location, audience, and the individual committing the act.",
         "Listening to music on the way to class is considered acceptable behavior.",
         "Listening to music during your lecture is considered rude.",
         "As norms vary across cultures and time, it makes sense that notions of deviance change also.",
-        "In a time of war, acts usually considered morally __________, such as taking the life of another, may 2025. 1. 15.",
-        "(수) 10:00 ~ 11:00 actually be rewarded.",
+        "In a time of war, acts usually considered morally __________, such as taking the life of another, may actually be rewarded.",
         "Whether an act is deviant or not depends on society’s response to that act."
       ],
       "question": null,
@@ -131,14 +125,13 @@
           "label": "④",
           "text": "laudable"
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 빈 칸에 들어갈 단어로 가장 적절한 것을 고르시오.\nPASSAGE_SENTENCES:\n1. [3점] “What is deviant behavior?” cannot be answered in a straightforward manner.\n2. Whether an act is labeled deviant or not depends on many factors, including location, audience, and the individual committing the act.\n3. Listening to music on the way to class is considered acceptable behavior.\n4. Listening to music during your lecture is considered rude.\n5. As norms vary across cultures and time, it makes sense that notions of deviance change also.\n6. In a time of war, acts usually considered morally __________, such as taking the life of another, may 2025. 1. 15.\n7. (수) 10:00 ~ 11:00 actually be rewarded.\n8. Whether an act is deviant or not depends on society’s response to that act.\nCHOICES:\n① unreliable\n② reprehensible\n③ susceptible\n④ laudable"
+      ]
     },
     {
       "number": 5,
       "instruction": "다음 글에서 문법적으로 가장 어색한 것을 고르시오.",
       "passage_sentences": [
-        "[3점] Realism is a literary and artistic movement"
+        "Realism is a literary and artistic movement"
       ],
       "question": null,
       "choices": [
@@ -158,14 +151,13 @@
           "label": "④",
           "text": "that was emerged in the 19th century and aimed to capture life as it truly was, depicting the ordinary, mundane, and often harsh aspects of human existence."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글에서 문법적으로 가장 어색한 것을 고르시오.\nPASSAGE_SENTENCES:\n1. [3점] Realism is a literary and artistic movement\nCHOICES:\n① that originated in the 19th century and known for its objective depiction of ordinary life. It involves careful observation of detail and explores the complexities of human psychology. Rejecting romantic idealism,\n② realism aims to portray the world as it truly is. It often talks about social concerns.\n③ It explores how industry and cities have impacted people and communities. Overall, realism in literature is a literary movement\n④ that was emerged in the 19th century and aimed to capture life as it truly was, depicting the ordinary, mundane, and often harsh aspects of human existence."
+      ]
     },
     {
       "number": 6,
       "instruction": "다음 글에서 문법적으로 어색한 것을 고르시오.",
       "passage_sentences": [
-        "[3점] Apple is allowing anyone to access its Apple TV+ streaming service for free this weekend from January 3 to 5.",
+        "Apple is allowing anyone to access its Apple TV+ streaming service for free this weekend from January 3 to 5.",
         "The company made the announcement on Monday alongside a short video featuring its most popular TV shows, including “Severance,” “Slow Horses,” “Shrinking,” and more."
       ],
       "question": null,
@@ -184,16 +176,23 @@
         },
         {
           "label": "④",
-          "text": "Although Apple’s tweet announcing the promotion says Apple TV+ will be free to stream on January 4 and 5, Apple’s official press release says it will be available free from January 3 to 5. [7-8] 아래 지문을 읽고 문제에 답하시오. An algorithm is a set of steps for solving a problem or accomplishing a task, used in both daily life and computer science. For example, making coffee or tying shoelaces involves following a (A) step-by-step process, much like a computer executes algorithms. In computer science, algorithms are mathematical processes with a (B) finite number of steps, essential for programs and applications like search engines, navigation systems, and music streaming. They instruct computers on what to do and how to do it, enabling tasks like (C) calculations, data processing, and decision-making. Think of an algorithm as a recipe guiding a sequence of actions to achieve a specific goal. Like recipes that can vary but still produce chocolate chip cookies, different algorithms can solve the same problem using distinct approaches while delivering (D) inconsistent results. (E) __________________________________."
+          "text": "Although Apple’s tweet announcing the promotion says Apple TV+ will be free to stream on January 4 and 5, Apple’s official press release says it will be available free from January 3 to 5."
         }
-      ],
-      "raw_text": "INSTRUCTION: 다음 글에서 문법적으로 어색한 것을 고르시오.\nPASSAGE_SENTENCES:\n1. [3점] Apple is allowing anyone to access its Apple TV+ streaming service for free this weekend from January 3 to 5.\n2. The company made the announcement on Monday alongside a short video featuring its most popular TV shows, including “Severance,” “Slow Horses,” “Shrinking,” and more.\nCHOICES:\n① It’s worth noting that this is the first time that Apple has offered something like this. The announcement comes a few days\n② after Apple TV+ began teasing that it was planning to open up its content to non-subscribers. A weekend is enough time to binge-watch some of Apple’s most popular shows, especially “Severance,” which is returning\n③ for its highly anticipating second season on January 17.\n④ Although Apple’s tweet announcing the promotion says Apple TV+ will be free to stream on January 4 and 5, Apple’s official press release says it will be available free from January 3 to 5. [7-8] 아래 지문을 읽고 문제에 답하시오. An algorithm is a set of steps for solving a problem or accomplishing a task, used in both daily life and computer science. For example, making coffee or tying shoelaces involves following a (A) step-by-step process, much like a computer executes algorithms. In computer science, algorithms are mathematical processes with a (B) finite number of steps, essential for programs and applications like search engines, navigation systems, and music streaming. They instruct computers on what to do and how to do it, enabling tasks like (C) calculations, data processing, and decision-making. Think of an algorithm as a recipe guiding a sequence of actions to achieve a specific goal. Like recipes that can vary but still produce chocolate chip cookies, different algorithms can solve the same problem using distinct approaches while delivering (D) inconsistent results. (E) __________________________________."
+      ]
     },
     {
       "number": 7,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
-      "question": null,
+      "passage_sentences": [
+        "An algorithm is a set of steps for solving a problem or accomplishing a task, used in both daily life and computer science.",
+        "For example, making coffee or tying shoelaces involves following a (A) step-by-step process, much like a computer executes algorithms.",
+        "In computer science, algorithms are mathematical processes with a (B) finite number of steps, essential for programs and applications like search engines, navigation systems, and music streaming.",
+        "They instruct computers on what to do and how to do it, enabling tasks like (C) calculations, data processing, and decision-making.",
+        "Think of an algorithm as a recipe guiding a sequence of actions to achieve a specific goal.",
+        "Like recipes that can vary but still produce chocolate chip cookies, different algorithms can solve the same problem using distinct approaches while delivering (D) inconsistent results.",
+        "(E) __________________________________."
+      ],
+      "question": "(A)~(D) 중 가장 적절하지 않은 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
@@ -211,14 +210,21 @@
           "label": "④",
           "text": "(D) inconsistent"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. An algorithm is a set of steps for solving a problem or accomplishing a task, used in both daily life and computer science. For example, making coffee or tying shoelaces involves following a (A) step-by-step process, much like a computer executes algorithms. In computer science, algorithms are mathematical processes with a (B) finite number of steps, essential for programs and applications like search engines, navigation systems, and music streaming. They instruct computers on what to do and how to do it, enabling tasks like (C) calculations, data processing, and decision-making. Think of an algorithm as a recipe guiding a sequence of actions to achieve a specific goal. Like recipes that can vary but still produce chocolate chip cookies, different algorithms can solve the same problem using distinct approaches while delivering (D) inconsistent results. (E) __________________________________.\nPASSAGE_SENTENCES:\n1. (A)~(D) 중 가장 적절하지 않은 것을 고르시오.\n2. [3점]\nCHOICES:\n① (A) step-by-step\n② (B) finite\n③ (C) calculations\n④ (D) inconsistent"
+      ]
     },
     {
       "number": 8,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
-      "question": null,
+      "passage_sentences": [
+        "An algorithm is a set of steps for solving a problem or accomplishing a task, used in both daily life and computer science.",
+        "For example, making coffee or tying shoelaces involves following a (A) step-by-step process, much like a computer executes algorithms.",
+        "In computer science, algorithms are mathematical processes with a (B) finite number of steps, essential for programs and applications like search engines, navigation systems, and music streaming.",
+        "They instruct computers on what to do and how to do it, enabling tasks like (C) calculations, data processing, and decision-making.",
+        "Think of an algorithm as a recipe guiding a sequence of actions to achieve a specific goal.",
+        "Like recipes that can vary but still produce chocolate chip cookies, different algorithms can solve the same problem using distinct approaches while delivering (D) inconsistent results.",
+        "(E) __________________________________."
+      ],
+      "question": "(E)에 들어갈 내용으로 가장 적절한 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
@@ -234,16 +240,21 @@
         },
         {
           "label": "④",
-          "text": "Developing algorithms requires an infinite number of steps to ensure functionality. [9-10] 아래 지문을 읽고 문제에 답하시오. Stress has many wonderful attributes. It reminds us that we care; it connects us directly with the most challenging and important aspects of our lives. We aren’t suggesting that (A) __________, only that it can bring unexpected benefits, too, in the form of personal growth. Combining our years of experience conducting leadership seminars and teaching meditation and martial arts and exploring empirical research in the area of psychology, we have found that individuals who adopt a “stress-is- (B) __________” mind-set in their lives show greater work performance and fewer negative health symptoms than those who adopt a “stress-is-(C) __________” lens. Drawing on our work and research with executives, students, and professional athletes, we have devised a three-step approach to responding to pressure that we believe can help you harness the creative power of stress while minimizing its deleterious effects. 2025. 1. 15. (수) 10:00 ~ 11:00"
+          "text": "Developing algorithms requires an infinite number of steps to ensure functionality."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. An algorithm is a set of steps for solving a problem or accomplishing a task, used in both daily life and computer science. For example, making coffee or tying shoelaces involves following a (A) step-by-step process, much like a computer executes algorithms. In computer science, algorithms are mathematical processes with a (B) finite number of steps, essential for programs and applications like search engines, navigation systems, and music streaming. They instruct computers on what to do and how to do it, enabling tasks like (C) calculations, data processing, and decision-making. Think of an algorithm as a recipe guiding a sequence of actions to achieve a specific goal. Like recipes that can vary but still produce chocolate chip cookies, different algorithms can solve the same problem using distinct approaches while delivering (D) inconsistent results. (E) __________________________________.\nPASSAGE_SENTENCES:\n1. (E)에 들어갈 내용으로 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① Algorithms can only be applied to theoretical problems, not practical applications.\n② The evolution of algorithms has made traditional programming methods obsolete.\n③ Versatile algorithms can result in constant outcomes, regardless of the problem or approach used.\n④ Developing algorithms requires an infinite number of steps to ensure functionality. [9-10] 아래 지문을 읽고 문제에 답하시오. Stress has many wonderful attributes. It reminds us that we care; it connects us directly with the most challenging and important aspects of our lives. We aren’t suggesting that (A) __________, only that it can bring unexpected benefits, too, in the form of personal growth. Combining our years of experience conducting leadership seminars and teaching meditation and martial arts and exploring empirical research in the area of psychology, we have found that individuals who adopt a “stress-is- (B) __________” mind-set in their lives show greater work performance and fewer negative health symptoms than those who adopt a “stress-is-(C) __________” lens. Drawing on our work and research with executives, students, and professional athletes, we have devised a three-step approach to responding to pressure that we believe can help you harness the creative power of stress while minimizing its deleterious effects. 2025. 1. 15. (수) 10:00 ~ 11:00"
+      ]
     },
     {
       "number": 9,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
-      "question": null,
+      "passage_sentences": [
+        "Stress has many wonderful attributes.",
+        "It reminds us that we care; it connects us directly with the most challenging and important aspects of our lives.",
+        "We aren’t suggesting that (A) __________, only that it can bring unexpected benefits, too, in the form of personal growth.",
+        "Combining our years of experience conducting leadership seminars and teaching meditation and martial arts and exploring empirical research in the area of psychology, we have found that individuals who adopt a “stress-is- (B) __________” mind-set in their lives show greater work performance and fewer negative health symptoms than those who adopt a “stress-is-(C) __________” lens.",
+        "Drawing on our work and research with executives, students, and professional athletes, we have devised a three-step approach to responding to pressure that we believe can help you harness the creative power of stress while minimizing its deleterious effects."
+      ],
+      "question": "(A)에 들어갈 가장 적절한 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
@@ -261,14 +272,19 @@
           "label": "④",
           "text": "stress inspires highly-motivated individuals"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Stress has many wonderful attributes. It reminds us that we care; it connects us directly with the most challenging and important aspects of our lives. We aren’t suggesting that (A) __________, only that it can bring unexpected benefits, too, in the form of personal growth. Combining our years of experience conducting leadership seminars and teaching meditation and martial arts and exploring empirical research in the area of psychology, we have found that individuals who adopt a “stress-is- (B) __________” mind-set in their lives show greater work performance and fewer negative health symptoms than those who adopt a “stress-is-(C) __________” lens. Drawing on our work and research with executives, students, and professional athletes, we have devised a three-step approach to responding to pressure that we believe can help you harness the creative power of stress while minimizing its deleterious effects. 2025.\nPASSAGE_SENTENCES:\n1. (A)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① sustained stress does not take a toll\n② moderate stress is better for personal growth\n③ stress is not associated with performance\n④ stress inspires highly-motivated individuals"
+      ]
     },
     {
       "number": 10,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
-      "question": null,
+      "passage_sentences": [
+        "Stress has many wonderful attributes.",
+        "It reminds us that we care; it connects us directly with the most challenging and important aspects of our lives.",
+        "We aren’t suggesting that (A) __________, only that it can bring unexpected benefits, too, in the form of personal growth.",
+        "Combining our years of experience conducting leadership seminars and teaching meditation and martial arts and exploring empirical research in the area of psychology, we have found that individuals who adopt a “stress-is- (B) __________” mind-set in their lives show greater work performance and fewer negative health symptoms than those who adopt a “stress-is-(C) __________” lens.",
+        "Drawing on our work and research with executives, students, and professional athletes, we have devised a three-step approach to responding to pressure that we believe can help you harness the creative power of stress while minimizing its deleterious effects."
+      ],
+      "question": "(B)와 (C)에 들어갈 가장 적절한 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
@@ -284,15 +300,27 @@
         },
         {
           "label": "④",
-          "text": "(B) malicious (C) beneficial [11-12] 아래 지문을 읽고 문제에 답하시오. Sinead Gleeson, an Irish writer, said “We have a tradition of bards and poets being taken seriously by the higher echelons of society. We’re also a nation of storytellers. Even when we went through terrible times like the famine, poverty, and British colonization, people would do what was called ‘ceilidh.’ It’s an Irish tradition of traveling to houses and telling stories. And much like once-colonized Korea, Ireland has undergone seismic sociocultural changes over the last 100 years—from its independence from the United Kingdom in 1921 to the sweeping forces of modernization and a gradual shift away from Catholic conservatism. These (A) __________ have sparked a new wave of voices coming out of a place of silence.” This silencing was both linguistic and cultural. In the 19th century, the country’s national primary education system banned the teaching and speaking of Irish in schools. The Catholic Church’s predominant influence further enforced the social silence, especially among women, as infamously witnessed in the Magdalene Laundries, where thousands of unmarried mothers and other “fallen women” were incarcerated to work to wash away their sins. There’s a lot of repressed trauma that modern contemporary Ireland is still very much working through, and some of them do that in their writing. Another Irish writer, Ronan Hession, observed that both Korea and Ireland appear similar in their histories, (B) __________ beyond colonization and (C) __________ intense modernization. In both Irish and Korean literature, you get this sense of what has been won and lost—people who have been left behind or marginalized, values that have changed, who is included in modernity and who is not."
+          "text": "(B) malicious (C) beneficial"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Stress has many wonderful attributes. It reminds us that we care; it connects us directly with the most challenging and important aspects of our lives. We aren’t suggesting that (A) __________, only that it can bring unexpected benefits, too, in the form of personal growth. Combining our years of experience conducting leadership seminars and teaching meditation and martial arts and exploring empirical research in the area of psychology, we have found that individuals who adopt a “stress-is- (B) __________” mind-set in their lives show greater work performance and fewer negative health symptoms than those who adopt a “stress-is-(C) __________” lens. Drawing on our work and research with executives, students, and professional athletes, we have devised a three-step approach to responding to pressure that we believe can help you harness the creative power of stress while minimizing its deleterious effects. 2025.\nPASSAGE_SENTENCES:\n1. (B)와 (C)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① (B) debt (C) asset\n② (B) enhancing (C) debilitating\n③ (B) virtue (C) rectitude\n④ (B) malicious (C) beneficial [11-12] 아래 지문을 읽고 문제에 답하시오. Sinead Gleeson, an Irish writer, said “We have a tradition of bards and poets being taken seriously by the higher echelons of society. We’re also a nation of storytellers. Even when we went through terrible times like the famine, poverty, and British colonization, people would do what was called ‘ceilidh.’ It’s an Irish tradition of traveling to houses and telling stories. And much like once-colonized Korea, Ireland has undergone seismic sociocultural changes over the last 100 years—from its independence from the United Kingdom in 1921 to the sweeping forces of modernization and a gradual shift away from Catholic conservatism. These (A) __________ have sparked a new wave of voices coming out of a place of silence.” This silencing was both linguistic and cultural. In the 19th century, the country’s national primary education system banned the teaching and speaking of Irish in schools. The Catholic Church’s predominant influence further enforced the social silence, especially among women, as infamously witnessed in the Magdalene Laundries, where thousands of unmarried mothers and other “fallen women” were incarcerated to work to wash away their sins. There’s a lot of repressed trauma that modern contemporary Ireland is still very much working through, and some of them do that in their writing. Another Irish writer, Ronan Hession, observed that both Korea and Ireland appear similar in their histories, (B) __________ beyond colonization and (C) __________ intense modernization. In both Irish and Korean literature, you get this sense of what has been won and lost—people who have been left behind or marginalized, values that have changed, who is included in modernity and who is not."
+      ]
     },
     {
       "number": 11,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "Sinead Gleeson, an Irish writer, said “We have a tradition of bards and poets being taken seriously by the higher echelons of society.",
+        "We’re also a nation of storytellers.",
+        "Even when we went through terrible times like the famine, poverty, and British colonization, people would do what was called ‘ceilidh.’",
+        "It’s an Irish tradition of traveling to houses and telling stories.",
+        "And much like once-colonized Korea, Ireland has undergone seismic sociocultural changes over the last 100 years—from its independence from the United Kingdom in 1921 to the sweeping forces of modernization and a gradual shift away from Catholic conservatism.",
+        "These (A) __________ have sparked a new wave of voices coming out of a place of silence.”",
+        "This silencing was both linguistic and cultural.",
+        "In the 19th century, the country’s national primary education system banned the teaching and speaking of Irish in schools.",
+        "The Catholic Church’s predominant influence further enforced the social silence, especially among women, as infamously witnessed in the Magdalene Laundries, where thousands of unmarried mothers and other “fallen women” were incarcerated to work to wash away their sins.",
+        "There’s a lot of repressed trauma that modern contemporary Ireland is still very much working through, and some of them do that in their writing.",
+        "Another Irish writer, Ronan Hession, observed that both Korea and Ireland appear similar in their histories, (B) __________ beyond colonization and (C) __________ intense modernization.",
+        "In both Irish and Korean literature, you get this sense of what has been won and lost—people who have been left behind or marginalized, values that have changed, who is included in modernity and who is not."
+      ],
       "question": null,
       "choices": [
         {
@@ -311,13 +339,25 @@
           "label": "④",
           "text": "relinquishments"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Sinead Gleeson, an Irish writer, said “We have a tradition of bards and poets being taken seriously by the higher echelons of society. We’re also a nation of storytellers. Even when we went through terrible times like the famine, poverty, and British colonization, people would do what was called ‘ceilidh.’ It’s an Irish tradition of traveling to houses and telling stories. And much like once-colonized Korea, Ireland has undergone seismic sociocultural changes over the last 100 years—from its independence from the United Kingdom in 1921 to the sweeping forces of modernization and a gradual shift away from Catholic conservatism. These (A) __________ have sparked a new wave of voices coming out of a place of silence.” This silencing was both linguistic and cultural. In the 19th century, the country’s national primary education system banned the teaching and speaking of Irish in schools. The Catholic Church’s predominant influence further enforced the social silence, especially among women, as infamously witnessed in the Magdalene Laundries, where thousands of unmarried mothers and other “fallen women” were incarcerated to work to wash away their sins. There’s a lot of repressed trauma that modern contemporary Ireland is still very much working through, and some of them do that in their writing. Another Irish writer, Ronan Hession, observed that both Korea and Ireland appear similar in their histories, (B) __________ beyond colonization and (C) __________ intense modernization. In both Irish and Korean literature, you get this sense of what has been won and lost—people who have been left behind or marginalized, values that have changed, who is included in modernity and who is not.\nPASSAGE_SENTENCES:\n1. (A)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① democracies\n② transformations\n③ affiliations\n④ relinquishments"
+      ]
     },
     {
       "number": 12,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "Sinead Gleeson, an Irish writer, said “We have a tradition of bards and poets being taken seriously by the higher echelons of society.",
+        "We’re also a nation of storytellers.",
+        "Even when we went through terrible times like the famine, poverty, and British colonization, people would do what was called ‘ceilidh.’",
+        "It’s an Irish tradition of traveling to houses and telling stories.",
+        "And much like once-colonized Korea, Ireland has undergone seismic sociocultural changes over the last 100 years—from its independence from the United Kingdom in 1921 to the sweeping forces of modernization and a gradual shift away from Catholic conservatism.",
+        "These (A) __________ have sparked a new wave of voices coming out of a place of silence.”",
+        "This silencing was both linguistic and cultural.",
+        "In the 19th century, the country’s national primary education system banned the teaching and speaking of Irish in schools.",
+        "The Catholic Church’s predominant influence further enforced the social silence, especially among women, as infamously witnessed in the Magdalene Laundries, where thousands of unmarried mothers and other “fallen women” were incarcerated to work to wash away their sins.",
+        "There’s a lot of repressed trauma that modern contemporary Ireland is still very much working through, and some of them do that in their writing.",
+        "Another Irish writer, Ronan Hession, observed that both Korea and Ireland appear similar in their histories, (B) __________ beyond colonization and (C) __________ intense modernization.",
+        "In both Irish and Korean literature, you get this sense of what has been won and lost—people who have been left behind or marginalized, values that have changed, who is included in modernity and who is not."
+      ],
       "question": null,
       "choices": [
         {
@@ -334,15 +374,20 @@
         },
         {
           "label": "④",
-          "text": "(B) having moved (C) experienced [13-14] 아래 지문을 읽고 문제에 답하시오. Match Group, the technology company with the world’s largest portfolio of dating platforms, has announced it is increasing investment in artificial intelligence (AI) with new products coming in March 2025. An as yet unnamed AI assistant will perform core dating tasks such as selecting the photos that garner the most responses and recommend what prompts and information to put in a bio. It will also help users choose the perfect partner. The AI will conduct a spoken interview with the users to establish what they want to get out of their dating experience and suggest what messages to send to people they are matched with based on interests. The company has also said AI will provide “effective coaching for struggling users,” which will include tips for people who are failing to meet matches about how to attract more attention to their profile."
+          "text": "(B) having moved (C) experienced"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Sinead Gleeson, an Irish writer, said “We have a tradition of bards and poets being taken seriously by the higher echelons of society. We’re also a nation of storytellers. Even when we went through terrible times like the famine, poverty, and British colonization, people would do what was called ‘ceilidh.’ It’s an Irish tradition of traveling to houses and telling stories. And much like once-colonized Korea, Ireland has undergone seismic sociocultural changes over the last 100 years—from its independence from the United Kingdom in 1921 to the sweeping forces of modernization and a gradual shift away from Catholic conservatism. These (A) __________ have sparked a new wave of voices coming out of a place of silence.” This silencing was both linguistic and cultural. In the 19th century, the country’s national primary education system banned the teaching and speaking of Irish in schools. The Catholic Church’s predominant influence further enforced the social silence, especially among women, as infamously witnessed in the Magdalene Laundries, where thousands of unmarried mothers and other “fallen women” were incarcerated to work to wash away their sins. There’s a lot of repressed trauma that modern contemporary Ireland is still very much working through, and some of them do that in their writing. Another Irish writer, Ronan Hession, observed that both Korea and Ireland appear similar in their histories, (B) __________ beyond colonization and (C) __________ intense modernization. In both Irish and Korean literature, you get this sense of what has been won and lost—people who have been left behind or marginalized, values that have changed, who is included in modernity and who is not.\nPASSAGE_SENTENCES:\n1. (B)와 (C)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① (B) moved (C) experienced\n② (B) having been moving (C) have experienced\n③ (B) have moved (C) are experiencing\n④ (B) having moved (C) experienced [13-14] 아래 지문을 읽고 문제에 답하시오. Match Group, the technology company with the world’s largest portfolio of dating platforms, has announced it is increasing investment in artificial intelligence (AI) with new products coming in March 2025. An as yet unnamed AI assistant will perform core dating tasks such as selecting the photos that garner the most responses and recommend what prompts and information to put in a bio. It will also help users choose the perfect partner. The AI will conduct a spoken interview with the users to establish what they want to get out of their dating experience and suggest what messages to send to people they are matched with based on interests. The company has also said AI will provide “effective coaching for struggling users,” which will include tips for people who are failing to meet matches about how to attract more attention to their profile."
+      ]
     },
     {
       "number": 13,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "Match Group, the technology company with the world’s largest portfolio of dating platforms, has announced it is increasing investment in artificial intelligence (AI) with new products coming in March 2025.",
+        "An as yet unnamed AI assistant will perform core dating tasks such as selecting the photos that garner the most responses and recommend what prompts and information to put in a bio.",
+        "It will also help users choose the perfect partner.",
+        "The AI will conduct a spoken interview with the users to establish what they want to get out of their dating experience and suggest what messages to send to people they are matched with based on interests.",
+        "The company has also said AI will provide “effective coaching for struggling users,” which will include tips for people who are failing to meet matches about how to attract more attention to their profile."
+      ],
       "question": "밑줄 친 garner와 의미가 가장 가까운 것을 고르시오.",
       "choices": [
         {
@@ -361,13 +406,18 @@
           "label": "④",
           "text": "garnish"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Match Group, the technology company with the world’s largest portfolio of dating platforms, has announced it is increasing investment in artificial intelligence (AI) with new products coming in March 2025. An as yet unnamed AI assistant will perform core dating tasks such as selecting the photos that garner the most responses and recommend what prompts and information to put in a bio. It will also help users choose the perfect partner. The AI will conduct a spoken interview with the users to establish what they want to get out of their dating experience and suggest what messages to send to people they are matched with based on interests. The company has also said AI will provide “effective coaching for struggling users,” which will include tips for people who are failing to meet matches about how to attract more attention to their profile.\nPASSAGE_SENTENCES:\n1. [3점]\nQUESTION:\n밑줄 친 garner와 의미가 가장 가까운 것을 고르시오.\nCHOICES:\n① sprinkle\n② acquire\n③ flutter\n④ garnish"
+      ]
     },
     {
       "number": 14,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "Match Group, the technology company with the world’s largest portfolio of dating platforms, has announced it is increasing investment in artificial intelligence (AI) with new products coming in March 2025.",
+        "An as yet unnamed AI assistant will perform core dating tasks such as selecting the photos that garner the most responses and recommend what prompts and information to put in a bio.",
+        "It will also help users choose the perfect partner.",
+        "The AI will conduct a spoken interview with the users to establish what they want to get out of their dating experience and suggest what messages to send to people they are matched with based on interests.",
+        "The company has also said AI will provide “effective coaching for struggling users,” which will include tips for people who are failing to meet matches about how to attract more attention to their profile."
+      ],
       "question": null,
       "choices": [
         {
@@ -384,27 +434,26 @@
         },
         {
           "label": "④",
-          "text": "AI is expected to provide users with tips to allure others. [15-16] 아래 지문을 읽고 문제에 답하시오. Stanley Milgram's study, conducted in the early 1960s, is one of the most famous experiments in the field of social 2025. 1."
+          "text": "AI is expected to provide users with tips to allure others."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Match Group, the technology company with the world’s largest portfolio of dating platforms, has announced it is increasing investment in artificial intelligence (AI) with new products coming in March 2025. An as yet unnamed AI assistant will perform core dating tasks such as selecting the photos that garner the most responses and recommend what prompts and information to put in a bio. It will also help users choose the perfect partner. The AI will conduct a spoken interview with the users to establish what they want to get out of their dating experience and suggest what messages to send to people they are matched with based on interests. The company has also said AI will provide “effective coaching for struggling users,” which will include tips for people who are failing to meet matches about how to attract more attention to their profile.\nPASSAGE_SENTENCES:\n1. 윗글의 내용과 가장 거리가 먼 것을 고르시오.\n2. [3점]\nCHOICES:\n① AI is expected to recognize users’ preferences on dating.\n② AI is expected to help users find a match on the platform.\n③ AI is expected to generate photos for struggling users.\n④ AI is expected to provide users with tips to allure others. [15-16] 아래 지문을 읽고 문제에 답하시오. Stanley Milgram's study, conducted in the early 1960s, is one of the most famous experiments in the field of social 2025. 1."
+      ]
     },
     {
       "number": 15,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [
-        "(수) 10:00 ~ 11:00 psychology.",
+        "Stanley Milgram's study, conducted in the early 1960s, is one of the most famous experiments in the field of social psychology.",
         "The experiment involved participants who were told they were part of a study on memory and learning.",
         "They were assigned the role of \"teacher,\" while another individual, who was actually an actor (the \"learner\"), was strapped to a chair and told to memorize word pairs.",
         "The teacher's task was to administer increasingly severe electric shocks to the learner whenever they gave a wrong answer.",
         "The shocks ranged from 15 volts to 450 volts, with labels indicating dangerous levels of shock.",
         "The learner would intentionally give wrong answers, and as the shock intensity increased, the learner would scream in pain, eventually falling silent as the shocks became more intense.",
         "However, the learner was not actually receiving any shocks; the cries and silence were scripted to simulate the effects.",
-        "Milgram's chungang finding was that a surprising number of participants—over 60%—were willing to administer the maximum 450-volt shock, despite the apparent distress of the learner.",
+        "Milgram's central finding was that a surprising number of participants—over 60%—were willing to administer the maximum 450-volt shock, despite the apparent distress of the learner.",
         "Many participants showed signs of stress, such as sweating and nervous laughter, but they continued to obey the experimenter’s instructions.",
-        "Milgram’s study revealed the extent to which ordinary individuals could deliver (A) __________ actions when ordered by an authority figure, (B) __________ the assumption that only inherently cruel people could engage in such behaviors. 15."
+        "Milgram’s study revealed the extent to which ordinary individuals could deliver (A) __________ actions when ordered by an authority figure, (B) __________ the assumption that only inherently cruel people could engage in such behaviors."
       ],
-      "question": null,
+      "question": "윗글의 내용과 일치하는 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
@@ -422,14 +471,24 @@
           "label": "④",
           "text": "The “teacher” in the experiment was the actor fabricating the signs of stress to enhance the “learner” performance."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Stanley Milgram's study, conducted in the early 1960s, is one of the most famous experiments in the field of social 2025.\nPASSAGE_SENTENCES:\n1. (수) 10:00 ~ 11:00 psychology.\n2. The experiment involved participants who were told they were part of a study on memory and learning.\n3. They were assigned the role of \"teacher,\" while another individual, who was actually an actor (the \"learner\"), was strapped to a chair and told to memorize word pairs.\n4. The teacher's task was to administer increasingly severe electric shocks to the learner whenever they gave a wrong answer.\n5. The shocks ranged from 15 volts to 450 volts, with labels indicating dangerous levels of shock.\n6. The learner would intentionally give wrong answers, and as the shock intensity increased, the learner would scream in pain, eventually falling silent as the shocks became more intense.\n7. However, the learner was not actually receiving any shocks; the cries and silence were scripted to simulate the effects.\n8. Milgram's chungang finding was that a surprising number of participants—over 60%—were willing to administer the maximum 450-volt shock, despite the apparent distress of the learner.\n9. Many participants showed signs of stress, such as sweating and nervous laughter, but they continued to obey the experimenter’s instructions.\n10. Milgram’s study revealed the extent to which ordinary individuals could deliver (A) __________ actions when ordered by an authority figure, (B) __________ the assumption that only inherently cruel people could engage in such behaviors. 15.\n11. 윗글의 내용과 일치하는 것을 고르시오.\n12. [3점]\nCHOICES:\n① People tend to obey an authority figure, even if their actions conflict with their personal conscience.\n② Milgram's study faced significant ethical criticism, particularly regarding the psychological distress caused to participants.\n③ If the shock intensity increases, the \"learner\" in the experiment increasingly gives wrong answers.\n④ The “teacher” in the experiment was the actor fabricating the signs of stress to enhance the “learner” performance."
+      ]
     },
     {
       "number": 16,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
-      "question": null,
+      "passage_sentences": [
+        "Stanley Milgram's study, conducted in the early 1960s, is one of the most famous experiments in the field of social psychology.",
+        "The experiment involved participants who were told they were part of a study on memory and learning.",
+        "They were assigned the role of \"teacher,\" while another individual, who was actually an actor (the \"learner\"), was strapped to a chair and told to memorize word pairs.",
+        "The teacher's task was to administer increasingly severe electric shocks to the learner whenever they gave a wrong answer.",
+        "The shocks ranged from 15 volts to 450 volts, with labels indicating dangerous levels of shock.",
+        "The learner would intentionally give wrong answers, and as the shock intensity increased, the learner would scream in pain, eventually falling silent as the shocks became more intense.",
+        "However, the learner was not actually receiving any shocks; the cries and silence were scripted to simulate the effects.",
+        "Milgram's central finding was that a surprising number of participants—over 60%—were willing to administer the maximum 450-volt shock, despite the apparent distress of the learner.",
+        "Many participants showed signs of stress, such as sweating and nervous laughter, but they continued to obey the experimenter’s instructions.",
+        "Milgram’s study revealed the extent to which ordinary individuals could deliver (A) __________ actions when ordered by an authority figure, (B) __________ the assumption that only inherently cruel people could engage in such behaviors."
+      ],
+      "question": "(A), (B)에 들어갈 가장 적절한 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
@@ -445,15 +504,37 @@
         },
         {
           "label": "④",
-          "text": "(A) biased (B) insinuating [17-18] 아래 지문을 읽고 문제에 답하시오. The periodic table is, for many, the symbol of chemistry. It is a single image that contains all of the known elements in the universe combined into an easily readable table. There are many patterns present in the table as well. All of the elements seem to fit together and connect to form a readable table and, in turn, the image of chemistry. The idea of elements first came about in 300 B.C. The great Greek philosopher Aristotle conceived an idea that everything on earth was made up of these elements. In ancient times, elements like gold and silver were readily accessible, but the elements that Aristotle chose were earth, water, fire, and air. In 1649, the idea of elements took a huge step when Hennig Brand was the first to discover a new element: phosphorous. Brand was an alchemist in search of the Philosopher's Stone, or an object that would turn any ordinary metal into gold. In his search, he tried everything, including distilling human urine. When that experiment was carried out, Brand found a glowing white rock. This was the new element he would call phosphorous. The alchemists and scientists of the enlightenment period added incredible amounts of knowledge to the ideas about elements. In 1869, there were already 63 elements that had been discovered. With each new element that was found, scientists began to realize that there were patterns developing and some started to put the elements into a table. The modern periodic table differs in some ways from Mendeleev’s original version. It contains more than 40 additional elements, and its rows are longer instead of being squeezed under one another in staggered columns. For example, Mendeleev’s fourth and fifth rows are both contained in the fourth period of the modern table. This ends up placing gallium, not scandium underneath boron in the periodic table. This (A) __________ is due to theory on the electronic structure of atoms, in particular ideas about orbitals and the relation of electronic configuration to the periodic table. The extremely important idea of vertical groups of related elements is still retained, as are Mendeleev’s group numbers. The latter appears as roman numerals at the top of each column in the modern table. 2025. 1. 15. (수) 10:00 ~ 11:00"
+          "text": "(A) biased (B) insinuating"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Stanley Milgram's study, conducted in the early 1960s, is one of the most famous experiments in the field of social 2025.\nPASSAGE_SENTENCES:\n1. (A), (B)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① (A) moral (B) supporting\n② (A) detrimental (B) instigating\n③ (A) harmful (B) challenging\n④ (A) biased (B) insinuating [17-18] 아래 지문을 읽고 문제에 답하시오. The periodic table is, for many, the symbol of chemistry. It is a single image that contains all of the known elements in the universe combined into an easily readable table. There are many patterns present in the table as well. All of the elements seem to fit together and connect to form a readable table and, in turn, the image of chemistry. The idea of elements first came about in 300 B.C. The great Greek philosopher Aristotle conceived an idea that everything on earth was made up of these elements. In ancient times, elements like gold and silver were readily accessible, but the elements that Aristotle chose were earth, water, fire, and air. In 1649, the idea of elements took a huge step when Hennig Brand was the first to discover a new element: phosphorous. Brand was an alchemist in search of the Philosopher's Stone, or an object that would turn any ordinary metal into gold. In his search, he tried everything, including distilling human urine. When that experiment was carried out, Brand found a glowing white rock. This was the new element he would call phosphorous. The alchemists and scientists of the enlightenment period added incredible amounts of knowledge to the ideas about elements. In 1869, there were already 63 elements that had been discovered. With each new element that was found, scientists began to realize that there were patterns developing and some started to put the elements into a table. The modern periodic table differs in some ways from Mendeleev’s original version. It contains more than 40 additional elements, and its rows are longer instead of being squeezed under one another in staggered columns. For example, Mendeleev’s fourth and fifth rows are both contained in the fourth period of the modern table. This ends up placing gallium, not scandium underneath boron in the periodic table. This (A) __________ is due to theory on the electronic structure of atoms, in particular ideas about orbitals and the relation of electronic configuration to the periodic table. The extremely important idea of vertical groups of related elements is still retained, as are Mendeleev’s group numbers. The latter appears as roman numerals at the top of each column in the modern table. 2025. 1. 15. (수) 10:00 ~ 11:00"
+      ]
     },
     {
       "number": 17,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "The periodic table is, for many, the symbol of chemistry.",
+        "It is a single image that contains all of the known elements in the universe combined into an easily readable table.",
+        "There are many patterns present in the table as well.",
+        "All of the elements seem to fit together and connect to form a readable table and, in turn, the image of chemistry.",
+        "The idea of elements first came about in 300 B.C.",
+        "The great Greek philosopher Aristotle conceived an idea that everything on earth was made up of these elements.",
+        "In ancient times, elements like gold and silver were readily accessible, but the elements that Aristotle chose were earth, water, fire, and air.",
+        "In 1649, the idea of elements took a huge step when Hennig Brand was the first to discover a new element: phosphorous.",
+        "Brand was an alchemist in search of the Philosopher's Stone, or an object that would turn any ordinary metal into gold.",
+        "In his search, he tried everything, including distilling human urine.",
+        "When that experiment was carried out, Brand found a glowing white rock.",
+        "This was the new element he would call phosphorous.",
+        "The alchemists and scientists of the enlightenment period added incredible amounts of knowledge to the ideas about elements.",
+        "In 1869, there were already 63 elements that had been discovered.",
+        "With each new element that was found, scientists began to realize that there were patterns developing and some started to put the elements into a table.",
+        "The modern periodic table differs in some ways from Mendeleev’s original version.",
+        "It contains more than 40 additional elements, and its rows are longer instead of being squeezed under one another in staggered columns.",
+        "For example, Mendeleev’s fourth and fifth rows are both contained in the fourth period of the modern table.",
+        "This ends up placing gallium, not scandium underneath boron in the periodic table.",
+        "This (A) __________ is due to theory on the electronic structure of atoms, in particular ideas about orbitals and the relation of electronic configuration to the periodic table.",
+        "The extremely important idea of vertical groups of related elements is still retained, as are Mendeleev’s group numbers.",
+        "The latter appears as roman numerals at the top of each column in the modern table."
+      ],
       "question": null,
       "choices": [
         {
@@ -472,13 +553,35 @@
           "label": "④",
           "text": "preservation"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. The periodic table is, for many, the symbol of chemistry. It is a single image that contains all of the known elements in the universe combined into an easily readable table. There are many patterns present in the table as well. All of the elements seem to fit together and connect to form a readable table and, in turn, the image of chemistry. The idea of elements first came about in 300 B.C. The great Greek philosopher Aristotle conceived an idea that everything on earth was made up of these elements. In ancient times, elements like gold and silver were readily accessible, but the elements that Aristotle chose were earth, water, fire, and air. In 1649, the idea of elements took a huge step when Hennig Brand was the first to discover a new element: phosphorous. Brand was an alchemist in search of the Philosopher's Stone, or an object that would turn any ordinary metal into gold. In his search, he tried everything, including distilling human urine. When that experiment was carried out, Brand found a glowing white rock. This was the new element he would call phosphorous. The alchemists and scientists of the enlightenment period added incredible amounts of knowledge to the ideas about elements. In 1869, there were already 63 elements that had been discovered. With each new element that was found, scientists began to realize that there were patterns developing and some started to put the elements into a table. The modern periodic table differs in some ways from Mendeleev’s original version. It contains more than 40 additional elements, and its rows are longer instead of being squeezed under one another in staggered columns. For example, Mendeleev’s fourth and fifth rows are both contained in the fourth period of the modern table. This ends up placing gallium, not scandium underneath boron in the periodic table. This (A) __________ is due to theory on the electronic structure of atoms, in particular ideas about orbitals and the relation of electronic configuration to the periodic table. The extremely important idea of vertical groups of related elements is still retained, as are Mendeleev’s group numbers. The latter appears as roman numerals at the top of each column in the modern table. 2025.\nPASSAGE_SENTENCES:\n1. (A)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① rearrangement\n② retention\n③ impediment\n④ preservation"
+      ]
     },
     {
       "number": 18,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "The periodic table is, for many, the symbol of chemistry.",
+        "It is a single image that contains all of the known elements in the universe combined into an easily readable table.",
+        "There are many patterns present in the table as well.",
+        "All of the elements seem to fit together and connect to form a readable table and, in turn, the image of chemistry.",
+        "The idea of elements first came about in 300 B.C.",
+        "The great Greek philosopher Aristotle conceived an idea that everything on earth was made up of these elements.",
+        "In ancient times, elements like gold and silver were readily accessible, but the elements that Aristotle chose were earth, water, fire, and air.",
+        "In 1649, the idea of elements took a huge step when Hennig Brand was the first to discover a new element: phosphorous.",
+        "Brand was an alchemist in search of the Philosopher's Stone, or an object that would turn any ordinary metal into gold.",
+        "In his search, he tried everything, including distilling human urine.",
+        "When that experiment was carried out, Brand found a glowing white rock.",
+        "This was the new element he would call phosphorous.",
+        "The alchemists and scientists of the enlightenment period added incredible amounts of knowledge to the ideas about elements.",
+        "In 1869, there were already 63 elements that had been discovered.",
+        "With each new element that was found, scientists began to realize that there were patterns developing and some started to put the elements into a table.",
+        "The modern periodic table differs in some ways from Mendeleev’s original version.",
+        "It contains more than 40 additional elements, and its rows are longer instead of being squeezed under one another in staggered columns.",
+        "For example, Mendeleev’s fourth and fifth rows are both contained in the fourth period of the modern table.",
+        "This ends up placing gallium, not scandium underneath boron in the periodic table.",
+        "This (A) __________ is due to theory on the electronic structure of atoms, in particular ideas about orbitals and the relation of electronic configuration to the periodic table.",
+        "The extremely important idea of vertical groups of related elements is still retained, as are Mendeleev’s group numbers.",
+        "The latter appears as roman numerals at the top of each column in the modern table."
+      ],
       "question": null,
       "choices": [
         {
@@ -495,15 +598,27 @@
         },
         {
           "label": "④",
-          "text": "Aristotle's four-element theory is directly reflected in the modern periodic table. [19-20] 아래 지문을 읽고 문제에 답하시오. Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence. One effect of climate change is more extreme weather. There are increasingly more record-breaking weather phenomena, from the number of Category 4 hurricanes to the amount of snowfall in a given winter. These extremes, while they make for dramatic television coverage, can cause immeasurable damage to crops, property, and even lives. So do nearly 200 countries that signed the Kyoto Protocol, a document intended to engage countries in voluntary actions to limit the activity that leads to climate change. There is, however, a lot of finger-pointing among countries, especially when the issue arises of who will be permitted to pollute. World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into post-industrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide. The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies. Since they were (A) __________ affected by the progress of core nations, if the core nations now insist on \"green\" policies, they should pay offsets or subsidies of some kind. There are no easy answers to this conflict. It may well not be \"fair\" that the core nations benefited from (B) __________ during their industrial boom."
+          "text": "Aristotle's four-element theory is directly reflected in the modern periodic table."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. The periodic table is, for many, the symbol of chemistry. It is a single image that contains all of the known elements in the universe combined into an easily readable table. There are many patterns present in the table as well. All of the elements seem to fit together and connect to form a readable table and, in turn, the image of chemistry. The idea of elements first came about in 300 B.C. The great Greek philosopher Aristotle conceived an idea that everything on earth was made up of these elements. In ancient times, elements like gold and silver were readily accessible, but the elements that Aristotle chose were earth, water, fire, and air. In 1649, the idea of elements took a huge step when Hennig Brand was the first to discover a new element: phosphorous. Brand was an alchemist in search of the Philosopher's Stone, or an object that would turn any ordinary metal into gold. In his search, he tried everything, including distilling human urine. When that experiment was carried out, Brand found a glowing white rock. This was the new element he would call phosphorous. The alchemists and scientists of the enlightenment period added incredible amounts of knowledge to the ideas about elements. In 1869, there were already 63 elements that had been discovered. With each new element that was found, scientists began to realize that there were patterns developing and some started to put the elements into a table. The modern periodic table differs in some ways from Mendeleev’s original version. It contains more than 40 additional elements, and its rows are longer instead of being squeezed under one another in staggered columns. For example, Mendeleev’s fourth and fifth rows are both contained in the fourth period of the modern table. This ends up placing gallium, not scandium underneath boron in the periodic table. This (A) __________ is due to theory on the electronic structure of atoms, in particular ideas about orbitals and the relation of electronic configuration to the periodic table. The extremely important idea of vertical groups of related elements is still retained, as are Mendeleev’s group numbers. The latter appears as roman numerals at the top of each column in the modern table. 2025.\nPASSAGE_SENTENCES:\n1. 윗글을 읽고 유추할 수 있는 것을 고르시오.\n2. [4점]\nCHOICES:\n① The periodic table has finalized all existing elements into a readable and systematic format.\n② Mendeleev’s original periodic table remains unchanged in the modern version.\n③ Advances in electronic theory have influenced the modern structure of the periodic table.\n④ Aristotle's four-element theory is directly reflected in the modern periodic table. [19-20] 아래 지문을 읽고 문제에 답하시오. Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence. One effect of climate change is more extreme weather. There are increasingly more record-breaking weather phenomena, from the number of Category 4 hurricanes to the amount of snowfall in a given winter. These extremes, while they make for dramatic television coverage, can cause immeasurable damage to crops, property, and even lives. So do nearly 200 countries that signed the Kyoto Protocol, a document intended to engage countries in voluntary actions to limit the activity that leads to climate change. There is, however, a lot of finger-pointing among countries, especially when the issue arises of who will be permitted to pollute. World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into post-industrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide. The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies. Since they were (A) __________ affected by the progress of core nations, if the core nations now insist on \"green\" policies, they should pay offsets or subsidies of some kind. There are no easy answers to this conflict. It may well not be \"fair\" that the core nations benefited from (B) __________ during their industrial boom."
+      ]
     },
     {
       "number": 19,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence.",
+        "One effect of climate change is more extreme weather.",
+        "There are increasingly more record-breaking weather phenomena, from the number of Category 4 hurricanes to the amount of snowfall in a given winter.",
+        "These extremes, while they make for dramatic television coverage, can cause immeasurable damage to crops, property, and even lives.",
+        "So do nearly 200 countries that signed the Kyoto Protocol, a document intended to engage countries in voluntary actions to limit the activity that leads to climate change.",
+        "There is, however, a lot of finger-pointing among countries, especially when the issue arises of who will be permitted to pollute.",
+        "World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into post-industrial societies.",
+        "Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide.",
+        "The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies.",
+        "Since they were (A) __________ affected by the progress of core nations, if the core nations now insist on \"green\" policies, they should pay offsets or subsidies of some kind.",
+        "There are no easy answers to this conflict.",
+        "It may well not be \"fair\" that the core nations benefited from (B) __________ during their industrial boom."
+      ],
       "question": null,
       "choices": [
         {
@@ -522,13 +637,25 @@
           "label": "④",
           "text": "(A) reasonably (B) enlightenment"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence. One effect of climate change is more extreme weather. There are increasingly more record-breaking weather phenomena, from the number of Category 4 hurricanes to the amount of snowfall in a given winter. These extremes, while they make for dramatic television coverage, can cause immeasurable damage to crops, property, and even lives. So do nearly 200 countries that signed the Kyoto Protocol, a document intended to engage countries in voluntary actions to limit the activity that leads to climate change. There is, however, a lot of finger-pointing among countries, especially when the issue arises of who will be permitted to pollute. World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into post-industrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide. The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies. Since they were (A) __________ affected by the progress of core nations, if the core nations now insist on \"green\" policies, they should pay offsets or subsidies of some kind. There are no easy answers to this conflict. It may well not be \"fair\" that the core nations benefited from (B) __________ during their industrial boom.\nPASSAGE_SENTENCES:\n1. (A), (B)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① (A) unduly (B) ignorance\n② (A) improperly (B) controversies\n③ (A) moderately (B) knowledge\n④ (A) reasonably (B) enlightenment"
+      ]
     },
     {
       "number": 20,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
-      "passage_sentences": [],
+      "passage_sentences": [
+        "Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence.",
+        "One effect of climate change is more extreme weather.",
+        "There are increasingly more record-breaking weather phenomena, from the number of Category 4 hurricanes to the amount of snowfall in a given winter.",
+        "These extremes, while they make for dramatic television coverage, can cause immeasurable damage to crops, property, and even lives.",
+        "So do nearly 200 countries that signed the Kyoto Protocol, a document intended to engage countries in voluntary actions to limit the activity that leads to climate change.",
+        "There is, however, a lot of finger-pointing among countries, especially when the issue arises of who will be permitted to pollute.",
+        "World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into post-industrial societies.",
+        "Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide.",
+        "The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies.",
+        "Since they were (A) __________ affected by the progress of core nations, if the core nations now insist on \"green\" policies, they should pay offsets or subsidies of some kind.",
+        "There are no easy answers to this conflict.",
+        "It may well not be \"fair\" that the core nations benefited from (B) __________ during their industrial boom."
+      ],
       "question": null,
       "choices": [
         {
@@ -545,88 +672,101 @@
         },
         {
           "label": "④",
-          "text": "Green policies promote core nations’ but not industrialized nations’ economic development. [21-22] 아래 지문을 읽고 문제에 답하시오. Humans are tribal. We need to belong to groups. We crave bonds and attachments, which is why we love teams, fraternities, and family. Almost no one is a hermit. But the tribal instinct is not just an instinct to belong. Some groups are voluntary; some are not. But once people belong to a group, their identities can become oddly bound with it. They will seek to benefit their group mates even when they personally gain nothing. They will penalize outsiders, seemingly gratuitously. They will sacrifice for their groups. Today, no group in America feels comfortably dominant. Every group feels attacked, pitted against other groups not just for jobs and spoils but for the right to define the nation's identity. In these conditions, democracy devolves into zero-sum group competition— pure political tribalism. In our foreign policy, for at least half a century, we Americans have been spectacularly blind to the power of tribal politics. We tend to view the world in terms of territorial nation-states engaged in great ideological battles―Capitalism versus Communism, Democracy versus Authoritarianism, the 'Free World' versus the 'Axis of Evil.' Blinded by our own ideological prisms, we have repeatedly ignored more primal group identities. This blindness has been the Achilles' heel of U.S. foreign policy. 2025. 1. 15. (수) 10:00 ~ 11:00 Domestically as well, elites in the United States have either not cared about or been remarkably oblivious to the group identities that matter most to large segments of ordinary Americans. The most important tribal identity missed by America’s elites was the powerful antiestablishment identity forming within the working class that helped elect Donald Trump."
+          "text": "Green policies promote core nations’ but not industrialized nations’ economic development."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence. One effect of climate change is more extreme weather. There are increasingly more record-breaking weather phenomena, from the number of Category 4 hurricanes to the amount of snowfall in a given winter. These extremes, while they make for dramatic television coverage, can cause immeasurable damage to crops, property, and even lives. So do nearly 200 countries that signed the Kyoto Protocol, a document intended to engage countries in voluntary actions to limit the activity that leads to climate change. There is, however, a lot of finger-pointing among countries, especially when the issue arises of who will be permitted to pollute. World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into post-industrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide. The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies. Since they were (A) __________ affected by the progress of core nations, if the core nations now insist on \"green\" policies, they should pay offsets or subsidies of some kind. There are no easy answers to this conflict. It may well not be \"fair\" that the core nations benefited from (B) __________ during their industrial boom.\nPASSAGE_SENTENCES:\n1. 윗글의 내용으로 유추할 수 있는 것을 고르시오.\n2. [4점]\nCHOICES:\n① Semi-peripheral and peripheral nations argue that core nations are responsible for climate change.\n② Semi-peripheral and peripheral nations question the science used as evidence for climate change.\n③ Post-industrial economies increasingly rely on industries that produce greenhouse gases.\n④ Green policies promote core nations’ but not industrialized nations’ economic development. [21-22] 아래 지문을 읽고 문제에 답하시오. Humans are tribal. We need to belong to groups. We crave bonds and attachments, which is why we love teams, fraternities, and family. Almost no one is a hermit. But the tribal instinct is not just an instinct to belong. Some groups are voluntary; some are not. But once people belong to a group, their identities can become oddly bound with it. They will seek to benefit their group mates even when they personally gain nothing. They will penalize outsiders, seemingly gratuitously. They will sacrifice for their groups. Today, no group in America feels comfortably dominant. Every group feels attacked, pitted against other groups not just for jobs and spoils but for the right to define the nation's identity. In these conditions, democracy devolves into zero-sum group competition— pure political tribalism. In our foreign policy, for at least half a century, we Americans have been spectacularly blind to the power of tribal politics. We tend to view the world in terms of territorial nation-states engaged in great ideological battles―Capitalism versus Communism, Democracy versus Authoritarianism, the 'Free World' versus the 'Axis of Evil.' Blinded by our own ideological prisms, we have repeatedly ignored more primal group identities. This blindness has been the Achilles' heel of U.S. foreign policy. 2025. 1. 15. (수) 10:00 ~ 11:00 Domestically as well, elites in the United States have either not cared about or been remarkably oblivious to the group identities that matter most to large segments of ordinary Americans. The most important tribal identity missed by America’s elites was the powerful antiestablishment identity forming within the working class that helped elect Donald Trump."
+      ]
     },
     {
       "number": 21,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [
-        "[3점] ➀ descends into ➁ looks up to ➂ evolves into ➃ looks down on"
+        "Humans are tribal.",
+        "We need to belong to groups.",
+        "We crave bonds and attachments, which is why we love teams, fraternities, and family.",
+        "Almost no one is a hermit.",
+        "But the tribal instinct is not just an instinct to belong.",
+        "Some groups are voluntary; some are not.",
+        "But once people belong to a group, their identities can become oddly bound with it.",
+        "They will seek to benefit their group mates even when they personally gain nothing.",
+        "They will penalize outsiders, seemingly gratuitously.",
+        "They will sacrifice for their groups.",
+        "Today, no group in America feels comfortably dominant.",
+        "Every group feels attacked, pitted against other groups not just for jobs and spoils but for the right to define the nation's identity.",
+        "In these conditions, democracy devolves into zero-sum group competition— pure political tribalism.",
+        "In our foreign policy, for at least half a century, we Americans have been spectacularly blind to the power of tribal politics.",
+        "We tend to view the world in terms of territorial nation-states engaged in great ideological battles―Capitalism versus Communism, Democracy versus Authoritarianism, the 'Free World' versus the 'Axis of Evil.' Blinded by our own ideological prisms, we have repeatedly ignored more primal group identities.",
+        "This blindness has been the Achilles' heel of U.S. foreign policy.",
+        "Domestically as well, elites in the United States have either not cared about or been remarkably oblivious to the group identities that matter most to large segments of ordinary Americans.",
+        "The most important tribal identity missed by America’s elites was the powerful antiestablishment identity forming within the working class that helped elect Donald Trump."
       ],
-      "question": null,
+      "question": "밑줄 친 devolves into와 의미가 가장 가까운 것을 고르시오. [3점]",
       "choices": [
         {
           "label": "①",
-          "text": ""
+          "text": "descends into"
         },
         {
           "label": "②",
-          "text": ""
+          "text": "looks up to"
         },
         {
           "label": "③",
-          "text": ""
+          "text": "evolves into"
         },
         {
           "label": "④",
-          "text": ""
+          "text": "looks down on"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Humans are tribal. We need to belong to groups. We crave bonds and attachments, which is why we love teams, fraternities, and family. Almost no one is a hermit. But the tribal instinct is not just an instinct to belong. Some groups are voluntary; some are not. But once people belong to a group, their identities can become oddly bound with it. They will seek to benefit their group mates even when they personally gain nothing. They will penalize outsiders, seemingly gratuitously. They will sacrifice for their groups. Today, no group in America feels comfortably dominant. Every group feels attacked, pitted against other groups not just for jobs and spoils but for the right to define the nation's identity. In these conditions, democracy devolves into zero-sum group competition— pure political tribalism. In our foreign policy, for at least half a century, we Americans have been spectacularly blind to the power of tribal politics. We tend to view the world in terms of territorial nation-states engaged in great ideological battles―Capitalism versus Communism, Democracy versus Authoritarianism, the 'Free World' versus the 'Axis of Evil.' Blinded by our own ideological prisms, we have repeatedly ignored more primal group identities. This blindness has been the Achilles' heel of U.S. foreign policy. 2025.\nPASSAGE_SENTENCES:\n1. 밑줄 친 devolves into와 의미가 가장 가까운 것을 고르 시오.\n2. [3점] ➀ descends into ➁ looks up to ➂ evolves into ➃ looks down on\nCHOICES:\n①\n②\n③\n④"
+      ]
     },
     {
       "number": 22,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [
-        "[4점] ➀ Tribal politics may have substantial influence in both domestic and international politics. ➁ American foreign policy has been dominated by tribal considerations. ➂ Some tend to offend others for their primal group benefits. ➃ Donald Trump won the presidential election in 2016 partly due to political tribalism.",
-        "The common cold is caused by a variety of viruses, but rhinoviruses are the most common culprit.",
-        "These viruses (A) __________ the cells in your nose and throat and use them to produce more viruses.",
-        "After a few days, your immune system notices and destroys it, but not before you infect, on average, one other person.",
-        "After you fight off the infection, you are immune to that particular rhinovirus strain—an immunity that lasts for years.",
-        "If we are all put in quarantine, the cold viruses we carry would have no fresh hosts to run to.",
-        "Could our immune systems then wipe out every copy of the virus?",
-        "Before we answer that question, let’s consider the practical consequences of this kind of quarantine.",
-        "The world’s total annual economic output is in the neighborhood of $80 trillion, which suggests that interrupting all economic activity for a few weeks would cost many trillions of dollars.",
-        "The shock to the system from the worldwide “pause” could easily cause a global economic collapse.",
-        "A global quarantine brings us to another question: How far apart can we actually get from one another?",
-        "The world is big, but there are a lot of people.",
-        "If we divide up the world’s land area evenly, there’s enough room for each of us to have a little over 2 hectares each, with the nearest person 77 meters away.",
-        "While 77 meters is probably enough separation to block the transmission of rhinoviruses, that separation would (B) __________.",
-        "Much of the world’s land is not pleasant to stand around on for five weeks.",
-        "A lot of us would be stuck standing in the Sahara Desert or chungang Antarctica.",
-        "A more practical—though not necessarily cheaper— solution would be to give everyone biohazard suits.",
-        "(C) _____________________________.",
-        "If rhinoviruses don’t have enough humans to move between, they die out."
+        "Humans are tribal.",
+        "We need to belong to groups.",
+        "We crave bonds and attachments, which is why we love teams, fraternities, and family.",
+        "Almost no one is a hermit.",
+        "But the tribal instinct is not just an instinct to belong.",
+        "Some groups are voluntary; some are not.",
+        "But once people belong to a group, their identities can become oddly bound with it.",
+        "They will seek to benefit their group mates even when they personally gain nothing.",
+        "They will penalize outsiders, seemingly gratuitously.",
+        "They will sacrifice for their groups.",
+        "Today, no group in America feels comfortably dominant.",
+        "Every group feels attacked, pitted against other groups not just for jobs and spoils but for the right to define the nation's identity.",
+        "In these conditions, democracy devolves into zero-sum group competition— pure political tribalism.",
+        "In our foreign policy, for at least half a century, we Americans have been spectacularly blind to the power of tribal politics.",
+        "We tend to view the world in terms of territorial nation-states engaged in great ideological battles―Capitalism versus Communism, Democracy versus Authoritarianism, the 'Free World' versus the 'Axis of Evil.' Blinded by our own ideological prisms, we have repeatedly ignored more primal group identities.",
+        "This blindness has been the Achilles' heel of U.S. foreign policy.",
+        "Domestically as well, elites in the United States have either not cared about or been remarkably oblivious to the group identities that matter most to large segments of ordinary Americans.",
+        "The most important tribal identity missed by America’s elites was the powerful antiestablishment identity forming within the working class that helped elect Donald Trump."
       ],
-      "question": null,
+      "question": "윗글의 내용으로 유추할 수 없는 것을 고르시오. [4점]",
       "choices": [
         {
           "label": "①",
-          "text": ""
+          "text": "Tribal politics may have substantial influence in both domestic and international politics."
         },
         {
           "label": "②",
-          "text": ""
+          "text": "American foreign policy has been dominated by tribal considerations."
         },
         {
           "label": "③",
-          "text": ""
+          "text": "Some tend to offend others for their primal group benefits."
         },
         {
           "label": "④",
-          "text": ""
+          "text": "Donald Trump won the presidential election in 2016 partly due to political tribalism."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Humans are tribal. We need to belong to groups. We crave bonds and attachments, which is why we love teams, fraternities, and family. Almost no one is a hermit. But the tribal instinct is not just an instinct to belong. Some groups are voluntary; some are not. But once people belong to a group, their identities can become oddly bound with it. They will seek to benefit their group mates even when they personally gain nothing. They will penalize outsiders, seemingly gratuitously. They will sacrifice for their groups. Today, no group in America feels comfortably dominant. Every group feels attacked, pitted against other groups not just for jobs and spoils but for the right to define the nation's identity. In these conditions, democracy devolves into zero-sum group competition— pure political tribalism. In our foreign policy, for at least half a century, we Americans have been spectacularly blind to the power of tribal politics. We tend to view the world in terms of territorial nation-states engaged in great ideological battles―Capitalism versus Communism, Democracy versus Authoritarianism, the 'Free World' versus the 'Axis of Evil.' Blinded by our own ideological prisms, we have repeatedly ignored more primal group identities. This blindness has been the Achilles' heel of U.S. foreign policy. 2025.\nPASSAGE_SENTENCES:\n1. 윗글의 내용으로 유추할 수 없는 것을 고르시오.\n2. [4점] ➀ Tribal politics may have substantial influence in both domestic and international politics. ➁ American foreign policy has been dominated by tribal considerations. ➂ Some tend to offend others for their primal group benefits. ➃ Donald Trump won the presidential election in 2016 partly due to political tribalism.\n3. [23-24] 아래 지문을 읽고 문제에 답하시오.\n4. The common cold is caused by a variety of viruses, but rhinoviruses are the most common culprit.\n5. These viruses (A) __________ the cells in your nose and throat and use them to produce more viruses.\n6. After a few days, your immune system notices and destroys it, but not before you infect, on average, one other person.\n7. After you fight off the infection, you are immune to that particular rhinovirus strain—an immunity that lasts for years.\n8. If we are all put in quarantine, the cold viruses we carry would have no fresh hosts to run to.\n9. Could our immune systems then wipe out every copy of the virus?\n10. Before we answer that question, let’s consider the practical consequences of this kind of quarantine.\n11. The world’s total annual economic output is in the neighborhood of $80 trillion, which suggests that interrupting all economic activity for a few weeks would cost many trillions of dollars.\n12. The shock to the system from the worldwide “pause” could easily cause a global economic collapse.\n13. A global quarantine brings us to another question: How far apart can we actually get from one another?\n14. The world is big, but there are a lot of people.\n15. If we divide up the world’s land area evenly, there’s enough room for each of us to have a little over 2 hectares each, with the nearest person 77 meters away.\n16. While 77 meters is probably enough separation to block the transmission of rhinoviruses, that separation would (B) __________.\n17. Much of the world’s land is not pleasant to stand around on for five weeks.\n18. A lot of us would be stuck standing in the Sahara Desert or chungang Antarctica.\n19. A more practical—though not necessarily cheaper— solution would be to give everyone biohazard suits.\n20. (C) _____________________________.\n21. If rhinoviruses don’t have enough humans to move between, they die out.\nCHOICES:\n①\n②\n③\n④"
+      ]
     },
     {
       "number": 23,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [],
-      "question": null,
+      "question": "(A), (B)에 들어갈 가장 적절한 것을 고르시오. [4점]",
       "choices": [
         {
           "label": "①",
@@ -644,105 +784,121 @@
           "label": "④",
           "text": "(A) get back at (B) lead to the answer"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. The common cold is caused by a variety of viruses, but rhinoviruses are the most common culprit. These viruses (A) __________ the cells in your nose and throat and use them to produce more viruses. After a few days, your immune system notices and destroys it, but not before you infect, on average, one other person. After you fight off the infection, you are immune to that particular rhinovirus strain—an immunity that lasts for years. If we are all put in quarantine, the cold viruses we carry would have no fresh hosts to run to. Could our immune systems then wipe out every copy of the virus? Before we answer that question, let’s consider the practical consequences of this kind of quarantine. The world’s total annual economic output is in the neighborhood of $80 trillion, which suggests that interrupting all economic activity for a few weeks would cost many trillions of dollars. The shock to the system from the worldwide “pause” could easily cause a global economic collapse. A global quarantine brings us to another question: How far apart can we actually get from one another? The world is big, but there are a lot of people. If we divide up the world’s land area evenly, there’s enough room for each of us to have a little over 2 hectares each, with the nearest person 77 meters away. While 77 meters is probably enough separation to block the transmission of rhinoviruses, that separation would (B) __________. Much of the world’s land is not pleasant to stand around on for five weeks. A lot of us would be stuck standing in the Sahara Desert or chungang Antarctica. A more practical—though not necessarily cheaper— solution would be to give everyone biohazard suits. (C) _____________________________. If rhinoviruses don’t have enough humans to move between, they die out.\nPASSAGE_SENTENCES:\n1. (A), (B)에 들어갈 가장 적절한 표현을 고르시오.\n2. [4점]\nCHOICES:\n① (A) put out (B) result in danger\n② (A) cut off (B) go beyond the border\n③ (A) take over (B) come at a cost\n④ (A) get back at (B) lead to the answer"
+      ]
     },
     {
       "number": 24,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [
-        "[4점] [가] Dr.",
+        "[가] Dr.",
         "Mackay, a virology expert, said that this idea is actually somewhat reasonable, from a purely biological point of view.",
         "[나] That way, we could walk around and interact, even allowing some normal economic activity to continue.",
         "[다] He said that rhinoviruses and other RNA respiratory viruses are completely eliminated from the body by the immune system; they do not linger after infection.",
         "[라] Furthermore, we don’t seem to pass any rhinoviruses back and forth with animals, which means there are no other species that can serve as reservoirs of our colds."
       ],
-      "question": null,
+      "question": "(C)에 들어갈 내용을 순서대로 배열한 것을 고르시오. [4점]",
       "choices": [
         {
           "label": "①",
-          "text": "[라]–[나]–[가]–[다]"
+          "text": "[라]-[나]-[가]-[다]"
         },
         {
           "label": "②",
-          "text": "[나]–[라]–[다]–[가]"
+          "text": "[나]-[라]-[다]-[가]"
         },
         {
           "label": "③",
-          "text": "[가]–[나]–[라]–[다]"
+          "text": "[가]-[나]-[라]-[다]"
         },
         {
           "label": "④",
-          "text": "[나]–[가]–[다]–[라] [25-26] 아래 지문을 읽고 문제에 답하시오. Democracy’s global momentum peaked soon after the end of the Cold War. For the first time in history, systems in which people could choose and replace their leaders in free and fair elections became the (A) __________ form of government. By 2006, about three-fifths of all countries met this standard. 2025. 1. 15. (수) 10:00 ~ 11:00 [가] Protecting democracy against such forces will take strength, agility, and tenacity. The world’s liberal democracies must enhance their external defenses and cooperate more closely to maintain an economic, military, and technological edge that denies antidemocratic adversaries the power to dominate global politics and undercut their rivals. [나] Since then, democracy and freedom have been in steady retreat. The decline has been global. The changes have not always been disastrous, but they have been remarkably broad and persistent. The global outlook for democracy is clouded, if not downright disheartening. Political extremism, polarization, and distrust have been on the rise even in long-established liberal democracies. [다] The challenges confronting democracy today are (B) __________. Authoritarian regimes have gone on the offensive to discredit and destabilize free societies. That they do so out of fear and concern for their own legitimacy does not make their actions any less dangerous. Making matters worse, hostile autocracies are increasingly acting in concert in a malevolent axis that features China, Russia, and Iran at the center, joined by Cuba, North Korea, and others. [라] At the same time, as underscored by the recent electoral gains of extremist populist forces on both the right and the left in France and Germany, democratic leaders cannot neglect their internal defenses. Emerging and mature democracies alike need strategies to counter the siren song of illiberal populism. Even a long-standing liberal democracy can turn toward autocracy if its government does not deliver effective policies to combat crime and terrorism, manage national borders, soothe societal divisions, and ensure broad access to economic opportunity and security."
+          "text": "[나]-[가]-[다]-[라]"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. The common cold is caused by a variety of viruses, but rhinoviruses are the most common culprit. These viruses (A) __________ the cells in your nose and throat and use them to produce more viruses. After a few days, your immune system notices and destroys it, but not before you infect, on average, one other person. After you fight off the infection, you are immune to that particular rhinovirus strain—an immunity that lasts for years. If we are all put in quarantine, the cold viruses we carry would have no fresh hosts to run to. Could our immune systems then wipe out every copy of the virus? Before we answer that question, let’s consider the practical consequences of this kind of quarantine. The world’s total annual economic output is in the neighborhood of $80 trillion, which suggests that interrupting all economic activity for a few weeks would cost many trillions of dollars. The shock to the system from the worldwide “pause” could easily cause a global economic collapse. A global quarantine brings us to another question: How far apart can we actually get from one another? The world is big, but there are a lot of people. If we divide up the world’s land area evenly, there’s enough room for each of us to have a little over 2 hectares each, with the nearest person 77 meters away. While 77 meters is probably enough separation to block the transmission of rhinoviruses, that separation would (B) __________. Much of the world’s land is not pleasant to stand around on for five weeks. A lot of us would be stuck standing in the Sahara Desert or chungang Antarctica. A more practical—though not necessarily cheaper— solution would be to give everyone biohazard suits. (C) _____________________________. If rhinoviruses don’t have enough humans to move between, they die out.\nPASSAGE_SENTENCES:\n1. (C)에 들어갈 내용을 순서대로 배열한 것을 고르시오.\n2. [4점] [가] Dr. Mackay, a virology expert, said that this idea is actually somewhat reasonable, from a purely biological point of view.\n3. [나] That way, we could walk around and interact, even allowing some normal economic activity to continue.\n4. [다] He said that rhinoviruses and other RNA respiratory viruses are completely eliminated from the body by the immune system; they do not linger after infection.\n5. [라] Furthermore, we don’t seem to pass any rhinoviruses back and forth with animals, which means there are no other species that can serve as reservoirs of our colds.\nCHOICES:\n① [라]–[나]–[가]–[다]\n② [나]–[라]–[다]–[가]\n③ [가]–[나]–[라]–[다]\n④ [나]–[가]–[다]–[라] [25-26] 아래 지문을 읽고 문제에 답하시오. Democracy’s global momentum peaked soon after the end of the Cold War. For the first time in history, systems in which people could choose and replace their leaders in free and fair elections became the (A) __________ form of government. By 2006, about three-fifths of all countries met this standard. 2025. 1. 15. (수) 10:00 ~ 11:00 [가] Protecting democracy against such forces will take strength, agility, and tenacity. The world’s liberal democracies must enhance their external defenses and cooperate more closely to maintain an economic, military, and technological edge that denies antidemocratic adversaries the power to dominate global politics and undercut their rivals. [나] Since then, democracy and freedom have been in steady retreat. The decline has been global. The changes have not always been disastrous, but they have been remarkably broad and persistent. The global outlook for democracy is clouded, if not downright disheartening. Political extremism, polarization, and distrust have been on the rise even in long-established liberal democracies. [다] The challenges confronting democracy today are (B) __________. Authoritarian regimes have gone on the offensive to discredit and destabilize free societies. That they do so out of fear and concern for their own legitimacy does not make their actions any less dangerous. Making matters worse, hostile autocracies are increasingly acting in concert in a malevolent axis that features China, Russia, and Iran at the center, joined by Cuba, North Korea, and others. [라] At the same time, as underscored by the recent electoral gains of extremist populist forces on both the right and the left in France and Germany, democratic leaders cannot neglect their internal defenses. Emerging and mature democracies alike need strategies to counter the siren song of illiberal populism. Even a long-standing liberal democracy can turn toward autocracy if its government does not deliver effective policies to combat crime and terrorism, manage national borders, soothe societal divisions, and ensure broad access to economic opportunity and security."
+      ]
     },
     {
       "number": 25,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [
-        "[4점] ➀ (A) predominant (B) formidable ➁ (A) inherent (B) insignificant ➂ (A) premature (B) impressive ➃ (A) principal (B) inconsequential"
+        "Democracy’s global momentum peaked soon after the end of the Cold War.",
+        "For the first time in history, systems in which people could choose and replace their leaders in free and fair elections became the (A) __________ form of government.",
+        "By 2006, about three-fifths of all countries met this standard.",
+        "[가] Protecting democracy against such forces will take strength, agility, and tenacity.",
+        "The world’s liberal democracies must enhance their external defenses and cooperate more closely to maintain an economic, military, and technological edge that denies antidemocratic adversaries the power to dominate global politics and undercut their rivals.",
+        "[나] Since then, democracy and freedom have been in steady retreat.",
+        "The decline has been global.",
+        "The changes have not always been disastrous, but they have been remarkably broad and persistent.",
+        "The global outlook for democracy is clouded, if not downright disheartening.",
+        "Political extremism, polarization, and distrust have been on the rise even in long-established liberal democracies.",
+        "[다] The challenges confronting democracy today are (B) __________.",
+        "Authoritarian regimes have gone on the offensive to discredit and destabilize free societies.",
+        "That they do so out of fear and concern for their own legitimacy does not make their actions any less dangerous.",
+        "Making matters worse, hostile autocracies are increasingly acting in concert in a malevolent axis that features China, Russia, and Iran at the center, joined by Cuba, North Korea, and others.",
+        "[라] At the same time, as underscored by the recent electoral gains of extremist populist forces on both the right and the left in France and Germany, democratic leaders cannot neglect their internal defenses.",
+        "Emerging and mature democracies alike need strategies to counter the siren song of illiberal populism.",
+        "Even a long-standing liberal democracy can turn toward autocracy if its government does not deliver effective policies to combat crime and terrorism, manage national borders, soothe societal divisions, and ensure broad access to economic opportunity and security."
       ],
-      "question": null,
+      "question": "(A), (B)에 들어갈 가장 적절한 것을 고르시오. [4점]",
       "choices": [
         {
           "label": "①",
-          "text": ""
+          "text": "(A) predominant (B) formidable"
         },
         {
           "label": "②",
-          "text": ""
+          "text": "(A) inherent (B) insignificant"
         },
         {
           "label": "③",
-          "text": ""
+          "text": "(A) premature (B) impressive"
         },
         {
           "label": "④",
-          "text": ""
+          "text": "(A) principal (B) inconsequential"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Democracy’s global momentum peaked soon after the end of the Cold War. For the first time in history, systems in which people could choose and replace their leaders in free and fair elections became the (A) __________ form of government. By 2006, about three-fifths of all countries met this standard. 2025.\nPASSAGE_SENTENCES:\n1. (A), (B)에 들어갈 가장 적절한 것을 고르시오.\n2. [4점] ➀ (A) predominant (B) formidable ➁ (A) inherent (B) insignificant ➂ (A) premature (B) impressive ➃ (A) principal (B) inconsequential\nCHOICES:\n①\n②\n③\n④"
+      ]
     },
     {
       "number": 26,
       "instruction": "아래 지문을 읽고 문제에 답하시오.",
       "passage_sentences": [
-        "NASA’s Parker Solar Probe is a groundbreaking mission to dive into the sun’s atmosphere, enduring extreme heat and radiation to give humanity its first-ever close-up (A) __________ of a star’s outer layers.",
-        "Launched in 2018, the spacecraft is equipped with cutting-edge thermal engineering and instruments to study the sun’s magnetic fields, plasma, energetic particles, and the solar wind.",
-        "The Parker Solar Probe’s discoveries have already transformed our understanding of the sun and its influence on Earth.",
-        "By answering long-standing questions —such as why the corona is hotter than the sun’s surface and how solar wind accelerates—it provides critical data for predicting space weather.",
-        "These insights protect satellites, power grids, and astronauts from solar radiation.",
-        "On December 24, 2024, Parker completed its closest-ever approach to the sun, passing just 3.8 million miles from its surface at a record-breaking speed of 430,000 miles per hour.",
-        "The latest flyby marks the spacecraft’s 23rd close flyby and brings it deeper into the corona than ever before.",
-        "When data is returned, it will provide unprecedented details of the sun’s behavior during its 11-year solar maximum.",
-        "NASA confirmed the probe’s health on December 27, 2024, when a beacon tone signaled its successful navigation through the sun’s outer atmosphere.",
-        "It will continue its highly elliptical orbit, making two more close passes of the sun in March and June 2025.",
-        "After completing its primary mission in June 2025, the probe will remain in orbit to conduct additional observations until its onboard fuel runs out.",
-        "Without corrective thrusts, the solar wind will gradually push the spacecraft out of alignment with Earth, ending its ability to transmit data.",
-        "When its mission concludes, nearly all of the probe will incinerate, leaving only its carbon heat shield to orbit the sun for potentially billions of years, until the very end of the solar system itself."
+        "Democracy’s global momentum peaked soon after the end of the Cold War.",
+        "For the first time in history, systems in which people could choose and replace their leaders in free and fair elections became the (A) __________ form of government.",
+        "By 2006, about three-fifths of all countries met this standard.",
+        "[가] Protecting democracy against such forces will take strength, agility, and tenacity.",
+        "The world’s liberal democracies must enhance their external defenses and cooperate more closely to maintain an economic, military, and technological edge that denies antidemocratic adversaries the power to dominate global politics and undercut their rivals.",
+        "[나] Since then, democracy and freedom have been in steady retreat.",
+        "The decline has been global.",
+        "The changes have not always been disastrous, but they have been remarkably broad and persistent.",
+        "The global outlook for democracy is clouded, if not downright disheartening.",
+        "Political extremism, polarization, and distrust have been on the rise even in long-established liberal democracies.",
+        "[다] The challenges confronting democracy today are (B) __________.",
+        "Authoritarian regimes have gone on the offensive to discredit and destabilize free societies.",
+        "That they do so out of fear and concern for their own legitimacy does not make their actions any less dangerous.",
+        "Making matters worse, hostile autocracies are increasingly acting in concert in a malevolent axis that features China, Russia, and Iran at the center, joined by Cuba, North Korea, and others.",
+        "[라] At the same time, as underscored by the recent electoral gains of extremist populist forces on both the right and the left in France and Germany, democratic leaders cannot neglect their internal defenses.",
+        "Emerging and mature democracies alike need strategies to counter the siren song of illiberal populism.",
+        "Even a long-standing liberal democracy can turn toward autocracy if its government does not deliver effective policies to combat crime and terrorism, manage national borders, soothe societal divisions, and ensure broad access to economic opportunity and security."
       ],
-      "question": null,
+      "question": "[가]~[라] 문단의 순서 중 가장 적절한 것을 고르시오. [4점]",
       "choices": [
         {
           "label": "①",
-          "text": ""
+          "text": "[가]-[나]-[라]-[다]"
         },
         {
           "label": "②",
-          "text": ""
+          "text": "[나]-[가]-[라]-[다]"
         },
         {
           "label": "③",
-          "text": ""
+          "text": "[나]-[다]-[가]-[라]"
         },
         {
           "label": "④",
-          "text": ""
+          "text": "[다]-[가]-[나]-[라]"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. Democracy’s global momentum peaked soon after the end of the Cold War. For the first time in history, systems in which people could choose and replace their leaders in free and fair elections became the (A) __________ form of government. By 2006, about three-fifths of all countries met this standard. 2025.\nPASSAGE_SENTENCES:\n1. [가]~[라] 문단의 순서 중 가장 적절한 것을 고르시오.\n2. [4점] ➀ [가]–[나]–[라]–[다] ➁ [나]–[가]–[라]–[다] ➂ [나]–[다]–[가]–[라] ➃ [다]–[가]–[나]–[라] [27-28] 아래 지문을 읽고 문제에 답하시오.\n3. NASA’s Parker Solar Probe is a groundbreaking mission to dive into the sun’s atmosphere, enduring extreme heat and radiation to give humanity its first-ever close-up (A) __________ of a star’s outer layers.\n4. Launched in 2018, the spacecraft is equipped with cutting-edge thermal engineering and instruments to study the sun’s magnetic fields, plasma, energetic particles, and the solar wind.\n5. The Parker Solar Probe’s discoveries have already transformed our understanding of the sun and its influence on Earth.\n6. By answering long-standing questions —such as why the corona is hotter than the sun’s surface and how solar wind accelerates—it provides critical data for predicting space weather.\n7. These insights protect satellites, power grids, and astronauts from solar radiation.\n8. On December 24, 2024, Parker completed its closest-ever approach to the sun, passing just 3.8 million miles from its surface at a record-breaking speed of 430,000 miles per hour.\n9. The latest flyby marks the spacecraft’s 23rd close flyby and brings it deeper into the corona than ever before.\n10. When data is returned, it will provide unprecedented details of the sun’s behavior during its 11-year solar maximum.\n11. NASA confirmed the probe’s health on December 27, 2024, when a beacon tone signaled its successful navigation through the sun’s outer atmosphere.\n12. It will continue its highly elliptical orbit, making two more close passes of the sun in March and June 2025.\n13. After completing its primary mission in June 2025, the probe will remain in orbit to conduct additional observations until its onboard fuel runs out.\n14. Without corrective thrusts, the solar wind will gradually push the spacecraft out of alignment with Earth, ending its ability to transmit data.\n15. When its mission concludes, nearly all of the probe will incinerate, leaving only its carbon heat shield to orbit the sun for potentially billions of years, until the very end of the solar system itself.\nCHOICES:\n①\n②\n③\n④"
+      ]
     },
     {
       "number": 27,
@@ -764,10 +920,9 @@
         },
         {
           "label": "④",
-          "text": "forecasting 2025. 1. 15. (수) 10:00 ~ 11:00"
+          "text": "forecasting"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. NASA’s Parker Solar Probe is a groundbreaking mission to dive into the sun’s atmosphere, enduring extreme heat and radiation to give humanity its first-ever close-up (A) __________ of a star’s outer layers. Launched in 2018, the spacecraft is equipped with cutting-edge thermal engineering and instruments to study the sun’s magnetic fields, plasma, energetic particles, and the solar wind. The Parker Solar Probe’s discoveries have already transformed our understanding of the sun and its influence on Earth. By answering long-standing questions —such as why the corona is hotter than the sun’s surface and how solar wind accelerates—it provides critical data for predicting space weather. These insights protect satellites, power grids, and astronauts from solar radiation. On December 24, 2024, Parker completed its closest-ever approach to the sun, passing just 3.8 million miles from its surface at a record-breaking speed of 430,000 miles per hour. The latest flyby marks the spacecraft’s 23rd close flyby and brings it deeper into the corona than ever before. When data is returned, it will provide unprecedented details of the sun’s behavior during its 11-year solar maximum. NASA confirmed the probe’s health on December 27, 2024, when a beacon tone signaled its successful navigation through the sun’s outer atmosphere. It will continue its highly elliptical orbit, making two more close passes of the sun in March and June 2025. After completing its primary mission in June 2025, the probe will remain in orbit to conduct additional observations until its onboard fuel runs out. Without corrective thrusts, the solar wind will gradually push the spacecraft out of alignment with Earth, ending its ability to transmit data. When its mission concludes, nearly all of the probe will incinerate, leaving only its carbon heat shield to orbit the sun for potentially billions of years, until the very end of the solar system itself.\nPASSAGE_SENTENCES:\n1. (A)에 들어갈 가장 적절한 것을 고르시오.\n2. [3점]\nCHOICES:\n① broadcasting\n② sampling\n③ networking\n④ forecasting 2025. 1. 15. (수) 10:00 ~ 11:00"
+      ]
     },
     {
       "number": 28,
@@ -789,40 +944,72 @@
         },
         {
           "label": "④",
-          "text": "The Parker Solar Probe has provided data covering the entire period of the solar maximum. [29-30] 아래 지문을 읽고 문제에 답하시오. [가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains. Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits. Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits. [나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact. But can language develop normally with general intelligence impaired? If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability. The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists. [다] There are cases of children who had difficulties in acquiring language or are much slower than the average child. These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems. They are said to be suffering from Specific Language Impairment. [라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others. One has been reported about a severely retarded child, named Laura. She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units. Yet, she produces syntactically complex sentences. She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development. Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________."
+          "text": "The Parker Solar Probe has provided data covering the entire period of the solar maximum."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. NASA’s Parker Solar Probe is a groundbreaking mission to dive into the sun’s atmosphere, enduring extreme heat and radiation to give humanity its first-ever close-up (A) __________ of a star’s outer layers. Launched in 2018, the spacecraft is equipped with cutting-edge thermal engineering and instruments to study the sun’s magnetic fields, plasma, energetic particles, and the solar wind. The Parker Solar Probe’s discoveries have already transformed our understanding of the sun and its influence on Earth. By answering long-standing questions —such as why the corona is hotter than the sun’s surface and how solar wind accelerates—it provides critical data for predicting space weather. These insights protect satellites, power grids, and astronauts from solar radiation. On December 24, 2024, Parker completed its closest-ever approach to the sun, passing just 3.8 million miles from its surface at a record-breaking speed of 430,000 miles per hour. The latest flyby marks the spacecraft’s 23rd close flyby and brings it deeper into the corona than ever before. When data is returned, it will provide unprecedented details of the sun’s behavior during its 11-year solar maximum. NASA confirmed the probe’s health on December 27, 2024, when a beacon tone signaled its successful navigation through the sun’s outer atmosphere. It will continue its highly elliptical orbit, making two more close passes of the sun in March and June 2025. After completing its primary mission in June 2025, the probe will remain in orbit to conduct additional observations until its onboard fuel runs out. Without corrective thrusts, the solar wind will gradually push the spacecraft out of alignment with Earth, ending its ability to transmit data. When its mission concludes, nearly all of the probe will incinerate, leaving only its carbon heat shield to orbit the sun for potentially billions of years, until the very end of the solar system itself.\nPASSAGE_SENTENCES:\n1. 윗글의 내용과 일치하는 것을 고르시오.\n2. [4점]\nCHOICES:\n① The Parker Solar Probe is scheduled to return to Earth when it completes its task.\n② The Parker Solar Probe will have made 23 close passes of the sun by June 2025.\n③ The Parker Solar Probe will be mostly burnt up after finishing its duty.\n④ The Parker Solar Probe has provided data covering the entire period of the solar maximum. [29-30] 아래 지문을 읽고 문제에 답하시오. [가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains. Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits. Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits. [나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact. But can language develop normally with general intelligence impaired? If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability. The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists. [다] There are cases of children who had difficulties in acquiring language or are much slower than the average child. These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems. They are said to be suffering from Specific Language Impairment. [라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others. One has been reported about a severely retarded child, named Laura. She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units. Yet, she produces syntactically complex sentences. She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development. Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________."
+      ]
     },
     {
       "number": 29,
-      "instruction": "아래 지문을 읽고 문제에 답하시오. [가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains. Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits. Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits. [나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact. But can language develop normally with general intelligence impaired? If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability. The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists. [다] There are cases of children who had difficulties in acquiring language or are much slower than the average child. These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems. They are said to be suffering from Specific Language Impairment. [라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others. One has been reported about a severely retarded child, named Laura. She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units. Yet, she produces syntactically complex sentences. She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development. Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________.",
-      "passage_sentences": [],
+      "instruction": "아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [
+        "[가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains.",
+        "Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits.",
+        "Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits.",
+        "[나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact.",
+        "But can language develop normally with general intelligence impaired?",
+        "If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability.",
+        "The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists.",
+        "[다] There are cases of children who had difficulties in acquiring language or are much slower than the average child.",
+        "These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems.",
+        "They are said to be suffering from Specific Language Impairment.",
+        "[라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others.",
+        "One has been reported about a severely retarded child, named Laura.",
+        "She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units.",
+        "Yet, she produces syntactically complex sentences.",
+        "She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development.",
+        "Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________."
+      ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "[다]–[가]–[나]–[라]"
+          "text": "[다]-[가]-[나]-[라]"
         },
         {
           "label": "②",
-          "text": "[나]–[다]–[가]–[라]"
+          "text": "[나]-[다]-[가]-[라]"
         },
         {
           "label": "③",
-          "text": "[가]–[라]–[다]–[나]"
+          "text": "[가]-[라]-[다]-[나]"
         },
         {
           "label": "④",
-          "text": "[다]–[나]–[라]–[가]"
+          "text": "[다]-[나]-[라]-[가]"
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. [가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains. Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits. Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits. [나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact. But can language develop normally with general intelligence impaired? If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability. The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists. [다] There are cases of children who had difficulties in acquiring language or are much slower than the average child. These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems. They are said to be suffering from Specific Language Impairment. [라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others. One has been reported about a severely retarded child, named Laura. She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units. Yet, she produces syntactically complex sentences. She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development. Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________.\nPASSAGE_SENTENCES:\n1. [가]~[라] 문단의 순서 중 가장 적절한 것을 고르시오.\n2. [4점]\nCHOICES:\n① [다]–[가]–[나]–[라]\n② [나]–[다]–[가]–[라]\n③ [가]–[라]–[다]–[나]\n④ [다]–[나]–[라]–[가]"
+      ]
     },
     {
       "number": 30,
-      "instruction": "아래 지문을 읽고 문제에 답하시오. [가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains. Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits. Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits. [나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact. But can language develop normally with general intelligence impaired? If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability. The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists. [다] There are cases of children who had difficulties in acquiring language or are much slower than the average child. These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems. They are said to be suffering from Specific Language Impairment. [라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others. One has been reported about a severely retarded child, named Laura. She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units. Yet, she produces syntactically complex sentences. She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development. Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________.",
-      "passage_sentences": [],
+      "instruction": "아래 지문을 읽고 문제에 답하시오.",
+      "passage_sentences": [
+        "[가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains.",
+        "Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits.",
+        "Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits.",
+        "[나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact.",
+        "But can language develop normally with general intelligence impaired?",
+        "If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability.",
+        "The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists.",
+        "[다] There are cases of children who had difficulties in acquiring language or are much slower than the average child.",
+        "These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems.",
+        "They are said to be suffering from Specific Language Impairment.",
+        "[라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others.",
+        "One has been reported about a severely retarded child, named Laura.",
+        "She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units.",
+        "Yet, she produces syntactically complex sentences.",
+        "She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development.",
+        "Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________."
+      ],
       "question": null,
       "choices": [
         {
@@ -839,10 +1026,10 @@
         },
         {
           "label": "④",
-          "text": "language ability as a derivative result of universal cognitive perception. 수고하셨습니다. 2025. 1. 15. (수) 10:00 ~ 11:00"
+          "text": "language ability as a derivative result of universal cognitive perception."
         }
-      ],
-      "raw_text": "INSTRUCTION: 아래 지문을 읽고 문제에 답하시오. [가] Studies of genetic disorders also reveal that one cognitive domain can develop normally simultaneous with abnormal development in other domains. Children with Turner’s syndrome (a chromosomal anomaly) reveal normal or advanced language simultaneous with serious nonlinguistic cognitive deficits. Similarly, the studies of the language development in children with Williams syndrome reveal a unique behavioral profile in which there appears to be a selective preservation of linguistic functions in the face of severe general cognitive deficits. [나] As children with Specific Language Impairment show, language may be impaired with general intelligence intact. But can language develop normally with general intelligence impaired? If such individuals can be found, it argues strongly for the view that language does not derive from some general cognitive ability. The question as to whether the language faculty from birth is domain specific—is in our genes—or whether it is derivative of more general intelligence is a controversial question receiving much attention and debate among linguists, psychologists, and neuropsychologists. [다] There are cases of children who had difficulties in acquiring language or are much slower than the average child. These children show no other cognitive deficits; they are not autistic or retarded and have no perceptual problems. They are said to be suffering from Specific Language Impairment. [라] The psychological literature documents numerous cases of intellectually handicapped individuals who, despite their disabilities in certain spheres, show remarkable talents in others. One has been reported about a severely retarded child, named Laura. She lacks almost all number concepts including basic principles, can draw only at a preschool level, and has an auditory memory span limited to three units. Yet, she produces syntactically complex sentences. She is one of many examples of children who display well-developed linguistic abilities and severe deficits in nonlinguistic cognitive development. Thus, evidence from Specific Language Impairment and other genetic disorders, along with the asymmetry of abilities, supports the view of (A) __________________________.\nPASSAGE_SENTENCES:\n1. (A)에 들어갈 내용으로 가장 적절한 것을 고르시오.\n2. [4점]\nCHOICES:\n① language ability as an independent brain module.\n② language as a reflection of general intelligence.\n③ language as a mixture of domain-specific and general cognitive abilities.\n④ language ability as a derivative result of universal cognitive perception. 수고하셨습니다. 2025. 1. 15. (수) 10:00 ~ 11:00"
+      ]
     }
-  ]
+  ],
+  "source_pdf": "서울_25_영어.pdf"
 }

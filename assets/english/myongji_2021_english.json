@@ -3,15 +3,13 @@
   "institution_ko": "명지대",
   "year": 2021,
   "exam_kind": "english",
-  "source_text_file": "myongji_2021_english_extracted_complete.txt",
   "question_count": 30,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
@@ -38,8 +36,7 @@
           "label": "④",
           "text": "scrawny"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. A ragtag lot of raw recruits are transformed into an effective fighting machine.\nCHOICES:\n① motley\n② sinister\n③ moody\n④ scrawny"
+      ]
     },
     {
       "number": 2,
@@ -65,8 +62,7 @@
           "label": "④",
           "text": "credulity"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. They took advantage of the gullibility of the tourists.\nCHOICES:\n① creativity\n② creditability\n③ credibility\n④ credulity"
+      ]
     },
     {
       "number": 3,
@@ -92,8 +88,7 @@
           "label": "④",
           "text": "unnecessarily"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. He’s misleading us by gratuitously flouting the basic rules of communication.\nCHOICES:\n① unexpectedly\n② unconsciously\n③ unerringly\n④ unnecessarily"
+      ]
     },
     {
       "number": 4,
@@ -119,8 +114,7 @@
           "label": "④",
           "text": "cornered"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Larry became a self-made millionaire when he ______________ the market on raw materials during the war.\nCHOICES:\n① hampered\n② wandered\n③ bartered\n④ cornered"
+      ]
     },
     {
       "number": 5,
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "volatility"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. A person with ______________ tends to feel unmotivated or have an indifferent attitude toward his or her daily activities.\nCHOICES:\n① lethargy\n② nausea\n③ zest\n④ volatility"
+      ]
     },
     {
       "number": 6,
@@ -176,8 +169,7 @@
           "label": "④",
           "text": "one that is unfortunately based on"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. It is said to have taken Leonardo da Vinci over four long years to complete his most famous painting known as the Mona Lisa—long enough for his then patron, Francesco del Giocondo, to get impatient.\n2. Giocondo has commissioned the portrait of his third wife, Lisa, but enough was enough.\n3. Giocondo eventually refused to pay for the unfinished portrait, and Leonardo opted to sell it to the king of France instead.\n4. This is the traditional tale—but one that is unfortunately based on sparse evidence.\nCHOICES:\n① to have taken Leonardo da Vinci\n② has commissioned the portrait of his\n③ opted to sell it to the\n④ one that is unfortunately based on"
+      ]
     },
     {
       "number": 7,
@@ -207,8 +199,7 @@
           "label": "④",
           "text": "coming years"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. It was not until the end of the sixteenth century the pocket as we know it today came into fashion.\n2. Before that time, men used to carry their keys and money in pieces of cloth attached to their clothing.\n3. The first pocket was an open-side seam of which men placed their pouch filled with personal carry items.\n4. As time passed, the pocket was to become a permanent part of the trousers.\n5. Variations such as hip and patch pockets were introduced in the coming years.\nCHOICES:\n① to carry their keys and money\n② of which men placed their pouch\n③ was to become a permanent part\n④ coming years"
+      ]
     },
     {
       "number": 8,
@@ -238,8 +229,7 @@
           "label": "④",
           "text": "of moving more goods quickly and"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Industry demands the ease of movement of ideas and goods: raw materials need to get to the factory, finished merchandise must be distributed, and fuel has to be delivered to factories to fire their furnaces.\n2. Before the rise of industry, river boats and horse-drawn carriages along muddy roads sufficed for local trade.\n3. Entrepreneurs and budding industrialists created canals to tame existing rivers and channeling new routes for the inland movement of bulk goods.\n4. In Britain, canal construction soared, and in turn, created pockets of industry along its path.\n5. Canal boats were capable of moving more goods quickly and smoothly compared to any previous system that relied on the horse and cart.\nCHOICES:\n① has to be delivered to factories\n② sufficed for local trade\n③ and channeling new routes for the\n④ of moving more goods quickly and"
+      ]
     },
     {
       "number": 9,
@@ -268,8 +258,7 @@
           "label": "④",
           "text": "some of the innovative play behavior"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Many wild delphinids regularly interact with birds in a playful manner.\n2. For example, after foraging on anchovy schools off the coast of Argentina, some dusky dolphins (Lagenorhynchus obscurus) have seen carefully grabbing the dangling legs of unsuspecting gulls, quickly surging underwater, and then releasing the gulls, effectively dunking the birds.\n3. The dolphins are very gentle in their grasp, never causing any harm, and simply appear to be having a little fun with their feathered counterparts.\n4. As yet unreported elsewhere, this gull-dunking game resembles some of the innovative play behavior of captive delphinids.\nCHOICES:\n① have seen carefully grabbing the dangling\n② then releasing the gulls\n③ be having a little fun with\n④ some of the innovative play behavior"
+      ]
     },
     {
       "number": 10,
@@ -299,8 +288,7 @@
           "label": "④",
           "text": "provided by victims and witnesses in"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Profiling, or criminal investigative analysis, as it be called by the FBI, involves the investigation of a crime with the hope of identifying the responsible party, based on crime scene analysis, investigative psychology and behavioral science.\n2. Criminal profiling is a cross between law enforcement and forensic psychology.\n3. Although it has been around for several decades, it is still a relatively new field with few set boundaries or definitions.\n4. Moreover, practitioners of criminal profiling do not always agree on methodology or even terminology or definitions.\n5. Despite their disagreements, however, practitioners of profiling all share a common goal of analyzing evidence gathered at a crime scene and statements provided by victims and witnesses in order to develop a description of an unknown offender.\nCHOICES:\n① it be called by the FBI\n② has been around for several decades\n③ Despite their disagreements\n④ provided by victims and witnesses in"
+      ]
     },
     {
       "number": 11,
@@ -331,8 +319,7 @@
           "label": "④",
           "text": "Many biographies were tailored to highlight Mozart as a universal musician."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following best describes the main idea of the passage?\nPASSAGE_SENTENCES:\n1. The debate regarding Mozart’s sense of national identity, and by implication his political outlook, can be traced back to the nineteenth century.\n2. On the one side were those who viewed Mozart as the cosmopolitan composer par excellence.\n3. Friedrich Nietzsche made such claims in his essay Jenseits von Gut and Böse (1886), contrasting the narrow nationalist outlook of Robert Schumann (‘merely a German event’) with the open-minded Mozart (‘the last echo of a great European taste which had existed for centuries’).\n4. This interpretation of German music history would hardly have been deemed controversial since it was backed up by solid biographical evidence.\n5. Fluent in German, French and Italian, and responsive to different musical traditions, Mozart seems to have transcended the limitations of national boundaries.\n6. Furthermore, Mozart’s music attained a similar degree of popularity in England and France as in Germany and Austria, and his universal appeal can also be demonstrated by the substantial number of biographies of the composer that were published in almost every major European language throughout the nineteenth century and beyond.\nQUESTION:\nWhich of the following best describes the main idea of the passage?\nCHOICES:\n① Mozart’s political views gave rise to his fame as a musician of dual nature.\n② Evidence supports Nietzsche’s notion of Mozart as a cosmopolitan composer.\n③ Mozart was a staunch German nationalist, in line with claims by Schumann.\n④ Many biographies were tailored to highlight Mozart as a universal musician."
+      ]
     },
     {
       "number": 12,
@@ -363,8 +350,7 @@
           "label": "④",
           "text": "From Street to Screen to Street Again: The History of Breakdance"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best title for the following passage.\nPASSAGE_SENTENCES:\n1. The popular history of hip-hop culture positions breakdance or b-boying as the founding stylistic pastime of the urban dance movement; an improvised form of physical graffiti that incorporates footwork, floor work, and end poses known as freezes.\n2. The dance itself was a physical manifestation of the hip-hop sound, and was performed in a circle in the break of the music.\n3. It incorporated top rock, a rhythmic stepping pattern that allowed the dancer to enter the circle and find the beat of the music, and floor work that included six steps (a series of six fast steps performed low to the ground) leading to power moves that incorporated improvised acrobatics, spins, and flips and ended in a freeze.\n4. In October 1982, the Rock Steady Crew, a famous U.S. East Coast b-boy group, appeared in the film Flashdance (1983), thus fueling the transnational spread of breakdance and other dance styles that sit under the banner of hip-hop, including West Coast funk dance styles and Chicago house dance.\n5. Young people across the globe began to copy the iconic and athletic shapes of the dancers.\nQUESTION:\nChoose the best title for the following passage.\nCHOICES:\n① Hip-hop Music and Dance: Their Origins and Variations\n② Popularity and Visibility of Hip-hop Music and B-boying\n③ New Hip-hop Dance Styles Gain New Audiences in the U.S.\n④ From Street to Screen to Street Again: The History of Breakdance"
+      ]
     },
     {
       "number": 13,
@@ -398,8 +384,7 @@
           "label": "④",
           "text": ") It’s precisely this forcing of decisions that takes its toll on our creative and productive solutions, making them, at best, poorly executed."
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best place for the sentence given in the box.\nPASSAGE_SENTENCES:\n1. As human beings, we have the ability to override being overloaded and force ourselves to make decisions.\n2. In general, our minds work best when focused completely on the task at hand.\n3. Indeed, we have a natural mechanism in our brains for suppressing irrelevant information.\n4. Nonetheless, this ability has its limits.\n5. Dubbed ‘working memory’ by scientists, our capacity for processing information necessary to make immediate decisions can easily become overloaded.\n6. When that happens, our mental powers become impaired.\n7. We make more mistakes and lose our abilities to be as creative, innovative or productive.\n8. Research suggests even answering a text message can break our concentration for up to 40 minutes.\n9. (\nQUESTION:\nChoose the best place for the sentence given in the box.\nCHOICES:\n① ) Like a laptop with too many windows open, our ability to perform on any one task becomes impaired when a new mental task (window) is opened. (\n② ) Unlike our laptops, however, our brains don't simply ‘hang’ when overloaded until windows can be closed or commands executed. (\n③ ) But again, that's not necessarily a good thing. (\n④ ) It’s precisely this forcing of decisions that takes its toll on our creative and productive solutions, making them, at best, poorly executed."
+      ]
     },
     {
       "number": 14,
@@ -433,8 +418,7 @@
           "label": "④",
           "text": "[C]-[A]-[B]"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best order after the sentences in the box.\nPASSAGE_SENTENCES:\n1. Despite the importance of law in society, its manifestation in the form of general codes first appears only around 3000 B.C.E. Prior to the advent of writing, laws exist only in the form of custom.\n2. And the absence of written law retards the capacity of these rules to provide lasting or extensive application.\n3. [A] Engraved on a black stone slab (that may be seen in the Louvre in Paris), the code contains some 300 sections with rules relating to a broad array of activities ranging from the punishment that is to be inflicted on a false witness (death) to that to be meted out to a builder whose house collapses killing the owner (death).\n4. [B] Among the first written codes is that of Hammurabi, king and creator of the Babylonian empire.\n5. It appeared in about 1760 B.C.E, and is one of the earliest instances of a ruler proclaiming a systematic corpus of law to his people so that they are able to know their rights and duties.\n6. [C] The code is almost entirely devoid of defences or excuses, a very early example of strict liability!\n7. The king was, in fact, acknowledging the existence of even earlier laws, which his code implies.\n8. In truth, therefore, the code echoes customs that preceded the reign of this ancient monarch.\nQUESTION:\nChoose the best order after the sentences in the box.\nCHOICES:\n① [A]-[C]-[B]\n② [B]-[A]-[C]\n③ [B]-[C]-[A]\n④ [C]-[A]-[B]"
+      ]
     },
     {
       "number": 15,
@@ -444,7 +428,7 @@
         "Pixar, the new studio behind the movie, convinced movie-goers of CGI’s possibilities without relying solely on its technological novelty.",
         "Indeed, much of the movie’s appeal derives from its highly original characters and its plot—a simple yet heart-warming buddy story with plenty of excellent gags.",
         "To appeal to the newer generation of theatergoers, Pixar chose not to seek inspiration in fairy tales and legends—the staples of Disney animated movies.",
-        "In fact, the chungang conflict in Toy Story is about old versus new.",
+        "In fact, the central conflict in Toy Story is about old versus new.",
         "A boy, Andy, discards his favorite toy, Woody, a cowboy of the Old West, when given a Buzz Lightyear, a futuristic space-ranger toy.",
         "Critics have suggested that Woody’s difficulty in accepting the new toy, with its gadgets and laser, and his grouchy attitude mirror audience fears about CGI excess replacing much-loved classic animation.",
         "The film shows Woody can coexist with Buzz.",
@@ -468,8 +452,7 @@
           "label": "④",
           "text": "when the producers of Toy Story first came up with the storyline for the movie"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is mentioned in the passage.\nPASSAGE_SENTENCES:\n1. Toy Story is a landmark movie: it was the first full-length film to use entirely computer-generated imagery (CGI) instead of traditional hand-drawn animation.\n2. Pixar, the new studio behind the movie, convinced movie-goers of CGI’s possibilities without relying solely on its technological novelty.\n3. Indeed, much of the movie’s appeal derives from its highly original characters and its plot—a simple yet heart-warming buddy story with plenty of excellent gags.\n4. To appeal to the newer generation of theatergoers, Pixar chose not to seek inspiration in fairy tales and legends—the staples of Disney animated movies.\n5. In fact, the chungang conflict in Toy Story is about old versus new.\n6. A boy, Andy, discards his favorite toy, Woody, a cowboy of the Old West, when given a Buzz Lightyear, a futuristic space-ranger toy.\n7. Critics have suggested that Woody’s difficulty in accepting the new toy, with its gadgets and laser, and his grouchy attitude mirror audience fears about CGI excess replacing much-loved classic animation.\n8. The film shows Woody can coexist with Buzz.\n9. There is a place for nostalgia alongside progress, particularly when it comes in a package as good as Toy Story.\nQUESTION:\nChoose the one that is mentioned in the passage.\nCHOICES:\n① how in the story the conflict between the old and the new is ultimately resolved\n② what similarities Toy Story shares with traditional hand-drawn animation\n③ why Pixar elected to forgo Disney's proven source for story materials\n④ when the producers of Toy Story first came up with the storyline for the movie"
+      ]
     },
     {
       "number": 16,
@@ -506,8 +489,7 @@
           "label": "④",
           "text": "with whom Dailey ran his new delivery service"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is not mentioned in the passage.\nPASSAGE_SENTENCES:\n1. In mid-March, terrified of catching COVID-19, Phyllis Ross, 88, asked her newspaper deliveryman if he’d throw the paper closer to her home.\n2. Greg Dailey was happy to oblige.\n3. Days later, Ross’s predicament was still on Dailey’s mind.\n4. If Ross couldn’t make it to the sidewalk, how could she possibly buy food?\n5. So he called to ask: Did she need anything from the grocery store?\n6. Ross jumped at the chance—and asked if he wouldn’t mind also getting food for her neighbor.\n7. The request inspired Dailey to think of a new delivery service.\n8. The following Saturday, he left a note in the newspapers for all 800 houses on his route, offering to drop off goods to anyone in need—free of charge.\n9. He hadn’t even made it home before the calls started rolling in.\n10. Initially overwhelmed, Dailey quickly got to work with the help of his family.\n11. They were soon spending 12 hours a day delivering food to senior citizens in need.\n12. The family has since supplied more than 140 homes and conducted more than 1,000 grocery runs in the Mercer County area—and they’re still going.\nQUESTION:\nChoose the one that is not mentioned in the passage.\nCHOICES:\n① how many houses Dailey delivered the newspapers to\n② where Dailey got the idea of starting his new service\n③ the number of delivery orders Dailey received daily\n④ with whom Dailey ran his new delivery service"
+      ]
     },
     {
       "number": 17,
@@ -540,8 +522,7 @@
           "label": "④",
           "text": "One of his shortcomings was lack of variety in art form."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is true about Keith Haring according to the passage?\nPASSAGE_SENTENCES:\n1. The particular fascination of Keith Haring’s art lies in his ability to combine his strongly graphic style with a great deal of imagination.\n2. His figures and forms are subject to continuous transformations and new creations, providing ongoing proof of his qualities as a draftsman, painter and sculptor.\n3. Within his oeuvre, we witness a steady stylistic evolution.\n4. His constant search for new challenges is accompanied by experimentation with changing surfaces on which to paint.\n5. No matter whether he chooses to paint on walls, items of clothing, automobiles or airships and most of all on paper, canvas, untreated cotton or vinyl, Haring’s hallmark is perfection of execution.\n6. Neither for his formally planned projects nor for his spontaneous mural designs are his lines based on sketches or studies.\n7. We can discern no errors or corrections, no asymmetries of proportion.\n8. Spontaneity and assurance are the outstanding attributes of his work.\nQUESTION:\nWhich of the following is true about Keith Haring according to the passage?\nCHOICES:\n① He does his works without the benefit of prior planning.\n② Figures and forms remain constant throughout his works.\n③ His paintings on cars reveal flaws in his execution style.\n④ One of his shortcomings was lack of variety in art form."
+      ]
     },
     {
       "number": 18,
@@ -577,8 +558,7 @@
           "label": "④",
           "text": "The consular arrangement did not always yield positive outcomes."
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is not true according to the passage.\nPASSAGE_SENTENCES:\n1. Rome owed its success to its traditions, which combined to create a distinctly Roman identity.\n2. Among these was the determination never to be ruled by kings.\n3. Even during the empire, the forms of old Roman government were preserved.\n4. The standards carried by Roman legions did not carry the emperor’s name, but the letters SPQR, which stood for “for the senate and people of Rome.” Family was considered to lie at the very heart of Roman life, and the names of eminent families recur over the centuries in Roman history.\n5. It was very important for a man to gain success in war or civil life in order to add to the prestige of his family.\n6. Another Roman characteristic was the way the city was unyielding toward its foes.\n7. Many enemies of Rome beat the Romans in a battle, but few were able to defeat them in a war.\n8. Finally, the Roman system of government allowed ambitious men to succeed.\n9. The consular system, in which two consuls served in partnership for a year, encouraged each consul to do what he could to make a success of his year in office.\n10. This arrangement often led to foolhardy mistakes, but it also contributed to great successes.\n11. In spite of attempts by senators to protect their position, the Roman system eventually allowed wider groups of people to participate in government.\nQUESTION:\nChoose the one that is not true according to the passage.\nCHOICES:\n① Romans were tenacious in fending off aggression from abroad.\n② Rome favored monarchy over any other form of governance.\n③ Familial fidelity marked an important facet of the Roman psyche.\n④ The consular arrangement did not always yield positive outcomes."
+      ]
     },
     {
       "number": 19,
@@ -612,8 +592,7 @@
           "label": "④",
           "text": "Will science ever reveal why dinosaurs went extinct"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. ____________________________________________________________?\n2. It's doubtful.\n3. Tyrannosaurus rex lived in the Cretaceous Period, which ended 66 million years ago.\n4. The average global temperature at the time was about 4°C higher than today, with much less difference between the temperature at the equator and the poles.\n5. The sea temperature averaged 37°C, so even tropical seas today would be too cold for marine life of the time.\n6. But land dinosaurs would be quite comfortable with the climate of tropical parts of the world today.\n7. This is, until they all died of altitude sickness.\n8. Studies of air bubbles trapped in amber show that the atmosphere of the Cretaceous may have had up to 35 percent oxygen, compared to today's 2 percent.\n9. In such thin air, dinosaurs would be too breathless to chase hapless tourists.\nCHOICES:\n① Did evolution prove to be dinosaur's greatest undoing\n② Could dinosaurs survive in today's climate conditions\n③ Is there a correlation between atmosphere and early dinosaur life\n④ Will science ever reveal why dinosaurs went extinct"
+      ]
     },
     {
       "number": 20,
@@ -645,8 +624,7 @@
           "label": "④",
           "text": "the peppered moth larvae with unobstructed vision"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Peppered moths are masters of camouflage.\n2. In the larval stage, they can change the color of their skin to blend into their settings—even without seeing those surroundings, a new study found.\n3. After raising more than 300 peppered moth larvae, U.K. researchers obscured the vision of some with black paint (which the larvae later shed, unharmed).\n4. The larvae were placed in boxes containing white, green, brown, or black sticks, and given time to adapt.\n5. When the researchers opened the boxes, they found that __________________________________ had changed their body colors to match the sticks in the box.\n6. The researchers then moved the caterpillars into new boxes containing sticks of two different colors, and about 80 percent of the insects chose to rest on sticks that matched their body color.\n7. The researchers say their findings provide strong evidence that peppered moth larvae are capable of dermal photoreception—seeing with their skin.\nCHOICES:\n① a minuscule portion of the moth larvae\n② only those larvae with their vision blocked\n③ nearly all the caterpillars, with or without vision,\n④ the peppered moth larvae with unobstructed vision"
+      ]
     },
     {
       "number": 21,
@@ -676,8 +654,7 @@
           "label": "④",
           "text": "concert with palatable bean dishes"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. A number of cultures have traditions of people traveling to places specifically to eat the food produced there.\n2. Northern Spain, for example, is famous for the varieties of beans associated with each village, and knowledgeable eaters travel to restaurants in those regions serving specialty dishes made from those beans.\n3. Consumers insist that the beans taste differently if transported elsewhere, and that a full appreciation of them requires consuming them in situ, in the place they are grown.\n4. Wine, similarly, has attracted consumers who want to sample the wine in ______________________________.\n5. Such travels can perhaps more accurately be called food pilgrimages since they include an element of seeking the authentic as an almost sacred quest for knowledge and personal transformation.\nCHOICES:\n① all its colorful variations\n② an exotic culinary setting\n③ its place of origin and production\n④ concert with palatable bean dishes"
+      ]
     },
     {
       "number": 22,
@@ -710,8 +687,7 @@
           "label": "④",
           "text": "embarks you on a new, exciting adventure"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. It is so easy to overestimate the importance of one defining moment and underestimate the value of making small improvements on a daily basis.\n2. Too often, we convince ourselves that massive success requires massive action.\n3. Whether it is losing weight, building a business, writing a book, winning a championship, or achieving any other goal, we put pressure on ourselves to make some earth-shattering improvement that everyone will talk about.\n4. Meanwhile, improving by 1 percent isn’t particularly notable—sometimes it isn’t even noticeable—but it can be far more meaningful, especially in the long run.\n5. The difference a tiny improvement can make over time is astounding.\n6. Here’s how the math works out: if you can get 1 percent better each day for one year, you’ll end up thirty-seven times better by the time you’re done.\n7. Conversely, if you get 1 percent worse each day for one year, you’ll decline nearly down to zero.\n8. What starts as a small win or a minor setback ______________________________.\nCHOICES:\n① develops into a bigger problem\n② will eventually result in trivial changes\n③ accumulates into something much more\n④ embarks you on a new, exciting adventure"
+      ]
     },
     {
       "number": 23,
@@ -742,8 +718,7 @@
           "label": "④",
           "text": "the self-powered propellants"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The origins of gunpowder are obscure, but it is believed to have been invented in China in about 900 C.E.\n2. By 1150 the Chinese were using the volatile substance to power small rockets and as the chief ingredient to make firecrackers pop.\n3. It was still something of a toy until the early thirteenth century, when the threat of Mongol invasion inspired a Chinese effort to come up with some sort of weapon that would decimate the hordes of Mongol cavalry.\n4. There is no record of who made the next critical step, turning gunpowder’s power into a propellant for an antipersonnel weapon.\n5. The Mongols soon learned the power of that new terror weapon, tubes of bamboo or iron mounted on the shafts of lances, which contained a mix of gunpowder and stones, lead pellets, and pottery fragments.\n6. When a Chinese soldier touched a match to the gunpowder, spewed their ammunition forward in a scatter pattern, an arc of shrapnel that terrorized the Mongol horsemen.\nCHOICES:\n① the world’s first guns\n② the Mongolian cannon barrels\n③ the firecracker igniters\n④ the self-powered propellants"
+      ]
     },
     {
       "number": 24,
@@ -756,7 +731,7 @@
         "Of these three trembling cities the greatest is the last─the city of final destination, the city that is a goal.",
         "It is this third city that accounts for New York’s high-strung dispositions, its poetical deportment, its dedication to the arts, and its incomparable achievements.",
         "Commuters give the city its tidal restlessness, natives give it solidity and continuity, but the settlers give it passion.",
-        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each ."
+        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each."
       ],
       "question": "Choose the best title for this passage.",
       "choices": [
@@ -776,8 +751,7 @@
           "label": "④",
           "text": "Dualities of New York Found in Every Corner"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. There are roughly three New Yorks.\n2. There is, first, the New York of the man and woman who was born here, who takes the city for granted and accepts its size and its turbulence as natural and inevitable.\n3. Second, there is the New York of the commuter─ the city that is devoured by locusts each day and spat out each night.\n4. Third, there is the New York of the person who was born somewhere else and came to New York in quest of something.\n5. Of these three trembling cities the greatest is the last─the city of final destination, the city that is a goal.\n6. It is this third city that accounts for New York’s high-strung dispositions, its poetical deportment, its dedication to the arts, and its incomparable achievements.\n7. Commuters give the city its tidal restlessness, natives give it solidity and continuity, but the settlers give it passion.\n8. And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each .\nQUESTION:\nChoose the best title for this passage.\nCHOICES:\n① Three New Yorks Ultimately Boil Down to One\n② New York Is Indeed a Melting Pot of America\n③ Newcomers as Prominent Shapers of New York\n④ Dualities of New York Found in Every Corner"
+      ]
     },
     {
       "number": 25,
@@ -790,7 +764,7 @@
         "Of these three trembling cities the greatest is the last─the city of final destination, the city that is a goal.",
         "It is this third city that accounts for New York’s high-strung dispositions, its poetical deportment, its dedication to the arts, and its incomparable achievements.",
         "Commuters give the city its tidal restlessness, natives give it solidity and continuity, but the settlers give it passion.",
-        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each ."
+        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each."
       ],
       "question": "Choose the one that is least likely to fill in the blank.",
       "choices": [
@@ -810,8 +784,7 @@
           "label": "④",
           "text": "forms a stronger coalition of their compatriots"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. There are roughly three New Yorks.\n2. There is, first, the New York of the man and woman who was born here, who takes the city for granted and accepts its size and its turbulence as natural and inevitable.\n3. Second, there is the New York of the commuter─ the city that is devoured by locusts each day and spat out each night.\n4. Third, there is the New York of the person who was born somewhere else and came to New York in quest of something.\n5. Of these three trembling cities the greatest is the last─the city of final destination, the city that is a goal.\n6. It is this third city that accounts for New York’s high-strung dispositions, its poetical deportment, its dedication to the arts, and its incomparable achievements.\n7. Commuters give the city its tidal restlessness, natives give it solidity and continuity, but the settlers give it passion.\n8. And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each .\nQUESTION:\nChoose the one that is least likely to fill in the blank.\nCHOICES:\n① embraces New York with the intense excitement of first love\n② takes in New York with the fresh eyes of an adventurer\n③ electrifies the soul with a new sense of purpose\n④ forms a stronger coalition of their compatriots"
+      ]
     },
     {
       "number": 26,
@@ -847,8 +820,7 @@
           "label": "④",
           "text": "Despite its accessibility, the Mine Kafon should be handled with much caution."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. An Afghan designer has come up with a novel tumbleweed-esque device to find and detonate mines, a device that has evolved from the wind-powered toys he made as a child.\n2. Massoud Hassani's Mine Kafon is made mainly from bamboo and biodegradable plastics, but the simple addition of a GPS chip means the wind-swept spheres can be monitored to reveal the location of mines. __________________________________________________.\n3. Typically the process involves the sweeping of mine fields, either manually with metal detectors, or with specialized vehicles (sometimes remotely controlled).\n4. The Mine Kafon, on the other hand, is an array of bamboo sticks with plastic disks at the end.\n5. It's light enough to be caught and moved by the wind, but heavy enough that it should trip any mine it passes over.\n6. The Mine Kafon will probably be destroyed in the process, but better that than a human life.\n7. Clearly, the Mine Kafon will never be as efficient a means of clearing mines as an intensive sweep using specialist technology.\n8. The Mine Kafon is bound to travel the path of least resistance, and so it's not as if you can pop one into a field and expect it to clear the area.\n9. But the ability of the Mine Kafon to report on its route, trackable on the web thanks to its GPS chip, means that perhaps, were many of these low cost devices be released at scattered locations, they might chance upon mine fields that were previously undocumented.\n10. There's something artful about the Mine Kafon, though, that is just as valuable.\n11. Perhaps it's the poetic symmetry of this peaceful response to the problem of land mines emerging from a nation ravaged by them.\nQUESTION:\nChoose the one that best fills in the blank.\nCHOICES:\n① The Mine Kafon shows the highest accuracy among the detonators at hand.\n② GPS chip aside, this is an extremely low-tech approach to mine detection.\n③ This light-weight contraption is as portable as they come.\n④ Despite its accessibility, the Mine Kafon should be handled with much caution."
+      ]
     },
     {
       "number": 27,
@@ -884,8 +856,7 @@
           "label": "④",
           "text": "Afghanistan has been severely affected by land mines."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. An Afghan designer has come up with a novel tumbleweed-esque device to find and detonate mines, a device that has evolved from the wind-powered toys he made as a child.\n2. Massoud Hassani's Mine Kafon is made mainly from bamboo and biodegradable plastics, but the simple addition of a GPS chip means the wind-swept spheres can be monitored to reveal the location of mines. __________________________________________________.\n3. Typically the process involves the sweeping of mine fields, either manually with metal detectors, or with specialized vehicles (sometimes remotely controlled).\n4. The Mine Kafon, on the other hand, is an array of bamboo sticks with plastic disks at the end.\n5. It's light enough to be caught and moved by the wind, but heavy enough that it should trip any mine it passes over.\n6. The Mine Kafon will probably be destroyed in the process, but better that than a human life.\n7. Clearly, the Mine Kafon will never be as efficient a means of clearing mines as an intensive sweep using specialist technology.\n8. The Mine Kafon is bound to travel the path of least resistance, and so it's not as if you can pop one into a field and expect it to clear the area.\n9. But the ability of the Mine Kafon to report on its route, trackable on the web thanks to its GPS chip, means that perhaps, were many of these low cost devices be released at scattered locations, they might chance upon mine fields that were previously undocumented.\n10. There's something artful about the Mine Kafon, though, that is just as valuable.\n11. Perhaps it's the poetic symmetry of this peaceful response to the problem of land mines emerging from a nation ravaged by them.\nQUESTION:\nChoose the one that is not true according to the passage.\nCHOICES:\n① The cost of making the Mine Kafon is relatively low.\n② The device is primarily designed to detect mines in woody terrain.\n③ The device is likely to be shattered when it comes into contact with a mine.\n④ Afghanistan has been severely affected by land mines."
+      ]
     },
     {
       "number": 28,
@@ -932,8 +903,7 @@
           "label": "④",
           "text": "[C]-[B]-[A]"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Miss Jane Marple was sitting by her window.\n2. The window looked over her garden, once a source of pride to her.\n3. That was no longer so.\n4. Nowadays she looked out of the window and winced.\n5. Active gardening had been forbidden her for some time now.\n6. No stooping, no digging, no planting—at most a little light pruning.\n7. Old Laycock, who came three times a week, did his best, no doubt.\n8. But his best, such as it was (which was not much), was only the best according to his lights, and not according to those of his employer.\n9. Miss Marple knew exactly what she wanted done, and when she wanted it done, and instructed him duly.\n10. Old Laycock then displayed his particular genius which was that of enthusiastic agreement and subsequent lack of performance.\n11. “That’s right, missus.\n12. We’ll have them mecosoapies there and the Canterburys along the wall and as you say, it ought to be got on with first thing next week.” [A] To be fair, he was attached to his employers, humoured their fancies in horticulture (so far as no actual hard work was involved) but vegetables he knew to be the real stuff of life; a nice Savoy, or a bit of curly kale; flowers were fancy stuff such as ladies like to go in for, having nothing better to do with their time.\n13. He showed his affection by producing presents of the aforementioned asters, salvias, lobelia edging, and summer chrysanthemums.\n14. [B] They consisted of a great many cups of tea, sweet and strong, as an encouragement to effort, a good deal of sweeping up of leaves in the autumn, and a certain amount of bedding out of his own favourite plants, mainly asters and salvias—to “make a nice show,” as he put it, in summer.\n15. He was all in favour of syringing roses for green-fly, but was slow to get around to it, and a demand for deep trenching for sweet peas was usually countered by the remark that you ought to see his own sweet peas!\n16. A proper treat last year, and no fancy stuff done beforehand.\n17. [C] Laycock’s excuses were always reasonable, and strongly resembled those of Captain George’s in Three Men in a Boat for avoiding going to sea.\n18. In the captain’s case the wind was always wrong, either blowing offshore or inshore, or coming from the unreliable west, or the even more treacherous east.\n19. Laycock’s was the weather.\n20. Too dry —too wet—waterlogged—a nip of frost in the air.\n21. Or else something of great importance had to come first (usually to do with cabbages or Brussels sprouts, of which he liked to grow inordinate quantities).\n22. Laycock’s own principles of gardening were simple, and no employer, however knowledgeable, could wean him from them.\nQUESTION:\nChoose the best order after the given passage.\nCHOICES:\n① [B]-[A]-[C]\n② [B]-[C]-[A]\n③ [C]-[A]-[B]\n④ [C]-[B]-[A]"
+      ]
     },
     {
       "number": 29,
@@ -980,8 +950,7 @@
           "label": "④",
           "text": "affable but unyielding"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Miss Jane Marple was sitting by her window.\n2. The window looked over her garden, once a source of pride to her.\n3. That was no longer so.\n4. Nowadays she looked out of the window and winced.\n5. Active gardening had been forbidden her for some time now.\n6. No stooping, no digging, no planting—at most a little light pruning.\n7. Old Laycock, who came three times a week, did his best, no doubt.\n8. But his best, such as it was (which was not much), was only the best according to his lights, and not according to those of his employer.\n9. Miss Marple knew exactly what she wanted done, and when she wanted it done, and instructed him duly.\n10. Old Laycock then displayed his particular genius which was that of enthusiastic agreement and subsequent lack of performance.\n11. “That’s right, missus.\n12. We’ll have them mecosoapies there and the Canterburys along the wall and as you say, it ought to be got on with first thing next week.” [A] To be fair, he was attached to his employers, humoured their fancies in horticulture (so far as no actual hard work was involved) but vegetables he knew to be the real stuff of life; a nice Savoy, or a bit of curly kale; flowers were fancy stuff such as ladies like to go in for, having nothing better to do with their time.\n13. He showed his affection by producing presents of the aforementioned asters, salvias, lobelia edging, and summer chrysanthemums.\n14. [B] They consisted of a great many cups of tea, sweet and strong, as an encouragement to effort, a good deal of sweeping up of leaves in the autumn, and a certain amount of bedding out of his own favourite plants, mainly asters and salvias—to “make a nice show,” as he put it, in summer.\n15. He was all in favour of syringing roses for green-fly, but was slow to get around to it, and a demand for deep trenching for sweet peas was usually countered by the remark that you ought to see his own sweet peas!\n16. A proper treat last year, and no fancy stuff done beforehand.\n17. [C] Laycock’s excuses were always reasonable, and strongly resembled those of Captain George’s in Three Men in a Boat for avoiding going to sea.\n18. In the captain’s case the wind was always wrong, either blowing offshore or inshore, or coming from the unreliable west, or the even more treacherous east.\n19. Laycock’s was the weather.\n20. Too dry —too wet—waterlogged—a nip of frost in the air.\n21. Or else something of great importance had to come first (usually to do with cabbages or Brussels sprouts, of which he liked to grow inordinate quantities).\n22. Laycock’s own principles of gardening were simple, and no employer, however knowledgeable, could wean him from them.\nQUESTION:\nChoose the one that best describes Old Laycock according to the passage.\nCHOICES:\n① kind but ignorant\n② diligent and swift\n③ cultivated and generous\n④ affable but unyielding"
+      ]
     },
     {
       "number": 30,
@@ -1028,8 +997,8 @@
           "label": "④",
           "text": "His way of managing the garden met Miss Marple’s expectations."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Miss Jane Marple was sitting by her window.\n2. The window looked over her garden, once a source of pride to her.\n3. That was no longer so.\n4. Nowadays she looked out of the window and winced.\n5. Active gardening had been forbidden her for some time now.\n6. No stooping, no digging, no planting—at most a little light pruning.\n7. Old Laycock, who came three times a week, did his best, no doubt.\n8. But his best, such as it was (which was not much), was only the best according to his lights, and not according to those of his employer.\n9. Miss Marple knew exactly what she wanted done, and when she wanted it done, and instructed him duly.\n10. Old Laycock then displayed his particular genius which was that of enthusiastic agreement and subsequent lack of performance.\n11. “That’s right, missus.\n12. We’ll have them mecosoapies there and the Canterburys along the wall and as you say, it ought to be got on with first thing next week.” [A] To be fair, he was attached to his employers, humoured their fancies in horticulture (so far as no actual hard work was involved) but vegetables he knew to be the real stuff of life; a nice Savoy, or a bit of curly kale; flowers were fancy stuff such as ladies like to go in for, having nothing better to do with their time.\n13. He showed his affection by producing presents of the aforementioned asters, salvias, lobelia edging, and summer chrysanthemums.\n14. [B] They consisted of a great many cups of tea, sweet and strong, as an encouragement to effort, a good deal of sweeping up of leaves in the autumn, and a certain amount of bedding out of his own favourite plants, mainly asters and salvias—to “make a nice show,” as he put it, in summer.\n15. He was all in favour of syringing roses for green-fly, but was slow to get around to it, and a demand for deep trenching for sweet peas was usually countered by the remark that you ought to see his own sweet peas!\n16. A proper treat last year, and no fancy stuff done beforehand.\n17. [C] Laycock’s excuses were always reasonable, and strongly resembled those of Captain George’s in Three Men in a Boat for avoiding going to sea.\n18. In the captain’s case the wind was always wrong, either blowing offshore or inshore, or coming from the unreliable west, or the even more treacherous east.\n19. Laycock’s was the weather.\n20. Too dry —too wet—waterlogged—a nip of frost in the air.\n21. Or else something of great importance had to come first (usually to do with cabbages or Brussels sprouts, of which he liked to grow inordinate quantities).\n22. Laycock’s own principles of gardening were simple, and no employer, however knowledgeable, could wean him from them.\nQUESTION:\nWhich of the following is true about Old Laycock?\nCHOICES:\n① He used to be employed by Captain George.\n② He valued flowers over vegetables.\n③ One of his gardening principles was consuming quantities of tea.\n④ His way of managing the garden met Miss Marple’s expectations."
+      ]
     }
-  ]
+  ],
+  "source_pdf": "명지 21 영어_260415_151255.pdf"
 }

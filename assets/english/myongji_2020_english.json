@@ -3,15 +3,13 @@
   "institution_ko": "명지대",
   "year": 2020,
   "exam_kind": "english",
-  "source_text_file": "myongji_2020_english_extracted_complete.txt",
   "question_count": 30,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
@@ -38,8 +36,7 @@
           "label": "④",
           "text": "uncovered"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. In 1536 Henry had his wife Anne Boleyn decapitated on trumped-up charges of adultery and treason.\nCHOICES:\n① fabricated\n② distorted\n③ aggravated\n④ uncovered"
+      ]
     },
     {
       "number": 2,
@@ -65,8 +62,7 @@
           "label": "④",
           "text": "capricious"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. Mercurial individuals are similar to dramatic and especially adventurous people in their reluctance to think things out and to plan for the future.\nCHOICES:\n① dogmatic\n② parsimonious\n③ unscrupulous\n④ capricious"
+      ]
     },
     {
       "number": 3,
@@ -92,8 +88,7 @@
           "label": "④",
           "text": "surreptitious"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that shares the same meaning as the underlined word.\nPASSAGE_SENTENCES:\n1. He is very fastidious about keeping the house clean.\nCHOICES:\n① incongruous\n② adamant\n③ meticulous\n④ surreptitious"
+      ]
     },
     {
       "number": 4,
@@ -119,8 +114,7 @@
           "label": "④",
           "text": "prudent"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Because I support capital punishment for heinous crimes of murder, I have been the subject of outraged attacks by voters who find my position ________________.\nCHOICES:\n① reprehensible\n② suave\n③ veracious\n④ prudent"
+      ]
     },
     {
       "number": 5,
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "auspicious"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Everybody welcomed the decline of unemployment rates, which was a(n) ________________ sign for our economy.\nCHOICES:\n① pathetic\n② vociferous\n③ apprehensive\n④ auspicious"
+      ]
     },
     {
       "number": 6,
@@ -177,8 +170,7 @@
           "label": "④",
           "text": "as well as for the decimation"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is grammatically unacceptable.\nPASSAGE_SENTENCES:\n1. The grimmest examples of germs’ role in history come from the European conquest of the Americas that began with Columbus’s voyage of 1492.\n2. Numerous as was the Native American victims of the murderous Spanish conquistadores, they were far outnumbered by the victims of murderous Spanish microbes.\n3. Why was the exchange of nasty germs between the Americas and Europe so unequal?\n4. Why didn’t Native American diseases instead decimate the Spanish invaders, spread back to Europe, and wipe out 95 percent of Europe’s population?\n5. Similar questions arise for the decimation of many other native peoples by Eurasian germs, as well as for the decimation of would-be European conquistadores in the tropics of Africa and Asia.\nCHOICES:\n① as was the Native American victims\n② far outnumbered by the victims of\n③ many other native peoples by Eurasian\n④ as well as for the decimation"
+      ]
     },
     {
       "number": 7,
@@ -206,15 +198,14 @@
           "label": "④",
           "text": "appears to have had its origins"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is grammatically unacceptable.\nPASSAGE_SENTENCES:\n1. The original government of the early Romans was probably an oligarchy which soon gave way to a limited monarchy which the king was advised by a council or senate of the Patricians, who were the heads of the wealthiest and oldest families.\n2. Religion was a function of the state, with the king as its head and the Patricians as priests.\n3. In addition, the strong cohesiveness of the Roman family appears to have had its origins in these early days when the father was supreme dictator over his wife, children and slaves.\nCHOICES:\n① which soon gave way to a\n② which the king was advised by\n③ the Patricians as priests\n④ appears to have had its origins"
+      ]
     },
     {
       "number": 8,
       "instruction": "Choose the part that is grammatically unacceptable.",
       "passage_sentences": [
         "The film’s opening act introduces the Kim family, folding pizza boxes in a squalid basement apartment in Seoul and scrambling from room to room in search of free WiFi after the neighboring business locked theirs down with a password.",
-        "In a single scene the film appears to articulate its title and define its chungang characters, but the Kims are not who you think are.",
+        "In a single scene the film appears to articulate its title and define its central characters, but the Kims are not who you think are.",
         "In fact, every time you think you’ve pinned this film down—who’s doing what to whom, who is or is not a parasite—you learn it was an impeccably executed sleight of hand.",
         "Longtime Bong collaborator Kang-ho Song anchors the film with an endearing and slippery performance."
       ],
@@ -236,8 +227,7 @@
           "label": "④",
           "text": "anchors the film with an endearing"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is grammatically unacceptable.\nPASSAGE_SENTENCES:\n1. The film’s opening act introduces the Kim family, folding pizza boxes in a squalid basement apartment in Seoul and scrambling from room to room in search of free WiFi after the neighboring business locked theirs down with a password.\n2. In a single scene the film appears to articulate its title and define its chungang characters, but the Kims are not who you think are.\n3. In fact, every time you think you’ve pinned this film down—who’s doing what to whom, who is or is not a parasite—you learn it was an impeccably executed sleight of hand.\n4. Longtime Bong collaborator Kang-ho Song anchors the film with an endearing and slippery performance.\nCHOICES:\n① in search of free WiFi after\n② who you think are\n③ who’s doing what to whom\n④ anchors the film with an endearing"
+      ]
     },
     {
       "number": 9,
@@ -266,8 +256,7 @@
           "label": "④",
           "text": "can be found even in the"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is grammatically unacceptable.\nPASSAGE_SENTENCES:\n1. Plastic pollution was at the center of the sustainability debate in 2018, with governments banning plastic straws and exfoliants with microbeads.\n2. The fashion industry has its fair share of responsibility for plastic pollution, considering that 60 percent of the world’s garments contain polyester, a material derived by polyethylene terephthalate, the most common type of plastic in the world.\n3. When washed, polyester garments often release tiny pieces of plastic into the water, which end up in the rivers and oceans and can be eaten by animals.\n4. A Greenpeace expedition to the Antarctic revealed earlier this year that microplastics can be found even in the most remote areas of the planet.\nCHOICES:\n① at the center of the sustainability\n② derived by polyethylene terephthalate\n③ which end up in the rivers\n④ can be found even in the"
+      ]
     },
     {
       "number": 10,
@@ -297,8 +286,7 @@
           "label": "④",
           "text": "succumbing only massive army operations by"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is grammatically unacceptable.\nPASSAGE_SENTENCES:\n1. The sole Native Americans able to resist European conquest for many centuries were those tribes that reduced the military disparity by mastering both horses and guns.\n2. To the average white American, the word “Indian” conjures up an image of a mounted Plains Indian brandishing a rifle.\n3. We easily forget that horses and rifles were originally unknown to Native Americans.\n4. They were brought by Europeans and proceeded to transform the societies of Indian tribes that acquired them.\n5. Thanks to their mastery of horses and rifles, the Plains Indians fought off invading whites longer than did any other Native Americans, succumbing only massive army operations by white governments in the 1870s.\nCHOICES:\n① mounted Plains Indian brandishing a rifle\n② to transform the societies of Indian\n③ than did any other Native Americans\n④ succumbing only massive army operations by"
+      ]
     },
     {
       "number": 11,
@@ -329,8 +317,7 @@
           "label": "④",
           "text": "For instance"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Our slowest defensive response to a disease is through natural selection.\n2. For almost any disease, some people prove to be genetically more resistant than are others.\n3. In an epidemic those people with genes for resistance to that particular microbe are more likely to survive than are people lacking such genes. ________________, over the course of history, human populations repeatedly exposed to a particular pathogen have come to consist of a higher proportion of individuals with those genes for resistance.\n4. Fat consolation, you may be thinking.\n5. This evolutionary response is not one that does the genetically susceptible dying individual any good.\n6. It does mean, though, that a human population as a whole becomes better protected against the pathogen.\nCHOICES:\n① Likewise\n② In contrast\n③ As a result\n④ For instance"
+      ]
     },
     {
       "number": 12,
@@ -362,8 +349,7 @@
           "label": "④",
           "text": "be popular among their peers"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. There are a variety of motives or reasons that help explain why the act of lying tends to increase during adolescence.\n2. By far, the top motive that adolescents use to justify lying behavior is to ________________________.\n3. During adolescence, young people begin to socialize more with their peers and receive less direct monitoring and supervision from parents.\n4. Thus, parental supervision depends more on reports from young people about their activities, friends, and behavior.\n5. Parental supervision shifts from direct monitoring to trusting that young people will provide truthful reports of their commitments and activities.\n6. However, away from direct parental supervision and exposed to myriad new enticements such as alcohol, drugs, and sex, the adolescent turns to more frequent lying to avoid parental disapproval and potential sanctions.\n7. Adolescents believe that they have the right to make their own decisions, particularly in the areas of privacy, control over their bodies, and choice of friends.\nCHOICES:\n① avoid legal punishment\n② boost their confidence\n③ maintain their autonomy\n④ be popular among their peers"
+      ]
     },
     {
       "number": 13,
@@ -397,8 +383,7 @@
           "label": "④",
           "text": "become more and more resistant to damages caused by cortisol"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Stresses can be emotional, nutritional, chemical, physiological or hormonal.\n2. Your body responds identically to all these stresses because it cannot distinguish the differences between them.\n3. Stress responses are like reflexes—you get the same response no matter what the stimulus is.\n4. Cortisol was designed for survival stresses, not for self-induced ones caused by poor nutrition and lifestyle choices.\n5. If you encounter a life-threatening stress, higher cortisol levels will benefit you and help keep you alive.\n6. If the stress is self-induced, however, higher cortisol levels will damage you further.\n7. Since you live in the twenty-first century, you are living longer anyway because of cultural and scientific advances.\n8. Unfortunately, the stress responses of the body ____________________________________________.\n9. Therefore, cortisol’s actions of trying to keep you alive longer from a stressful situation are not as beneficial as they once were.\nCHOICES:\n① are designed more for prehistoric times than for modern ones\n② emerge differently depending on where the stress comes from\n③ reduce the cortisol levels even when you are faced with danger\n④ become more and more resistant to damages caused by cortisol"
+      ]
     },
     {
       "number": 14,
@@ -432,8 +417,7 @@
           "label": "④",
           "text": "Where in our brains are dreams generated"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. ______________________________________?\n2. Psychologists still don’t understand the function of dreaming.\n3. However, it almost certainly relates to memory, either by helping to consolidate the day’s events or enabling us to forget unwanted detail so we don’t become overloaded.\n4. In this case, recalling our dreams might not actually be helpful, though.\n5. During vivid dreaming, serotonin and noradrenaline levels are low and this might affect recall.\n6. But perhaps the main reason is that most of our waking memories make sense and are interlinked.\n7. When remembering what you had for breakfast today, you can probably link that to memories of getting up, feeding the cat and other small events.\n8. But dreams are usually illogical and their events are unrelated.\n9. So when we try to recall them, we can’t follow a sensible thread and the previously vivid details just slip away.\nCHOICES:\n① Why are some people more prone to dreaming\n② How can we make our dreams come true\n③ Why do we forget our dreams so quickly\n④ Where in our brains are dreams generated"
+      ]
     },
     {
       "number": 15,
@@ -461,8 +445,7 @@
           "label": "④",
           "text": "shifts in strength"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that would best fill in the blank.\nPASSAGE_SENTENCES:\n1. Useful attributes tending to decrease with age include ambition, desire to compete, physical strength and endurance, capacity for sustained mental concentration, and powers of novel reasoning to solve circumscribed problems.\n2. Conversely, useful attributes tending to increase with age include experience of one’s field, understanding of people and relationships, ability to help other people without one’s own ego getting in the way, and powers of synthetic interdisciplinary thinking to solve complex problems involving multifaceted databases.\n3. These ________________________ result in many older workers choosing to devote more of their efforts to supervising, administering, advising, teaching, strategizing, and synthesizing.\nCHOICES:\n① mental concentration skills\n② powers of novel reasoning\n③ localized capabilities\n④ shifts in strength"
+      ]
     },
     {
       "number": 16,
@@ -495,8 +478,7 @@
           "label": "④",
           "text": "His study covered eight psycho-social stages of whole life cycle."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is not true about Erikson according to the passage?\nPASSAGE_SENTENCES:\n1. If you have ever talked about having an “identity crisis” you have psychologist Erik Erikson to thank for inventing the term.\n2. Erikson’s focus on identity was shaped by his own background.\n3. The product of an affair between his Jewish mother, Karla Abrahamsen, and an unidentified Danish man, he grew up in Germany as Erik Homberger, taking the surname of his stepfather.\n4. In his late 30s, on taking up US citizenship, Erik Homberger changed his surname to Erikson; that is, son of himself.\n5. His great contribution was to note that the question “Who am I?” will raise itself many times over the course of an average person’s lifetime.\n6. Freud focused on psychological development from infancy to teenage years, but Erikson went further to cover the whole life cycle, with eight “psycho-social” stages.\n7. As one stage ends, we experience a crisis when our identity comes into question, and at these points we can choose either growth or stagnation.\n8. Each choice, he said, lays another cornerstone in the structure of the adult personality.\nQUESTION:\nWhich of the following is not true about Erikson according to the passage?\nCHOICES:\n① He used the term ‘identity crisis’ for the first time.\n② In his late 30s, he became a US citizen and changed his last name.\n③ Freud was a prominent successor of his theory.\n④ His study covered eight psycho-social stages of whole life cycle."
+      ]
     },
     {
       "number": 17,
@@ -516,22 +498,21 @@
       "choices": [
         {
           "label": "①",
-          "text": "【C】-【A】-【B】"
+          "text": "【C】-【A】-【B"
         },
         {
           "label": "②",
-          "text": "【A】-【C】-【B】"
+          "text": "【A】-【C】-【B"
         },
         {
           "label": "③",
-          "text": "【C】-【B】-【A】"
+          "text": "【C】-【B】-【A"
         },
         {
           "label": "④",
-          "text": "【A】-【B】-【C】"
+          "text": "【A】-【B】-【C"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best order after the paragraph in the box.\nPASSAGE_SENTENCES:\n1. In 1798 Thomas Malthus explained that the frequent famines of his era were unavoidable because “population, when unchecked, increases in a geometrical ratio while subsistence increases only in an arithmetic ratio.” Where did Malthus’s math go wrong?\n2. Looking at the first of his curves, we already saw that population growth needn’t increase in a geometric ratio indefinitely, because when people get richer and more of their babies survive, they have fewer babies.\n3. Conversely, famines don’t reduce population growth for long. 【A】 It was only at the time of the Industrial Revolution that people figured out how to bend the curve upward.\n4. Crop rotation and improvements to plows and seed drills were followed by mechanization.\n5. In the mid-19th century it took twenty-five men a full day to harvest and thresh a ton of grain; today one person operating a combine harvester can do it in six minutes. 【B】 So forget arithmetic ratios: over the past century, grain yields per hectare have swooped upward while real prices have plunged.\n6. The savings are mind-boggling.\n7. If the food grown today had to be grown with pre-nitrogen-farming techniques, an area the size of Russia would go under the plow. 【C】 Looking at the second curve, we discover that the food supply can grow geometrically when knowledge is applied to increase the amount of food that can be coaxed out of a patch of land.\n8. Since the birth of agriculture ten thousand years ago, humans have been genetically engineering plants and animals by selectively breeding the ones that were the easiest to plant and harvest.\n9. Clever farmers also tinkered with irrigation, plows, and organic fertilizers, but Malthus always had the last word.\nQUESTION:\nChoose the best order after the paragraph in the box.\nCHOICES:\n① 【C】-【A】-【B】\n② 【A】-【C】-【B】\n③ 【C】-【B】-【A】\n④ 【A】-【B】-【C】"
+      ]
     },
     {
       "number": 18,
@@ -568,8 +549,7 @@
           "label": "④",
           "text": "well-known health benefits of tattoos"
         }
-      ],
-      "raw_text": "INSTRUCTION: What is the passage mainly about?\nPASSAGE_SENTENCES:\n1. As tattoos have become more common, scientists have begun to study their health impacts.\n2. This body art might appear cool, but it can pose risks.\n3. Some people react badly to the inks, substances that aren’t meant to go on or in the body.\n4. In those people, the skin around a tattoo may get bumpy or scaly.\n5. Other people may have trouble getting certain medical tests after a tattoo.\n6. Still, research now indicates tattoos aren’t bad for everyone.\n7. More recently, research also has uncovered some good news.\n8. In people who heal well, getting inked body art may confer health benefits.\n9. The inking process may actually turn on the immune system, helping to keep such individuals healthy.\n10. Getting a tattoo may prime their germ-fighting immune systems for action.\n11. Some heavily tattooed people claim to be resistant to colds and to heal quickly from minor injuries.\n12. Such reports are anecdotal, but such claims have prompted scientists to start a new scientific study.\nQUESTION:\nWhat is the passage mainly about?\nCHOICES:\n① different ways of tattooing\n② myths around the effects of tattoos\n③ positive and negative health impacts of tattoos\n④ well-known health benefits of tattoos"
+      ]
     },
     {
       "number": 19,
@@ -602,8 +582,7 @@
           "label": "④",
           "text": "His third Critique deals with matters of aesthetic judgments."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is not true about Kant according to the passage?\nPASSAGE_SENTENCES:\n1. Immanuel Kant (1724-1804) was born in Königsberg, Prussia, which today is in Russia and called Kaliningrad.\n2. Kant never left the town, and for most of his life taught at the University, at which he became professor of logic and metaphysics in 1770.\n3. He was deeply interested in the natural sciences, and his early publications were concerned with problems in astronomy and geophysics.\n4. One of his pupils wrote that “nothing worth knowing was indifferent to him.” Kant produced his most influential work late in life.\n5. Although his output was large, his most important works are the three Critiques— Critique of Pure Reason, Critique of Practical Reason, and Critique of Judgment.\n6. The first Critique is one of the masterpieces of philosophy, although also one of the most unreadable.\n7. Kant himself described it as “dry, obscure, contrary to all ordinary ideas, and on top of that, prolix.” The second Critique is disappointing in comparison, although the views Kant expressed in it on moral philosophy have been widely influential.\n8. The third Critique is concerned with the nature of aesthetic judgments.\nQUESTION:\nWhich of the following is not true about Kant according to the passage?\nCHOICES:\n① He taught at a university in his hometown.\n② He produced his most influential work early in life.\n③ His first Critique is the most difficult for general readers.\n④ His third Critique deals with matters of aesthetic judgments."
+      ]
     },
     {
       "number": 20,
@@ -635,8 +614,7 @@
           "label": "④",
           "text": "How does plastic pollution harm water?"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best title for the following passage.\nPASSAGE_SENTENCES:\n1. Plastic is everywhere.\n2. It is not merely that the material, rarely used in consumer products before 1950, has become ubiquitous in the homes, cars and offices Americans inhabit.\n3. Scientists announced last month that they had found plastic microparticles in the deep ocean off California’s idyllic Monterey Bay, with, surprisingly, the highest concentrations in the middle of the water column.\n4. Scientists also warn that, if we continue producing and discarding plastic at our present rate, by 2050 there will be more of it in the ocean, pound for pound, than fish.\n5. The threat of all that plastic to marine life is well-known.\n6. Turtles mistake bags for jellyfish and die of asphyxiation or malnourishment.\n7. Whales and other marine mammals become entangled in massive floating plastic trash bundles, unable to migrate or hunt for food.\nQUESTION:\nChoose the best title for the following passage.\nCHOICES:\n① Plastic pollution puts marine life in danger\n② Plastic threatens human health\n③ Why is plastic part of the food chain?\n④ How does plastic pollution harm water?"
+      ]
     },
     {
       "number": 21,
@@ -665,8 +643,7 @@
           "label": "④",
           "text": "How can monochromatic aberrations be classified?"
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following cannot be answered by the passage?\nPASSAGE_SENTENCES:\n1. Optical aberrations occur when the light rays originating from a point light source are not brought to a point of focus on the retina, typically as a result of inaccuracies and irregularities in the shapes of the curved refracting surfaces of the cornea.\n2. Optical aberrations are potentially more serious than simple refractive errors because they are not easily correctable with the usual spherical lenses.\n3. Aberrations can be classified as monochromatic, which may be seen with only one wavelength of light, and chromatic, which involves the differential focusing of various wavelengths (e.g., colors) of light on the retina.\n4. Monochromatic aberrations can be further classified as spherical refractive aberrations and “higher-order” aberrations that are an amalgam of deviations that can take on complex patterns.\nQUESTION:\nWhich of the following cannot be answered by the passage?\nCHOICES:\n① What is the typical cause of optical aberrations?\n② Why are optical aberrations difficult to correct with usual spherical lenses?\n③ How is chromatic aberration different from monochromatic aberration?\n④ How can monochromatic aberrations be classified?"
+      ]
     },
     {
       "number": 22,
@@ -697,8 +674,7 @@
           "label": "④",
           "text": "Sexual partnership is a relationship of mutual mistrust and exploitation."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following best explains the view of sexual partnership Robert Trivers emphasizes?\nPASSAGE_SENTENCES:\n1. If there is conflict of interest between parents and children, who share 50 percent of each other’s genes, how much more severe must be the conflict between mates, who are not related to each other?\n2. Since father and mother are both interested in the welfare of different halves of the same children, there may be some advantage for both of them in cooperating with each other in rearing those children.\n3. If one parent can get away with investing less than his or her fair share of costly resources in each child, however, he will be better off, since he will have more to spend on other children by other sexual partners, and so propagate more of his genes.\n4. Each partner can therefore be thought of as trying to exploit the other, trying to force the other one to invest more.\n5. Ideally, what an individual would ‘like’ would be to copulate with as many members of the opposite sex as possible, leaving the partner in each case to bring up the children.\n6. This view of sexual partnership has been stressed especially by American evolutionary biologist Robert Trivers.\nQUESTION:\nWhich of the following best explains the view of sexual partnership Robert Trivers emphasizes?\nCHOICES:\n① Sexual partnership is a cooperative venture undertaken for mutual benefits.\n② Sexual partnership is a relationship in which males try to take advantage of females.\n③ Sexual partnership is a relationship in which cooperation is more important than exploitation.\n④ Sexual partnership is a relationship of mutual mistrust and exploitation."
+      ]
     },
     {
       "number": 23,
@@ -726,8 +702,7 @@
           "label": "④",
           "text": ") AT&T keeps two sets of books: one for the shareholders, in which the taxes are recorded as paid, and one for the government, in which the taxes aren’t paid."
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best place for the sentence given in the box.\nPASSAGE_SENTENCES:\n1. AT&T pointed out that under special provisions of the tax code a growing company may defer paying taxes until later years.\n2. A study in 1986 revealed that, during one four-year period, ten corporations had combined total domestic profits of $39.67 billion and not only had paid no income tax but had received tax rebates totaling $1.5 billion.\n3. (\nQUESTION:\nChoose the best place for the sentence given in the box.\nCHOICES:\n① ) One of those ten corporations making all that money but paying no taxes was AT&T, which disputed the conclusion that it had paid no taxes. (\n② ) Thus, a company that continues to grow may defer paying taxes forever. (AT&T was formally organized in 1899 and has been growing ever since.) (\n③ ) AT&T contended that deferred taxes should be counted as taxes actually paid. (\n④ ) AT&T keeps two sets of books: one for the shareholders, in which the taxes are recorded as paid, and one for the government, in which the taxes aren’t paid."
+      ]
     },
     {
       "number": 24,
@@ -765,8 +740,7 @@
           "label": "④",
           "text": "Neutrogena soap is extremely mild and easily rinsed off."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is not true according to the passage?\nPASSAGE_SENTENCES:\n1. Large-scale commercial production of soap is done in enormous steam-heated vats by use of the full-boiled method.\n2. Some smaller specialty soap companies and the home soapmaker use the cold-process method, whereby the heat generated from the reaction of fatty acids and alkalis enables the soap to form.\n3. These soaps are usually less neutral than full-boiled soaps.\n4. Transparent soap is made by the semi-boiled method.\n5. The oils and caustic solution are combined and then heated, though not to the boiling point.\n6. A neutral pH is 7.\n7. The pH of our skin ranges between 5 and 6.5, which is somewhat acidic.\n8. “Neutral” soaps are quite alkaline, with a pH of about 9.5.\n9. This wide discrepancy between our skin’s pH and the pH of soap explains why so many soaps are drying to the skin.\n10. This problem can be somewhat corrected by superfatting, or adding an excess of fatty acids or oils.\n11. Another process involves both superfatting the sodium soap and blending it with a soap created from the chemical compound called triethanolamine (TEA).\n12. The resulting soap is both extremely mild and easily rinsed off.\n13. The inventor of the process referred to this property as “neutrogenous,” and that’s how Neutrogena soap was born.\nQUESTION:\nWhich of the following is not true according to the passage?\nCHOICES:\n① Large-scale production of soap is done using the full-boiled method.\n② Soapmakers in smaller companies produce soaps without generating any heat.\n③ The pH of neutral soaps is higher than that of our skin.\n④ Neutrogena soap is extremely mild and easily rinsed off."
+      ]
     },
     {
       "number": 25,
@@ -803,8 +777,7 @@
           "label": "④",
           "text": "how microbes adapt by natural selection to new hosts and vectors"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Diseases represent evolution in progress, and microbes adapt by natural selection to new hosts and vectors.\n2. But compared with cows’ bodies, ours offer different immune defenses, lice, feces, and chemistries.\n3. In that new environment, a microbe must evolve new ways to live and to propagate itself.\n4. In several instructive cases doctors or veterinarians have actually been able to observe microbes evolving those new ways.\n5. The best-studied case involves what happened when myxomatosis hit Australian rabbits.\n6. The myxo virus, native to a wild species of Brazilian rabbit, had been observed to cause a lethal infectious disease in European domestic rabbits, which are a different species.\n7. Hence the virus was intentionally introduced to Australia in 1950 in the hopes of ridding the continent of its plague, foolishly introduced in the nineteenth century.\n8. In the first year, myxo produced a gratifying 99.8 percent mortality rate in infected rabbits.\n9. Unfortunately for the farmers, the death rate then dropped in the second year to 90 percent and eventually to 25 percent, frustrating hopes of eradicating rabbits completely from Australia.\n10. The problem was that the myxo virus evolved to serve its own interests, which differed from ours as well as from those of the rabbits.\n11. The virus changed so as to kill fewer rabbits and to permit lethally infected ones to live longer before dying.\n12. As a result, a less lethal myxo virus spreads baby viruses to more rabbits than did the original, highly virulent myxo.\nQUESTION:\nWhat is the passage mainly about?\nCHOICES:\n① why doctors or veterinarians study the evolution of microbes in the new environment\n② how the myxo virus became a big problem for Australia in the 1950s\n③ how Australians overcame myxomatosis in the 1950s\n④ how microbes adapt by natural selection to new hosts and vectors"
+      ]
     },
     {
       "number": 26,
@@ -841,8 +814,7 @@
           "label": "④",
           "text": "a lethal infectious disease in European domestic rabbits"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Diseases represent evolution in progress, and microbes adapt by natural selection to new hosts and vectors.\n2. But compared with cows’ bodies, ours offer different immune defenses, lice, feces, and chemistries.\n3. In that new environment, a microbe must evolve new ways to live and to propagate itself.\n4. In several instructive cases doctors or veterinarians have actually been able to observe microbes evolving those new ways.\n5. The best-studied case involves what happened when myxomatosis hit Australian rabbits.\n6. The myxo virus, native to a wild species of Brazilian rabbit, had been observed to cause a lethal infectious disease in European domestic rabbits, which are a different species.\n7. Hence the virus was intentionally introduced to Australia in 1950 in the hopes of ridding the continent of its plague, foolishly introduced in the nineteenth century.\n8. In the first year, myxo produced a gratifying 99.8 percent mortality rate in infected rabbits.\n9. Unfortunately for the farmers, the death rate then dropped in the second year to 90 percent and eventually to 25 percent, frustrating hopes of eradicating rabbits completely from Australia.\n10. The problem was that the myxo virus evolved to serve its own interests, which differed from ours as well as from those of the rabbits.\n11. The virus changed so as to kill fewer rabbits and to permit lethally infected ones to live longer before dying.\n12. As a result, a less lethal myxo virus spreads baby viruses to more rabbits than did the original, highly virulent myxo.\nQUESTION:\nWhat does the underlined its plague refer to?\nCHOICES:\n① European domestic rabbits\n② infected rabbits\n③ the myxo virus\n④ a lethal infectious disease in European domestic rabbits"
+      ]
     },
     {
       "number": 27,
@@ -868,22 +840,21 @@
       "choices": [
         {
           "label": "①",
-          "text": "【A】-【D】-【C】-【B】"
+          "text": "【A】-【D】-【C】-【B"
         },
         {
           "label": "②",
-          "text": "【B】-【C】-【D】-【A】"
+          "text": "【B】-【C】-【D】-【A"
         },
         {
           "label": "③",
-          "text": "【A】-【C】-【B】-【D】"
+          "text": "【A】-【C】-【B】-【D"
         },
         {
           "label": "④",
-          "text": "【C】-【A】-【D】-【B】"
+          "text": "【C】-【A】-【D】-【B"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Even the zone of cultural memory from the last century has relics that feel like they belong to a foreign country.\n2. Take the decline of martial culture.\n3. The older cities in Europe are dotted with public works that flaunt the nation’s military might.\n4. Pedestrians can behold statues of commanders on horseback and victory arches crowned by chariots.\n5. Photos from a century ago show men in gaudy military dress uniforms parading on national holidays. 【A】 Another major change we have lived through in the 20th century is an intolerance of displays of force in everyday life.\n6. In earlier decades a man’s willingness to use his fists in response to an insult was the sign of respectability.\n7. Today it is the sign of a boor, a symptom of impulse control disorder. 【B】 Even more revolutionary than the scorn for violence between men is the scorn for violence against women.\n8. Many baby boomers are nostalgic for The Honeymooners, a 1950s sitcom featuring Jackie Gleason as Ralph, a burly bus driver.\n9. In one of the show’s recurring laugh lines, an enraged Ralph shakes his fist at his wife and bellows, “One of these days, Alice, POW, right in the kisser!” Nowadays our sensitivity to violence against women makes this kind of comedy in a mainstream television program unthinkable. 【C】 But in the West today, public places are no longer named after military victories.\n10. Our war memorials depict not proud commanders on horseback but weeping mothers, or weary soldiers.\n11. Military men are inconspicuous in public life, with drab uniforms and little prestige among the hoi polloi. 【D】 An incident from 1950 illustrates the change.\n12. President Harry Truman had seen an unkind review in The Washington Post of a performance by his daughter, Margaret, an aspiring singer.\n13. Truman wrote to the critic: “Some day I hope to meet you.\n14. When that happens you’ll need a new nose and a lot of beefsteak for black eyes.” Though every writer can sympathize with the impulse, today a public threat to commit aggravated assault against a critic would seem buffoonish, indeed sinister, if it came from a person in power.\n15. But at the time Truman was widely admired for his paternal chivalry.\nQUESTION:\nChoose the best order after the paragraph in the box.\nCHOICES:\n① 【A】-【D】-【C】-【B】\n② 【B】-【C】-【D】-【A】\n③ 【A】-【C】-【B】-【D】\n④ 【C】-【A】-【D】-【B】"
+      ]
     },
     {
       "number": 28,
@@ -923,8 +894,7 @@
           "label": "④",
           "text": "Truman’s desire to sue the critic"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Even the zone of cultural memory from the last century has relics that feel like they belong to a foreign country.\n2. Take the decline of martial culture.\n3. The older cities in Europe are dotted with public works that flaunt the nation’s military might.\n4. Pedestrians can behold statues of commanders on horseback and victory arches crowned by chariots.\n5. Photos from a century ago show men in gaudy military dress uniforms parading on national holidays. 【A】 Another major change we have lived through in the 20th century is an intolerance of displays of force in everyday life.\n6. In earlier decades a man’s willingness to use his fists in response to an insult was the sign of respectability.\n7. Today it is the sign of a boor, a symptom of impulse control disorder. 【B】 Even more revolutionary than the scorn for violence between men is the scorn for violence against women.\n8. Many baby boomers are nostalgic for The Honeymooners, a 1950s sitcom featuring Jackie Gleason as Ralph, a burly bus driver.\n9. In one of the show’s recurring laugh lines, an enraged Ralph shakes his fist at his wife and bellows, “One of these days, Alice, POW, right in the kisser!” Nowadays our sensitivity to violence against women makes this kind of comedy in a mainstream television program unthinkable. 【C】 But in the West today, public places are no longer named after military victories.\n10. Our war memorials depict not proud commanders on horseback but weeping mothers, or weary soldiers.\n11. Military men are inconspicuous in public life, with drab uniforms and little prestige among the hoi polloi. 【D】 An incident from 1950 illustrates the change.\n12. President Harry Truman had seen an unkind review in The Washington Post of a performance by his daughter, Margaret, an aspiring singer.\n13. Truman wrote to the critic: “Some day I hope to meet you.\n14. When that happens you’ll need a new nose and a lot of beefsteak for black eyes.” Though every writer can sympathize with the impulse, today a public threat to commit aggravated assault against a critic would seem buffoonish, indeed sinister, if it came from a person in power.\n15. But at the time Truman was widely admired for his paternal chivalry.\nQUESTION:\nWhich of the following best explains the underlined the impulse?\nCHOICES:\n① Truman’s desire to physically attack the critic\n② Truman’s desire to protest to the newspaper\n③ Truman’s desire to invite the critic to dinner\n④ Truman’s desire to sue the critic"
+      ]
     },
     {
       "number": 29,
@@ -962,8 +932,7 @@
           "label": "④",
           "text": "epidemics"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The Tipping Point is the biography of an idea, and the idea is very simple.\n2. It is that the best way to understand the emergence of fashion trends, the ebb and flow of crime waves, or, for that matter, the transformation of unknown books into bestsellers, or the rise of teenage smoking, or the phenomena of word of mouth, or any number of the other mysterious changes that mark everyday life is to think of them as ____________________.\n3. Ideas and products and messages and behaviors spread just like viruses do.\n4. The rise of Hush Puppies and the fall of New York's crime rate are textbook examples.\n5. Although they may sound as if they don't have very much in common, they share a basic, underlying pattern.\n6. First of all, they are clear examples of contagious behavior.\n7. No one took out an advertisement and told people that the traditional Hush Puppies were cool and they should start wearing them.\n8. Those kids simply wore the shoes when they went to clubs or cafes or walked the streets of downtown New York, and in so doing exposed other people to their fashion sense.\n9. They infected them with the Hush Puppies \"virus.\" The crime decline in New York surely happened the same way.\n10. It wasn't that some huge percentage of would-be murderers suddenly sat up in 1993 and decided not to commit any more crimes.\n11. Nor was it that the police managed magically to intervene in a huge percentage of situations that would otherwise have turned deadly.\n12. What happened is that the small number of people in the small number of situations in which the police or the new social forces had some impact started behaving very differently, and that behavior somehow spread to other would-be criminals in similar situations.\n13. Somehow a large number of people in New York got \"infected\" with an anti-crime virus in a short time.\nQUESTION:\nChoose a word that would best fill in the blank.\nCHOICES:\n① earthquakes\n② microwaves\n③ telepathy\n④ epidemics"
+      ]
     },
     {
       "number": 30,
@@ -1001,8 +970,8 @@
           "label": "④",
           "text": "Crime rates declined all over the US in 1993."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. The Tipping Point is the biography of an idea, and the idea is very simple.\n2. It is that the best way to understand the emergence of fashion trends, the ebb and flow of crime waves, or, for that matter, the transformation of unknown books into bestsellers, or the rise of teenage smoking, or the phenomena of word of mouth, or any number of the other mysterious changes that mark everyday life is to think of them as ____________________.\n3. Ideas and products and messages and behaviors spread just like viruses do.\n4. The rise of Hush Puppies and the fall of New York's crime rate are textbook examples.\n5. Although they may sound as if they don't have very much in common, they share a basic, underlying pattern.\n6. First of all, they are clear examples of contagious behavior.\n7. No one took out an advertisement and told people that the traditional Hush Puppies were cool and they should start wearing them.\n8. Those kids simply wore the shoes when they went to clubs or cafes or walked the streets of downtown New York, and in so doing exposed other people to their fashion sense.\n9. They infected them with the Hush Puppies \"virus.\" The crime decline in New York surely happened the same way.\n10. It wasn't that some huge percentage of would-be murderers suddenly sat up in 1993 and decided not to commit any more crimes.\n11. Nor was it that the police managed magically to intervene in a huge percentage of situations that would otherwise have turned deadly.\n12. What happened is that the small number of people in the small number of situations in which the police or the new social forces had some impact started behaving very differently, and that behavior somehow spread to other would-be criminals in similar situations.\n13. Somehow a large number of people in New York got \"infected\" with an anti-crime virus in a short time.\nQUESTION:\nWhich of the following can be inferred from the passage?\nCHOICES:\n① Young people wore Hush Puppies mostly for formal occasions.\n② The rise of Hush Puppies in New York was due to its advertisement.\n③ People's sense of fashion can be contagious.\n④ Crime rates declined all over the US in 1993."
+      ]
     }
-  ]
+  ],
+  "source_pdf": "명지 20 영어_260415_151255.pdf"
 }

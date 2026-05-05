@@ -3,22 +3,20 @@
   "institution_ko": "한국항공대",
   "year": 2025,
   "exam_kind": "english",
-  "source_text_file": "aerospace_2025_english_extracted_complete.txt",
   "question_count": 30,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
       "number": 1,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "That may be the quintessential test that proves beyond the slightest doubt that radio is best."
+        "That may be the <u>quintessential</u> test that proves beyond the slightest doubt that radio is best."
       ],
       "question": null,
       "choices": [
@@ -38,14 +36,13 @@
           "label": "④",
           "text": "archetypal"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. That may be the quintessential test that proves beyond the slightest doubt that radio is best.\nCHOICES:\n① nominal\n② inessential\n③ atypical\n④ archetypal"
+      ]
     },
     {
       "number": 2,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "The moon beckons astronomers because it is dry, airless, and seismically quiet."
+        "The moon <u>beckons</u> astronomers because it is dry, airless, and seismically quiet."
       ],
       "question": null,
       "choices": [
@@ -65,14 +62,13 @@
           "label": "④",
           "text": "reckons"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. The moon beckons astronomers because it is dry, airless, and seismically quiet.\nCHOICES:\n① entices\n② deters\n③ shuns\n④ reckons"
+      ]
     },
     {
       "number": 3,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "The encryption is ephemeral but at any given time, incredibly important."
+        "The encryption is <u>ephemeral</u> but at any given time, incredibly important."
       ],
       "question": null,
       "choices": [
@@ -92,14 +88,13 @@
           "label": "④",
           "text": "temporary"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. The encryption is ephemeral but at any given time, incredibly important.\nCHOICES:\n① immortal\n② perpetual\n③ general\n④ temporary"
+      ]
     },
     {
       "number": 4,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "Copyright laws are convoluted and have been continually changed and amended over the years."
+        "Copyright laws are <u>convoluted</u> and have been continually changed and amended over the years."
       ],
       "question": null,
       "choices": [
@@ -119,14 +114,13 @@
           "label": "④",
           "text": "conventional"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. Copyright laws are convoluted and have been continually changed and amended over the years.\nCHOICES:\n① lucid\n② retroactive\n③ complex\n④ conventional"
+      ]
     },
     {
       "number": 5,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "As an artist, he is known for his steadfast dedication to his work projects."
+        "As an artist, he is known for his <u>steadfast</u> dedication to his work projects."
       ],
       "question": null,
       "choices": [
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "unpredictable"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the word that is closest in meaning to the underlined expression.\nPASSAGE_SENTENCES:\n1. As an artist, he is known for his steadfast dedication to his work projects.\nCHOICES:\n① fickle\n② loyal\n③ brisk\n④ unpredictable [6-10] Choose the one that best completes the sentence. [각 3.3점]"
+      ]
     },
     {
       "number": 6,
@@ -157,7 +150,7 @@
         "It's Mendelssohn who famously said that he found that music was much more precise than words.",
         "The problem comes in actually defining that precision and saying what exactly the music is saying.",
         "But I think the one thing you can extrapolate from studying Bach's setting of religious texts is that there is a counterpoint going on between the meaning of the texts per se and the affect and impact of the music surrounding the text setting, and it divides into two broad categories.",
-        "One is , where there is a direct sense of sympathy and empathy between the meaning of the words and the type of music that Bach uses to surround and explain the text.",
+        "One is __________, where there is a direct sense of sympathy and empathy between the meaning of the words and the type of music that Bach uses to surround and explain the text.",
         "And then there's at the other extreme, collision - those moments where the music and the text seem to end up pointing in opposite directions."
       ],
       "question": null,
@@ -178,8 +171,7 @@
           "label": "④",
           "text": "collusion"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Music is a much more elusive form of communication than words alone and yet it has its own precision.\n2. It's Mendelssohn who famously said that he found that music was much more precise than words.\n3. The problem comes in actually defining that precision and saying what exactly the music is saying.\n4. But I think the one thing you can extrapolate from studying Bach's setting of religious texts is that there is a counterpoint going on between the meaning of the texts per se and the affect and impact of the music surrounding the text setting, and it divides into two broad categories.\n5. One is , where there is a direct sense of sympathy and empathy between the meaning of the words and the type of music that Bach uses to surround and explain the text.\n6. And then there's at the other extreme, collision - those moments where the music and the text seem to end up pointing in opposite directions.\nCHOICES:\n① compulsion\n② competition\n③ confrontation\n④ collusion"
+      ]
     },
     {
       "number": 7,
@@ -191,7 +183,7 @@
         "The goal is to turn it into weather intelligence - something the farmers can actually use to improve their daily decision-making on the farm.",
         "And that's the job of their governmental partner.",
         "\"We look at the weather information to predict short-term forecast for the farmers, and then we'll be able to come up with a planting date.\" says a director at Kenya Agricultural and Livestock Research Organization.",
-        "\" , the weather messages will suggest where to grow what crops and which varieties of those crops will fare best,\" he says.",
+        "\"__________, the weather messages will suggest where to grow what crops and which varieties of those crops will fare best,\" he says.",
         "Already, almost five million farmers across Kenya are receiving the weather advisories.",
         "On average, they're seeing a 7% increase in revenues."
       ],
@@ -213,8 +205,7 @@
           "label": "④",
           "text": "Down the road"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Tomorrow Now, a nonprofit company, provides the weather information to farmers across Kenya.\n2. That information is super local and this high resolution data ensures that farmers can have information that's relevant to their farm rather than for the entire town.\n3. The data on its own is just information.\n4. The goal is to turn it into weather intelligence - something the farmers can actually use to improve their daily decision-making on the farm.\n5. And that's the job of their governmental partner.\n6. \"We look at the weather information to predict short-term forecast for the farmers, and then we'll be able to come up with a planting date.\" says a director at Kenya Agricultural and Livestock Research Organization.\n7. \" , the weather messages will suggest where to grow what crops and which varieties of those crops will fare best,\" he says.\n8. Already, almost five million farmers across Kenya are receiving the weather advisories.\n9. On average, they're seeing a 7% increase in revenues.\nCHOICES:\n① By and large\n② In a nutshell\n③ Instead\n④ Down the road"
+      ]
     },
     {
       "number": 8,
@@ -223,7 +214,7 @@
         "Why does space food matter?",
         "One word: Mars.",
         "Meal prepping for a trip into deep space is not easy.",
-        "Right now, scientists have figured out a lot of the logistics regarding a journey to the red planet, except how to bring enough food. it would take seven months to get to Mars.",
+        "Right now, scientists have figured out a lot of the logistics regarding a journey to the red planet, except how to bring enough food. __________ it would take seven months to get to Mars.",
         "To pack over a year's worth of food for the round trip (with extra snacks, of course) would be immensely heavy - too heavy for a rocket.",
         "The things that we don't know how to do is get enough stuff up into the pathway between Earth and Mars to sustain people for a trip.",
         "The contestants of the Deep Space Food Challenge look to answer that question, and make the long-awaited mission to Mars more feasible."
@@ -246,8 +237,7 @@
           "label": "④",
           "text": "At last"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Why does space food matter?\n2. One word: Mars.\n3. Meal prepping for a trip into deep space is not easy.\n4. Right now, scientists have figured out a lot of the logistics regarding a journey to the red planet, except how to bring enough food. it would take seven months to get to Mars.\n5. To pack over a year's worth of food for the round trip (with extra snacks, of course) would be immensely heavy - too heavy for a rocket.\n6. The things that we don't know how to do is get enough stuff up into the pathway between Earth and Mars to sustain people for a trip.\n7. The contestants of the Deep Space Food Challenge look to answer that question, and make the long-awaited mission to Mars more feasible.\nCHOICES:\n① At the earliest\n② At best\n③ At the latest\n④ At last"
+      ]
     },
     {
       "number": 9,
@@ -258,7 +248,7 @@
         "Conservation scientists have witnessed the demise of the crocodiles firsthand.",
         "The loss of so many crocodiles is a problem because they sit atop the food web.",
         "When they decline, we see this huge hole in the ecosystem, and this ripples out and sets off cascading impacts.",
-        "These impacts include in midlevel predators, which can negatively influence birds' ability to nest.",
+        "These impacts include __________ in midlevel predators, which can negatively influence birds' ability to nest.",
         "And so cane toads do really cause ecological havoc here in Australia."
       ],
       "question": null,
@@ -279,8 +269,7 @@
           "label": "④",
           "text": "an upkeep"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. Across northern Australia, freshwater crocodiles are dying in droves, with some populations down by 70%.\n2. That's because the animals are eating a super-poisonous cane toad that humans brought to the continent decades ago.\n3. Conservation scientists have witnessed the demise of the crocodiles firsthand.\n4. The loss of so many crocodiles is a problem because they sit atop the food web.\n5. When they decline, we see this huge hole in the ecosystem, and this ripples out and sets off cascading impacts.\n6. These impacts include in midlevel predators, which can negatively influence birds' ability to nest.\n7. And so cane toads do really cause ecological havoc here in Australia.\nCHOICES:\n① a surge\n② a flip\n③ a downturn\n④ an upkeep"
+      ]
     },
     {
       "number": 10,
@@ -294,7 +283,7 @@
         "The conical web is now spring loaded.",
         "When an insect flutters by, the spider releases the tension line, flinging the web forward and entangling the prey.",
         "So they're not just passively sitting there.",
-        "They're using the web like a slingshot the insect ever touching the web."
+        "They're using the web like a slingshot __________ the insect ever touching the web."
       ],
       "question": null,
       "choices": [
@@ -314,22 +303,21 @@
           "label": "④",
           "text": "by"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best completes the sentence.\nPASSAGE_SENTENCES:\n1. The ray spider is smaller than a grain of rice.\n2. It spins its web as a classic set of concentric circles with spokes radiating outwards.\n3. But then, the spider strings a thread from the center of the web to a nearby rock or twig.\n4. It then grabs the middle of the web with its back legs and then pulls itself along that tension line with its front legs.\n5. That is what turns that web from a flat shape into a cone shape.\n6. The conical web is now spring loaded.\n7. When an insect flutters by, the spider releases the tension line, flinging the web forward and entangling the prey.\n8. So they're not just passively sitting there.\n9. They're using the web like a slingshot the insect ever touching the web.\nCHOICES:\n① for\n② from\n③ without\n④ by [11-12] Choose the one that is either ungrammatical or unacceptable. [각 3.8점]"
+      ]
     },
     {
       "number": 11,
       "instruction": "Choose the one that is either ungrammatical or unacceptable.",
       "passage_sentences": [
         "If you live along the path of totality for Monday's solar eclipse and you have any Christmas gear, you might want to break it out.",
-        "The celestial event will bring odd phenomena to our planet.",
+        "The ① <u>celestial</u> event will bring odd phenomena to our planet.",
         "As an unusual visual effect brought by a solar eclipse, red and green colors will look strange to humans on Earth.",
         "That's partly due to the change in light when the moon blocks the sun, but also the way our eyes and brain adjust to and interpret that change.",
-        "As lightﾠdims, our eyes transition from photopic vision, associated with the retina's cone cells that delivers full colors and fine detail, toward scotopic night vision that relies on rod cells to detect objects in low light.",
-        "In the middle is mesopic vision, the transitional phase where both rods and cones are active.",
+        "As light dims, our eyes transition from photopic vision, associated with the retina's cone cells that ② <u>delivers</u> full colors and fine detail, toward scotopic night vision that relies on rod cells to detect objects in low light.",
+        "In the middle is mesopic vision, the transitional phase ③ <u>where</u> both rods and cones are active.",
         "When the light's intensity dims in the eclipse, colors with longer wavelengths, like red, will look darker as cones become less active.",
         "But because rods are sensitive to the shorter blue-green wavelengths, those colors will have a chance to shine.",
-        "This is pretty much a totality thing with only people in the eclipse's chungang path guaranteed to witness the phenomenon.",
+        "This is pretty much a totality thing with only people in the eclipse's central path ④ <u>guaranteed</u> to witness the phenomenon.",
         "Also, you shouldn't rely on just one red or green T-shirt to trigger the effect.",
         "You have to have lots of people or colorful things around to see it.",
         "The effect is the result of sudden dimness and your rods and cones trying to make sense of that dimness.",
@@ -339,69 +327,66 @@
       "choices": [
         {
           "label": "①",
-          "text": "celestial event will bring odd phenomena to our planet."
+          "text": "celestial"
         },
         {
           "label": "②",
-          "text": "delivers full colors and fine detail, toward scotopic night vision that relies on rod cell"
+          "text": "delivers"
         },
         {
           "label": "③",
-          "text": "where both rods and cones are active."
+          "text": "where"
         },
         {
           "label": "④",
-          "text": "guaranteed to witness the phenomenon."
+          "text": "guaranteed"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is either ungrammatical or unacceptable.\nPASSAGE_SENTENCES:\n1. If you live along the path of totality for Monday's solar eclipse and you have any Christmas gear, you might want to break it out.\n2. The celestial event will bring odd phenomena to our planet.\n3. As an unusual visual effect brought by a solar eclipse, red and green colors will look strange to humans on Earth.\n4. That's partly due to the change in light when the moon blocks the sun, but also the way our eyes and brain adjust to and interpret that change.\n5. As lightﾠdims, our eyes transition from photopic vision, associated with the retina's cone cells that delivers full colors and fine detail, toward scotopic night vision that relies on rod cells to detect objects in low light.\n6. In the middle is mesopic vision, the transitional phase where both rods and cones are active.\n7. When the light's intensity dims in the eclipse, colors with longer wavelengths, like red, will look darker as cones become less active.\n8. But because rods are sensitive to the shorter blue-green wavelengths, those colors will have a chance to shine.\n9. This is pretty much a totality thing with only people in the eclipse's chungang path guaranteed to witness the phenomenon.\n10. Also, you shouldn't rely on just one red or green T-shirt to trigger the effect.\n11. You have to have lots of people or colorful things around to see it.\n12. The effect is the result of sudden dimness and your rods and cones trying to make sense of that dimness.\n13. It's called the Purkinje effect.\nCHOICES:\n① celestial event will bring odd phenomena to our planet.\n② delivers full colors and fine detail, toward scotopic night vision that relies on rod cell\n③ where both rods and cones are active.\n④ guaranteed to witness the phenomenon."
+      ]
     },
     {
       "number": 12,
       "instruction": "Choose the one that is either ungrammatical or unacceptable.",
       "passage_sentences": [
         "The idea that eating cocoa-rich, dark chocolate may offer health benefits is not new.",
-        "Now, a new study finds people who have a habit of eating a little dark chocolate have a 21% lower risk of developing Type 2 diabetes, compared to people who don't consume it.",
+        "Now, a new study finds people who have a habit of eating a little dark chocolate have a 21% lower risk of developing Type 2 diabetes, ① <u>compared to</u> people who don't consume it.",
         "People who ate milk chocolate, which has more sugar and less cocoa, had no reduction in diabetes risk.",
         "And, over the course of the study, milk chocolate eaters tended to gain weight, which contributes to the risk of diabetes.",
         "However, eating dark chocolate was not associated with weight gain.",
-        "There's long been an evidence that the compounds found in cocoa can contribute to heart health.",
+        "There's long been ② <u>an evidence</u> that the compounds found in cocoa can contribute to heart health.",
         "For instance, a study published in the journal Heart, found chocolate lovers had a lower risk of strokes and other types of cardiovascular disease.",
-        "Scientists have homed in on bioactive plant compounds found in cocoa beans, which have been shown to prompt production of nitric oxide in the body.",
-        "This gas can cause blood vessels to open up or dilate, which is the mechanism for the lowering of blood pressure, and multiple studies have shown dark chocolate consumption is linked to a modest reduction in blood pressure.",
-        "[13-17] Choose the best for the blank."
+        "Scientists have ③ <u>homed in</u> on bioactive plant compounds found in cocoa beans, which have been shown to prompt production of nitric oxide in the body.",
+        "This gas can cause blood vessels ④ <u>to open up</u> or dilate, which is the mechanism for the lowering of blood pressure, and multiple studies have shown dark chocolate consumption is linked to a modest reduction in blood pressure."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "compared to people who don't consume it."
+          "text": "compared to"
         },
         {
           "label": "②",
-          "text": "an evidence that the compounds found in cocoa can contribute to heart health."
+          "text": "an evidence"
         },
         {
           "label": "③",
-          "text": "homed in on bioactive plant compounds found in cocoa beans, which have been shown to promp"
+          "text": "homed in"
         },
         {
           "label": "④",
-          "text": "to open up or dilate, which is the mechanism for the lowering of blood pressure, and multi"
+          "text": "to open up"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that is either ungrammatical or unacceptable.\nPASSAGE_SENTENCES:\n1. The idea that eating cocoa-rich, dark chocolate may offer health benefits is not new.\n2. Now, a new study finds people who have a habit of eating a little dark chocolate have a 21% lower risk of developing Type 2 diabetes, compared to people who don't consume it.\n3. People who ate milk chocolate, which has more sugar and less cocoa, had no reduction in diabetes risk.\n4. And, over the course of the study, milk chocolate eaters tended to gain weight, which contributes to the risk of diabetes.\n5. However, eating dark chocolate was not associated with weight gain.\n6. There's long been an evidence that the compounds found in cocoa can contribute to heart health.\n7. For instance, a study published in the journal Heart, found chocolate lovers had a lower risk of strokes and other types of cardiovascular disease.\n8. Scientists have homed in on bioactive plant compounds found in cocoa beans, which have been shown to prompt production of nitric oxide in the body.\n9. This gas can cause blood vessels to open up or dilate, which is the mechanism for the lowering of blood pressure, and multiple studies have shown dark chocolate consumption is linked to a modest reduction in blood pressure.\n10. [13-17] Choose the best for the blank.\n11. [각 3.5점]\nCHOICES:\n① compared to people who don't consume it.\n② an evidence that the compounds found in cocoa can contribute to heart health.\n③ homed in on bioactive plant compounds found in cocoa beans, which have been shown to promp\n④ to open up or dilate, which is the mechanism for the lowering of blood pressure, and multi"
+      ]
     },
     {
       "number": 13,
       "instruction": "Choose the best for the blank.",
       "passage_sentences": [
-        "Negative thinking can do a number on your chungang nervous system, causing you to react physically.",
+        "Negative thinking can do a number on your central nervous system, causing you to react physically.",
         "Have you ever started getting negative thoughts and suddenly felt physically bad too?",
-        "Whatever your response - shaky hands, trembly voice, sweaty brow - a slow inhale and a slower exhale will help soothe the chungang nervous system.",
+        "Whatever your response - shaky hands, trembly voice, sweaty brow - a slow inhale and a slower exhale will help soothe the central nervous system.",
         "And finding your composure will help you let the thoughts pass.",
         "You cannot have a calm mind if your body is in hyperdrive.",
-        "The opposite is true too - ."
+        "The opposite is true too - __________."
       ],
       "question": null,
       "choices": [
@@ -421,15 +406,14 @@
           "label": "④",
           "text": "you cannot have a calm mind unless your body is in hyperdrive"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Negative thinking can do a number on your chungang nervous system, causing you to react physically.\n2. Have you ever started getting negative thoughts and suddenly felt physically bad too?\n3. Whatever your response - shaky hands, trembly voice, sweaty brow - a slow inhale and a slower exhale will help soothe the chungang nervous system.\n4. And finding your composure will help you let the thoughts pass.\n5. You cannot have a calm mind if your body is in hyperdrive.\n6. The opposite is true too - .\nCHOICES:\n① you can have a calm mind if your body is in hyperdrive\n② you can have a calm body as your mind is going in circles\n③ you cannot have a calm body if your mind is going in circles\n④ you cannot have a calm mind unless your body is in hyperdrive"
+      ]
     },
     {
       "number": 14,
       "instruction": "Choose the best for the blank.",
       "passage_sentences": [
         "Joan Moon, a career coach, explains some classic negotiation tactics often used in business environments and how they can be applied in everyday circumstances.",
-        "For one, the tactic of helps different parties find one solution that's in everyone's interest.",
+        "For one, the tactic of __________ helps different parties find one solution that's in everyone's interest.",
         "You might see this in business contracts or labor agreements, for example.",
         "Parties won't sign until the terms are mutually beneficial.",
         "How to use it in everyday life?",
@@ -459,15 +443,14 @@
           "label": "④",
           "text": "value proposition"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Joan Moon, a career coach, explains some classic negotiation tactics often used in business environments and how they can be applied in everyday circumstances.\n2. For one, the tactic of helps different parties find one solution that's in everyone's interest.\n3. You might see this in business contracts or labor agreements, for example.\n4. Parties won't sign until the terms are mutually beneficial.\n5. How to use it in everyday life?\n6. Try this when you want the other party to not just agree with your decision, but feel good about it.\n7. Joan shares a recent personal experience.\n8. Her phone line was down so she called her phone company to get reconnected - but the customer service agents were unhelpful.\n9. She could feel herself getting upset, so she decided to reframe her request using the tactic.\n10. She said: \"Listen, I've been with this company for ten years and I would like to keep doing so for another ten years.\n11. Can we focus on a solution?\" The approach worked, she says.\n12. The company didn't want to lose a loyal customer - and Joan wanted her phone fixed.\nCHOICES:\n① win-win strategy\n② benchmarking\n③ a menu of options\n④ value proposition"
+      ]
     },
     {
       "number": 15,
       "instruction": "Choose the best for the blank.",
       "passage_sentences": [
         "One way to nudge people to do something is to make it easy to do.",
-        "Sludge is like its sinister opposite: when institutions try to prevent people from doing something .",
+        "Sludge is like its sinister opposite: when institutions try to prevent people from doing something __________.",
         "Richard Thaler, one of the founding fathers of behavioral economics, was inspired to develop the idea of sludge when his memoir was released a few years ago.",
         "His editor told him that the first review was published in a London newspaper, and Thaler wanted to read it.",
         "But the article was behind a paywall.",
@@ -495,22 +478,21 @@
           "label": "④",
           "text": "through punishment"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. One way to nudge people to do something is to make it easy to do.\n2. Sludge is like its sinister opposite: when institutions try to prevent people from doing something .\n3. Richard Thaler, one of the founding fathers of behavioral economics, was inspired to develop the idea of sludge when his memoir was released a few years ago.\n4. His editor told him that the first review was published in a London newspaper, and Thaler wanted to read it.\n5. But the article was behind a paywall.\n6. To get past the paywall, there was a promotion.\n7. It cost 1 British pound to sign up for a one-month trial subscription.\n8. Then he started digging deeper and learned that to cancel his subscription, he'd have to give two weeks' notice.\n9. And to do that, he'd have to actually call the newspaper's headquarters during London business hours.\n10. This is a company using sludge to prevent people from canceling their subscriptions.\nCHOICES:\n① through monetary rewards\n② by appealing to emotions\n③ by making it hard to do\n④ through punishment"
+      ]
     },
     {
       "number": 16,
       "instruction": "Choose the best for the blank.",
       "passage_sentences": [
         "Researchers have identified a substance in muscles that helps explain the connection between a fit body and a sharp mind.",
-        "When muscles work, they release a protein that appears to generate new cells and connections in a part of the brain that is critical to memory, a team reports in the journal Cell Metabolism. , says the research team.",
+        "When muscles work, they release a protein that appears to generate new cells and connections in a part of the brain that is critical to memory, a team reports in the journal Cell Metabolism. __________, says the research team.",
         "Previous research had revealed factors in the brain itself that responded to exercise.",
         "The discovery came after a team of researchers decided to cast a wide net in searching for factors that could explain the well-known link between fitness and memory.",
         "They began by looking for substances produced by muscle cells in response to exercise.",
         "That search turned up cathepsin B, a protein best known for its association with cell death and some diseases.",
         "Experiments showed that blood levels of cathepsin B rose in mice that spent a lot of time on their exercise wheels.",
         "What’s more, as levels of the protein rose, the mice did better on a memory test in which they had to swim to a platform hidden just beneath the surface of a small pool.",
-        "The team also found that, in mice, cathepsin B was causing the growth of new cells and connections in the hippocampus, an area of the brain that is chungang to memory."
+        "The team also found that, in mice, cathepsin B was causing the growth of new cells and connections in the hippocampus, an area of the brain that is central to memory."
       ],
       "question": null,
       "choices": [
@@ -530,8 +512,7 @@
           "label": "④",
           "text": "The finding leaves more questions than answers"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. Researchers have identified a substance in muscles that helps explain the connection between a fit body and a sharp mind.\n2. When muscles work, they release a protein that appears to generate new cells and connections in a part of the brain that is critical to memory, a team reports in the journal Cell Metabolism. , says the research team.\n3. Previous research had revealed factors in the brain itself that responded to exercise.\n4. The discovery came after a team of researchers decided to cast a wide net in searching for factors that could explain the well-known link between fitness and memory.\n5. They began by looking for substances produced by muscle cells in response to exercise.\n6. That search turned up cathepsin B, a protein best known for its association with cell death and some diseases.\n7. Experiments showed that blood levels of cathepsin B rose in mice that spent a lot of time on their exercise wheels.\n8. What’s more, as levels of the protein rose, the mice did better on a memory test in which they had to swim to a platform hidden just beneath the surface of a small pool.\n9. The team also found that, in mice, cathepsin B was causing the growth of new cells and connections in the hippocampus, an area of the brain that is chungang to memory.\nCHOICES:\n① The finding has a dark side\n② The finding provides another piece to the puzzle\n③ The finding does not move the needle\n④ The finding leaves more questions than answers"
+      ]
     },
     {
       "number": 17,
@@ -539,7 +520,7 @@
       "passage_sentences": [
         "An over-reliance on GPS can also lead to a narrower view of your surroundings.",
         "You're not paying attention to the broader environment that gives you cues of where you are in space - what's on your right or left and what it means to be \"here.\" In fact, people who have a good internal compass may have a deeper connection to the world around them.",
-        "If you want to gain confidence on the road or be less reliant on GPS to get around, .",
+        "If you want to gain confidence on the road or be less reliant on GPS to get around, __________.",
         "People with a good sense of direction - like the London cabbies - know their streets.",
         "While you might not be able to master 25,000 of them, you can try an expert navigation tactic.",
         "Commit street names, landmarks and routes to memory by using narratives and tricks to lock things in.",
@@ -565,16 +546,27 @@
         },
         {
           "label": "④",
-          "text": "use memory tricks to remember where you are [18-30] Read the following passages and answer the questions. [각 3.3점] [18-19] Neurobiologists had previously shown that rats are normally enthusiastic helpers. If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one. It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously). They don't have to know the individual rat, but they have to know the type of rat. These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion. To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did. Then they added to the enclosure not just one free rat but two or three. When all but one of the free rats was given the anti-anxiety drugs that caused passivity another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help. He'd help once. He would not help again. Researchers say the rat would not help the next day or the day afterward as a rat normally would. It is essentially as though this rat says, 'Well, you know what, I helped yesterday. No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats."
+          "text": "use memory tricks to remember where you are"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best for the blank.\nPASSAGE_SENTENCES:\n1. An over-reliance on GPS can also lead to a narrower view of your surroundings.\n2. You're not paying attention to the broader environment that gives you cues of where you are in space - what's on your right or left and what it means to be \"here.\" In fact, people who have a good internal compass may have a deeper connection to the world around them.\n3. If you want to gain confidence on the road or be less reliant on GPS to get around, .\n4. People with a good sense of direction - like the London cabbies - know their streets.\n5. While you might not be able to master 25,000 of them, you can try an expert navigation tactic.\n6. Commit street names, landmarks and routes to memory by using narratives and tricks to lock things in.\n7. This is especially helpful when street names are abstract and don't follow a logical order.\n8. The process of connecting a story or idea to a place is called building a cognitive map.\n9. It gives you an idea of where things are and how they're connected.\n10. So as you navigate your way without a map, look around and use stories and memory devices to remember the details of your surroundings.\n11. You might say, \"I'm making a right on 12th Street where I got churros with my friend that one day, then I'm heading up P Street toward the park - that is P for park.\" You can use them to gain a better sense of ownership over your surroundings and ease any anxiety about getting lost.\nCHOICES:\n① do not hesitate to ask locals for guidance\n② let your feet do the talking\n③ do not go with your own mind flow\n④ use memory tricks to remember where you are [18-30] Read the following passages and answer the questions. [각 3.3점] [18-19] Neurobiologists had previously shown that rats are normally enthusiastic helpers. If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one. It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously). They don't have to know the individual rat, but they have to know the type of rat. These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion. To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did. Then they added to the enclosure not just one free rat but two or three. When all but one of the free rats was given the anti-anxiety drugs that caused passivity another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help. He'd help once. He would not help again. Researchers say the rat would not help the next day or the day afterward as a rat normally would. It is essentially as though this rat says, 'Well, you know what, I helped yesterday. No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats."
+      ]
     },
     {
       "number": 18,
-      "instruction": "Read the following passages and answer the questions.  [18-19] Neurobiologists had previously shown that rats are normally enthusiastic helpers. If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one. It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously). They don't have to know the individual rat, but they have to know the type of rat. These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion. To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did. Then they added to the enclosure not just one free rat but two or three. When all but one of the free rats was given the anti-anxiety drugs that caused passivity another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help. He'd help once. He would not help again. Researchers say the rat would not help the next day or the day afterward as a rat normally would. It is essentially as though this rat says, 'Well, you know what, I helped yesterday. No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats.",
+      "instruction": "[18-19] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the best for the blank."
+        "Neurobiologists had previously shown that rats are normally enthusiastic helpers.",
+        "If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one.",
+        "It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously).",
+        "They don't have to know the individual rat, but they have to know the type of rat.",
+        "These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion.",
+        "To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did.",
+        "Then they added to the enclosure not just one free rat but two or three.",
+        "When all but one of the free rats was given the anti-anxiety drugs that caused passivity __________ another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help.",
+        "He'd help once.",
+        "He would not help again.",
+        "Researchers say the rat would not help the next day or the day afterward as a rat normally would.",
+        "It is essentially as though this rat says, 'Well, you know what, I helped yesterday.",
+        "No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats."
       ],
       "question": "Choose the best for the blank.",
       "choices": [
@@ -594,14 +586,25 @@
           "label": "④",
           "text": "instead of"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] Neurobiologists had previously shown that rats are normally enthusiastic helpers. If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one. It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously). They don't have to know the individual rat, but they have to know the type of rat. These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion. To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did. Then they added to the enclosure not just one free rat but two or three. When all but one of the free rats was given the anti-anxiety drugs that caused passivity another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help. He'd help once. He would not help again. Researchers say the rat would not help the next day or the day afterward as a rat normally would. It is essentially as though this rat says, 'Well, you know what, I helped yesterday. No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① in the face of\n② because of\n③ on top of\n④ instead of"
+      ]
     },
     {
       "number": 19,
-      "instruction": "Read the following passages and answer the questions.  [18-19] Neurobiologists had previously shown that rats are normally enthusiastic helpers. If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one. It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously). They don't have to know the individual rat, but they have to know the type of rat. These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion. To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did. Then they added to the enclosure not just one free rat but two or three. When all but one of the free rats was given the anti-anxiety drugs that caused passivity another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help. He'd help once. He would not help again. Researchers say the rat would not help the next day or the day afterward as a rat normally would. It is essentially as though this rat says, 'Well, you know what, I helped yesterday. No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats.",
+      "instruction": "[18-19] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "Neurobiologists had previously shown that rats are normally enthusiastic helpers.",
+        "If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one.",
+        "It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously).",
+        "They don't have to know the individual rat, but they have to know the type of rat.",
+        "These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion.",
+        "To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did.",
+        "Then they added to the enclosure not just one free rat but two or three.",
+        "When all but one of the free rats was given the anti-anxiety drugs that caused passivity __________ another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help.",
+        "He'd help once.",
+        "He would not help again.",
+        "Researchers say the rat would not help the next day or the day afterward as a rat normally would.",
+        "It is essentially as though this rat says, 'Well, you know what, I helped yesterday.",
+        "No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -619,16 +622,29 @@
         },
         {
           "label": "④",
-          "text": "Group presence can affect individual action. [20-21] While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling. Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate. Those emissions will keep raising global temperatures. To stop temperatures from rising, greenhouse gas emissions need to fall to zero. \"At this point of peaking, your emissions are at the all-time high,\" experts say. \"That means that you're actually doing the most damage possible to the climate system per year. And so what matters most is how quickly you can get out of that high-damage zone.\" It's like driving a car . Hitting peak emissions is like taking your foot off the gas pedal. \"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say. At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100. Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs. Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal. Still, a peak in emissions would mark an important turning point in global negotiations. We are still, to some extent, masters of our fates and we can control how much warming there is."
+          "text": "Group presence can affect individual action."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the following passages and answer the questions.  [18-19] Neurobiologists had previously shown that rats are normally enthusiastic helpers. If a rat encounters another rat that is trapped in a holder made from a clear acrylic tube, the free rat will explore the tube and figure out how to release the trapped one. It will do this over and over again, even for rat strangers (as long as the trapped rat belongs to a strain that they have lived with previously). They don't have to know the individual rat, but they have to know the type of rat. These rat rescuers seem to be motivated by the internal distress they feel at another's plight - because when researchers gave the free rats a \"chill pill,\" an anti-anxiety drug - the animals would no longer work to release their trapped companion. To test out the bystander effect in rats, the researchers trapped one rat in the acrylic tube, as they usually did. Then they added to the enclosure not just one free rat but two or three. When all but one of the free rats was given the anti-anxiety drugs that caused passivity another's need, the researcher saw a definite effect on the non-drugged rat's willingness to help. He'd help once. He would not help again. Researchers say the rat would not help the next day or the day afterward as a rat normally would. It is essentially as though this rat says, 'Well, you know what, I helped yesterday. No one cared - not doing that again.' The researchers note that when none of the rats was drugged into passivity, rats that had other free companions started to help much more quickly than they did when alone, suggesting the companions' positive reactions may have spurred on the helpful rats.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Rats make moral decisions.\n② The presence of other individuals makes the helpers less likely to act.\n③ Helping behavior does not decrease over time.\n④ Group presence can affect individual action. [20-21] While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling. Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate. Those emissions will keep raising global temperatures. To stop temperatures from rising, greenhouse gas emissions need to fall to zero. \"At this point of peaking, your emissions are at the all-time high,\" experts say. \"That means that you're actually doing the most damage possible to the climate system per year. And so what matters most is how quickly you can get out of that high-damage zone.\" It's like driving a car . Hitting peak emissions is like taking your foot off the gas pedal. \"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say. At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100. Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs. Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal. Still, a peak in emissions would mark an important turning point in global negotiations. We are still, to some extent, masters of our fates and we can control how much warming there is."
+      ]
     },
     {
       "number": 20,
-      "instruction": "While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling. Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate. Those emissions will keep raising global temperatures. To stop temperatures from rising, greenhouse gas emissions need to fall to zero. \"At this point of peaking, your emissions are at the all-time high,\" experts say. \"That means that you're actually doing the most damage possible to the climate system per year. And so what matters most is how quickly you can get out of that high-damage zone.\" It's like driving a car . Hitting peak emissions is like taking your foot off the gas pedal. \"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say. At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100. Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs. Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal. Still, a peak in emissions would mark an important turning point in global negotiations. We are still, to some extent, masters of our fates and we can control how much warming there is.",
+      "instruction": "[20-21] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the best for the blank."
+        "While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling.",
+        "Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate.",
+        "Those emissions will keep raising global temperatures.",
+        "To stop temperatures from rising, greenhouse gas emissions need to fall to zero.",
+        "\"At this point of peaking, your emissions are at the all-time high,\" experts say.",
+        "\"That means that you're actually doing the most damage possible to the climate system per year.",
+        "And so what matters most is how quickly you can get out of that high-damage zone.\"",
+        "It's like driving a car __________.",
+        "Hitting peak emissions is like taking your foot off the gas pedal.",
+        "\"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say.",
+        "At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100.",
+        "Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs.",
+        "Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal.",
+        "Still, a peak in emissions would mark an important turning point in global negotiations.",
+        "We are still, to some extent, masters of our fates and we can control how much warming there is."
       ],
       "question": "Choose the best for the blank.",
       "choices": [
@@ -648,14 +664,27 @@
           "label": "④",
           "text": "under the influence"
         }
-      ],
-      "raw_text": "INSTRUCTION: While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling. Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate. Those emissions will keep raising global temperatures. To stop temperatures from rising, greenhouse gas emissions need to fall to zero. \"At this point of peaking, your emissions are at the all-time high,\" experts say. \"That means that you're actually doing the most damage possible to the climate system per year. And so what matters most is how quickly you can get out of that high-damage zone.\" It's like driving a car . Hitting peak emissions is like taking your foot off the gas pedal. \"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say. At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100. Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs. Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal. Still, a peak in emissions would mark an important turning point in global negotiations. We are still, to some extent, masters of our fates and we can control how much warming there is.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① at dangerous speeds\n② without a license\n③ while fatigued\n④ under the influence"
+      ]
     },
     {
       "number": 21,
-      "instruction": "While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling. Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate. Those emissions will keep raising global temperatures. To stop temperatures from rising, greenhouse gas emissions need to fall to zero. \"At this point of peaking, your emissions are at the all-time high,\" experts say. \"That means that you're actually doing the most damage possible to the climate system per year. And so what matters most is how quickly you can get out of that high-damage zone.\" It's like driving a car . Hitting peak emissions is like taking your foot off the gas pedal. \"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say. At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100. Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs. Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal. Still, a peak in emissions would mark an important turning point in global negotiations. We are still, to some extent, masters of our fates and we can control how much warming there is.",
+      "instruction": "[20-21] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What would be the best title of the passage above?"
+        "While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling.",
+        "Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate.",
+        "Those emissions will keep raising global temperatures.",
+        "To stop temperatures from rising, greenhouse gas emissions need to fall to zero.",
+        "\"At this point of peaking, your emissions are at the all-time high,\" experts say.",
+        "\"That means that you're actually doing the most damage possible to the climate system per year.",
+        "And so what matters most is how quickly you can get out of that high-damage zone.\"",
+        "It's like driving a car __________.",
+        "Hitting peak emissions is like taking your foot off the gas pedal.",
+        "\"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say.",
+        "At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100.",
+        "Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs.",
+        "Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal.",
+        "Still, a peak in emissions would mark an important turning point in global negotiations.",
+        "We are still, to some extent, masters of our fates and we can control how much warming there is."
       ],
       "question": "What would be the best title of the passage above?",
       "choices": [
@@ -673,16 +702,39 @@
         },
         {
           "label": "④",
-          "text": "A sudden climb to the peak can backfire [22-23] When you shop, there's usually a in your brain between what can be described as its emotional and rational parts. Spotting something you'd like to buy activates your brain's reward circuitry. Dopamine-fueled impulses pump you up. Anticipation might have you imagining how great life would be with this new thing if only you had it. It's especially intense if you're predisposed to like something. The counterbalance is your cognitive mechanism. It might pipe up like a prudent accountant: Do I need this? Is this worth it? How does it fit in my budget? A sale lands like the thumb that tips your mental scale toward buying. In fact, the discount itself often registers as a win, delivering its own bolt of joy. Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing. Stores, of course, know all this and try to push our buttons. Experts say we often subconsciously believe popular things to be more valuable or more rewarding. So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like. They create urgency: Your favorite car is on sale today only! And they create scarcity: Shop now while supplies last! The promotions get people's blood pumping. You attribute it to the product: it must be good. It's really hard to always approach sales rationally. Even experts struggle. One buying strategy experts recommend is to make a shopping list in advance and then stick to it. More importantly, give yourself time to cool off from your instant reaction. The ability to think can override the emotional state. The more you spend time thinking and bring your cognitive processes to bear ... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination."
+          "text": "A sudden climb to the peak can backfire"
         }
-      ],
-      "raw_text": "INSTRUCTION: While a peak in global emissions from burning fossil fuels may only be a few years away, it doesn't mean global temperatures will start falling. Countries will continue to add greenhouse gasses to the atmosphere, just at a slower rate. Those emissions will keep raising global temperatures. To stop temperatures from rising, greenhouse gas emissions need to fall to zero. \"At this point of peaking, your emissions are at the all-time high,\" experts say. \"That means that you're actually doing the most damage possible to the climate system per year. And so what matters most is how quickly you can get out of that high-damage zone.\" It's like driving a car . Hitting peak emissions is like taking your foot off the gas pedal. \"You still have to brake if you want to stop at some point, because there is a wall there and you're driving toward the wall,\" they say. At the COP29 climate summit, countries are negotiating new pledges to cut future emissions, in the hope of limiting warming to 1.5 degrees Celsius above pre-industrial levels by 2100. Beyond that level, the world could see much more destructive storms and floods, as well as irreversible damage to ecosystems like coral reefs. Reaching that goal would require cutting emissions to zero by 2050, though countries' current pledges fall well short of that goal. Still, a peak in emissions would mark an important turning point in global negotiations. We are still, to some extent, masters of our fates and we can control how much warming there is.\nPASSAGE_SENTENCES:\n1. What would be the best title of the passage above?\nQUESTION:\nWhat would be the best title of the passage above?\nCHOICES:\n① Climate goal is just around the corner\n② Renewable energy delays peak emissions\n③ Peaking is only the beginning\n④ A sudden climb to the peak can backfire [22-23] When you shop, there's usually a in your brain between what can be described as its emotional and rational parts. Spotting something you'd like to buy activates your brain's reward circuitry. Dopamine-fueled impulses pump you up. Anticipation might have you imagining how great life would be with this new thing if only you had it. It's especially intense if you're predisposed to like something. The counterbalance is your cognitive mechanism. It might pipe up like a prudent accountant: Do I need this? Is this worth it? How does it fit in my budget? A sale lands like the thumb that tips your mental scale toward buying. In fact, the discount itself often registers as a win, delivering its own bolt of joy. Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing. Stores, of course, know all this and try to push our buttons. Experts say we often subconsciously believe popular things to be more valuable or more rewarding. So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like. They create urgency: Your favorite car is on sale today only! And they create scarcity: Shop now while supplies last! The promotions get people's blood pumping. You attribute it to the product: it must be good. It's really hard to always approach sales rationally. Even experts struggle. One buying strategy experts recommend is to make a shopping list in advance and then stick to it. More importantly, give yourself time to cool off from your instant reaction. The ability to think can override the emotional state. The more you spend time thinking and bring your cognitive processes to bear ... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination."
+      ]
     },
     {
       "number": 22,
-      "instruction": "When you shop, there's usually a in your brain between what can be described as its emotional and rational parts. Spotting something you'd like to buy activates your brain's reward circuitry. Dopamine-fueled impulses pump you up. Anticipation might have you imagining how great life would be with this new thing if only you had it. It's especially intense if you're predisposed to like something. The counterbalance is your cognitive mechanism. It might pipe up like a prudent accountant: Do I need this? Is this worth it? How does it fit in my budget? A sale lands like the thumb that tips your mental scale toward buying. In fact, the discount itself often registers as a win, delivering its own bolt of joy. Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing. Stores, of course, know all this and try to push our buttons. Experts say we often subconsciously believe popular things to be more valuable or more rewarding. So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like. They create urgency: Your favorite car is on sale today only! And they create scarcity: Shop now while supplies last! The promotions get people's blood pumping. You attribute it to the product: it must be good. It's really hard to always approach sales rationally. Even experts struggle. One buying strategy experts recommend is to make a shopping list in advance and then stick to it. More importantly, give yourself time to cool off from your instant reaction. The ability to think can override the emotional state. The more you spend time thinking and bring your cognitive processes to bear ... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination.",
+      "instruction": "[22-23] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the words that best fill in the blank."
+        "When you shop, there's usually a __________ in your brain between what can be described as its emotional and rational parts.",
+        "Spotting something you'd like to buy activates your brain's reward circuitry.",
+        "Dopamine-fueled impulses pump you up.",
+        "Anticipation might have you imagining how great life would be with this new thing if only you had it.",
+        "It's especially intense if you're predisposed to like something.",
+        "The counterbalance is your cognitive mechanism.",
+        "It might pipe up like a prudent accountant: Do I need this?",
+        "Is this worth it?",
+        "How does it fit in my budget?",
+        "A sale lands like the thumb that tips your mental scale toward buying.",
+        "In fact, the discount itself often registers as a win, delivering its own bolt of joy.",
+        "Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing.",
+        "Stores, of course, know all this and try to push our buttons.",
+        "Experts say we often subconsciously believe popular things to be more valuable or more rewarding.",
+        "So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like.",
+        "They create urgency: Your favorite car is on sale today only!",
+        "And they create scarcity: Shop now while supplies last!",
+        "The promotions get people's blood pumping.",
+        "You attribute it to the product: it must be good.",
+        "It's really hard to always approach sales rationally.",
+        "Even experts struggle.",
+        "One buying strategy experts recommend is to make a shopping list in advance and then stick to it.",
+        "More importantly, give yourself time to cool off from your instant reaction.",
+        "The ability to think can override the emotional state.",
+        "The more you spend time thinking and bring your cognitive processes to bear... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination."
       ],
       "question": "Choose the words that best fill in the blank.",
       "choices": [
@@ -702,14 +754,37 @@
           "label": "④",
           "text": "standoff"
         }
-      ],
-      "raw_text": "INSTRUCTION: When you shop, there's usually a in your brain between what can be described as its emotional and rational parts. Spotting something you'd like to buy activates your brain's reward circuitry. Dopamine-fueled impulses pump you up. Anticipation might have you imagining how great life would be with this new thing if only you had it. It's especially intense if you're predisposed to like something. The counterbalance is your cognitive mechanism. It might pipe up like a prudent accountant: Do I need this? Is this worth it? How does it fit in my budget? A sale lands like the thumb that tips your mental scale toward buying. In fact, the discount itself often registers as a win, delivering its own bolt of joy. Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing. Stores, of course, know all this and try to push our buttons. Experts say we often subconsciously believe popular things to be more valuable or more rewarding. So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like. They create urgency: Your favorite car is on sale today only! And they create scarcity: Shop now while supplies last! The promotions get people's blood pumping. You attribute it to the product: it must be good. It's really hard to always approach sales rationally. Even experts struggle. One buying strategy experts recommend is to make a shopping list in advance and then stick to it. More importantly, give yourself time to cool off from your instant reaction. The ability to think can override the emotional state. The more you spend time thinking and bring your cognitive processes to bear ... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination.\nPASSAGE_SENTENCES:\n1. Choose the words that best fill in the blank.\nQUESTION:\nChoose the words that best fill in the blank.\nCHOICES:\n① hiatus\n② recognition\n③ handoff\n④ standoff"
+      ]
     },
     {
       "number": 23,
-      "instruction": "When you shop, there's usually a in your brain between what can be described as its emotional and rational parts. Spotting something you'd like to buy activates your brain's reward circuitry. Dopamine-fueled impulses pump you up. Anticipation might have you imagining how great life would be with this new thing if only you had it. It's especially intense if you're predisposed to like something. The counterbalance is your cognitive mechanism. It might pipe up like a prudent accountant: Do I need this? Is this worth it? How does it fit in my budget? A sale lands like the thumb that tips your mental scale toward buying. In fact, the discount itself often registers as a win, delivering its own bolt of joy. Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing. Stores, of course, know all this and try to push our buttons. Experts say we often subconsciously believe popular things to be more valuable or more rewarding. So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like. They create urgency: Your favorite car is on sale today only! And they create scarcity: Shop now while supplies last! The promotions get people's blood pumping. You attribute it to the product: it must be good. It's really hard to always approach sales rationally. Even experts struggle. One buying strategy experts recommend is to make a shopping list in advance and then stick to it. More importantly, give yourself time to cool off from your instant reaction. The ability to think can override the emotional state. The more you spend time thinking and bring your cognitive processes to bear ... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination.",
+      "instruction": "[22-23] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "When you shop, there's usually a __________ in your brain between what can be described as its emotional and rational parts.",
+        "Spotting something you'd like to buy activates your brain's reward circuitry.",
+        "Dopamine-fueled impulses pump you up.",
+        "Anticipation might have you imagining how great life would be with this new thing if only you had it.",
+        "It's especially intense if you're predisposed to like something.",
+        "The counterbalance is your cognitive mechanism.",
+        "It might pipe up like a prudent accountant: Do I need this?",
+        "Is this worth it?",
+        "How does it fit in my budget?",
+        "A sale lands like the thumb that tips your mental scale toward buying.",
+        "In fact, the discount itself often registers as a win, delivering its own bolt of joy.",
+        "Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing.",
+        "Stores, of course, know all this and try to push our buttons.",
+        "Experts say we often subconsciously believe popular things to be more valuable or more rewarding.",
+        "So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like.",
+        "They create urgency: Your favorite car is on sale today only!",
+        "And they create scarcity: Shop now while supplies last!",
+        "The promotions get people's blood pumping.",
+        "You attribute it to the product: it must be good.",
+        "It's really hard to always approach sales rationally.",
+        "Even experts struggle.",
+        "One buying strategy experts recommend is to make a shopping list in advance and then stick to it.",
+        "More importantly, give yourself time to cool off from your instant reaction.",
+        "The ability to think can override the emotional state.",
+        "The more you spend time thinking and bring your cognitive processes to bear... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -727,18 +802,36 @@
         },
         {
           "label": "④",
-          "text": "Emotions do not play a role in decision-making when buying products. [24-25] We had a VHS player. We had a landline telephone with an answering machine that played these little tapes. And none of that technology is around today. The reason it is not around - creative destruction. A phrase that an economist named Joseph Schumpeter came up with. That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete. Creative destruction is why none of the technology from childhood exists today except the graphing calculator. (A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever. They could do calculus and absolutely nothing else. Texas Instrument, or TI, is still making these calculators, and they look exactly the same. (B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera. But we don't. That fact is what makes these calculators special. In fact, if the graphing calculator were connected to the Internet, it would be less valuable. There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do. The graphing calculator did once represent cutting-edge technology. And it took standardized test designers years before they would allow graphing calculators to be used on their tests. These test makers worried that the calculators would give students an unfair advantage. (C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet. (D) Its value lies in the fact that technology skipped over it."
+          "text": "Emotions do not play a role in decision-making when buying products."
         }
-      ],
-      "raw_text": "INSTRUCTION: When you shop, there's usually a in your brain between what can be described as its emotional and rational parts. Spotting something you'd like to buy activates your brain's reward circuitry. Dopamine-fueled impulses pump you up. Anticipation might have you imagining how great life would be with this new thing if only you had it. It's especially intense if you're predisposed to like something. The counterbalance is your cognitive mechanism. It might pipe up like a prudent accountant: Do I need this? Is this worth it? How does it fit in my budget? A sale lands like the thumb that tips your mental scale toward buying. In fact, the discount itself often registers as a win, delivering its own bolt of joy. Not only are we getting the product but we're also getting that reward that we discovered something, we've earned this extra thing. Stores, of course, know all this and try to push our buttons. Experts say we often subconsciously believe popular things to be more valuable or more rewarding. So stores appeal to our crowd mentality: It's Black Friday, and everyone's shopping, buying that thing you'd like. They create urgency: Your favorite car is on sale today only! And they create scarcity: Shop now while supplies last! The promotions get people's blood pumping. You attribute it to the product: it must be good. It's really hard to always approach sales rationally. Even experts struggle. One buying strategy experts recommend is to make a shopping list in advance and then stick to it. More importantly, give yourself time to cool off from your instant reaction. The ability to think can override the emotional state. The more you spend time thinking and bring your cognitive processes to bear ... you have a shot at basically saying, 'No, I think I'm going to pass,' even though that wasn't your first inclination.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① The human brain has essentially evolved to feel first and think next.\n② People are hardly influenced by marketing strategies.\n③ Consumers have a natural urge to buy expensive products.\n④ Emotions do not play a role in decision-making when buying products. [24-25] We had a VHS player. We had a landline telephone with an answering machine that played these little tapes. And none of that technology is around today. The reason it is not around - creative destruction. A phrase that an economist named Joseph Schumpeter came up with. That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete. Creative destruction is why none of the technology from childhood exists today except the graphing calculator. (A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever. They could do calculus and absolutely nothing else. Texas Instrument, or TI, is still making these calculators, and they look exactly the same. (B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera. But we don't. That fact is what makes these calculators special. In fact, if the graphing calculator were connected to the Internet, it would be less valuable. There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do. The graphing calculator did once represent cutting-edge technology. And it took standardized test designers years before they would allow graphing calculators to be used on their tests. These test makers worried that the calculators would give students an unfair advantage. (C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet. (D) Its value lies in the fact that technology skipped over it."
+      ]
     },
     {
       "number": 24,
-      "instruction": "We had a VHS player. We had a landline telephone with an answering machine that played these little tapes. And none of that technology is around today. The reason it is not around - creative destruction. A phrase that an economist named Joseph Schumpeter came up with. That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete. Creative destruction is why none of the technology from childhood exists today except the graphing calculator. (A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever. They could do calculus and absolutely nothing else. Texas Instrument, or TI, is still making these calculators, and they look exactly the same. (B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera. But we don't. That fact is what makes these calculators special. In fact, if the graphing calculator were connected to the Internet, it would be less valuable. There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do. The graphing calculator did once represent cutting-edge technology. And it took standardized test designers years before they would allow graphing calculators to be used on their tests. These test makers worried that the calculators would give students an unfair advantage. (C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet. (D) Its value lies in the fact that technology skipped over it.",
+      "instruction": "[24-25] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Now it's exactly the opposite."
+        "We had a VHS player.",
+        "We had a landline telephone with an answering machine that played these little tapes.",
+        "And none of that technology is around today.",
+        "The reason it is not around - creative destruction.",
+        "A phrase that an economist named Joseph Schumpeter came up with.",
+        "That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete.",
+        "Creative destruction is why none of the technology from childhood exists today except the graphing calculator.",
+        "(A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever.",
+        "They could do calculus and absolutely nothing else.",
+        "Texas Instrument, or TI, is still making these calculators, and they look exactly the same.",
+        "(B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera.",
+        "But we don't.",
+        "That fact is what makes these calculators special.",
+        "In fact, if the graphing calculator were connected to the Internet, it would be less valuable.",
+        "There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do.",
+        "The graphing calculator did once represent cutting-edge technology.",
+        "And it took standardized test designers years before they would allow graphing calculators to be used on their tests.",
+        "These test makers worried that the calculators would give students an unfair advantage.",
+        "(C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet.",
+        "(D) Its value lies in the fact that technology skipped over it."
       ],
-      "question": "Find the best place for the following sentence.",
+      "question": "Find the best place for the following sentence.\n\nNow it's exactly the opposite.",
       "choices": [
         {
           "label": "①",
@@ -756,14 +849,32 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: We had a VHS player. We had a landline telephone with an answering machine that played these little tapes. And none of that technology is around today. The reason it is not around - creative destruction. A phrase that an economist named Joseph Schumpeter came up with. That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete. Creative destruction is why none of the technology from childhood exists today except the graphing calculator. (A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever. They could do calculus and absolutely nothing else. Texas Instrument, or TI, is still making these calculators, and they look exactly the same. (B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera. But we don't. That fact is what makes these calculators special. In fact, if the graphing calculator were connected to the Internet, it would be less valuable. There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do. The graphing calculator did once represent cutting-edge technology. And it took standardized test designers years before they would allow graphing calculators to be used on their tests. These test makers worried that the calculators would give students an unfair advantage. (C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet. (D) Its value lies in the fact that technology skipped over it.\nPASSAGE_SENTENCES:\n1. Now it's exactly the opposite.\nQUESTION:\nFind the best place for the following sentence.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 25,
-      "instruction": "We had a VHS player. We had a landline telephone with an answering machine that played these little tapes. And none of that technology is around today. The reason it is not around - creative destruction. A phrase that an economist named Joseph Schumpeter came up with. That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete. Creative destruction is why none of the technology from childhood exists today except the graphing calculator. (A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever. They could do calculus and absolutely nothing else. Texas Instrument, or TI, is still making these calculators, and they look exactly the same. (B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera. But we don't. That fact is what makes these calculators special. In fact, if the graphing calculator were connected to the Internet, it would be less valuable. There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do. The graphing calculator did once represent cutting-edge technology. And it took standardized test designers years before they would allow graphing calculators to be used on their tests. These test makers worried that the calculators would give students an unfair advantage. (C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet. (D) Its value lies in the fact that technology skipped over it.",
+      "instruction": "[24-25] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "We had a VHS player.",
+        "We had a landline telephone with an answering machine that played these little tapes.",
+        "And none of that technology is around today.",
+        "The reason it is not around - creative destruction.",
+        "A phrase that an economist named Joseph Schumpeter came up with.",
+        "That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete.",
+        "Creative destruction is why none of the technology from childhood exists today except the graphing calculator.",
+        "(A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever.",
+        "They could do calculus and absolutely nothing else.",
+        "Texas Instrument, or TI, is still making these calculators, and they look exactly the same.",
+        "(B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera.",
+        "But we don't.",
+        "That fact is what makes these calculators special.",
+        "In fact, if the graphing calculator were connected to the Internet, it would be less valuable.",
+        "There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do.",
+        "The graphing calculator did once represent cutting-edge technology.",
+        "And it took standardized test designers years before they would allow graphing calculators to be used on their tests.",
+        "These test makers worried that the calculators would give students an unfair advantage.",
+        "(C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet.",
+        "(D) Its value lies in the fact that technology skipped over it."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -781,16 +892,38 @@
         },
         {
           "label": "④",
-          "text": "Graphing calculators are like islands where creative destruction doesn't reach. [26-27] A new research takes a look at gains and losses and the very different ways in which we think about them. It's called loss aversion. Let's say you go to a casino and you plunk down a bet and you lose $50. Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further? While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before. When you frame choices in that way, human beings exhibit real consistent risk acceptance. The interesting thing is that people seem much more willing to place the second bet than to place the first bet. That's because with the first bet you're hoping to win something. With the second bet what you're really trying to do is to head off the loss. Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains. This bias actually extends to countries. The study has just analyzed 100 trade disputes between the United States and other countries. They divided these disputes into two groups. In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs. In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result. So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss. What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss. The study finds this is exactly what happens at the national level. When a dispute is framed as jobs being lost, exactly like the guy in the casino, . Everyone is in the same psychological basket, so to say. So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror. That's what loss aversion is. It's not a good idea when you're driving. It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy."
+          "text": "Graphing calculators are like islands where creative destruction doesn't reach."
         }
-      ],
-      "raw_text": "INSTRUCTION: We had a VHS player. We had a landline telephone with an answering machine that played these little tapes. And none of that technology is around today. The reason it is not around - creative destruction. A phrase that an economist named Joseph Schumpeter came up with. That is the idea that the economy is always evolving, that there are new products that are constantly being invented, and those inventions make the old products obsolete. Creative destruction is why none of the technology from childhood exists today except the graphing calculator. (A) The calculators were like the original iPads but without being able to do anything except give you a nice cosine graph or whatever. They could do calculus and absolutely nothing else. Texas Instrument, or TI, is still making these calculators, and they look exactly the same. (B) We could easily add features to our calculators like a touchscreen, Wi-Fi or a camera. But we don't. That fact is what makes these calculators special. In fact, if the graphing calculator were connected to the Internet, it would be less valuable. There wouldn't even be a reason for its existence because it could compromise the test security and really detract from what the calculators are designed to do. The graphing calculator did once represent cutting-edge technology. And it took standardized test designers years before they would allow graphing calculators to be used on their tests. These test makers worried that the calculators would give students an unfair advantage. (C) Graphing calculators are pretty much the only technology that standardized test makers will allow because unlike smartphones or laptops, the graphing calculator is not connected to the Internet. (D) Its value lies in the fact that technology skipped over it.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Standardized tests have fully adapted to technological changes.\n② Old technologies disappear because consumers no longer want them.\n③ Creative destruction only affects consumer dynamics but not tech industrial market.\n④ Graphing calculators are like islands where creative destruction doesn't reach. [26-27] A new research takes a look at gains and losses and the very different ways in which we think about them. It's called loss aversion. Let's say you go to a casino and you plunk down a bet and you lose $50. Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further? While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before. When you frame choices in that way, human beings exhibit real consistent risk acceptance. The interesting thing is that people seem much more willing to place the second bet than to place the first bet. That's because with the first bet you're hoping to win something. With the second bet what you're really trying to do is to head off the loss. Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains. This bias actually extends to countries. The study has just analyzed 100 trade disputes between the United States and other countries. They divided these disputes into two groups. In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs. In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result. So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss. What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss. The study finds this is exactly what happens at the national level. When a dispute is framed as jobs being lost, exactly like the guy in the casino, . Everyone is in the same psychological basket, so to say. So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror. That's what loss aversion is. It's not a good idea when you're driving. It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy."
+      ]
     },
     {
       "number": 26,
-      "instruction": "A new research takes a look at gains and losses and the very different ways in which we think about them. It's called loss aversion. Let's say you go to a casino and you plunk down a bet and you lose $50. Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further? While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before. When you frame choices in that way, human beings exhibit real consistent risk acceptance. The interesting thing is that people seem much more willing to place the second bet than to place the first bet. That's because with the first bet you're hoping to win something. With the second bet what you're really trying to do is to head off the loss. Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains. This bias actually extends to countries. The study has just analyzed 100 trade disputes between the United States and other countries. They divided these disputes into two groups. In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs. In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result. So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss. What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss. The study finds this is exactly what happens at the national level. When a dispute is framed as jobs being lost, exactly like the guy in the casino, . Everyone is in the same psychological basket, so to say. So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror. That's what loss aversion is. It's not a good idea when you're driving. It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy.",
+      "instruction": "[26-27] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the best for the blank."
+        "A new research takes a look at gains and losses and the very different ways in which we think about them.",
+        "It's called loss aversion.",
+        "Let's say you go to a casino and you plunk down a bet and you lose $50.",
+        "Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further?",
+        "While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before.",
+        "When you frame choices in that way, human beings exhibit real consistent risk acceptance.",
+        "The interesting thing is that people seem much more willing to place the second bet than to place the first bet.",
+        "That's because with the first bet you're hoping to win something.",
+        "With the second bet what you're really trying to do is to head off the loss.",
+        "Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains.",
+        "This bias actually extends to countries.",
+        "The study has just analyzed 100 trade disputes between the United States and other countries.",
+        "They divided these disputes into two groups.",
+        "In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs.",
+        "In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result.",
+        "So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss.",
+        "What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss.",
+        "The study finds this is exactly what happens at the national level.",
+        "When a dispute is framed as jobs being lost, exactly like the guy in the casino, __________.",
+        "Everyone is in the same psychological basket, so to say.",
+        "So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror.",
+        "That's what loss aversion is.",
+        "It's not a good idea when you're driving.",
+        "It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy."
       ],
       "question": "Choose the best for the blank.",
       "choices": [
@@ -810,14 +943,36 @@
           "label": "④",
           "text": "the authorities steer clear of dangerous gambles"
         }
-      ],
-      "raw_text": "INSTRUCTION: A new research takes a look at gains and losses and the very different ways in which we think about them. It's called loss aversion. Let's say you go to a casino and you plunk down a bet and you lose $50. Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further? While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before. When you frame choices in that way, human beings exhibit real consistent risk acceptance. The interesting thing is that people seem much more willing to place the second bet than to place the first bet. That's because with the first bet you're hoping to win something. With the second bet what you're really trying to do is to head off the loss. Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains. This bias actually extends to countries. The study has just analyzed 100 trade disputes between the United States and other countries. They divided these disputes into two groups. In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs. In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result. So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss. What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss. The study finds this is exactly what happens at the national level. When a dispute is framed as jobs being lost, exactly like the guy in the casino, . Everyone is in the same psychological basket, so to say. So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror. That's what loss aversion is. It's not a good idea when you're driving. It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy.\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① U.S. policymakers pull out all the stops and fight\n② American leaders drop the ball and fail to take action\n③ policymakers retreat from the battle\n④ the authorities steer clear of dangerous gambles"
+      ]
     },
     {
       "number": 27,
-      "instruction": "A new research takes a look at gains and losses and the very different ways in which we think about them. It's called loss aversion. Let's say you go to a casino and you plunk down a bet and you lose $50. Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further? While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before. When you frame choices in that way, human beings exhibit real consistent risk acceptance. The interesting thing is that people seem much more willing to place the second bet than to place the first bet. That's because with the first bet you're hoping to win something. With the second bet what you're really trying to do is to head off the loss. Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains. This bias actually extends to countries. The study has just analyzed 100 trade disputes between the United States and other countries. They divided these disputes into two groups. In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs. In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result. So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss. What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss. The study finds this is exactly what happens at the national level. When a dispute is framed as jobs being lost, exactly like the guy in the casino, . Everyone is in the same psychological basket, so to say. So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror. That's what loss aversion is. It's not a good idea when you're driving. It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy.",
+      "instruction": "[26-27] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "A new research takes a look at gains and losses and the very different ways in which we think about them.",
+        "It's called loss aversion.",
+        "Let's say you go to a casino and you plunk down a bet and you lose $50.",
+        "Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further?",
+        "While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before.",
+        "When you frame choices in that way, human beings exhibit real consistent risk acceptance.",
+        "The interesting thing is that people seem much more willing to place the second bet than to place the first bet.",
+        "That's because with the first bet you're hoping to win something.",
+        "With the second bet what you're really trying to do is to head off the loss.",
+        "Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains.",
+        "This bias actually extends to countries.",
+        "The study has just analyzed 100 trade disputes between the United States and other countries.",
+        "They divided these disputes into two groups.",
+        "In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs.",
+        "In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result.",
+        "So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss.",
+        "What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss.",
+        "The study finds this is exactly what happens at the national level.",
+        "When a dispute is framed as jobs being lost, exactly like the guy in the casino, __________.",
+        "Everyone is in the same psychological basket, so to say.",
+        "So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror.",
+        "That's what loss aversion is.",
+        "It's not a good idea when you're driving.",
+        "It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy."
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -835,16 +990,37 @@
         },
         {
           "label": "④",
-          "text": "Loss aversion can lead to efficient resource allocation in national policies. [28-30] Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?"
+          "text": "Loss aversion can lead to efficient resource allocation in national policies."
         }
-      ],
-      "raw_text": "INSTRUCTION: A new research takes a look at gains and losses and the very different ways in which we think about them. It's called loss aversion. Let's say you go to a casino and you plunk down a bet and you lose $50. Now the question is do you leave or do you try and dig yourself out of the hole by gambling a little further? While the gamble is biased in the favor of the house, there's some chance that you might win and get back to where you were before. When you frame choices in that way, human beings exhibit real consistent risk acceptance. The interesting thing is that people seem much more willing to place the second bet than to place the first bet. That's because with the first bet you're hoping to win something. With the second bet what you're really trying to do is to head off the loss. Loss aversion theory suggests that the desire to avoid losses is wired more strongly into the brain than the desire to achieve gains. This bias actually extends to countries. The study has just analyzed 100 trade disputes between the United States and other countries. They divided these disputes into two groups. In one group, the U.S. was trying to open up a new market that had been closed to U.S. companies so there was a potential gain here in terms of markets and jobs. In the other groups, there was already trade between the U.S. and the other country where there was some dispute and the U.S. was arguing that the other country had clamped down in some way and that American companies were now losing market share and losing jobs as a result. So one set of disputes was framed as a potential gain, whereas the other set of disputes was framed as a potential loss. What the theory of loss aversion will predict is that you will fight harder and longer when you're confronting a loss. The study finds this is exactly what happens at the national level. When a dispute is framed as jobs being lost, exactly like the guy in the casino, . Everyone is in the same psychological basket, so to say. So the fundamental idea with loss aversion is that you're driving by looking in the rearview mirror. That's what loss aversion is. It's not a good idea when you're driving. It's not a good idea when you're gambling, and it's certainly not a good idea when it comes to national policy.\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Policymakers always prioritize profits over stability, no matter the cost.\n② Focusing on losses hinders forward-thinking strategies.\n③ Avoiding loss is outweighed by the desire to innovate.\n④ Loss aversion can lead to efficient resource allocation in national policies. [28-30] Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?"
+      ]
     },
     {
       "number": 28,
-      "instruction": "Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?",
+      "instruction": "[28-30] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Choose the best for the blank."
+        "Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world.",
+        "On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos.",
+        "According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included.",
+        "He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking.",
+        "(A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe.",
+        "According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature.",
+        "(B) The concluding paragraph of the article resonates strongly with my own opinion.",
+        "The main point is that it is naive to believe we can have such a thing as __________.",
+        "There are two essential reasons for this belief.",
+        "The first is simply that to make models of nature we need data.",
+        "This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers.",
+        "Any tool has limits of precision and range.",
+        "(C) Tools can and will improve.",
+        "But some shortsightedness will always be unavoidable.",
+        "The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems.",
+        "The same is true with computers, from Alan Turing's undecidability theorem.",
+        "So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown.",
+        "As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before.",
+        "To know it all we would need to know all questions.",
+        "And that, of course, is clearly impossible.",
+        "Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality.",
+        "(D) This is far from a defeatist view; in fact, it is liberating.",
+        "What could be more exciting for us to realize that knowledge is an endless frontier?"
       ],
       "question": "Choose the best for the blank.",
       "choices": [
@@ -864,16 +1040,37 @@
           "label": "④",
           "text": "fundamental principles"
         }
-      ],
-      "raw_text": "INSTRUCTION: Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?\nPASSAGE_SENTENCES:\n1. Choose the best for the blank.\nQUESTION:\nChoose the best for the blank.\nCHOICES:\n① inability to attain universal dynamics\n② complete knowledge of nature\n③ frailty of human nature\n④ fundamental principles"
+      ]
     },
     {
       "number": 29,
-      "instruction": "Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?",
+      "instruction": "[28-30] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "Hence, we are always partially myopic to what goes on."
+        "Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world.",
+        "On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos.",
+        "According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included.",
+        "He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking.",
+        "(A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe.",
+        "According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature.",
+        "(B) The concluding paragraph of the article resonates strongly with my own opinion.",
+        "The main point is that it is naive to believe we can have such a thing as __________.",
+        "There are two essential reasons for this belief.",
+        "The first is simply that to make models of nature we need data.",
+        "This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers.",
+        "Any tool has limits of precision and range.",
+        "(C) Tools can and will improve.",
+        "But some shortsightedness will always be unavoidable.",
+        "The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems.",
+        "The same is true with computers, from Alan Turing's undecidability theorem.",
+        "So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown.",
+        "As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before.",
+        "To know it all we would need to know all questions.",
+        "And that, of course, is clearly impossible.",
+        "Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality.",
+        "(D) This is far from a defeatist view; in fact, it is liberating.",
+        "What could be more exciting for us to realize that knowledge is an endless frontier?"
       ],
-      "question": "Find the best place for the following sentence.",
+      "question": "Find the best place for the following sentence.\n\nHence, we are always partially myopic to what goes on.",
       "choices": [
         {
           "label": "①",
@@ -891,14 +1088,35 @@
           "label": "④",
           "text": "(D)"
         }
-      ],
-      "raw_text": "INSTRUCTION: Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?\nPASSAGE_SENTENCES:\n1. Hence, we are always partially myopic to what goes on.\nQUESTION:\nFind the best place for the following sentence.\nCHOICES:\n① (A)\n② (B)\n③ (C)\n④ (D)"
+      ]
     },
     {
       "number": 30,
-      "instruction": "Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?",
+      "instruction": "[28-30] Read the following passages and answer the questions.",
       "passage_sentences": [
-        "What can be inferred from the passage above?"
+        "Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world.",
+        "On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos.",
+        "According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included.",
+        "He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking.",
+        "(A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe.",
+        "According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature.",
+        "(B) The concluding paragraph of the article resonates strongly with my own opinion.",
+        "The main point is that it is naive to believe we can have such a thing as __________.",
+        "There are two essential reasons for this belief.",
+        "The first is simply that to make models of nature we need data.",
+        "This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers.",
+        "Any tool has limits of precision and range.",
+        "(C) Tools can and will improve.",
+        "But some shortsightedness will always be unavoidable.",
+        "The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems.",
+        "The same is true with computers, from Alan Turing's undecidability theorem.",
+        "So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown.",
+        "As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before.",
+        "To know it all we would need to know all questions.",
+        "And that, of course, is clearly impossible.",
+        "Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality.",
+        "(D) This is far from a defeatist view; in fact, it is liberating.",
+        "What could be more exciting for us to realize that knowledge is an endless frontier?"
       ],
       "question": "What can be inferred from the passage above?",
       "choices": [
@@ -918,8 +1136,8 @@
           "label": "④",
           "text": "The endless pursuit of knowledge delays opportunities for discovery and growth."
         }
-      ],
-      "raw_text": "INSTRUCTION: Last week, I came across an article, \"Beyond Energy, Matter, Time and Space,\" which writes about two recent books with opposite viewpoints concerning what we can and cannot know of the world. On the one hand, we find philosopher Thomas Nagel, and the arguments from his 2012 book Mind and Cosmos. According to Nagel, simple materialism is insufficient to make sense of some of the most complex natural phenomena, life included. He proposes an extension of current ideas, still within the material, but into yet unknown modes of thinking. (A) On the other, we have the idea of MIT physicist Max Tegmark, as explained in his book Our Mathematical Universe. According to Tegmark, math is not just the tool we invent to describe both physical reality and pure rational constructions, but the very essence of nature. (B) The concluding paragraph of the article resonates strongly with my own opinion. The main point is that it is naive to believe we can have such a thing as . There are two essential reasons for this belief. The first is simply that to make models of nature we need data. This data comes from tools of all kinds, from microscopes and particle detectors to telescopes and mass spectrometers. Any tool has limits of precision and range. (C) Tools can and will improve. But some shortsightedness will always be unavoidable. The second reason is that nature itself operates within certain limits: the speed of light and the finite age of the universe delimit how far we can see in space and limit causal relationships; quantum uncertainties delimit what we can say about the position and velocity of submicroscopic objects; math itself has its limits, as Kurt Gödel explores in his incompleteness theorems. The same is true with computers, from Alan Turing's undecidability theorem. So, the image of an island captures our struggle to make sense of things, surrounded by an ocean of the unknown. As the island grows, so do the shores of our ignorance: as we learn more about the world we are able to ask questions we couldn't have anticipated before. To know it all we would need to know all questions. And that, of course, is clearly impossible. Unanswerable questions invoke a feeling of humility, of how science is, in essence, an ongoing mosaic of ideas, a self-correcting narrative of what we can gather of physical reality. (D) This is far from a defeatist view; in fact, it is liberating. What could be more exciting for us to realize that knowledge is an endless frontier?\nPASSAGE_SENTENCES:\n1. What can be inferred from the passage above?\nQUESTION:\nWhat can be inferred from the passage above?\nCHOICES:\n① Science thrives on humility and evolving ideas.\n② Endless questions make discovery discouraging.\n③ Although scientific tools have limits, complete knowledge is possible.\n④ The endless pursuit of knowledge delays opportunities for discovery and growth."
+      ]
     }
-  ]
+  ],
+  "source_pdf": "항공_25_영어.pdf"
 }

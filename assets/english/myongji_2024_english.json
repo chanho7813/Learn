@@ -3,15 +3,13 @@
   "institution_ko": "명지대",
   "year": 2024,
   "exam_kind": "english",
-  "source_text_file": "myongji_2024_english_extracted_complete.txt",
   "question_count": 30,
   "schema": {
     "number": "문제 번호",
     "instruction": "문제 유형/지시문",
-    "passage_sentences": "지문 문장 단위 배열",
+    "passage_sentences": "지문 문장 단위 배열. 렌더링 시 하나의 지문으로 이어서 표시",
     "question": "별도 질문 문구가 있는 경우. 없으면 null",
-    "choices": "보기 배열. label은 ①,② 등 원문 번호",
-    "raw_text": "검수용 원문 블록"
+    "choices": "보기 배열. label은 ①,② 등 원문 번호"
   },
   "questions": [
     {
@@ -38,8 +36,7 @@
           "label": "④",
           "text": "perceptible"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that has the closest meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. It is important to record that there was little, if any, discernible pattern to the distribution of these discursive strategies by age, gender or ethnicity.\nCHOICES:\n① revelatory\n② negative\n③ obvious\n④ perceptible"
+      ]
     },
     {
       "number": 2,
@@ -65,8 +62,7 @@
           "label": "④",
           "text": "achievement"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that has the closest meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. The team's remarkable prowess was a testament to their determination, skill, and exceptional teamwork.\nCHOICES:\n① expertise\n② persistence\n③ camaraderie\n④ achievement"
+      ]
     },
     {
       "number": 3,
@@ -92,8 +88,7 @@
           "label": "④",
           "text": "vehement"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that has the closest meaning to the underlined word.\nPASSAGE_SENTENCES:\n1. She pleaded for the clinic to make an exception but the clinic director remained adamant and would not perform the procedure.\nCHOICES:\n① unyielding\n② pliable\n③ ingenious\n④ vehement"
+      ]
     },
     {
       "number": 4,
@@ -119,8 +114,7 @@
           "label": "④",
           "text": "wrangled"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. In the span of just over a century, cruel practices such as the killing of witches and the persecution of heretics were suddenly ______________, quickly passing from the unexceptionable to the unthinkable.\nCHOICES:\n① emancipated\n② abolished\n③ superimposed\n④ wrangled"
+      ]
     },
     {
       "number": 5,
@@ -146,8 +140,7 @@
           "label": "④",
           "text": "indulgence"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The explorers faced extreme _____________ in cold weather, where the air was thin and freezing.\nCHOICES:\n① fervor\n② adversity\n③ rigidity\n④ indulgence"
+      ]
     },
     {
       "number": 6,
@@ -178,8 +171,7 @@
           "label": "④",
           "text": "beyond what we can directly see"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Matter, as we know it—atoms, stars, planets, trees, rocks and us—accounts for less than 5% of the known universe.\n2. The rest remains somewhat of a mystery.\n3. A dark one.\n4. Astronomers and cosmologists think around 25 percent of our universe is made of something called dark matter, and the remainder—around 70 percent—is that’s known as dark energy.\n5. Dark matter doesn’t interact with light, so we can’t see it.\n6. The only reason we know there’s something out there beyond what we can directly see is because it interacts with gravity.\nCHOICES:\n① accounts for less than 5% of\n② is made of something called dark\n③ that’s known as dark energy\n④ beyond what we can directly see"
+      ]
     },
     {
       "number": 7,
@@ -208,8 +200,7 @@
           "label": "④",
           "text": "who commissioned them"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Under the Mongol emperors, China developed one of the most enduring and successful luxury products in the history of the world—a product which spread in a matter of centuries from grand palaces to simple parlours all over the world: a Chinese blue and white porcelain.\n2. We now think of blue and white as quintessentially Chinese, but that is not how it began.\n3. This archetypal Chinese aesthetic in fact comes from Iran.\n4. Thanks to the long Chinese habit of writing on objects, we know exactly which gods the vases offered to, who commissioned them, and indeed the very day on which they were dedicated.\nCHOICES:\n① which spread in a matter of\n② as quintessentially Chinese\n③ which gods the vases offered to\n④ who commissioned them"
+      ]
     },
     {
       "number": 8,
@@ -241,8 +232,7 @@
           "label": "④",
           "text": "has she been a gentleman physician"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Vaccination, as the Jenner procedure became known after the Latin vacca for cow, proved to be safe and was subsequently taken up globally.\n2. Jenner received many honours and awards, and the work led to the eventual eradication of smallpox in 1976.\n3. Every medical student around the world now learns about Jenner.\n4. Even Blossom, the cow who provided the original cowpox material for Jenner’s experiment, is remembered.\n5. Her hide sits in St George’s Hospital Medical School.\n6. But Wortley Montagu, whose pioneering work laid the groundwork for Jenner’s experiments, is forgotten.\n7. Whether her work would be remembered has she been a gentleman physician, rather than a lady socialite, can only be guessed at.\nCHOICES:\n① proved to be safe and was\n② Her hide sits in St George’s\n③ laid the groundwork for Jenner’s experiments\n④ has she been a gentleman physician"
+      ]
     },
     {
       "number": 9,
@@ -271,8 +261,7 @@
           "label": "④",
           "text": "had never lived"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. Today the theory of evolution is about as much open to doubt as the theory that the earth goes round the sun, but the full implications of Darwin’s revolution have yet to be widely realized.\n2. Zoology is still a minority subject in universities, and even those who choose to study it often make its decision without appreciating its profound philosophical significance.\n3. Philosophy is still taught almost as if Darwin had never lived.\n4. No doubt this will change in time.\nCHOICES:\n① as much open to doubt as\n② have yet to be widely realized\n③ its decision without appreciating its profound\n④ had never lived"
+      ]
     },
     {
       "number": 10,
@@ -302,8 +291,7 @@
           "label": "④",
           "text": "he had learned by interrogating the"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the part that is not grammatically acceptable.\nPASSAGE_SENTENCES:\n1. The miscalculations by countless Native American leaders deceived by Europeans were due to the fact that no living inhabitants of the New World had been to the Old World, so of course they could have had no specific information about the Spaniards.\n2. Even so, we find it hard to avoid the conclusion that Inca emperor Atahuallpa should be more suspicious, if only his society had experienced a broader range of human behavior.\n3. Pizarro too arrived at Cajamarca with no information about the Incas other than what he had learned by interrogating the Inca subjects he encountered in 1527.\n4. However, while Pizarro himself was illiterate, he belonged to a literate tradition.\n5. From books, the Spaniards knew of many contemporary civilizations remote from Europe.\nCHOICES:\n① deceived by Europeans were due to\n② could have had no specific information\n③ should be more suspicious\n④ he had learned by interrogating the"
+      ]
     },
     {
       "number": 11,
@@ -333,8 +321,7 @@
           "label": "④",
           "text": "in addition"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Many universities have learned the hard way that parents and students equate the quality of education with the price of tuition.\n2. To increase enrollment and address complaints about the rising costs of education, many boards of trustees reduce tuition.\n3. This, ___________, invariably results in a decrease, not an increase, in student enrollment.\n4. Reducing the price of tuition decreases both the perceived quality of the education offered by the school and the prestige of the school itself, which correspondingly decreases demand.\n5. Conversely, when universities increase the price of tuition, student enrollment increases.\nCHOICES:\n① however\n② for example\n③ therefore\n④ in addition"
+      ]
     },
     {
       "number": 12,
@@ -362,14 +349,13 @@
           "label": "④",
           "text": "recovering its past glory"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. After the mid-Victorian years the British found it difficult to think of themselves as inevitably progressive.\n2. Instead, they began worrying about the degeneration and corruption of their culture, their institutions, their racial “stock.” George Bernard Shaw sharp-wittedly contends that Britain is “________________.” Much of the literary culture of the period expresses similar views.\n3. The decadent movements offer sinister analogies to Roman imperial decline and fall, while realist novelists paint gloomy pictures of contemporary society.\nCHOICES:\n① in an advanced state of rottenness\n② in the heyday of its power\n③ nothing but an arrogant fledgling\n④ recovering its past glory"
+      ]
     },
     {
       "number": 13,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "The chungang focus of modern-day biological theories about supposedly innate sexually mandated patterns of thought and behavior is the notion that _________________.",
+        "The central focus of modern-day biological theories about supposedly innate sexually mandated patterns of thought and behavior is the notion that _________________.",
         "The egg strategy mandates that women be more picky in choosing a mate, have fewer mates, and expend more care and effort than men on nurturing infants and children.",
         "Sperm strategy obliges men to seek to mate with a lot of different females and to spend less care and effort than women on nurturing infants and children.",
         "These two opposed strategies, in turn, reflect the differences between the size and quantity of eggs and sperm.",
@@ -396,8 +382,7 @@
           "label": "④",
           "text": "men and women, by nature, have distinct reproductive strategies"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. The chungang focus of modern-day biological theories about supposedly innate sexually mandated patterns of thought and behavior is the notion that _________________.\n2. The egg strategy mandates that women be more picky in choosing a mate, have fewer mates, and expend more care and effort than men on nurturing infants and children.\n3. Sperm strategy obliges men to seek to mate with a lot of different females and to spend less care and effort than women on nurturing infants and children.\n4. These two opposed strategies, in turn, reflect the differences between the size and quantity of eggs and sperm.\n5. Women have a fixed supply of eggs.\n6. Once pregnant, they cannot have another baby until at least eighteen months go by.\n7. Males, in contrast, produce sperm by the tens of millions.\n8. Since it is the female whose body devotes itself to the task of nurturing the fetus, it is to the reproductive advantage of the males to go about impregnating one female after another in rapid succession.\nCHOICES:\n① men and women have completely distinct genetic mechanisms\n② both sexes, by nature, are in competition with each other\n③ the survival strategies employed by the two sexes are very different\n④ men and women, by nature, have distinct reproductive strategies"
+      ]
     },
     {
       "number": 14,
@@ -408,10 +393,10 @@
         "This little usage difference has long been a fascination for historians.",
         "Many have suspected that the cause was the Civil War.",
         "In fact, James McPherson, a renowned historian, noted bluntly: “The war marked a transition of the United States to a singular noun.” ______________.",
-        "Using big data, researchers could see how frequently American books used the phrase “The United States are . . .” vs.",
-        "“The United States is . . .” for every year in the country’s history.",
+        "Using big data, researchers could see how frequently American books used the phrase “The United States are...” vs.",
+        "“The United States is...” for every year in the country’s history.",
         "The transformation was a little more gradual than McPherson claimed and didn’t accelerate until well after the Civil War ended.",
-        "Fifteen years after the Civil War, there were still more uses of “The United States are . . .” than “The United States is . . .”"
+        "Fifteen years after the Civil War, there were still more uses of “The United States are...” than “The United States is...”"
       ],
       "question": null,
       "choices": [
@@ -431,8 +416,7 @@
           "label": "④",
           "text": "However, nobody believed McPherson’s claim."
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. Americans now use singular verbs with the noun the United States.\n2. However, in the early days of the country, they referred to the United States using the plural form.\n3. This little usage difference has long been a fascination for historians.\n4. Many have suspected that the cause was the Civil War.\n5. In fact, James McPherson, a renowned historian, noted bluntly: “The war marked a transition of the United States to a singular noun.” ______________.\n6. Using big data, researchers could see how frequently American books used the phrase “The United States are . . .” vs. “The United States is . . .” for every year in the country’s history.\n7. The transformation was a little more gradual than McPherson claimed and didn’t accelerate until well after the Civil War ended.\n8. Fifteen years after the Civil War, there were still more uses of “The United States are . . .” than “The United States is . . .”\nCHOICES:\n① And it turns out that McPherson was absolutely right.\n② But it turns out that McPherson wasn’t entirely correct.\n③ However, McPherson’s claim proved to be preposterous.\n④ However, nobody believed McPherson’s claim."
+      ]
     },
     {
       "number": 15,
@@ -462,8 +446,7 @@
           "label": "④",
           "text": "On the contrary"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the one that best fills in the blank.\nPASSAGE_SENTENCES:\n1. In 2008, Barack Obama was running as the first African-American presidential nominee of a major party, and the polls suggested that race was not a factor in how Americans voted. ______________, Gallup conducted numerous polls before and after Obama’s first election.\n2. Their conclusion?\n3. American voters largely did not care that Barack Obama was black.\n4. Shortly after the election, two well-known professors at the University of California, Berkeley pored through other survey-based data and reached a similar conclusion.\n5. And so, during Obama’s presidency, this became the conventional wisdom in many parts of the media and in large swaths of the academy.\nCHOICES:\n① In short\n② For example\n③ In hindsight\n④ On the contrary"
+      ]
     },
     {
       "number": 16,
@@ -500,8 +483,7 @@
           "label": "④",
           "text": "What were some theories about the disappearance of the Mary Celeste’s crew?"
         }
-      ],
-      "raw_text": "INSTRUCTION: Which question cannot be answered about the Mary Celeste?\nPASSAGE_SENTENCES:\n1. The mystery of the Mary Celeste remains an enigmatic maritime tale.\n2. In November 1872, the Mary Celeste, a merchant ship, was discovered adrift in the Atlantic Ocean.\n3. The vessel was intact, fully provisioned, and seaworthy, yet completely devoid of its crew.\n4. Not a soul was on board.\n5. The ship's log indicated that it had set sail from New York for Genoa with a cargo of industrial alcohol.\n6. A month later, a passing British ship found the Mary Celeste floating aimlessly near Portugal.\n7. The crew of the rescuing vessel were baffled as they boarded the ship to find everything seemingly undisturbed—meals partially eaten, personal belongings left behind, and a lifeboat missing.\n8. The fate of the crew remains a maritime mystery.\n9. There were no signs of struggle or foul play.\n10. Speculation swirled, proposing theories of piracy, mutiny, or an attack by a giant sea creature.\n11. However, no definitive explanation emerged.\n12. The truth behind the crew's disappearance aboard the Mary Celeste remains a haunting and unsolved mystery.\nQUESTION:\nWhich question cannot be answered about the Mary Celeste?\nCHOICES:\n① Where was the Mary Celeste found adrift?\n② What cargo was the Mary Celeste carrying?\n③ Who was the captain of the Mary Celeste?\n④ What were some theories about the disappearance of the Mary Celeste’s crew?"
+      ]
     },
     {
       "number": 17,
@@ -531,8 +513,7 @@
           "label": "④",
           "text": "Homo habilis and Homo erectus did not use tools."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following can be correctly inferred from the passage?\nPASSAGE_SENTENCES:\n1. We may never know exactly when human language arose.\n2. However, deduction suggests that it has most likely existed for about 150,000 years.\n3. Archaeological and fossil remains of human beings suggest that some feature possessed by Homo sapiens beyond simple brain size was crucial in enabling this species to speak language and take over the world.\n4. While the brains of earlier species of the genus Homo, such as habilis and erectus, became increasingly larger over the millennia, no cultural development accompanied this increase in brain size.\n5. Only with Homo sapiens do we see an abrupt cultural explosion: symbolic artifacts buried in graves, evidence of nomadic lifestyles following game instead of maintaining one home base, and a major turn in the intricacy of tools.\nQUESTION:\nWhich of the following can be correctly inferred from the passage?\nCHOICES:\n① Brain size was crucial for the development of language.\n② Homo habilis and Homo erectus did not speak language.\n③ Homo habillis and Homo erectus moved around following game.\n④ Homo habilis and Homo erectus did not use tools."
+      ]
     },
     {
       "number": 18,
@@ -569,8 +550,7 @@
           "label": "④",
           "text": "ignore negative thoughts whenever they arise"
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is not a way to overcome depression?\nPASSAGE_SENTENCES:\n1. Depression can pull you into a vortex of sadness, fatigue, and apathy.\n2. Alex Korb, neuroscientist, demystifies the intricate brain processes that cause depression and offers a practical and effective approach to getting better.\n3. Here are some practical tips and tricks: A.\n4. Focus on making one small positive change at a time, such as incorporating a short exercise routine into your day.\n5. B.\n6. Seek out opportunities to connect with others, whether it’s joining a club or volunteering for a cause you care about.\n7. Building meaningful relationships can have a profound impact on your mood.\n8. C.\n9. Create a relaxing bedtime routine, minimize exposure to electronic devices before bed, and create a comfortable sleep environment to improve the quality of your sleep.\n10. D.\n11. When negative thoughts arise, question their validity and look for evidence to the contrary.\n12. Reframe your perspective to focus on the positive aspects of a situation.\nQUESTION:\nWhich of the following is not a way to overcome depression?\nCHOICES:\n① take a short walk everyday\n② volunteer for a cause you care about\n③ avoid using your smartphone for too long before bed\n④ ignore negative thoughts whenever they arise"
+      ]
     },
     {
       "number": 19,
@@ -591,14 +571,13 @@
         },
         {
           "label": "③",
-          "text": "Not to mention vinegar used to pickle meat, fish and vegetables. Most remarkable, perhaps, is the reversal of the infantile aversion to peppery foods. In much of China, chungang America, India and Africa, people expect to experience a tingling, burning, mouth-watering fulsomeness of fiery, hot condiments at every meal."
+          "text": "Not to mention vinegar used to pickle meat, fish and vegetables. Most remarkable, perhaps, is the reversal of the infantile aversion to peppery foods. In much of China, central America, India and Africa, people expect to experience a tingling, burning, mouth-watering fulsomeness of fiery, hot condiments at every meal."
         },
         {
           "label": "④",
           "text": "Take away the chili pepper, and they will be ecstatic with joy. What babies abhor, children and adults learn to crave."
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the sentence that does not belong to the passage.\nPASSAGE_SENTENCES:\n1. Growing up usually leads to marked reversals of some or all innate infantile taste aversion.\n2. The Chinese love their tea scalding hot and bitter.\nQUESTION:\nChoose the sentence that does not belong to the passage.\nCHOICES:\n① Gauchos have their equivalent bitter drink, maté, sucked up hot from a communal cup. Americans savor their morning grapefruit chilled and cut into bite-size pieces.\n② Germans take their meat with dollops of bitter horseradish. Sourness also abounds in world cuisine; sour milk, sour cream, sauerkraut, sourdough, and sour apple.\n③ Not to mention vinegar used to pickle meat, fish and vegetables. Most remarkable, perhaps, is the reversal of the infantile aversion to peppery foods. In much of China, chungang America, India and Africa, people expect to experience a tingling, burning, mouth-watering fulsomeness of fiery, hot condiments at every meal.\n④ Take away the chili pepper, and they will be ecstatic with joy. What babies abhor, children and adults learn to crave."
+      ]
     },
     {
       "number": 20,
@@ -610,7 +589,7 @@
         "It shows how John F.",
         "Kennedy assembled a team with glittering credentials who, for all their technocratic brilliance, led the United States into the folly of the Vietnam War.",
         "Alter saw a similarity between Kennedy’s team and Obama’s, who “shared the Ivy League as well as a certain arrogance and a detachment from the everyday lives of most Americans.” As things turned out, Obama’s economic advisors contributed to a folly of their own, less lethal than Vietnam but consequential nonetheless for the shape of American politics.",
-        "Insisting on a Wall Street–friendly response to the financial crisis, they bailed out the banks without holding them to account, discredited the Democratic Party in the eyes of many people, and helped pave the way to Trump."
+        "Insisting on a Wall Street-friendly response to the financial crisis, they bailed out the banks without holding them to account, discredited the Democratic Party in the eyes of many people, and helped pave the way to Trump."
       ],
       "question": "Which of the following best summarizes the main idea of the passage?",
       "choices": [
@@ -630,8 +609,7 @@
           "label": "④",
           "text": "Credentialism is responsible for most follies of the Kennedy and Obama administrations."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following best summarizes the main idea of the passage?\nPASSAGE_SENTENCES:\n1. Having well-educated people run the government is generally desirable, provided they possess sound judgment.\n2. But history shows little connection between prestigious academic credentials and practical wisdom.\n3. One of the most ruinous examples of credentialism gone awry is described in David Halberstam’s classic book The Best and the Brightest.\n4. It shows how John F.\n5. Kennedy assembled a team with glittering credentials who, for all their technocratic brilliance, led the United States into the folly of the Vietnam War.\n6. Alter saw a similarity between Kennedy’s team and Obama’s, who “shared the Ivy League as well as a certain arrogance and a detachment from the everyday lives of most Americans.” As things turned out, Obama’s economic advisors contributed to a folly of their own, less lethal than Vietnam but consequential nonetheless for the shape of American politics.\n7. Insisting on a Wall Street–friendly response to the financial crisis, they bailed out the banks without holding them to account, discredited the Democratic Party in the eyes of many people, and helped pave the way to Trump.\nQUESTION:\nWhich of the following best summarizes the main idea of the passage?\nCHOICES:\n① The correlation between education and sound judgments is uncontroversial.\n② The government does not need to be run by well-educated people.\n③ According to history, academic credentials and practical wisdom do not always go together.\n④ Credentialism is responsible for most follies of the Kennedy and Obama administrations."
+      ]
     },
     {
       "number": 21,
@@ -664,8 +642,7 @@
           "label": "④",
           "text": "whether scientists agree about the causes of climate change"
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is the passage mainly about?\nPASSAGE_SENTENCES:\n1. Scientists have studied past climate changes to understand the factors that can cause the planet to warm or cool.\n2. The big ones are changes in solar energy, ocean circulation, volcanic activity, and the amount of greenhouse gases in the atmosphere.\n3. However, the warming is best explained by rising greenhouse gas concentrations.\n4. Greenhouse gases have a powerful effect on climate.\n5. And since the Industrial Revolution, humans have been adding more of them to the atmosphere, primarily by extracting and burning fossil fuels like coal, oil, and gas, which releases carbon dioxide.\n6. The rapid increases in greenhouse gases have caused the climate to warm abruptly.\n7. But greenhouse gases aren’t the only climate-altering compounds people put into the air.\n8. Burning fossil fuels also produces pollution that reflects sunlight and cools the planet.\nQUESTION:\nWhich of the following is the passage mainly about?\nCHOICES:\n① how humans cause climate change\n② how bad the effects of greenhouse warming are\n③ whether climate change is real\n④ whether scientists agree about the causes of climate change"
+      ]
     },
     {
       "number": 22,
@@ -678,7 +655,7 @@
         "He began making prophecies in about 1547, and he published his prophecies in a book entitled Centuries (1555).",
         "Nostradamus gained notoriety during his lifetime when some of his predictions appeared to have come true.",
         "Nostradamus’s predictions, which are written in a cryptic and vague manner, tended to be about general types of events like natural disasters and conflict-related events that tend to occur regularly as time goes on.",
-        "Some people believe that his prophecies have predicted actual events, such as the French Revolution, the rise of Adolf Hitler, and the 9/11 attacks.",
+        "Some people believe that his prophecies have predicted actual events, such as the French Revolution, the rise of Adolf Hitler, and the attacks.",
         "Others maintain that because his prophecies tend to be about general types of events that occur frequently throughout history, it’s possible to find one that seems to match almost any event that has occurred."
       ],
       "question": "Which of the following is true about Nostradamus?",
@@ -699,8 +676,7 @@
           "label": "④",
           "text": "His prophecies were written in an obscure and ambiguous style."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is true about Nostradamus?\nPASSAGE_SENTENCES:\n1. Nostradamus was a 16th-century seer.\n2. He and his prophecies are still well known today and continue to be the subject of debate.\n3. Nostradamus was born in France in 1503.\n4. He first worked as a physician and began his medical practice in the 1530s, although he did so without a medical degree.\n5. He began making prophecies in about 1547, and he published his prophecies in a book entitled Centuries (1555).\n6. Nostradamus gained notoriety during his lifetime when some of his predictions appeared to have come true.\n7. Nostradamus’s predictions, which are written in a cryptic and vague manner, tended to be about general types of events like natural disasters and conflict-related events that tend to occur regularly as time goes on.\n8. Some people believe that his prophecies have predicted actual events, such as the French Revolution, the rise of Adolf Hitler, and the 9/11 attacks.\n9. Others maintain that because his prophecies tend to be about general types of events that occur frequently throughout history, it’s possible to find one that seems to match almost any event that has occurred.\nQUESTION:\nWhich of the following is true about Nostradamus?\nCHOICES:\n① He was a doctor with a medical degree before he began making prophecies.\n② It was only after his death that he became famous.\n③ His predictions were primarily about some specific events in history.\n④ His prophecies were written in an obscure and ambiguous style."
+      ]
     },
     {
       "number": 23,
@@ -734,8 +710,7 @@
           "label": "④",
           "text": "[B]-[A]-[C]"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best order after the sentences in the box.\nPASSAGE_SENTENCES:\n1. The scientists conducted an experiment to test the effects of fertilizer on plant growth.\n2. The aim of the study was to unravel the mysteries of plant nourishment.\n3. [A] The experiment unveiled the potent effects of the unique fertilizer formula, highlighting its power in augmenting plant growth and vitality.\n4. The experiment proved the effectiveness of the formula in enhancing plant development.\n5. [B] Over the course of the next few weeks, they diligently monitored the plants' progress, noting every growth spurt, every budding leaf, and every hint of vibrancy.\n6. They observed significant differences between the two groups.\n7. The results were astounding: the plants receiving the special solution exhibited faster growth and brighter, healthier leaves.\n8. [C] For this goal, they selected a diverse range of plants, varying from sturdy shrubs to delicate blossoms.\n9. Then, they divided the plants into two groups, giving one group regular water and the other group water mixed with a special fertilizer.\nQUESTION:\nChoose the best order after the sentences in the box.\nCHOICES:\n① [C]-[A]-[B]\n② [C]-[B]-[A]\n③ [B]-[C]-[A]\n④ [B]-[A]-[C]"
+      ]
     },
     {
       "number": 24,
@@ -769,8 +744,7 @@
           "label": "④",
           "text": "Air Pollution, a Scourge on Planet Earth"
         }
-      ],
-      "raw_text": "INSTRUCTION: Choose the best title for the passage.\nPASSAGE_SENTENCES:\n1. Every time Mithilesh turns on her stove to cook, her eyes begin to burn.\n2. The small home the 29-year-old housewife shares with her husband, daughter, son and elderly in-laws in the slums of the Indian capital Delhi quickly fills up with smoke, making it hard for anyone to see.\n3. She often has difficulty breathing and experiences uncontrolled bouts of coughing.\n4. But even when she steps outside her home, there is little respite.\n5. Delhi, the world's second largest megacity, has some of the worst outdoor air quality in the world.\n6. One recent study published by the Energy Policy Institute at the University of Chicago warned that the lives of residents in India's capital are being cut short by up to 11.9 years compared to if air pollution was reduced to levels recommended by the WHO.\n7. Mithilesh and her family are an extreme example of something happening globally.\n8. Although almost everyone in the world now breathes air that is polluted in some way, those who are worst hit are also the least able to protect themselves or escape from it.\n9. The story of air pollution is one of environmental inequality.\nQUESTION:\nChoose the best title for the passage.\nCHOICES:\n① The Wealth Gap Issue in India\n② Delhi, the City with the Worst Outdoor Air Quality\n③ Clean Air, a Luxury that Many Can't Afford\n④ Air Pollution, a Scourge on Planet Earth"
+      ]
     },
     {
       "number": 25,
@@ -804,8 +778,7 @@
           "label": "④",
           "text": "Well-educated elites are not ashamed of their prejudice against the less-educated."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following is not consistent with the result of the underlined ‘study’?\nPASSAGE_SENTENCES:\n1. In a series of surveys conducted in Western Europe, including the UK and the Netherlands, a team of social psychologists found that college-educated respondents have more bias against less-educated people than they do against other disfavored groups.\n2. The researchers surveyed the attitudes of well-educated Europeans toward a range of people who are typically victims of discrimination—Muslims, people of Turkish descent living in Western Europe, people who are poor, obese, blind, and less educated.\n3. They found that the poorly educated were disliked most of all.\n4. In a similar study conducted in the United States, the researchers offered a revised list of disfavored groups, including African Americans, the working class, and people who are poor, obese, and less-educated.\n5. The American respondents also ranked the less-educated at the bottom.\n6. Beyond showing the disparaging views that college-educated elites have of less-educated people, the authors of the study offer several intriguing conclusions.\n7. Most of all, they challenge the familiar notion that educated elites are morally more enlightened than people with less education, and therefore more tolerant.\n8. The authors conclude that well-educated elites are no less biased than less-educated folk; “it is rather that their targets of prejudice are different.” Moreover, the elites are unembarrassed by their prejudice.\n9. They may denounce racism and sexism but are unapologetic about their negative attitudes toward the less-educated.\nQUESTION:\nWhich of the following is not consistent with the result of the underlined ‘study’?\nCHOICES:\n① The poorly educated are the most disfavored group among college-educated elites both in Western Europe and in America.\n② It challenges the familiar notion that educated elites are more tolerant than people with less education.\n③ Well-educated elites are more biased than less-educated folk.\n④ Well-educated elites are not ashamed of their prejudice against the less-educated."
+      ]
     },
     {
       "number": 26,
@@ -836,8 +809,7 @@
           "label": "④",
           "text": "The decline of large families and changes in lifestyle are alienating and isolating Americans more and more."
         }
-      ],
-      "raw_text": "INSTRUCTION: Which of the following best summarizes the main idea of the passage?\nPASSAGE_SENTENCES:\n1. In Still Connected (2011), the sociologist Claude Fischer reviewed forty years of surveys that asked people about their social relationships.\n2. “The most striking thing about the data,” he noted, “is how consistent Americans’ ties to family and friends were between the 1970s and 2000s.\n3. We rarely find differences of more than a handful of percentage points either way that might describe lasting alterations in behavior with lasting personal consequences.\n4. Yes, Americans entertained less at home and did more phone calling and emailing, but they did not change much on the fundamentals.” Though people have reallocated their time because families are smaller, more people are single, and more women work, Americans today spend as much time with relatives, have the same median number of friends and see them as often, and remain as satisfied with the number and quality of their friendships as their counterparts in the decade of Gerald Ford.\n5. Users of the Internet and social media have more contact with friends, and they feel that the electronic ties have enriched their relationships.\n6. Fischer concluded that human nature rules: “People try to adapt to changing circumstances so as to protect their most highly valued ends, which include sustaining the volume and quality of their personal relationships—time with children, contact with relatives, a few sources of intimate support.”\nQUESTION:\nWhich of the following best summarizes the main idea of the passage?\nCHOICES:\n① Despite the decline of large families and changes in lifestyle, Americans’ ties to family and friends have not changed much since the 1970s.\n② Due to the Internet and social media, Americans are much lonelier today than before.\n③ The Internet and social media are playing a great role in preventing Americans from feeling isolated and alienated.\n④ The decline of large families and changes in lifestyle are alienating and isolating Americans more and more."
+      ]
     },
     {
       "number": 27,
@@ -879,8 +851,7 @@
           "label": "④",
           "text": "How did the horrors of disease and famine trigger a dancing plague?"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. In English, when you do something \"to death,\" it signifies doing it excessively, repeatedly, or until you're completely worn out.\n2. It's a phrase commonly used informally to stress the idea of overdoing something.\n3. Interestingly, there have been instances where people literally 'danced themselves to death.' In 1518, a 'dance plague' saw citizens of French city Strasbourg reportedly dancing uncontrollably for days on end—with fatal results.\n4. On a sweltering summer's day in July 1518, a woman called Frau Troffea stepped into a square in Strasbourg and begun to dance.\n5. At first, those around her only watched, curiosity piqued by this unusual public display.\n6. They watched a woman who would not, could not, stop.\n7. She danced for nearly a week, fell occasionally due to exhaustion but largely undaunted by the body's other warning signs: pain, hunger, shame.\n8. She kept up her solo dance-a-thon, and before long, some three-dozen other Strasbourgeois joined in.\n9. By August, the dancing epidemic had claimed as many as 400 dancing victims.\n10. They danced as if compelled, feet bloodied and limbs twitching, and many of them danced themselves to death.\n11. The Strasbourg dancing plague might sound like the stuff of legend, but it’s well documented in 16th-century historical records.\n12. It’s also not the only known incident of its kind.\n13. Similar manias took place in Switzerland, Germany and Holland, though few were as large—or deadly—as the one in 1518. _______________.\n14. According to historian John Waller, the explanation most likely concerns St.\n15. Vitus, a Catholic saint who pious 16th-century Europeans believed had the power to curse people with a dancing plague.\n16. Other theories have suggested the dancers were members of a religious cult, or even that they accidentally ingested ergot, a toxic mold that produces spasms and hallucinations.\n17. Scientists and historians, however, still aren't sure what led people in Strasbourg to dance themselves to death.\nQUESTION:\nWhich of the following best fits the blank?\nCHOICES:\n① Why did St. Vitus curse the people with a dancing plague?\n② What could have led people to dance themselves to death?\n③ How did religious cults lead people to dance themselves to death?\n④ How did the horrors of disease and famine trigger a dancing plague?"
+      ]
     },
     {
       "number": 28,
@@ -922,8 +893,7 @@
           "label": "④",
           "text": "Some theories linked the 'dance plague' to hallucinations."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. In English, when you do something \"to death,\" it signifies doing it excessively, repeatedly, or until you're completely worn out.\n2. It's a phrase commonly used informally to stress the idea of overdoing something.\n3. Interestingly, there have been instances where people literally 'danced themselves to death.' In 1518, a 'dance plague' saw citizens of French city Strasbourg reportedly dancing uncontrollably for days on end—with fatal results.\n4. On a sweltering summer's day in July 1518, a woman called Frau Troffea stepped into a square in Strasbourg and begun to dance.\n5. At first, those around her only watched, curiosity piqued by this unusual public display.\n6. They watched a woman who would not, could not, stop.\n7. She danced for nearly a week, fell occasionally due to exhaustion but largely undaunted by the body's other warning signs: pain, hunger, shame.\n8. She kept up her solo dance-a-thon, and before long, some three-dozen other Strasbourgeois joined in.\n9. By August, the dancing epidemic had claimed as many as 400 dancing victims.\n10. They danced as if compelled, feet bloodied and limbs twitching, and many of them danced themselves to death.\n11. The Strasbourg dancing plague might sound like the stuff of legend, but it’s well documented in 16th-century historical records.\n12. It’s also not the only known incident of its kind.\n13. Similar manias took place in Switzerland, Germany and Holland, though few were as large—or deadly—as the one in 1518. _______________.\n14. According to historian John Waller, the explanation most likely concerns St.\n15. Vitus, a Catholic saint who pious 16th-century Europeans believed had the power to curse people with a dancing plague.\n16. Other theories have suggested the dancers were members of a religious cult, or even that they accidentally ingested ergot, a toxic mold that produces spasms and hallucinations.\n17. Scientists and historians, however, still aren't sure what led people in Strasbourg to dance themselves to death.\nQUESTION:\nWhich of the following is true according to the passage?\nCHOICES:\n① Frau Troffea danced alone for nearly a week in the cold winter of 1518.\n② 400 victims died during the dancing epidemic in Strasbourg.\n③ The 'dance plague' in Strasbourg was not very well documented.\n④ Some theories linked the 'dance plague' to hallucinations."
+      ]
     },
     {
       "number": 29,
@@ -967,8 +937,7 @@
           "label": "④",
           "text": "[A]-[C]-[B]"
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Everyone knows examples of apparently irrational food habits.\n2. In some countries people like dog meat but despise cow milk; we like cow milk but we won’t eat dogs; some tribes in Brazil relish ants but despise venison.\n3. And so it goes around the world.\n4. [A] The half of the riddle that pertains to pig haters is well known to Jews, Muslims, and Christians.\n5. The god of the ancient Hebrews went out of his way to denounce the pig as unclean, a beast that pollutes if it is tasted or touched.\n6. About 1,500 years later, Allah told his prophet Mohammed that the status of swine was to be the same for the followers of Islam.\n7. Among millions of Jews and hundreds of millions of Muslims, the pig remains an abomination, despite the fact that it can convert grains and tubers into high-grade fats and protein more efficiently than any other animal.\n8. [B] The riddle of the pig strikes me as the best example.\n9. It presents the challenge of having to explain why certain people should hate, while others love, the very same animal.\n10. [C] Less commonly known are the traditions of the fanatic pig lovers.\n11. The pig-loving center of the world is located in New Guinea and the South Pacific Melanesian islands.\n12. To the village-dwelling horticultural tribes of this region, swine are holy animals that must be sacrificed to the ancestors and eaten on all important occasions, such as marriages and funerals.\n13. In many tribes, pigs must be sacrificed to declare war and to make peace.\n14. The tribesmen believe that their departed ancestors crave pork.\n15. So overwhelming is the hunger for pig flesh among both the living and the dead that from time to time huge feasts are organized and almost all of a tribe’s pigs are eaten at once.\n16. For several days in a row, the villagers gorge on great quantities of pork.\n17. When it is all over, the pig herd is so reduced in size that years of painstaking husbandry are needed to rebuild it.\n18. No sooner is this accomplished than preparations are made for another gluttonous orgy.\n19. And so the bizarre cycle of apparent mismanagement goes on.\nQUESTION:\nChoose the best order after the passage in the box.\nCHOICES:\n① [B]-[C]-[A]\n② [B]-[A]-[C]\n③ [A]-[B]-[C]\n④ [A]-[C]-[B]"
+      ]
     },
     {
       "number": 30,
@@ -1012,8 +981,8 @@
           "label": "④",
           "text": "People in the South Pacific Melanesian islands sometimes organize a huge feast of gorging on pigs."
         }
-      ],
-      "raw_text": "INSTRUCTION: Read the passage below and answer the questions that follow.\nPASSAGE_SENTENCES:\n1. Everyone knows examples of apparently irrational food habits.\n2. In some countries people like dog meat but despise cow milk; we like cow milk but we won’t eat dogs; some tribes in Brazil relish ants but despise venison.\n3. And so it goes around the world.\n4. [A] The half of the riddle that pertains to pig haters is well known to Jews, Muslims, and Christians.\n5. The god of the ancient Hebrews went out of his way to denounce the pig as unclean, a beast that pollutes if it is tasted or touched.\n6. About 1,500 years later, Allah told his prophet Mohammed that the status of swine was to be the same for the followers of Islam.\n7. Among millions of Jews and hundreds of millions of Muslims, the pig remains an abomination, despite the fact that it can convert grains and tubers into high-grade fats and protein more efficiently than any other animal.\n8. [B] The riddle of the pig strikes me as the best example.\n9. It presents the challenge of having to explain why certain people should hate, while others love, the very same animal.\n10. [C] Less commonly known are the traditions of the fanatic pig lovers.\n11. The pig-loving center of the world is located in New Guinea and the South Pacific Melanesian islands.\n12. To the village-dwelling horticultural tribes of this region, swine are holy animals that must be sacrificed to the ancestors and eaten on all important occasions, such as marriages and funerals.\n13. In many tribes, pigs must be sacrificed to declare war and to make peace.\n14. The tribesmen believe that their departed ancestors crave pork.\n15. So overwhelming is the hunger for pig flesh among both the living and the dead that from time to time huge feasts are organized and almost all of a tribe’s pigs are eaten at once.\n16. For several days in a row, the villagers gorge on great quantities of pork.\n17. When it is all over, the pig herd is so reduced in size that years of painstaking husbandry are needed to rebuild it.\n18. No sooner is this accomplished than preparations are made for another gluttonous orgy.\n19. And so the bizarre cycle of apparent mismanagement goes on.\nQUESTION:\nWhich of the following is not true according to the passage?\nCHOICES:\n① Both Jews and Muslims hate pigs since they are useless animals.\n② Pigs are considered sacred in New Guinea.\n③ Many tribes in the South Pacific Melanesian islands sacrifice pigs to declare war.\n④ People in the South Pacific Melanesian islands sometimes organize a huge feast of gorging on pigs."
+      ]
     }
-  ]
+  ],
+  "source_pdf": "명지 24 영어_260415_151255.pdf"
 }
