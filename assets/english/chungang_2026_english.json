@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Throughout prolonged negotiations, he remained notably obdurate in his refusal to alter his position."
+        "Throughout prolonged negotiations, he remained notably <u>obdurate</u> in his refusal to alter his position."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "This was the second munificent endowment that the gallery has received this year."
+        "This was the second <u>munificent</u> endowment that the gallery has received this year."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "During ascent in the water column, the angular rough shark rapidly elevated the leading pectoral fin edge, and undulated the posterior half of its body rapidly."
+        "During ascent in the water column, the angular rough shark rapidly elevated the leading pectoral fin edge, and <u>undulated</u> the posterior half of its body rapidly."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The rest of the book is filled with a diatribe against processed pet foods and popular dog trainers who have been on television."
+        "The rest of the book is filled with a <u>diatribe</u> against processed pet foods and popular dog trainers who have been on television."
       ],
       "question": null,
       "choices": [
@@ -120,7 +120,7 @@
       "number": 5,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Freed of print’s strictures, we are finding many new and sometimes better ways to gather and share information."
+        "Freed of print’s <u>strictures</u>, we are finding many new and sometimes better ways to gather and share information."
       ],
       "question": null,
       "choices": [
@@ -146,7 +146,7 @@
       "number": 6,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Fatuous oratory and bombast are particularly good candidates for the cartoon’s brand of parody."
+        "<u>Fatuous</u> oratory and bombast are particularly good candidates for the cartoon’s brand of parody."
       ],
       "question": null,
       "choices": [
@@ -172,7 +172,7 @@
       "number": 7,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The ambassador’s diplomatic rhetoric only resulted in exacerbating the already fragile relationship."
+        "The ambassador’s diplomatic rhetoric only resulted in <u>exacerbating</u> the already fragile relationship."
       ],
       "question": null,
       "choices": [
@@ -246,25 +246,25 @@
       "number": 10,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "The demographic policy offers a powerful few enormous influence, enabling them to dispense with"
+        "The demographic policy ① <u>offers</u> a powerful few enormous influence, enabling them ② <u>to dispense with</u> traditional forms of governance and ③ <u>buying off</u> interfering government officials. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "밑줄 ①"
+          "text": "offers"
         },
         {
           "label": "②",
-          "text": "traditional forms of governance and buying off"
+          "text": "to dispense with"
         },
         {
           "label": "③",
-          "text": "interfering government officials. No error."
+          "text": "buying off"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
@@ -272,49 +272,51 @@
       "number": 11,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Those who propagated ever more radical solutions"
+        "Those who ① <u>propagated</u> ever more radical solutions were, like so many revolutionary zealots, ② <u>consumed by</u> the forces they ③ <u>had been unleashed</u>. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "were, like so many revolutionary zealots, consumed by"
+          "text": "propagated"
         },
         {
           "label": "②",
-          "text": "the forces they had been unleashed. No error."
+          "text": "consumed by"
         },
         {
           "label": "③",
-          "text": "밑줄 ③"
+          "text": "had been unleashed"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
     {
       "number": 12,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분 이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
-      "passage_sentences": [],
-      "question": "In contemporary books about language, writers often warn that certain words, whose meanings appear",
+      "passage_sentences": [
+        "In contemporary books about language, writers often warn that certain words, whose meanings ① <u>appear fixed</u>, ② <u>shifts</u> over time, so that their original sense is not only eroded but also ③ <u>occasionally subverted</u>. ④ <u>No error.</u>"
+      ],
+      "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "fixed, shifts over time, so that their original sense is"
+          "text": "appear fixed"
         },
         {
           "label": "②",
-          "text": "not only eroded but also occasionally subverted. No"
+          "text": "shifts"
         },
         {
           "label": "③",
-          "text": "error."
+          "text": "occasionally subverted"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
@@ -323,7 +325,7 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
         "Kant maintained that the human mind does not merely register sensory data but actively organizes experience through innate cognitive frameworks.",
-        "Knowledge, therefore, is _______ rather than passively accumulated."
+        "Knowledge, therefore, is __________ rather than passively accumulated."
       ],
       "question": null,
       "choices": [
@@ -349,7 +351,7 @@
       "number": 14,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Although modern machine-learning models can outperform humans in specific domains, they remain fundamentally _______, excelling under constrained conditions while failing to adapt across contexts."
+        "Although modern machine-learning models can outperform humans in specific domains, they remain fundamentally __________, excelling under constrained conditions while failing to adapt across contexts."
       ],
       "question": null,
       "choices": [
@@ -375,7 +377,7 @@
       "number": 15,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Gothic cathedrals employed soaring verticality and intricate structural systems to evoke a sense of the _______, directing the viewer’s gaze beyond the material realm."
+        "Gothic cathedrals employed soaring verticality and intricate structural systems to evoke a sense of the __________, directing the viewer’s gaze beyond the material realm."
       ],
       "question": null,
       "choices": [
@@ -401,7 +403,7 @@
       "number": 16,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "I remember the bouquet of that wine as though I had discovered it this very moment—_______ of wood violets, with a ruby-jewel color and a silky, velvet, wrap-around taste."
+        "I remember the bouquet of that wine as though I had discovered it this very moment—__________ of wood violets, with a ruby-jewel color and a silky, velvet, wrap-around taste."
       ],
       "question": null,
       "choices": [
@@ -427,7 +429,7 @@
       "number": 17,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Wildflowers compete with grass for growing space, and so we first needed to reduce the amount of grass in the area, so it was mowed and _______ by a contractor."
+        "Wildflowers compete with grass for growing space, and so we first needed to reduce the amount of grass in the area, so it was mowed and __________ by a contractor."
       ],
       "question": null,
       "choices": [
@@ -453,7 +455,7 @@
       "number": 18,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "The video pulled back the curtain, exposing the backstage ______ characteristic of politics behind closed doors."
+        "The video pulled back the curtain, exposing the backstage __________ characteristic of politics behind closed doors."
       ],
       "question": null,
       "choices": [
@@ -479,7 +481,7 @@
       "number": 19,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "When there are no arguments with which to impugn a doctrine, it is easy to attack it with ridicule and _______."
+        "When there are no arguments with which to impugn a doctrine, it is easy to attack it with ridicule and __________."
       ],
       "question": null,
       "choices": [
@@ -506,7 +508,7 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
         "Employers can hire migrants on open work visas while on the stand-down list.",
-        "When the stand-down ends, the employers must show they have _____ the matter and done what is needed to stop it from happening again."
+        "When the stand-down ends, the employers must show they have __________ the matter and done what is needed to stop it from happening again."
       ],
       "question": null,
       "choices": [
@@ -533,9 +535,9 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
         "Many who pride themselves on refined judgment mistake familiarity for depth.",
-        "They accumulate opinions and conventions, displaying an apparent _______ for what is celebrated, yet their understanding remains curiously untouched by inward transformation.",
-        "Their refinement is often _______, confined to isolated areas of expertise, leaving the broader moral sensibility undeveloped.",
-        "As a result, they fail to recognize thatgenuine form arises not from external arrangement alone but from an intimate correspondence between idea and expression.",
+        "They accumulate opinions and conventions, displaying an apparent __________ for what is celebrated, yet their understanding remains curiously untouched by inward transformation.",
+        "Their refinement is often __________, confined to isolated areas of expertise, leaving the broader moral sensibility undeveloped.",
+        "As a result, they fail to recognize that genuine form arises not from external arrangement alone but from an intimate correspondence between idea and expression.",
         "In such minds, the material realm is treated as autonomous, severed from the operations of thought and intention."
       ],
       "question": null,
@@ -593,10 +595,10 @@
       "passage_sentences": [
         "Classical sociologists were deeply concerned with the ways in which modern social structures shape individual consciousness and constrain personal agency.",
         "Rather than conceiving social order as the cumulative outcome of individual preferences, thinkers such as Émile Durkheim argued that social facts possess an objective existence independent of personal will.",
-        "These facts, manifested in norms, institutions, and collective representations, exercise a _______ influence over individuals, compelling conformity even in the absence of overt enforcement.",
+        "These facts, manifested in norms, institutions, and collective representations, exercise a __________ influence over individuals, compelling conformity even in the absence of overt enforcement.",
         "In highly differentiated societies, this influence rarely appears as external constraint.",
-        "Instead, it becomes progressively _______, embedded within habitual practices, linguistic conventions, and taken-for-granted expectations that come to appear natural rather than socially constructed.",
-        "Consequently, individuals often experience social constraints not as imposed limitations but as a(n) _______ dimension of everyday life, one that structures perception and action without attracting conscious scrutiny."
+        "Instead, it becomes progressively __________, embedded within habitual practices, linguistic conventions, and taken-for-granted expectations that come to appear natural rather than socially constructed.",
+        "Consequently, individuals often experience social constraints not as imposed limitations but as a(n) __________ dimension of everyday life, one that structures perception and action without attracting conscious scrutiny."
       ],
       "question": null,
       "choices": [
@@ -622,7 +624,7 @@
       "number": 24,
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "Long retired as I have been, from the ways of intriguing, ambitious men, I have still Sir, in my retirement, a longing after a good name;―nay, it is the “immediate jewel of my soul,” and as an injured man, a ________ Whig, and a Gentleman, I hope your Excellency will deliver up to Justice, and to shame, the branders of my reputation, the filchers of my good name, so that I may strike at the root of the slander, and thereby be enabled to do myself Justice, by removing the ________, and convincing your Excellency and the world, of my innocence, and the purity of my principles, and the baseness and depravity of those of my enemies."
+        "Long retired as I have been, from the ways of intriguing, ambitious men, I have still Sir, in my retirement, a longing after a good name;―nay, it is the “immediate jewel of my soul,” and as an injured man, a __________ Whig, and a Gentleman, I hope your Excellency will deliver up to Justice, and to shame, the branders of my reputation, the filchers of my good name, so that I may strike at the root of the slander, and thereby be enabled to do myself Justice, by removing the __________, and convincing your Excellency and the world, of my innocence, and the purity of my principles, and the baseness and depravity of those of my enemies."
       ],
       "question": null,
       "choices": [
@@ -679,13 +681,13 @@
         "One set of shapes gradually transformed into another over the course of time.",
         "This type of history makes it sound as if there is in architectural forms a will to evolve and develop.",
         "Traditions grow up, and the architects keep trying out new possibilities, some of which are seen as improvements and are copied by others, before being improved upon in their turn.",
-        "This approach can lead to a _______ with stylistic analysis that can lose sight of the fact that there is a practical rationale to building.",
+        "This approach can lead to a __________ with stylistic analysis that can lose sight of the fact that there is a practical rationale to building.",
         "It can also lead to the setting aside of the social and economic issues, which can be interesting, and which are sometimes certainly the most important aspects of a building.",
         "There is also the complicating fact that things look different from close at hand and from a distance.",
-        "What looks to us like a gradual change across the course of centuries might well have been a much less _______ process at the time.",
+        "What looks to us like a gradual change across the course of centuries might well have been a much less __________ process at the time.",
         "It is always unusual for people to change their ways of doing things, and often what happens when a new idea takes over is that a generation of people grows old and inactive, while younger people inculcated with the new idea take up the tools.",
         "Whether the change looks gradual or abrupt may depend on how far we are from the event.",
-        "Tragedy is farce in _______."
+        "Tragedy is farce in __________."
       ],
       "question": null,
       "choices": [
@@ -714,7 +716,7 @@
         "David Hockney’s move to Los Angeles in the 1960s was pivotal.",
         "The city’s sunlight, architecture, and lifestyle provided a fresh perspective that fueled his creativity.",
         "(A) His swimming pool paintings, such as A Bigger Splash, captured the fluidity and stillness of water with remarkable precision.",
-        "These works inspired his additional Pool Made with Paper series andLithograph of Water Made with Blue Lines series.",
+        "These works inspired his additional Pool Made with Paper series and Lithograph of Water Made with Blue Lines series.",
         "Throughout the 1970s and 1980s, Hockney expanded his artistic reach, moving beyond poolside imagery to focus on portraiture and experimental photography.",
         "His Joiners series, which stitched together multiple Polaroid photographs to create composite images, challenged traditional notions of perspective and time.",
         "He also experimented with landscapes, producing intricate works inspired by the Yorkshire countryside.",
@@ -722,9 +724,10 @@
         "His iPad paintings, particularly those depicting the changing seasons in Yorkshire, showcase his continued interest in color, light, and the passage of time.",
         "Works like The Arrival of Spring highlight his ability to blend traditional landscape painting with modern digital tools.",
         "(C) Additionally, his Yosemite series, created using an iPad, captures the grandeur of nature in a way that remains both innovative and deeply connected to artistic traditions.",
-        "His flower compositions further illustrate his mastery of color and form, reinforcing his status as a pioneering force in contemporary art."
+        "His flower compositions further illustrate his mastery of color and form, reinforcing his status as a pioneering force in contemporary art.",
+        "(D)"
       ],
-      "question": "아래의 문장이 들어가기에 가장 적합한 곳을 고르시오. These periods solidified Hockney’s reputation as an artist unafraid to push the boundaries of representation and perception.",
+      "question": "위 글에서 아래의 문장이 들어가기에 가장 적합한 곳을 고르시오. These periods solidified Hockney’s reputation as an artist unafraid to push the boundaries of representation and perception.",
       "choices": [
         {
           "label": "①",
@@ -776,10 +779,9 @@
     },
     {
       "number": 29,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S.",
-        "On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.",
+        "Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S. On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.",
         "It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years.",
         "Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk.",
         "“It’s just good to have more options for people,” he says.",
@@ -787,8 +789,7 @@
         "“Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs.",
         "Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy.",
         "In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo.",
-        "(B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction.",
-        "(The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.",
+        "(B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.",
         "But until now, they have largely been available in the U.S. only as injections.",
         "(C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said.",
         "The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller.",
@@ -818,10 +819,9 @@
     },
     {
       "number": 30,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S.",
-        "On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.",
+        "Weight-loss pills that harness the same mechanism as the wildly popular drugs Wegovy and Ozempic are coming to the U.S. On Monday Novo Nordisk announced that the U.S. Food and Drug Administration (FDA) approved its oral glucagon-like peptide 1 (GLP-1) medication for weight loss and obesity in adults.",
         "It’s a milestone for the industry, which has struggled to make effective pill versions of the weight-loss injections for years.",
         "Most people are more comfortable taking a pill than regularly injecting themselves, says Daniel Drucker, an endocrinologist at the University of Toronto, who previously consulted for Novo Nordisk.",
         "“It’s just good to have more options for people,” he says.",
@@ -829,8 +829,7 @@
         "“Pills are also easier to transport and produce,” says Rozalina McCoy, an endocrinologist and internist at the University of Maryland, adding that she hopes the new FDA approval will increase access to the drugs.",
         "Prior to that approval, Novo Nordisk, which also makes the injectable semaglutide drugs Ozempic and Wegovy, had seen promising results from its trials of the weight-loss pill, which will also be sold under the brand name Wegovy.",
         "In the company’s latest phase 3 clinical trial, the highest dose of the pill resulted in a 16.6 percent weight loss at 64 weeks compared with a 2.7 percent loss among those who took a placebo.",
-        "(B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction.",
-        "(The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.",
+        "(B)For comparison, trials of 2.4 milligrams of Wegovy injections showed up to 17.4 percent weight reduction. (The injection and pill were not compared in a head-to-head trial.) GLP-1 drugs have transformed the weight-loss industry and revolutionized the treatment of metabolic disease.",
         "But until now, they have largely been available in the U.S. only as injections.",
         "(C)“We believe this is the most affordable self-pay price to date for a GLP-1 for weight loss,” the spokesperson said.",
         "The Wegovy pill, taken once a day, works similarly to the weekly injections—mimicking the activity of a gut hormone that slows down the speed at which people’s stomach empties and that makes them feel fuller.",
@@ -860,7 +859,7 @@
     },
     {
       "number": 31,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes.",
         "Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations.",
@@ -870,7 +869,7 @@
         "In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface.",
         "While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age.",
         "The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat.",
-        "These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.",
+        "These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. __________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.",
         "Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art.",
         "Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines."
       ],
@@ -896,7 +895,7 @@
     },
     {
       "number": 32,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 2.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Archaeologists have identified an unknown area rich in Stone Age rock paintings near the municipality of Tingvoll in Møre og Romsdal, western Norway, opening up a new chapter in one of Northern Europe’s most important prehistoric art landscapes.",
         "Tingvoll is an area rich in rock art, with 25 documented panels spread across two main locations.",
@@ -906,7 +905,7 @@
         "In contrast to petroglyphs, which are rock carvings, the Tingvoll images are rock paintings created by applying pigment, often red ochre, to the rock surface.",
         "While it is challenging to date rock paintings accurately, it is believed that paintings of this kind in Scandinavia are typically between 3,000 and 7,000 years old, dating to the Stone Age.",
         "The recently identified motifs include a fish figure, likely representing salmon or halibut, and geometric symbols believed to depict a boat.",
-        "These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. _____________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.",
+        "These images suggest that fishing and maritime activities had great significance in the lives and beliefs of the region’s prehistoric communities. __________ Through the manipulation of color and the enhancement of contrast in high-resolution images, researchers were able to distinguish painted lines from natural cracks and mineral staining in the rock.",
         "Such processes are indicative of modern shifts that have occurred in the search for and identification of rock art.",
         "Instead of focusing only on large cliff faces, artworks are now known to also exist on smaller rock surfaces, often near ancient shorelines."
       ],
@@ -932,7 +931,7 @@
     },
     {
       "number": 33,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes.",
         "(A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two.",
@@ -963,7 +962,7 @@
     },
     {
       "number": 34,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "The challenge for understanding what is “racial” about “racial achievement” gaps comes in part from the challenge of keeping the larger history of race in mind when we are trying to understand daily processes.",
         "(A)This is the challenge of paying attention simultaneously to the very bigness and the very smallness of its effects and to the connections between the two.",
@@ -994,14 +993,14 @@
     },
     {
       "number": 35,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action.",
         "In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length.",
         "Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative.",
         "Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds.",
         "(A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think.",
-        "The slowerpace of these novels is often complemented by an inconclusive or open-ended conclusion.",
+        "The slower pace of these novels is often complemented by an inconclusive or open-ended conclusion.",
         "What Pym sees at the end of his narrative is never fully explained.",
         "(B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses.",
         "Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act.",
@@ -1033,14 +1032,14 @@
     },
     {
       "number": 36,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Unlike the other romances, whether historical or sensational, the philosophical romance shows a striking willingness to stretch out or defer the action.",
         "In Pym, Poe induces claustrophobia in his readers by elongating each scene of Pym’s suffering to an almost unbearable length.",
         "Similarly, Melville’s “Benito Cereno” achieves a protracted suspense by deferring the revelation of the slaves’ mutiny until the end of the main narrative.",
         "Anticipating a kindred effect in Henry James’s fiction, Hawthorne’s novel The House of the Seven Gables spends chapter after chapter in the emotionally and psychologically saturated description of the Pyncheon house, its inhabitants, and its grounds.",
         "(A)This deferral of action suggests that these narratives are more interested in how the main characters act than in how they feel or what they perceive and think.",
-        "The slowerpace of these novels is often complemented by an inconclusive or open-ended conclusion.",
+        "The slower pace of these novels is often complemented by an inconclusive or open-ended conclusion.",
         "What Pym sees at the end of his narrative is never fully explained.",
         "(B)What Dimmesdale exposes in the climax of The Scarlet Letter almost immediately becomes a subject of dispute among the witnesses.",
         "Miles Coverdale’s confession of love for Priscilla in the very last line of The Blithedale Romance does not so much end the tale as suggest a tale that could never begin because of the protagonist’s radical inability to act.",
@@ -1072,12 +1071,12 @@
     },
     {
       "number": 37,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other.",
         "This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it.",
         "The first view he calls ‘empiricism’, the second ‘idealism’.",
-        "Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding ofintentionality.",
+        "Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of intentionality.",
         "In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent.",
         "“Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites.",
         "What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action.",
@@ -1111,12 +1110,12 @@
     },
     {
       "number": 38,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "For Merleau-Ponty the ‘body-subject’, an essentially embodied consciousness, replaces the Cartesian ego as the standpoint from which to overcome the fallacies of what he calls “Objective Thought”, a view that treats the world in a fragmented way as a collection of things standing in external causal relations to each other.",
         "This conception of the world generates conflicting approaches to reality: in one, consciousness is just one of the many things that exist, and the other things that exist do so independently of consciousness; in the other, consciousness constitutes the world, and therefore exists outside it.",
         "The first view he calls ‘empiricism’, the second ‘idealism’.",
-        "Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding ofintentionality.",
+        "Both are mistaken, he says; and the fact that we alternate between these inconsistent viewpoints is what generates scepticism and prevents us from gaining a proper understanding of intentionality.",
         "In place of both he argues for a holistic conception, an integration of the world and consciousness as indissolubly interdependent.",
         "“Flesh is at the heart of the world” is a much quoted dictum of Merleau-Ponty’s; it encapsulates his idea that body is a form of consciousness, and is the place where perception and action coexist so intimately that perceiving already carries within itself a sense of what action that perception invites.",
         "What we perceive is in significant part conditioned by what we can do about it; to perceive is to see a range of possibilities of action.",
@@ -1150,14 +1149,12 @@
     },
     {
       "number": 39,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "There is a well-known problem in physics and applied mathematics.",
         "This is the problem of modeling across scales.",
         "Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales.",
-        "At the scale of meters, we are interested in its bending properties, its buckling strength, etc.",
-        "At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc.",
-        "To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.",
+        "At the scale of meters, we are interested in its bending properties, its buckling strength, etc. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.",
         "According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other.",
         "Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales.",
         "For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy.",
@@ -1189,14 +1186,12 @@
     },
     {
       "number": 40,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "There is a well-known problem in physics and applied mathematics.",
         "This is the problem of modeling across scales.",
         "Many systems, say a steel girder, manifest radically different, dominant behaviors in different length scales.",
-        "At the scale of meters, we are interested in its bending properties, its buckling strength, etc.",
-        "At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc.",
-        "To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.",
+        "At the scale of meters, we are interested in its bending properties, its buckling strength, etc. At the scale of nanometers or smaller, it is composed of many atoms, and features of interest include lattice properties, ionic bonding strengths, etc. To design advanced materials (such as certain kinds of steel), materials scientists must attempt to deal with physical phenomena across a staggering range of scales.",
         "According to a recent National Science Foundation research report, this “tyranny of scales” renders conventional modeling and simulation methods useless as they are typically tied to particular scales: “Confounding matters further, the principal physics governing events often changes with scale, so the models themselves must change in structure as the ramifications of events pass from one scale to another.” Thus, even though we often have good models for material behaviors at small and large scales, it is often hard to relate these scale-based models to each other.",
         "Macroscale models represent the integrated effects of very subtle factors that are practically invisible at the smallest, atomic, scales.",
         "For this reason, it has been notoriously difficult to model realistic materials with a simple bottom-up from the atoms strategy.",

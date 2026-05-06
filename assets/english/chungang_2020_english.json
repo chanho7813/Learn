@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "I wonder why the manager maintained such an intransigent position."
+        "I wonder why the manager maintained such an <u>intransigent</u> position."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The whole region has become a tinderbox since the new king was inaugurated."
+        "The whole region has become a <u>tinderbox</u> since the new king was inaugurated."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Perhaps it was the flaring sunlight that addled his mind."
+        "Perhaps it was the flaring sunlight that <u>addled</u> his mind."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Many are shacks of corrugated iron over a rickety timber frame."
+        "Many are shacks of corrugated iron over a <u>rickety</u> timber frame."
       ],
       "question": null,
       "choices": [
@@ -120,7 +120,7 @@
       "number": 5,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "I knew that she was bridled by the news of my staying."
+        "I knew that she was <u>bridled</u> by the news of my staying."
       ],
       "question": null,
       "choices": [
@@ -146,7 +146,7 @@
       "number": 6,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Once you know what question you want to answer, it’s time to scour the book for things that will help you answer the question."
+        "Once you know what question you want to answer, it’s time to <u>scour</u> the book for things that will help you answer the question."
       ],
       "question": null,
       "choices": [
@@ -172,7 +172,7 @@
       "number": 7,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "As the giddiness of the Roaring Twenties dissolved into the bleakness of the Great Depression, he battled alcoholism, which hampered his writing."
+        "As the <u>giddiness</u> of the Roaring Twenties dissolved into the bleakness of the Great Depression, he battled alcoholism, which hampered his writing."
       ],
       "question": null,
       "choices": [
@@ -246,25 +246,25 @@
       "number": 10,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Not only is the prose-account obsessed with"
+        "Not only is the prose-account obsessed with ① <u>circumstantial detail</u>, but that detail also happens ② <u>to be extremely apologetic</u>, explaining whatever it ③ <u>could happen</u> that a man gets trapped by the criminal. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "circumstantial detail, but that detail also happens to be extremely apologetic, explaining whatever it"
+          "text": "circumstantial detail"
         },
         {
           "label": "②",
-          "text": "could happen that a man gets trapped by the criminal."
+          "text": "to be extremely apologetic"
         },
         {
           "label": "③",
-          "text": "No error."
+          "text": "could happen"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
@@ -272,25 +272,25 @@
       "number": 11,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "In the process of helping us perceive the world"
+        "In the process of helping us perceive the world ① <u>a little differently</u>, poets often compare one thing ② <u>we readily recognize</u> with another, ③ <u>present us</u> with quite an attention-grabbing surprise. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "a little differently, poets often compare one thing"
+          "text": "a little differently"
         },
         {
           "label": "②",
-          "text": "we readily recognize with another, present us"
+          "text": "we readily recognize"
         },
         {
           "label": "③",
-          "text": "with quite an attention-grabbing surprise. No error."
+          "text": "present us"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
@@ -298,25 +298,25 @@
       "number": 12,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "It is said that under no previous historical system"
+        "It is said that under no previous historical system ① <u>did people live</u> ② <u>as comfortable a material life</u> or have such a range of alternative life-experiences ③ <u>at their disposal</u> as in this present system. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "did people live as comfortable a material life or have such a range of alternative life-experiences at their"
+          "text": "did people live"
         },
         {
           "label": "②",
-          "text": "밑줄 ②"
+          "text": "as comfortable a material life"
         },
         {
           "label": "③",
-          "text": "disposal as in this present system. No error."
+          "text": "at their disposal"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
@@ -324,7 +324,7 @@
       "number": 13,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "The _______, whom many kids in the town believe not to be awakened from the winter sleep, pretends that the eminence is not worth attaining, declines altogether the struggle, and calls himself a philosopher."
+        "The __________, whom many kids in the town believe not to be awakened from the winter sleep, pretends that the eminence is not worth attaining, declines altogether the struggle, and calls himself a philosopher."
       ],
       "question": null,
       "choices": [
@@ -350,7 +350,7 @@
       "number": 14,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Asked by our senior officers to pull together this South Yorkshire Police evidence for the Taylor inquiry, we are willing to _______ a story that all of the Liverpool fans were drunk, and that we were afraid they were going to break down the gates so we decided to open them."
+        "Asked by our senior officers to pull together this South Yorkshire Police evidence for the Taylor inquiry, we are willing to __________ a story that all of the Liverpool fans were drunk, and that we were afraid they were going to break down the gates so we decided to open them."
       ],
       "question": null,
       "choices": [
@@ -376,7 +376,7 @@
       "number": 15,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Love and politics are no more _______ than water and oil especially if the politics is rancid."
+        "Love and politics are no more __________ than water and oil especially if the politics is rancid."
       ],
       "question": null,
       "choices": [
@@ -402,7 +402,7 @@
       "number": 16,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "For their study, researchers implemented four initiatives that included ongoing education for operating room staff on _______ technique, sterility and standardization of skin-site preparation."
+        "For their study, researchers implemented four initiatives that included ongoing education for operating room staff on __________ technique, sterility and standardization of skin-site preparation."
       ],
       "question": null,
       "choices": [
@@ -429,7 +429,7 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
         "The old general used to make extremely dull speeches.",
-        "He churns out lots of _______ stories on military matters and can be considered an official mouthpiece of the country."
+        "He churns out lots of __________ stories on military matters and can be considered an official mouthpiece of the country."
       ],
       "question": null,
       "choices": [
@@ -455,7 +455,7 @@
       "number": 18,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Our modern, low-floor bus fleet offers access to all those with impaired mobility and provides one _______ wheelchair space in the lower saloon."
+        "Our modern, low-floor bus fleet offers access to all those with impaired mobility and provides one __________ wheelchair space in the lower saloon."
       ],
       "question": null,
       "choices": [
@@ -481,7 +481,7 @@
       "number": 19,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "There are various ways of making a charm more efficient, and the most common method is by ________.",
+        "There are various ways of making a charm more efficient, and the most common method is by __________.",
         "When a hunter of the Tanala tribe wants to make his hunting successful, he cuts his lip and puts a charm mixture in the cut."
       ],
       "question": null,
@@ -509,7 +509,7 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
         "Her poetry requires repeated and careful readings.",
-        "Her _______ syntax occasionally departs from the normal pattern.",
+        "Her __________ syntax occasionally departs from the normal pattern.",
         "Readers must consequently fill in the gaps her language creates."
       ],
       "question": null,
@@ -540,7 +540,7 @@
         "The first two are friendship for the sake of utility and friendship for the sake of pleasure.",
         "Those who form friendships for the sake of utility do so because they are useful for themselves.",
         "Similarly, those who form friendships for the sake of pleasure do so because they are pleasurable for themselves.",
-        "Because of the _______ nature of these types of friendships, Aristotle regarded them as imperfect ones.",
+        "Because of the __________ nature of these types of friendships, Aristotle regarded them as imperfect ones.",
         "In contrast, he viewed the third type of friendship as perfect.",
         "Perfect friendship is the friendship of people who are good and alike in virtue."
       ],
@@ -571,18 +571,18 @@
         "For 10 years, central Chile has been gripped by unrelenting drought.",
         "With 30% less rainfall than normal, verdant landscapes have withered, reservoirs are low, and more than 100,000 farm animals have died.",
         "The dry spell has lasted so long that researchers are calling it a “megadrought,” rivaling dry stretches centuries ago.",
-        "It ________________ the decade-long drought that California, some 8000 kilometers away, endured until this year.",
-        "By analyzing tree ring records, scientists have now found evidence that such tandem droughts ________________: They are surprisingly common over the past 1200 years, and they may often — share a common cause an abnormally cool state of the eastern Pacific Ocean known as La Niña."
+        "It __________ the decade-long drought that California, some 8000 kilometers away, endured until this year.",
+        "By analyzing tree ring records, scientists have now found evidence that such tandem droughts __________: They are surprisingly common over the past 1200 years, and they may often — share a common cause an abnormally cool state of the eastern Pacific Ocean known as La Niña."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "— is caused by may cause the disastrous rainfall"
+          "text": "is caused by — may cause the disastrous rainfall"
         },
         {
           "label": "②",
-          "text": "— is traced to would persist for a specific period"
+          "text": "is traced to — would persist for a specific period"
         },
         {
           "label": "③",
@@ -600,27 +600,27 @@
       "passage_sentences": [
         "Major literary figures, such as Alexander Pope, Jonathan Swift, Samuel Butler, and Samuel Johnson, became increasingly critical of the moral failings they saw as being engendered by the very success of the new science.",
         "First, resurrecting the Faustus image, they believed that scientists were attempting to discover more than it was proper for humanity to know.",
-        "Second, they shared a barely suppressed anger at what they saw as the _______ of scientists, especially the proponents of Baconian method, with its assumption that eventually man will fully understand and exploit the mysteries of the universe.",
+        "Second, they shared a barely suppressed anger at what they saw as the __________ of scientists, especially the proponents of Baconian method, with its assumption that eventually man will fully understand and exploit the mysteries of the universe.",
         "Here, again, there are echoes of Faustus the overreacher, particularly in the implications of Bacon’s dictum that knowledge is power.",
-        "The third and essentially new component in the eighteenth-century criticism of scientists was the _______ that science might indeed succeed in deriving a self-sufficient, purely mechanistic system, with no moral dimension and no need of God."
+        "The third and essentially new component in the eighteenth-century criticism of scientists was the __________ that science might indeed succeed in deriving a self-sufficient, purely mechanistic system, with no moral dimension and no need of God."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "audacity— hope"
+          "text": "audacity — hope"
         },
         {
           "label": "②",
-          "text": "— irresolution nonsense"
+          "text": "irresolution — nonsense"
         },
         {
           "label": "③",
-          "text": "— impatience expectation"
+          "text": "impatience — expectation"
         },
         {
           "label": "④",
-          "text": "arrogance— fear"
+          "text": "arrogance — fear"
         }
       ]
     },
@@ -631,25 +631,25 @@
         "My father expressed a wish that I should attend a course of lectures upon natural philosophy, to which I cheerfully consented.",
         "Some accident prevented my attending these lectures until the course was nearly finished.",
         "The lecture, being therefore one of the last, was entirely incomprehensible to me.",
-        "The professor discoursed with the greatest _______ of potassium and boron, of sulphates and oxyds, terms to which I could _______ no idea; and I became disgusted with the science of natural philosophy, although I still read Pliny and Buffon with delight, authors, in my estimation, of nearly equal interest and utility."
+        "The professor discoursed with the greatest __________ of potassium and boron, of sulphates and oxyds, terms to which I could __________ no idea; and I became disgusted with the science of natural philosophy, although I still read Pliny and Buffon with delight, authors, in my estimation, of nearly equal interest and utility."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "— interest have"
+          "text": "interest — have"
         },
         {
           "label": "②",
-          "text": "knowledge— invoke"
+          "text": "knowledge — invoke"
         },
         {
           "label": "③",
-          "text": "concern— ascribe"
+          "text": "concern — ascribe"
         },
         {
           "label": "④",
-          "text": "fluency— affix"
+          "text": "fluency — affix"
         }
       ]
     },
@@ -658,7 +658,7 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
         "A system of free markets seems to promise not merely liberty but equality of an important sort as well, since everyone in a free market is given an equal right to transact and participate in market arrangements.",
-        "This form of equality should not be _______.",
+        "This form of equality should not be __________.",
         "For example, race and sex discrimination has often consisted of exclusions of certain classes of people from the market domain.",
         "In both South Africa and the United States, discriminatory practices frequently took the form of incursions on free markets in employment."
       ],
@@ -694,7 +694,7 @@
         "Thousands of mugs have been used in dozens of replications of this experiment, but the results are nearly always the same.",
         "Once I have a mug, I don’t want to give it up.",
         "But if I don’t have one, I don’t feel an urgent need to buy one.",
-        "What this means is that _____________________.",
+        "What this means is that __________.",
         "When they have to give something up, they are hurt more than they are pleased if they acquire the very same thing."
       ],
       "question": null,
@@ -860,7 +860,7 @@
         "As the ants began to drag the cookie back to the nest, the researchers would sometimes change the scenery around them, mimicking strange mountains by adding black plastic bags and tarps alongside the path.",
         "When confronted with such new landmarks, the ants peeked after walking only 3.2 meters along the 8-meter path, whereas ants on familiar paths could go nearly 6 meters without turning around.",
         "The observations reveal that the insects were taking in their surroundings as they walked backward and using them to navigate and decide when to peek.",
-        "As expected, _____________________.",
+        "As expected, __________.",
         "They could walk for longer distances before they peeked behind them, and more of them made it home with their cookie.",
         "A few “clueless” ants got lost, but surprisingly, others were able to find their way back to the nest even when they hadn’t previously tracked where they walked using path integration, which means they must have only been using their visual memories of their surroundings and possibly the angle of the Sun."
       ],
@@ -897,7 +897,7 @@
         "As the ants began to drag the cookie back to the nest, the researchers would sometimes change the scenery around them, mimicking strange mountains by adding black plastic bags and tarps alongside the path.",
         "When confronted with such new landmarks, the ants peeked after walking only 3.2 meters along the 8-meter path, whereas ants on familiar paths could go nearly 6 meters without turning around.",
         "The observations reveal that the insects were taking in their surroundings as they walked backward and using them to navigate and decide when to peek.",
-        "As expected, _____________________.",
+        "As expected, __________.",
         "They could walk for longer distances before they peeked behind them, and more of them made it home with their cookie.",
         "A few “clueless” ants got lost, but surprisingly, others were able to find their way back to the nest even when they hadn’t previously tracked where they walked using path integration, which means they must have only been using their visual memories of their surroundings and possibly the angle of the Sun."
       ],
@@ -1120,9 +1120,16 @@
       "number": 38,
       "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
       "passage_sentences": [
-        "This raises the question of why this has happened and produces the second problem of whether art history as established can accommodate the different histories of art that alone would account for women’s experiences as artists and make legible what they produced."
+        "There is no lack of evidence of women’s participation in the history of arts of all forms, culture and periods, from ancient traditions, such as pottery and carving or silk-weaving and painting in China, to the present and numerous forms of artistic expression.",
+        "(A) Yet traditional art history has kept us in systematic ignorance of the fact that women have always made art.",
+        "It took the emergence of feminism in the late 20th century to redress the almost complete neglect of women artists by art history and to undermine the stereotyped views of art made by women.",
+        "When discussed, art by women was derogatively categorized as ‘women’s art’ in order to distinguish it from ‘art,’ which, despite its lack of adjectival qualification, had come to be exclusively identified with a canon of white men.",
+        "(B) Since the 1960s many books have been published on the history of women in all areas of the visual arts in all periods and many cultures.",
+        "(C) The evidence for women as artists is overwhelming, but the project of restoring women to the history of art has raised major historiographical, political and theoretical issues.",
+        "It has been shown that it is only in the 20th century, when art history was fully consolidated as an academic discipline, that women artists were systematically effaced from the record of the history of art.",
+        "(D) It is necessary, therefore, to distinguish between the history of art as the field of historical artistic practice, and art history as the organized discipline that has studied this field in selective ways."
       ],
-      "question": null,
+      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오.\n\nThis raises the question of why this has happened and produces the second problem of whether art history as established can accommodate the different histories of art that alone would account for women’s experiences as artists and make legible what they produced.",
       "choices": [
         {
           "label": "①",
@@ -1149,10 +1156,10 @@
         "Most critics, especially the highbrow kind, deplored the mass culture of the 1950s.",
         "And there was plenty to ― deplore.",
         "The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience.",
-        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.",
+        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)__________ by the minute.",
         "As old habits decline, such as reading books and thinking thoughts, TV will absorb their time.",
         "By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it.",
-        "In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product.",
+        "In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)__________ pressure did tend to lower the quality of the product.",
         "Yet the situation was not so dismal as the pessimists claimed.",
         "For one thing, the much abused media seemed quite responsible at times.",
         "In 1956, the National Broadcasting Company paid out $500,000 to present the premier of Laurence Olivier’s film version of Shakespeare’s Richard III.",
@@ -1170,19 +1177,19 @@
       "choices": [
         {
           "label": "①",
-          "text": "—"
+          "text": "(A) obdurate — (B) opportune"
         },
         {
           "label": "②",
-          "text": "— (A) obdurate (B) opportune"
+          "text": "(A) thoughtful — (B) facilitative"
         },
         {
           "label": "③",
-          "text": "— (A) thoughtful (B) facilitative"
+          "text": "(A) literate — (B) relentless"
         },
         {
           "label": "④",
-          "text": "— (A) literate (B) relentless (A) impulsive (B) unremitting"
+          "text": "(A) impulsive — (B) unremitting"
         }
       ]
     },
@@ -1193,10 +1200,10 @@
         "Most critics, especially the highbrow kind, deplored the mass culture of the 1950s.",
         "And there was plenty to ― deplore.",
         "The preponderance of popular fare Hollywood spectaculars, “horror” comics, hammering rock-and-roll ― music had only one redeeming virtue: transience.",
-        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)_______ by the minute.",
+        "Television was everyone’s whipping boy; and in contemplating its fare, even middlebrow columnist Harriet Van Horne was crying cultural doom: “Our people are becoming less (A)__________ by the minute.",
         "As old habits decline, such as reading books and thinking thoughts, TV will absorb their time.",
         "By the 21st Century our people doubtless will be squint-eyed, s hunchbacked and fond of the dark.” There were real cultural dangers, no doubt of it.",
-        "In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)_______ pressure did tend to lower the quality of the product.",
+        "In this age of economic boom and mass media, culture, like toothpaste, was produced and consumed at a fearful rate; and this (B)__________ pressure did tend to lower the quality of the product.",
         "Yet the situation was not so dismal as the pessimists claimed.",
         "For one thing, the much abused media seemed quite responsible at times.",
         "In 1956, the National Broadcasting Company paid out $500,000 to present the premier of Laurence Olivier’s film version of Shakespeare’s Richard III.",
@@ -1214,19 +1221,19 @@
       "choices": [
         {
           "label": "①",
-          "text": "The prevailing mood of the 1950s was pessimism, as there was much more talk of avant-garde in literary"
+          "text": "The prevailing mood of the 1950s was pessimism, as there was much more talk of avant-garde in literary and intellectual circles."
         },
         {
           "label": "②",
-          "text": "and intellectual circles. Despite the decadence of the mass culture, the"
+          "text": "Despite the decadence of the mass culture, the culture of the 1950s was not so bleak."
         },
         {
           "label": "③",
-          "text": "culture of the 1950s was not so bleak. During the 1950s, a number of people found their oases in new and controversial styles of music like"
+          "text": "During the 1950s, a number of people found their oases in new and controversial styles of music like rock-and-roll."
         },
         {
           "label": "④",
-          "text": "rock-and-roll. As the popularity of television and three penny magazines grew, movie lost viewers."
+          "text": "As the popularity of television and three penny magazines grew, movie lost viewers."
         }
       ]
     }

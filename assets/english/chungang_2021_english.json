@@ -16,25 +16,25 @@
       "number": 1,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The foragers have largely vanished since the newcomers appeared."
+        "The food company has <u>beefed up</u> its technical and new product development services."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "cunctators"
+          "text": "redirected"
         },
         {
           "label": "②",
-          "text": "colliers"
+          "text": "reclaimed"
         },
         {
           "label": "③",
-          "text": "looters"
+          "text": "reinforced"
         },
         {
           "label": "④",
-          "text": "temporizers"
+          "text": "rebooted"
         }
       ]
     },
@@ -42,25 +42,25 @@
       "number": 2,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Renaissance Italy was a time of ruthlessness in politics and exquisite sensibility in art and culture."
+        "The meeting of the World Health Organization was marked with such <u>acerbity</u> that little hope of reaching any useful settlement of the problem could be held."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "antinomy"
+          "text": "equivalency"
         },
         {
           "label": "②",
-          "text": "atrophy"
+          "text": "wimpishness"
         },
         {
           "label": "③",
-          "text": "antilogy"
+          "text": "mordancy"
         },
         {
           "label": "④",
-          "text": "atrocity"
+          "text": "costiveness"
         }
       ]
     },
@@ -68,25 +68,25 @@
       "number": 3,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "They had continued to harry government forces, however, from outside the city with mortar rounds."
+        "I am acting in my <u>tutelary</u> capacity when I refuse to grant you permission to leave the campus."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "badger"
+          "text": "untoward"
         },
         {
           "label": "②",
-          "text": "humiliate"
+          "text": "protective"
         },
         {
           "label": "③",
-          "text": "beseech"
+          "text": "statutory"
         },
         {
           "label": "④",
-          "text": "harangue"
+          "text": "jejune"
         }
       ]
     },
@@ -94,25 +94,25 @@
       "number": 4,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "He allowed their conversation to be as desultory as possible, wanting his companion to relax and feel safe in his presence."
+        "Both sides were eager to effect a <u>rapprochement</u> but did not know how to undertake a program designed to bring about it."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "despondent"
+          "text": "reconciliation"
         },
         {
           "label": "②",
-          "text": "supercilious"
+          "text": "refection"
         },
         {
           "label": "③",
-          "text": "rambling"
+          "text": "recourse"
         },
         {
           "label": "④",
-          "text": "fastidious"
+          "text": "rehabilitation"
         }
       ]
     },
@@ -120,25 +120,25 @@
       "number": 5,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The children’s boots have a fleecy lining."
+        "Tea has complex compounds called polyphenols which are believed to help the arteries to <u>dilate</u>."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "cushiony"
+          "text": "coagulate"
         },
         {
           "label": "②",
-          "text": "clipped"
+          "text": "precipitate"
         },
         {
           "label": "③",
-          "text": "slouch"
+          "text": "straighten"
         },
         {
           "label": "④",
-          "text": "sapid"
+          "text": "expand"
         }
       ]
     },
@@ -146,25 +146,25 @@
       "number": 6,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "I really put my foot in it with Ella."
+        "Even though some genetic mutations may be useful under some circumstances, most are unconditionally <u>noxious</u> in all existing environment."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "rouse myself"
+          "text": "deleterious"
         },
         {
           "label": "②",
-          "text": "split tacks"
+          "text": "decrepit"
         },
         {
           "label": "③",
-          "text": "goofed up"
+          "text": "onerous"
         },
         {
           "label": "④",
-          "text": "acted up"
+          "text": "odious"
         }
       ]
     },
@@ -176,19 +176,19 @@
       "choices": [
         {
           "label": "①",
-          "text": "A: It was time for him to kick the bucket. B: Right! He had to embark on a new business."
+          "text": "A: Hey, Ryan. Can you do me a favor? B: I have a lot on my plate. But what is it?"
         },
         {
           "label": "②",
-          "text": "A: I am in the competition again this year. B: Break a leg!"
+          "text": "A: Can you join us to play the games tonight? B: Sure, I’m so glad to know that you guys are totally screwed."
         },
         {
           "label": "③",
-          "text": "A: What did you do last night? B: I hit the sack real early."
+          "text": "A: Maggie, you can earn a fortune if you invest your money in this sector at the stock market. B: Let’s not be naive here. Money doesn’t grow on trees."
         },
         {
           "label": "④",
-          "text": "A: How did he know that? B: I let the cat out of the bag."
+          "text": "A: Ma’am. You’re speeding at 150 miles here at Transnational Highway 1. B: Could you please let it aside, sir?"
         }
       ]
     },
@@ -200,42 +200,41 @@
       "choices": [
         {
           "label": "①",
-          "text": "A: He is really down in the dumps. B: I saw him yesterday and he looked like a basket case."
+          "text": "A: I wonder how she came up with such a peculiar idea! B: I think some of her ideas are often off the wall."
         },
         {
           "label": "②",
-          "text": "A: I am fit to be tied right now! B: Calm down and tell me what happened."
+          "text": "A: He skived off as he does everyday. B: Yes, he always wants to help clean up."
         },
         {
           "label": "③",
-          "text": "A: I can’t believe that I got a ticket to that concert. B: Is there any outside chance that there are some more tickets floating around?"
+          "text": "A: He scoffed a dish of noodle at lunch time. B: Probably, he didn’t eat breakfast this morning."
         },
         {
           "label": "④",
-          "text": "A: Say, Mark, do you feel like chowing down right now? B: O.K. I’ll help more around the house."
+          "text": "A: I faffed around in the library. B: Did you find the book you wanted?"
         }
       ]
     },
     {
       "number": 9,
-      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Despite the success on the battlefield, his mental state had been deteriorating, which prompted some of his generals and advisers to challenge him.",
-        "No error."
+        "The accident was a particularly sad one, ① <u>inasmuch as</u> the drowned men were quite young and ② <u>lived with their families</u> in town, and all were intimate friends out on a day of pleasure, ③ <u>who had been arranged</u> for some time past. ④ <u>No error.</u>"
       ],
-      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "Despite"
+          "text": "inasmuch as"
         },
         {
           "label": "②",
-          "text": "had been deteriorating"
+          "text": "lived with their families"
         },
         {
           "label": "③",
-          "text": "which prompted"
+          "text": "who had been arranged"
         },
         {
           "label": "④",
@@ -245,24 +244,23 @@
     },
     {
       "number": 10,
-      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "The Depression curtailed regional development, but contrary to the experience of their urban counterparts elsewhere, the city exhibited patterns of demographic and economic growth throughout the 1930s.",
-        "No error."
+        "The sudden disruption of the pandemic ① <u>arose fears</u> of panic buying in British supermarkets, as a nation ② <u>already rattled</u> by a mysterious new strain of the virus now had to worry about running out of fresh food ③ <u>in the days before Christmas</u>. ④ <u>No error.</u>"
       ],
-      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "curtailed"
+          "text": "arose fears"
         },
         {
           "label": "②",
-          "text": "contrary to"
+          "text": "already rattled"
         },
         {
           "label": "③",
-          "text": "exhibited"
+          "text": "in the days before Christmas"
         },
         {
           "label": "④",
@@ -272,24 +270,23 @@
     },
     {
       "number": 11,
-      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문 법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Reflexivity and the foregrounding of subjective experience may have become increasingly fashioning in the mainstream media as well as the blogosphere, but for the most part news journalism remains a bastion of the authoritative-sounding objective approach.",
-        "No error."
+        "Not until the next day ① <u>did she learn</u> that her acting ② <u>was so lackluster</u> that the management had fired her, but other actors ③ <u>had been silent</u> out of embarrassment. ④ <u>No error.</u>"
       ],
-      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "Reflexivity and the foregrounding"
+          "text": "did she learn"
         },
         {
           "label": "②",
-          "text": "fashioning"
+          "text": "was so lackluster"
         },
         {
           "label": "③",
-          "text": "remains"
+          "text": "had been silent"
         },
         {
           "label": "④",
@@ -301,25 +298,25 @@
       "number": 12,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "The magazine story that claimed the athlete was distracted by problems at home was actually a(n) _________ made by her overseas competitors."
+        "The American singer died in July at 83, leaving a complicated legacy that includes incredible songs and philanthropy as well as hateful and reactionary __________."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "syllogism"
+          "text": "plaudits"
         },
         {
           "label": "②",
-          "text": "exhortation"
+          "text": "diatribes"
         },
         {
           "label": "③",
-          "text": "ecologue"
+          "text": "oracles"
         },
         {
           "label": "④",
-          "text": "canard"
+          "text": "jubilations"
         }
       ]
     },
@@ -327,26 +324,25 @@
       "number": 13,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Her withering and disdainful glares for his efforts left him _________ but also angry.",
-        "He hadn’t really done anything wrong, and yet she was making him out to be a complete idiot."
+        "Officially, __________ first appeared in a 14th century text by a physician from Padova describing how to treat bites or stings from venomous animals and insects."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "invoked"
+          "text": "somnambulism"
         },
         {
           "label": "②",
-          "text": "ennobled"
+          "text": "tarantism"
         },
         {
           "label": "③",
-          "text": "abashed"
+          "text": "epilepsy"
         },
         {
           "label": "④",
-          "text": "unbiased"
+          "text": "amnesia"
         }
       ]
     },
@@ -354,25 +350,25 @@
       "number": 14,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Although Don Quixote, published in 1605, is a(n) _________ work of Western literature and an early example of the modern novel, it is not, as is sometimes claimed, the first novel."
+        "Typically, the head and limbs of someone in an advanced state of the Huntington’s disease are jerked about as though manipulated by a(n) __________ puppeteer."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "seminal"
+          "text": "jovial"
         },
         {
           "label": "②",
-          "text": "derivative"
+          "text": "irksome"
         },
         {
           "label": "③",
-          "text": "retroactive"
+          "text": "mawkish"
         },
         {
           "label": "④",
-          "text": "antithetical"
+          "text": "inebriated"
         }
       ]
     },
@@ -380,25 +376,25 @@
       "number": 15,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "The _________ details with laconical style stimulate curiosity about their genuine quality."
+        "I’m afraid you will have to alter your __________ views in the light of the tragic news that has just been reported in the website today."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "frothy"
+          "text": "odoriferous"
         },
         {
           "label": "②",
-          "text": "blate"
+          "text": "roseate"
         },
         {
           "label": "③",
-          "text": "tautological"
+          "text": "slack"
         },
         {
           "label": "④",
-          "text": "piquant"
+          "text": "brackish"
         }
       ]
     },
@@ -406,26 +402,25 @@
       "number": 16,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "As people are insensitive to the semantic difference between “impartiality” and “objectivity”, two words are sometimes used _________.",
-        "But, impartial reporting is normally defined as being neutral, while objective reporting is taken to be the reporting of verifiable facts."
+        "The attorney protested that the testimony being provided was not __________ to the case and asked that it be stricken from the court record as irrelevant."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "divergingly"
+          "text": "antithetical"
         },
         {
           "label": "②",
-          "text": "interchangeably"
+          "text": "accustomed"
         },
         {
           "label": "③",
-          "text": "squarely"
+          "text": "incongruent"
         },
         {
           "label": "④",
-          "text": "contradictorily"
+          "text": "germane"
         }
       ]
     },
@@ -433,25 +428,25 @@
       "number": 17,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Satellite transmitters have provided a major advance in methods to _________ migratory animals because they provide extremely accurate positions of individuals remotely."
+        "Nepal’s new constitution, adopted in 2015, directed that remote villages be served by roads, but the __________ terrain makes building them difficult."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "camouflage"
+          "text": "unflinching"
         },
         {
           "label": "②",
-          "text": "monitor"
+          "text": "vertiginous"
         },
         {
           "label": "③",
-          "text": "breed"
+          "text": "extraneous"
         },
         {
           "label": "④",
-          "text": "derange"
+          "text": "querulous"
         }
       ]
     },
@@ -459,25 +454,25 @@
       "number": 18,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Many stories told of the king are obviously circulated by inventive malice, and these _________ the entire good old narrative of him."
+        "The actress is willing to __________ a character inscribed in the text: she assembles a role, a series of actions, attentive to her interactions with other actors, to the mood of the developing event, and from this process of working with the text a “true, newly-born, and living character” might emerge."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "ameliorate"
+          "text": "reinterpret"
         },
         {
           "label": "②",
-          "text": "vitiate"
+          "text": "replicate"
         },
         {
           "label": "③",
-          "text": "legalize"
+          "text": "privatize"
         },
         {
           "label": "④",
-          "text": "ascertain"
+          "text": "patternize"
         }
       ]
     },
@@ -485,228 +480,233 @@
       "number": 19,
       "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Direct marketing is defined as communicating directly with the targeted customers on an individual basis so that _________ response can be obtained."
+        "It is incumbent upon all users of this equipment to __________ themselves with the safety procedure."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "indifferent"
+          "text": "upbraid"
         },
         {
           "label": "②",
-          "text": "inscrutable"
+          "text": "indulge"
         },
         {
           "label": "③",
-          "text": "impetuous"
+          "text": "expedite"
         },
         {
           "label": "④",
-          "text": "immediate"
+          "text": "familiarize"
         }
       ]
     },
     {
       "number": 20,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "Literature was asserting its _________ as a way of knowing.",
-        "Writers may not have been able to establish restrictive professional organizations, as did scientists, and it remained difficult at best to earn a living in the emerging literary marketplace, which gave a new status to the writer as a professional.",
-        "Still, writers increasingly felt the need to assert the power of the artistic imagination.",
-        "Emerson described “The Poet,” and by extension any creative artist, as “a(n) __________, who stands on the centre.",
-        "For the world is not painted, or adorned, but is from the beginning beautiful; and God has not made some beautiful things, but Beauty is the creator of the universe.",
-        "Therefore the poet is not any permissive potentate, but is emperor in his own right.”"
+        "This is a delicious evening, when the whole body is one sense, and imbibes delight through every pore.",
+        "I go and come with a strange liberty in Nature, a part of herself.",
+        "As I walk along the stony shore of the pond in my shirt sleeves, though it is cool as well as cloudy and windy, and I see nothing special to attract me, all the elements are unusually congenial to me.",
+        "The bullfrogs trump to usher in the night, and the note of the whippoorwill is borne on the rippling wind from over the water. __________ with the fluttering alder and poplar leaves almost takes away my breath; yet, like the lake, my serenity is rippled but not ruffled.",
+        "These small waves raised by the evening wind are as remote from storm as the smooth reflecting surface."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "totality ― loner"
+          "text": "Apathy"
         },
         {
           "label": "②",
-          "text": "responsibility ― autocrat"
+          "text": "Myopathy"
         },
         {
           "label": "③",
-          "text": "autonomy ― sovereign"
+          "text": "Sympathy"
         },
         {
           "label": "④",
-          "text": "independence ― retainer"
+          "text": "Dyspathy"
         }
       ]
     },
     {
       "number": 21,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "African affairs were largely internal struggles because outsiders were held back by natural barriers like the Sahara Desert and the Indian Ocean.",
-        "Moreover, by the fifteenth century African politics became greatly __________ by Asian and European incursions on both the east and west coasts of the continent.",
-        "In general, outsiders restricted themselves to coastal areas that afforded the most access to African goods, and few bothered with the interior of the continent.",
-        "All this changed in the late nineteenth century when a large series of invasions called the “Scramble for Africa” divided the continent into __________."
+        "The household rubbish was thrown out into the narrow streets and the air was filled with black smoke from the factories’ chimneys.",
+        "Dirty streets and __________ living was a perfect breeding ground for diseases.",
+        "More than 31,000 people died during an outbreak of cholera in 1832 and lots more were killed by typhus, smallpox and dysentery.",
+        "Public Health Act of 1875 banned open sewers, thanks to Joseph Bazalgette’s sewage system.",
+        "Houses were made further apart, rubbish collection was introduced and public health inspectors had to be provided by the local council.",
+        "They basically had to go round whatever town or city they were employed in and check that sanitation and health of the people was alright.",
+        "In 1853, the tax on soap was __________, meaning poor people could buy it and become more hygienic by washing with it."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "complicated ― colonies"
+          "text": "institutional ― levied on"
         },
         {
           "label": "②",
-          "text": "alleviated ― provinces"
+          "text": "cramped ― taken off"
         },
         {
           "label": "③",
-          "text": "sublimed ― regions"
+          "text": "stingy ― perked up"
         },
         {
           "label": "④",
-          "text": "indoctrinated ― districts"
+          "text": "crowded ― put down"
         }
       ]
     },
     {
       "number": 22,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "For many centuries, the study of medicine was inextricably linked with the study of __________.",
-        "Indeed as late as the 18th century, it was still impossible to qualify as a doctor unless one had passed an examination in __________.",
-        "The Black Death in the mid-14th century illustrates the connection.",
-        "As it ravaged Eurasia, killing some 25 million people in Europe alone, scholars soon began to publish their views on its cause.",
-        "The medical faculty of the University of Paris was commanded by King Philip VI to give its opinion of the origin of the plague.",
-        "While other scholars blamed the total lunar eclipse of 18 March 1347, the faculty opined that a triple conjunction of Mars, Jupiter, and Saturn in Aquarius in March 1345 was responsible for the “pernicious corruption of the surrounding air, as well as other signs of mortality, famine, and other catastrophes.”",
-        "It was a reasoned theory that greatly enhanced the reputation of __________."
+        "Perhaps literature is definable not according to whether it is fictional or ‘imaginative’, but because it uses language in peculiar ways.",
+        "On this theory, literature is a kind of writing which, in the words of the Russian critic Roman Jakobson, represents an ‘organized violence committed on ordinary speech’.",
+        "Literature transforms and intensifies ordinary language, deviates __________ from everyday speech.",
+        "If you approach me at the bus stop and murmur ‘Thou still unravished bride of quietness,’ then I am instantly aware that I am in the presence of the literary.",
+        "I know this because the texture, rhythm and resonance of your words are in excess of their abstractable meaning―or, as linguists might more technically put it, there is a(n) __________ between the signifiers and the signifieds."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "astrology"
+          "text": "systematically ― disproportion"
         },
         {
           "label": "②",
-          "text": "astronomy"
+          "text": "quintessentially ― congeniality"
         },
         {
           "label": "③",
-          "text": "immunology"
+          "text": "logically ― parity"
         },
         {
           "label": "④",
-          "text": "pathology"
+          "text": "absurdly ― corroboration"
         }
       ]
     },
     {
       "number": 23,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "It’s difficult to pinpoint exactly when and where these pagan traditions ________ into the tradition as we know it: Several countries claim to be the birthplace of the Christmas tree, and there are competing _________ that seek to support their claims.",
-        "But while Christmas trees appear around the world, their origins are traced to regions with abundant evergreen forests―especially those in northern Europe."
+        "When action is given analytic priority, human beings are viewed as coming into contact with, and creating, their surroundings as well as themselves through the actions in which they engage.",
+        "Thus action, rather than human beings or the environment considered in isolation, provides the entry point into the analysis.",
+        "This contrasts on the one hand with approaches that treat the individual primarily as a passive recipient of information from the environment, and on the other hand with the approaches that focus on the individual and treat the environment as __________, serving merely as a device to trigger certain developmental processes."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "morphed ― mythologies"
+          "text": "essential"
         },
         {
           "label": "②",
-          "text": "brought ― stymies"
+          "text": "spontaneous"
         },
         {
           "label": "③",
-          "text": "stagnated ― episodes"
+          "text": "nonchalant"
         },
         {
           "label": "④",
-          "text": "changed ― succors"
+          "text": "secondary"
         }
       ]
     },
     {
       "number": 24,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "Unlike downtown commercial districts situated along bustling city streets, Lakewood Center stood at the center of a vast parking lot that accommodated twelve thousand cars, and its one-story buildings faced inward along a central promenade.",
-        "The designers of Lakewood Center sought ways to ______ consumer behavior through a rigorous ordering of pedestrian space."
+        "Over the past decades, ski lifts helped transform __________, isolated mountain villages into lucrative tourism destinations.",
+        "Now, their economic dependency on the upscale sport could be their ruin.",
+        "Billions have already been lost since the resorts were closed in March.",
+        "Should Tyrol’s entire ski season __________, as much as 3 percent of Austria’s Gross Domestic Product could be wiped out, according to the Austrian Institute of Economic Research."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "expurgate"
+          "text": "untrod ― surge"
         },
         {
           "label": "②",
-          "text": "traduce"
+          "text": "impoverished ― falter"
         },
         {
           "label": "③",
-          "text": "manipulate"
+          "text": "primitive ― inflate"
         },
         {
           "label": "④",
-          "text": "surmount"
+          "text": "antiqued ― revive"
         }
       ]
     },
     {
       "number": 25,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "Reading drama between archive and repertoire, writing and behavior, poetry and performance demands a resistance to notions of __________; it involves a processual engagement with character as a process of doing, of change, disguise, role-playing, performance.",
-        "It means thinking “with the body” about how language can be used to specify and develop an event taking place onstage, and the significant inhabiting of that unique relationship between actor and an audience of spectators.",
-        "It also means thinking with bodies in history: today’s actors are trained to do things with words, to do specific and different things, and certainly do different things than old actors did."
+        "The steam engine needs the fuel which the vegetable life yields, whether it be the still active life of the surrounding vegetation, or the extinct life which has produced the immense coal deposits in the depths of the earth.",
+        "The forces of man and animals must be restored by nourishment; all nourishment comes ultimately from the vegetable kingdom, and leads us back to the same source.",
+        "You see then that when we inquire into the origin of the moving forces which we take into our service, we are thrown back upon the __________ processes in the earth’s atmosphere, on the life of plants in general, and on the sun."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "dynamic interaction"
+          "text": "paleontological"
         },
         {
           "label": "②",
-          "text": "situational compatibility"
+          "text": "translocal"
         },
         {
           "label": "③",
-          "text": "ritualistic evaluation"
+          "text": "meteorological"
         },
         {
           "label": "④",
-          "text": "textual fidelity"
+          "text": "geothermal"
         }
       ]
     },
     {
       "number": 26,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "The movement of organisms in space and time defines their interaction with their environments and, therefore, comprises a fundamental aspect of their ecology and evolutionary history.",
-        "The degree to which organisms move ________ the range of resources they encounters, the array of hazards they experience from predators to hurricanes, and the degree to which they interact with other life forms.",
-        "For animals, movement is very much a question of _________.",
-        "While some species occupy a landscape of a few square meters for their entire lives or wander nomadically, others travel across thousands of kilometers in regular movements that constitute some of the most spectacular natural phenomena on the planet."
+        "The term “agenda setting” was coined by McCombs and Shaw in their study of media coverage and voter attitudes.",
+        "They found that the media exerted a considerable impact on voters’ judgments of what were the salient issues of the campaign.",
+        "On the basis of this and similar studies, it is argued that, although the media might not be able to tell us what to think, they have an influence on what we think about.",
+        "But agenda setting has since been dismissed as “at best a hackneyed half-truth” on the grounds that it __________ the existence of multiple agendas by media organizations and voters alike.",
+        "McQuail notes that the direction of flow in the agenda-setting model could be reversed, raising the possibility that, rather than setting the agenda, the media merely reflect the attitudes of voters.",
+        "For him, agenda setting remains a(n) __________ idea."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "characterizes ― geospatial scale"
+          "text": "sanctions ― fabricated"
         },
         {
           "label": "②",
-          "text": "slashes ― spaciotemperal measurement"
+          "text": "shatters ― corroborative"
         },
         {
           "label": "③",
-          "text": "eclipses ― territorial application"
+          "text": "underlines ― plausible"
         },
         {
           "label": "④",
-          "text": "marks ― chronological analysis"
+          "text": "downplays ― unproven"
         }
       ]
     },
@@ -714,41 +714,30 @@
       "number": 27,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "People in early cultures sought to heal their sick and save their dying not only by entreating the gods but also by developing technologies to mitigate the effects of brokenness in this world.",
-        "Today we attempt to roll back the effects of the fall through means ranging from herbal treatments to cancer drugs.",
-        "By harnessing our creative energies and applying the talents God has blessed us with, we attempt to restore what has been lost or broken.",
-        "But as medical innovations have progressed through the rise of powerful imaging systems, development of pharmaceuticals and surgical practices, and the use of AI and biotechnology, it is becoming easier for us to believe that we no longer need divine intervention and might actually overcome death through the use of technology.",
-        "To quote fictional legendary racer Ricky Bobby in the movie Talladega Nights, “With advances in modern science and my high level of income, I mean, it’s not crazy to think I can’t live to be 245, maybe three hundred.”",
-        "While Bobby’s thinking here is hilarious, it is more in line with popular opinion than you might think.",
-        "Many people believe that we might even overcome death within our lifetimes.",
-        "This is what Yuval Noah Harari writes about in his book, Homo Deus: A Brief History of Tomorrow.",
-        "Harari argues that through the use of technology, we have already overcome the three big issues that have always beset humanity: famine, plague, and war.",
-        "Though these issues persist, we experience them only on a small scale, and comparatively fewer people are affected by them.",
-        "He explains, “We don’t need to pray to any god or saint to rescue us from them.",
-        "We know quite well what needs to be done in order to prevent famine, plague, and war―and usually we succeed in doing it.”",
-        "Harari argues that we have progressed so far as a society that we have nearly eradicated these issues and can focus on other problems.",
-        "“Success breeds ambition, and our recent achievements are now pushing humankind to set itself even more daring goals.",
-        "Humanity’s next targets are likely to be immortality, happiness, and divinity.”",
-        "He argues that our struggle against death and aging will be a continuation of our pursuit to eradicate disease and illness.",
-        "But for all of our aspirations for the future, we must see that our laudable efforts to overcome sickness and disease can have dangerous consequences if we act as if we are God or seek to upgrade ourselves into gods, turning Homo sapiens into Homo deus, a god-man."
+        "The Fourth Industrial Revolution, a moniker initially coined by the World Economic Forum to refer to the newest innovations in labor and productivity, which can include near-future robotic and AI innovation, refers to an age when digital technology ceases to be trapped within the confines of a desktop computer.",
+        "The Internet of Things promises the insertion of computational technology in virtually all physical products.",
+        "The quantified self suggests the digital capture of every human sense and action, from heart rate and blush response to emotional fluency and activity tracking.",
+        "Digital and physical surveillance unite to provide a complete picture of each person’s physical and online activities in a unified holistic picture.",
+        "Massive networking promises that information is richly fused, creating secondary knowledge that was otherwise impossible to capture, such as demographic data, purchasing habits, and the chances of loan defaults.",
+        "Robotic innovations threaten prevailing concepts of aging and injury, suggesting exoskeletons and other robotic orthotics that change how humans and machines can couple in the physical world."
       ],
       "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "The human ambitions have caused the problems in the development of imaging systems."
+          "text": "The revolution redefines our human relationship to the Internet of Things."
         },
         {
           "label": "②",
-          "text": "Through AI, it is now possible to overcome any kinds of diseases."
+          "text": "The revolution reduces our holistic relationship with computation and digital intelligence."
         },
         {
           "label": "③",
-          "text": "The pursuit of immortality may have negative outcomes for the human species in the future."
+          "text": "The revolution gives digital technology the chance to break out of the computer and pervade the entire world."
         },
         {
           "label": "④",
-          "text": "The primary aim of medical and scientific development was the creation of a god-man."
+          "text": "The revolution envisions the production of a computer and all its associated products and systems."
         }
       ]
     },
@@ -756,44 +745,37 @@
       "number": 28,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "At the turn of the century, compulsory education policies were nonexistent in the U.S., leaving the underachieving students ample opportunity to abandon education in order to learn a trade.",
-        "Therefore, schools in the early part of the 20th century were populated by students possessing not only a strong desire to learn, but also above average intelligence.",
-        "Parents of student dropouts were little concerned about the lack of basic educational skills for their children since the mindset of that era primarily focused on gainful employment.",
-        "As their children left the educational environment, they entered into apprenticeships.",
-        "It was the way of life.",
-        "As time progressed, ideas about education began to shift.",
-        "A high school education became part of the American dream.",
-        "Thus evolved the entitlement battlecry heard in many boardrooms.",
-        "Today it has become law that everyone has a right to a public education.",
-        "Of course, if everyone regardless of intellectual ability was to be educated, the educational system had to make some serious adaptations in order to succeed.",
-        "Courses unrelated to the 3 “R”s emerged to meet the demand faced by public educators.",
-        "Home economics, music, art, physical education, and foreign language addressed some of the needs.",
-        "Classes for the handicapped as well as the gifted were instituted.",
-        "Courses in driver education and childcare were initiated to ensure that safety was being taught.",
-        "Assemblies were conducted to preach the dangers of drugs and alcohol.",
-        "After-school clubs provided outlets in the arts, literature and drama.",
-        "Moral values and citizenship needed a place in the curriculum.",
-        "Breakfast and lunch were provided for the poor.",
-        "Before- and after-school day care helped the “latchkey kid” syndrome.",
-        "Finally, schools were required to test eyes, ears, and general health."
+        "Thus far we have been focusing on people’s attention to the thoughts and behavior of other people.",
+        "Closely related work shows the power of “priming.” Priming refers to the somewhat mysterious workings of the Automatic System of the brain.",
+        "Research shows that subtle influences can increase the ease with which certain information comes to mind.",
+        "Imagine playing a word association game with Homer Simpson and you will get the idea.",
+        "Sometimes the merest hint of an idea or concept will trigger an association that can stimulate action.",
+        "These “primes” occur in social situations and their effects can be surprisingly powerful.",
+        "In surveys, people are often asked whether they are likely to engage in certain behavior—to vote, to lose weight, to purchase certain products.",
+        "Those who engage in surveys want to catalogue behavior, not to influence it.",
+        "But social scientists have discovered an odd fact: when they measure people’s intentions, they affect people’s conduct.",
+        "The (A)__________ refers to the findings that when people are asked what they intend to do, they become more likely to act in accordance with their answers.",
+        "This finding can be found in many contexts.",
+        "If people are asked whether they intend to eat certain foods, to diet, or to exercise, their answers to the questions will affect their behavior.",
+        "In our parlance, the (A)__________ is a (B)__________, and it can be used by a private or public (B)__________."
       ],
-      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "question": "위 글의 흐름상, 빈 칸 (A)와 (B)에 들어가기에 가장 적합 한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "Education was the way of life in the U.S. at the turn of the century."
+          "text": "(A) mere-measurement effect (B) nudge"
         },
         {
           "label": "②",
-          "text": "General ideas on education have changed since the 20th century."
+          "text": "(A) catalogue of behaviors (B) sneak attack"
         },
         {
           "label": "③",
-          "text": "At the turn of the century, parents were eager to have their children educated."
+          "text": "(A) the priming effect (B) Gordian knot"
         },
         {
           "label": "④",
-          "text": "Lunch was first provided to the intelligent and the gifted."
+          "text": "(A) the brain’s automatic system (B) conundrum"
         }
       ]
     },
@@ -801,33 +783,41 @@
       "number": 29,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Thermodynamics is concerned with changes in the properties of matter when we alter the external conditions.",
-        "An example of this is a gas being compressed by the motion of a piston.",
-        "The final outcome depends on how the change is made―if the piston is moved in slowly, we say that the compression is “reversible.”",
-        "This means that if we pull the piston back out, we retrace the same sequence of properties but in the reverse order; hence, the temperature of the gas will be the same when the piston has been pulled out as it was before the piston was pushed in.",
-        "However, if the piston is moved in and out quickly, then the initial state (and temperature) will not be recovered―the gas will always be hotter than it was at the beginning.",
-        "This is a manifestation, although not a statement, of the second law of thermodynamics.",
-        "It also makes a difference whether there is a transfer of heat between the cyclinder of gas and the external surroundings.",
-        "If the cylinder is insulated, then the gas will heat on compression and cool on expansion (refrigeration uses this principle).",
-        "On the other hand, if the cyclinder can exchange heat with the surroundings, it will remain at the same temperature if the compression is slow enough."
+        "In our brains, a neuron has a body, dendrites, and an axon.",
+        "The signal from one neuron travels down the axon and transfers to the dendrites of the next neuron.",
+        "That connection where the signal passes is called a synapse.",
+        "Neurons by themselves are kind of useless.",
+        "But when you have lots of them, they work together to create some serious magic.",
+        "That’s the idea behind a deep learning algorithm!",
+        "You get input from observation and you put your input into one layer.",
+        "That layer creates an output which in turn becomes the input for the next layer, and so on.",
+        "This happens over and over until your final output signals.",
+        "Think of the input layer as your senses: the things you see, smell, and feel, for example.",
+        "These are independent variables for one single observation.",
+        "This information is broken down into numbers and the bits of binary data that a computer can use.",
+        "You’ll need to either standardize or normalize these variables so that they’re within the same range.",
+        "They use many layers of nonlinear processing units for feature extraction and transformation.",
+        "Each successive layer uses the output of the previous layer for its input.",
+        "What they learn forms a hierarchy of concepts.",
+        "In this hierarchy, each level learns to transform its input data into a more and more abstract and composite representation."
       ],
-      "question": "위 글의 내용과 일치하는 것을 고르시오.",
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "The temperature of the gas is basically independent from the speed of the piston."
+          "text": "Deep learning process is an abstract collection of neurons."
         },
         {
           "label": "②",
-          "text": "The gas gets hotter when the piston moves intermittently under the insulated condition."
+          "text": "Many layers of nonlinear processing units work independently for the next step."
         },
         {
           "label": "③",
-          "text": "When the external surroundings are hot, the gas in the piston gets easily expanded."
+          "text": "The information collected from one single observation is converted into bits of binary data."
         },
         {
           "label": "④",
-          "text": "The rapid movement of a piston is an instance to explicate the law of thermodynamics."
+          "text": "One layer deletes an input data by a repeated process of independent variables."
         }
       ]
     },
@@ -835,14 +825,20 @@
       "number": 30,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Languages differ from one another not only in their total number of phonemes but also in the varying proportions of phonemes devoted to vowels, consonants, stresses, tones, and so on.",
-        "Some dialects of Arabic, for example, have twenty-eight consonants but only six vowels.",
-        "(A) Most African languages are similar to Mandarin and Burmese in that they emphasize pitch and stress to much greater extent than English does.",
-        "(B) Twi has five different tones―high, middle, low, rising, and falling―and every syllable of every word is spoken in one of these tones.",
-        "(C) Indonesians say igi-igi-igi-igi to emphasize the idea of “multitudes,” and the Ewe of Africa form the reduplicated gadagadagada to express intensity, in this case the heat of a fire.",
-        "(D) Adidi, when pronounced with the last syllable in a high tone, means “meal”―but when pronounced with the second syllable high and the last syllable in middle tone, the word means “red thread.”"
+        "Today there is a tendency to see human as standing somewhere between the ape and the computer.",
+        "It was never seriously denied that we were animals or had an animal aspect in behaving like animals in eating, excreting, procreating, breathing, sleeping, and dying.",
+        "(A) We were esteemed as rational, spiritual, deliberative beings, made in the image of God, a little lower than the angels.",
+        "The biblical image of humanity is noble and inspiring.",
+        "The contemporary model of homo-computer is less inspiring.",
+        "(B) Being mechanistic, we are seen as lacking a free will, hence as lacking responsibility and intrinsic value altogether.",
+        "Indeed, all that marks us off from a moderately reliable computer is the animal in us, the nonrational elements of sensation, emotions, and consciousness.",
+        "(C) If the latter model is closer to the truth, we will have to make the best of it.",
+        "But the question of our essential nature is worth asking and pursuing: Is there something special about us, a soul or mind which perdures through change and survives our death, something that constitutes our true identity and is the locus of eternal value?",
+        "(D) Or is the mind simply a function of the body, in particular, of the brain?",
+        "The theory that there is a mind separate from the body is called dualism.",
+        "The theory that the mind is really an aspect or function of the brain is called materialism."
       ],
-      "question": "위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.",
+      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. But there was something more.",
       "choices": [
         {
           "label": "①",
@@ -866,37 +862,44 @@
       "number": 31,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "If a primary source of opposition to action on climate change were a lack of information or a refusal to accept science, one would expect opposition to be stronger among those with less education and scientific knowledge.",
-        "(A) But this is not the case.",
-        "Studies of public opinion show that the more people know about science, the more polarized are their views on climate change.",
-        "Republicans are more skeptical than Democrats about global warming, and the partisan divide increases with education.",
-        "(B) Among Republicans with a high school education or less, 57 percent believe global warming is generally exaggerated.",
-        "Among Republicans who are college graduates, 74 percent think so.",
-        "Among Democrats, more education leads to greater concern with climate change.",
-        "Of Democrats with a high school education or less, 27 percent consider global warming exaggerated; Of Democrats with college degrees, only 15 percent think so.",
-        "(C) The same pattern holds true of beliefs about the human role in bringing about climate change.",
-        "Asked whether “global warming is caused by natural changes in the environment,” most Republicans say “yes,” and most Democrats say “no.”",
-        "But the partisan gap among college graduates is much greater than among those with less education.",
-        "More detailed studies have found that political polarization on climate change tracks not only general levels of education but also scientific knowledge.",
-        "(D) People with greater scientific knowledge, as measured by science courses taken and tests of scientific literacy, are more likely than those who know less about science to adhere to their party’s views on climate change."
+        "(A) Beginning around 10,000 BCE in some places, the great First Society traditions that had sustained human life for so long began to change.",
+        "Instead of hunting animals, humans began to herd them, and instead of gathering and tending plants, they began to domesticate a few chosen plants and grow them in organized fields.",
+        "These changes altered the imaginaries of the spirit world.",
+        "Cattle in particular were seen as living gods, requiring daily attendance and a culture of respect.",
+        "They were not killed for food but were sacrificed to mark special events in the life of the community.",
+        "Among the Dinka in the Sudan, a man knows his cattle by special names, sings songs to them, and sleeps next to them for long periods of time.",
+        "Cattle are sacrificed only on special occasions, such as at weddings or funerals.",
+        "Although only a few cattle-centric societies remain today, the impact of this worldview can be felt even in modern religions.",
+        "(B) The emerging great rain forests attracted human habitation to make the first settled communities, along with rivers and shores.",
+        "The Bambuti in Congo still today pay homage to a forest spirit, Jengi, whose power is thought to emanate through the world.",
+        "Jengi is seen as a parental figure and guardian.",
+        "Society is organized around individual households consisting of a husband, a wife, and their children, forming settlements that can number up to about fifty residents.",
+        "The women build the huts that, in the shape of upside-down baskets, are made out of a frame of saplings and clad with leaves.",
+        "Other rain forest cultures developed in Central America, and Southeast Asia.",
+        "(C) Just as important was the shift from gathering plants to farming.",
+        "Rice in southern China and eastern India, millet in Africa and northern China, wheat and barley in the Levant, and corn in Guatemala—all rose from being just one of thousands of plants that humans tended to the precious focus of effort and devotion.",
+        "The combined transformation of our relationship to animals and plants produced a new way of life: agropastoralism.",
+        "While today we call this period the birth of agriculture, we have to remember that crops like rice and barley were not raised as food.",
+        "They were gods.",
+        "We have so secularized food production today that we forget that the birth of what we call agriculture coincided with profound transformations that deified certain foods and thus, it might be said, guaranteed the proper and complex work ethic needed for their production."
       ],
-      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. The partisan gap in climate change concern is thus almost twice as large among those with college degrees as among those with a high school education.",
+      "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "(A)"
+          "text": "(B) →(A) →(C)"
         },
         {
           "label": "②",
-          "text": "(B)"
+          "text": "(B) →(C) →(A)"
         },
         {
           "label": "③",
-          "text": "(C)"
+          "text": "(C) →(A) →(B)"
         },
         {
           "label": "④",
-          "text": "(D)"
+          "text": "(C) →(B) →(A)"
         }
       ]
     },
@@ -904,37 +907,44 @@
       "number": 32,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "If a primary source of opposition to action on climate change were a lack of information or a refusal to accept science, one would expect opposition to be stronger among those with less education and scientific knowledge.",
-        "(A) But this is not the case.",
-        "Studies of public opinion show that the more people know about science, the more polarized are their views on climate change.",
-        "Republicans are more skeptical than Democrats about global warming, and the partisan divide increases with education.",
-        "(B) Among Republicans with a high school education or less, 57 percent believe global warming is generally exaggerated.",
-        "Among Republicans who are college graduates, 74 percent think so.",
-        "Among Democrats, more education leads to greater concern with climate change.",
-        "Of Democrats with a high school education or less, 27 percent consider global warming exaggerated; Of Democrats with college degrees, only 15 percent think so.",
-        "(C) The same pattern holds true of beliefs about the human role in bringing about climate change.",
-        "Asked whether “global warming is caused by natural changes in the environment,” most Republicans say “yes,” and most Democrats say “no.”",
-        "But the partisan gap among college graduates is much greater than among those with less education.",
-        "More detailed studies have found that political polarization on climate change tracks not only general levels of education but also scientific knowledge.",
-        "(D) People with greater scientific knowledge, as measured by science courses taken and tests of scientific literacy, are more likely than those who know less about science to adhere to their party’s views on climate change."
+        "(A) Beginning around 10,000 BCE in some places, the great First Society traditions that had sustained human life for so long began to change.",
+        "Instead of hunting animals, humans began to herd them, and instead of gathering and tending plants, they began to domesticate a few chosen plants and grow them in organized fields.",
+        "These changes altered the imaginaries of the spirit world.",
+        "Cattle in particular were seen as living gods, requiring daily attendance and a culture of respect.",
+        "They were not killed for food but were sacrificed to mark special events in the life of the community.",
+        "Among the Dinka in the Sudan, a man knows his cattle by special names, sings songs to them, and sleeps next to them for long periods of time.",
+        "Cattle are sacrificed only on special occasions, such as at weddings or funerals.",
+        "Although only a few cattle-centric societies remain today, the impact of this worldview can be felt even in modern religions.",
+        "(B) The emerging great rain forests attracted human habitation to make the first settled communities, along with rivers and shores.",
+        "The Bambuti in Congo still today pay homage to a forest spirit, Jengi, whose power is thought to emanate through the world.",
+        "Jengi is seen as a parental figure and guardian.",
+        "Society is organized around individual households consisting of a husband, a wife, and their children, forming settlements that can number up to about fifty residents.",
+        "The women build the huts that, in the shape of upside-down baskets, are made out of a frame of saplings and clad with leaves.",
+        "Other rain forest cultures developed in Central America, and Southeast Asia.",
+        "(C) Just as important was the shift from gathering plants to farming.",
+        "Rice in southern China and eastern India, millet in Africa and northern China, wheat and barley in the Levant, and corn in Guatemala—all rose from being just one of thousands of plants that humans tended to the precious focus of effort and devotion.",
+        "The combined transformation of our relationship to animals and plants produced a new way of life: agropastoralism.",
+        "While today we call this period the birth of agriculture, we have to remember that crops like rice and barley were not raised as food.",
+        "They were gods.",
+        "We have so secularized food production today that we forget that the birth of what we call agriculture coincided with profound transformations that deified certain foods and thus, it might be said, guaranteed the proper and complex work ethic needed for their production."
       ],
-      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "Most Republicans think global warming is caused by humans."
+          "text": "The Constitution of Family and Farming in the First Society"
         },
         {
           "label": "②",
-          "text": "Political stance is reflected in people’s view on human roles in the environment."
+          "text": "The Beginning of Rural Organization in the Traditional Society"
         },
         {
           "label": "③",
-          "text": "The role of college education is crucial in choosing a political party."
+          "text": "The Social Implications of Household Systems in the Primitive Society"
         },
         {
           "label": "④",
-          "text": "Scientific knowledge is more important than college education in solving political problems."
+          "text": "The Features of Early Human Settlement in the Ancient Civilization"
         }
       ]
     },
@@ -942,39 +952,40 @@
       "number": 33,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "There is no doubt that certain people are more susceptible than others to addiction.",
-        "Whether the addiction involves drugs such as nicotine, cocaine and alcohol or activities such as shopping and gambling, the single strongest risk factor for it is genetics.",
-        "(A) Individuals who are genetically (a)________ to any type of addiction have a defective gene in the part of the brain responsible for the manufacture of dopamine, which is the neurotransmitter involved with drugs.",
-        "Various addictive drugs alter the brain’s pleasure circuit, producing a feel-good sensation.",
-        "Eating cheesecake or any other food you love activates it.",
-        "So does winning a competition, acing a test, receiving praise and other pleasurable activities.",
-        "(B) However, there’s a combination of other factors, too.",
-        "Things such as early exposure to a drug, early life emotional trauma, and certain psychiatric conditions also are contributing factors.",
-        "But the people who are at a level of increased susceptibility have an inborn defect in the part of the brain responsible for reward and the ability to comfort oneself.",
-        "(C) Addictions have been shown to be anywhere from 67 per cent to 80 per cent (b)________.",
-        "This means that children of addicts, whether they’re brought up under the roof of their parents’ home or not, almost always will have the same addiction as their genetic ancestors.",
-        "This occurs even when they have been adopted and know nothing of their parents’ addictions.",
-        "The pleasure circuit communicates in the chemical language of dopamine, and this neurotransmitter zips from neuron to neuron in the brain like a molecular happy face to produce feelings of mild happiness to euphoria.",
-        "But chronic use of these addictive drugs produces enduring changes in the brain.",
-        "The most important is a reduction in the number of dopamine receptors."
+        "Immunology is the study of the body’s defense against infection.",
+        "We are continually exposed to microorganisms, many of which cause disease, and yet become ill only rarely.",
+        "How does the body defend itself?",
+        "When infection does occur, how does the body eliminate the invader and cure itself?",
+        "And why do we develop long-lasting immunity to many infectious diseases encountered once and overcome?",
+        "These are the questions addressed by immunology, which we study to understand our body’s defenses against infection at the cellular and molecular levels.",
+        "(A) Jenner had observed that the relatively mild disease of cowpox, or vaccinia, seemed to confer protection against the often fatal disease of smallpox, and in 1796, he demonstrated that inoculation with cowpox protected the recipient against smallpox.",
+        "His scientific proof relied on the deliberate exposure of the inoculated individual to infectious smallpox material two months after inoculation.",
+        "This scientific test was his original contribution.",
+        "(B) The beginning of immunology as a science is usually attributed to Edward Jenner for his work in the late 18th century.",
+        "The notion of immunity―that surviving a disease confers greater protection against it later―was known since ancient Greece.",
+        "Variolation― the inhalation or transfer into superficial skin wounds of material from smallpox pustules―had been practiced since at least the 1400s in the Middle East and China as a form of protection against that disease and was known to Jenner.",
+        "(C) Jenner called the procedure vaccination.",
+        "This term is still used to describe the inoculation of healthy individuals with weakened or attenuated strains of disease-causing agents in order to provide protection from disease.",
+        "Although Jenner’s bold experiment was successful, it took almost two centuries for smallpox vaccination to become universal.",
+        "This advance enabled the World Health Organization to announce in 1979 that smallpox had been eradicated, arguably the greatest triumph of modern medicine."
       ],
       "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "(A) → (B) → (C)"
+          "text": "(B) →(A) →(C)"
         },
         {
           "label": "②",
-          "text": "(A) → (C) → (B)"
+          "text": "(B) →(C) →(A)"
         },
         {
           "label": "③",
-          "text": "(B) → (A) → (C)"
+          "text": "(C) →(A) →(B)"
         },
         {
           "label": "④",
-          "text": "(C) → (B) → (A)"
+          "text": "(C) →(B) →(A)"
         }
       ]
     },
@@ -982,39 +993,40 @@
       "number": 34,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "There is no doubt that certain people are more susceptible than others to addiction.",
-        "Whether the addiction involves drugs such as nicotine, cocaine and alcohol or activities such as shopping and gambling, the single strongest risk factor for it is genetics.",
-        "(A) Individuals who are genetically (a)________ to any type of addiction have a defective gene in the part of the brain responsible for the manufacture of dopamine, which is the neurotransmitter involved with drugs.",
-        "Various addictive drugs alter the brain’s pleasure circuit, producing a feel-good sensation.",
-        "Eating cheesecake or any other food you love activates it.",
-        "So does winning a competition, acing a test, receiving praise and other pleasurable activities.",
-        "(B) However, there’s a combination of other factors, too.",
-        "Things such as early exposure to a drug, early life emotional trauma, and certain psychiatric conditions also are contributing factors.",
-        "But the people who are at a level of increased susceptibility have an inborn defect in the part of the brain responsible for reward and the ability to comfort oneself.",
-        "(C) Addictions have been shown to be anywhere from 67 per cent to 80 per cent (b)________.",
-        "This means that children of addicts, whether they’re brought up under the roof of their parents’ home or not, almost always will have the same addiction as their genetic ancestors.",
-        "This occurs even when they have been adopted and know nothing of their parents’ addictions.",
-        "The pleasure circuit communicates in the chemical language of dopamine, and this neurotransmitter zips from neuron to neuron in the brain like a molecular happy face to produce feelings of mild happiness to euphoria.",
-        "But chronic use of these addictive drugs produces enduring changes in the brain.",
-        "The most important is a reduction in the number of dopamine receptors."
+        "Immunology is the study of the body’s defense against infection.",
+        "We are continually exposed to microorganisms, many of which cause disease, and yet become ill only rarely.",
+        "How does the body defend itself?",
+        "When infection does occur, how does the body eliminate the invader and cure itself?",
+        "And why do we develop long-lasting immunity to many infectious diseases encountered once and overcome?",
+        "These are the questions addressed by immunology, which we study to understand our body’s defenses against infection at the cellular and molecular levels.",
+        "(A) Jenner had observed that the relatively mild disease of cowpox, or vaccinia, seemed to confer protection against the often fatal disease of smallpox, and in 1796, he demonstrated that inoculation with cowpox protected the recipient against smallpox.",
+        "His scientific proof relied on the deliberate exposure of the inoculated individual to infectious smallpox material two months after inoculation.",
+        "This scientific test was his original contribution.",
+        "(B) The beginning of immunology as a science is usually attributed to Edward Jenner for his work in the late 18th century.",
+        "The notion of immunity―that surviving a disease confers greater protection against it later―was known since ancient Greece.",
+        "Variolation― the inhalation or transfer into superficial skin wounds of material from smallpox pustules―had been practiced since at least the 1400s in the Middle East and China as a form of protection against that disease and was known to Jenner.",
+        "(C) Jenner called the procedure vaccination.",
+        "This term is still used to describe the inoculation of healthy individuals with weakened or attenuated strains of disease-causing agents in order to provide protection from disease.",
+        "Although Jenner’s bold experiment was successful, it took almost two centuries for smallpox vaccination to become universal.",
+        "This advance enabled the World Health Organization to announce in 1979 that smallpox had been eradicated, arguably the greatest triumph of modern medicine."
       ],
-      "question": "빈 칸 (a)와 (b)에 들어가기에 가장 적합한 것을 고르시오.",
+      "question": "위 글의 내용과 일치하는 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "(a) liable ― (b) chronic"
+          "text": "Edward Jenner was not aware of the existence of smallpox pustules."
         },
         {
           "label": "②",
-          "text": "(a) pertained ― (b) transient"
+          "text": "The occurrence of smallpox cannot be prevented by variolation."
         },
         {
           "label": "③",
-          "text": "(a) impervious ― (b) psychiatric"
+          "text": "Cowpox can be prevented by using vaccination."
         },
         {
           "label": "④",
-          "text": "(a) predisposed ― (b) hereditary"
+          "text": "Edward Jenner was informed of variolation practiced in the past."
         }
       ]
     },
@@ -1022,17 +1034,24 @@
       "number": 35,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "The transition to a labor market of independent professionals has social and cultural implications.",
-        "In much of the world, work is a major source of identity, so when work changes, identity changes.",
-        "Rather than forging a common bond with coworkers in a mix of jobs around the proverbial water cooler, freelancers build geographically dispersed networks with other self-employed professionals with similar skill sets.",
-        "Furthermore, in the twenty-first century the workplace has become a primary site of social connections and thus an important thread in the fabric of social cohesion, but instead of going to an office for a large portion of the day where they assume their workday persona, the new entrepreneurs work at home―even in bed, where they tap out messages to clients on their smartphone while wearing pajamas.",
-        "And (A) instead of relying on company benefits packages when working or government-administered unemployment payments when not working, these workers attempt to provide for themselves in (B) search of the vicissitudes of life.",
-        "Not partaking in any communal safety net, they argue that in an era when layoffs are commonplace, being self-employed is (C) little more precarious than working for an employer.",
-        "The cumulative result of these changes may be, on the one hand, an integration of personal and work life not seen since the Industrial Revolution moved people from farms into factories and, on the other hand, the atomization of society as individual contributors of labor rent themselves out impermanently to companies around the globe without meeting their coworkers face-to-face.",
-        "Contributing further to social disruption is the bifurcation of the labor market into the independent self-employed and those still dependent on traditional jobs.",
-        "It remains to be seen whether this new generation of professionals will (D) appreciate the degree of vulnerability that accompanies their freedom and reach out to find common cause with employees who still draw a steady paycheck, working together to address issues of security and dignity in the workplace."
+        "This year, the northern winter solstice falls on December 21 at 5:02 a.m. ET.",
+        "South of the Equator, this same moment marks the unofficial beginning of summer.",
+        "Solstices occur at the same time around the world, but their local times vary with time zones. (In rare sky show, Jupiter and Saturn will nearly ‘touch’ on the winter solstice.) (A) Traditionally, summer and winter solstices helped mark the changing of the seasons―along with their counterparts, the spring and autumnal equinoxes.",
+        "However, today’s meteorologists officially use temperature records instead to draw lines between the seasons.",
+        "So what exactly are solstices―and how have they been celebrated throughout history?",
+        "(B) Here’s all you need to know.",
+        "Solstices occur because Earth’s axis of rotation is tilted about 23.4 degrees relative to Earth’s orbit around the sun.",
+        "This tilt drives our planet’s seasons, as the Northern and Southern Hemispheres get unequal amounts of sunlight over the course of a year.",
+        "From March to September, the Northern Hemisphere is tilted more toward the sun, driving its spring and summer.",
+        "From September to March, the Northern Hemisphere is tilted away, so it feels like autumn and winter.",
+        "(C) Earth’s axial tilt plays a much bigger role than its near-circular orbit in governing annual seasons.",
+        "The Southern Hemisphere's seasons are reversed.",
+        "On two moments each year―what are called solstices―Earth’s axis is tilted most closely toward the sun.",
+        "The hemisphere tilted most toward our home star sees its longest day, while the hemisphere tilted away from the sun sees its longest night.",
+        "(D) During the Northern Hemisphere’s summer solstice― which always falls around June 21―the Southern Hemisphere gets its winter solstice.",
+        "Likewise, during the Northern Hemisphere’s winter solstice, the Southern Hemisphere gets its summer solstice."
       ],
-      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르시오.",
+      "question": "위 글의 흐름상 가장 적합하지 않은 문장을 고르시오.",
       "choices": [
         {
           "label": "①",
@@ -1056,33 +1075,40 @@
       "number": 36,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "The transition to a labor market of independent professionals has social and cultural implications.",
-        "In much of the world, work is a major source of identity, so when work changes, identity changes.",
-        "Rather than forging a common bond with coworkers in a mix of jobs around the proverbial water cooler, freelancers build geographically dispersed networks with other self-employed professionals with similar skill sets.",
-        "Furthermore, in the twenty-first century the workplace has become a primary site of social connections and thus an important thread in the fabric of social cohesion, but instead of going to an office for a large portion of the day where they assume their workday persona, the new entrepreneurs work at home―even in bed, where they tap out messages to clients on their smartphone while wearing pajamas.",
-        "And (A) instead of relying on company benefits packages when working or government-administered unemployment payments when not working, these workers attempt to provide for themselves in (B) search of the vicissitudes of life.",
-        "Not partaking in any communal safety net, they argue that in an era when layoffs are commonplace, being self-employed is (C) little more precarious than working for an employer.",
-        "The cumulative result of these changes may be, on the one hand, an integration of personal and work life not seen since the Industrial Revolution moved people from farms into factories and, on the other hand, the atomization of society as individual contributors of labor rent themselves out impermanently to companies around the globe without meeting their coworkers face-to-face.",
-        "Contributing further to social disruption is the bifurcation of the labor market into the independent self-employed and those still dependent on traditional jobs.",
-        "It remains to be seen whether this new generation of professionals will (D) appreciate the degree of vulnerability that accompanies their freedom and reach out to find common cause with employees who still draw a steady paycheck, working together to address issues of security and dignity in the workplace."
+        "This year, the northern winter solstice falls on December 21 at 5:02 a.m. ET.",
+        "South of the Equator, this same moment marks the unofficial beginning of summer.",
+        "Solstices occur at the same time around the world, but their local times vary with time zones. (In rare sky show, Jupiter and Saturn will nearly ‘touch’ on the winter solstice.) (A) Traditionally, summer and winter solstices helped mark the changing of the seasons―along with their counterparts, the spring and autumnal equinoxes.",
+        "However, today’s meteorologists officially use temperature records instead to draw lines between the seasons.",
+        "So what exactly are solstices―and how have they been celebrated throughout history?",
+        "(B) Here’s all you need to know.",
+        "Solstices occur because Earth’s axis of rotation is tilted about 23.4 degrees relative to Earth’s orbit around the sun.",
+        "This tilt drives our planet’s seasons, as the Northern and Southern Hemispheres get unequal amounts of sunlight over the course of a year.",
+        "From March to September, the Northern Hemisphere is tilted more toward the sun, driving its spring and summer.",
+        "From September to March, the Northern Hemisphere is tilted away, so it feels like autumn and winter.",
+        "(C) Earth’s axial tilt plays a much bigger role than its near-circular orbit in governing annual seasons.",
+        "The Southern Hemisphere's seasons are reversed.",
+        "On two moments each year―what are called solstices―Earth’s axis is tilted most closely toward the sun.",
+        "The hemisphere tilted most toward our home star sees its longest day, while the hemisphere tilted away from the sun sees its longest night.",
+        "(D) During the Northern Hemisphere’s summer solstice― which always falls around June 21―the Southern Hemisphere gets its winter solstice.",
+        "Likewise, during the Northern Hemisphere’s winter solstice, the Southern Hemisphere gets its summer solstice."
       ],
-      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것 을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "Independent professionals do not find it difficult to access social connections."
+          "text": "For meteorologists, solstices are decisive indicators in marking the changing of the seasons."
         },
         {
           "label": "②",
-          "text": "Personal life and work life began to be integrated recently among the independent professionals."
+          "text": "At the equinoxes of spring and fall, Earth’s axis is tilted the farthest from the sun."
         },
         {
           "label": "③",
-          "text": "The new generation of professionals are reluctant to collaborate with workers from the traditional workplace."
+          "text": "The effect of axial tilt on Earth becomes maximized in the summer and winter solstices."
         },
         {
           "label": "④",
-          "text": "Employees in the traditional workplace are seeking identity and solidarity with those who are geographically dispersed."
+          "text": "Solstices have been overlooked in both Northern and Southern Hemisphere."
         }
       ]
     },
@@ -1090,47 +1116,45 @@
       "number": 37,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Human evolution is at work in the Andes mountains.",
-        "The Quechua, an indigenous people in Peru who have lived at altitudes above 2,500 meters for at least the past 11,000 years, have evolved genetic adaptations to survive their harsh environment.",
-        "A new study finds these extreme conditions can change chemical modifications that control the activity of that DNA.",
-        "These “epigenetic” alterations are the first evidence that growing up in the mountains can alter not just genes, but how the body uses them.",
-        "Scientists have long wondered whether environmental stress, like low oxygen concentrations, can shape gene activity in highland people, says anthropologist Cynthia Beall who studies high altitude adaptations in Tibet.",
-        "This “pioneering” research shows it is not only possible, says Beall, who was not involved with the study, but likely that epigenetic changes are involved.",
-        "Your environment can cause chemical modifications to your DNA that turn genes on or off, or lower or raise the activity of certain genes.",
-        "The strategy allows people to adapt to their surroundings much more rapidly than pure genetics allows.",
-        "Still, it’s unclear what role epigenetics plays in helping people adapt to a life at high altitude.",
-        "So in the new study, a team of international researchers from Peru, Germany, and the United States looked at an epigenetic process called methylation, in which cells add chemical tags called methyl groups to DNA.",
-        "The team studied three groups: Quechua who were born and raised above 3,000 meters, Quechua who were born at high altitudes but moved to sea level when they were young, and Quechua whose families moved to sea level before they were born.",
-        "(A) Genes involved with creating red blood cells and building endurance muscle were more methylated in Quechua who were born and spent most of their early life at high altitudes, regardless of whether they moved to lower altitudes later in life.",
-        "(B) The data revealed significant differences in the methylation patterns among the groups, the team reported last month in Genome Biology and Evolution.",
-        "(C) These epigenetic modifications were probably cemented into the DNA of Quechua because they were exposed to low oxygen conditions before birth and during childhood.",
-        "But other methylated regions, including around one gene involved in the breakdown of sugar, were exclusive to the group born and raised at high elevation, the team found.",
-        "This suggests such changes only arise when Quechua are constantly exposed to high altitude.",
-        "The scientists were not able to ascertain whether any of the epigenetic modifications they saw changed the activity of the genes.",
-        "But they did find that many of the changes were irreversible, meaning the methylation of DNA in Quechua who moved to lower altitudes as adults continued to act as though they were at high altitude.",
-        "“I think it’s exciting that we found anything at all,” says Ainash Childebayeva, a postdoctoral researcher at the Max Planck Institute for the Science of Human History.",
-        "The findings, she says, lend more evidence to the idea that humans can evolve to challenging conditions much more rapidly than previously thought.",
-        "Childebayeva hopes her work will inspire others to investigate these questions in highland people around the world.",
-        "One scientist, at least, is considering it.",
-        "The study, Beall says, “makes me want to talk with the person who does my DNA analyses and see if we should look at methylation.”"
+        "It’s troubling news that gene therapy researchers have long anticipated: A hemophilia patient injected with a virus carrying a therapeutic gene in a clinical trial has developed a liver tumor.",
+        "The U.S. Food and Drug Administration (FDA) has halted the associated clinical trials, and uniQure, the Dutch firm behind the studies, is now investigating whether the virus itself caused the cancer.",
+        "Gene therapy experts say (A) that’s unlikely.",
+        "The patient had underlying conditions that predisposed him to liver cancer.",
+        "Still, scientists say it’s crucial to rule out any role for adeno-associated virus (AAV), the viral delivery system, or vector, that is used in hundreds of other gene therapy trials.",
+        "“Everyone will want to know what happened,” says physician-scientist David Lillicrap, a hemophilia researcher who was not involved with the uniQure study.",
+        "Gene therapy for various forms of the blood-clotting disorder hemophilia has been one of the field’s latest success stories.",
+        "UniQure’s hemophilia B treatment appears to be among the treatments working, with 52 of 54 patients no longer needing injections of factor IX after 6 months in its latest study.",
+        "But in recent days, uniQure revealed that an abdominal ultrasound done as part of its ongoing safety monitoring of trial participants found a liver mass in a patient treated in October 2019, prompting FDA to (B) impose a hold on the company’s three hemophilia trials.",
+        "The news sent uniQure stock plunging, along with shares of other companies working on AAV gene therapy.",
+        "Still, there’s reason to believe the virus (C) caused the cancer.",
+        "The patient was older, uniQure notes, and he had a liver disease that raises cancer risk.",
+        "He also became infected with the hepatitis B and C viruses more than 25 years ago.",
+        "Chronic infections of these viruses are linked to 80% of cases of hepatocellular carcinoma, the type of liver cancer found in the trial participant.",
+        "But FDA and others are concerned because AAV vectors have produced cancer in mouse studies.",
+        "The AAV-delivered DNA normally forms a free-floating loop in the cell’s nucleus.",
+        "But studies in newborn mice have shown AAV can sometimes integrate its cargo into the recipient’s chromosomes and cause liver cancer.",
+        "And last year, researchers reported that several dogs treated with AAV for hemophilia A had foreign DNA in chromosome locations that apparently triggered rapid cell growth.",
+        "But this was years after the dogs got the therapy, and the animals (D) did not develop tumors.",
+        "Because the uniQure patient received the gene therapy relatively recently, it’s “inconceivable” that the AAV was the primary cause of the cancer, Lillicrap says.",
+        "Still, he adds, if the patient already had a slow-growing liver tumor from his hepatitis infections, the AAV could have inserted into his liver cells’ DNA in a way that spurred faster growth."
       ],
-      "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
+      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "How Do Genetic Adaptations Occur to the People at High Altitudes?"
+          "text": "(A)"
         },
         {
           "label": "②",
-          "text": "How Do Epigenetic Alterations Influence Social Life?"
+          "text": "(B)"
         },
         {
           "label": "③",
-          "text": "How Can Human Beings Overcome Genetic Modification?"
+          "text": "(C)"
         },
         {
           "label": "④",
-          "text": "How Can Methylation Patterns Amplify Environmental Stress?"
+          "text": "(D)"
         }
       ]
     },
@@ -1138,47 +1162,45 @@
       "number": 38,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Human evolution is at work in the Andes mountains.",
-        "The Quechua, an indigenous people in Peru who have lived at altitudes above 2,500 meters for at least the past 11,000 years, have evolved genetic adaptations to survive their harsh environment.",
-        "A new study finds these extreme conditions can change chemical modifications that control the activity of that DNA.",
-        "These “epigenetic” alterations are the first evidence that growing up in the mountains can alter not just genes, but how the body uses them.",
-        "Scientists have long wondered whether environmental stress, like low oxygen concentrations, can shape gene activity in highland people, says anthropologist Cynthia Beall who studies high altitude adaptations in Tibet.",
-        "This “pioneering” research shows it is not only possible, says Beall, who was not involved with the study, but likely that epigenetic changes are involved.",
-        "Your environment can cause chemical modifications to your DNA that turn genes on or off, or lower or raise the activity of certain genes.",
-        "The strategy allows people to adapt to their surroundings much more rapidly than pure genetics allows.",
-        "Still, it’s unclear what role epigenetics plays in helping people adapt to a life at high altitude.",
-        "So in the new study, a team of international researchers from Peru, Germany, and the United States looked at an epigenetic process called methylation, in which cells add chemical tags called methyl groups to DNA.",
-        "The team studied three groups: Quechua who were born and raised above 3,000 meters, Quechua who were born at high altitudes but moved to sea level when they were young, and Quechua whose families moved to sea level before they were born.",
-        "(A) Genes involved with creating red blood cells and building endurance muscle were more methylated in Quechua who were born and spent most of their early life at high altitudes, regardless of whether they moved to lower altitudes later in life.",
-        "(B) The data revealed significant differences in the methylation patterns among the groups, the team reported last month in Genome Biology and Evolution.",
-        "(C) These epigenetic modifications were probably cemented into the DNA of Quechua because they were exposed to low oxygen conditions before birth and during childhood.",
-        "But other methylated regions, including around one gene involved in the breakdown of sugar, were exclusive to the group born and raised at high elevation, the team found.",
-        "This suggests such changes only arise when Quechua are constantly exposed to high altitude.",
-        "The scientists were not able to ascertain whether any of the epigenetic modifications they saw changed the activity of the genes.",
-        "But they did find that many of the changes were irreversible, meaning the methylation of DNA in Quechua who moved to lower altitudes as adults continued to act as though they were at high altitude.",
-        "“I think it’s exciting that we found anything at all,” says Ainash Childebayeva, a postdoctoral researcher at the Max Planck Institute for the Science of Human History.",
-        "The findings, she says, lend more evidence to the idea that humans can evolve to challenging conditions much more rapidly than previously thought.",
-        "Childebayeva hopes her work will inspire others to investigate these questions in highland people around the world.",
-        "One scientist, at least, is considering it.",
-        "The study, Beall says, “makes me want to talk with the person who does my DNA analyses and see if we should look at methylation.”"
+        "It’s troubling news that gene therapy researchers have long anticipated: A hemophilia patient injected with a virus carrying a therapeutic gene in a clinical trial has developed a liver tumor.",
+        "The U.S. Food and Drug Administration (FDA) has halted the associated clinical trials, and uniQure, the Dutch firm behind the studies, is now investigating whether the virus itself caused the cancer.",
+        "Gene therapy experts say (A) that’s unlikely.",
+        "The patient had underlying conditions that predisposed him to liver cancer.",
+        "Still, scientists say it’s crucial to rule out any role for adeno-associated virus (AAV), the viral delivery system, or vector, that is used in hundreds of other gene therapy trials.",
+        "“Everyone will want to know what happened,” says physician-scientist David Lillicrap, a hemophilia researcher who was not involved with the uniQure study.",
+        "Gene therapy for various forms of the blood-clotting disorder hemophilia has been one of the field’s latest success stories.",
+        "UniQure’s hemophilia B treatment appears to be among the treatments working, with 52 of 54 patients no longer needing injections of factor IX after 6 months in its latest study.",
+        "But in recent days, uniQure revealed that an abdominal ultrasound done as part of its ongoing safety monitoring of trial participants found a liver mass in a patient treated in October 2019, prompting FDA to (B) impose a hold on the company’s three hemophilia trials.",
+        "The news sent uniQure stock plunging, along with shares of other companies working on AAV gene therapy.",
+        "Still, there’s reason to believe the virus (C) caused the cancer.",
+        "The patient was older, uniQure notes, and he had a liver disease that raises cancer risk.",
+        "He also became infected with the hepatitis B and C viruses more than 25 years ago.",
+        "Chronic infections of these viruses are linked to 80% of cases of hepatocellular carcinoma, the type of liver cancer found in the trial participant.",
+        "But FDA and others are concerned because AAV vectors have produced cancer in mouse studies.",
+        "The AAV-delivered DNA normally forms a free-floating loop in the cell’s nucleus.",
+        "But studies in newborn mice have shown AAV can sometimes integrate its cargo into the recipient’s chromosomes and cause liver cancer.",
+        "And last year, researchers reported that several dogs treated with AAV for hemophilia A had foreign DNA in chromosome locations that apparently triggered rapid cell growth.",
+        "But this was years after the dogs got the therapy, and the animals (D) did not develop tumors.",
+        "Because the uniQure patient received the gene therapy relatively recently, it’s “inconceivable” that the AAV was the primary cause of the cancer, Lillicrap says.",
+        "Still, he adds, if the patient already had a slow-growing liver tumor from his hepatitis infections, the AAV could have inserted into his liver cells’ DNA in a way that spurred faster growth."
       ],
-      "question": "위 글의 문장을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
+      "question": "위 글의 요지로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "(B) → (A) → (C)"
+          "text": "Liver tumor in gene therapy recipient raises concerns about the virus widely used in treatment."
         },
         {
           "label": "②",
-          "text": "(B) → (C) → (A)"
+          "text": "In gene therapy, there are a variety of viruses which can cause cancer."
         },
         {
           "label": "③",
-          "text": "(C) → (A) → (B)"
+          "text": "Chronic infections of viruses may determine the type of liver cancer in gene therapy recipients."
         },
         {
           "label": "④",
-          "text": "(C) → (B) → (A)"
+          "text": "It is critical to analyze the cellular samples of tumor before starting gene therapy."
         }
       ]
     },
@@ -1186,39 +1208,42 @@
       "number": 39,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Objectivity hinges on separating independently verifiable facts from subjective values.",
-        "The concept is associated with the Enlightenment project of rationality and the pursuit of scientific knowledge.",
-        "Such grand thinking has been challenged in recent years, with some postmodernist theorists dismissing as naive empiricism the idea that there is a truth that exists “out there” in the world, independent of discourse, just waiting to be discovered.",
-        "A commitment to objectivity in journalism can be defined as meaning that a person’s statements about the world can be trusted if they are submitted to established rules deemed legitimate by a professional community.",
-        "Michael Schudson further explains that the objectivity norm guides journalists to separate facts from value and to report only the facts.",
-        "According to the objectivity norm, the journalist’s job consists of reporting something called news without commenting on it, slanting it, or shaping its formulation in any way.",
-        "But journalism was not always expected to be objective, and the above norm was not a constituent part of those 18th-century publications such as the Craftsman and the Gentleman’s Magazine that helped establish the press as a genuinely critical organ of a public engaged in critical political debate.",
-        "Before the 1830s newspapers were expected to be partisan and objectivity was not an issue.",
-        "The emergence of the US “penny press”, with many papers being politically neutral or indifferent, brought a new range of news values privileging factual coverage of human interest stories over analysis or opinion.",
-        "The gradual adoption of objectivity as a normative standard of news reporting may have been encouraged by the development of wire services such as Associated Press (AP) from 1848.",
-        "AP had a market imperative to concentrate on the bare facts, compressed into the intro, so that it could sell the same stories to newspapers with widely divergent politics.",
-        "This strategy of unadorned reportage helped AP staff overcome the unreliable nature of the new technology and placed a premium on brevity.",
-        "But Schudson says the journalist’s commitment to separating facts from values may have had more to do with the rising status of reporters in relation to their employers in the late 18th and early 20th centuries, and with a professional debate about objectivity in the years after the First World War.",
-        "Therefore, a self-conscious, articulate ideology of objectivity can be dated to the 1920s.",
-        "In the UK, the move towards a less partisan style of reporting gathered momentum only during the early part of the 20th century, culminating in the imposition of a statutory obligation to be impartial on the fledgling broadcasting industry."
+        "Geology was lively, popular and controversial, a product of the more general transformation of the study of nature in the decades around 1800.",
+        "Its practices had been freshly confected from cosmological theorizing, mineral surveying, natural history collecting, biblical exegesis and continental mining traditions.",
+        "(A) Like other natural history disciplines in the first three decades of the century, geology engaged a network of practitioners ranging from physicians and aristocrats to engineers and farmers.",
+        "A focus on strata, as exemplified in the publications of the Geological Society of London, founded in 1807, gave these diverse constituencies a practical programme of research and a common goal.",
+        "In being open to so many, however, geology was in danger of gaining a reputation for philosophical promiscuity.",
+        "Underlying disagreements about wider issues could erupt into speculative excess or religious scepticism.",
+        "For all the focus on strata, public debate about the meaning of geology remained embedded in controversy about the Creation, the Fall and the Flood, as illustrated by Byron’s notorious unperformed play Cain.",
+        "(B) Who was to interpret the meaning of a science whose findings could so flagrantly be used to contradict the opening verses of the Bible?",
+        "How was a scientific view to be given of the history of life which did not lead to soul-denying materialism and atheism?",
+        "Geology had been introduced at Oxford to arm undergraduates against the infidels, and like other natural sciences it was an extracurricular option which did not lead to a degree.",
+        "Lyell attended the flamboyant lectures of the Rev. William Buckland, whose daring reconstructions of extinct monsters and lost worlds attracted an enthusiastic following.",
+        "Buckland stressed ties to classical learning and agricultural utility; and because many feared that the new science undermined the truth of the Mosaic narrative in Genesis, he contended that geology evidenced divine design and a universal Deluge.",
+        "(C) The earliest articles Lyell wrote show how much he had learned from Buckland about reconstructing extinct animals, dating strata by fossils and charting the progressive history of life.",
+        "By the early 1820s Lyell had graduated and moved to London so that he could prepare to become a barrister.",
+        "Poor eyesight and ambitions to shine in literary circles led him to shift his career to science, despite his father’s worry that he was abandoning a secure profession.",
+        "In centering his identity around geology―while hoping to make money from it―Lyell was doing something new.",
+        "Most activities that might be called professional in science during the early nineteenth century were seen as low status, involving specimen-selling, instrument-making, curating collections and hack writing.",
+        "(D) Lyell hoped to raise authorship into a calling fit for gentlemen, much as the mathematician and natural philosopher John Playfair had done through scientific reviewing and as Carlyle and Macaulay were doing through their celebrated essays."
       ],
-      "question": "위 글의 주제로 가장 적합한 것을 고르시오.",
+      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르 시오. The result was a romantic vision of the progress of life through countless ages, strange animals perfectly adapted to even stranger physical conditions, and culminating in the creation of the human race.",
       "choices": [
         {
           "label": "①",
-          "text": "The historical progression of objectivity in journalism"
+          "text": "(A)"
         },
         {
           "label": "②",
-          "text": "The birth of wire services as the beginning of objective journalism"
+          "text": "(B)"
         },
         {
           "label": "③",
-          "text": "The importance of separating facts from subjective values"
+          "text": "(C)"
         },
         {
           "label": "④",
-          "text": "The norm of objectivity as a means of attracting wider readers"
+          "text": "(D)"
         }
       ]
     },
@@ -1226,39 +1251,42 @@
       "number": 40,
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
-        "Objectivity hinges on separating independently verifiable facts from subjective values.",
-        "The concept is associated with the Enlightenment project of rationality and the pursuit of scientific knowledge.",
-        "Such grand thinking has been challenged in recent years, with some postmodernist theorists dismissing as naive empiricism the idea that there is a truth that exists “out there” in the world, independent of discourse, just waiting to be discovered.",
-        "A commitment to objectivity in journalism can be defined as meaning that a person’s statements about the world can be trusted if they are submitted to established rules deemed legitimate by a professional community.",
-        "Michael Schudson further explains that the objectivity norm guides journalists to separate facts from value and to report only the facts.",
-        "According to the objectivity norm, the journalist’s job consists of reporting something called news without commenting on it, slanting it, or shaping its formulation in any way.",
-        "But journalism was not always expected to be objective, and the above norm was not a constituent part of those 18th-century publications such as the Craftsman and the Gentleman’s Magazine that helped establish the press as a genuinely critical organ of a public engaged in critical political debate.",
-        "Before the 1830s newspapers were expected to be partisan and objectivity was not an issue.",
-        "The emergence of the US “penny press”, with many papers being politically neutral or indifferent, brought a new range of news values privileging factual coverage of human interest stories over analysis or opinion.",
-        "The gradual adoption of objectivity as a normative standard of news reporting may have been encouraged by the development of wire services such as Associated Press (AP) from 1848.",
-        "AP had a market imperative to concentrate on the bare facts, compressed into the intro, so that it could sell the same stories to newspapers with widely divergent politics.",
-        "This strategy of unadorned reportage helped AP staff overcome the unreliable nature of the new technology and placed a premium on brevity.",
-        "But Schudson says the journalist’s commitment to separating facts from values may have had more to do with the rising status of reporters in relation to their employers in the late 18th and early 20th centuries, and with a professional debate about objectivity in the years after the First World War.",
-        "Therefore, a self-conscious, articulate ideology of objectivity can be dated to the 1920s.",
-        "In the UK, the move towards a less partisan style of reporting gathered momentum only during the early part of the 20th century, culminating in the imposition of a statutory obligation to be impartial on the fledgling broadcasting industry."
+        "Geology was lively, popular and controversial, a product of the more general transformation of the study of nature in the decades around 1800.",
+        "Its practices had been freshly confected from cosmological theorizing, mineral surveying, natural history collecting, biblical exegesis and continental mining traditions.",
+        "(A) Like other natural history disciplines in the first three decades of the century, geology engaged a network of practitioners ranging from physicians and aristocrats to engineers and farmers.",
+        "A focus on strata, as exemplified in the publications of the Geological Society of London, founded in 1807, gave these diverse constituencies a practical programme of research and a common goal.",
+        "In being open to so many, however, geology was in danger of gaining a reputation for philosophical promiscuity.",
+        "Underlying disagreements about wider issues could erupt into speculative excess or religious scepticism.",
+        "For all the focus on strata, public debate about the meaning of geology remained embedded in controversy about the Creation, the Fall and the Flood, as illustrated by Byron’s notorious unperformed play Cain.",
+        "(B) Who was to interpret the meaning of a science whose findings could so flagrantly be used to contradict the opening verses of the Bible?",
+        "How was a scientific view to be given of the history of life which did not lead to soul-denying materialism and atheism?",
+        "Geology had been introduced at Oxford to arm undergraduates against the infidels, and like other natural sciences it was an extracurricular option which did not lead to a degree.",
+        "Lyell attended the flamboyant lectures of the Rev. William Buckland, whose daring reconstructions of extinct monsters and lost worlds attracted an enthusiastic following.",
+        "Buckland stressed ties to classical learning and agricultural utility; and because many feared that the new science undermined the truth of the Mosaic narrative in Genesis, he contended that geology evidenced divine design and a universal Deluge.",
+        "(C) The earliest articles Lyell wrote show how much he had learned from Buckland about reconstructing extinct animals, dating strata by fossils and charting the progressive history of life.",
+        "By the early 1820s Lyell had graduated and moved to London so that he could prepare to become a barrister.",
+        "Poor eyesight and ambitions to shine in literary circles led him to shift his career to science, despite his father’s worry that he was abandoning a secure profession.",
+        "In centering his identity around geology―while hoping to make money from it―Lyell was doing something new.",
+        "Most activities that might be called professional in science during the early nineteenth century were seen as low status, involving specimen-selling, instrument-making, curating collections and hack writing.",
+        "(D) Lyell hoped to raise authorship into a calling fit for gentlemen, much as the mathematician and natural philosopher John Playfair had done through scientific reviewing and as Carlyle and Macaulay were doing through their celebrated essays."
       ],
-      "question": "위 글을 통해 추론할 수 있는 것으로 가장 적합한 것을 고르시오.",
+      "question": "위 글을 통해 추론할 수 없는 것으로 가장 적합한 것 을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "Theorists who support rationality held the idea that truth is dependent on discourse."
+          "text": "Geology in the 19th century was influenced by such promiscuous ideas that had caused religious conflicts among the people."
         },
         {
           "label": "②",
-          "text": "In the early 19th century, newspapers kept neutral stances on a social issue."
+          "text": "As a minister, William Buckland gave flamboyant lectures about the fossils and strata from a religious point of view."
         },
         {
           "label": "③",
-          "text": "The advent of wire services encouraged news reporting to accept objectivity as a norm."
+          "text": "The professionals in science were not highly respected in the early 19th century society."
         },
         {
           "label": "④",
-          "text": "Journalists should accept that the subjective value can be embedded into the facts."
+          "text": "Giving up his decent position at a law office, Lyell learned as much scientific knowledge as he could from Carlyle and Macaulay."
         }
       ]
     }

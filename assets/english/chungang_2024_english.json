@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "As we walked together, she’d now and then lurch into me."
+        "As we walked together, she’d now and then <u>lurch</u> into me."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "We manufacture in quality and, relatively speaking, in price the finest and best value crockery in the world."
+        "We manufacture in quality and, relatively speaking, in price the finest and best value <u>crockery</u> in the world."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "If citizens respond in a negative way to what we are saying, we should be the last people to reprehend them."
+        "If citizens respond in a negative way to what we are saying, we should be the last people to <u>reprehend</u> them."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Development programs have been vitiated by the rise in population."
+        "Development programs have been <u>vitiated</u> by the rise in population."
       ],
       "question": null,
       "choices": [
@@ -120,7 +120,7 @@
       "number": 5,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "I am very happy to be able to provide you with this victual."
+        "I am very happy to be able to provide you with this <u>victual</u>."
       ],
       "question": null,
       "choices": [
@@ -146,7 +146,7 @@
       "number": 6,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The centurion found the wells in this area were brackish."
+        "The centurion found the wells in this area were <u>brackish</u>."
       ],
       "question": null,
       "choices": [
@@ -172,7 +172,7 @@
       "number": 7,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The difficulties anticipated by the doctors at parturition did not materialize."
+        "The difficulties anticipated by the doctors at <u>parturition</u> did not materialize."
       ],
       "question": null,
       "choices": [
@@ -244,12 +244,11 @@
     },
     {
       "number": 10,
-      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "For companies like FedEx, the optimization problem of efficiently routing holiday packages is so complicated that they often employ highly specializing software to find a solution.",
-        "No error."
+        "For companies like FedEx, the ① <u>optimization</u> problem of efficiently ② <u>routing</u> holiday packages is so complicated that they often employ highly ③ <u>specializing</u> software to find a solution. ④ <u>No error.</u>"
       ],
-      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "question": null,
       "choices": [
         {
           "label": "①",
@@ -271,12 +270,11 @@
     },
     {
       "number": 11,
-      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "This concept was developed in the 1970 by a group of Dutch women dissatisfied with the increasing importation of food and the decreasing number of farms and farmers in their communities.",
-        "No error."
+        "This concept was developed ① <u>in the 1970</u> by a group of Dutch women dissatisfied with ② <u>the increasing</u> importation of food and the decreasing number of farms and farmers in ③ <u>their communities</u>. ④ <u>No error.</u>"
       ],
-      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "question": null,
       "choices": [
         {
           "label": "①",
@@ -298,12 +296,11 @@
     },
     {
       "number": 12,
-      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
+      "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Lewis Rutherford was educated as a lawyer, and among his inventions was a micrometer for the measure of astronomical photographs.",
-        "No error."
+        "Lewis Rutherford ① <u>was educated</u> as a lawyer, and among his inventions ② <u>was a micrometer</u> for the ③ <u>measure</u> of astronomical photographs. ④ <u>No error.</u>"
       ],
-      "question": "밑줄 친 부분 중 문법적으로 적절하지 않은 부분을 고르시오.",
+      "question": null,
       "choices": [
         {
           "label": "①",
@@ -325,9 +322,9 @@
     },
     {
       "number": 13,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "He was sickened by _______ and panegyrics expressed by speakers who had previously been among the first to slander the man."
+        "He was sickened by __________ and panegyrics expressed by speakers who had previously been among the first to slander the man."
       ],
       "question": null,
       "choices": [
@@ -351,9 +348,9 @@
     },
     {
       "number": 14,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "Even though the king was a(n) _______ man, the sudden attack took him by surprise, and his resistance was short-lived."
+        "Even though the king was a(n) __________ man, the sudden attack took him by surprise, and his resistance was short-lived."
       ],
       "question": null,
       "choices": [
@@ -377,9 +374,9 @@
     },
     {
       "number": 15,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "In 1633, the inquisition of the Roman Catholic Church forced Galileo Galilei to _______ his theory that the Earth moves around the Sun."
+        "In 1633, the inquisition of the Roman Catholic Church forced Galileo Galilei to __________ his theory that the Earth moves around the Sun."
       ],
       "question": null,
       "choices": [
@@ -403,15 +400,15 @@
     },
     {
       "number": 16,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "The cycles include a wide variety of factors that cause the economy to go from recession to _______ to recession over a period of years."
+        "The cycles include a wide variety of factors that cause the economy to go from recession to __________ to recession over a period of years."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "anomaly"
+          "text": "anomaly i"
         },
         {
           "label": "②",
@@ -429,9 +426,9 @@
     },
     {
       "number": 17,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "The prominence of the independent filmmaker at this time underscores the fact that filmmaking largely remained an individual enterprise at the outset of the twentieth century, _______ the corporatist structure of film production that became synonymous with Hollywood and the studio system by the 1920s."
+        "The prominence of the independent filmmaker at this time underscores the fact that filmmaking largely remained an individual enterprise at the outset of the twentieth century, __________ the corporatist structure of film production that became synonymous with Hollywood and the studio system by the 1920s."
       ],
       "question": null,
       "choices": [
@@ -455,15 +452,15 @@
     },
     {
       "number": 18,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "Arriving in New Orleans days after Hurricane Katrina had passed and without an adequate number of vehicles of its own, the armed forces began to _______ any working form of transportation they could find."
+        "Arriving in New Orleans days after Hurricane Katrina had passed and without an adequate number of vehicles of its own, the armed forces began to __________ any working form of transportation they could find."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "abrogate"
+          "text": "abrogate i"
         },
         {
           "label": "②",
@@ -481,9 +478,9 @@
     },
     {
       "number": 19,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "Some anthropologists contend that the ancient Egyptians switched from grain production to barley after excessive irrigation and salt accumulation made the soil _______ to grains."
+        "Some anthropologists contend that the ancient Egyptians switched from grain production to barley after excessive irrigation and salt accumulation made the soil __________ to grains."
       ],
       "question": null,
       "choices": [
@@ -507,9 +504,9 @@
     },
     {
       "number": 20,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "Because mercury has a variety of innocuous uses, including in thermometers and dental fillings, few people realize that it is one of the most _______ substances on the planet."
+        "Because mercury has a variety of innocuous uses, including in thermometers and dental fillings, few people realize that it is one of the most __________ substances on the planet."
       ],
       "question": null,
       "choices": [
@@ -533,7 +530,7 @@
     },
     {
       "number": 21,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
         "The government of Madagascar has recently designated portions of the territory and the surrounding islands as protected reserves for wildlife.",
         "Madagascar is home to a vast array of unique, exotic creatures.",
@@ -541,7 +538,7 @@
         "Initially categorized as a member of the order Rodentia, the aye-aye is more closely related to the lemur, a member of the primate order.",
         "Since the aye-aye is so different from its fellow primates, however, it was given its own family: Daubento-niidae.",
         "The aye-aye is perhaps best known for its large, round eyes and long, extremely thin middle finger.",
-        "These _______ are quite sensible, allowing the aye-aye to be awake at night and retrieve grubs, which are one of its primary food sources, from deep within hollow branches."
+        "These __________ are quite sensible, allowing the aye-aye to be awake at night and retrieve grubs, which are one of its primary food sources, from deep within hollow branches."
       ],
       "question": null,
       "choices": [
@@ -565,13 +562,13 @@
     },
     {
       "number": 22,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
         "By the late 1880s and early 1890s, Impressionism was a firmly established feature of the art landscape, familiar even outside France, and was continually attracting new followers.",
-        "Its fate was that of every modern creative concept: on the one hand, traditionalists continued to combat the movement, accusing it of _______ aesthetic norms and, in the broadest of political terms, of undermining the existing order; on the other hand, Impressionism had itself become the target of newer movements with their own new scales of values.",
+        "Its fate was that of every modern creative concept: on the one hand, traditionalists continued to combat the movement, accusing it of __________ aesthetic norms and, in the broadest of political terms, of undermining the existing order; on the other hand, Impressionism had itself become the target of newer movements with their own new scales of values.",
         "Any style is necessarily one-sided and will offer opponents a purchase if they choose to highlight its shortcomings.",
-        "The Impressionists no longer saw any point in _______ with academic views in order to gain entry to the Salon.",
-        "Indeed, certain aspects of the Impressionist programme had meanwhile _______ the art that was given official support."
+        "The Impressionists no longer saw any point in __________ with academic views in order to gain entry to the Salon.",
+        "Indeed, certain aspects of the Impressionist programme had meanwhile __________ the art that was given official support."
       ],
       "question": null,
       "choices": [
@@ -595,13 +592,13 @@
     },
     {
       "number": 23,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
         "Medical practice at the beginning of the 17th century was still largely based on the system of medicine introduced by Hippocrates.",
         "This had been consolidated as a comprehensive theoretical system of treatment by Galen in the 2nd century.",
-        "It was believed that disease was caused by the _______ of the body's four humours.",
+        "It was believed that disease was caused by the __________ of the body's four humours.",
         "Physicians examined their patients to determine which humour was in excess and prescribed accordingly.",
-        "Many of the treatments involved bleeding, purgatives, diaphoretics and clysters (enemas) to rid the body of these _______ influences.",
+        "Many of the treatments involved bleeding, purgatives, diaphoretics and clysters (enemas) to rid the body of these __________ influences.",
         "It was not unusual for heroic treatment to further weaken an already weak patient, although presumably those of a more robust constitution took such medicine in their stride."
       ],
       "question": null,
@@ -626,13 +623,13 @@
     },
     {
       "number": 24,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
         "Microbes probably took root on land early in Earth history, but it is plants that changed the world, providing both food and physical structure for complex terrestrial ecosystems.",
         "Today, some 400,000 species of land plant account for half of Earth’s photosynthesis and an estimated 80 percent of our planet’s total biomass.",
-        "Indeed, Earth’s resplendent robe of green is such a _______ feature of our planet that it can be detected from space.",
+        "Indeed, Earth’s resplendent robe of green is such a __________ feature of our planet that it can be detected from space.",
         "In 1990, as NASA’s Galileo spacecraft winged toward Jupiter, it trained its mechanical eyes on the distant Earth, revealing in our planet’s reflected light a distinctive peak in the so-called Vegetation Red Edge.",
-        "This signature arises because land vegetation strongly absorbs incoming visible radiation but reflects _______ wavelengths back to space.",
+        "This signature arises because land vegetation strongly absorbs incoming visible radiation but reflects __________ wavelengths back to space.",
         "Visitors to the early Earth would have observed no such feature."
       ],
       "question": null,
@@ -657,11 +654,11 @@
     },
     {
       "number": 25,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
         "The importance of language becomes evident when looking at names and terminology, which carry surprisingly strong meanings.",
         "For example, recent research shows that the language used to describe health threats can affect people’s memory and risk perceptions.",
-        "Furthermore, the words we choose can influence how well our listeners _______ new information.",
+        "Furthermore, the words we choose can influence how well our listeners __________ new information.",
         "The use of figurative speech and metaphors, for example, can make abstract concepts easier to grasp."
       ],
       "question": null,
@@ -686,13 +683,13 @@
     },
     {
       "number": 26,
-      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르시오.",
+      "instruction": "다음 빈 칸에 가장 적합한 단어 및 구문을 고르 시오.",
       "passage_sentences": [
-        "Saltwater fish drink water through their gills, where it is _______ the bloodstream.",
+        "Saltwater fish drink water through their gills, where it is __________ the bloodstream.",
         "Since seawater has a high level of salinity, saltwater fish are at risk of having too much salt in their system.",
         "This problem is overcome by using special cells in the gills and scales that excrete excess salt.",
         "The other main difficulty that saltwater fish face is that they dehydrate easily.",
-        "The relative salinity of the seawater that surrounds them is much higher than the water inside their own body, so they are constantly _______ water through osmosis—the process by which water naturally goes from an area of low to high density.",
+        "The relative salinity of the seawater that surrounds them is much higher than the water inside their own body, so they are constantly __________ water through osmosis—the process by which water naturally goes from an area of low to high density.",
         "To make up for this, saltwater fish urinate infrequently, and in small and highly concentrated amounts."
       ],
       "question": null,
@@ -741,23 +738,23 @@
         "If the stars should appear one night in a thousand years, how would men believe and adore; and preserve for many generations the remembrance of the city of God which had been shown!",
         "But every night come out these envoys of beauty, and light the universe with their admonishing smile."
       ],
-      "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
+      "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것 으로 가장 적합한 것을 고르시오.",
       "choices": [
         {
           "label": "①",
-          "text": "(B) → (A) → (C)"
+          "text": "(B) →(A) →(C)"
         },
         {
           "label": "②",
-          "text": "(B) → (C) → (A)"
+          "text": "(B) →(C) →(A)"
         },
         {
           "label": "③",
-          "text": "(C) → (B) → (A)"
+          "text": "(C) →(B) →(A)"
         },
         {
           "label": "④",
-          "text": "(C) → (A) → (B)"
+          "text": "(C) →(A) →(B)"
         }
       ]
     },
@@ -793,7 +790,7 @@
         },
         {
           "label": "④",
-          "text": "At the top of Jungfrau, about 12,000 feet above the town of Interlaken in Switzerland, the temperature is usually 42∘ colder than on the ground."
+          "text": "At the top of Jungfrau, about 12,000 feet above the town of Interlaken in Switzerland, the temperature is usually 42∘colder than on the ground."
         }
       ]
     },
@@ -805,7 +802,7 @@
         "It is an exciting new front that deals with minuscule nanometer-scaled assemblies and devices.",
         "Traditionally, miniaturization was a process in which devices became smaller and smaller by continuous improvement of existing techniques.",
         "Yet, we rapidly approach the limits of miniaturization using the conventional top-down fabrication tools.",
-        "One of the key futuristic ways of making tiny machines will be to scale them up from _______.",
+        "One of the key futuristic ways of making tiny machines will be to scale them up from __________.",
         "For that purpose, many lessons could be learned about the arrangement of nano-scale machines as occurs in each and every biological system.",
         "The living cell is actually the only place in which genuine functional molecular machines, as often described in futuristic presentations of nanotechnology, could actually be found.",
         "Molecular motors, ultrasensitive nano-scale sensors, DNA replication machines, protein synthesis machines, and many other miniature devices exist even in the very simple early pre-bacterial cells that evolved more than 3 billion years ago.",
@@ -823,7 +820,7 @@
       "choices": [
         {
           "label": "①",
-          "text": "the bacterial level"
+          "text": "the bacterial level i"
         },
         {
           "label": "②",
@@ -847,7 +844,7 @@
         "It is an exciting new front that deals with minuscule nanometer-scaled assemblies and devices.",
         "Traditionally, miniaturization was a process in which devices became smaller and smaller by continuous improvement of existing techniques.",
         "Yet, we rapidly approach the limits of miniaturization using the conventional top-down fabrication tools.",
-        "One of the key futuristic ways of making tiny machines will be to scale them up from _______.",
+        "One of the key futuristic ways of making tiny machines will be to scale them up from __________.",
         "For that purpose, many lessons could be learned about the arrangement of nano-scale machines as occurs in each and every biological system.",
         "The living cell is actually the only place in which genuine functional molecular machines, as often described in futuristic presentations of nanotechnology, could actually be found.",
         "Molecular motors, ultrasensitive nano-scale sensors, DNA replication machines, protein synthesis machines, and many other miniature devices exist even in the very simple early pre-bacterial cells that evolved more than 3 billion years ago.",
@@ -891,7 +888,7 @@
         "But, at least on first examination, it seems to have some (B)obvious limitations.",
         "Addicts, for one, aren’t the most organized and reliable of people.",
         "So what guarantee is there that they are going to be able to regularly (C)break into the needle van?",
-        "Second, most heroin addicts go through about one needle a day, shooting up at least five or six times—if not more—until the tip of the syringe becomes so blunt that it is _______.",
+        "Second, most heroin addicts go through about one needle a day, shooting up at least five or six times—if not more—until the tip of the syringe becomes so blunt that it is __________.",
         "They need a lot of needles.",
         "How can a van, coming by once a week, serve the needs of addicts who are shooting up (D)around the clock?",
         "What if the van comes by on Tuesday, and by Saturday night an addict has run out?",
@@ -927,7 +924,7 @@
         "But, at least on first examination, it seems to have some (B)obvious limitations.",
         "Addicts, for one, aren’t the most organized and reliable of people.",
         "So what guarantee is there that they are going to be able to regularly (C)break into the needle van?",
-        "Second, most heroin addicts go through about one needle a day, shooting up at least five or six times—if not more—until the tip of the syringe becomes so blunt that it is _______.",
+        "Second, most heroin addicts go through about one needle a day, shooting up at least five or six times—if not more—until the tip of the syringe becomes so blunt that it is __________.",
         "They need a lot of needles.",
         "How can a van, coming by once a week, serve the needs of addicts who are shooting up (D)around the clock?",
         "What if the van comes by on Tuesday, and by Saturday night an addict has run out?",
@@ -965,8 +962,7 @@
         "Mental institutions became frightening and depressing places in which the rights of patients were all but forgotten.",
         "These conditions continued until after World War II.",
         "At that time, new treatments were discovered for some major mental illnesses theretofore considered untreatable (penicillin for syphilis of the brain and insulin treatment for schizophrenia and depressions), and a succession of books, motion pictures, and newspaper exposés called attention to the plight of the mentally ill.",
-        "(B) Improvements were made, and Dr.",
-        "David Vail’s Humane Practices Program became a beacon for today.",
+        "(B) Improvements were made, and Dr. David Vail’s Humane Practices Program became a beacon for today.",
         "But changes were slow in coming until the early 1960s.",
         "At that time, the Civil Rights movement led lawyers to investigate America’s prisons, which were disproportionately populated by blacks, and they in turn followed prisoners into the only institutions that were worse than the prisons—the hospitals for the criminally insane.",
         "The prisons were filled with angry young men who, encouraged by legal support, were quick to demand their rights.",
@@ -978,7 +974,7 @@
         "Judicial interventions have had some definite positive effects, but there is growing awareness that courts cannot provide the standards and the review mechanisms that assure good patient care.",
         "(D) The details of providing day-to-day care simply cannot be mandated by a court, so it is time to take from the courts the responsibility for delivery of mental health care and assurance of patients rights and return it to the state mental health administrators to whom the mandate was originally given."
       ],
-      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르시오. The hospitals for the criminally insane, by contrast, were populated with people who were considered “crazy” and who were often kept obediently in the place through the use of severe bodily restraints and large doses of major tranquilizers.",
+      "question": "아래의 문장이 들어갈 위치로 가장 적합한 곳을 고르 시오. The hospitals for the criminally insane, by contrast, were populated with people who were considered “crazy” and who were often kept obediently in the place through the use of severe bodily restraints and large doses of major tranquilizers.",
       "choices": [
         {
           "label": "①",
@@ -1010,8 +1006,7 @@
         "Mental institutions became frightening and depressing places in which the rights of patients were all but forgotten.",
         "These conditions continued until after World War II.",
         "At that time, new treatments were discovered for some major mental illnesses theretofore considered untreatable (penicillin for syphilis of the brain and insulin treatment for schizophrenia and depressions), and a succession of books, motion pictures, and newspaper exposés called attention to the plight of the mentally ill.",
-        "(B) Improvements were made, and Dr.",
-        "David Vail’s Humane Practices Program became a beacon for today.",
+        "(B) Improvements were made, and Dr. David Vail’s Humane Practices Program became a beacon for today.",
         "But changes were slow in coming until the early 1960s.",
         "At that time, the Civil Rights movement led lawyers to investigate America’s prisons, which were disproportionately populated by blacks, and they in turn followed prisoners into the only institutions that were worse than the prisons—the hospitals for the criminally insane.",
         "The prisons were filled with angry young men who, encouraged by legal support, were quick to demand their rights.",
@@ -1058,13 +1053,12 @@
         "In 1831 he was appointed professor at King's College London where he lectured in geology, but did not remain there for long.",
         "His interests turned to publishing a book on geology, possibly for better financial gain compared to that of academia.",
         "He published the first edition of his most important work, Principles of Geology, in three volumes between 1830 and 1833; it was very popular among the general public and underwent twelve editions (the last edition being posthumous).",
-        "For Lyell, not only were presently operative causes able to explain past events, but _____________.",
+        "For Lyell, not only were presently operative causes able to explain past events, but __________.",
         "This made his book quite controversial, especially among catastrophists such as Sedgwick and Conybeare.",
         "Lyell also did not accept that the Earth was undergoing long-term cooling, which would have invalidated his uniformity of nature assumption.",
         "Lord Kelvin, the English physicist repeatedly pointed out that Lyell’s view violated the second law of thermodynamics.",
         "Charles Darwin and Lyell became good friends: “I saw more of Lyell than of any other man both before and after my marriage.",
-        "His mind was characterized, as it appeared to me, by clearness, caution, sound judgment and a good deal of originality.”",
-        "Lyell welcomed Darwin’s new theory on coral reefs but was much less enthusiastic about Darwin’s natural selection theory in Origin of the Species (1859).",
+        "His mind was characterized, as it appeared to me, by clearness, caution, sound judgment and a good deal of originality.” Lyell welcomed Darwin’s new theory on coral reefs but was much less enthusiastic about Darwin’s natural selection theory in Origin of the Species (1859).",
         "For Lyell, the evolution of the species implied a progressive path which was inconsistent with his repetitive cyclic approach and his concept of uniformity in nature."
       ],
       "question": "빈 칸에 들어가기에 가장 적합한 것을 고르시오.",
@@ -1102,13 +1096,12 @@
         "In 1831 he was appointed professor at King's College London where he lectured in geology, but did not remain there for long.",
         "His interests turned to publishing a book on geology, possibly for better financial gain compared to that of academia.",
         "He published the first edition of his most important work, Principles of Geology, in three volumes between 1830 and 1833; it was very popular among the general public and underwent twelve editions (the last edition being posthumous).",
-        "For Lyell, not only were presently operative causes able to explain past events, but _____________.",
+        "For Lyell, not only were presently operative causes able to explain past events, but __________.",
         "This made his book quite controversial, especially among catastrophists such as Sedgwick and Conybeare.",
         "Lyell also did not accept that the Earth was undergoing long-term cooling, which would have invalidated his uniformity of nature assumption.",
         "Lord Kelvin, the English physicist repeatedly pointed out that Lyell’s view violated the second law of thermodynamics.",
         "Charles Darwin and Lyell became good friends: “I saw more of Lyell than of any other man both before and after my marriage.",
-        "His mind was characterized, as it appeared to me, by clearness, caution, sound judgment and a good deal of originality.”",
-        "Lyell welcomed Darwin’s new theory on coral reefs but was much less enthusiastic about Darwin’s natural selection theory in Origin of the Species (1859).",
+        "His mind was characterized, as it appeared to me, by clearness, caution, sound judgment and a good deal of originality.” Lyell welcomed Darwin’s new theory on coral reefs but was much less enthusiastic about Darwin’s natural selection theory in Origin of the Species (1859).",
         "For Lyell, the evolution of the species implied a progressive path which was inconsistent with his repetitive cyclic approach and his concept of uniformity in nature."
       ],
       "question": "위 글의 내용과 일치하지 않는 것을 고르시오.",
@@ -1138,14 +1131,12 @@
         "Let’s ask the deceptively simple question, What is artificial intelligence?",
         "If you ask someone in the street, they might mention Apple’s Siri, Amazon’s cloud service, Tesla’s cars, or Google’s search algorithm.",
         "If you ask experts in deep learning, they might give you a technical response about how neural nets are organized into dozens of layers that receive labeled data, are assigned weights and thresholds, and can classify data in ways that cannot yet be fully explained.",
-        "(A) In 1978, when discussing expert systems, Professor Donald Michie described AI as knowledge refining, where “a reliability and competence of codification can be produced which far surpasses the highest level that the unaided human expert has ever, perhaps even could ever, attain.”",
-        "In one of the most popular textbooks on the subject, Stuart Russell and Peter Norvig state that AI is the attempt to understand and build intelligent entities.",
+        "(A) In 1978, when discussing expert systems, Professor Donald Michie described AI as knowledge refining, where “a reliability and competence of codification can be produced which far surpasses the highest level that the unaided human expert has ever, perhaps even could ever, attain.” In one of the most popular textbooks on the subject, Stuart Russell and Peter Norvig state that AI is the attempt to understand and build intelligent entities.",
         "“Intelligence is concerned mainly with rational action,“ they claim.",
-        "“Ideally, an intelligent agent takes the best possible action in a situation.”",
-        "(B) What are the social and material consequences of including AI and related algorithmic systems into the decision-making systems of social institutions like education and health care, finance, government operations, workplace interactions and hiring, communication systems, and the justice system?",
+        "“Ideally, an intelligent agent takes the best possible action in a situation.” (B) What are the social and material consequences of including AI and related algorithmic systems into the decision-making systems of social institutions like education and health care, finance, government operations, workplace interactions and hiring, communication systems, and the justice system?",
         "There are a lot of issues on code and algorithms or the latest thinking in computer vision or natural language processing or reinforcement learning.",
         "(C) Each way of defining artificial intelligence is doing work, setting a frame for how it will be understood, measured, valued, and governed.",
-        "If AI is defined by consumer brands for corporate infrastructure, then marketing and advertising have predetermined the horizon.",
+        "If Al is defined by consumer brands for corporate infrastructure, then marketing and advertising have predetermined the horizon.",
         "If AI systems are seen as more reliable or rational than any human expert, able to take the “best possible action,” then it suggests that they should be trusted to make high-stakes decisions in health, education, and criminal justice.",
         "(D) When specific algorithmic techniques are the sole focus, it suggests that only continual technical progress matters, with no consideration of the computational cost of those approaches and their far-reaching impacts on a planet under strain."
       ],
@@ -1176,14 +1167,12 @@
         "Let’s ask the deceptively simple question, What is artificial intelligence?",
         "If you ask someone in the street, they might mention Apple’s Siri, Amazon’s cloud service, Tesla’s cars, or Google’s search algorithm.",
         "If you ask experts in deep learning, they might give you a technical response about how neural nets are organized into dozens of layers that receive labeled data, are assigned weights and thresholds, and can classify data in ways that cannot yet be fully explained.",
-        "(A) In 1978, when discussing expert systems, Professor Donald Michie described AI as knowledge refining, where “a reliability and competence of codification can be produced which far surpasses the highest level that the unaided human expert has ever, perhaps even could ever, attain.”",
-        "In one of the most popular textbooks on the subject, Stuart Russell and Peter Norvig state that AI is the attempt to understand and build intelligent entities.",
+        "(A) In 1978, when discussing expert systems, Professor Donald Michie described AI as knowledge refining, where “a reliability and competence of codification can be produced which far surpasses the highest level that the unaided human expert has ever, perhaps even could ever, attain.” In one of the most popular textbooks on the subject, Stuart Russell and Peter Norvig state that AI is the attempt to understand and build intelligent entities.",
         "“Intelligence is concerned mainly with rational action,“ they claim.",
-        "“Ideally, an intelligent agent takes the best possible action in a situation.”",
-        "(B) What are the social and material consequences of including AI and related algorithmic systems into the decision-making systems of social institutions like education and health care, finance, government operations, workplace interactions and hiring, communication systems, and the justice system?",
+        "“Ideally, an intelligent agent takes the best possible action in a situation.” (B) What are the social and material consequences of including AI and related algorithmic systems into the decision-making systems of social institutions like education and health care, finance, government operations, workplace interactions and hiring, communication systems, and the justice system?",
         "There are a lot of issues on code and algorithms or the latest thinking in computer vision or natural language processing or reinforcement learning.",
         "(C) Each way of defining artificial intelligence is doing work, setting a frame for how it will be understood, measured, valued, and governed.",
-        "If AI is defined by consumer brands for corporate infrastructure, then marketing and advertising have predetermined the horizon.",
+        "If Al is defined by consumer brands for corporate infrastructure, then marketing and advertising have predetermined the horizon.",
         "If AI systems are seen as more reliable or rational than any human expert, able to take the “best possible action,” then it suggests that they should be trusted to make high-stakes decisions in health, education, and criminal justice.",
         "(D) When specific algorithmic techniques are the sole focus, it suggests that only continual technical progress matters, with no consideration of the computational cost of those approaches and their far-reaching impacts on a planet under strain."
       ],

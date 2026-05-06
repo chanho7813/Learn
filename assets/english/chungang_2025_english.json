@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "As it was about a quarter past five, I went home, had some tea, and walked up to the station to waylay him."
+        "As it was about a quarter past five, I went home, had some tea, and walked up to the station to <u>waylay</u> him."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "It was simply a triumph of the diaphanous over the coldness and solidity of marble."
+        "It was simply a triumph of the <u>diaphanous</u> over the coldness and solidity of marble."
       ],
       "question": null,
       "choices": [
@@ -67,8 +67,10 @@
     {
       "number": 3,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
-      "passage_sentences": [],
-      "question": "Will these attempts to impugn the overweening state and accuse mainstream politicians of medical fascism work?",
+      "passage_sentences": [
+        "Will these attempts to impugn the <u>overweening</u> state and accuse mainstream politicians of medical fascism work?"
+      ],
+      "question": null,
       "choices": [
         {
           "label": "①",
@@ -92,7 +94,7 @@
       "number": 4,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The child tried to wheedle a cookie out of her mother."
+        "The child tried to <u>wheedle</u> a cookie out of her mother."
       ],
       "question": null,
       "choices": [
@@ -118,7 +120,7 @@
       "number": 5,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Your boorish remarks to the driver of the other car were not warranted by the situation."
+        "Your <u>boorish</u> remarks to the driver of the other car were not warranted by the situation."
       ],
       "question": null,
       "choices": [
@@ -144,7 +146,7 @@
       "number": 6,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "Your insouciant attitude indicates that you do not understand the gravity of the situation."
+        "Your <u>insouciant</u> attitude indicates that you do not understand the gravity of the situation."
       ],
       "question": null,
       "choices": [
@@ -170,7 +172,7 @@
       "number": 7,
       "instruction": "다음 문장의 밑줄 친 부분과 가장 가까운 의미를 지닌 것을 고르시오.",
       "passage_sentences": [
-        "The lawyer argued that the spoliation of evidence harmed the case."
+        "The lawyer argued that the <u>spoliation</u> of evidence harmed the case."
       ],
       "question": null,
       "choices": [
@@ -212,7 +214,7 @@
         },
         {
           "label": "④",
-          "text": "A: You’ve always been too big for your britches!B: Don’t make things up! I’ve always known my place!"
+          "text": "A: You’ve always been too big for your britches! B: Don’t make things up! I’ve always known my place!"
         }
       ]
     },
@@ -244,7 +246,7 @@
       "number": 10,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Our responses would appear to depend, to greater or lesser extent, on acculturation, although primary"
+        "Our responses would appear to depend, to greater or lesser extent, on acculturation, although primary ① <u>colors red and blue would seem to most of us</u> ② <u>stimulating and rest</u>, ③ <u>respectively</u>. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
@@ -254,39 +256,41 @@
         },
         {
           "label": "②",
-          "text": "stimulating and rest, respectively. No error"
+          "text": "stimulating and rest"
         },
         {
           "label": "③",
-          "text": "밑줄 ③"
+          "text": "respectively"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
     {
       "number": 11,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
-      "passage_sentences": [],
-      "question": "In fact, the brain tissue that is closest to empathy",
+      "passage_sentences": [
+        "In fact, the brain tissue that is closest to empathy ① <u>in the sense of compassion</u> is neither a patch of cortex nor a subcortical organ ② <u>than a system</u> of hormonal ③ <u>plumbing</u>. ④ <u>No error.</u>"
+      ],
+      "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "in the sense of compassion is neither a patch of cortex nor a subcortical organ than a system of hormonal"
+          "text": "in the sense of compassion"
         },
         {
           "label": "②",
-          "text": "plumbing. No error"
+          "text": "than a system"
         },
         {
           "label": "③",
-          "text": "밑줄 ③"
+          "text": "plumbing"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
@@ -294,33 +298,33 @@
       "number": 12,
       "instruction": "다음 문장의 밑줄 친 부분 중 문법적으로 적절하 지 않은 부분의 번호를 선택하시오. 문장의 밑줄 친 부분이 문법적으로 모두 옳다면 번호 ④를 선택하시오.",
       "passage_sentences": [
-        "Italian church composers in the second half of the seventeenth century continued to cultivate the old"
+        "Italian church composers in the second half of the seventeenth century continued to cultivate the old ① <u>contrapuntal style modelling on Palestrina</u> alongside the ② <u>newer concerted styles</u> featuring basso continuo and solo singers, sometimes ③ <u>mixing the two in the same work</u>. ④ <u>No error.</u>"
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "contrapuntal style modelling on Palestrina alongside the"
+          "text": "contrapuntal style modelling on Palestrina"
         },
         {
           "label": "②",
-          "text": "newer concerted styles featuring basso continuo and solo singers, sometimes mixing the two in the same"
+          "text": "newer concerted styles"
         },
         {
           "label": "③",
-          "text": "work. No error"
+          "text": "mixing the two in the same work"
         },
         {
           "label": "④",
-          "text": "밑줄 ④"
+          "text": "No error"
         }
       ]
     },
     {
       "number": 13,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "While the WTO cannot prevent the two largest trading partners from exchanging _______ of restrictive trade measures, there could be some at some point positive WTO involvement."
+        "While the WTO cannot prevent the two largest trading partners from exchanging __________ of restrictive trade measures, there could be some at some point positive WTO involvement."
       ],
       "question": null,
       "choices": [
@@ -344,9 +348,9 @@
     },
     {
       "number": 14,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Even when the day is cloudy or the light _______ because of the time of day, the views are still splendid, and so are the photo ops."
+        "Even when the day is cloudy or the light __________ because of the time of day, the views are still splendid, and so are the photo ops."
       ],
       "question": null,
       "choices": [
@@ -370,9 +374,9 @@
     },
     {
       "number": 15,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Her dance performance felt like stepping into a _______ in South Africa, full of vibrant energy and diversity from various animals."
+        "Her dance performance felt like stepping into a __________ in South Africa, full of vibrant energy and diversity from various animals."
       ],
       "question": null,
       "choices": [
@@ -396,9 +400,9 @@
     },
     {
       "number": 16,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "She decided to _______ when asked to take on additional responsibilities at work, citing her overwhelming current workload."
+        "She decided to __________ when asked to take on additional responsibilities at work, citing her overwhelming current workload."
       ],
       "question": null,
       "choices": [
@@ -422,9 +426,9 @@
     },
     {
       "number": 17,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "Tending an infant’s requirement for _______ stimulation, for touching and holding, is as crucial to forming a bond as is tending to the requirements of physical safety, warmth, and food."
+        "Tending an infant’s requirement for __________ stimulation, for touching and holding, is as crucial to forming a bond as is tending to the requirements of physical safety, warmth, and food."
       ],
       "question": null,
       "choices": [
@@ -448,9 +452,9 @@
     },
     {
       "number": 18,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "His _______ actions, betraying the trust of everyone who relied on him, left a deep scar on the team, making it difficult for anyone to forgive him or ever trust him again."
+        "His __________ actions, betraying the trust of everyone who relied on him, left a deep scar on the team, making it difficult for anyone to forgive him or ever trust him again."
       ],
       "question": null,
       "choices": [
@@ -474,9 +478,9 @@
     },
     {
       "number": 19,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "The beauty of the sunset was so _______ that it seemed to vanish before anyone could truly appreciate it, leaving behind only a fleeting memory of its vibrant colors."
+        "The beauty of the sunset was so __________ that it seemed to vanish before anyone could truly appreciate it, leaving behind only a fleeting memory of its vibrant colors."
       ],
       "question": null,
       "choices": [
@@ -500,9 +504,9 @@
     },
     {
       "number": 20,
-      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오. (각 2점)",
+      "instruction": "다음 빈 칸에 가장 적합한 단어를 고르시오.",
       "passage_sentences": [
-        "The politician’s reputation was _______ by false accusations, which spread quickly and caused irreversible damage to his public image."
+        "The politician’s reputation was __________ by false accusations, which spread quickly and caused irreversible damage to his public image."
       ],
       "question": null,
       "choices": [
@@ -528,8 +532,8 @@
       "number": 21,
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "Those who are esteemed umpires of taste are often persons who have acquired some knowledge of admired pictures or sculptures, and have an _______ forwhatever is elegant; but if you inquire whether they are beautiful souls, and whether their own acts are like fair pictures, you learn that they are selfish and sensual.",
-        "Their cultivation is ________, as if you should rub a log of dry wood in one spot to produce fire, all the rest remaining cold.",
+        "Those who are esteemed umpires of taste are often persons who have acquired some knowledge of admired pictures or sculptures, and have an __________ for whatever is elegant; but if you inquire whether they are beautiful souls, and whether their own acts are like fair pictures, you learn that they are selfish and sensual.",
+        "Their cultivation is __________, as if you should rub a log of dry wood in one spot to produce fire, all the rest remaining cold.",
         "Their knowledge of the fine arts is some study of rules and particulars, or some limited judgment of color or form, which is exercised for amusement or for show.",
         "It is a proof of the shallowness of the doctrine of beauty as it lies in the minds of our amateurs, that men seem to have lost the perception of the instant dependence of form upon soul.",
         "There is no doctrine of forms in our philosophy.",
@@ -561,7 +565,7 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
         "The subjective experience of ageing is particularly difficult to capture.",
-        "It is hard to represent, let alone give compelling narrative shape to what Kathleen Woodward has described as an “infinitesimally incremental process of the subtraction of strengths.” In this sense, ageing is grindingly _______―an inexorable process with no dramatic arc.",
+        "It is hard to represent, let alone give compelling narrative shape to what Kathleen Woodward has described as an “infinitesimally incremental process of the subtraction of strengths.” In this sense, ageing is grindingly __________―an inexorable process with no dramatic arc.",
         "Conversely, however, it is also bafflingly, unpredictably complex.",
         "We may feel creaky one day, and sprightly the next.",
         "We can feel old at forty and young, at least temporarily, at seventy."
@@ -592,10 +596,10 @@
       "passage_sentences": [
         "Plants may engage in additional strategies to defend themselves.",
         "First, they can grow next to unpalatable plants that tend to deter herbivores, a phenomenon known as associational resistance.",
-        "Second, they may selectively ________ leaves heavily infested by sessile insects such as leaf miners or aphids, causing the leaves to fall to the ground and preventing the insect from completing its life cycle.",
+        "Second, they may selectively __________ leaves heavily infested by sessile insects such as leaf miners or aphids, causing the leaves to fall to the ground and preventing the insect from completing its life cycle.",
         "Third, some specialized species-specific plant defenses exist.",
         "For example, some tropical vines of the genus Passiflora produce physical structures that mimic eggs of the Heliconius butterflies.",
-        "Because females are less likely to lay eggs where other eggs are present, oviposition is ________."
+        "Because females are less likely to lay eggs where other eggs are present, oviposition is __________."
       ],
       "question": null,
       "choices": [
@@ -622,9 +626,9 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
         "Bitcoin is a digital currency started in 2009 by a mystery figure named Satoshi Nakamoto, whose true identity is still unknown.",
-        "It is _______ traditional currencies because it has no central bank, nation stateor regulatory authority backing it up.",
+        "It is __________ traditional currencies because it has no central bank, nation state or regulatory authority backing it up.",
         "The “coins” are made by computers solving a set of complex maths problems.",
-        "To spend them, users buy bitcoin and conduct transactions with them using exchanges such as San Francisco-based Coinbase. ________ a central authority validating transactions, they are all recorded on a public ledger, called the blockchain."
+        "To spend them, users buy bitcoin and conduct transactions with them using exchanges such as San Francisco-based Coinbase. __________ a central authority validating transactions, they are all recorded on a public ledger, called the blockchain."
       ],
       "question": null,
       "choices": [
@@ -651,10 +655,10 @@
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
         "A fundamental principle of pharmacology is that all drugs have multiple actions.",
-        "Actions that are desirable in the treatment of disease are considered _______, while those that are undesirable or pose risks to the patient are called ‘effects.’ Adverse drug effects range from the trivial, e.g., nausea or dry mouth, to the serious, e.g., massive gastrointestinal bleeding or thromboembolism; and some drugs can be even _______.",
+        "Actions that are desirable in the treatment of disease are considered __________, while those that are undesirable or pose risks to the patient are called ‘effects.’ Adverse drug effects range from the trivial, e.g., nausea or dry mouth, to the serious, e.g., massive gastrointestinal bleeding or thromboembolism; and some drugs can be even __________.",
         "Therefore, an effective system for the detection of adverse drug effects is an important component of the health care system of any advanced nation.",
         "Much of the research conducted on new drugs aims at identifying the conditions of use that maximize beneficial effects and minimize the risk of adverse effects.",
-        "The intent of drug _______ is to reflect this body of knowledge accurately so that physicians can properly prescribe the drug; or, if it is to be sold without prescription, so that consumers can properly use the drug."
+        "The intent of drug __________ is to reflect this body of knowledge accurately so that physicians can properly prescribe the drug; or, if it is to be sold without prescription, so that consumers can properly use the drug."
       ],
       "question": null,
       "choices": [
@@ -680,13 +684,13 @@
       "number": 26,
       "instruction": "다음 빈 칸에 가장 적합한 단어 또는 어구를 고 르시오.",
       "passage_sentences": [
-        "In the years following 9500 B.C, the descendants of the Natufians continued to gather and process cereals, but they also began to cultivate them in more and more _______ ways.",
+        "In the years following 9500 B.C, the descendants of the Natufians continued to gather and process cereals, but they also began to cultivate them in more and more __________ ways.",
         "When gathering wild grains, they took care to lay aside part of the harvest to sow the fields next season.",
-        "They discovered that they could achieve much better results by sowing the grains deep in the ground rather than _______ scattering them on the surface.",
+        "They discovered that they could achieve much better results by sowing the grains deep in the ground rather than __________ scattering them on the surface.",
         "So they began to hoe and plough.",
         "Gradually they also started to weed the fields, to guard them against parasites, and to water and fertilise them.",
         "As more effort was directed toward cereal cultivation, there was less time to gather and hunt wild species.",
-        "The _______ became farmers."
+        "The __________ became farmers."
       ],
       "question": null,
       "choices": [
@@ -713,7 +717,7 @@
       "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Chopin was born near Warsaw to a French father and a Polish mother in a section of Poland that was then under Russian domination.",
-        "(A)His talent as pianist,improviser, and composer showed early, and at age seven he published his first piece and played his first public concert, as a concerto soloist.",
+        "(A)His talent as pianist, improviser, and composer showed early, and at age seven he published his first piece and played his first public concert, as a concerto soloist.",
         "After studies at the Warsaw Conservatory, he performed in Vienna and toured Germany and Italy.",
         "His pieces with a strong Polish character were especially successful, encouraging him to write more.",
         "(B)The national favor of his music and its brilliant virtuosity won him a strong following in Poland.",
@@ -728,7 +732,7 @@
         "The 1848 revolutions in Paris disrupted his teaching and forced a grueling tour of England and Scotland.",
         "By then, he was ravaged by tuberculosis, and he died in Paris in 1849."
       ],
-      "question": null,
+      "question": "위 글에서 논지의 흐름상 가장 적합하지 않은 문장을 고 르시오.",
       "choices": [
         {
           "label": "①",
@@ -755,15 +759,13 @@
         "Integrally related to the lack of interest in logic in the East has been a distrust of decontextualization, that is, of considering the structure of an argument apart from its content, as well as a distaste for making inferences on the basis of underlying abstract propositions alone.",
         "Two studies by me and other researchers show how this remains true for ordinary people in 21st-century Asia.",
         "Consider the following two deductive arguments.",
-        "Is one more convincing than the other?",
-        "(1) All birds have ulnar arteries.",
-        "Therefore all eagles have ulnar arteries.",
-        "(2) All birds have ulnar arteries.",
+        "Is one more convincing than the other? (1) All birds have ulnar arteries.",
+        "Therefore all eagles have ulnar arteries. (2) All birds have ulnar arteries.",
         "Therefore, all penguins have ulnar arteries.",
         "One way to measure the extent to which people spontaneously rely on formal logic versus experiential knowledge in reasoning is to examine how they ‘project’ properties―‘ulnar arteries’ in the above example―from superordinate categories (birds) to subordinate categories (eagles, penguins).",
         "Notice that the two arguments have identical premises but their conclusions vary in how typical the target bird is.",
         "Eagles are more typical birds than penguins.",
-        "If you are in pure logical mode when you evaluate propositions like those above, you will supply the implicit middle premises of the arguments (“All eagles are birds,” and“All penguins are birds.”).",
+        "If you are in pure logical mode when you evaluate propositions like those above, you will supply the implicit middle premises of the arguments (“All eagles are birds,” and “All penguins are birds.”).",
         "People who do this would find the two arguments equally convincing.",
         "But people often find arguments to a typical instance to be more convincing than arguments to atypical ones.",
         "Prior experience makes them more comfortable with regarding eagles as birds than regarding penguins as birds.",
@@ -794,7 +796,7 @@
     },
     {
       "number": 29,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy.",
         "(A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career.",
@@ -803,7 +805,7 @@
         "(B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin.",
         "So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life.",
         "(C) Lithology and mineralogy there might be, but anything like world-history was impossible.",
-        "But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remainsof innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward."
+        "But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward."
       ],
       "question": "위 글의 단락을 논리적 흐름에 맞게 순서대로 배열한 것으로 가장 적합한 것을 고르시오.",
       "choices": [
@@ -827,7 +829,7 @@
     },
     {
       "number": 30,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "So long as the belief prevailed that this earth was the centre of the universe―that the sun was merely an orb of light to rule its day, and the moon a lamp to guide its night―there was not and could not be any true progress in astronomy.",
         "(A) But so soon as the helio-centric doctrine prevailed over the geocentric faith, and the teachings of Galileo (that our earth was simply a member, and by no means the most signal, of a planetary brotherhood that revolved round the sun) were accepted, a new light burst on the minds of mankind, and not only astronomy, but all the cognate sciences, inaugurated another career.",
@@ -836,7 +838,7 @@
         "(B) During the last sixty years, and especially since the establishment of the Geological Society in 1809, observers, by the adoption of better methods, have made brilliant and substantial progress; facts have been extensively collected and compared, and in that comparison traced to their cause and origin.",
         "So substantial, indeed, has been the progress of geology, that it now takes equal rank with the other natural sciences―attractive as an intellectual pursuit, and valuable as bearing most intimately on the industrial operations of everyday life.",
         "(C) Lithology and mineralogy there might be, but anything like world-history was impossible.",
-        "But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remainsof innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward."
+        "But when it was seen that the solid crust bore evidence of repeated physical changes, and contained within it the remains of innumerable creatures that had lived and been the objects of God’s care thousands of ages before man was called into existence, then geology sprang into life, and her course has ever since been boldly and vigorously forward."
       ],
       "question": "위 글의 내용과 일치하지 않는 것을 고르시오.",
       "choices": [
@@ -860,7 +862,7 @@
     },
     {
       "number": 31,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced.",
         "It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God.",
@@ -875,7 +877,8 @@
         "Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy.",
         "Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism.",
         "It argues that morality is not about maximizing happiness or any other end.",
-        "Instead, it is about respecting persons as ends in themselves.Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).",
+        "Instead, it is about respecting persons as ends in themselves.",
+        "Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).",
         "In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights."
       ],
       "question": "위 글의 제목으로 가장 적합한 것을 고르시오.",
@@ -900,7 +903,7 @@
     },
     {
       "number": 32,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Immanuel Kant offers an alternative account of duties and rights, one of the most powerful and influential accounts any philosopher has produced.",
         "It does not depend on the idea that we own ourselves, or on the claim that our lives and liberties are a gift from God.",
@@ -915,7 +918,8 @@
         "Four years later, he published the Groundwork for the Metaphysics of Morals, the first of his several works on moral philosophy.",
         "Five years after Jeremy Bentham’s Principles of Morals and Legislation (1780), Kant’s Groundwork launched a devastating critique of utilitarianism.",
         "It argues that morality is not about maximizing happiness or any other end.",
-        "Instead, it is about respecting persons as ends in themselves.Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).",
+        "Instead, it is about respecting persons as ends in themselves.",
+        "Kant’s Groundwork appeared shortly after the American Revolution (1776) and just before the French Revolution (1789).",
         "In line with the spirit and moral thrust of those revolutions, it offers a powerful basis for what the eighteenth-century revolutionaries called the rights of man, and what we in the early twenty first century call universal human rights."
       ],
       "question": "위 글을 통해 추론할 수 없는 것을 고르시오.",
@@ -940,7 +944,7 @@
     },
     {
       "number": 33,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama.",
         "(A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character.",
@@ -951,7 +955,7 @@
         "Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor.",
         "Time may also be compressed (or expanded) as a character crosses from one place to another.",
         "In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away.",
-        "(C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the spacein question.",
+        "(C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space in question.",
         "There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved.",
         "Simultaneous actions may also demonstrate manipulated, indeed cheated, time.",
         "(D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time.",
@@ -980,7 +984,7 @@
     },
     {
       "number": 34,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "As opposed to its reality on the set or the location, the nature of space on the screen, which may already have been modulated by lens choices, can in the cutting room be created, refined, rendered malleable, ambiguous and made to serve the drama.",
         "(A)The character is our conduit into the story, drama, and emotion, even if the shots used are not always the subjective perception of the character.",
@@ -991,7 +995,7 @@
         "Gaps between the dialogue can be altered, more or less time can be given to a reaction before the next line of dialogue or the next look, or one line might be laid over another as if one character is interrupting their interlocutor.",
         "Time may also be compressed (or expanded) as a character crosses from one place to another.",
         "In the first angle they come toward camera, while in the reverse that might come with a cut, we see them walk away.",
-        "(C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the spacein question.",
+        "(C)The point at which the cut is made might render them closer to (or further from) their destination so that they appear to arrive in less or more time than it would have taken them, physically, to cross the space in question.",
         "There might be also be a cut to the place of their arrival, either sooner or later than we have anticipated, given our understanding of the space and distance involved.",
         "Simultaneous actions may also demonstrate manipulated, indeed cheated, time.",
         "(D)When an antagonist chases a character, they may be made to appear closer to them than they actually are, so that at the last moment the pursued can be seen to escape the pursuer in the nick of time.",
@@ -1020,7 +1024,7 @@
     },
     {
       "number": 35,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process.",
         "Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials.",
@@ -1030,9 +1034,10 @@
         "Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical.",
         "This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS).",
         "While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS.",
-        "And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn.The distinction between STS and anthropology evoked here is somewhat elusive.",
+        "And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn.",
+        "The distinction between STS and anthropology evoked here is somewhat elusive.",
         "Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science.",
-        "However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.",
+        "However, it is not our ambition to attempt to disentangle these complicated relations. __________ __________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.",
         "It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics.",
         "And it suggests different ways of conceiving the links between these fields and the practices they study."
       ],
@@ -1058,7 +1063,7 @@
     },
     {
       "number": 36,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Gilles Deleuze was a thinker whose main concern was creation and differentiation, and according to whom new assemblages constantly emerge, reconfiguring reality in the process.",
         "Rather than accepting already established philosophical categories and distinctions he reassembled thought in new and inventive ways, thereby producing conceptual hybrids with unusual qualities and different potentials.",
@@ -1068,9 +1073,10 @@
         "Further, such processes traverse modern distinctions including the human and non-human, the material and ideal and the theoretical and practical.",
         "This volume raises the question of what a Deleuzian approach might entail for social anthropology and for science and technology studies (STS).",
         "While ideas related to and inspired by Deleuzian themes have emerged in fields/areas such as actor-network theory and nonhumanist theory, there has been little sustained exploration of the specific challenges and possibilities that Deleuzian thought could bring to STS.",
-        "And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn.The distinction between STS and anthropology evoked here is somewhat elusive.",
+        "And while Deleuze and Guattari made use of anthropology ‘in free variation’ relatively few anthropologists have made use of their work in turn.",
+        "The distinction between STS and anthropology evoked here is somewhat elusive.",
         "Indeed, several Deleuze-inspired anthropologists are, precisely, anthropologists of science.",
-        "However, it is not our ambition to attempt to disentangle these complicated relations. _____________ ______________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.",
+        "However, it is not our ambition to attempt to disentangle these complicated relations. __________ __________ It offers, we suggest, new insights into methodology, epistemology and ontology in these fields.",
         "It facilitates an arguably increasingly important rethinking of the relations between science, technology, culture and politics.",
         "And it suggests different ways of conceiving the links between these fields and the practices they study."
       ],
@@ -1096,14 +1102,14 @@
     },
     {
       "number": 37,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists.",
         "Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine.",
         "Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil.",
         "Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone.",
         "But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage.",
-        "The disease known as absinthism, featuring such symptoms, was recognized inthe 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.",
+        "The disease known as absinthism, featuring such symptoms, was recognized in the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.",
         "The history of the herb wormwood, however, dates from far earlier times.",
         "Its earliest recorded use is found in Egyptian writings from 3550 B.C.",
         "Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing.",
@@ -1147,14 +1153,14 @@
     },
     {
       "number": 38,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3.5점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "The clear green liqueur known as absinthe achieved artistic immortality in the late nineteenth century, when it was often depicted in paintings of Parisian cafe life and extolled by well-known poets and artists.",
         "Absinthe had been popularized by French soldiers returning from fighting in Algeria in the 1840s, where, in an attempt to prevent fevers, they had added wormwood extract to their wine.",
         "Upon returning to France they switched to absinthe, a chief ingredient of which was wormwood oil.",
         "Because of this additive, absinthe induces dreamlike effects not produced by alcohol alone.",
         "But it is also toxic; excessive absinthe consumption can cause a dazed feeling, frightening hallucinations, and even irreversible brain damage.",
-        "The disease known as absinthism, featuring such symptoms, was recognized inthe 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.",
+        "The disease known as absinthism, featuring such symptoms, was recognized in the 1850s, yet the sale and manufacture of the drink was not prohibited until the twentieth century.",
         "The history of the herb wormwood, however, dates from far earlier times.",
         "Its earliest recorded use is found in Egyptian writings from 3550 B.C.",
         "Pharmacists in ancient Rome used extracts of the herb to expel intestinal worms; wormwood juice applied to the skin kept fleas and gnats away and wormwood leaves repelled moths from stored clothing.",
@@ -1184,7 +1190,7 @@
         },
         {
           "label": "②",
-          "text": "The use of wormwood in absinthe contributed to itshallucinogenic properties and potential health risks."
+          "text": "The use of wormwood in absinthe contributed to its hallucinogenic properties and potential health risks."
         },
         {
           "label": "③",
@@ -1198,7 +1204,7 @@
     },
     {
       "number": 39,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells.",
         "While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I.",
@@ -1240,7 +1246,7 @@
     },
     {
       "number": 40,
-      "instruction": "다음 글을 읽고 물음에 답하시오. (각 3점)",
+      "instruction": "다음 글을 읽고 물음에 답하시오.",
       "passage_sentences": [
         "Blood grouping, or blood typing, is a system that categorizes human blood into different types, based on the presence or absence of specific markers on red blood cells.",
         "While the concept was discovered in the early 1900s, its learnings weren’t widely applied until World War I.",
