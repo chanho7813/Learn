@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "Choose the one that comes closest in meaning to the underlined word.",
       "passage_sentences": [
-        "The world is so inextricably interconnected that cultural and economic isolationism is unthinkable."
+        "The world is so <u>inextricably</u> interconnected that cultural and economic isolationism is unthinkable."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "Choose the one that comes closest in meaning to the underlined word.",
       "passage_sentences": [
-        "The understanding was based on more than just impressions of their malaise."
+        "The understanding was based on more than just impressions of their <u>malaise</u>."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "Choose the one that comes closest in meaning to the underlined word.",
       "passage_sentences": [
-        "Americans have separated Clinton’s squalid personal behavior from his official stewardship."
+        "Americans have separated Clinton’s <u>squalid</u> personal behavior from his official stewardship."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "Choose the one that would best fill in the blank.",
       "passage_sentences": [],
-      "question": "How can a tube as ________ as a mosquito’s proboscis be stiff enough to act as a hollow boring tool?",
+      "question": "How can a tube as __________ as a mosquito’s proboscis be stiff enough to act as a hollow boring tool?",
       "choices": [
         {
           "label": "①",
@@ -118,7 +118,7 @@
       "number": 5,
       "instruction": "Choose the one that would best fill in the blank.",
       "passage_sentences": [
-        "Italy’s industrial heartland came to a(n) _________ as floodwaters blocked more than 170 roads and damaged factories around Turin."
+        "Italy’s industrial heartland came to a(n) __________ as floodwaters blocked more than 170 roads and damaged factories around Turin."
       ],
       "question": null,
       "choices": [
@@ -144,12 +144,12 @@
       "number": 6,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Humans assign beauty to objects that please the senses or the intellect.",
+        "Humans assign beauty to objects ① <u>that please the senses or the intellect</u>.",
         "Beauty is a very subjective property and differs from culture to culture.",
         "Nevertheless, many scientists tried to define and even more measure it.",
-        "The first step toward this goal is to identify elementary properties which as a whole make up or at least contribute to beauty.",
-        "If we can count or in some way quantify all these properties, then we can quantify beauty by the sum of the elementary measures.",
-        "In essence, therefore, beauty is reduced to a number and once we measure the beauty of two objects, we can say one is nicer than other if its measure is greater."
+        "The first step toward this goal is ② <u>to identify elementary properties which as</u> a whole make up or at least contribute to beauty.",
+        "If we can count or in some way quantify ③ <u>all these properties</u>, then we can quantify beauty by the sum of the elementary measures.",
+        "In essence, therefore, beauty is reduced to a number and once we measure the beauty of two objects, we can say one is nicer than ④ <u>other if its measure is greater</u>."
       ],
       "question": null,
       "choices": [
@@ -175,11 +175,11 @@
       "number": 7,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Thousands of foreign soldiers have travelled to Ukraine to fight and the number of Taiwanese among them is small, estimated at about 10.",
-        "But Russia's invasion has resonated on the self-ruled island halfway around the world.",
+        "Thousands of foreign soldiers have travelled to Ukraine to fight and the number of Taiwanese among them ① <u>is small</u>, estimated at about 10.",
+        "But Russia's invasion ② <u>has resonated on the self-ruled island</u> halfway around the world.",
         "China claims Taiwan as part of its territory and said it will unify it by force if necessary.",
-        "Taiwan sees itself as distinct from the mainland.",
-        "Tensions in the Taiwan Strait increased sharply followed the visit of US politician Nancy Pelosi in August, which infuriated Beijing.",
+        "Taiwan sees ③ <u>itself as distinct from the mainland</u>.",
+        "Tensions in the Taiwan Strait increased sharply ④ <u>followed the visit of US politician</u> Nancy Pelosi in August, which infuriated Beijing.",
         "China responded with military drills around the island."
       ],
       "question": null,
@@ -206,10 +206,9 @@
       "number": 8,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "First proposed by the late criminologist James Q.",
-        "Wilson in 1982, the broken windows theory of criminal justice holds that seems minor instances of social and physical disorder in urban spaces can contribute to an atmosphere of lawlessness that encourages more serious crimes.",
-        "By making aggressive misdemeanor arrests for crimes like vandalism, the theory goes, police can reduce and prevent felonious activity in neighborhoods they patrol.",
-        "New York City Mayor Rudy Giuliani brought broken windows doctrine to national attention in the 1990s with his campaign against squeegee men who harassed drivers with unsolicited windshield washing."
+        "① <u>First proposed by the late criminologist</u> James Q. Wilson in 1982, the broken windows theory of criminal justice holds that ② <u>seems minor instances of social and</u> physical disorder in urban spaces can contribute to an atmosphere of lawlessness that encourages more serious crimes.",
+        "By making aggressive misdemeanor arrests for crimes like vandalism, ③ <u>the theory goes</u>, police can reduce and prevent felonious activity in neighborhoods they patrol.",
+        "New York City Mayor Rudy Giuliani brought broken windows doctrine to national attention in the 1990s with his campaign against squeegee men who harassed drivers with unsolicited windshield ④ <u>washing</u>."
       ],
       "question": null,
       "choices": [
@@ -236,12 +235,12 @@
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
         "When I moved to New York a couple of years ago, I threw myself into all the activities one typically does when they move to the city.",
-        "I saw show on Broadway, picnicked in Prospect Park and became a regular at my bodega.",
-        "I also started to take improv classes, which seemed like one of those New York things to do.",
+        "I ① <u>saw show on Broadway</u>, picnicked in Prospect Park and became a regular at my bodega.",
+        "I also started to take improv classes, which seemed like one of those New York things ② <u>to do</u>.",
         "For three hours every week, I learned the art of performing comedy without a script.",
         "And I found that the classes were helping to combat my anxiety and my tendency to overthink— not just onstage, but in daily life.",
-        "I used to be shy about speaking up at meetings, for example, but after doing sketches in front of a live audience, it seemed like a piece of cake.",
-        "It turns out there are several mental health benefits of performing this art."
+        "I ③ <u>used to be shy about speaking</u> up at meetings, for example, but after doing sketches in front of a live audience, it seemed like a piece of cake.",
+        "It ④ <u>turns out there are several mental</u> health benefits of performing this art."
       ],
       "question": null,
       "choices": [
@@ -268,13 +267,13 @@
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
         "In 2017, a controversy arose between two billionaires, Mark Zuckerberg, founder of Facebook, and Elon Musk of Space X and Tesla.",
-        "Zuckerberg maintained that artificial intelligence was a great generator of wealth and prosperity that will enrich all of society.",
-        "Musk, however, took a much darker view and stated that AI actually posed an existential risk to all of humanity, that one day our creations may turn on us.",
+        "Zuckerberg maintained that artificial intelligence was a great generator of wealth and prosperity ① <u>that will enrich all of society</u>.",
+        "Musk, however, took a much darker view and stated that AI actually posed an existential risk to all of humanity, that one day our creations may ② <u>turn on us</u>.",
         "Who is correct?",
         "If we depend so heavily on robots to maintain our lunar bases and cities on Mars, then what happens if they decide one day that they don’t need us anymore?",
-        "Would we have created colonies in outer space only to lose them to robots?",
+        "Would we have created colonies in outer space ③ <u>only to lose them to robots</u>?",
         "This fear is an old one and was actually expressed as far back as 1863 by novelist Samuel Butler, who warned, “We are ourselves creating our own successors.",
-        "Man will become to the machine which the horse and the dog are to man.”"
+        "Man will become to ④ <u>the machine which the horse and</u> the dog are to man.”"
       ],
       "question": null,
       "choices": [
@@ -304,8 +303,7 @@
         "Only 225 such watches will ever be made.",
         "From the first day of its existence in 1775, the Company has steadfastly pursued its founder Abraham-Louis Brequet’s original values— utter purity of form and line enhancing the elegance of an ongoing succession of inspired inventions and resourceful developments.",
         "For 225 years, Brequet timepieces have thus fascinated many of the world’s leading writers, not least Balzac, Stendhal and Pushkin, along with distinguished patrons as Marie Antoinette, General Napoleon Bonaparte, and Sir Winston Churchill.",
-        "Today, Nicholas G.",
-        "Hayek and Brequet wish to share the Company’s 225th anniversary celebration with Brequet collectors and patrons by offering them an opportunity to acquire a commemorative timepiece in a numbered edition limited to 225 self-winding wristwatches in platinum, saluting the excellence of Brequet craftsmanship.",
+        "Today, Nicholas G. Hayek and Brequet wish to share the Company’s 225th anniversary celebration with Brequet collectors and patrons by offering them an opportunity to acquire a commemorative timepiece in a numbered edition limited to 225 self-winding wristwatches in platinum, saluting the excellence of Brequet craftsmanship.",
         "Its design is directly inspired by a famous pocket watch made by Brequet in 1813 for Maréchal Ney.",
         "It makes the most of the materials and techniques of the period: cambered dial plate with oven-fired enamelling, hand-painted with Brequet-style Arabic numerals; 18 carat gold Brequet hands; secret signature."
       ],
@@ -368,27 +366,29 @@
       "number": 13,
       "instruction": "Choose the best place for the sentence given in the box.",
       "passage_sentences": [
-        "Our planet was like a giant ovum floating in space, fertilised by space dust, meteors and asteroids, the spermatozoa of the universe, which brought DNA to us.",
-        "The earth is roughly 4.5 billion years old and probably began as a whirling cloud, cooling and solidifying, its waters gradually ending their cycle of rain and evaporation, reducing the surface temperature of our red planet enough to accumulate in turbulent, lifeless, hot oceans inhospitable to all life, in the Precambrian period’s Archaean Eon.",
-        "("
+        "The earth is roughly 4.5 billion years old and probably began as a whirling cloud, cooling and solidifying, its waters gradually ending their cycle of rain and evaporation, reducing the surface temperature of our red planet enough to accumulate in turbulent, lifeless, hot oceans inhospitable to all life, in the Precambrian period’s Archaean Eon. ( ① )",
+        "But phosphates, sugars, nitrogen were about in the oceanic stew, and from these the first carbohydrates and other building blocks of life were formed. ( ② )",
+        "At least, that is one possible explanation. ( ③ )",
+        "Another account offered by scientists is that replicating DNA wholly originated in space and was brought to earth by meteorite or asteroid. This proposal for the origin of DNA is known as ‘panspermia.’ According to the proponents of this view, nucleotides are more easily formed in the cold and ice of comets. ( ④ )",
+        "There is even some convincing evidence for this view. Meteorites regularly enter earth’s atmosphere. Some of these might have brought DNA to earth from another part of the universe or solar system. Or perhaps meteors brought not DNA but nucleotides from other parts of space."
       ],
-      "question": "Choose the best place for the sentence given in the box.",
+      "question": "Choose the best place for the sentence given in the box.\n\nOur planet was like a giant ovum floating in space, fertilised by space dust, meteors and asteroids, the spermatozoa of the universe, which brought DNA to us.",
       "choices": [
         {
           "label": "①",
-          "text": ") But phosphates, sugars, nitrogen were about in the oceanic stew, and from these the first carbohydrates and other building blocks of life were formed. ("
+          "text": "( ① )"
         },
         {
           "label": "②",
-          "text": ") At least, that is one possible explanation. ("
+          "text": "( ② )"
         },
         {
           "label": "③",
-          "text": ") Another account offered by scientists is that replicating DNA wholly originated in space and was brought to earth by meteorite or asteroid. This proposal for the origin of DNA is known as ‘panspermia.’ According to the proponents of this view, nucleotides are more easily formed in the cold and ice of comets. ("
+          "text": "( ③ )"
         },
         {
           "label": "④",
-          "text": ") There is even some convincing evidence for this view. Meteorites regularly enter earth’s atmosphere. Some of these might have brought DNA to earth from another part of the universe or solar system. Or perhaps meteors brought not DNA but nucleotides from other parts of space."
+          "text": "( ④ )"
         }
       ]
     },
@@ -593,7 +593,7 @@
       "passage_sentences": [
         "For humans it is the form or shape of an item that is usually its most salient feature, leading to our recognition of it.",
         "Dogs, by contrast, are generally ambivalent about the shape in which, say, their dog biscuits come (it is we who think they should be bone-shaped).",
-        "Instead, motion, so readily detected by the retinae of dogs, is ________________________.",
+        "Instead, motion, so readily detected by the retinae of dogs, is __________.",
         "A running squirrel and an idle squirrel may as well be different squirrels; a skateboarding child and a child holding a skateboard are different children.",
         "Moving things are more interesting than still ones—as befits an animal at one time designed to chase moving prey.",
         "(Dogs will stalk motionless squirrels and birds, of course, once they have learned that they often spontaneously become squirrels running and birds on the wing.) Rolling quickly on a skateboard, a child is exciting, worth barking at; stop the skateboard and the motion, the dog calms."
@@ -622,7 +622,7 @@
       "number": 21,
       "instruction": "Choose the one that would best fill in the blank.",
       "passage_sentences": [
-        "With newspapers still struggling amid digital competition, a research team decided to investigate _______________________________.",
+        "With newspapers still struggling amid digital competition, a research team decided to investigate __________.",
         "The researchers gathered data on U.S. corporate misconduct in the years 2000 to 2017 from Violation Tracker, which records information on infractions and penalties from 44 federal regulatory agencies.",
         "They found 26,450 violations by 1,383 public firms.",
         "They then identified 33 local newspapers that shut their doors at some point from 2003 to 2014.",
@@ -654,7 +654,7 @@
       "number": 22,
       "instruction": "Choose the one that would best fill in the blank.",
       "passage_sentences": [
-        "Being the editor of a high-profile fashion magazine has its rewards: an impressive salary, a generous clothing allowance and at least two trips to Paris and Milan. ___________________________: gossip columnists feast on your every hem length and heel height; sycophantic employees copy your wardrobe; and photographers with prodigious egos must be flattered and indulged.",
+        "Being the editor of a high-profile fashion magazine has its rewards: an impressive salary, a generous clothing allowance and at least two trips to Paris and Milan. __________: gossip columnists feast on your every hem length and heel height; sycophantic employees copy your wardrobe; and photographers with prodigious egos must be flattered and indulged.",
         "And then there is the pitfall of having your earnest editorial pursuits overshadowed by the more tabloid-friendly stories of where you stand on sable or mink and with whom you are allegedly at war.",
         "These are some of the trials experienced in recent months by Kate Betts, 35, the newly installed editor in chief at Harper’s Bazaar."
       ],
@@ -687,7 +687,7 @@
         "We know that the air holds up birds and airplanes in flight.",
         "We can recall the delicious caress of a summer breeze on our skin, or the bite of subzero winter air in our noses.",
         "Yet, looking across a room, we’re conscious only of the people or objects in the room, not of the air that fills it.",
-        "Indeed, ___________________ —unless it blows down our houses or fills our lungs with smoke or smog.",
+        "Indeed, __________ —unless it blows down our houses or fills our lungs with smoke or smog.",
         "We forget that without air, we couldn’t even hear each other, since it transmits sound."
       ],
       "question": null,
@@ -789,30 +789,30 @@
       "instruction": "Read the passage below and answer the questions that follow.",
       "passage_sentences": [
         "Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.",
-        "Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others (①); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination (②).",
+        "Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others ( ① ); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination ( ② ).",
         "His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.",
         "Professional baseball, it turns out, provides a rich opportunity to test Becker’s theories—as well as alternative “statistical discrimination” models in which differential treatment of workers results from uncertainty about an individual’s productivity.",
-        "As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 (③).",
+        "As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 ( ③ ).",
         "Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that— consciously or not—his observation of Robinson’s celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic, if not the development of his theories.",
-        "In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players (④) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized."
+        "In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players ( ④ ) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized."
       ],
-      "question": "Choose the best place for the sentence given in the box.",
+      "question": "Choose the best place for the sentence given in the box.\n\n(in contrast to other industries, in which performance is often so difficult to measure that researchers must rely on information relating to workers’ characteristics rather than their actual output)",
       "choices": [
         {
           "label": "①",
-          "text": "위치 ①"
+          "text": "( ① )"
         },
         {
           "label": "②",
-          "text": "위치 ②"
+          "text": "( ② )"
         },
         {
           "label": "③",
-          "text": "위치 ③"
+          "text": "( ③ )"
         },
         {
           "label": "④",
-          "text": "위치 ④"
+          "text": "( ④ )"
         }
       ]
     },
@@ -821,12 +821,12 @@
       "instruction": "Read the passage below and answer the questions that follow.",
       "passage_sentences": [
         "Perhaps believing the study of prejudice and its consequences to be the domain of psychologists and sociologists, economists largely ignored the topic until 1957, when future Nobel Laureate Gary Becker published his doctoral dissertation, The Economics of Discrimination.",
-        "Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others (①); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination (②).",
+        "Becker ingeniously modeled prejudice as a “taste for discrimination” in which an individual would be willing to incur costs in order to associate with some persons instead of others ( ① ); showed how such a taste could have different implications depending on whether it originated with employers, employees, or consumers; and, most provocatively, argued that under perfect competition, prejudiced employers could be driven out of the market in the long run, even absent government strictures against discrimination ( ② ).",
         "His thinking spawned an enormous and growing volume of theoretical and empirical work on the nature and effects of discrimination in labor markets and elsewhere.",
         "Professional baseball, it turns out, provides a rich opportunity to test Becker’s theories—as well as alternative “statistical discrimination” models in which differential treatment of workers results from uncertainty about an individual’s productivity.",
-        "As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 (③).",
+        "As is well known, long before federal legislation made employment discrimination illegal in the United States, baseball was integrated when Branch Rickey hired Jackie Robinson to play for the Brooklyn Dodgers in 1947 ( ③ ).",
         "Indeed, since Becker was a teenager in Brooklyn at the time and a confessed sports fan, it is tempting to speculate that— consciously or not—his observation of Robinson’s celebrated achievements in overcoming the prejudices of fellow players, fans, and owners might have contributed to his interest in the topic, if not the development of his theories.",
-        "In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players (④) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized."
+        "In any case, baseball’s long and well-documented history, the availability of detailed statistics on the individual productivity of its players ( ④ ) and even the existence of related markets (e.g., for memorabilia) make it a unique “field laboratory” in which the implications of economists’ speculations may be scrutinized."
       ],
       "question": "Which of the following is not true about Gary Becker according to the passage?",
       "choices": [
@@ -861,11 +861,11 @@
         "The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.",
         "Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.",
         "Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.",
-        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.",
+        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. __________.",
         "The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.",
         "Both showed a surge in births between 2am and 3am, and a big trough around 5am.",
         "More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.",
-        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.",
+        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. __________, it turns out.",
         "As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles."
       ],
       "question": "Choose the best order after the paragraph given in the box.",
@@ -901,11 +901,11 @@
         "The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.",
         "Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.",
         "Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.",
-        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.",
+        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. __________.",
         "The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.",
         "Both showed a surge in births between 2am and 3am, and a big trough around 5am.",
         "More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.",
-        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.",
+        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. __________, it turns out.",
         "As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles."
       ],
       "question": "Choose the one that would best fill in both blanks above.",
@@ -941,11 +941,11 @@
         "The second group was made up of 1,110 women who belonged to the Wichi and Toba/Qom populations, two of the traditionally nomadic hunter-gatherer peoples who also reside in the Formosa region.",
         "Because of Argentine health reforms in the 1980s, which encouraged—and sometimes forced—childbirth to take place in a formal medical setting, all the women in the study gave birth in the delivery room of a rural hospital that recorded the events.",
         "Ms Chaney included only full-term births and ignored all Caesarean sections, miscarriages, drug-induced and pre-term births.",
-        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. ____________.",
+        "[B] If a modern way of life plays a part in favouring early-morning births, Ms Chaney speculated that she would see such timings dominate in the results for the Criollo women, but feature less prominently among the results for the Wichi and Toba/Qom. __________.",
         "The data and additional analysis make it clear that there is no statistical difference in the average birth time found between the two groups.",
         "Both showed a surge in births between 2am and 3am, and a big trough around 5am.",
         "More specifically, the average time of birth for the Criollo was 6:34am and that for the Wichi and Toba/Qom was 4:18am.",
-        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. ____________, it turns out.",
+        "[C] The problem with this theory is that almost all the information on the timing of human births comes from modern, urban settings, such as clinics and hospitals, which could produce artificial conditions that skew the variation in timings. __________, it turns out.",
         "As Carlye Chaney of Yale University shows in the American Journal of Physical Anthropology, early-morning births are common to communities with both modern and traditional lifestyles."
       ],
       "question": "Which of the following is true according to the study of child births in the passage?",
