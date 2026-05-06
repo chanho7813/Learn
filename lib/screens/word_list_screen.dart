@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/word.dart';
+import '../services/ai_service.dart';
 import '../services/storage_service.dart';
 import '../services/settings_service.dart';
 
@@ -24,6 +25,7 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
   bool _showRelatedWords = true;
   bool _showExample = true;
   bool _showNuance = true;
+  bool _aiLoading = false;
   static const int _wordsPerDay = 25;
   final ScrollController _scrollController = ScrollController();
 
@@ -128,6 +130,31 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
     final end = (start + _wordsPerDay).clamp(0, _words.length);
     if (start >= _words.length) return [];
     return _words.sublist(start, end);
+  }
+
+  Future<void> _addWordByAi(String query) async {
+    setState(() => _aiLoading = true);
+    try {
+      final word = await AiService.analyzeWord(word: query.trim(), sentence: '');
+      await StorageService.addWords([word]);
+      final updated = await StorageService.loadWords();
+      if (mounted) {
+        setState(() {
+          _words = updated..sort((a, b) => a.number.compareTo(b.number));
+          _aiLoading = false;
+        });
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('"${word.word}" 단어가 추가되었습니다.')),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() => _aiLoading = false);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('단어 추가 실패: $e')),
+        );
+      }
+    }
   }
 
   Future<void> _deleteWord(Word word) async {
@@ -247,12 +274,35 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
               behavior: HitTestBehavior.translucent,
               child: displayWords.isEmpty
                 ? Center(
-                    child: Text(
-                      _isSearching ? '검색 결과가 없습니다' : '단어가 없습니다',
-                      style: theme.textTheme.bodyLarge?.copyWith(
-                        color: colorScheme.onSurface.withAlpha(128),
-                      ),
-                    ),
+                    child: _isSearching && _search.trim().isNotEmpty
+                        ? Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Text(
+                                '검색 결과가 없습니다',
+                                style: theme.textTheme.bodyLarge?.copyWith(
+                                  color: colorScheme.onSurface.withAlpha(128),
+                                ),
+                              ),
+                              const SizedBox(height: 16),
+                              _aiLoading
+                                  ? const Padding(
+                                      padding: EdgeInsets.all(8),
+                                      child: CircularProgressIndicator(),
+                                    )
+                                  : FilledButton.icon(
+                                      onPressed: () => _addWordByAi(_search),
+                                      icon: const Icon(Icons.auto_awesome),
+                                      label: Text('"${_search.trim()}" AI로 추가'),
+                                    ),
+                            ],
+                          )
+                        : Text(
+                            '단어가 없습니다',
+                            style: theme.textTheme.bodyLarge?.copyWith(
+                              color: colorScheme.onSurface.withAlpha(128),
+                            ),
+                          ),
                   )
                 : ListView.builder(
                     controller: _scrollController,

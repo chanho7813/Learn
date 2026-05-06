@@ -26,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadWords() async {
     setState(() => _loading = true);
+    await StorageService.clearHardcodedWordsOnce();
     final words = await StorageService.loadWords();
     setState(() {
       _words = words;

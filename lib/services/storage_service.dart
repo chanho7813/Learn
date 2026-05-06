@@ -4,6 +4,14 @@ import '../models/word.dart';
 
 class StorageService {
   static const _key = 'wordup_words';
+  static const _migrationKey = 'wordup_hardcoded_cleared';
+
+  static Future<void> clearHardcodedWordsOnce() async {
+    final prefs = await SharedPreferences.getInstance();
+    if (prefs.getBool(_migrationKey) == true) return;
+    await prefs.remove(_key);
+    await prefs.setBool(_migrationKey, true);
+  }
 
   static Future<List<Word>> loadWords() async {
     try {
