@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "Choose the one that has the closest meaning to the underlined word.",
       "passage_sentences": [
-        "The turbulent waters caused one of his oars to crack, which—without a motor or a sail—can be severely detrimental to his voyage."
+        "The turbulent waters caused one of his oars to crack, which—without a motor or a sail—can be severely <u>detrimental</u> to his voyage."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "Choose the one that has the closest meaning to the underlined word.",
       "passage_sentences": [
-        "The decision brings the military more in line with its veterans who have seen combat and found nothing sublime in war."
+        "The decision brings the military more in line with its veterans who have seen combat and found nothing <u>sublime</u> in war."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "Choose the one that has the closest meaning to the underlined word.",
       "passage_sentences": [
-        "Her writing style as a lower-court judge was explanatory, and with little rhetorical embellishment."
+        "Her writing style as a lower-court judge was explanatory, and with little rhetorical <u>embellishment</u>."
       ],
       "question": null,
       "choices": [
@@ -147,13 +147,13 @@
       "number": 6,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Every book has a skeleton hidden between its covers.",
+        "Every book has a skeleton ① <u>hidden between its covers</u>.",
         "Your job is to find it.",
         "A book comes to you with flesh on its bare bones and clothes over its flesh.",
         "It is all dressed up.",
         "I am not asking you to be impolite or cruel.",
-        "You do not have to undress it or tear flesh off its limbs to get the firm structure that underlie the soft.",
-        "But you must read the book with X-ray eyes, for it is an essential part of your first apprehension of any book to grasp its structure."
+        "You do not have ② <u>to undress it or tear flesh</u> off its limbs to get the firm structure that ③ <u>underlie the soft</u>.",
+        "But you must read the book with X-ray eyes, for it is an essential part of your first apprehension of any book ④ <u>to grasp its structure</u>."
       ],
       "question": null,
       "choices": [
@@ -179,10 +179,10 @@
       "number": 7,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "In his library at Monticello, Jefferson made hundreds of architectural drawings, all of which have been preserved.",
+        "In his library at Monticello, Jefferson made hundreds of architectural drawings, ① <u>all of which have been preserved</u>.",
         "He must have had a great gift of concentration and a real love for his subject to be able to work in a room with such an outlook.",
-        "And what energy he had for this precise and exquisite work was also devoted to riding over his estate, working in his garden, and carry out correspondence with everyone from the Marquis de Lafayette to his youngest grandchild.",
-        "\"Something pursued with ardor\" was Jefferson's prescription for life, and he got the last ounce of excitement and interest out of everything that came to his notice."
+        "And ② <u>what energy he had for this</u> precise and exquisite work was also devoted to riding over his estate, working in his garden, and ③ <u>carry out correspondence with everyone from</u> the Marquis de Lafayette to his youngest grandchild.",
+        "\"Something pursued with ardor\" was Jefferson's prescription for life, and he got the last ounce of excitement and ④ <u>interest out of everything that came</u> to his notice."
       ],
       "question": null,
       "choices": [
@@ -208,11 +208,11 @@
       "number": 8,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "According to the Anxiety and Depression Association of America, anxiety disorders are the most common mental illness in the United States, affecting 40 million adults in the United States, age 18 and older.",
-        "What’s more, women are twice as likely to be affected than men.",
+        "According to the Anxiety and Depression Association of America, anxiety disorders are the most common mental illness in the United States, ① <u>affecting 40 million adults in the</u> United States, age 18 and older.",
+        "What’s more, women are twice as likely to be ② <u>affected than men</u>.",
         "Anxiety disorders develop from a complex set of risk factors, including genetics, brain chemistry, personality, and life events.",
         "“Anxiety can be a positive trait,” says a health professional.",
-        "“Someone who worries about being on time or performing at a high level often excels in various aspects of life, both professionally and personally.”"
+        "“Someone who ③ <u>worries about being on time or</u> performing at a high level ④ <u>often excels in various aspects of</u> life, both professionally and personally.”"
       ],
       "question": null,
       "choices": [
@@ -238,8 +238,8 @@
       "number": 9,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Some people are proud of telling their own faults.",
-        "They will tell that they are the silliest men in the world; that they cannot help speaking the truth, like children, in anybody’s presence; that they own it is a folly; that they have lost a lot of advantages by it; but that they cannot help it, even if you would give them a world of riches to prevent it; and that there is something in their nature that hate insincerity and hypocrisy, etc."
+        "Some people are ① <u>proud of telling their own faults</u>.",
+        "They will tell that they are the silliest men in the world; that they ② <u>cannot help speaking the truth</u>, like children, in anybody’s presence; that ③ <u>they own it is a folly</u>; that they have lost a lot of advantages by it; but that they cannot help it, even if you would give them a world of riches to prevent it; and that there is something in their nature ④ <u>that hate insincerity and hypocrisy</u>, etc."
       ],
       "question": null,
       "choices": [
@@ -265,10 +265,10 @@
       "number": 10,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "The use of barter-like methods may date back to at least 100,000 years ago, though there is no evidence of a society or economy that relied primarily on barter.",
-        "Instead, non-monetary societies operated largely along the principles of gift economy and debt.",
-        "When barter did in fact occur, it was usually between either complete strangers or potential enemies.",
-        "Many cultures around the world developed the use of commodity money, i.e., the money whose value comes from a commodity which it is made."
+        "The use of barter-like methods may ① <u>date back to at least 100</u>,000 years ago, though there is no evidence of a society or economy that relied primarily on barter.",
+        "Instead, non-monetary societies ② <u>operated largely along the principles of</u> gift economy and debt.",
+        "When barter did ③ <u>in fact occur</u>, it was usually between either complete strangers or potential enemies.",
+        "Many cultures around the world developed the use of commodity money, i.e., the money whose value comes from ④ <u>a commodity which it is made</u>."
       ],
       "question": null,
       "choices": [
