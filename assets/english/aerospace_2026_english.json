@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "His inclination against bureaucratic intervention has been tested by his predicament."
+        "His inclination against bureaucratic intervention has been tested by his <u>predicament</u>."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "They dismissed concerns about collateral trade damage, saying their plans will boost manufacturing in the country over the long term."
+        "They dismissed concerns about <u>collateral</u> trade damage, saying their plans will boost manufacturing in the country over the long term."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "Both political parties are drawing fresh scrutiny of their positions on health care."
+        "Both political parties are drawing fresh <u>scrutiny</u> of their positions on health care."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "Experts say that there is nothing in our law which would invalidate pardons signed by autopen."
+        "Experts say that there is nothing in our law which would <u>invalidate</u> pardons signed by autopen."
       ],
       "question": null,
       "choices": [
@@ -120,7 +120,7 @@
       "number": 5,
       "instruction": "Choose the word that is closest in meaning to the underlined expression.",
       "passage_sentences": [
-        "Scientists can look at the generated datasets and delineate their own conclusions."
+        "Scientists can look at the generated datasets and <u>delineate</u> their own conclusions."
       ],
       "question": null,
       "choices": [
@@ -149,7 +149,7 @@
         "Tipping is a norm in the United States.",
         "But it hasn't always been this way.",
         "It's a legacy of slavery and racism and took off in the post-Civil War era.",
-        "Almost immediately, the idea was challenged by reformers who argued that tipping was allowing companies to take advantage of workers by getting away with paying them low or no wages at all.",
+        "Almost immediately, the idea was challenged by reformers who argued that tipping was __________ allowing companies to take advantage of workers by getting away with paying them low or no wages at all.",
         "The case against tipping was captured in William Rufus Scott's 1916 anti-tipping polemic that railed against the practice and its negative impacts on society.",
         "The movement had momentum: anti-tipping associations were formed and anti-tipping laws passed.",
         "Yet, tipping held on to its place in American culture and the anti-tipping movement failed to eradicate it.",
@@ -184,7 +184,7 @@
         "The research showed a lag time between temperatures during summer months and their impact a year later, leading the researchers to believe that warming summers were the strongest factor in insect numbers dropping.",
         "There's very little human development in the immediate vicinity or within several kilometers.",
         "So it doesn't seem likely that there's any direct impact on land or water use changes caused by humans that could account for this population decline.",
-        "That doesn't leave a lot of other options changing climate to explain this."
+        "That doesn't leave a lot of other options __________ changing climate to explain this."
       ],
       "question": null,
       "choices": [
@@ -214,7 +214,7 @@
         "One example is printer ink cartridges.",
         "In his ideal world, any competitor would be able to make ink cartridges that are compatible ― or interoperable ― with a given printer.",
         "However, in the existing system, printer manufacturers are able to ensure that users must use only their own very expensive special ink cartridges.",
-        "This is obviously a money-making scheme.",
+        "This __________ is obviously a money-making scheme.",
         "The tech companies have made it so that many of their products and services are not interoperable. iPhones won't run Android apps.",
         "Bluesky users can't DM their old Twitter contacts.",
         "Doctorow suggests these are artificial barriers created by companies to maintain their market power."
@@ -247,7 +247,7 @@
         "But the word's more subversive overtones receded along with the counterculture.",
         "In recent decades, \"gig\" has become just a hip term for any temporary job or stint, with the implication you're not particularly invested in it.",
         "I think of the barista or bookstore clerk who responds to my questions with a look that says, \"Hey, man, it's a gig.",
-        "I don't really do this?\" That tone of has made \"the gig economy\" the predominant name for what's being touted as the industrial revolution of our times.",
+        "I don't really do this?\" That tone of __________ has made \"the gig economy\" the predominant name for what's being touted as the industrial revolution of our times.",
         "The lifetime job is history, we're told, a victim of technology and the logic of the market.",
         "Instead, careers will be a patchwork of temporary projects and assignments, with the help of apps and platforms with perky names."
       ],
@@ -279,7 +279,7 @@
         "Boys, by contrast, were much less rigid about their dress.",
         "But when they did have strong preferences, it was very often to avoid girly apparel rather than to embrace stereotypically boyish attire, such as superhero gear or baseball caps.",
         "This asymmetry between girls and boys highlights part of the problem with pink.",
-        "Pink isn't just the color choice that's, that deviates from \"neutral\" or \"normal.\" It also comes with considerable cultural baggage.",
+        "Pink isn't just the color choice that's __________, that deviates from \"neutral\" or \"normal.\" It also comes with considerable cultural baggage.",
         "The connotations differ by hue: hot pink goes with cupcakes and poodles, dusty rose goes with woodland fairies and tea.",
         "A study of color preferences found that pink was associated with bubble gum, lipstick and rosy cheeks."
       ],
@@ -308,37 +308,37 @@
       "instruction": "Choose the one that is either ungrammatical or unacceptable.",
       "passage_sentences": [
         "If you're thinking about getting an electric vehicle (EV), you're not alone.",
-        "People in the U.S. buy more than a million new cars every month, and as of March, less than 10% of those are electric vehicles.",
+        "People in the U.S. buy more than a million new cars every month, and as of March, less than 10% of ① <u>those</u> are electric vehicles.",
         "But more than half of car shoppers are at least considering battery-powered cars and SUVs, according to multiple studies.",
         "And shoppers have lots of questions.",
         "The No.1 question is whether EVs are truly better for the planet, even with mining for batteries and fossil-fuel-based electricity to charge them.",
         "The answer is yes.",
-        "Many researchers have confirmed it, and online tools let you compare the impacts for yourself.",
-        "One of the most recent analyses says \"big picture, moving away from spewing more CO into the atmosphere is a good 2 thing for the climate.\" And the environmental benefits of EVs are getting bigger over time as grids get cleaner.",
+        "Many researchers have confirmed it, and online tools let you compare the impacts ② <u>for yourself</u>.",
+        "One of the most recent analyses says \"big picture, moving away from spewing more CO2 into the atmosphere is a good thing for the climate.\" And the environmental benefits of EVs are getting bigger over time as grids get cleaner.",
         "Another question is whether it is better from an environmental standpoint to buy an EV now, or keep driving the gas car you have until you need a new car.",
-        "For the climate, there's a strong case of switching now.",
+        "For the climate, there's a strong case ③ <u>of switching</u> now.",
         "Creating that new EV ― getting the materials to build it from scratch ― is resource-intensive.",
         "But the climate impact of a gas-powered car increases every single day you drive it.",
         "To be precise, more than 85% of a gas-powered vehicle's lifetime emissions come from using the car, not from building the car.",
-        "And that means the new EV, despite its manufacturing costs, will be cleaner over time."
+        "And that means the new EV, ④ <u>despite</u> its manufacturing costs, will be cleaner over time."
       ],
       "question": null,
       "choices": [
         {
           "label": "①",
-          "text": "those are electric vehicles."
+          "text": "those"
         },
         {
           "label": "②",
-          "text": "for yourself."
+          "text": "for yourself"
         },
         {
           "label": "③",
-          "text": "of switching now."
+          "text": "of switching"
         },
         {
           "label": "④",
-          "text": "despite its manufacturing costs, will be cleaner over time."
+          "text": "despite"
         }
       ]
     },
@@ -348,17 +348,17 @@
       "passage_sentences": [
         "Gossip is a complicated phenomenon.",
         "At times, it can backfire and sometimes harm people.",
-        "But some scholars say that from an evolutionary perspective, we're wired to gossip since it can give us information that we use to protect ourselves.",
+        "But some scholars say that ① <u>from an evolutionary perspective</u>, we're wired to gossip since it can give us information that we use to protect ourselves.",
         "Gossip can help build group cohesion and cooperation.",
         "When you gossip, you can keep track of who is contributing to the group and who's being selfish.",
-        "And by sharing this information, you can exclude those group members who are social loafers.",
+        "And by sharing this information, you can ② <u>exclude</u> those group members who are social loafers.",
         "One study surveyed people about their experiences with gossip in the workplace.",
         "In the study, participants were asked to describe a specific situation in which a co-worker said something either positive or negative about their work performance behind their back to another co-worker.",
         "Then, they were asked about their reactions to these events.",
         "Turns out, people felt hurt and angry, but being gossiped about also led them to self-reflection and in some cases motivated them to improve.",
         "For instance, you were criticized for always arriving at work late.",
-        "Hearing that gossip about yourself may motivate you to want to be in time.",
-        "And that might trigger a change in your behavior for the better.",
+        "Hearing that gossip about yourself may motivate you to want to be ③ <u>in time</u>.",
+        "And that might trigger a change in your behavior for ④ <u>the better</u>.",
         "Of course, this isn't a license to be loose lips.",
         "But confiding in your friends and colleagues and sharing impressions about another person ― even when they're negative ― may be helpful."
       ],
@@ -366,19 +366,19 @@
       "choices": [
         {
           "label": "①",
-          "text": "from an evolutionary perspective, we're wired to gossip since it can give us information t"
+          "text": "from an evolutionary perspective"
         },
         {
           "label": "②",
-          "text": "exclude those group members who are social loafers."
+          "text": "exclude"
         },
         {
           "label": "③",
-          "text": "in time."
+          "text": "in time"
         },
         {
           "label": "④",
-          "text": "the better."
+          "text": "the better"
         }
       ]
     },
@@ -391,7 +391,7 @@
         "That's because there are two types of fluid: Newtonian and non-Newtonian.",
         "Newtonian fluids retain their viscosity ― or resistance to flow ― regardless of the amount of force you put on them.",
         "Non-Newtonian fluids are what is called \"rule breakers.\" Their thickness and viscosity change based on how long, how hard and how fast you push.",
-        "Ketchup ― made of particles from pulverized tomatoes, along with water, vinegar, corn syrup and spices ― belongs to the latter group and.",
+        "Ketchup - made of particles from pulverized tomatoes, along with water, vinegar, corn syrup and spices - belongs to the latter group and __________.",
         "Below a certain point of force, ketchup behaves like a solid, leaving you frustrated with anticipation.",
         "Once you shake the bottle beyond that breaking point, the ketchup becomes 1,000 times thinner, giving you that shower of tomato paste that drowns your fries.",
         "How?",
@@ -427,7 +427,7 @@
         "So, eventually, we turn out the lights and go to sleep.",
         "And there is a receptor that the adenosine fits into.",
         "And, as it turns out, caffeine fits into the same receptor ― it gets there before the adenosine has a chance to.",
-        "So it essentially blocks the action of that neurotransmitter ―.",
+        "So it essentially blocks the action of that neurotransmitter - __________.",
         "Eventually, though, the adenosine ― it's not like it goes away.",
         "It keeps building up the level in your bloodstream, so that when the caffeine is finally metabolized and the receptors are available again, you get hit by a flood of adenosine, and you get really tired.",
         "And what would you do then?",
@@ -469,7 +469,7 @@
         "The more gravity somebody experiences, the slower time passes for them when compared to someone in a lower gravitational field.",
         "The effect is minuscule but it is real and measurable.",
         "Boulder, Colorado is a mile above sea level.",
-        "That means the gravitational field is slightly weaker, and time ticks.",
+        "That means the gravitational field is slightly weaker, and time ticks __________.",
         "But modern technology can't deal with flowy time like this.",
         "As a result, the timekeepers at Boulder and elsewhere make corrections to ensure these different flows of time look like they're ticking in lockstep."
       ],
@@ -504,7 +504,7 @@
         "They could come and see two circles versus three circles, or four triangles versus one triangle.",
         "The bees quickly learned to fly to the card with the fewest symbols, an impressive feat.",
         "But then they got another test: The researchers presented the bees with a card that had a single symbol and a blank card that had nothing on it.",
-        "The bees seemed to understand that, because they flew toward the blank card more often than you'd expect if they were choosing at random ― although they weren't that good at distinguishing between the two.",
+        "The bees seemed to understand that __________, because they flew toward the blank card more often than you'd expect if they were choosing at random - although they weren't that good at distinguishing between the two.",
         "It got easier for them when they had to compare zero with a larger number, suggesting they consider zero as an actual quantity along the number line."
       ],
       "question": null,
@@ -537,7 +537,7 @@
         "Some have even argued that personality traits are figments of our imagination that don't exist at all.",
         "But in the past two decades, a large body of research has established that how people describe someone's personality accurately predicts that person's actual behavior.",
         "On any one occasion, a person's behavior is influenced by both their personality and the situation, as well as other factors such as their current thoughts, feelings and goals.",
-        "But, the influence of personality on behavior is hard to miss.",
+        "But __________, the influence of personality on behavior is hard to miss.",
         "For example, you probably know some people who consistently (but not always) show up punctually, and others who consistently run late."
       ],
       "question": null,
@@ -569,7 +569,7 @@
         "And 16 percent says that they care about genetically modified foods a great deal.",
         "But these are not the same people.",
         "Only a third of the people who care most about eating healthfully also care a lot about GMOs.",
-        "And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health., there is a much stronger connection between attitudes about healthy eating and consumption of organic food.",
+        "And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. __________, there is a much stronger connection between attitudes about healthy eating and consumption of organic food.",
         "People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them.",
         "Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs.",
         "Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food.",
@@ -604,7 +604,7 @@
         "And 16 percent says that they care about genetically modified foods a great deal.",
         "But these are not the same people.",
         "Only a third of the people who care most about eating healthfully also care a lot about GMOs.",
-        "And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health., there is a much stronger connection between attitudes about healthy eating and consumption of organic food.",
+        "And whether a person cares about eating healthful food or not is no predictor of whether he or she considers GMOs to be bad for health. __________, there is a much stronger connection between attitudes about healthy eating and consumption of organic food.",
         "People who describe healthy eating as their main focus were almost three times as likely to eat organic food regularly, compared with people who say that healthy eating is not at all important to them.",
         "Finally, support for local and organic food seems to be much more mainstream than the opposition to GMOs.",
         "Almost three-quarters of Americans said that they bought local food recently, and just over two-thirds said they had purchased organic food.",
@@ -632,7 +632,7 @@
     },
     {
       "number": 20,
-      "instruction": "[20] Read the following passage and answer the question.",
+      "instruction": "[20-21] Read the following passages and answer the questions.",
       "passage_sentences": [
         "Artificial intelligence is becoming increasingly common for a number of routine medical scans.",
         "The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images.",
@@ -643,7 +643,7 @@
         "In this particular one, there's a green box, showing where the polyp might be.",
         "The clinics were collecting data on whether the AI system worked.",
         "It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off.",
-        "In other words, the doctors seemed to AI systems catching the polyps.",
+        "In other words, the doctors seemed to __________ AI systems catching the polyps.",
         "Romanczyk says he's not quite sure why it's happening, but he has some theories.",
         "\"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says.",
         "There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button.",
@@ -674,7 +674,7 @@
     },
     {
       "number": 21,
-      "instruction": "[21-22] Read the following passages and answer the questions.",
+      "instruction": "[20-21] Read the following passages and answer the questions.",
       "passage_sentences": [
         "Artificial intelligence is becoming increasingly common for a number of routine medical scans.",
         "The next time you get a scan for your eyes, breast cancer, or colon disease, there's a decent chance that AI might be analyzing the images.",
@@ -685,7 +685,7 @@
         "In this particular one, there's a green box, showing where the polyp might be.",
         "The clinics were collecting data on whether the AI system worked.",
         "It turns out it did, but when Romanczyk and his colleagues reanalyzed the data, they found something else: After doctors got AI, detection rates of possible polyps fell from 28.4% to 22.4% when their new AI system was switched off.",
-        "In other words, the doctors seemed to AI systems catching the polyps.",
+        "In other words, the doctors seemed to __________ AI systems catching the polyps.",
         "Romanczyk says he's not quite sure why it's happening, but he has some theories.",
         "\"We are subconsciously waiting for the green box to come out to show us the region where the polyp is and we're not paying so much attention,\" he says.",
         "There are other examples that support that idea: A similar study has shown that nonexperts do a worse job scanning mammograms if they know they can get an AI system to help them with the push of a button.",
@@ -716,7 +716,7 @@
     },
     {
       "number": 22,
-      "instruction": "[21-22] Read the following passages and answer the questions.",
+      "instruction": "[22-23] Read the following passages and answer the questions.",
       "passage_sentences": [
         "Adolescence is an amazing time of development, scientists say.",
         "That development is on display most afternoons at the Shaw Skatepark in Washington, D.C.",
@@ -729,7 +729,7 @@
         "They look kind of gangly.",
         "And, of course, they are experiencing puberty.",
         "They're going through this physical change in the body and those same hormones are resculpting the brain during this period.",
-        "Part of this resculpting involves the to take risks.",
+        "Part of this resculpting involves the __________ to take risks.",
         "A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo.",
         "The chimps had a choice.",
         "They could go for a sure thing: peanuts.",
@@ -762,7 +762,7 @@
     },
     {
       "number": 23,
-      "instruction": "[23-24] Read the following passages and answer the questions.",
+      "instruction": "[22-23] Read the following passages and answer the questions.",
       "passage_sentences": [
         "Adolescence is an amazing time of development, scientists say.",
         "That development is on display most afternoons at the Shaw Skatepark in Washington, D.C.",
@@ -775,7 +775,7 @@
         "They look kind of gangly.",
         "And, of course, they are experiencing puberty.",
         "They're going through this physical change in the body and those same hormones are resculpting the brain during this period.",
-        "Part of this resculpting involves the to take risks.",
+        "Part of this resculpting involves the __________ to take risks.",
         "A team of scientists did a gambling experiment with 40 chimps of various ages at a sanctuary in the Republic of Congo.",
         "The chimps had a choice.",
         "They could go for a sure thing: peanuts.",
@@ -808,11 +808,11 @@
     },
     {
       "number": 24,
-      "instruction": "[23-24] Read the following passages and answer the questions.",
+      "instruction": "[24-25] Read the following passages and answer the questions.",
       "passage_sentences": [
         "People motivated by passion first are more likely to work harder than people who aren't personally invested in their work.",
         "But they aren't necessarily paid any more.",
-        "Sometimes, this lack of compensation is.",
+        "Sometimes, this lack of compensation is __________.",
         "The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay.",
         "People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission.",
         "But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation.",
@@ -844,11 +844,11 @@
     },
     {
       "number": 25,
-      "instruction": "[25-26] Read the following passages and answer the questions.",
+      "instruction": "[24-25] Read the following passages and answer the questions.",
       "passage_sentences": [
         "People motivated by passion first are more likely to work harder than people who aren't personally invested in their work.",
         "But they aren't necessarily paid any more.",
-        "Sometimes, this lack of compensation is.",
+        "Sometimes, this lack of compensation is __________.",
         "The reason why many employers want to hire people who are passionate about their work is not only because they think they'll be hard workers, but because they expect that people who are passionate about their work will put in more work without demanding an increase in pay.",
         "People who work in education, health care, social work, journalism, nonprofits and other fields that prioritize passion are known for their long hours and their devotion to a shared mission.",
         "But conflating passion with working overtime can lead to outcomes that erode that very mission: burnout, resentment, resignation.",
@@ -880,7 +880,7 @@
     },
     {
       "number": 26,
-      "instruction": "[25-26] Read the following passages and answer the questions.",
+      "instruction": "[26-27] Read the following passages and answer the questions.",
       "passage_sentences": [
         "This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina.",
         "Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red.",
@@ -891,7 +891,7 @@
         "That makes yellow leaves easy to explain.",
         "But the red color is different.",
         "It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground.",
-        "\"The red was not there beforehand, you would have seen it, because the leaf would have been purple.",
+        "\"The red was not there beforehand, __________ you would have seen it, because the leaf would have been purple.",
         "Because green plus red equals purple,\" says Hughes.",
         "Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\"",
         "So why are trees bothering to create costly red pigments in leaves that are almost done for?",
@@ -919,7 +919,7 @@
     },
     {
       "number": 27,
-      "instruction": "[27-28] Read the following passages and answer the questions.",
+      "instruction": "[26-27] Read the following passages and answer the questions.",
       "passage_sentences": [
         "This is the time of year when Nicole Hughes, a biologist, gets constantly distracted by the fall foliage as she drives around North Carolina.",
         "Part of her brain is endlessly searching for clues about one of the biggest mysteries of autumn leaves: why the leaves of only some trees turn red.",
@@ -930,7 +930,7 @@
         "That makes yellow leaves easy to explain.",
         "But the red color is different.",
         "It comes from brand-new chemicals that are generated just days before a leaf plunges to the ground.",
-        "\"The red was not there beforehand, you would have seen it, because the leaf would have been purple.",
+        "\"The red was not there beforehand, __________ you would have seen it, because the leaf would have been purple.",
         "Because green plus red equals purple,\" says Hughes.",
         "Low levels of these same new pigments are also responsible for leaves that look orange, she explains: \"Under a microscope, you see lots of red freckles.\"",
         "So why are trees bothering to create costly red pigments in leaves that are almost done for?",
@@ -958,7 +958,7 @@
     },
     {
       "number": 28,
-      "instruction": "[27-28] Read the following passages and answer the questions.",
+      "instruction": "[28-30] Read the following passages and answer the questions.",
       "passage_sentences": [
         "The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans.",
         "The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy.",
@@ -975,7 +975,7 @@
         "The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors.",
         "Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment.",
         "Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space.",
-        "That means they need large radiators that can help them the heat load.",
+        "That means they need large radiators that can help them __________ the heat load.",
         "The reactors' design also requires them to operate at higher temperatures than on Earth.",
         "What are the risks and dangers?",
         "Moonquakes and meteorite strikes could damage a reactor.",
@@ -985,7 +985,7 @@
         "(D) It cannot blow up the moon.",
         "If you're considering bringing that reactor off the moon someday, making sure that its reentry into the Earth's atmosphere is flawless will be pretty important."
       ],
-      "question": "Find the best place for the following sentence.",
+      "question": "Find the best place for the following sentence.\n\nBut the chances are slim.",
       "choices": [
         {
           "label": "①",
@@ -1007,7 +1007,7 @@
     },
     {
       "number": 29,
-      "instruction": "[29-30] Read the following passages and answer the questions.",
+      "instruction": "[28-30] Read the following passages and answer the questions.",
       "passage_sentences": [
         "The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans.",
         "The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy.",
@@ -1024,7 +1024,7 @@
         "The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors.",
         "Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment.",
         "Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space.",
-        "That means they need large radiators that can help them the heat load.",
+        "That means they need large radiators that can help them __________ the heat load.",
         "The reactors' design also requires them to operate at higher temperatures than on Earth.",
         "What are the risks and dangers?",
         "Moonquakes and meteorite strikes could damage a reactor.",
@@ -1056,7 +1056,7 @@
     },
     {
       "number": 30,
-      "instruction": "[29-30] Read the following passages and answer the questions.",
+      "instruction": "[28-30] Read the following passages and answer the questions.",
       "passage_sentences": [
         "The U.S. government is accelerating plans to place a nuclear reactor on the moon to power a base for humans.",
         "The reactor would launch to the moon by 2030, according to a directive by acting NASA Administrator Sean Duffy.",
@@ -1073,7 +1073,7 @@
         "The key difference between Earth and the moon is that on Earth we have an atmosphere, so we can cool these reactors.",
         "Many nuclear reactors are cooled by water, which in turn discharges the excess heat into the environment.",
         "Without an atmosphere or any bodies of water, nuclear reactors on the moon need to radiate their excess heat directly into space.",
-        "That means they need large radiators that can help them the heat load.",
+        "That means they need large radiators that can help them __________ the heat load.",
         "The reactors' design also requires them to operate at higher temperatures than on Earth.",
         "What are the risks and dangers?",
         "Moonquakes and meteorite strikes could damage a reactor.",
