@@ -25,7 +25,6 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
   bool _showRelatedWords = true;
   bool _showExample = true;
   bool _showNuance = true;
-  bool _aiLoading = false;
   static const int _wordsPerDay = 25;
   final ScrollController _scrollController = ScrollController();
 
@@ -133,8 +132,6 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
   }
 
   Future<void> _addWordByAi(String query) async {
-    setState(() => _aiLoading = true);
-
     showDialog(
       context: context,
       barrierDismissible: false,
@@ -165,12 +162,10 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
       final result = await AiService.analyzeWord(word: query.trim(), sentence: '');
       if (!mounted) return;
       Navigator.pop(context);
-      setState(() => _aiLoading = false);
       _showWordAnalysisSheet(result);
     } catch (e) {
       if (!mounted) return;
       Navigator.pop(context);
-      setState(() => _aiLoading = false);
       final msg = e.toString().replaceFirst('Exception: ', '');
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
     }
@@ -568,12 +563,7 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                                 ),
                               ),
                               const SizedBox(height: 16),
-                              _aiLoading
-                                  ? const Padding(
-                                      padding: EdgeInsets.all(8),
-                                      child: CircularProgressIndicator(),
-                                    )
-                                  : FilledButton.icon(
+                              FilledButton.icon(
                                       onPressed: () => _addWordByAi(_search),
                                       icon: const Icon(Icons.auto_awesome),
                                       label: Text('"${_search.trim()}" AI로 추가'),
