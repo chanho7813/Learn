@@ -1,0 +1,51 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2025,
+  "exam_kind": "english",
+  "question_count": 40,
+  "source": {
+    "type": "manual",
+    "verified": false,
+    "note": "해답지 구조 확정을 위한 1문항 샘플"
+  },
+  "schema": {
+    "number": "문제 번호",
+    "answer": "정답 번호",
+    "answer_text": "정답 선택지 내용",
+    "explanation": "해설 문단 배열",
+    "concepts": "문제 풀이에 필요한 개념/유형",
+    "vocab": "영어 문제용 핵심 어휘"
+  },
+  "solutions": [
+    {
+      "number": 1,
+      "answer": "④",
+      "answer_text": "detain",
+      "explanation": [
+        "밑줄 친 waylay는 길목에서 기다리다가 붙잡다, 가로막다의 의미이다.",
+        "문장에서는 역으로 걸어가 그를 기다렸다는 뜻이므로 detain이 가장 가까운 의미이다.",
+        "fool은 속이다, persuade는 설득하다, respect는 존중하다의 의미라서 문맥과 맞지 않는다."
+      ],
+      "concepts": [
+        {
+          "title": "어휘 의미 추론",
+          "items": [
+            "문맥상 동작 파악",
+            "유의어 선택"
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "word": "waylay",
+          "meaning": "길목에서 기다리다, 붙잡다"
+        },
+        {
+          "word": "detain",
+          "meaning": "붙잡아 두다, 지체시키다"
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,15 @@ class SettingsService {
   static const _geminiApiKeyKey = 'gemini_api_key';
   static const _gptApiKeyKey = 'gpt_api_key';
 
+  static String _selectedChoiceKey({
+    required String examKind,
+    required String examId,
+    required int year,
+    required int questionNumber,
+  }) {
+    return 'selected_choice_${examKind}_${examId}_${year}_$questionNumber';
+  }
+
   static Future<bool> getDarkMode() async {
     final prefs = await SharedPreferences.getInstance();
     return prefs.getBool(_darkModeKey) ?? false;
@@ -181,6 +190,44 @@ class SettingsService {
   static Future<void> setLastMathSection(int value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_lastMathSectionKey, value);
+  }
+
+  static Future<String?> getSelectedChoice({
+    required String examKind,
+    required String examId,
+    required int year,
+    required int questionNumber,
+  }) async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(
+      _selectedChoiceKey(
+        examKind: examKind,
+        examId: examId,
+        year: year,
+        questionNumber: questionNumber,
+      ),
+    );
+  }
+
+  static Future<void> setSelectedChoice({
+    required String examKind,
+    required String examId,
+    required int year,
+    required int questionNumber,
+    required String? selectedLabel,
+  }) async {
+    final prefs = await SharedPreferences.getInstance();
+    final key = _selectedChoiceKey(
+      examKind: examKind,
+      examId: examId,
+      year: year,
+      questionNumber: questionNumber,
+    );
+    if (selectedLabel == null || selectedLabel.isEmpty) {
+      await prefs.remove(key);
+    } else {
+      await prefs.setString(key, selectedLabel);
+    }
   }
 
   static Future<String> getClaudeApiKey() async {

@@ -1,0 +1,48 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2025,
+  "exam_kind": "math",
+  "question_count": 30,
+  "source": {
+    "type": "manual",
+    "verified": false,
+    "note": "해답지 구조 확정을 위한 1문항 샘플"
+  },
+  "schema": {
+    "number": "문제 번호",
+    "answer": "정답 번호",
+    "answer_text": "정답 선택지 내용",
+    "explanation": "풀이 단계 배열",
+    "concepts": "문제 풀이에 필요한 개념/유형"
+  },
+  "solutions": [
+    {
+      "number": 1,
+      "answer": "④",
+      "answer_text": "$\\frac{39}{25}$",
+      "explanation": [
+        "$f(x)=\\frac{x^4(x-1)}{(x+2)(x^2+1)}$라 두고 몫의 미분법을 사용한다.",
+        "$g(x)=x^4(x-1)$, $h(x)=(x+2)(x^2+1)$이면 $f'(x)=\\frac{g'(x)h(x)-g(x)h'(x)}{h(x)^2}$이다.",
+        "$g(2)=16$, $g'(2)=48$, $h(2)=20$, $h'(2)=21$이므로 $f'(2)=\\frac{48\\cdot20-16\\cdot21}{20^2}$이다.",
+        "$f'(2)=\\frac{624}{400}=\\frac{39}{25}$이므로 정답은 ④이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "몫의 미분법",
+            "함수값 대입"
+          ]
+        },
+        {
+          "title": "계산",
+          "items": [
+            "다항식 미분",
+            "분수 약분"
+          ]
+        }
+      ]
+    }
+  ]
+}

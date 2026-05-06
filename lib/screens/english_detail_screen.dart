@@ -34,6 +34,7 @@ class EnglishDetailScreen extends StatefulWidget {
 
 class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
   final Set<String> _selectedWords = {};
+  final Map<int, String> _selectedChoices = {};
   final TextEditingController _passageSearchController =
       TextEditingController();
   double _fontSize = 16.0;
@@ -56,10 +57,25 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
   Future<void> _loadSettings() async {
     final size = await SettingsService.getFontSize();
     final section = await SettingsService.getLastEnglishSection();
+    final selectedChoices = <int, String>{};
+    for (final question in widget.exam.questions) {
+      final label = await SettingsService.getSelectedChoice(
+        examKind: 'english',
+        examId: widget.exam.institution,
+        year: widget.exam.year,
+        questionNumber: question.number,
+      );
+      if (label != null && label.isNotEmpty) {
+        selectedChoices[question.number] = label;
+      }
+    }
     if (mounted) {
       setState(() {
         _fontSize = size;
         _currentIndex = section.clamp(0, widget.exam.questions.length - 1);
+        _selectedChoices
+          ..clear()
+          ..addAll(selectedChoices);
       });
     }
   }
@@ -71,6 +87,25 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
       _currentIndex = clamped;
     });
     SettingsService.setLastEnglishSection(clamped);
+  }
+
+  Future<void> _selectChoice(int questionNumber, String label) async {
+    final current = _selectedChoices[questionNumber];
+    final next = current == label ? null : label;
+    setState(() {
+      if (next == null) {
+        _selectedChoices.remove(questionNumber);
+      } else {
+        _selectedChoices[questionNumber] = next;
+      }
+    });
+    await SettingsService.setSelectedChoice(
+      examKind: 'english',
+      examId: widget.exam.institution,
+      year: widget.exam.year,
+      questionNumber: questionNumber,
+      selectedLabel: next,
+    );
   }
 
   void _togglePassageSearch() {
@@ -550,20 +585,72 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: q.choices.map((c) {
+                          final isSelected =
+                              _selectedChoices[q.number] == c.label;
                           return Padding(
-                            padding: const EdgeInsets.only(bottom: 10),
-                            child: Wrap(
-                              crossAxisAlignment: WrapCrossAlignment.center,
-                              children: [
-                                Text(
-                                  '${c.label} ',
-                                  style: TextStyle(
-                                    fontSize: _fontSize,
-                                    height: 1.6,
+                            padding: EdgeInsets.only(
+                              bottom: c == q.choices.last ? 0 : 10,
+                            ),
+                            child: Material(
+                              color: isSelected
+                                  ? colorScheme.primaryContainer.withAlpha(128)
+                                  : colorScheme.surfaceContainerHighest
+                                        .withAlpha(26),
+                              borderRadius: BorderRadius.circular(10),
+                              child: InkWell(
+                                onTap: () => _selectChoice(q.number, c.label),
+                                borderRadius: BorderRadius.circular(10),
+                                child: Container(
+                                  width: double.infinity,
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 10,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                    border: Border.all(
+                                      color: isSelected
+                                          ? colorScheme.primary.withAlpha(153)
+                                          : colorScheme.outlineVariant
+                                                .withAlpha(77),
+                                      width: isSelected ? 1.2 : 0.8,
+                                    ),
+                                  ),
+                                  child: Row(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      SizedBox(
+                                        width: 32,
+                                        child: isSelected
+                                            ? Icon(
+                                                Icons.check_circle,
+                                                size: _fontSize + 5,
+                                                color: colorScheme.primary,
+                                              )
+                                            : Text(
+                                                c.label,
+                                                style: TextStyle(
+                                                  fontSize: _fontSize,
+                                                  height: 1.6,
+                                                  color: colorScheme.onSurface
+                                                      .withAlpha(179),
+                                                  fontWeight: FontWeight.w600,
+                                                ),
+                                              ),
+                                      ),
+                                      Expanded(
+                                        child: Wrap(
+                                          children: _buildWordWidgets(
+                                            c.text,
+                                            colorScheme,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
-                                ..._buildWordWidgets(c.text, colorScheme),
-                              ],
+                              ),
                             ),
                           );
                         }).toList(),

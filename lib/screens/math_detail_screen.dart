@@ -13,6 +13,7 @@ class MathDetailScreen extends StatefulWidget {
 }
 
 class _MathDetailScreenState extends State<MathDetailScreen> {
+  final Map<int, String> _selectedChoices = {};
   int _currentIndex = 0;
   bool _showAnswer = false;
   double _fontSize = 16.0;
@@ -26,10 +27,25 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
   Future<void> _loadSettings() async {
     final size = await SettingsService.getFontSize();
     final section = await SettingsService.getLastMathSection();
+    final selectedChoices = <int, String>{};
+    for (final question in widget.exam.questions) {
+      final label = await SettingsService.getSelectedChoice(
+        examKind: 'math',
+        examId: '${widget.exam.university}_${widget.exam.subject}',
+        year: widget.exam.year,
+        questionNumber: question.number,
+      );
+      if (label != null && label.isNotEmpty) {
+        selectedChoices[question.number] = label;
+      }
+    }
     if (mounted) {
       setState(() {
         _fontSize = size;
         _currentIndex = section.clamp(0, widget.exam.questions.length - 1);
+        _selectedChoices
+          ..clear()
+          ..addAll(selectedChoices);
       });
     }
   }
@@ -42,6 +58,25 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
       _showAnswer = false;
     });
     SettingsService.setLastMathSection(clamped);
+  }
+
+  Future<void> _selectChoice(int questionNumber, String label) async {
+    final current = _selectedChoices[questionNumber];
+    final next = current == label ? null : label;
+    setState(() {
+      if (next == null) {
+        _selectedChoices.remove(questionNumber);
+      } else {
+        _selectedChoices[questionNumber] = next;
+      }
+    });
+    await SettingsService.setSelectedChoice(
+      examKind: 'math',
+      examId: '${widget.exam.university}_${widget.exam.subject}',
+      year: widget.exam.year,
+      questionNumber: questionNumber,
+      selectedLabel: next,
+    );
   }
 
   @override
@@ -123,7 +158,12 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
               child: ListView(
                 padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
                 children: [
-                  _QuestionCard(question: q, fontSize: _fontSize),
+                  _QuestionCard(
+                    question: q,
+                    fontSize: _fontSize,
+                    selectedChoice: _selectedChoices[q.number],
+                    onChoiceSelected: (label) => _selectChoice(q.number, label),
+                  ),
                   const SizedBox(height: 12),
                   _RevealButton(
                     label: _showAnswer ? '정답 숨기기' : '정답 보기',
@@ -154,8 +194,15 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
 class _QuestionCard extends StatelessWidget {
   final MathQuestion question;
   final double fontSize;
+  final String? selectedChoice;
+  final ValueChanged<String> onChoiceSelected;
 
-  const _QuestionCard({required this.question, required this.fontSize});
+  const _QuestionCard({
+    required this.question,
+    required this.fontSize,
+    required this.selectedChoice,
+    required this.onChoiceSelected,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -202,7 +249,12 @@ class _QuestionCard extends StatelessWidget {
           ],
           if (question.choices.isNotEmpty) ...[
             const SizedBox(height: 16),
-            _ChoiceGrid(choices: question.choices, fontSize: fontSize),
+            _ChoiceGrid(
+              choices: question.choices,
+              fontSize: fontSize,
+              selectedChoice: selectedChoice,
+              onChoiceSelected: onChoiceSelected,
+            ),
           ],
         ],
       ),
@@ -278,8 +330,15 @@ class _StatementBox extends StatelessWidget {
 class _ChoiceGrid extends StatelessWidget {
   final List<MathChoice> choices;
   final double fontSize;
+  final String? selectedChoice;
+  final ValueChanged<String> onChoiceSelected;
 
-  const _ChoiceGrid({required this.choices, required this.fontSize});
+  const _ChoiceGrid({
+    required this.choices,
+    required this.fontSize,
+    required this.selectedChoice,
+    required this.onChoiceSelected,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -305,12 +364,69 @@ class _ChoiceGrid extends StatelessWidget {
             runSpacing: runSpacing,
             crossAxisAlignment: WrapCrossAlignment.center,
             children: choices.map((choice) {
+              final isSelected = selectedChoice == choice.label;
               return SizedBox(
                 width: itemWidth,
-                child: MathTex(
-                  text: '${choice.label} ${choice.text}',
-                  fontSize: fontSize - 1,
-                  color: colorScheme.onSurface.withAlpha(204),
+                child: Material(
+                  color: isSelected
+                      ? colorScheme.primaryContainer.withAlpha(128)
+                      : colorScheme.surface.withAlpha(0),
+                  borderRadius: BorderRadius.circular(10),
+                  child: InkWell(
+                    onTap: () => onChoiceSelected(choice.label),
+                    borderRadius: BorderRadius.circular(10),
+                    child: Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 10,
+                      ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: isSelected
+                              ? colorScheme.primary.withAlpha(153)
+                              : colorScheme.outlineVariant.withAlpha(77),
+                          width: isSelected ? 1.2 : 0.8,
+                        ),
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          SizedBox(
+                            width: 30,
+                            child: Center(
+                              child: isSelected
+                                  ? Icon(
+                                      Icons.check_circle,
+                                      size: fontSize + 4,
+                                      color: colorScheme.primary,
+                                    )
+                                  : Text(
+                                      choice.label,
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontSize: fontSize - 1,
+                                        height: 1,
+                                        color: colorScheme.onSurface.withAlpha(
+                                          179,
+                                        ),
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                            ),
+                          ),
+                          Expanded(
+                            child: MathTex(
+                              text: choice.text,
+                              fontSize: fontSize - 1,
+                              color: colorScheme.onSurface.withAlpha(204),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                 ),
               );
             }).toList(),
