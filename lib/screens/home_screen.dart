@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import '../models/word.dart';
 import '../services/storage_service.dart';
-import '../services/vocabulary_parser.dart';
 import 'word_list_screen.dart';
 import 'english_list_screen.dart';
 import 'math_list_screen.dart';
@@ -29,37 +27,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadWords() async {
     setState(() => _loading = true);
-    if (await StorageService.needsAssetReload()) {
-      final words = await _loadFromAssets();
-      if (words.isNotEmpty) {
-        await StorageService.saveWords(words);
-        await StorageService.markDataVersion();
-      }
-    }
-    var words = await StorageService.loadWords();
-    if (words.isEmpty) {
-      words = await _loadFromAssets();
-      if (words.isNotEmpty) {
-        await StorageService.saveWords(words);
-        await StorageService.markDataVersion();
-      }
-    }
+    final words = await StorageService.loadWords();
     setState(() {
       _words = words;
       _loading = false;
     });
-  }
-
-  Future<List<Word>> _loadFromAssets() async {
-    final allWords = <Word>[];
-    for (int i = 1; i <= 5; i++) {
-      try {
-        final content = await rootBundle.loadString(
-            'assets/wordbooks/vocabulary_$i.txt');
-        allWords.addAll(VocabularyParser.parse(content));
-      } catch (_) {}
-    }
-    return allWords;
   }
 
   @override

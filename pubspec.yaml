@@ -1,7 +1,7 @@
 name: wordup
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.9.5+28
+version: 0.10.0+29
 
 environment:
   sdk: ^3.10.1
@@ -31,7 +31,6 @@ flutter_launcher_icons:
 flutter:
   uses-material-design: true
   assets:
-    - assets/wordbooks/
     - assets/english/
     - assets/math/
     - assets/solutions/english/
