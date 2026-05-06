@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import '../services/claude_service.dart';
 import '../services/settings_service.dart';
 import '../services/storage_service.dart';
 
@@ -28,8 +27,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool _showExample = true;
   bool _showNuance = true;
   bool _loading = true;
-  AiProvider _activeProvider = AiProvider.groq;
-  final Map<AiProvider, bool> _hasApiKeys = {};
 
   @override
   void initState() {
@@ -47,85 +44,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _showRelatedWords = await SettingsService.getShowRelatedWords();
     _showExample = await SettingsService.getShowExample();
     _showNuance = await SettingsService.getShowNuance();
-    _activeProvider = await ClaudeService.getActiveProvider();
-    for (final p in AiProvider.values) {
-      final key = await ClaudeService.getApiKeyFor(p);
-      _hasApiKeys[p] = key.isNotEmpty;
-    }
     setState(() => _loading = false);
-  }
-
-  Future<void> _showApiKeyDialog(AiProvider provider) async {
-    final current = await ClaudeService.getApiKeyFor(provider);
-    final isDefault = provider == AiProvider.groq && current.isNotEmpty &&
-        (await SettingsService.getGroqApiKey()).isEmpty;
-    final controller = TextEditingController(
-        text: isDefault ? '' : current);
-    if (!mounted) return;
-
-    await showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: Text('${provider.label} API 키'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              provider.description,
-              style: const TextStyle(fontSize: 13),
-            ),
-            const SizedBox(height: 16),
-            TextField(
-              controller: controller,
-              decoration: InputDecoration(
-                labelText: 'API Key',
-                hintText: provider.hint,
-                border: const OutlineInputBorder(),
-              ),
-              obscureText: true,
-            ),
-            if (provider == AiProvider.groq) ...[
-              const SizedBox(height: 8),
-              Text(
-                '비워두면 기본 키 사용',
-                style: TextStyle(
-                  fontSize: 11,
-                  color: Theme.of(ctx).colorScheme.onSurface.withAlpha(128),
-                ),
-              ),
-            ],
-          ],
-        ),
-        actions: [
-          if (!isDefault && current.isNotEmpty)
-            TextButton(
-              onPressed: () async {
-                await ClaudeService.setApiKeyFor(provider, '');
-                setState(() => _hasApiKeys[provider] = false);
-                if (ctx.mounted) Navigator.pop(ctx);
-              },
-              child: Text('삭제',
-                  style: TextStyle(color: Theme.of(ctx).colorScheme.error)),
-            ),
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child: const Text('취소'),
-          ),
-          FilledButton(
-            onPressed: () async {
-              final key = controller.text.trim();
-              await ClaudeService.setApiKeyFor(provider, key);
-              setState(() => _hasApiKeys[provider] = key.isNotEmpty ||
-                  provider == AiProvider.groq);
-              if (ctx.mounted) Navigator.pop(ctx);
-            },
-            child: const Text('저장'),
-          ),
-        ],
-      ),
-    );
-    controller.dispose();
   }
 
   Future<String> _getVersion() async {
@@ -251,68 +170,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               setState(() => _showNuance = v);
             },
           ),
-          const Divider(),
-          _SectionHeader(title: 'AI 추출'),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            child: SegmentedButton<AiProvider>(
-              segments: const [
-                ButtonSegment(value: AiProvider.groq, label: Text('Groq')),
-                ButtonSegment(value: AiProvider.gemini, label: Text('Gemini')),
-                ButtonSegment(value: AiProvider.claude, label: Text('Claude')),
-                ButtonSegment(value: AiProvider.gpt, label: Text('GPT')),
-              ],
-              selected: {_activeProvider},
-              onSelectionChanged: (v) async {
-                final provider = v.first;
-                await SettingsService.setAiProvider(provider.name);
-                setState(() => _activeProvider = provider);
-              },
-            ),
-          ),
-          for (final provider in AiProvider.values)
-            ListTile(
-              leading: Icon(
-                provider == _activeProvider
-                    ? Icons.check_circle
-                    : Icons.key_outlined,
-                color: provider == _activeProvider
-                    ? theme.colorScheme.primary
-                    : null,
-              ),
-              title: Text(
-                '${provider.label} API 키',
-                style: provider == _activeProvider
-                    ? TextStyle(
-                        fontWeight: FontWeight.w600,
-                        color: theme.colorScheme.primary,
-                      )
-                    : null,
-              ),
-              subtitle: Text(
-                provider == AiProvider.groq
-                    ? (_hasApiKeys[provider] == true ? '커스텀 키 설정됨' : '기본 키 사용 중')
-                    : (_hasApiKeys[provider] == true ? '설정됨' : '미설정'),
-              ),
-              trailing: provider == _activeProvider
-                  ? Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 2),
-                      decoration: BoxDecoration(
-                        color: theme.colorScheme.primaryContainer,
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                      child: Text(
-                        '사용 중',
-                        style: TextStyle(
-                          fontSize: 11,
-                          color: theme.colorScheme.onPrimaryContainer,
-                        ),
-                      ),
-                    )
-                  : null,
-              onTap: () => _showApiKeyDialog(provider),
-            ),
           const Divider(),
           _SectionHeader(title: '데이터'),
           ListTile(

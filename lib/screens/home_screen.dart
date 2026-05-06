@@ -4,7 +4,6 @@ import '../services/storage_service.dart';
 import 'word_list_screen.dart';
 import 'english_list_screen.dart';
 import 'math_list_screen.dart';
-import 'extract_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -147,23 +146,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 12),
                     _MenuButton(
-                      icon: Icons.auto_awesome,
-                      label: 'AI 시험지 추출',
-                      subtitle: '시험지 이미지 → 문제 추출',
-                      onTap: () async {
-                        await Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => const ExtractScreen(),
-                          ),
-                        );
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                    _MenuButton(
                       icon: Icons.settings_outlined,
                       label: '설정',
-                      subtitle: '테마, 글꼴 크기, API 키',
+                      subtitle: '테마, 글꼴 크기',
                       onTap: () async {
                         await Navigator.push(
                           context,
