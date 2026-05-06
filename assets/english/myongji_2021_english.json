@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "Choose the one that shares the same meaning as the underlined word.",
       "passage_sentences": [
-        "A ragtag lot of raw recruits are transformed into an effective fighting machine."
+        "A <u>ragtag</u> lot of raw recruits are transformed into an effective fighting machine."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "Choose the one that shares the same meaning as the underlined word.",
       "passage_sentences": [
-        "They took advantage of the gullibility of the tourists."
+        "They took advantage of the <u>gullibility</u> of the tourists."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "Choose the one that shares the same meaning as the underlined word.",
       "passage_sentences": [
-        "He’s misleading us by gratuitously flouting the basic rules of communication."
+        "He’s misleading us by <u>gratuitously</u> flouting the basic rules of communication."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "Larry became a self-made millionaire when he ______________ the market on raw materials during the war."
+        "Larry became a self-made millionaire when he __________ the market on raw materials during the war."
       ],
       "question": null,
       "choices": [
@@ -120,7 +120,7 @@
       "number": 5,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "A person with ______________ tends to feel unmotivated or have an indifferent attitude toward his or her daily activities."
+        "A person with __________ tends to feel unmotivated or have an indifferent attitude toward his or her daily activities."
       ],
       "question": null,
       "choices": [
@@ -146,10 +146,10 @@
       "number": 6,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "It is said to have taken Leonardo da Vinci over four long years to complete his most famous painting known as the Mona Lisa—long enough for his then patron, Francesco del Giocondo, to get impatient.",
-        "Giocondo has commissioned the portrait of his third wife, Lisa, but enough was enough.",
-        "Giocondo eventually refused to pay for the unfinished portrait, and Leonardo opted to sell it to the king of France instead.",
-        "This is the traditional tale—but one that is unfortunately based on sparse evidence."
+        "It is said ① <u>to have taken Leonardo da Vinci</u> over four long years to complete his most famous painting known as the Mona Lisa—long enough for his then patron, Francesco del Giocondo, to get impatient.",
+        "Giocondo ② <u>has commissioned the portrait of his</u> third wife, Lisa, but enough was enough.",
+        "Giocondo eventually refused to pay for the unfinished portrait, and Leonardo ③ <u>opted to sell it to the</u> king of France instead.",
+        "This is the traditional tale—but ④ <u>one that is unfortunately based on</u> sparse evidence."
       ],
       "question": null,
       "choices": [
@@ -176,10 +176,10 @@
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
         "It was not until the end of the sixteenth century the pocket as we know it today came into fashion.",
-        "Before that time, men used to carry their keys and money in pieces of cloth attached to their clothing.",
-        "The first pocket was an open-side seam of which men placed their pouch filled with personal carry items.",
-        "As time passed, the pocket was to become a permanent part of the trousers.",
-        "Variations such as hip and patch pockets were introduced in the coming years."
+        "Before that time, men used ① <u>to carry their keys and money</u> in pieces of cloth attached to their clothing.",
+        "The first pocket was an open-side seam ② <u>of which men placed their pouch</u> filled with personal carry items.",
+        "As time passed, the pocket ③ <u>was to become a permanent part</u> of the trousers.",
+        "Variations such as hip and patch pockets were introduced in the ④ <u>coming years</u>."
       ],
       "question": null,
       "choices": [
@@ -205,11 +205,11 @@
       "number": 8,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Industry demands the ease of movement of ideas and goods: raw materials need to get to the factory, finished merchandise must be distributed, and fuel has to be delivered to factories to fire their furnaces.",
-        "Before the rise of industry, river boats and horse-drawn carriages along muddy roads sufficed for local trade.",
-        "Entrepreneurs and budding industrialists created canals to tame existing rivers and channeling new routes for the inland movement of bulk goods.",
+        "Industry demands the ease of movement of ideas and goods: raw materials need to get to the factory, finished merchandise must be distributed, and fuel ① <u>has to be delivered to factories</u> to fire their furnaces.",
+        "Before the rise of industry, river boats and horse-drawn carriages along muddy roads ② <u>sufficed for local trade</u>.",
+        "Entrepreneurs and budding industrialists created canals to tame existing rivers ③ <u>and channeling new routes</u> for the inland movement of bulk goods.",
         "In Britain, canal construction soared, and in turn, created pockets of industry along its path.",
-        "Canal boats were capable of moving more goods quickly and smoothly compared to any previous system that relied on the horse and cart."
+        "Canal boats were capable ④ <u>of moving more goods quickly and</u> smoothly compared to any previous system that relied on the horse and cart."
       ],
       "question": null,
       "choices": [
@@ -236,9 +236,9 @@
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
         "Many wild delphinids regularly interact with birds in a playful manner.",
-        "For example, after foraging on anchovy schools off the coast of Argentina, some dusky dolphins (Lagenorhynchus obscurus) have seen carefully grabbing the dangling legs of unsuspecting gulls, quickly surging underwater, and then releasing the gulls, effectively dunking the birds.",
-        "The dolphins are very gentle in their grasp, never causing any harm, and simply appear to be having a little fun with their feathered counterparts.",
-        "As yet unreported elsewhere, this gull-dunking game resembles some of the innovative play behavior of captive delphinids."
+        "For example, after foraging on anchovy schools off the coast of Argentina, some dusky dolphins (Lagenorhynchus obscurus) ① <u>have seen carefully grabbing the dangling</u> legs of unsuspecting gulls, quickly surging underwater, and ② <u>then releasing the gulls</u>, effectively dunking the birds.",
+        "The dolphins are very gentle in their grasp, never causing any harm, and simply appear to ③ <u>be having a little fun with</u> their feathered counterparts.",
+        "As yet unreported elsewhere, this gull-dunking game resembles ④ <u>some of the innovative play behavior</u> of captive delphinids."
       ],
       "question": null,
       "choices": [
@@ -264,11 +264,11 @@
       "number": 10,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Profiling, or criminal investigative analysis, as it be called by the FBI, involves the investigation of a crime with the hope of identifying the responsible party, based on crime scene analysis, investigative psychology and behavioral science.",
+        "Profiling, or criminal investigative analysis, as ① <u>it be called by the FBI</u>, involves the investigation of a crime with the hope of identifying the responsible party, based on crime scene analysis, investigative psychology and behavioral science.",
         "Criminal profiling is a cross between law enforcement and forensic psychology.",
-        "Although it has been around for several decades, it is still a relatively new field with few set boundaries or definitions.",
+        "Although it ② <u>has been around for several decades</u>, it is still a relatively new field with few set boundaries or definitions.",
         "Moreover, practitioners of criminal profiling do not always agree on methodology or even terminology or definitions.",
-        "Despite their disagreements, however, practitioners of profiling all share a common goal of analyzing evidence gathered at a crime scene and statements provided by victims and witnesses in order to develop a description of an unknown offender."
+        "③ <u>Despite their disagreements</u>, however, practitioners of profiling all share a common goal of analyzing evidence gathered at a crime scene and statements ④ <u>provided by victims and witnesses in</u> order to develop a description of an unknown offender."
       ],
       "question": null,
       "choices": [
@@ -328,8 +328,7 @@
         "The popular history of hip-hop culture positions breakdance or b-boying as the founding stylistic pastime of the urban dance movement; an improvised form of physical graffiti that incorporates footwork, floor work, and end poses known as freezes.",
         "The dance itself was a physical manifestation of the hip-hop sound, and was performed in a circle in the break of the music.",
         "It incorporated top rock, a rhythmic stepping pattern that allowed the dancer to enter the circle and find the beat of the music, and floor work that included six steps (a series of six fast steps performed low to the ground) leading to power moves that incorporated improvised acrobatics, spins, and flips and ended in a freeze.",
-        "In October 1982, the Rock Steady Crew, a famous U.S.",
-        "East Coast b-boy group, appeared in the film Flashdance (1983), thus fueling the transnational spread of breakdance and other dance styles that sit under the banner of hip-hop, including West Coast funk dance styles and Chicago house dance.",
+        "In October 1982, the Rock Steady Crew, a famous U.S. East Coast b-boy group, appeared in the film Flashdance (1983), thus fueling the transnational spread of breakdance and other dance styles that sit under the banner of hip-hop, including West Coast funk dance styles and Chicago house dance.",
         "Young people across the globe began to copy the iconic and athletic shapes of the dancers."
       ],
       "question": "Choose the best title for the following passage.",
@@ -356,33 +355,35 @@
       "number": 13,
       "instruction": "Choose the best place for the sentence given in the box.",
       "passage_sentences": [
-        "As human beings, we have the ability to override being overloaded and force ourselves to make decisions.",
         "In general, our minds work best when focused completely on the task at hand.",
         "Indeed, we have a natural mechanism in our brains for suppressing irrelevant information.",
         "Nonetheless, this ability has its limits.",
         "Dubbed ‘working memory’ by scientists, our capacity for processing information necessary to make immediate decisions can easily become overloaded.",
         "When that happens, our mental powers become impaired.",
         "We make more mistakes and lose our abilities to be as creative, innovative or productive.",
-        "Research suggests even answering a text message can break our concentration for up to 40 minutes.",
-        "("
+        "Research suggests even answering a text message can break our concentration for up to 40 minutes. ( ① )",
+        "Like a laptop with too many windows open, our ability to perform on any one task becomes impaired when a new mental task (window) is opened. ( ② )",
+        "Unlike our laptops, however, our brains don't simply ‘hang’ when overloaded until windows can be closed or commands executed. ( ③ )",
+        "But again, that's not necessarily a good thing. ( ④ )",
+        "It’s precisely this forcing of decisions that takes its toll on our creative and productive solutions, making them, at best, poorly executed."
       ],
-      "question": "Choose the best place for the sentence given in the box.",
+      "question": "Choose the best place for the sentence given in the box.\n\nAs human beings, we have the ability to override being overloaded and force ourselves to make decisions.",
       "choices": [
         {
           "label": "①",
-          "text": ") Like a laptop with too many windows open, our ability to perform on any one task becomes impaired when a new mental task (window) is opened. ("
+          "text": "( ① )"
         },
         {
           "label": "②",
-          "text": ") Unlike our laptops, however, our brains don't simply ‘hang’ when overloaded until windows can be closed or commands executed. ("
+          "text": "( ② )"
         },
         {
           "label": "③",
-          "text": ") But again, that's not necessarily a good thing. ("
+          "text": "( ③ )"
         },
         {
           "label": "④",
-          "text": ") It’s precisely this forcing of decisions that takes its toll on our creative and productive solutions, making them, at best, poorly executed."
+          "text": "( ④ )"
         }
       ]
     },
@@ -564,7 +565,7 @@
       "number": 19,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "____________________________________________________________?",
+        "__________?",
         "It's doubtful.",
         "Tyrannosaurus rex lived in the Cretaceous Period, which ended 66 million years ago.",
         "The average global temperature at the time was about 4°C higher than today, with much less difference between the temperature at the equator and the poles.",
@@ -602,7 +603,7 @@
         "In the larval stage, they can change the color of their skin to blend into their settings—even without seeing those surroundings, a new study found.",
         "After raising more than 300 peppered moth larvae, U.K. researchers obscured the vision of some with black paint (which the larvae later shed, unharmed).",
         "The larvae were placed in boxes containing white, green, brown, or black sticks, and given time to adapt.",
-        "When the researchers opened the boxes, they found that __________________________________ had changed their body colors to match the sticks in the box.",
+        "When the researchers opened the boxes, they found that __________ had changed their body colors to match the sticks in the box.",
         "The researchers then moved the caterpillars into new boxes containing sticks of two different colors, and about 80 percent of the insects chose to rest on sticks that matched their body color.",
         "The researchers say their findings provide strong evidence that peppered moth larvae are capable of dermal photoreception—seeing with their skin."
       ],
@@ -633,7 +634,7 @@
         "A number of cultures have traditions of people traveling to places specifically to eat the food produced there.",
         "Northern Spain, for example, is famous for the varieties of beans associated with each village, and knowledgeable eaters travel to restaurants in those regions serving specialty dishes made from those beans.",
         "Consumers insist that the beans taste differently if transported elsewhere, and that a full appreciation of them requires consuming them in situ, in the place they are grown.",
-        "Wine, similarly, has attracted consumers who want to sample the wine in ______________________________.",
+        "Wine, similarly, has attracted consumers who want to sample the wine in __________.",
         "Such travels can perhaps more accurately be called food pilgrimages since they include an element of seeking the authentic as an almost sacred quest for knowledge and personal transformation."
       ],
       "question": null,
@@ -667,7 +668,7 @@
         "The difference a tiny improvement can make over time is astounding.",
         "Here’s how the math works out: if you can get 1 percent better each day for one year, you’ll end up thirty-seven times better by the time you’re done.",
         "Conversely, if you get 1 percent worse each day for one year, you’ll decline nearly down to zero.",
-        "What starts as a small win or a minor setback ______________________________."
+        "What starts as a small win or a minor setback __________."
       ],
       "question": null,
       "choices": [
@@ -698,7 +699,7 @@
         "It was still something of a toy until the early thirteenth century, when the threat of Mongol invasion inspired a Chinese effort to come up with some sort of weapon that would decimate the hordes of Mongol cavalry.",
         "There is no record of who made the next critical step, turning gunpowder’s power into a propellant for an antipersonnel weapon.",
         "The Mongols soon learned the power of that new terror weapon, tubes of bamboo or iron mounted on the shafts of lances, which contained a mix of gunpowder and stones, lead pellets, and pottery fragments.",
-        "When a Chinese soldier touched a match to the gunpowder, spewed their ammunition forward in a scatter pattern, an arc of shrapnel that terrorized the Mongol horsemen."
+        "When a Chinese soldier touched a match to the gunpowder, __________ spewed their ammunition forward in a scatter pattern, an arc of shrapnel that terrorized the Mongol horsemen."
       ],
       "question": null,
       "choices": [
@@ -731,7 +732,7 @@
         "Of these three trembling cities the greatest is the last─the city of final destination, the city that is a goal.",
         "It is this third city that accounts for New York’s high-strung dispositions, its poetical deportment, its dedication to the arts, and its incomparable achievements.",
         "Commuters give the city its tidal restlessness, natives give it solidity and continuity, but the settlers give it passion.",
-        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each."
+        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each __________."
       ],
       "question": "Choose the best title for this passage.",
       "choices": [
@@ -764,7 +765,7 @@
         "Of these three trembling cities the greatest is the last─the city of final destination, the city that is a goal.",
         "It is this third city that accounts for New York’s high-strung dispositions, its poetical deportment, its dedication to the arts, and its incomparable achievements.",
         "Commuters give the city its tidal restlessness, natives give it solidity and continuity, but the settlers give it passion.",
-        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each."
+        "And whether it is a farmer arriving from Italy to set up a small grocery store in a slum, or a young girl arriving from a small town in Mississippi to escape the indignity of being observed by her neighbors, or a boy arriving from the Corn Belt with a manuscript in his suitcase and a pain in his heart, it makes no difference: each __________."
       ],
       "question": "Choose the one that is least likely to fill in the blank.",
       "choices": [
@@ -791,7 +792,7 @@
       "instruction": "Read the passage below and answer the questions that follow.",
       "passage_sentences": [
         "An Afghan designer has come up with a novel tumbleweed-esque device to find and detonate mines, a device that has evolved from the wind-powered toys he made as a child.",
-        "Massoud Hassani's Mine Kafon is made mainly from bamboo and biodegradable plastics, but the simple addition of a GPS chip means the wind-swept spheres can be monitored to reveal the location of mines. __________________________________________________.",
+        "Massoud Hassani's Mine Kafon is made mainly from bamboo and biodegradable plastics, but the simple addition of a GPS chip means the wind-swept spheres can be monitored to reveal the location of mines. __________.",
         "Typically the process involves the sweeping of mine fields, either manually with metal detectors, or with specialized vehicles (sometimes remotely controlled).",
         "The Mine Kafon, on the other hand, is an array of bamboo sticks with plastic disks at the end.",
         "It's light enough to be caught and moved by the wind, but heavy enough that it should trip any mine it passes over.",
@@ -827,7 +828,7 @@
       "instruction": "Read the passage below and answer the questions that follow.",
       "passage_sentences": [
         "An Afghan designer has come up with a novel tumbleweed-esque device to find and detonate mines, a device that has evolved from the wind-powered toys he made as a child.",
-        "Massoud Hassani's Mine Kafon is made mainly from bamboo and biodegradable plastics, but the simple addition of a GPS chip means the wind-swept spheres can be monitored to reveal the location of mines. __________________________________________________.",
+        "Massoud Hassani's Mine Kafon is made mainly from bamboo and biodegradable plastics, but the simple addition of a GPS chip means the wind-swept spheres can be monitored to reveal the location of mines. __________.",
         "Typically the process involves the sweeping of mine fields, either manually with metal detectors, or with specialized vehicles (sometimes remotely controlled).",
         "The Mine Kafon, on the other hand, is an array of bamboo sticks with plastic disks at the end.",
         "It's light enough to be caught and moved by the wind, but heavy enough that it should trip any mine it passes over.",
