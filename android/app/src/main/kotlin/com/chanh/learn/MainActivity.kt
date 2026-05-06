@@ -1,4 +1,4 @@
-package com.chanh.wordup
+package com.chanh.learn
 
 import io.flutter.embedding.android.FlutterActivity
 
