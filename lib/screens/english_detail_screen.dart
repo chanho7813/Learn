@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show HapticFeedback;
-import '../models/english_exam.dart';
+import '../models/english_problem.dart';
 import '../models/word.dart';
 import '../services/settings_service.dart';
 import '../services/ai_service.dart';

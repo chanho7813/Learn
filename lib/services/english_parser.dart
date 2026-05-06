@@ -1,5 +1,5 @@
 import 'dart:convert';
-import '../models/english_exam.dart';
+import '../models/english_problem.dart';
 
 class EnglishParser {
   static EnglishExam parseJson(String content, String fileName) {

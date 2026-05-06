@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import '../models/english_exam.dart';
+import '../models/english_problem.dart';
 import '../services/english_parser.dart';
 import '../services/settings_service.dart';
 import 'english_detail_screen.dart';
