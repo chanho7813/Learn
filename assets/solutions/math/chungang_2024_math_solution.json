@@ -1,0 +1,410 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2024,
+  "exam_kind": "math",
+  "question_count": 30,
+  "status": "verified",
+  "verified": true,
+  "source": {
+    "type": "manual",
+    "verified": true,
+    "note": "중앙_24_수학 문제 데이터 기준 직접 풀이 및 SymPy 계산 검산"
+  },
+  "schema": {
+    "number": "문제 번호",
+    "answer": "정답 번호",
+    "answer_text": "정답 선택지 내용",
+    "explanation": "풀이 단계 배열",
+    "concepts": "문제 풀이에 필요한 개념/유형"
+  },
+  "solutions": [
+    {
+      "number": 1,
+      "answer": "③",
+      "answer_text": "$e^4$",
+      "explanation": [
+        "$e^{\\sin x}=1+\\sin x+o(x)=1+x+o(x)$이다.",
+        "밑은 $1+4x+o(x)$, 지수는 $\\frac{1}{\\tan x}\\sim\\frac{1}{x}$이므로 극한은 $e^4$이다."
+      ],
+      "concepts": [
+        {"title": "극한", "items": ["$\\left(1+ax\\right)^{1/x}$ 꼴", "일차 근사"]}
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "③",
+      "answer_text": "$23$",
+      "explanation": [
+        "$u=e^x+e^{-x}\\ge2$로 두면 함수는 $-u^3+6u^2+15u$이다.",
+        "미분하면 $-3(u-5)(u+1)$이므로 최댓값은 $u=5$에서 생긴다.",
+        "$t=e^x$라 하면 $t+\\frac1t=5$이고, $e^{2\\alpha}+e^{2\\beta}=t^2+\\frac1{t^2}=25-2=23$이다."
+      ],
+      "concepts": [
+        {"title": "최대최소", "items": ["치환", "일변수 다항함수"]},
+        {"title": "지수함수", "items": ["$t+t^{-1}$ 관계"]}
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "②",
+      "answer_text": "$\\frac{1}{2023\\cdot3036}(2\\sqrt{2}-1)$",
+      "explanation": [
+        "적분 영역은 $0\\le x\\le y\\le1$이므로 적분 순서를 바꾼다.",
+        "$\\frac1{2023}\\int_0^1y^{2023}\\sqrt{1+y^{2024}}\\,dy$가 된다.",
+        "$u=1+y^{2024}$로 치환하면 값은 $\\frac{1}{2023\\cdot3036}(2\\sqrt2-1)$이다."
+      ],
+      "concepts": [
+        {"title": "이중적분", "items": ["적분 순서 변경", "치환적분"]}
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "③",
+      "answer_text": "$3$",
+      "explanation": [
+        "(가)는 $\\frac1{n(\\ln n)^2}$형이므로 수렴한다.",
+        "(나)는 $\\arctan\\frac1n\\sim\\frac1n$이므로 발산하고, (다)는 교대급수로 수렴한다.",
+        "(라)는 괄호 안 합이 $n^{1/3}$ 정도로 커져 항이 $n^{-4/3}$형이므로 수렴한다. 따라서 수렴하는 것은 3개이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["비교판정", "교대급수 판정", "$p$급수"]}
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "①",
+      "answer_text": "$3$",
+      "explanation": [
+        "$5!a_5$는 $f^{(5)}(0)$과 같다.",
+        "$f(x)=e^x(\\cos2x+\\sin2x)$를 다섯 번 미분해 $x=0$을 대입하면 $3$이다."
+      ],
+      "concepts": [
+        {"title": "테일러 급수", "items": ["계수와 도함수", "지수·삼각함수 미분"]}
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "④",
+      "answer_text": "$2b^2=3a^2$",
+      "explanation": [
+        "$y^3=x^2$의 접선 기울기는 $\\frac{dy}{dx}=\\frac{2x}{3y^2}$이다.",
+        "타원 접선 기울기는 $\\frac{dy}{dx}=-\\frac{b^2x}{a^2y}$이다.",
+        "두 접선이 수직이므로 기울기 곱이 $-1$이고, $x^2=y^3$을 대입하면 $2b^2=3a^2$이다."
+      ],
+      "concepts": [
+        {"title": "음함수 미분", "items": ["접선 기울기", "수직 조건"]}
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "③",
+      "answer_text": "$\\frac{\\pi}{2}$",
+      "explanation": [
+        "$\\sin\\theta_1=\\frac4{\\sqrt{17}}$이면 $\\cos\\theta_1=\\frac1{\\sqrt{17}}$이다.",
+        "$\\sin\\theta_2=\\frac1{\\sqrt{17}}$이면 $\\cos\\theta_2=\\frac4{\\sqrt{17}}$이다.",
+        "$\\sin(\\theta_1+\theta_2)=1$이므로 $\\theta_1+\theta_2=\\frac\\pi2$이다."
+      ],
+      "concepts": [
+        {"title": "삼각함수", "items": ["역삼각함수", "덧셈정리"]}
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "④",
+      "answer_text": "$13$",
+      "explanation": [
+        "$2\\cos x-\\cos2x=-2\\cos^2x+2\\cos x+1$이다.",
+        "바닥함수는 내부값이 정수를 지나며 실제로 층이 바뀌는 지점에서 불연속이다.",
+        "구간 $0<x<3\\pi$에서 해당 지점을 세면 총 13개이다."
+      ],
+      "concepts": [
+        {"title": "함수", "items": ["바닥함수의 불연속", "삼각방정식 해 개수"]}
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "④",
+      "answer_text": "$3$",
+      "explanation": [
+        "$\\tanh'(z)=\\operatorname{sech}^2z$는 실수에서 0이 아니다.",
+        "따라서 임계점은 $\\nabla g=0$인 점과 같다.",
+        "$g_x=3x^2-12y$, $g_y=-12x+24y^2$를 풀면 실수해는 $(0,0)$, $(2,1)$이고 좌표합은 $3$이다."
+      ],
+      "concepts": [
+        {"title": "다변수미분", "items": ["합성함수의 그래디언트", "임계점"]}
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "②",
+      "answer_text": "$-\\frac{\\pi}{2}$",
+      "explanation": [
+        "벡터장은 $\\phi(x,y,z)=xy\\cos z-yze^x$의 그래디언트이다.",
+        "선적분은 $\\phi(\\mathbf{r}(\\frac\\pi2))-\\phi(\\mathbf{r}(0))$로 계산한다.",
+        "끝점은 $(0,1,\\frac\\pi2)$, 시작점은 $(1,0,0)$이므로 값은 $-\\frac\\pi2$이다."
+      ],
+      "concepts": [
+        {"title": "벡터해석", "items": ["보존장", "선적분의 기본정리"]}
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "①",
+      "answer_text": "$-2$",
+      "explanation": [
+        "$\\frac{d}{du}\\frac1{1+e^{-u}}$의 $u=0$ 값은 $\\frac14$이다.",
+        "Leibniz 법칙으로 $f_y=6y\\phi(3y^2)-4\\phi(2x+4y)$이다.",
+        "이를 $x$로 미분해 $(0,0)$에 대입하면 $-8\\cdot\\frac14=-2$이다."
+      ],
+      "concepts": [
+        {"title": "편미분", "items": ["변수상한 적분", "Leibniz 법칙"]}
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "④",
+      "answer_text": "$(\\frac{1}{\\sqrt{3}},-\\frac{1}{\\sqrt{3}},-\\frac{1}{\\sqrt{3}})$",
+      "explanation": [
+        "함수값이 가장 빨리 증가하는 방향은 그래디언트 방향이다.",
+        "$(1,0,1)$에서 $\\nabla f=e^{-1}(1,-1,-1)$이다.",
+        "단위벡터로 만들면 $(\\frac1{\\sqrt3},-\\frac1{\\sqrt3},-\\frac1{\\sqrt3})$이다."
+      ],
+      "concepts": [
+        {"title": "다변수미분", "items": ["그래디언트", "최대 증가 방향"]}
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "②",
+      "answer_text": "$\\frac{4}{\\pi}-1$",
+      "explanation": [
+        "역함수는 $f^{-1}(x)=\\frac2\\pi\\sin^{-1}x$이다.",
+        "넓이는 $\\int_0^1\\left(\\sin\\frac{\\pi x}{2}-\\frac2\\pi\\sin^{-1}x\\right)dx$이다.",
+        "계산하면 $\\frac2\\pi-(1-\frac2\\pi)=\\frac4\\pi-1$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["함수와 역함수 사이 넓이", "역삼각함수 적분"]}
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "①",
+      "answer_text": "$\\frac{1}{3\\cos^3x}-\\frac{3}{\\cos x}-3\\cos x+\\frac{\\cos^3x}{3}+C$",
+      "explanation": [
+        "$u=\\cos x$로 두면 $du=-\\sin x\\,dx$이고 $\\sin^6x=(1-u^2)^3$이다.",
+        "적분은 $-\\int\\frac{(1-u^2)^3}{u^4}\\,du$로 바뀐다.",
+        "전개해 적분하면 ①의 식이 나온다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["삼각치환", "홀수 거듭제곱 처리"]}
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "②",
+      "answer_text": "(나) + (다)",
+      "explanation": [
+        "(나)의 적분은 $2\\ln|x|-2\\ln|x+1|$ 꼴이다.",
+        "(다)의 적분은 유리식에 $-2\\ln|x|+2\\ln|x+1|$가 붙는다.",
+        "둘을 더하면 로그항이 모두 사라져 유리함수만 남는다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["부분분수", "로그항 소거"]}
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "④",
+      "answer_text": "$-\\frac{4}{3}$",
+      "explanation": [
+        "$\\frac{x-a}{x+2a}=1-\\frac{3a}{x+2a}$이다.",
+        "$x\\to\\infty$에서 전체 극한은 $e^{-3a}$가 된다.",
+        "$e^{-3a}=e^4$이므로 $a=-\\frac43$이다."
+      ],
+      "concepts": [
+        {"title": "극한", "items": ["$\\left(1+\\frac{k}{x}\\right)^x$ 꼴"]}
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "②",
+      "answer_text": "$\\frac{64}{11}$",
+      "explanation": [
+        "$T$의 치역은 행렬 $A$의 열공간이다.",
+        "이 평면의 법선벡터는 $A^Tn=0$에서 $n=(1,-3,1)$이다.",
+        "$(1,2,3)$을 이 평면에 정사영하면 $(\\frac{13}{11},\\frac{16}{11},\\frac{35}{11})$이고 좌표합은 $\\frac{64}{11}$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["열공간", "정사영", "평면과 점 사이 거리"]}
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "③",
+      "answer_text": "$-\\frac{1}{2}$",
+      "explanation": [
+        "행렬식은 $-(x-1)^2(2x+1)$이다.",
+        "행렬식이 0이 되는 후보는 $x=1$, $x=-\\frac12$이다.",
+        "$x=1$일 때 rank는 1이고, $x=-\\frac12$일 때 rank는 2이므로 정답은 $-\\frac12$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["rank", "행렬식", "특수값 대입"]}
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "①",
+      "answer_text": "$\\frac{16}{9}\\pi\\left(1+\\frac{1}{\\sqrt{3}}\\right)$",
+      "explanation": [
+        "구의 중심은 $(0,0,-1)$, 반지름은 2이다.",
+        "중심에서 평면 $x+y+z=1$까지의 거리는 $\\frac2{\\sqrt3}$이므로 교선 원의 반지름 제곱은 $4-\\frac43=\\frac83$이다.",
+        "밑면 넓이는 $\\frac83\\pi$, 가능한 최대 높이는 $2+\\frac2{\\sqrt3}$이므로 부피 최댓값은 $\\frac{16}{9}\\pi(1+\\frac1{\\sqrt3})$이다."
+      ],
+      "concepts": [
+        {"title": "공간도형", "items": ["구와 평면의 교선", "원뿔 부피", "점과 평면 사이 거리"]}
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "②",
+      "answer_text": "$\\frac{435\\pi}{2}$",
+      "explanation": [
+        "닫힌 곡면의 바깥쪽 플럭스이므로 발산정리를 쓴다.",
+        "$\\nabla\\cdot\\mathbf{F}=5x^2+5y^2+5z^2$이다.",
+        "원기둥 $r\\le3$, $0\\le z\\le1$에서 적분하면 $\\frac{435\\pi}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "벡터해석", "items": ["발산정리", "원기둥 좌표"]}
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "④",
+      "answer_text": "$e(n^3+2n+1)$",
+      "explanation": [
+        "Leibniz 공식으로 $\\frac{d^n}{dx^n}(x^3e^x)=e^x\\{x^3+3nx^2+3n(n-1)x+n(n-1)(n-2)\\}$이다.",
+        "$x=1$을 대입해 정리하면 $e(n^3+2n+1)$이다."
+      ],
+      "concepts": [
+        {"title": "미분", "items": ["고계도함수", "Leibniz 공식"]}
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "②",
+      "answer_text": "중심 $(\\frac{1}{2},0)$, 반지름 $\\frac{1}{2}$",
+      "explanation": [
+        "$X=\\sin^2t$, $Y=\\sin t\\cos t$로 둔다.",
+        "$(X-\\frac12)^2+Y^2=\\frac14$가 성립한다.",
+        "따라서 중심은 $(\\frac12,0)$, 반지름은 $\\frac12$이다."
+      ],
+      "concepts": [
+        {"title": "매개곡선", "items": ["자취", "삼각항등식"]}
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "①",
+      "answer_text": "$72$",
+      "explanation": [
+        "$f(x)=\\frac{(x-2)^2}{x-5}$이고 $f'(x)=\\frac{(x-2)(x-8)}{(x-5)^2}$이다.",
+        "$x=2$에서 극대, $x=8$에서 극소가 된다.",
+        "따라서 $2a^2+b^2=2\\cdot2^2+8^2=72$이다."
+      ],
+      "concepts": [
+        {"title": "미분", "items": ["극대·극소", "도함수 부호 변화"]}
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "④",
+      "answer_text": "$5$",
+      "explanation": [
+        "대각화된 행렬의 대각성분 $a,b,c$는 $A$의 고윳값이다.",
+        "고윳값의 합은 trace와 같으므로 $a+b+c=\\operatorname{tr}(A)$이다.",
+        "$\\operatorname{tr}(A)=2-3+6=5$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["대각화", "trace와 고윳값의 합"]}
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "③",
+      "answer_text": "$\\frac{9}{8}$",
+      "explanation": [
+        "제약식 $x^2+2y^2+z^2=1$에서 $z^2$ 방향의 최댓값은 1이다.",
+        "$xy$ 부분은 $u=x$, $v=\\sqrt2y$로 보면 $\\frac{uv}{\\sqrt2}$이고 최솟값은 $-\\frac{1}{2\\sqrt2}$이다.",
+        "따라서 $a=1$, $b=-\\frac{1}{2\\sqrt2}$이고 $a^2+b^2=1+\\frac18=\\frac98$이다."
+      ],
+      "concepts": [
+        {"title": "최대최소", "items": ["이차형식", "제약조건", "라그랑주 승수 관점"]}
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "④",
+      "answer_text": "$1+2\\cdot3^{2024}$",
+      "explanation": [
+        "$A$의 고윳값은 $1,2,3$이다.",
+        "계산하면 $\\operatorname{tr}(A^nC)=1+2\\cdot3^n$ 꼴이며 여기서 $C$는 뒤에 곱해진 행렬이다.",
+        "$n=2024$를 대입하면 $1+2\\cdot3^{2024}$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["고윳값", "행렬 거듭제곱", "trace"]}
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "①",
+      "answer_text": "$-20$",
+      "explanation": [
+        "$A^4-3A^3+A^2=A^2(A^2-3A+I)$이다.",
+        "직접 행렬식을 계산하면 $-20$이다.",
+        "고윳값을 이용해도 각 고윳값에 $\\lambda^4-3\\lambda^3+\\lambda^2$를 대입한 값의 곱으로 확인할 수 있다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["행렬다항식", "행렬식", "고윳값 검산"]}
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "②",
+      "answer_text": "$2\\cdot3^{10}$",
+      "explanation": [
+        "$\\begin{bmatrix}1\\\\1\\end{bmatrix}$은 주어진 행렬의 고유벡터이고 고윳값은 3이다.",
+        "따라서 10제곱을 곱하면 $3^{10}\\begin{bmatrix}1\\\\1\\end{bmatrix}$가 된다.",
+        "$a+b=2\\cdot3^{10}$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["고유벡터", "행렬 거듭제곱"]}
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "③",
+      "answer_text": "$\\frac{4}{3}$",
+      "explanation": [
+        "$BA=A^2+A$이고 $A$는 역행렬이 있으므로 $B=(A^2+A)A^{-1}=A+I$이다.",
+        "주어진 $A^{-1}$에서 $A$를 구해 $A+I$의 행렬식을 계산하면 $\\frac43$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["역행렬", "행렬식", "행렬방정식"]}
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "③",
+      "answer_text": "(가), (다)",
+      "explanation": [
+        "$A^T=A^TA$를 전치하면 $A=A^TA$도 성립한다.",
+        "따라서 $A=A^T$이고, 다시 식에 넣으면 $A=A^2$이다.",
+        "그러므로 (가), (다)는 항상 옳고, (나)와 (라)는 일반적으로 성립하지 않는다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["전치행렬", "대칭행렬", "멱등행렬"]}
+      ]
+    }
+  ]
+}

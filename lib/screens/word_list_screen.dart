@@ -3,6 +3,7 @@ import '../models/word.dart';
 import '../services/ai_service.dart';
 import '../services/storage_service.dart';
 import '../services/settings_service.dart';
+import '../widgets/word_study_section.dart';
 
 class WordListScreen extends StatefulWidget {
   final List<Word> words;
@@ -12,7 +13,8 @@ class WordListScreen extends StatefulWidget {
   State<WordListScreen> createState() => _WordListScreenState();
 }
 
-class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObserver {
+class _WordListScreenState extends State<WordListScreen>
+    with WidgetsBindingObserver {
   late List<Word> _words;
   int _currentDay = 1;
   String _search = '';
@@ -58,7 +60,8 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.paused || state == AppLifecycleState.inactive) {
+    if (state == AppLifecycleState.paused ||
+        state == AppLifecycleState.inactive) {
       _savePosition();
     }
   }
@@ -119,10 +122,14 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
     if (_isSearching) {
       final q = _search.toLowerCase();
       return _words
-          .where((w) =>
-              w.word.toLowerCase().contains(q) ||
-              w.meaning.toLowerCase().contains(q) ||
-              w.briefMeaning.toLowerCase().contains(q))
+          .where(
+            (w) =>
+                w.word.toLowerCase().contains(q) ||
+                w.meaning.toLowerCase().contains(q) ||
+                w.briefMeaning.toLowerCase().contains(q) ||
+                w.wordFamily.toLowerCase().contains(q) ||
+                w.collocations.any((item) => item.toLowerCase().contains(q)),
+          )
           .toList();
     }
     final start = (_currentDay - 1) * _wordsPerDay;
@@ -159,7 +166,10 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
     );
 
     try {
-      final result = await AiService.analyzeWord(word: query.trim(), sentence: '');
+      final result = await AiService.analyzeWord(
+        word: query.trim(),
+        sentence: '',
+      );
       if (!mounted) return;
       Navigator.pop(context);
       _showWordAnalysisSheet(result);
@@ -235,20 +245,24 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                             onPressed: added
                                 ? null
                                 : () async {
-                                    final count =
-                                        await StorageService.addWords([result]);
+                                    final count = await StorageService.addWords(
+                                      [result],
+                                    );
                                     if (count > 0) {
                                       final updated =
                                           await StorageService.loadWords();
                                       setState(() {
                                         _words = updated
-                                          ..sort((a, b) =>
-                                              a.number.compareTo(b.number));
+                                          ..sort(
+                                            (a, b) =>
+                                                a.number.compareTo(b.number),
+                                          );
                                       });
                                       setSheetState(() => added = true);
                                       if (mounted) {
-                                        ScaffoldMessenger.of(context)
-                                            .showSnackBar(
+                                        ScaffoldMessenger.of(
+                                          context,
+                                        ).showSnackBar(
                                           SnackBar(
                                             content: Text(
                                               '\'${result.word}\' 단어장에 추가됨',
@@ -259,11 +273,11 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                                     } else {
                                       setSheetState(() => added = true);
                                       if (mounted) {
-                                        ScaffoldMessenger.of(context)
-                                            .showSnackBar(
+                                        ScaffoldMessenger.of(
+                                          context,
+                                        ).showSnackBar(
                                           const SnackBar(
-                                            content:
-                                                Text('이미 단어장에 있는 단어입니다'),
+                                            content: Text('이미 단어장에 있는 단어입니다'),
                                           ),
                                         );
                                       }
@@ -283,53 +297,11 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                       const SizedBox(height: 12),
                       Text(
                         result.meaning,
-                        style:
-                            theme.textTheme.bodyLarge?.copyWith(height: 1.5),
+                        style: theme.textTheme.bodyLarge?.copyWith(height: 1.5),
                       ),
-                      if (result.etymology.isNotEmpty) ...[
+                      if (WordStudySection.hasStudyContent(result)) ...[
                         const SizedBox(height: 14),
-                        Row(
-                          children: [
-                            const Icon(
-                              Icons.history_edu,
-                              size: 16,
-                              color: Colors.orange,
-                            ),
-                            const SizedBox(width: 6),
-                            Text(
-                              '어원',
-                              style: theme.textTheme.labelLarge?.copyWith(
-                                color: Colors.orange,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          result.etymology,
-                          style: theme.textTheme.bodySmall
-                              ?.copyWith(height: 1.4),
-                        ),
-                        if (result.etymologyExplain.isNotEmpty)
-                          Text(
-                            '→ ${result.etymologyExplain}',
-                            style: theme.textTheme.bodySmall?.copyWith(
-                              fontStyle: FontStyle.italic,
-                              color: cs.onSurface.withAlpha(153),
-                              height: 1.4,
-                            ),
-                          ),
-                      ],
-                      if (result.relatedWords.isNotEmpty) ...[
-                        const SizedBox(height: 8),
-                        Text(
-                          '관련어: ${result.relatedWords}',
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: cs.primary,
-                            height: 1.4,
-                          ),
-                        ),
+                        WordStudySection(word: result, compact: true),
                       ],
                       if (result.exampleEn.isNotEmpty) ...[
                         const SizedBox(height: 14),
@@ -383,8 +355,8 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                         ),
                         const SizedBox(height: 6),
                         ...result.nuances.map((n) {
-                          final isMain = n.word.toLowerCase() ==
-                              result.word.toLowerCase();
+                          final isMain =
+                              n.word.toLowerCase() == result.word.toLowerCase();
                           return Padding(
                             padding: const EdgeInsets.only(bottom: 4),
                             child: Row(
@@ -415,8 +387,9 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                                 Expanded(
                                   child: Text(
                                     n.description,
-                                    style: theme.textTheme.bodySmall
-                                        ?.copyWith(height: 1.4),
+                                    style: theme.textTheme.bodySmall?.copyWith(
+                                      height: 1.4,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -443,11 +416,13 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
         content: Text('"${word.word}"을(를) 삭제하시겠습니까?'),
         actions: [
           TextButton(
-              onPressed: () => Navigator.pop(ctx, false),
-              child: const Text('취소')),
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('취소'),
+          ),
           TextButton(
-              onPressed: () => Navigator.pop(ctx, true),
-              child: const Text('삭제')),
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text('삭제'),
+          ),
         ],
       ),
     );
@@ -468,9 +443,7 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
     final displayWords = _displayWords;
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('단어 목록 (${_words.length})'),
-      ),
+      appBar: AppBar(title: Text('단어 목록 (${_words.length})')),
       body: Column(
         children: [
           Padding(
@@ -481,10 +454,13 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                 hintText: '단어 또는 뜻 검색...',
                 prefixIcon: const Icon(Icons.search),
                 border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12)),
+                  borderRadius: BorderRadius.circular(12),
+                ),
                 filled: true,
-                contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 12,
+                ),
               ),
             ),
           ),
@@ -500,14 +476,16 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                         : null,
                     icon: const Icon(Icons.chevron_left),
                     style: IconButton.styleFrom(
-                      backgroundColor:
-                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                      backgroundColor: colorScheme.surfaceContainerHighest
+                          .withAlpha(128),
                     ),
                   ),
                   const SizedBox(width: 12),
                   Container(
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 24,
+                      vertical: 8,
+                    ),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
@@ -532,8 +510,8 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
                         : null,
                     icon: const Icon(Icons.chevron_right),
                     style: IconButton.styleFrom(
-                      backgroundColor:
-                          colorScheme.surfaceContainerHighest.withAlpha(128),
+                      backgroundColor: colorScheme.surfaceContainerHighest
+                          .withAlpha(128),
                     ),
                   ),
                 ],
@@ -541,84 +519,86 @@ class _WordListScreenState extends State<WordListScreen> with WidgetsBindingObse
             ),
           Expanded(
             child: GestureDetector(
-              onHorizontalDragEnd: _isSearching ? null : (details) {
-                final velocity = details.primaryVelocity ?? 0;
-                if (velocity > 300) {
-                  _goToDay(_currentDay - 1);
-                } else if (velocity < -300) {
-                  _goToDay(_currentDay + 1);
-                }
-              },
+              onHorizontalDragEnd: _isSearching
+                  ? null
+                  : (details) {
+                      final velocity = details.primaryVelocity ?? 0;
+                      if (velocity > 300) {
+                        _goToDay(_currentDay - 1);
+                      } else if (velocity < -300) {
+                        _goToDay(_currentDay + 1);
+                      }
+                    },
               behavior: HitTestBehavior.translucent,
               child: displayWords.isEmpty
-                ? Center(
-                    child: _isSearching && _search.trim().isNotEmpty
-                        ? Column(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Text(
-                                '검색 결과가 없습니다',
-                                style: theme.textTheme.bodyLarge?.copyWith(
-                                  color: colorScheme.onSurface.withAlpha(128),
+                  ? Center(
+                      child: _isSearching && _search.trim().isNotEmpty
+                          ? Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  '검색 결과가 없습니다',
+                                  style: theme.textTheme.bodyLarge?.copyWith(
+                                    color: colorScheme.onSurface.withAlpha(128),
+                                  ),
                                 ),
+                                const SizedBox(height: 16),
+                                FilledButton.icon(
+                                  onPressed: () => _addWordByAi(_search),
+                                  icon: const Icon(Icons.auto_awesome),
+                                  label: Text('"${_search.trim()}" AI로 추가'),
+                                ),
+                              ],
+                            )
+                          : Text(
+                              '단어가 없습니다',
+                              style: theme.textTheme.bodyLarge?.copyWith(
+                                color: colorScheme.onSurface.withAlpha(128),
                               ),
-                              const SizedBox(height: 16),
-                              FilledButton.icon(
-                                      onPressed: () => _addWordByAi(_search),
-                                      icon: const Icon(Icons.auto_awesome),
-                                      label: Text('"${_search.trim()}" AI로 추가'),
-                                    ),
-                            ],
-                          )
-                        : Text(
-                            '단어가 없습니다',
-                            style: theme.textTheme.bodyLarge?.copyWith(
-                              color: colorScheme.onSurface.withAlpha(128),
                             ),
-                          ),
-                  )
-                : ListView.builder(
-                    controller: _scrollController,
-                    padding: const EdgeInsets.fromLTRB(12, 4, 12, 16),
-                    itemCount: displayWords.length,
-                    itemBuilder: (context, index) {
-                      final word = displayWords[index];
-                      final isExpanded = _expandedWords.contains(word.number);
-                      final accent =
-                          _accentColors[index % _accentColors.length];
+                    )
+                  : ListView.builder(
+                      controller: _scrollController,
+                      padding: const EdgeInsets.fromLTRB(12, 4, 12, 16),
+                      itemCount: displayWords.length,
+                      itemBuilder: (context, index) {
+                        final word = displayWords[index];
+                        final isExpanded = _expandedWords.contains(word.number);
+                        final accent =
+                            _accentColors[index % _accentColors.length];
 
-                      final isChecked = _checkedWords.contains(word.number);
+                        final isChecked = _checkedWords.contains(word.number);
 
-                      return _WordCard(
-                        word: word,
-                        isExpanded: isExpanded,
-                        isChecked: isChecked,
-                        accentColor: accent,
-                        showPronunciation: _showPronunciation,
-                        showBriefMeaning: _showBriefMeaning,
-                        showMeaning: _showMeaning,
-                        showEtymology: _showEtymology,
-                        showRelatedWords: _showRelatedWords,
-                        showExample: _showExample,
-                        showNuance: _showNuance,
-                        onCheck: () => setState(() {
-                          if (isChecked) {
-                            _checkedWords.remove(word.number);
-                          } else {
-                            _checkedWords.add(word.number);
-                          }
-                        }),
-                        onTap: () => setState(() {
-                          if (isExpanded) {
-                            _expandedWords.remove(word.number);
-                          } else {
-                            _expandedWords.add(word.number);
-                          }
-                        }),
-                        onDelete: () => _deleteWord(word),
-                      );
-                    },
-                  ),
+                        return _WordCard(
+                          word: word,
+                          isExpanded: isExpanded,
+                          isChecked: isChecked,
+                          accentColor: accent,
+                          showPronunciation: _showPronunciation,
+                          showBriefMeaning: _showBriefMeaning,
+                          showMeaning: _showMeaning,
+                          showEtymology: _showEtymology,
+                          showRelatedWords: _showRelatedWords,
+                          showExample: _showExample,
+                          showNuance: _showNuance,
+                          onCheck: () => setState(() {
+                            if (isChecked) {
+                              _checkedWords.remove(word.number);
+                            } else {
+                              _checkedWords.add(word.number);
+                            }
+                          }),
+                          onTap: () => setState(() {
+                            if (isExpanded) {
+                              _expandedWords.remove(word.number);
+                            } else {
+                              _expandedWords.add(word.number);
+                            }
+                          }),
+                          onDelete: () => _deleteWord(word),
+                        );
+                      },
+                    ),
             ),
           ),
         ],
@@ -660,8 +640,7 @@ class _WordCard extends StatelessWidget {
     required this.onDelete,
   });
 
-  bool get _hasExpandableContent =>
-      showNuance && word.nuances.isNotEmpty;
+  bool get _hasExpandableContent => showNuance && word.nuances.isNotEmpty;
 
   @override
   Widget build(BuildContext context) {
@@ -701,9 +680,7 @@ class _WordCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(14),
             child: Container(
               decoration: BoxDecoration(
-                border: Border(
-                  left: BorderSide(color: accentColor, width: 3),
-                ),
+                border: Border(left: BorderSide(color: accentColor, width: 3)),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -725,7 +702,11 @@ class _WordCard extends StatelessWidget {
                             ),
                             alignment: Alignment.center,
                             child: isChecked
-                                ? Icon(Icons.check, size: 16, color: isDark ? Colors.black : Colors.white)
+                                ? Icon(
+                                    Icons.check,
+                                    size: 16,
+                                    color: isDark ? Colors.black : Colors.white,
+                                  )
                                 : Text(
                                     '${word.number}',
                                     style: TextStyle(
@@ -745,8 +726,7 @@ class _WordCard extends StatelessWidget {
                                 children: [
                                   Text(
                                     word.word,
-                                    style:
-                                        theme.textTheme.titleSmall?.copyWith(
+                                    style: theme.textTheme.titleSmall?.copyWith(
                                       fontWeight: FontWeight.w700,
                                       fontSize: 15,
                                     ),
@@ -758,20 +738,20 @@ class _WordCard extends StatelessWidget {
                                       '[${word.pronunciation}]',
                                       style: theme.textTheme.bodySmall
                                           ?.copyWith(
-                                        color: colorScheme.onSurface
-                                            .withAlpha(128),
-                                        fontSize: 10,
-                                      ),
+                                            color: colorScheme.onSurface
+                                                .withAlpha(128),
+                                            fontSize: 10,
+                                          ),
                                     ),
                                   ],
                                 ],
                               ),
-                              if (showBriefMeaning && word.briefMeaning.isNotEmpty)
+                              if (showBriefMeaning &&
+                                  word.briefMeaning.isNotEmpty)
                                 Text(
                                   word.briefMeaning,
                                   style: theme.textTheme.bodySmall?.copyWith(
-                                    color:
-                                        colorScheme.onSurface.withAlpha(153),
+                                    color: colorScheme.onSurface.withAlpha(153),
                                     fontSize: 12,
                                   ),
                                   maxLines: 1,
@@ -782,19 +762,21 @@ class _WordCard extends StatelessWidget {
                         ),
                         if (_hasExpandableContent)
                           Icon(
-                            isExpanded
-                                ? Icons.expand_less
-                                : Icons.expand_more,
+                            isExpanded ? Icons.expand_less : Icons.expand_more,
                             color: colorScheme.onSurface.withAlpha(102),
                             size: 20,
                           ),
                         IconButton(
-                          icon: Icon(Icons.delete_outline,
-                              size: 16,
-                              color: colorScheme.error.withAlpha(128)),
+                          icon: Icon(
+                            Icons.delete_outline,
+                            size: 16,
+                            color: colorScheme.error.withAlpha(128),
+                          ),
                           onPressed: onDelete,
-                          constraints:
-                              const BoxConstraints(minWidth: 32, minHeight: 32),
+                          constraints: const BoxConstraints(
+                            minWidth: 32,
+                            minHeight: 32,
+                          ),
                           padding: EdgeInsets.zero,
                           visualDensity: VisualDensity.compact,
                         ),
@@ -813,10 +795,41 @@ class _WordCard extends StatelessWidget {
                             padding: const EdgeInsets.only(bottom: 4),
                             child: Text(
                               word.meaning,
-                              style: theme.textTheme.bodySmall
-                                  ?.copyWith(height: 1.4, fontSize: 12),
+                              style: theme.textTheme.bodySmall?.copyWith(
+                                height: 1.4,
+                                fontSize: 12,
+                              ),
                             ),
                           ),
+                        if (showEtymology &&
+                            (word.learningFocus.isNotEmpty ||
+                                word.studyGuide.isNotEmpty)) ...[
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 4),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                _MiniHeader(
+                                  icon: Icons.school_outlined,
+                                  title: word.learningFocus.isEmpty
+                                      ? '학습 전략'
+                                      : word.learningFocus,
+                                  color: colorScheme.primary,
+                                ),
+                                if (word.studyGuide.isNotEmpty) ...[
+                                  const SizedBox(height: 2),
+                                  Text(
+                                    word.studyGuide,
+                                    style: theme.textTheme.bodySmall?.copyWith(
+                                      height: 1.3,
+                                      fontSize: 10,
+                                    ),
+                                  ),
+                                ],
+                              ],
+                            ),
+                          ),
+                        ],
                         if (showEtymology && word.etymology.isNotEmpty) ...[
                           Padding(
                             padding: const EdgeInsets.only(bottom: 4),
@@ -824,44 +837,74 @@ class _WordCard extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 const _MiniHeader(
-                                    icon: Icons.history_edu,
-                                    title: '어원',
-                                    color: Color(0xFFD97706)),
+                                  icon: Icons.history_edu,
+                                  title: '어원 구조',
+                                  color: Color(0xFFD97706),
+                                ),
                                 const SizedBox(height: 3),
                                 Text(
                                   word.etymology,
-                                  style: theme.textTheme.bodySmall
-                                      ?.copyWith(height: 1.3, fontSize: 10),
+                                  style: theme.textTheme.bodySmall?.copyWith(
+                                    height: 1.3,
+                                    fontSize: 10,
+                                  ),
                                 ),
                                 if (word.etymologyExplain.isNotEmpty) ...[
                                   const SizedBox(height: 2),
                                   Text(
-                                    '→ ${word.etymologyExplain}',
-                                    style:
-                                        theme.textTheme.bodySmall?.copyWith(
-                                      fontStyle: FontStyle.italic,
-                                      color: colorScheme.onSurface
-                                          .withAlpha(153),
+                                    '뜻 연결: ${word.etymologyExplain}',
+                                    style: theme.textTheme.bodySmall?.copyWith(
+                                      color: colorScheme.onSurface.withAlpha(
+                                        153,
+                                      ),
+                                      height: 1.35,
                                       fontSize: 10,
                                     ),
                                   ),
                                 ],
-                                if (showRelatedWords && word.relatedWords.isNotEmpty) ...[
+                                if (showRelatedWords &&
+                                    word.wordFamily.isNotEmpty) ...[
                                   const SizedBox(height: 3),
                                   Row(
                                     children: [
-                                      Icon(Icons.link,
-                                          size: 11,
-                                          color: colorScheme.primary),
+                                      Icon(
+                                        Icons.account_tree_outlined,
+                                        size: 11,
+                                        color: colorScheme.tertiary,
+                                      ),
+                                      const SizedBox(width: 3),
+                                      Expanded(
+                                        child: Text(
+                                          word.wordFamily,
+                                          style: theme.textTheme.bodySmall
+                                              ?.copyWith(
+                                                fontSize: 10,
+                                                color: colorScheme.tertiary,
+                                              ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                                if (showRelatedWords &&
+                                    word.relatedWords.isNotEmpty) ...[
+                                  const SizedBox(height: 3),
+                                  Row(
+                                    children: [
+                                      Icon(
+                                        Icons.link,
+                                        size: 11,
+                                        color: colorScheme.primary,
+                                      ),
                                       const SizedBox(width: 3),
                                       Expanded(
                                         child: Text(
                                           word.relatedWords,
                                           style: theme.textTheme.bodySmall
                                               ?.copyWith(
-                                            fontSize: 10,
-                                            color: colorScheme.primary,
-                                          ),
+                                                fontSize: 10,
+                                                color: colorScheme.primary,
+                                              ),
                                         ),
                                       ),
                                     ],
@@ -889,8 +932,7 @@ class _WordCard extends StatelessWidget {
                                     fontStyle: FontStyle.italic,
                                     height: 1.3,
                                     fontSize: 11,
-                                    color:
-                                        colorScheme.onSurface.withAlpha(204),
+                                    color: colorScheme.onSurface.withAlpha(204),
                                   ),
                                 ),
                                 if (word.exampleKo.isNotEmpty) ...[
@@ -898,8 +940,9 @@ class _WordCard extends StatelessWidget {
                                   Text(
                                     '→ ${word.exampleKo}',
                                     style: theme.textTheme.bodySmall?.copyWith(
-                                      color: colorScheme.onSurface
-                                          .withAlpha(153),
+                                      color: colorScheme.onSurface.withAlpha(
+                                        153,
+                                      ),
                                       height: 1.3,
                                       fontSize: 11,
                                     ),
@@ -915,10 +958,7 @@ class _WordCard extends StatelessWidget {
                     duration: const Duration(milliseconds: 200),
                     curve: Curves.easeInOut,
                     child: isExpanded
-                        ? _ExpandedContent(
-                            word: word,
-                            accentColor: accentColor,
-                          )
+                        ? _ExpandedContent(word: word, accentColor: accentColor)
                         : const SizedBox.shrink(),
                   ),
                 ],
@@ -935,10 +975,7 @@ class _ExpandedContent extends StatelessWidget {
   final Word word;
   final Color accentColor;
 
-  const _ExpandedContent({
-    required this.word,
-    required this.accentColor,
-  });
+  const _ExpandedContent({required this.word, required this.accentColor});
 
   @override
   Widget build(BuildContext context) {
@@ -949,23 +986,24 @@ class _ExpandedContent extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Divider(
-            height: 1,
-            color: accentColor.withAlpha(38),
-            indent: 12,
-            endIndent: 12),
+          height: 1,
+          color: accentColor.withAlpha(38),
+          indent: 12,
+          endIndent: 12,
+        ),
         Padding(
           padding: const EdgeInsets.fromLTRB(12, 8, 12, 10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _MiniHeader(
-                  icon: Icons.palette_outlined,
-                  title: '뉘앙스 비교',
-                  color: colorScheme.tertiary),
+                icon: Icons.palette_outlined,
+                title: '뉘앙스 비교',
+                color: colorScheme.tertiary,
+              ),
               const SizedBox(height: 4),
               ...word.nuances.map((n) {
-                final isMain =
-                    n.word.toLowerCase() == word.word.toLowerCase();
+                final isMain = n.word.toLowerCase() == word.word.toLowerCase();
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 3),
                   child: Column(
@@ -976,7 +1014,9 @@ class _ExpandedContent extends StatelessWidget {
                         children: [
                           Container(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 5, vertical: 1),
+                              horizontal: 5,
+                              vertical: 1,
+                            ),
                             decoration: BoxDecoration(
                               color: isMain
                                   ? colorScheme.primaryContainer
@@ -986,8 +1026,9 @@ class _ExpandedContent extends StatelessWidget {
                             child: Text(
                               n.word,
                               style: TextStyle(
-                                fontWeight:
-                                    isMain ? FontWeight.bold : FontWeight.w500,
+                                fontWeight: isMain
+                                    ? FontWeight.bold
+                                    : FontWeight.w500,
                                 fontSize: 10,
                                 color: isMain
                                     ? colorScheme.onPrimaryContainer

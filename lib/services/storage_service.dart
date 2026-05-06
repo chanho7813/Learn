@@ -45,11 +45,15 @@ class StorageService {
           pronunciation: w.pronunciation,
           briefMeaning: w.briefMeaning,
           meaning: w.meaning,
+          learningFocus: w.learningFocus,
+          studyGuide: w.studyGuide,
           exampleEn: w.exampleEn,
           exampleKo: w.exampleKo,
           nuances: w.nuances,
           etymology: w.etymology,
           etymologyExplain: w.etymologyExplain,
+          wordFamily: w.wordFamily,
+          collocations: w.collocations,
           relatedWords: w.relatedWords,
         );
         existing.add(numbered);

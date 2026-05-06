@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import '../models/word.dart';
+import '../widgets/word_study_section.dart';
 
 class WordDetailScreen extends StatefulWidget {
   final Word word;
   final Future<bool> Function(Word word)? onAddToWordbook;
 
-  const WordDetailScreen({
-    super.key,
-    required this.word,
-    this.onAddToWordbook,
-  });
+  const WordDetailScreen({super.key, required this.word, this.onAddToWordbook});
 
   @override
   State<WordDetailScreen> createState() => _WordDetailScreenState();
@@ -112,7 +109,8 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: word.nuances.map((n) {
-                  final isMain = n.word.toLowerCase() == word.word.toLowerCase();
+                  final isMain =
+                      n.word.toLowerCase() == word.word.toLowerCase();
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 10),
                     child: Column(
@@ -122,7 +120,10 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 8,
+                                vertical: 4,
+                              ),
                               decoration: BoxDecoration(
                                 color: isMain
                                     ? colorScheme.primaryContainer
@@ -132,7 +133,9 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                               child: Text(
                                 n.word,
                                 style: TextStyle(
-                                  fontWeight: isMain ? FontWeight.bold : FontWeight.w500,
+                                  fontWeight: isMain
+                                      ? FontWeight.bold
+                                      : FontWeight.w500,
                                   fontSize: 13,
                                   color: isMain
                                       ? colorScheme.onPrimaryContainer
@@ -175,50 +178,13 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
             ),
           ],
 
-          if (word.etymology.isNotEmpty) ...[
+          if (WordStudySection.hasStudyContent(word)) ...[
             const SizedBox(height: 16),
             _SectionCard(
-              icon: Icons.history_edu,
-              title: '어원',
-              color: Colors.orange,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(word.etymology, style: theme.textTheme.bodyMedium),
-                  if (word.etymologyExplain.isNotEmpty) ...[
-                    const SizedBox(height: 6),
-                    Text(
-                      '→ ${word.etymologyExplain}',
-                      style: theme.textTheme.bodyMedium?.copyWith(
-                        fontStyle: FontStyle.italic,
-                        color: colorScheme.onSurface.withAlpha(179),
-                      ),
-                    ),
-                  ],
-                  if (word.relatedWords.isNotEmpty) ...[
-                    const SizedBox(height: 10),
-                    Container(
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: colorScheme.surfaceContainerHighest.withAlpha(128),
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Row(
-                        children: [
-                          Icon(Icons.link, size: 16, color: colorScheme.primary),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              word.relatedWords,
-                              style: theme.textTheme.bodySmall,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ],
-              ),
+              icon: Icons.school_outlined,
+              title: '학습 전략',
+              color: colorScheme.primary,
+              child: WordStudySection(word: word),
             ),
           ],
           const SizedBox(height: 32),

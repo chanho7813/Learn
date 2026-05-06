@@ -4,10 +4,12 @@
   "year": 2025,
   "exam_kind": "english",
   "question_count": 40,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "해답지 구조 확정을 위한 1문항 샘플"
+    "verified": true,
+    "note": "중앙_25_영어.pdf 원문 대조 및 직접 풀이 검산"
   },
   "schema": {
     "number": "문제 번호",
@@ -23,29 +25,427 @@
       "answer": "④",
       "answer_text": "detain",
       "explanation": [
-        "밑줄 친 waylay는 길목에서 기다리다가 붙잡다, 가로막다의 의미이다.",
-        "문장에서는 역으로 걸어가 그를 기다렸다는 뜻이므로 detain이 가장 가까운 의미이다.",
-        "fool은 속이다, persuade는 설득하다, respect는 존중하다의 의미라서 문맥과 맞지 않는다."
+        "waylay는 길목에서 기다리다가 붙잡다, 가로막다의 뜻이다.",
+        "역으로 가서 그를 기다렸다는 문맥이므로 detain이 가장 가깝다."
       ],
-      "concepts": [
-        {
-          "title": "어휘 의미 추론",
-          "items": [
-            "문맥상 동작 파악",
-            "유의어 선택"
-          ]
-        }
+      "concepts": [{"title": "어휘", "items": ["문맥상 유의어", "동작 의미 파악"]}],
+      "vocab": [{"word": "waylay", "meaning": "길목에서 기다리다, 붙잡다"}, {"word": "detain", "meaning": "붙잡아 두다"}]
+    },
+    {
+      "number": 2,
+      "answer": "④",
+      "answer_text": "filmy",
+      "explanation": [
+        "diaphanous는 얇고 반투명한, 비치는의 뜻이다.",
+        "marble의 차갑고 단단한 느낌과 대비되므로 얇고 비치는 filmy가 맞다."
       ],
-      "vocab": [
-        {
-          "word": "waylay",
-          "meaning": "길목에서 기다리다, 붙잡다"
-        },
-        {
-          "word": "detain",
-          "meaning": "붙잡아 두다, 지체시키다"
-        }
-      ]
+      "concepts": [{"title": "어휘", "items": ["대조 단서", "형용사 유의어"]}],
+      "vocab": [{"word": "diaphanous", "meaning": "반투명한, 비치는"}, {"word": "filmy", "meaning": "얇은 막 같은"}]
+    },
+    {
+      "number": 3,
+      "answer": "③",
+      "answer_text": "presumptuous",
+      "explanation": [
+        "overweening은 지나치게 자신만만한, 오만한의 뜻이다.",
+        "presumptuous가 주제넘은, 건방진의 뜻이므로 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["부정적 성격 형용사", "유의어 선택"]}],
+      "vocab": [{"word": "overweening", "meaning": "오만한"}, {"word": "presumptuous", "meaning": "주제넘은"}]
+    },
+    {
+      "number": 4,
+      "answer": "④",
+      "answer_text": "inveigle",
+      "explanation": [
+        "wheedle은 아첨하거나 구슬려서 얻어내다의 뜻이다.",
+        "쿠키를 얻어내려 했다는 문맥에서 inveigle이 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["설득/유인 동사", "문맥상 목적어 확인"]}],
+      "vocab": [{"word": "wheedle", "meaning": "구슬리다"}, {"word": "inveigle", "meaning": "꾀어내다"}]
+    },
+    {
+      "number": 5,
+      "answer": "①",
+      "answer_text": "coarse",
+      "explanation": [
+        "boorish는 예의 없고 무례한, 세련되지 못한의 뜻이다.",
+        "remarks에 붙어 말투가 거칠다는 의미이므로 coarse가 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["성격/태도 형용사", "명사 수식 관계"]}],
+      "vocab": [{"word": "boorish", "meaning": "무례한"}, {"word": "coarse", "meaning": "거친, 상스러운"}]
+    },
+    {
+      "number": 6,
+      "answer": "①",
+      "answer_text": "indifferent",
+      "explanation": [
+        "insouciant는 걱정 없는, 태평한, 무관심한의 뜻이다.",
+        "상황의 심각성을 모른다는 문맥이므로 indifferent가 가장 자연스럽다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["태도 형용사", "문맥 단서 gravity"]}],
+      "vocab": [{"word": "insouciant", "meaning": "태평한, 무심한"}, {"word": "indifferent", "meaning": "무관심한"}]
+    },
+    {
+      "number": 7,
+      "answer": "②",
+      "answer_text": "pillaging",
+      "explanation": [
+        "spoliation은 훼손, 약탈, 파괴의 뜻이며 법률 문맥에서는 증거 훼손을 뜻한다.",
+        "선택지 중 파괴적 탈취 의미를 가진 pillaging이 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["법률 문맥 어휘", "명사 유의어"]}],
+      "vocab": [{"word": "spoliation", "meaning": "훼손, 약탈"}, {"word": "pillaging", "meaning": "약탈"}]
+    },
+    {
+      "number": 8,
+      "answer": "③",
+      "answer_text": "A: Why hasn’t Michael spoken up in the meeting? He’s always so quiet. B: He’s probably just keeping a high profile. He knows when to avoid trouble.",
+      "explanation": [
+        "질문은 Michael이 조용하고 말하지 않는 상황이다.",
+        "keep a high profile은 눈에 띄게 행동하다는 뜻이라 조용히 피한다는 문맥과 반대다."
+      ],
+      "concepts": [{"title": "관용표현", "items": ["idiom 의미", "대화 흐름 판단"]}],
+      "vocab": [{"word": "keep a high profile", "meaning": "눈에 띄게 활동하다"}, {"word": "avoid trouble", "meaning": "문제를 피하다"}]
+    },
+    {
+      "number": 9,
+      "answer": "③",
+      "answer_text": "A: Mark thinks he can smooth things over with his boss soon. B: Yes, he’s always talking out of both sides of his mouth.",
+      "explanation": [
+        "smooth things over는 갈등을 수습하다의 뜻이다.",
+        "talk out of both sides of one's mouth는 이중적인 말을 하다는 뜻이라 갈등 수습과 자연스럽게 이어지지 않는다."
+      ],
+      "concepts": [{"title": "관용표현", "items": ["idiom 의미", "응답 적절성"]}],
+      "vocab": [{"word": "smooth things over", "meaning": "문제를 수습하다"}, {"word": "talk out of both sides of one's mouth", "meaning": "이중적인 말을 하다"}]
+    },
+    {
+      "number": 10,
+      "answer": "②",
+      "answer_text": "stimulating and rest",
+      "explanation": [
+        "red and blue가 각각 stimulating과 restful 성질을 가진다는 병렬 구조여야 한다.",
+        "rest는 명사/동사라 stimulating과 병렬되는 형용사가 아니므로 restful로 고쳐야 한다."
+      ],
+      "concepts": [{"title": "문법", "items": ["병렬 구조", "품사 일치", "respectively"]}]
+    },
+    {
+      "number": 11,
+      "answer": "②",
+      "answer_text": "than a system",
+      "explanation": [
+        "neither A nor B 구조 뒤에 세 번째 대상을 대조하려면 but a system이 자연스럽다.",
+        "than은 비교급과 함께 쓰는 말이므로 이 문장의 등위 구조와 맞지 않는다."
+      ],
+      "concepts": [{"title": "문법", "items": ["neither A nor B", "상관접속사", "구조상 오답"]}]
+    },
+    {
+      "number": 12,
+      "answer": "①",
+      "answer_text": "contrapuntal style modelling on Palestrina",
+      "explanation": [
+        "style은 Palestrina를 본뜬 양식이라는 수동 의미를 가져야 한다.",
+        "따라서 modelling이 아니라 modeled 또는 modelled on Palestrina가 맞다."
+      ],
+      "concepts": [{"title": "문법", "items": ["분사", "능동/수동", "model A on B"]}]
+    },
+    {
+      "number": 13,
+      "answer": "④",
+      "answer_text": "salvos",
+      "explanation": [
+        "salvo는 일제사격, 공세의 뜻이며 정책 충돌에서도 공격적인 조치의 교환을 표현한다.",
+        "restrictive trade measures를 주고받는 상황이므로 salvos가 맞다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["명사 collocation", "정치·무역 문맥"]}],
+      "vocab": [{"word": "salvo", "meaning": "일제사격, 공세"}, {"word": "restrictive measure", "meaning": "제한 조치"}]
+    },
+    {
+      "number": 14,
+      "answer": "④",
+      "answer_text": "flat",
+      "explanation": [
+        "사진과 풍경 묘사에서 flat light는 대비가 약하고 밋밋한 빛을 뜻한다.",
+        "흐린 날이나 시간대 때문에 빛이 약해져도 전망은 좋다는 문맥이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["형용사 collocation", "사진/빛 묘사"]}],
+      "vocab": [{"word": "flat light", "meaning": "대비가 약한 밋밋한 빛"}]
+    },
+    {
+      "number": 15,
+      "answer": "②",
+      "answer_text": "menagerie",
+      "explanation": [
+        "뒤에 various animals가 나오므로 동물들이 모여 있는 공간을 나타내는 말이 필요하다.",
+        "menagerie는 동물원, 동물 무리의 뜻이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["뒤 문맥 단서", "명사 의미 선택"]}],
+      "vocab": [{"word": "menagerie", "meaning": "동물원, 동물 무리"}]
+    },
+    {
+      "number": 16,
+      "answer": "①",
+      "answer_text": "demur",
+      "explanation": [
+        "추가 업무를 맡아 달라는 요청에 현재 업무가 너무 많다고 말한 상황이다.",
+        "demur는 이의를 제기하다, 난색을 표하다의 뜻이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["동사 의미", "상황 단서"]}],
+      "vocab": [{"word": "demur", "meaning": "이의를 제기하다, 난색을 표하다"}]
+    },
+    {
+      "number": 17,
+      "answer": "④",
+      "answer_text": "tactile",
+      "explanation": [
+        "뒤에 touching and holding이 바로 설명으로 제시되어 있다.",
+        "촉각과 관련된 stimulation이므로 tactile이 맞다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["동격 설명", "감각 형용사"]}],
+      "vocab": [{"word": "tactile", "meaning": "촉각의"}]
+    },
+    {
+      "number": 18,
+      "answer": "①",
+      "answer_text": "perfidious",
+      "explanation": [
+        "betraying the trust가 핵심 단서다.",
+        "perfidious는 배신하는, 신의를 저버리는의 뜻이므로 문맥과 정확히 맞다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["동격 단서", "부정적 성격 형용사"]}],
+      "vocab": [{"word": "perfidious", "meaning": "배신하는"}]
+    },
+    {
+      "number": 19,
+      "answer": "④",
+      "answer_text": "fugacious",
+      "explanation": [
+        "vanish와 fleeting memory가 핵심 단서다.",
+        "fugacious는 덧없는, 금방 사라지는의 뜻이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["반복 단서", "형용사 의미"]}],
+      "vocab": [{"word": "fugacious", "meaning": "덧없는, 금방 사라지는"}]
+    },
+    {
+      "number": 20,
+      "answer": "③",
+      "answer_text": "besmirched",
+      "explanation": [
+        "false accusations가 명성을 더럽혔다는 문맥이다.",
+        "besmirch는 명예나 평판을 더럽히다의 뜻이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["수동태 문맥", "평판 관련 동사"]}],
+      "vocab": [{"word": "besmirch", "meaning": "명예를 더럽히다"}]
+    },
+    {
+      "number": 21,
+      "answer": "①",
+      "answer_text": "inclination — local — material",
+      "explanation": [
+        "첫 빈칸은 elegant한 것에 대한 성향이므로 inclination이 자연스럽다.",
+        "한 곳만 문질러 불을 내는 비유는 수양이 부분적이라는 뜻이므로 local이 맞다.",
+        "마지막은 form이 soul과 연결된다는 논지에서 물질세계가 thought and volition에 의존한다는 흐름이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["추상어 문맥", "비유 해석", "문장 전체 논리"]}],
+      "vocab": [{"word": "inclination", "meaning": "성향"}, {"word": "local", "meaning": "부분적인, 국소적인"}, {"word": "material world", "meaning": "물질세계"}]
+    },
+    {
+      "number": 22,
+      "answer": "②",
+      "answer_text": "linear",
+      "explanation": [
+        "subtraction of strengths와 inexorable process with no dramatic arc가 단서다.",
+        "노화가 극적인 굴곡 없이 한 방향으로 진행된다는 뜻이므로 linear가 가장 적합하다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["추상어 추론", "동의 반복 단서"]}],
+      "vocab": [{"word": "linear", "meaning": "직선적인, 단선적인"}, {"word": "inexorable", "meaning": "막을 수 없는"}]
+    },
+    {
+      "number": 23,
+      "answer": "④",
+      "answer_text": "abscise — discouraged",
+      "explanation": [
+        "곤충이 많이 붙은 잎을 떨어뜨려 생애 주기를 막는다는 문맥이므로 abscise가 맞다.",
+        "나비 알처럼 보이는 구조 때문에 산란이 줄어들어야 하므로 discouraged가 맞다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["생물학 문맥", "원인-결과 관계"]}],
+      "vocab": [{"word": "abscise", "meaning": "잘라 떨어뜨리다"}, {"word": "oviposition", "meaning": "산란"}]
+    },
+    {
+      "number": 24,
+      "answer": "③",
+      "answer_text": "unlike — Rather than",
+      "explanation": [
+        "Bitcoin은 중앙은행이나 국가 권위가 없으므로 전통 화폐와 unlike 관계다.",
+        "중앙 기관이 검증하는 것이 아니라 public ledger에 기록된다는 대비이므로 Rather than이 맞다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["대조 연결어", "문장 간 논리"]}],
+      "vocab": [{"word": "public ledger", "meaning": "공개 장부"}, {"word": "validate", "meaning": "검증하다"}]
+    },
+    {
+      "number": 25,
+      "answer": "①",
+      "answer_text": "therapeutic — lethal — labeling",
+      "explanation": [
+        "치료에 바람직한 작용은 therapeutic이다.",
+        "부작용은 심각하면 lethal, 즉 치명적일 수 있다.",
+        "의사가 올바르게 처방하도록 지식을 반영하는 것은 drug labeling이다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["전문어휘", "약학 문맥", "대조 구조"]}],
+      "vocab": [{"word": "therapeutic", "meaning": "치료상의"}, {"word": "lethal", "meaning": "치명적인"}, {"word": "labeling", "meaning": "의약품 표시/설명"}]
+    },
+    {
+      "number": 26,
+      "answer": "②",
+      "answer_text": "elaborate — haphazardly — foragers",
+      "explanation": [
+        "곡물을 더 체계적으로 재배하게 되었다는 흐름이므로 elaborate가 맞다.",
+        "깊이 심는 것과 대비되는 표면에 아무렇게나 뿌리는 행위는 haphazardly scattering이다.",
+        "사냥과 채집을 하던 사람들이 농부가 되므로 foragers가 맞다."
+      ],
+      "concepts": [{"title": "빈칸", "items": ["역사 지문", "대조 단서", "농경 전환"]}],
+      "vocab": [{"word": "elaborate", "meaning": "정교한, 복잡한"}, {"word": "haphazardly", "meaning": "되는대로"}, {"word": "forager", "meaning": "채집 생활자"}]
+    },
+    {
+      "number": 27,
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "글은 쇼팽의 성장, 파리 정착, 교사 활동, 작품 활동을 시간순으로 설명한다.",
+        "(C)는 부유한 학생들의 수업료 때문에 공공 연주를 포기할 수 없었다고 하지만, 바로 뒤에는 출연이 드물어져 명성이 높아졌다고 하므로 흐름과 모순된다."
+      ],
+      "concepts": [{"title": "독해", "items": ["무관/부적절 문장", "전후 문장 모순", "전기문 흐름"]}]
+    },
+    {
+      "number": 28,
+      "answer": "②",
+      "answer_text": "The Influence of Cultural Differences on Logical Reasoning",
+      "explanation": [
+        "글은 형식논리와 경험지식에 기대는 정도가 문화권에 따라 달라지는지를 설명한다.",
+        "Korean, Asian American, European American 참가자 비교가 핵심이므로 문화 차이와 논리 추론이 제목으로 가장 적합하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["제목 찾기", "중심 소재와 범위", "비교 연구"]}]
+    },
+    {
+      "number": 29,
+      "answer": "②",
+      "answer_text": "(A) → (C) → (B)",
+      "explanation": [
+        "첫 문장은 천동설 때문에 천문학 발전이 막혔다고 한다.",
+        "(A)는 지동설 수용 후 천문학이 발전하고, 같은 방식으로 지질학도 잘못된 믿음 때문에 막혔다고 연결한다.",
+        "(C)는 그 잘못된 믿음이 깨지며 지질학이 살아났다는 전환이고, (B)는 이후 실제 발전 결과를 정리한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 순서", "비유 구조", "시간 흐름"]}]
+    },
+    {
+      "number": 30,
+      "answer": "③",
+      "answer_text": "During the height of the geocentric doctrine’s influence, significant progress was made in the field of geology.",
+      "explanation": [
+        "글은 잘못된 믿음이 지배할 때 천문학과 지질학 모두 진정한 발전이 불가능했다고 말한다.",
+        "따라서 그 시기에 지질학이 크게 발전했다는 ③은 내용과 일치하지 않는다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "부정 진술 확인", "대조 구조"]}]
+    },
+    {
+      "number": 31,
+      "answer": "①",
+      "answer_text": "Kant’s Legacy: Rationality, Morality, and Universal Rights",
+      "explanation": [
+        "글은 칸트의 생애를 소개하지만 핵심은 이성적 존재의 존엄, 도덕철학, 보편적 인권의 근거다.",
+        "rationality, morality, universal rights를 모두 포괄하는 ①이 가장 적합하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["제목 찾기", "핵심어 포괄성"]}]
+    },
+    {
+      "number": 32,
+      "answer": "④",
+      "answer_text": "Kant’s critique of utilitarianism indirectly influenced the American Revolution and the French Revolution.",
+      "explanation": [
+        "Groundwork는 미국혁명 이후, 프랑스혁명 직전에 나왔다.",
+        "글은 그 사상과 혁명의 정신이 같은 흐름에 있다고 말할 뿐, 칸트의 비판이 혁명에 영향을 주었다고 하지는 않는다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론 불가", "시간 관계", "과잉 추론 배제"]}]
+    },
+    {
+      "number": 33,
+      "answer": "①",
+      "answer_text": "(A)",
+      "explanation": [
+        "글의 중심은 편집실에서 공간과 시간이 조작되어 드라마를 만든다는 것이다.",
+        "(A)는 인물이 이야기와 감정으로 들어가는 통로라는 일반론이라, 전후의 공간 조작과 편집 기술 설명에서 벗어난다."
+      ],
+      "concepts": [{"title": "독해", "items": ["무관문 찾기", "중심 소재 유지", "문장 기능 판단"]}]
+    },
+    {
+      "number": 34,
+      "answer": "②",
+      "answer_text": "The editor has the ability to manipulate both space and time to enhance the narrative and drama of a film.",
+      "explanation": [
+        "첫 부분은 공간이 편집실에서 만들어지고 조정될 수 있다고 말한다.",
+        "이후에는 시간이 압축·확장될 수 있음을 여러 예로 설명하므로 ②가 요지다."
+      ],
+      "concepts": [{"title": "독해", "items": ["요지 찾기", "공간/시간 조작", "예시 일반화"]}]
+    },
+    {
+      "number": 35,
+      "answer": "③",
+      "answer_text": "Rather, our general argument is that Deleuzian analysis offers many opportunities for rethinking important issues both in and among social anthropology and STS.",
+      "explanation": [
+        "앞문장은 anthropology와 STS의 복잡한 관계를 풀어내려는 것이 목적이 아니라고 한다.",
+        "뒤문장의 It offers는 Deleuzian analysis를 받아야 하므로, 일반 논지를 제시하는 ③이 가장 자연스럽다."
+      ],
+      "concepts": [{"title": "독해", "items": ["빈칸 문장 삽입", "대명사 지시", "전후 연결어"]}]
+    },
+    {
+      "number": 36,
+      "answer": "③",
+      "answer_text": "Deleuze’s philosophy aids in cultivating integrated thinking across various disciplines, including anthropology.",
+      "explanation": [
+        "글은 Deleuze 사유가 인간/비인간, 물질/관념, 이론/실천 같은 구분을 가로지른다고 말한다.",
+        "또 anthropology와 STS 사이의 문제를 다시 생각하게 한다고 하므로 학문 간 통합적 사고를 돕는다는 ③이 적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론", "학제 간 연결", "핵심 주장 적용"]}]
+    },
+    {
+      "number": 37,
+      "answer": "①",
+      "answer_text": "The Rise and Fall of Absinthe: A Toxic Elixir",
+      "explanation": [
+        "글은 absinthe의 유행, wormwood와 독성, 예술계 인기, 소비 증가, 금지와 쇠퇴를 모두 다룬다.",
+        "흥망과 독성을 함께 담은 ①이 전체 제목으로 가장 적합하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["제목 찾기", "전체 범위 포괄", "핵심 소재"]}]
+    },
+    {
+      "number": 38,
+      "answer": "③",
+      "answer_text": "Absinthe production ceased immediately after its prohibition in 1915 and became illegal.",
+      "explanation": [
+        "글은 프랑스가 1915년에 absinthe를 금지했지만 생산과 소비가 실제로는 몇 년 뒤까지 계속되었다고 한다.",
+        "따라서 금지 직후 즉시 중단되었다는 ③은 추론할 수 없다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론 불가", "세부 정보 대조", "시간 표현"]}]
+    },
+    {
+      "number": 39,
+      "answer": "③",
+      "answer_text": "(C) → (A) → (B)",
+      "explanation": [
+        "도입부 뒤에는 WWI 초기에 수혈이 아직 실험적이었다는 배경이 와야 하므로 1914년 직접 수혈을 설명하는 (C)가 먼저다.",
+        "그 다음 1917년 Lawrence Robertson의 간접 수혈 (A)가 이어지고, 마지막으로 항응고제와 저장 기술, 혈액은행 발전을 말하는 (B)가 온다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 순서", "시간 순서", "발전 과정"]}]
+    },
+    {
+      "number": 40,
+      "answer": "②",
+      "answer_text": "The first blood banks were established in 1914 and used refrigeration to preserve blood for transfusions.",
+      "explanation": [
+        "1914년에는 프랑스에서 직접 정맥 대 정맥 수혈이 이루어졌고, 혈액 보존 방법이 없었다고 한다.",
+        "첫 blood depot은 1917년에 Oswald H. Robertson이 항응고제를 처리한 O negative 혈액을 보관하면서 등장한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "연도 정보", "세부 사실 확인"]}]
     }
   ]
 }

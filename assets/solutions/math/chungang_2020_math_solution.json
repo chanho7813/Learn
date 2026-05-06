@@ -1,0 +1,326 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대학교",
+  "year": 2020,
+  "exam_kind": "math",
+  "question_count": 30,
+  "status": "pending",
+  "verified": false,
+  "source": {
+    "type": "manual",
+    "verified": false,
+    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+  },
+  "schema": {
+    "number": "문제 번호",
+    "status": "pending 또는 verified",
+    "verified": "검증 완료 여부",
+    "source": "검증 근거",
+    "answer": "정답 번호",
+    "answer_text": "정답 선택지 내용",
+    "explanation": "해설 문단 배열",
+    "concepts": "문제 풀이에 필요한 개념/유형"
+  },
+  "solutions": [
+    {
+      "number": 1,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 2,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 3,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 4,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 5,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 6,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 7,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 8,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 9,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 10,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 11,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 12,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 13,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 14,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 15,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 16,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 17,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 18,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 19,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 20,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 21,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 22,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 23,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 24,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 25,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 26,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 27,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 28,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 29,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    },
+    {
+      "number": 30,
+      "status": "pending",
+      "verified": false,
+      "source": "",
+      "answer": "",
+      "answer_text": "",
+      "explanation": [],
+      "concepts": []
+    }
+  ]
+}

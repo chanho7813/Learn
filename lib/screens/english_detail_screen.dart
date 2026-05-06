@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show HapticFeedback;
 import '../models/english_problem.dart';
+import '../models/exam_solution.dart';
 import '../models/word.dart';
 import '../services/settings_service.dart';
 import '../services/ai_service.dart';
+import '../services/solution_service.dart';
 import '../services/storage_service.dart';
+import '../widgets/solution_panel.dart';
+import '../widgets/word_study_section.dart';
+import 'word_list_screen.dart';
 
 String _cleanWord(String raw) {
   var cleaned = raw.replaceFirst(RegExp(r'^[^a-zA-Z]+'), '');
@@ -40,7 +45,9 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
   double _fontSize = 16.0;
   int _currentIndex = 0;
   bool _isSearchingPassage = false;
+  bool _showSolution = false;
   String _passageSearch = '';
+  ExamSolution? _solution;
 
   @override
   void initState() {
@@ -57,6 +64,8 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
   Future<void> _loadSettings() async {
     final size = await SettingsService.getFontSize();
     final section = await SettingsService.getLastEnglishSection();
+    final solution = await SolutionService.loadEnglishSolution(widget.exam);
+    final savedWords = await StorageService.loadWords();
     final selectedChoices = <int, String>{};
     for (final question in widget.exam.questions) {
       final label = await SettingsService.getSelectedChoice(
@@ -73,6 +82,10 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
       setState(() {
         _fontSize = size;
         _currentIndex = section.clamp(0, widget.exam.questions.length - 1);
+        _solution = solution;
+        _selectedWords
+          ..clear()
+          ..addAll(savedWords.map((w) => w.word.toLowerCase()));
         _selectedChoices
           ..clear()
           ..addAll(selectedChoices);
@@ -80,11 +93,30 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
     }
   }
 
+  Future<void> _openWordList() async {
+    final words = await StorageService.loadWords();
+    if (!mounted) return;
+
+    await Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => WordListScreen(words: words)),
+    );
+
+    final updated = await StorageService.loadWords();
+    if (!mounted) return;
+    setState(() {
+      _selectedWords
+        ..clear()
+        ..addAll(updated.map((w) => w.word.toLowerCase()));
+    });
+  }
+
   void _goTo(int index) {
     final clamped = index.clamp(0, widget.exam.questions.length - 1);
     if (clamped == _currentIndex) return;
     setState(() {
       _currentIndex = clamped;
+      _showSolution = false;
     });
     SettingsService.setLastEnglishSection(clamped);
   }
@@ -262,6 +294,11 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                                         );
                                       }
                                     } else {
+                                      setState(
+                                        () => _selectedWords.add(
+                                          result.word.toLowerCase(),
+                                        ),
+                                      );
                                       setSheetState(() => added = true);
                                       if (mounted) {
                                         ScaffoldMessenger.of(
@@ -290,51 +327,9 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                         result.meaning,
                         style: theme.textTheme.bodyLarge?.copyWith(height: 1.5),
                       ),
-                      if (result.etymology.isNotEmpty) ...[
+                      if (WordStudySection.hasStudyContent(result)) ...[
                         const SizedBox(height: 14),
-                        Row(
-                          children: [
-                            Icon(
-                              Icons.history_edu,
-                              size: 16,
-                              color: Colors.orange,
-                            ),
-                            const SizedBox(width: 6),
-                            Text(
-                              '어원',
-                              style: theme.textTheme.labelLarge?.copyWith(
-                                color: Colors.orange,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          result.etymology,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            height: 1.4,
-                          ),
-                        ),
-                        if (result.etymologyExplain.isNotEmpty)
-                          Text(
-                            '→ ${result.etymologyExplain}',
-                            style: theme.textTheme.bodySmall?.copyWith(
-                              fontStyle: FontStyle.italic,
-                              color: cs.onSurface.withAlpha(153),
-                              height: 1.4,
-                            ),
-                          ),
-                      ],
-                      if (result.relatedWords.isNotEmpty) ...[
-                        const SizedBox(height: 8),
-                        Text(
-                          '관련어: ${result.relatedWords}',
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: cs.primary,
-                            height: 1.4,
-                          ),
-                        ),
+                        WordStudySection(word: result, compact: true),
                       ],
                       if (result.exampleEn.isNotEmpty) ...[
                         const SizedBox(height: 14),
@@ -395,11 +390,16 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
             tooltip: _isSearchingPassage ? '검색 닫기' : '지문 검색',
           ),
           if (_selectedWords.isNotEmpty)
-            Badge(
-              label: Text('${_selectedWords.length}'),
-              child: IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.bookmark_add_outlined),
+            Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: Badge(
+                label: Text('${_selectedWords.length}'),
+                offset: const Offset(-4, 4),
+                child: IconButton(
+                  onPressed: _openWordList,
+                  icon: const Icon(Icons.bookmark_add_outlined),
+                  tooltip: '단어장 열기',
+                ),
               ),
             ),
         ],
@@ -656,6 +656,23 @@ class _EnglishDetailScreenState extends State<EnglishDetailScreen> {
                         }).toList(),
                       ),
                     ),
+                  const SizedBox(height: 12),
+                  SolutionRevealButton(
+                    isRevealed: _showSolution,
+                    onTap: () => setState(() => _showSolution = !_showSolution),
+                  ),
+                  AnimatedSize(
+                    duration: const Duration(milliseconds: 200),
+                    curve: Curves.easeInOut,
+                    alignment: Alignment.topLeft,
+                    child: _showSolution
+                        ? SolutionPanel(
+                            solution: _solution?.solutionFor(q.number),
+                            renderMath: false,
+                            fontSize: _fontSize,
+                          )
+                        : const SizedBox.shrink(),
+                  ),
                 ],
               ),
             ),

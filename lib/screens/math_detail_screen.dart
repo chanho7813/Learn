@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import '../models/exam_solution.dart';
 import '../models/math_problem.dart';
 import '../services/settings_service.dart';
+import '../services/solution_service.dart';
 import '../widgets/math_tex.dart';
+import '../widgets/solution_panel.dart';
 
 class MathDetailScreen extends StatefulWidget {
   final MathExam exam;
@@ -15,8 +18,9 @@ class MathDetailScreen extends StatefulWidget {
 class _MathDetailScreenState extends State<MathDetailScreen> {
   final Map<int, String> _selectedChoices = {};
   int _currentIndex = 0;
-  bool _showAnswer = false;
+  bool _showSolution = false;
   double _fontSize = 16.0;
+  ExamSolution? _solution;
 
   @override
   void initState() {
@@ -27,6 +31,7 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
   Future<void> _loadSettings() async {
     final size = await SettingsService.getFontSize();
     final section = await SettingsService.getLastMathSection();
+    final solution = await SolutionService.loadMathSolution(widget.exam);
     final selectedChoices = <int, String>{};
     for (final question in widget.exam.questions) {
       final label = await SettingsService.getSelectedChoice(
@@ -43,6 +48,7 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
       setState(() {
         _fontSize = size;
         _currentIndex = section.clamp(0, widget.exam.questions.length - 1);
+        _solution = solution;
         _selectedChoices
           ..clear()
           ..addAll(selectedChoices);
@@ -55,7 +61,7 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
     if (clamped == _currentIndex) return;
     setState(() {
       _currentIndex = clamped;
-      _showAnswer = false;
+      _showSolution = false;
     });
     SettingsService.setLastMathSection(clamped);
   }
@@ -165,20 +171,20 @@ class _MathDetailScreenState extends State<MathDetailScreen> {
                     onChoiceSelected: (label) => _selectChoice(q.number, label),
                   ),
                   const SizedBox(height: 12),
-                  _RevealButton(
-                    label: _showAnswer ? '정답 숨기기' : '정답 보기',
-                    icon: _showAnswer
-                        ? Icons.visibility_off_outlined
-                        : Icons.check_circle_outline,
-                    isRevealed: _showAnswer,
-                    onTap: () => setState(() => _showAnswer = !_showAnswer),
+                  SolutionRevealButton(
+                    isRevealed: _showSolution,
+                    onTap: () => setState(() => _showSolution = !_showSolution),
                   ),
                   AnimatedSize(
                     duration: const Duration(milliseconds: 200),
                     curve: Curves.easeInOut,
                     alignment: Alignment.topLeft,
-                    child: _showAnswer
-                        ? _AnswerHint(colorScheme: colorScheme)
+                    child: _showSolution
+                        ? SolutionPanel(
+                            solution: _solution?.solutionFor(q.number),
+                            renderMath: true,
+                            fontSize: _fontSize,
+                          )
                         : const SizedBox.shrink(),
                   ),
                 ],
@@ -446,90 +452,5 @@ class _ChoiceGrid extends StatelessWidget {
     if (width < 420 || longestChoice > 90) return 1;
     if (width < 760 || longestChoice > 40) return 2;
     return 4;
-  }
-}
-
-class _RevealButton extends StatelessWidget {
-  final String label;
-  final IconData icon;
-  final bool isRevealed;
-  final VoidCallback onTap;
-
-  const _RevealButton({
-    required this.label,
-    required this.icon,
-    required this.isRevealed,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(12),
-        child: Container(
-          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                icon,
-                size: 20,
-                color: isRevealed
-                    ? colorScheme.onSurface.withAlpha(128)
-                    : colorScheme.primary,
-              ),
-              const SizedBox(width: 8),
-              Text(
-                label,
-                style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  color: isRevealed
-                      ? colorScheme.onSurface.withAlpha(128)
-                      : colorScheme.primary,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _AnswerHint extends StatelessWidget {
-  final ColorScheme colorScheme;
-
-  const _AnswerHint({required this.colorScheme});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      margin: const EdgeInsets.only(bottom: 8),
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: colorScheme.primaryContainer.withAlpha(77),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: colorScheme.primary.withAlpha(77), width: 1),
-      ),
-      child: Row(
-        children: [
-          Icon(Icons.info_outline, color: colorScheme.primary, size: 20),
-          const SizedBox(width: 12),
-          Text(
-            '정답/풀이는 추후 추가 예정',
-            style: TextStyle(
-              color: colorScheme.primary,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ],
-      ),
-    );
   }
 }

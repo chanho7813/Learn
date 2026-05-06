@@ -4,10 +4,12 @@
   "year": 2025,
   "exam_kind": "math",
   "question_count": 30,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "해답지 구조 확정을 위한 1문항 샘플"
+    "verified": true,
+    "note": "중앙_25_수학.pdf 원문 대조, 직접 풀이 및 SymPy 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
@@ -23,25 +25,395 @@
       "answer_text": "$\\frac{39}{25}$",
       "explanation": [
         "$f(x)=\\frac{x^4(x-1)}{(x+2)(x^2+1)}$라 두고 몫의 미분법을 사용한다.",
-        "$g(x)=x^4(x-1)$, $h(x)=(x+2)(x^2+1)$이면 $f'(x)=\\frac{g'(x)h(x)-g(x)h'(x)}{h(x)^2}$이다.",
-        "$g(2)=16$, $g'(2)=48$, $h(2)=20$, $h'(2)=21$이므로 $f'(2)=\\frac{48\\cdot20-16\\cdot21}{20^2}$이다.",
-        "$f'(2)=\\frac{624}{400}=\\frac{39}{25}$이므로 정답은 ④이다."
+        "$g(2)=16$, $g'(2)=48$, $h(2)=20$, $h'(2)=21$이다.",
+        "$f'(2)=\\frac{48\\cdot20-16\\cdot21}{20^2}=\\frac{624}{400}=\\frac{39}{25}$이다."
       ],
       "concepts": [
-        {
-          "title": "미분",
-          "items": [
-            "몫의 미분법",
-            "함수값 대입"
-          ]
-        },
-        {
-          "title": "계산",
-          "items": [
-            "다항식 미분",
-            "분수 약분"
-          ]
-        }
+        {"title": "미분", "items": ["몫의 미분법", "함수값 대입"]},
+        {"title": "계산", "items": ["분수 약분"]}
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "③",
+      "answer_text": "$e$",
+      "explanation": [
+        "멱급수의 수렴반경은 $R=\\frac{1}{\\limsup |a_n|^{1/n}}$으로 구한다.",
+        "$a_n=\\frac{n!}{n^n}$이고 Stirling 공식에서 $(n!)^{1/n}\\sim \\frac{n}{e}$이다.",
+        "따라서 $|a_n|^{1/n}\\sim \\frac{1}{e}$이므로 $R=e$이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["멱급수 수렴반경", "근판정법"]},
+        {"title": "극한", "items": ["Stirling 근사"]}
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "②",
+      "answer_text": "$-\\frac{1}{2}$",
+      "explanation": [
+        "식 $\\frac{f(1+h)-2f(1)+f(1-h)}{h^2}$은 $x=1$에서의 이계도함수 $f''(1)$이다.",
+        "$f'(x)=\\frac{1}{1+x^2}$, $f''(x)=\\frac{-2x}{(1+x^2)^2}$이다.",
+        "따라서 $f''(1)=\\frac{-2}{4}=-\\frac{1}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "미분", "items": ["중심차분", "이계도함수"]},
+        {"title": "역삼각함수", "items": ["$\\arctan x$의 도함수"]}
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "③",
+      "answer_text": "$\\frac{\\sqrt{2}}{2}$",
+      "explanation": [
+        "왼쪽 위 $2\\times2$ 블록 $\\begin{bmatrix}1&1\\\\1&-1\\end{bmatrix}$의 특성방정식을 구한다.",
+        "$\\det\\begin{bmatrix}1-\\lambda&1\\\\1&-1-\\lambda\\end{bmatrix}=\\lambda^2-2$이므로 고윳값은 $\\pm\\sqrt2$이다.",
+        "세 번째 행과 열에서 고윳값 $0$도 나온다. 따라서 고윳값이 아닌 것은 $\\frac{\\sqrt2}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["고윳값", "특성방정식", "블록 행렬"]}
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "①",
+      "answer_text": "$2$",
+      "explanation": [
+        "$\\mathbf{b}\\times\\mathbf{c}=(12,-16,6)$이다.",
+        "$\\mathbf{a}\\cdot(\\mathbf{b}\\times\\mathbf{c})=(1,1,1)\\cdot(12,-16,6)=2$이다."
+      ],
+      "concepts": [
+        {"title": "벡터", "items": ["외적", "스칼라 삼중곱"]}
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "②",
+      "answer_text": "$\\frac{2}{25}$",
+      "explanation": [
+        "역함수 미분 공식은 $(f^{-1})'(a)=\\frac{1}{f'(b)}$이고 $f(b)=a$를 만족한다.",
+        "$f(2)=2^3+\\frac12\\cdot2=9$이므로 $b=2$이다.",
+        "$f'(x)=3x^2+\\frac12$이므로 $(f^{-1})'(9)=\\frac{1}{12+\\frac12}=\\frac{2}{25}$이다."
+      ],
+      "concepts": [
+        {"title": "미분", "items": ["역함수 미분법", "합성함수"]}
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "③",
+      "answer_text": "$\\frac{6y^3-8x^2}{9y^5}$",
+      "explanation": [
+        "$y^3-x^2=4$를 미분하면 $3y^2y'-2x=0$이므로 $y'=\\frac{2x}{3y^2}$이다.",
+        "다시 미분하면 $y''=\\frac{2}{3y^2}-\\frac{4x}{3y^3}y'$이다.",
+        "$y'=\\frac{2x}{3y^2}$를 대입하면 $y''=\\frac{6y^3-8x^2}{9y^5}$이다."
+      ],
+      "concepts": [
+        {"title": "미분", "items": ["음함수 미분", "이계도함수"]}
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "④",
+      "answer_text": "$(-3,1,3)$",
+      "explanation": [
+        "행렬의 치역은 열공간이다. 왼쪽 영공간을 구하면 $w=(1,-5,1)$이 $A^Tw=0$을 만족한다.",
+        "치역에 속하는 벡터 $v$는 반드시 $w\\cdot v=0$이어야 한다.",
+        "$(-3,1,3)$에 대해 $1\\cdot(-3)-5\\cdot1+1\\cdot3=-5\\ne0$이므로 치역에 속하지 않는다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["치역", "열공간", "왼쪽 영공간"]}
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "③",
+      "answer_text": "$\\frac{2}{\\pi}$",
+      "explanation": [
+        "$S(x)=\\frac{\\sin x}{x}$는 짝함수이므로 $[0,\\frac\\pi2]$에서 보면 된다.",
+        "$0<x\\le\\frac\\pi2$에서 $\\frac{\\sin x}{x}$는 감소한다.",
+        "따라서 최솟값은 끝점 $x=\\frac\\pi2$에서 $\\frac{\\sin(\\pi/2)}{\\pi/2}=\\frac2\\pi$이다."
+      ],
+      "concepts": [
+        {"title": "함수", "items": ["짝함수", "$\\sin x/x$의 단조성", "폐구간 최솟값"]}
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "③",
+      "answer_text": "$(a-b)^4$",
+      "explanation": [
+        "행렬식은 행과 열의 기본연산으로 공통 구조를 정리하면 된다.",
+        "직접 전개 또는 행렬식 계산을 하면 $\\det M=(a-b)^4$이다.",
+        "차수가 4인 행렬식이고 $a=b$일 때 모든 행이 종속이 되는 것도 결과와 일치한다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["행렬식", "행렬식의 인수 구조"]}
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "④",
+      "answer_text": "$20\\pi$",
+      "explanation": [
+        "극좌표에서 넓이는 $A=\\frac12\\int_0^{2\\pi}r^2\\,d\\theta$이다.",
+        "$r=\\frac{16}{5+3\\cos\\theta}$를 대입하면 $A=128\\int_0^{2\\pi}\\frac{d\\theta}{(5+3\\cos\\theta)^2}$이다.",
+        "표준 적분 $\\int_0^{2\\pi}\\frac{d\\theta}{(a+b\\cos\\theta)^2}=\\frac{2\\pi a}{(a^2-b^2)^{3/2}}$를 쓰면 $20\\pi$이다."
+      ],
+      "concepts": [
+        {"title": "극좌표", "items": ["극좌표 넓이", "삼각함수 유리식 적분"]}
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "③",
+      "answer_text": "$b$",
+      "explanation": [
+        "$0<a<b$이므로 $b^n$이 $a^n$보다 지배적이다.",
+        "$(a^n+b^n)^{1/n}=b\\left(1+(\\frac ab)^n\\right)^{1/n}$이다.",
+        "$0<\\frac ab<1$이므로 괄호 부분은 $1$로 수렴하여 극한은 $b$이다."
+      ],
+      "concepts": [
+        {"title": "극한", "items": ["지배항", "$n$제곱근 극한"]}
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "②",
+      "answer_text": "$2-\\sqrt2$",
+      "explanation": [
+        "$u=g(x)$로 보면 $g(x)g'(x)dx=u\\,du$이다.",
+        "$\\int\\frac{u}{\\sqrt{1+u^2}}du=\\sqrt{1+u^2}$이다.",
+        "구간 값은 $\\sqrt{1+g(1)^2}-\\sqrt{1+g(0)^2}=\\sqrt4-\\sqrt2=2-\\sqrt2$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["치환적분", "연쇄법칙의 역사용"]}
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "①",
+      "answer_text": "$\\frac{\\pi^2-4}{8}$",
+      "explanation": [
+        "$\\int t^2\\sin(2t)dt$는 부분적분을 두 번 사용한다.",
+        "계산하면 $\\int_0^{\\pi/2}t^2\\sin(2t)dt=\\frac{\\pi^2}{8}-\\frac12$이다.",
+        "따라서 값은 $\\frac{\\pi^2-4}{8}$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["부분적분", "삼각함수 적분"]}
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "①",
+      "answer_text": "$6\\ln3-\\frac{10}{3}$",
+      "explanation": [
+        "$u=x+2$로 치환하면 분자는 $6u-5$가 된다.",
+        "적분은 $\\int_1^3\\left(\\frac6u-\\frac5{u^2}\\right)du$이다.",
+        "값은 $6\\ln3+\\frac5u\\big|_1^3=6\\ln3-\\frac{10}{3}$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["치환적분", "유리함수 적분"]}
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "④",
+      "answer_text": "$\\frac{\\pi}{12}$",
+      "explanation": [
+        "영역은 위쪽 반구 $\\rho\\le1$, $0\\le\\phi\\le\\frac\\pi2$이다.",
+        "$x^2+y^2=\\rho^2\\sin^2\\phi$, $z=\\rho\\cos\\phi$, $dV=\\rho^2\\sin\\phi\\,d\\rho d\\phi d\\theta$이다.",
+        "적분은 $\\int_0^1\\rho^5d\\rho\\int_0^{\\pi/2}\\sin^3\\phi\\cos\\phi d\\phi\\int_0^{2\\pi}d\\theta=\\frac\\pi{12}$이다."
+      ],
+      "concepts": [
+        {"title": "다중적분", "items": ["구면좌표", "반구 영역", "야코비안"]}
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "④",
+      "answer_text": "$\\frac{2}{3}$",
+      "explanation": [
+        "$x=\\sin^2\\theta$로 치환하면 $dx=2\\sin\\theta\\cos\\theta d\\theta$이다.",
+        "$\\sqrt{x(1-x)}=\\sin\\theta\\cos\\theta$이므로 적분 integrand가 $2d\\theta$가 된다.",
+        "$x=0$에서 $\\theta=0$, $x=\\frac34$에서 $\\theta=\\frac\\pi3$이므로 전체 값은 $\\frac1\\pi\\cdot2\\cdot\\frac\\pi3=\\frac23$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["삼각치환", "무리식 적분"]}
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "③",
+      "answer_text": "$19$",
+      "explanation": [
+        "식을 표준형으로 보면 $f'+\\frac{4x}{x^2+1}f=\\frac{x}{x^2+1}$이다.",
+        "적분인자는 $(x^2+1)^2$이고, $\\{(x^2+1)^2f\\}'=x(x^2+1)$이다.",
+        "$(x^2+1)^2f=\\frac{x^4}{4}+\\frac{x^2}{2}+C$이며 $f(2)=1$에서 $C=19$이다.",
+        "따라서 $f(0)=19$이다."
+      ],
+      "concepts": [
+        {"title": "미분방정식", "items": ["일계 선형 미분방정식", "적분인자"]}
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "①",
+      "answer_text": "$4s$",
+      "explanation": [
+        "Green 정리를 사용한다.",
+        "$P=2y+3$, $Q=6x-11$이면 $\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=6-2=4$이다.",
+        "따라서 선적분은 $\\iint_D4\\,dA=4s$이다."
+      ],
+      "concepts": [
+        {"title": "벡터해석", "items": ["Green 정리", "평면 선적분"]}
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "①",
+      "answer_text": "$e-2$",
+      "explanation": [
+        "$\\int(\\ln x)^2dx=x\\{(\\ln x)^2-2\\ln x+2\\}$이다.",
+        "$x=e$에서 값은 $e(1-2+2)=e$이고, $x=1$에서 값은 $2$이다.",
+        "따라서 정적분 값은 $e-2$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["부분적분", "로그함수 적분"]}
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "②",
+      "answer_text": "(가), (나), (라)",
+      "explanation": [
+        "(가) $A-A^T=2A$이고 $A$가 반대칭이면 $2A$도 반대칭이다.",
+        "(나) $\\det A=\\det A^T=\\det(-A)=(-1)^n\\det A$이므로 홀수 $n$에서는 $\\det A=0$이다.",
+        "(다) 짝수 차수 반대칭행렬의 행렬식은 항상 음수라고 할 수 없다.",
+        "(라) $a_{ii}=-a_{ii}$이므로 모든 대각성분은 $0$이고 합도 $0$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["반대칭행렬", "전치행렬", "행렬식", "대각합"]}
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "②",
+      "answer_text": "$\\frac{2}{5}$",
+      "explanation": [
+        "$\\ln\\frac{1+x}{1-x}=\\ln(1+x)-\\ln(1-x)$이다.",
+        "전개하면 $2\\left(x+\\frac{x^3}{3}+\\frac{x^5}{5}+\\cdots\\right)$로 홀수차 항만 존재한다.",
+        "따라서 $B_5=\\frac25$, $B_8=0$이므로 $B_5+B_8=\\frac25$이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["로그함수 Taylor 전개", "홀수차 항"]}
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "③",
+      "answer_text": "$3$",
+      "explanation": [
+        "$p(x)=a_0+a_1x+a_2x^2+a_3x^3+a_4x^4$라 둔다.",
+        "$x^4p(1/x)=a_0x^4+a_1x^3+a_2x^2+a_3x+a_4$이다.",
+        "계수 비교로 $a_0=a_4$, $a_1=a_3$, $a_2$는 자유이므로 자유변수는 3개이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["다항식 벡터공간", "부분공간의 차원", "계수 비교"]}
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "④",
+      "answer_text": "$\\frac{9}{2}$",
+      "explanation": [
+        "$r=\\frac13$라 두면 $\\sum_{n=0}^{\\infty}(n+1)^2r^n=\\frac{1+r}{(1-r)^3}$이다.",
+        "$r=\\frac13$을 대입하면 $\\frac{1+\\frac13}{(1-\\frac13)^3}=\\frac{\\frac43}{(\\frac23)^3}=\\frac92$이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["등비급수 미분", "거듭제곱급수"]}
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "④",
+      "answer_text": "$\\frac{\\sqrt2}{2}$",
+      "explanation": [
+        "이차형 행렬은 $\\begin{bmatrix}5&\\sqrt2\\\\\\sqrt2&4\\end{bmatrix}$이다.",
+        "고윳값은 $6$, $3$이므로 주축 방향에서 식은 $6u^2+3v^2=1$이 된다.",
+        "장축은 작은 고윳값 $3$에 대응하므로 $a^2=\\frac13$, $b^2=\\frac16$이다.",
+        "$e=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{1-\\frac12}=\\frac{\\sqrt2}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "이차곡선", "items": ["이차형", "고윳값", "타원의 이심률"]}
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "②",
+      "answer_text": "$\\frac{9}{10}$",
+      "explanation": [
+        "$(1-x^2)^{-1/2}=\\sum_{k=0}^{\\infty}\\binom{2k}{k}\\frac{x^{2k}}{4^k}$이다.",
+        "따라서 $A_k=\\binom{2k}{k}\\frac1{4^k}$이다.",
+        "$\\frac{A_5}{A_4}=\\frac{\\binom{10}{5}}{4\\binom{8}{4}}=\\frac{252}{280}=\\frac9{10}$이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["이항급수", "중앙이항계수"]}
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "②",
+      "answer_text": "(나), (다)",
+      "explanation": [
+        "(가)는 $x=1$에서 $\\frac1{\\sqrt{1-x}}$ 꼴이므로 $p=\\frac12<1$이라 수렴한다.",
+        "(나)는 $x=2$에서 $\\frac1{(x-2)^2}$ 꼴이므로 발산한다.",
+        "(다)는 무한대에서 $\\frac1x$처럼 행동하므로 발산한다.",
+        "(라)는 무한대에서 $\\frac1{x^{3/2}}$처럼 행동하므로 수렴한다."
+      ],
+      "concepts": [
+        {"title": "이상적분", "items": ["특이점 판정", "$p$-적분 판정", "무한구간 적분"]}
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "②",
+      "answer_text": "$\\frac18(e^5-e^{-3})$",
+      "explanation": [
+        "특성방정식은 $r^2+2r-15=0$이므로 $r=3,-5$이다.",
+        "$h(x)=C_1e^{3x}+C_2e^{-5x}$이고 $h(0)=0$에서 $C_2=-C_1$이다.",
+        "$h'(0)=3C_1-5C_2=8C_1=-1$이므로 $C_1=-\\frac18$, $C_2=\\frac18$이다.",
+        "$h(-1)=\\frac18(e^5-e^{-3})$이다."
+      ],
+      "concepts": [
+        {"title": "미분방정식", "items": ["상수계수 선형 미분방정식", "초기조건"]}
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "①",
+      "answer_text": "$\\sqrt3$",
+      "explanation": [
+        "곡선 위의 점을 $(t,\\frac1t)$로 두고 점 $(-1,1)$까지의 거리 제곱을 최소화한다.",
+        "$D(t)=(t+1)^2+(\\frac1t-1)^2$이다.",
+        "$D'(t)=0$에서 양의 해는 $t=\\frac{-1+\\sqrt5}{2}$이고, 이때 $D=3$이다.",
+        "따라서 최소거리는 $\\sqrt3$이다."
+      ],
+      "concepts": [
+        {"title": "최적화", "items": ["거리 최소화", "곡선 위의 점 매개화", "미분"]}
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "④",
+      "answer_text": "$\\frac23$",
+      "explanation": [
+        "$u=x-y$, $v=x+2y$로 치환하면 영역은 $0\\le u\\le\\pi$, $0\\le v\\le\\frac\\pi2$인 직사각형이 된다.",
+        "야코비안은 $\\left|\\frac{\\partial(x,y)}{\\partial(u,v)}\\right|=\\frac13$이다.",
+        "따라서 적분값은 $\\frac13\\int_0^\\pi\\sin u\\,du\\int_0^{\\pi/2}\\cos v\\,dv=\\frac13\\cdot2\\cdot1=\\frac23$이다."
+      ],
+      "concepts": [
+        {"title": "다중적분", "items": ["변수변환", "야코비안", "직사각형 영역"]}
       ]
     }
   ]

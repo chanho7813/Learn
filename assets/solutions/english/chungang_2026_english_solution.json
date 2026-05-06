@@ -1,0 +1,545 @@
+{
+  "institution": "chungang",
+  "institution_ko": "중앙대",
+  "year": 2026,
+  "exam_kind": "english",
+  "question_count": 40,
+  "status": "verified",
+  "verified": true,
+  "source": {
+    "type": "manual",
+    "verified": true,
+    "note": "중앙_26_영어 문제 데이터 기준 직접 풀이 검산"
+  },
+  "schema": {
+    "number": "문제 번호",
+    "answer": "정답 번호",
+    "answer_text": "정답 선택지 내용",
+    "explanation": "해설 문단 배열",
+    "concepts": "문제 풀이에 필요한 개념/유형",
+    "vocab": "영어 문제용 핵심 어휘"
+  },
+  "solutions": [
+    {
+      "number": 1,
+      "answer": "②",
+      "answer_text": "intransigent",
+      "explanation": [
+        "<u>obdurate</u>는 고집이 세고 설득되지 않는다는 뜻이다.",
+        "입장을 바꾸지 않았다는 문맥이므로 '비타협적인' intransigent가 가장 가깝다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["문맥상 동의어", "완고함을 나타내는 형용사"]}
+      ],
+      "vocab": ["obdurate: 완고한", "intransigent: 비타협적인", "conciliatory: 회유적인"]
+    },
+    {
+      "number": 2,
+      "answer": "②",
+      "answer_text": "generous",
+      "explanation": [
+        "<u>munificent</u>는 돈이나 선물을 아낌없이 주는, 후한이라는 뜻이다.",
+        "endowment는 기부금이므로 generous가 가장 자연스럽다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["기부·후원 문맥", "형용사 동의어"]}
+      ],
+      "vocab": ["munificent: 후한", "endowment: 기부금", "generous: 관대한"]
+    },
+    {
+      "number": 3,
+      "answer": "①",
+      "answer_text": "waved",
+      "explanation": [
+        "<u>undulated</u>는 물결치듯 움직이다라는 뜻이다.",
+        "상어가 몸의 뒤쪽 절반을 빠르게 움직였다는 문맥에서 waved가 가장 가깝다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["동작 묘사", "생물 움직임 문맥"]}
+      ],
+      "vocab": ["undulate: 물결치다", "posterior: 뒤쪽의", "stiffen: 뻣뻣하게 하다"]
+    },
+    {
+      "number": 4,
+      "answer": "③",
+      "answer_text": "tirade",
+      "explanation": [
+        "<u>diatribe</u>는 누군가를 강하게 비난하는 긴 말이나 글이다.",
+        "against processed pet foods라고 했으므로 비난 연설인 tirade가 맞다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["비난 표현", "대조 선택지 제거"]}
+      ],
+      "vocab": ["diatribe: 통렬한 비난", "tirade: 장광설식 비난", "paean: 찬가", "panegyric: 찬사"]
+    },
+    {
+      "number": 5,
+      "answer": "②",
+      "answer_text": "proscriptions",
+      "explanation": [
+        "<u>strictures</u>는 제한이나 구속이라는 뜻이다.",
+        "인쇄 매체의 제약에서 벗어나 정보를 모으고 공유한다는 내용이므로 proscriptions가 가장 가깝다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["추상명사", "제약·금지 의미"]}
+      ],
+      "vocab": ["stricture: 제약", "proscription: 금지", "accretion: 축적", "circumlocution: 완곡한 장황한 표현"]
+    },
+    {
+      "number": 6,
+      "answer": "①",
+      "answer_text": "inane",
+      "explanation": [
+        "<u>fatuous</u>는 어리석고 실속 없다는 뜻이다.",
+        "bombast와 함께 풍자의 대상이 된다는 문맥이므로 inane이 가장 가깝다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["부정적 평가 형용사", "문맥상 동의어"]}
+      ],
+      "vocab": ["fatuous: 어리석은", "inane: 공허하고 어리석은", "bombast: 과장된 말"]
+    },
+    {
+      "number": 7,
+      "answer": "④",
+      "answer_text": "embittering",
+      "explanation": [
+        "<u>exacerbating</u>은 상황을 더 악화시키는 것이다.",
+        "이미 취약한 관계를 더 나쁘게 만들었다는 뜻이므로 embittering이 가장 가깝다."
+      ],
+      "concepts": [
+        {"title": "어휘", "items": ["관계 악화 문맥", "동사 의미 판별"]}
+      ],
+      "vocab": ["exacerbate: 악화시키다", "embitter: 쓰라리게 하다", "mollify: 달래다"]
+    },
+    {
+      "number": 8,
+      "answer": "③",
+      "answer_text": "A: You know, Sally’s always skating on thin ice with those remarks. B: Right. She’s been remarkably consistent in her judgment.",
+      "explanation": [
+        "skate on thin ice는 위험한 짓을 하다, 위태로운 상황에 놓이다라는 뜻이다.",
+        "B의 '판단이 일관적이다'는 말은 위험한 발언을 한다는 A의 말과 이어지지 않는다."
+      ],
+      "concepts": [
+        {"title": "관용어", "items": ["idiom 의미", "대화 응답 적절성"]}
+      ],
+      "vocab": ["feel one's oats: 자신감이 넘치다", "let the cat out of the bag: 비밀을 누설하다", "sit on the fence: 중립을 지키다"]
+    },
+    {
+      "number": 9,
+      "answer": "④",
+      "answer_text": "A: They’re scraping the bottom of the barrel for new employees. B: That makes sense—they’re carefully selecting only the very best candidates.",
+      "explanation": [
+        "scrape the bottom of the barrel은 남은 것 중 질 낮은 것까지 억지로 쓰는 상황을 말한다.",
+        "B는 최고의 후보만 신중히 고른다고 하므로 A의 의미와 반대이다."
+      ],
+      "concepts": [
+        {"title": "관용어", "items": ["idiom 의미", "대화 흐름"]}
+      ],
+      "vocab": ["come clean: 사실대로 털어놓다", "face the music: 책임을 감수하다", "see eye to eye: 의견이 일치하다"]
+    },
+    {
+      "number": 10,
+      "answer": "③",
+      "answer_text": "buying off",
+      "explanation": [
+        "enabling them 뒤에서 목적보어가 병렬로 이어진다.",
+        "to dispense with traditional forms of governance and buy off interfering officials가 되어야 하므로 buying off가 문법적으로 어색하다."
+      ],
+      "concepts": [
+        {"title": "문법", "items": ["병렬구조", "enable 목적어 to부정사"]}
+      ],
+      "vocab": ["dispense with: 없애다", "buy off: 매수하다", "governance: 통치"]
+    },
+    {
+      "number": 11,
+      "answer": "③",
+      "answer_text": "had been unleashed",
+      "explanation": [
+        "forces 뒤의 관계절은 '그들이 풀어 놓은 힘'이라는 능동 의미이다.",
+        "따라서 had been unleashed가 아니라 had unleashed가 되어야 한다."
+      ],
+      "concepts": [
+        {"title": "문법", "items": ["관계절", "능동태와 수동태"]}
+      ],
+      "vocab": ["propagate: 퍼뜨리다", "zealot: 광신자", "unleash: 풀어놓다"]
+    },
+    {
+      "number": 12,
+      "answer": "②",
+      "answer_text": "shifts",
+      "explanation": [
+        "주어는 certain words이고, whose meanings appear fixed는 삽입된 관계절이다.",
+        "복수 주어 words에 맞춰 동사는 shift가 되어야 하므로 shifts가 틀렸다."
+      ],
+      "concepts": [
+        {"title": "문법", "items": ["주어-동사 수일치", "관계절 삽입"]}
+      ],
+      "vocab": ["fixed: 고정된", "erode: 약화시키다", "subvert: 뒤엎다"]
+    },
+    {
+      "number": 13,
+      "answer": "②",
+      "answer_text": "constitutive",
+      "explanation": [
+        "칸트의 설명은 마음이 경험을 단순히 받는 것이 아니라 구성한다는 내용이다.",
+        "따라서 지식은 수동적으로 축적되는 것이 아니라 구성적인 constitutive가 맞다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["앞뒤 대조", "철학 지문 핵심어"]}
+      ],
+      "vocab": ["constitutive: 구성적인", "fortuitous: 우연한", "derivative: 파생적인"]
+    },
+    {
+      "number": 14,
+      "answer": "②",
+      "answer_text": "circumscribed",
+      "explanation": [
+        "뒤에서 constrained conditions에서는 잘하지만 맥락이 바뀌면 적응하지 못한다고 했다.",
+        "따라서 능력이 제한되어 있다는 뜻의 circumscribed가 맞다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["동격 설명", "제한 의미 추론"]}
+      ],
+      "vocab": ["circumscribed: 제한된", "poignant: 가슴 아픈", "ostracized: 배척된"]
+    },
+    {
+      "number": 15,
+      "answer": "③",
+      "answer_text": "transcendence",
+      "explanation": [
+        "고딕 성당의 수직성과 구조가 시선을 물질 세계 너머로 이끈다고 했다.",
+        "물질을 넘어서는 느낌이므로 transcendence가 가장 적절하다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["예술·종교 문맥", "추상명사 선택"]}
+      ],
+      "vocab": ["transcendence: 초월", "quotidianity: 일상성", "jurisprudence: 법학"]
+    },
+    {
+      "number": 16,
+      "answer": "①",
+      "answer_text": "redolent",
+      "explanation": [
+        "wine의 bouquet는 향을 말한다.",
+        "wood violets의 향이 난다는 문맥이므로 redolent of가 맞다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["감각 묘사", "형용사+전치사 collocation"]}
+      ],
+      "vocab": ["redolent of: ~의 향이 나는", "bouquet: 와인의 향", "apocryphal: 출처가 의심스러운"]
+    },
+    {
+      "number": 17,
+      "answer": "①",
+      "answer_text": "scarified",
+      "explanation": [
+        "야생화가 자랄 공간을 만들기 위해 잔디를 줄여야 했다고 했다.",
+        "scarify는 땅이나 잔디 표면을 긁어 정리한다는 뜻이므로 문맥에 맞다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["농업·조경 어휘", "목적 문맥"]}
+      ],
+      "vocab": ["scarify: 표면을 긁어 고르다", "fertilize: 비료를 주다", "irrigate: 물을 대다"]
+    },
+    {
+      "number": 18,
+      "answer": "④",
+      "answer_text": "machinations",
+      "explanation": [
+        "behind closed doors politics는 공개되지 않은 정치적 술수나 음모를 뜻한다.",
+        "따라서 machinations가 가장 적절하다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["정치 문맥", "부정적 추상명사"]}
+      ],
+      "vocab": ["machination: 음모, 술책", "epitaph: 묘비명", "machicolation: 성벽 구멍"]
+    },
+    {
+      "number": 19,
+      "answer": "④",
+      "answer_text": "scurrility",
+      "explanation": [
+        "논리적 반박이 없을 때 조롱과 함께 쓰는 공격 방식이 빈칸이다.",
+        "scurrility는 저속하고 모욕적인 말이므로 ridicule과 자연스럽게 연결된다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["병렬 어휘", "비난 표현"]}
+      ],
+      "vocab": ["scurrility: 저속한 비방", "impugn: 비난하다", "probity: 청렴"]
+    },
+    {
+      "number": 20,
+      "answer": "①",
+      "answer_text": "rectified",
+      "explanation": [
+        "문제가 끝난 뒤 그 문제를 해결했고 재발 방지를 했음을 보여야 한다는 문맥이다.",
+        "rectify는 잘못을 바로잡다라는 뜻이므로 맞다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["행정·조치 문맥", "동사 의미 선택"]}
+      ],
+      "vocab": ["rectify: 바로잡다", "redact: 편집·검열하다", "reassert: 다시 주장하다"]
+    },
+    {
+      "number": 21,
+      "answer": "④",
+      "answer_text": "predilection — compartmentalized",
+      "explanation": [
+        "첫 빈칸은 유명한 것에 대한 취향이나 선호를 뜻해야 하므로 predilection이 적절하다.",
+        "두 번째 빈칸은 전문 영역에 갇혀 전체 도덕 감각으로 이어지지 않는다는 뜻이므로 compartmentalized가 맞다."
+      ],
+      "concepts": [
+        {"title": "이중 빈칸", "items": ["앞뒤 의미 호응", "추상어 문맥"]}
+      ],
+      "vocab": ["predilection: 선호", "compartmentalized: 구획화된", "refinement: 세련됨"]
+    },
+    {
+      "number": 22,
+      "answer": "③",
+      "answer_text": "emergent — sedimented",
+      "explanation": [
+        "후대 언어학은 언어가 상호작용과 실제 사용에서 형성된다고 본다.",
+        "그래서 언어는 emergent하고, 문법은 반복된 의사소통 활동이 쌓여 굳어진 sedimented outcome이다."
+      ],
+      "concepts": [
+        {"title": "이중 빈칸", "items": ["대조 구조", "언어 사용 기반 관점"]}
+      ],
+      "vocab": ["emergent: 발생적인", "sedimented: 축적되어 굳어진", "stipulative: 규정적인"]
+    },
+    {
+      "number": 23,
+      "answer": "①",
+      "answer_text": "coercive — internalized — unreflective",
+      "explanation": [
+        "Durkheim의 social facts는 개인에게 순응을 강제하는 힘을 가진다.",
+        "그 힘은 현대 사회에서 내면화되어 자연스러운 일상 차원처럼 의식되지 않게 작동한다고 했으므로 세 단어가 모두 맞다."
+      ],
+      "concepts": [
+        {"title": "삼중 빈칸", "items": ["사회학 핵심어", "문단 전개 추적"]}
+      ],
+      "vocab": ["coercive: 강제적인", "internalized: 내면화된", "unreflective: 의식적으로 성찰되지 않는"]
+    },
+    {
+      "number": 24,
+      "answer": "②",
+      "answer_text": "traduced — opprobrium",
+      "explanation": [
+        "화자는 자신의 명예가 훼손되었다고 호소한다.",
+        "traduced는 중상모략을 당한, opprobrium은 불명예라는 뜻으로 문맥에 맞다."
+      ],
+      "concepts": [
+        {"title": "이중 빈칸", "items": ["고어체 문장", "명예 훼손 문맥"]}
+      ],
+      "vocab": ["traduce: 중상하다", "opprobrium: 오명", "odium: 증오", "approbation: 승인"]
+    },
+    {
+      "number": 25,
+      "answer": "①",
+      "answer_text": "invidious — catalyst",
+      "explanation": [
+        "기독교 우월성을 입증하려는 번역은 편파적이고 악의적인 이유이므로 invidious가 맞다.",
+        "Martin Luther는 종교개혁을 촉발한 인물이므로 catalyst가 적절하다."
+      ],
+      "concepts": [
+        {"title": "이중 빈칸", "items": ["역사 문맥", "원인·촉발자 의미"]}
+      ],
+      "vocab": ["invidious: 악의적이고 부당한", "catalyst: 촉매, 촉발자", "harbinger: 전조"]
+    },
+    {
+      "number": 26,
+      "answer": "③",
+      "answer_text": "preoccupation — even-tempered — close-up",
+      "explanation": [
+        "양식 분석에만 몰두하면 건축의 실용적·사회경제적 이유를 놓친다는 내용이므로 preoccupation이 맞다.",
+        "멀리서 보면 점진적 변화처럼 보이지만 당시에는 덜 차분하고 덜 균일한 과정이었을 수 있다는 뜻에서 even-tempered가 들어간다.",
+        "마지막 문장은 거리를 두고 볼 때와 가까이 볼 때의 차이를 말하므로 close-up이 적절하다."
+      ],
+      "concepts": [
+        {"title": "삼중 빈칸", "items": ["문단 전체 흐름", "은유적 표현"]}
+      ],
+      "vocab": ["preoccupation: 몰두", "even-tempered: 차분한, 균일한", "close-up: 근접해서 본 모습"]
+    },
+    {
+      "number": 27,
+      "answer": "②",
+      "answer_text": "(B)",
+      "explanation": [
+        "삽입문 These periods는 앞에서 언급된 1970s and 1980s의 활동들을 가리킨다.",
+        "따라서 해당 시기의 작업 설명이 끝나고 later career로 넘어가기 직전인 (B)가 가장 자연스럽다."
+      ],
+      "concepts": [
+        {"title": "문장 삽입", "items": ["지시어 These", "시대 전환 연결"]}
+      ],
+      "vocab": ["solidify: 공고히 하다", "representation: 재현", "perception: 지각"]
+    },
+    {
+      "number": 28,
+      "answer": "②",
+      "answer_text": "An exploration of how technologically produced virtual spaces reshape concepts of human identity.",
+      "explanation": [
+        "글은 Gibson의 cyberpunk가 기술적 가상공간 속에서 정체성이 구성되고 재편되는 방식을 다룬다고 설명한다.",
+        "따라서 핵심 주제는 가상공간이 인간 정체성 개념을 바꾸는 방식이다."
+      ],
+      "concepts": [
+        {"title": "주제", "items": ["핵심 반복어", "identity와 technology의 관계"]}
+      ],
+      "vocab": ["prescient: 선견지명이 있는", "cyberspace: 사이버공간", "reconfigure: 재구성하다"]
+    },
+    {
+      "number": 29,
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "(C)의 가격 관련 인용은 앞뒤의 임상시험 비교와 약물 작용 방식 설명 사이에서 흐름을 끊는다.",
+        "비용 접근성 이야기는 (A) 근처에 어울리므로 현재 위치에서는 가장 부적절하다."
+      ],
+      "concepts": [
+        {"title": "흐름", "items": ["문장 주제 일관성", "앞뒤 연결"]}
+      ],
+      "vocab": ["self-pay price: 본인부담 가격", "head-to-head trial: 직접 비교 임상시험", "mimic: 모방하다"]
+    },
+    {
+      "number": 30,
+      "answer": "②",
+      "answer_text": "Unlike injections, the pill functions through a critically different physiological mechanism.",
+      "explanation": [
+        "본문은 Wegovy pill이 주사제와 비슷하게 장 호르몬 작용을 모방한다고 했다.",
+        "따라서 주사제와 생리적 작용 방식이 크게 다르다는 ②는 본문과 일치하지 않는다."
+      ],
+      "concepts": [
+        {"title": "내용 일치", "items": ["세부 정보 대조", "similarly의 의미"]}
+      ],
+      "vocab": ["physiological mechanism: 생리적 작용 방식", "GLP-1: 장 호르몬 계열 약물", "placebo: 위약"]
+    },
+    {
+      "number": 31,
+      "answer": "③",
+      "answer_text": "Revealing an Unrecognized Stone Age Rock-Painting Landscape in Western Scandinavia",
+      "explanation": [
+        "글의 중심은 노르웨이 서부 Tingvoll 근처에서 이전에 알려지지 않은 석기시대 암각화 지역을 확인했다는 것이다.",
+        "디지털 기록법도 나오지만 전체 제목은 발견 자체를 포괄해야 하므로 ③이 가장 적절하다."
+      ],
+      "concepts": [
+        {"title": "제목", "items": ["글 전체 중심", "세부 내용과 제목 범위"]}
+      ],
+      "vocab": ["rock painting: 암벽화", "pigment: 안료", "prehistoric: 선사시대의"]
+    },
+    {
+      "number": 32,
+      "answer": "①",
+      "answer_text": "Digital documentation methods were crucial for confirming this discovery.",
+      "explanation": [
+        "빈칸 뒤에서 색 보정과 고해상도 이미지 대비를 통해 자연 균열과 실제 선을 구분했다고 설명한다.",
+        "따라서 디지털 기록 방법이 발견 확인에 중요했다는 문장이 가장 자연스럽다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["뒤 문장 단서", "방법 설명 연결"]}
+      ],
+      "vocab": ["documentation: 기록", "contrast: 대비", "mineral staining: 광물 얼룩"]
+    },
+    {
+      "number": 33,
+      "answer": "④",
+      "answer_text": "(D)",
+      "explanation": [
+        "글은 인종 개념의 거대한 역사와 일상적 상호작용이 연결되는 방식을 설명한다.",
+        "(D)는 고대 구성물과 서구성에 대한 별도 논점으로, 앞뒤의 인종 성취 격차 논의와 흐름이 맞지 않는다."
+      ],
+      "concepts": [
+        {"title": "흐름", "items": ["논지 일탈 문장", "주제 일관성"]}
+      ],
+      "vocab": ["entrenched: 깊이 박힌", "subconsciously: 무의식적으로", "construct: 구성물"]
+    },
+    {
+      "number": 34,
+      "answer": "④",
+      "answer_text": "Racial beliefs are shaped by the interaction between long historical processes and daily social practices.",
+      "explanation": [
+        "본문은 인종적 사고가 오랜 역사 속에서 형성되고, 일상적 상호작용에서 다시 작동한다고 말한다.",
+        "따라서 역사적 과정과 일상적 실천의 상호작용을 말한 ④가 요지이다."
+      ],
+      "concepts": [
+        {"title": "요지", "items": ["거시 역사와 미시 일상 연결", "선택지 과장 제거"]}
+      ],
+      "vocab": ["racial achievement gap: 인종별 성취 격차", "mundane: 일상적인", "schema: 사고 틀"]
+    },
+    {
+      "number": 35,
+      "answer": "①",
+      "answer_text": "(A)",
+      "explanation": [
+        "글은 philosophical romance가 행동을 지연하고 감정·지각·사고를 깊게 다룬다고 설명한다.",
+        "(A)는 이 작품들이 인물이 어떻게 행동하는지에 더 관심이 있다고 하여 앞 논지와 반대이므로 부적절하다."
+      ],
+      "concepts": [
+        {"title": "흐름", "items": ["반대 내용 찾기", "논지 전개 확인"]}
+      ],
+      "vocab": ["defer: 미루다", "protracted: 길어진", "inconclusive: 결론이 명확하지 않은"]
+    },
+    {
+      "number": 36,
+      "answer": "③",
+      "answer_text": "Philosophical romances focus on psychological depth and interpretive ambiguity by deferring action and employing inconclusive endings.",
+      "explanation": [
+        "본문은 philosophical romance가 사건 진행을 지연시키고, 결말도 확정적으로 닫지 않는다고 반복한다.",
+        "이 구조가 심리적 깊이와 해석의 모호성을 만든다는 ③이 요지에 가장 가깝다."
+      ],
+      "concepts": [
+        {"title": "요지", "items": ["반복 구조 파악", "작품 예시 종합"]}
+      ],
+      "vocab": ["interpretive ambiguity: 해석상의 모호성", "resolution: 해결", "suspense: 긴장감"]
+    },
+    {
+      "number": 37,
+      "answer": "④",
+      "answer_text": "This is further shown by the way emotion expresses itself bodily, and by the fact that feeling a certain way about something colors how one perceives it.",
+      "explanation": [
+        "글은 지각과 행동, 의식과 몸이 분리되지 않는다는 Merleau-Ponty의 관점을 설명한다.",
+        "감정이 몸으로 표현되고 감정 상태가 지각을 물들인다는 ④는 이 논지를 자연스럽게 이어 준다."
+      ],
+      "concepts": [
+        {"title": "빈칸", "items": ["철학 지문 연결", "몸-지각-감정 관계"]}
+      ],
+      "vocab": ["embodied: 몸을 지닌", "perception: 지각", "interdependent: 상호의존적인"]
+    },
+    {
+      "number": 38,
+      "answer": "④",
+      "answer_text": "This shows that perception operates primarily as a passive reception of sensory information, with little active involvement from the perceiving subject.",
+      "explanation": [
+        "본문은 지각이 행동 가능성과 연결되어 있으며, 주체의 몸과 능동적으로 얽혀 있다고 말한다.",
+        "지각을 수동적 감각 수용으로 보는 ④는 본문에서 추론할 수 없고 오히려 반대이다."
+      ],
+      "concepts": [
+        {"title": "추론 불가", "items": ["본문 반대 진술", "핵심 주장 대조"]}
+      ],
+      "vocab": ["passive reception: 수동적 수용", "intentionality: 지향성", "expression: 표현"]
+    },
+    {
+      "number": 39,
+      "answer": "②",
+      "answer_text": "Challenges in Multiscale Modeling",
+      "explanation": [
+        "글은 물질을 원자 규모부터 거시 규모까지 연결해 모델링하는 어려움을 설명한다.",
+        "핵심은 특정 산업이나 하나의 매개변수가 아니라 여러 스케일을 잇는 모델링 문제이므로 ②가 제목으로 가장 적절하다."
+      ],
+      "concepts": [
+        {"title": "제목", "items": ["핵심 문제 파악", "범위가 좁은 선택지 제거"]}
+      ],
+      "vocab": ["multiscale modeling: 다중 스케일 모델링", "macroscale: 거시 규모", "mesoscale: 중간 규모"]
+    },
+    {
+      "number": 40,
+      "answer": "①",
+      "answer_text": "The transition from atomic models to macroscale properties is hindered by the emergence of new physical principles at different scales.",
+      "explanation": [
+        "본문은 규모가 달라지면 지배하는 물리 법칙과 모델 구조도 달라진다고 말한다.",
+        "그래서 원자 모델에서 거시 성질로 바로 넘어가기 어렵다는 ①을 추론할 수 있다."
+      ],
+      "concepts": [
+        {"title": "추론", "items": ["원인-결과 관계", "본문 표현 재진술"]}
+      ],
+      "vocab": ["atomic model: 원자 규모 모델", "macroscopic property: 거시적 성질", "dominant behavior: 지배적 거동"]
+    }
+  ]
+}
