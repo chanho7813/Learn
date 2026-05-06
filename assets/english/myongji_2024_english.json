@@ -16,7 +16,7 @@
       "number": 1,
       "instruction": "Choose the one that has the closest meaning to the underlined word.",
       "passage_sentences": [
-        "It is important to record that there was little, if any, discernible pattern to the distribution of these discursive strategies by age, gender or ethnicity."
+        "It is important to record that there was little, if any, <u>discernible</u> pattern to the distribution of these discursive strategies by age, gender or ethnicity."
       ],
       "question": null,
       "choices": [
@@ -42,7 +42,7 @@
       "number": 2,
       "instruction": "Choose the one that has the closest meaning to the underlined word.",
       "passage_sentences": [
-        "The team's remarkable prowess was a testament to their determination, skill, and exceptional teamwork."
+        "The team's remarkable <u>prowess</u> was a testament to their determination, skill, and exceptional teamwork."
       ],
       "question": null,
       "choices": [
@@ -68,7 +68,7 @@
       "number": 3,
       "instruction": "Choose the one that has the closest meaning to the underlined word.",
       "passage_sentences": [
-        "She pleaded for the clinic to make an exception but the clinic director remained adamant and would not perform the procedure."
+        "She pleaded for the clinic to make an exception but the clinic director remained <u>adamant</u> and would not perform the procedure."
       ],
       "question": null,
       "choices": [
@@ -94,7 +94,7 @@
       "number": 4,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "In the span of just over a century, cruel practices such as the killing of witches and the persecution of heretics were suddenly ______________, quickly passing from the unexceptionable to the unthinkable."
+        "In the span of just over a century, cruel practices such as the killing of witches and the persecution of heretics were suddenly __________, quickly passing from the unexceptionable to the unthinkable."
       ],
       "question": null,
       "choices": [
@@ -120,7 +120,7 @@
       "number": 5,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "The explorers faced extreme _____________ in cold weather, where the air was thin and freezing."
+        "The explorers faced extreme __________ in cold weather, where the air was thin and freezing."
       ],
       "question": null,
       "choices": [
@@ -146,12 +146,12 @@
       "number": 6,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Matter, as we know it—atoms, stars, planets, trees, rocks and us—accounts for less than 5% of the known universe.",
+        "Matter, as we know it—atoms, stars, planets, trees, rocks and us—① <u>accounts for less than 5% of</u> the known universe.",
         "The rest remains somewhat of a mystery.",
         "A dark one.",
-        "Astronomers and cosmologists think around 25 percent of our universe is made of something called dark matter, and the remainder—around 70 percent—is that’s known as dark energy.",
+        "Astronomers and cosmologists think around 25 percent of our universe ② <u>is made of something called dark</u> matter, and the remainder—around 70 percent—is ③ <u>that’s known as dark energy</u>.",
         "Dark matter doesn’t interact with light, so we can’t see it.",
-        "The only reason we know there’s something out there beyond what we can directly see is because it interacts with gravity."
+        "The only reason we know there’s something out there ④ <u>beyond what we can directly see</u> is because it interacts with gravity."
       ],
       "question": null,
       "choices": [
@@ -177,10 +177,10 @@
       "number": 7,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Under the Mongol emperors, China developed one of the most enduring and successful luxury products in the history of the world—a product which spread in a matter of centuries from grand palaces to simple parlours all over the world: a Chinese blue and white porcelain.",
-        "We now think of blue and white as quintessentially Chinese, but that is not how it began.",
+        "Under the Mongol emperors, China developed one of the most enduring and successful luxury products in the history of the world—a product ① <u>which spread in a matter of</u> centuries from grand palaces to simple parlours all over the world: a Chinese blue and white porcelain.",
+        "We now think of blue and white ② <u>as quintessentially Chinese</u>, but that is not how it began.",
         "This archetypal Chinese aesthetic in fact comes from Iran.",
-        "Thanks to the long Chinese habit of writing on objects, we know exactly which gods the vases offered to, who commissioned them, and indeed the very day on which they were dedicated."
+        "Thanks to the long Chinese habit of writing on objects, we know exactly ③ <u>which gods the vases offered to</u>, ④ <u>who commissioned them</u>, and indeed the very day on which they were dedicated."
       ],
       "question": null,
       "choices": [
@@ -206,13 +206,13 @@
       "number": 8,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Vaccination, as the Jenner procedure became known after the Latin vacca for cow, proved to be safe and was subsequently taken up globally.",
+        "Vaccination, as the Jenner procedure became known after the Latin vacca for cow, ① <u>proved to be safe and was</u> subsequently taken up globally.",
         "Jenner received many honours and awards, and the work led to the eventual eradication of smallpox in 1976.",
         "Every medical student around the world now learns about Jenner.",
         "Even Blossom, the cow who provided the original cowpox material for Jenner’s experiment, is remembered.",
-        "Her hide sits in St George’s Hospital Medical School.",
-        "But Wortley Montagu, whose pioneering work laid the groundwork for Jenner’s experiments, is forgotten.",
-        "Whether her work would be remembered has she been a gentleman physician, rather than a lady socialite, can only be guessed at."
+        "② <u>Her hide sits in St George’s</u> Hospital Medical School.",
+        "But Wortley Montagu, whose pioneering work ③ <u>laid the groundwork for Jenner’s experiments</u>, is forgotten.",
+        "Whether her work would be remembered ④ <u>has she been a gentleman physician</u>, rather than a lady socialite, can only be guessed at."
       ],
       "question": null,
       "choices": [
@@ -238,9 +238,9 @@
       "number": 9,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "Today the theory of evolution is about as much open to doubt as the theory that the earth goes round the sun, but the full implications of Darwin’s revolution have yet to be widely realized.",
-        "Zoology is still a minority subject in universities, and even those who choose to study it often make its decision without appreciating its profound philosophical significance.",
-        "Philosophy is still taught almost as if Darwin had never lived.",
+        "Today the theory of evolution is about ① <u>as much open to doubt as</u> the theory that the earth goes round the sun, but the full implications of Darwin’s revolution ② <u>have yet to be widely realized</u>.",
+        "Zoology is still a minority subject in universities, and even those who choose to study it often make ③ <u>its decision without appreciating its profound</u> philosophical significance.",
+        "Philosophy is still taught almost as if Darwin ④ <u>had never lived</u>.",
         "No doubt this will change in time."
       ],
       "question": null,
@@ -267,9 +267,9 @@
       "number": 10,
       "instruction": "Choose the part that is not grammatically acceptable.",
       "passage_sentences": [
-        "The miscalculations by countless Native American leaders deceived by Europeans were due to the fact that no living inhabitants of the New World had been to the Old World, so of course they could have had no specific information about the Spaniards.",
-        "Even so, we find it hard to avoid the conclusion that Inca emperor Atahuallpa should be more suspicious, if only his society had experienced a broader range of human behavior.",
-        "Pizarro too arrived at Cajamarca with no information about the Incas other than what he had learned by interrogating the Inca subjects he encountered in 1527.",
+        "The miscalculations by countless Native American leaders ① <u>deceived by Europeans were due to</u> the fact that no living inhabitants of the New World had been to the Old World, so of course they ② <u>could have had no specific information</u> about the Spaniards.",
+        "Even so, we find it hard to avoid the conclusion that Inca emperor Atahuallpa ③ <u>should be more suspicious</u>, if only his society had experienced a broader range of human behavior.",
+        "Pizarro too arrived at Cajamarca with no information about the Incas other than what ④ <u>he had learned by interrogating the</u> Inca subjects he encountered in 1527.",
         "However, while Pizarro himself was illiterate, he belonged to a literate tradition.",
         "From books, the Spaniards knew of many contemporary civilizations remote from Europe."
       ],
@@ -299,7 +299,7 @@
       "passage_sentences": [
         "Many universities have learned the hard way that parents and students equate the quality of education with the price of tuition.",
         "To increase enrollment and address complaints about the rising costs of education, many boards of trustees reduce tuition.",
-        "This, ___________, invariably results in a decrease, not an increase, in student enrollment.",
+        "This, __________, invariably results in a decrease, not an increase, in student enrollment.",
         "Reducing the price of tuition decreases both the perceived quality of the education offered by the school and the prestige of the school itself, which correspondingly decreases demand.",
         "Conversely, when universities increase the price of tuition, student enrollment increases."
       ],
@@ -328,7 +328,7 @@
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
         "After the mid-Victorian years the British found it difficult to think of themselves as inevitably progressive.",
-        "Instead, they began worrying about the degeneration and corruption of their culture, their institutions, their racial “stock.” George Bernard Shaw sharp-wittedly contends that Britain is “________________.” Much of the literary culture of the period expresses similar views.",
+        "Instead, they began worrying about the degeneration and corruption of their culture, their institutions, their racial “stock.” George Bernard Shaw sharp-wittedly contends that Britain is “__________.” Much of the literary culture of the period expresses similar views.",
         "The decadent movements offer sinister analogies to Roman imperial decline and fall, while realist novelists paint gloomy pictures of contemporary society."
       ],
       "question": null,
@@ -355,7 +355,7 @@
       "number": 13,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "The central focus of modern-day biological theories about supposedly innate sexually mandated patterns of thought and behavior is the notion that _________________.",
+        "The central focus of modern-day biological theories about supposedly innate sexually mandated patterns of thought and behavior is the notion that __________.",
         "The egg strategy mandates that women be more picky in choosing a mate, have fewer mates, and expend more care and effort than men on nurturing infants and children.",
         "Sperm strategy obliges men to seek to mate with a lot of different females and to spend less care and effort than women on nurturing infants and children.",
         "These two opposed strategies, in turn, reflect the differences between the size and quantity of eggs and sperm.",
@@ -392,7 +392,7 @@
         "However, in the early days of the country, they referred to the United States using the plural form.",
         "This little usage difference has long been a fascination for historians.",
         "Many have suspected that the cause was the Civil War.",
-        "In fact, James McPherson, a renowned historian, noted bluntly: “The war marked a transition of the United States to a singular noun.” ______________.",
+        "In fact, James McPherson, a renowned historian, noted bluntly: “The war marked a transition of the United States to a singular noun.” __________.",
         "Using big data, researchers could see how frequently American books used the phrase “The United States are...” vs.",
         "“The United States is...” for every year in the country’s history.",
         "The transformation was a little more gradual than McPherson claimed and didn’t accelerate until well after the Civil War ended.",
@@ -422,7 +422,7 @@
       "number": 15,
       "instruction": "Choose the one that best fills in the blank.",
       "passage_sentences": [
-        "In 2008, Barack Obama was running as the first African-American presidential nominee of a major party, and the polls suggested that race was not a factor in how Americans voted. ______________, Gallup conducted numerous polls before and after Obama’s first election.",
+        "In 2008, Barack Obama was running as the first African-American presidential nominee of a major party, and the polls suggested that race was not a factor in how Americans voted. __________, Gallup conducted numerous polls before and after Obama’s first election.",
         "Their conclusion?",
         "American voters largely did not care that Barack Obama was black.",
         "Shortly after the election, two well-known professors at the University of California, Berkeley pored through other survey-based data and reached a similar conclusion.",
@@ -586,8 +586,7 @@
         "Having well-educated people run the government is generally desirable, provided they possess sound judgment.",
         "But history shows little connection between prestigious academic credentials and practical wisdom.",
         "One of the most ruinous examples of credentialism gone awry is described in David Halberstam’s classic book The Best and the Brightest.",
-        "It shows how John F.",
-        "Kennedy assembled a team with glittering credentials who, for all their technocratic brilliance, led the United States into the folly of the Vietnam War.",
+        "It shows how John F. Kennedy assembled a team with glittering credentials who, for all their technocratic brilliance, led the United States into the folly of the Vietnam War.",
         "Alter saw a similarity between Kennedy’s team and Obama’s, who “shared the Ivy League as well as a certain arrogance and a detachment from the everyday lives of most Americans.” As things turned out, Obama’s economic advisors contributed to a folly of their own, less lethal than Vietnam but consequential nonetheless for the shape of American politics.",
         "Insisting on a Wall Street-friendly response to the financial crisis, they bailed out the banks without holding them to account, discredited the Democratic Party in the eyes of many people, and helped pave the way to Trump."
       ],
@@ -655,7 +654,7 @@
         "He began making prophecies in about 1547, and he published his prophecies in a book entitled Centuries (1555).",
         "Nostradamus gained notoriety during his lifetime when some of his predictions appeared to have come true.",
         "Nostradamus’s predictions, which are written in a cryptic and vague manner, tended to be about general types of events like natural disasters and conflict-related events that tend to occur regularly as time goes on.",
-        "Some people believe that his prophecies have predicted actual events, such as the French Revolution, the rise of Adolf Hitler, and the attacks.",
+        "Some people believe that his prophecies have predicted actual events, such as the French Revolution, the rise of Adolf Hitler, and the 9/11 attacks.",
         "Others maintain that because his prophecies tend to be about general types of events that occur frequently throughout history, it’s possible to find one that seems to match almost any event that has occurred."
       ],
       "question": "Which of the following is true about Nostradamus?",
@@ -753,7 +752,7 @@
         "In a series of surveys conducted in Western Europe, including the UK and the Netherlands, a team of social psychologists found that college-educated respondents have more bias against less-educated people than they do against other disfavored groups.",
         "The researchers surveyed the attitudes of well-educated Europeans toward a range of people who are typically victims of discrimination—Muslims, people of Turkish descent living in Western Europe, people who are poor, obese, blind, and less educated.",
         "They found that the poorly educated were disliked most of all.",
-        "In a similar study conducted in the United States, the researchers offered a revised list of disfavored groups, including African Americans, the working class, and people who are poor, obese, and less-educated.",
+        "In a similar <u>study</u> conducted in the United States, the researchers offered a revised list of disfavored groups, including African Americans, the working class, and people who are poor, obese, and less-educated.",
         "The American respondents also ranked the less-educated at the bottom.",
         "Beyond showing the disparaging views that college-educated elites have of less-educated people, the authors of the study offer several intriguing conclusions.",
         "Most of all, they challenge the familiar notion that educated elites are morally more enlightened than people with less education, and therefore more tolerant.",
@@ -827,9 +826,8 @@
         "They danced as if compelled, feet bloodied and limbs twitching, and many of them danced themselves to death.",
         "The Strasbourg dancing plague might sound like the stuff of legend, but it’s well documented in 16th-century historical records.",
         "It’s also not the only known incident of its kind.",
-        "Similar manias took place in Switzerland, Germany and Holland, though few were as large—or deadly—as the one in 1518. _______________.",
-        "According to historian John Waller, the explanation most likely concerns St.",
-        "Vitus, a Catholic saint who pious 16th-century Europeans believed had the power to curse people with a dancing plague.",
+        "Similar manias took place in Switzerland, Germany and Holland, though few were as large—or deadly—as the one in 1518. __________.",
+        "According to historian John Waller, the explanation most likely concerns St. Vitus, a Catholic saint who pious 16th-century Europeans believed had the power to curse people with a dancing plague.",
         "Other theories have suggested the dancers were members of a religious cult, or even that they accidentally ingested ergot, a toxic mold that produces spasms and hallucinations.",
         "Scientists and historians, however, still aren't sure what led people in Strasbourg to dance themselves to death."
       ],
@@ -869,9 +867,8 @@
         "They danced as if compelled, feet bloodied and limbs twitching, and many of them danced themselves to death.",
         "The Strasbourg dancing plague might sound like the stuff of legend, but it’s well documented in 16th-century historical records.",
         "It’s also not the only known incident of its kind.",
-        "Similar manias took place in Switzerland, Germany and Holland, though few were as large—or deadly—as the one in 1518. _______________.",
-        "According to historian John Waller, the explanation most likely concerns St.",
-        "Vitus, a Catholic saint who pious 16th-century Europeans believed had the power to curse people with a dancing plague.",
+        "Similar manias took place in Switzerland, Germany and Holland, though few were as large—or deadly—as the one in 1518. __________.",
+        "According to historian John Waller, the explanation most likely concerns St. Vitus, a Catholic saint who pious 16th-century Europeans believed had the power to curse people with a dancing plague.",
         "Other theories have suggested the dancers were members of a religious cult, or even that they accidentally ingested ergot, a toxic mold that produces spasms and hallucinations.",
         "Scientists and historians, however, still aren't sure what led people in Strasbourg to dance themselves to death."
       ],
