@@ -1,10 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../models/word.dart';
+import 'settings_service.dart';
 
 class AiService {
-  static const _apiKey =
-      '';
   static const _model = 'llama-3.3-70b-versatile';
   static const _maxRetries = 3;
 
@@ -12,6 +11,11 @@ class AiService {
     required String word,
     required String sentence,
   }) async {
+    final apiKey = (await SettingsService.getGroqApiKey()).trim();
+    if (apiKey.isEmpty) {
+      throw Exception('설정에서 Groq API 키를 입력해주세요.');
+    }
+
     final url = Uri.parse('https://api.groq.com/openai/v1/chat/completions');
 
     final prompt =
@@ -75,7 +79,7 @@ class AiService {
         url,
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer $_apiKey',
+          'Authorization': 'Bearer $apiKey',
         },
         body: requestBody,
       );

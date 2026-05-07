@@ -1,7 +1,7 @@
 name: learn
 description: "Learn app."
 publish_to: 'none'
-version: 0.10.7+36
+version: 0.10.8+37
 
 environment:
   sdk: ^3.10.1

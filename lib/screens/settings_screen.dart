@@ -17,6 +17,7 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
+  final TextEditingController _groqApiKeyController = TextEditingController();
   bool _darkMode = false;
   double _fontSize = 16.0;
   bool _showPronunciation = true;
@@ -44,12 +45,19 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _showRelatedWords = await SettingsService.getShowRelatedWords();
     _showExample = await SettingsService.getShowExample();
     _showNuance = await SettingsService.getShowNuance();
+    _groqApiKeyController.text = await SettingsService.getGroqApiKey();
     setState(() => _loading = false);
   }
 
   Future<String> _getVersion() async {
     final info = await PackageInfo.fromPlatform();
     return '${info.version}+${info.buildNumber}';
+  }
+
+  @override
+  void dispose() {
+    _groqApiKeyController.dispose();
+    super.dispose();
   }
 
   @override
@@ -169,6 +177,25 @@ class _SettingsScreenState extends State<SettingsScreen> {
               await SettingsService.setShowNuance(v);
               setState(() => _showNuance = v);
             },
+          ),
+          const Divider(),
+          _SectionHeader(title: 'AI'),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+            child: TextField(
+              controller: _groqApiKeyController,
+              obscureText: true,
+              autocorrect: false,
+              enableSuggestions: false,
+              textInputAction: TextInputAction.done,
+              decoration: const InputDecoration(
+                border: OutlineInputBorder(),
+                prefixIcon: Icon(Icons.key_outlined),
+                labelText: 'Groq API 키',
+                helperText: '단어 AI 분석에 사용됩니다',
+              ),
+              onChanged: SettingsService.setGroqApiKey,
+            ),
           ),
           const Divider(),
           _SectionHeader(title: '데이터'),
