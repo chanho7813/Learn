@@ -4,18 +4,15 @@
   "year": 2021,
   "exam_kind": "math",
   "question_count": 25,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "명지_21_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,253 +21,476 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$10$",
+      "explanation": [
+        "$\\mathbf a=\\langle-3,1,-2\\rangle$, $\\mathbf b=\\langle0,-2,2\\rangle$이다.",
+        "외적은 $\\mathbf a\\times\\mathbf b=\\langle-2,6,6\\rangle$이다.",
+        "모든 성분의 합은 $-2+6+6=10$이다."
+      ],
+      "concepts": [
+        {
+          "title": "벡터",
+          "items": [
+            "외적",
+            "성분 계산"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{3}{2}$",
+      "explanation": [
+        "합은 $\\sum_{k=1}^n \\frac1n\\,2\\frac{k}{n}(1+(\\frac{k}{n})^2)$ 꼴이다.",
+        "이는 $[0,1]$에서 $2x(1+x^2)$의 리만합이다.",
+        "따라서 극한은 $\\int_0^1 2x(1+x^2)dx=\\frac32$이다."
+      ],
+      "concepts": [
+        {
+          "title": "정적분",
+          "items": [
+            "리만합",
+            "정적분의 정의"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$9$",
+      "explanation": [
+        "$f(3)=f(1)+\\int_1^3f'(x)dx$이다.",
+        "$f'(x)\\ge2$이므로 $\\int_1^3f'(x)dx\\ge4$이다.",
+        "따라서 $f(3)\\ge9$이고 최솟값은 $9$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "도함수의 하한",
+            "평균값"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-1$",
+      "explanation": [
+        "$f(x,y)=\\tan^{-1}(x/y)$에서 $f_x=\\frac{y}{x^2+y^2}$, $f_y=-\\frac{x}{x^2+y^2}$이다.",
+        "$(1,-1)$에서 $f_x=-\\frac12$, $f_y=-\\frac12$이다.",
+        "따라서 합은 $-1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "편미분",
+          "items": [
+            "역탄젠트 미분",
+            "연쇄법칙"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "ㄱ, ㄷ",
+      "explanation": [
+        "ㄱ은 $\\sin3x\\sim3x$, $\\tan2x\\sim2x$이므로 참이다.",
+        "ㄴ은 $\\ln x$의 $x=2$에서의 미분계수라서 값이 $1/2$이므로 거짓이다.",
+        "ㄷ은 $\\frac{1-\\sqrt x}{1-x}=\\frac{1}{1+\\sqrt x}\\to\\frac12$이고 $\\sin^{-1}(1/2)=\\frac\\pi6$이므로 참이다."
+      ],
+      "concepts": [
+        {
+          "title": "극한",
+          "items": [
+            "기본 삼각극한",
+            "미분계수",
+            "유리화"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-\\frac{3}{2}$",
+      "explanation": [
+        "$\\|\\mathbf a\\|=3$이다.",
+        "방향코사인은 $\\cos\\alpha=2/3$, $\\cos\\beta=1/3$, $\\cos\\gamma=-2/3$이다.",
+        "따라서 $\\frac{\\cos\\alpha+\\cos\\beta}{\\cos\\gamma}=\\frac1{-2/3}=-\\frac32$이다."
+      ],
+      "concepts": [
+        {
+          "title": "공간벡터",
+          "items": [
+            "방향코사인"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-x=\\frac{z-2\\pi}{4},\\; y=1$",
+      "explanation": [
+        "점 $(0,1,2\\pi)$는 $t=\\frac\\pi2$에 대응한다.",
+        "$\\mathbf r'(t)=\\langle-\\sin t,\\cos t,4\\rangle$이므로 방향벡터는 $\\langle-1,0,4\\rangle$이다.",
+        "접선은 $x=-s$, $y=1$, $z=2\\pi+4s$이므로 $-x=\\frac{z-2\\pi}{4}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "벡터함수",
+          "items": [
+            "접선",
+            "방향벡터"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$2\\sqrt{17}\\pi$",
+      "explanation": [
+        "시작점은 $t=0$, 끝점은 $t=2\\pi$이다.",
+        "속도는 $\\|\\mathbf r'(t)\\|=\\sqrt{\\sin^2t+\\cos^2t+16}=\\sqrt{17}$이다.",
+        "길이는 $\\int_0^{2\\pi}\\sqrt{17}dt=2\\sqrt{17}\\pi$이다."
+      ],
+      "concepts": [
+        {
+          "title": "공간곡선",
+          "items": [
+            "곡선의 길이"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{21}{2}$",
+      "explanation": [
+        "$R$은 $0\\le x\\le1$, $0\\le y\\le x^2-x^3$이다.",
+        "$V_1=\\pi\\int_0^1(x^2-x^3)^2dx=\\frac\\pi{105}$이다.",
+        "$V_2=2\\pi\\int_0^1x(x^2-x^3)dx=\\frac\\pi{10}$이므로 $V_2/V_1=\\frac{21}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "회전체",
+          "items": [
+            "원판법",
+            "원통껍질법"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$32$",
+      "explanation": [
+        "$g'(x)=2f(2x)$, $g''(x)=4f'(2x)$이다.",
+        "$f'(x)=\\sqrt{1+\\tan^2x}\\sec^2x$이다.",
+        "$2\\cdot\\frac\\pi6=\\frac\\pi3$에서 $f'(\\frac\\pi3)=2\\cdot4=8$이므로 $g''(\\frac\\pi6)=32$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미적분",
+          "items": [
+            "미적분학의 기본정리",
+            "연쇄법칙"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{3}{4}\\pi$",
+      "explanation": [
+        "구간별 적분의 합은 $\\int_0^\\infty\\frac{dx}{(x-1)^2+1}$이다.",
+        "부정적분은 $\\tan^{-1}(x-1)$이다.",
+        "값은 $\\frac\\pi2-(-\\frac\\pi4)=\\frac{3\\pi}{4}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이상적분",
+          "items": [
+            "구간 합치기",
+            "역탄젠트 적분"
+          ]
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{\\pi}{12}+\\frac{\\sqrt{3}}{2}$",
+      "explanation": [
+        "조건식을 미분하면 $f''(x)=\\frac1{\\sqrt{1-x^2}}$이다.",
+        "$f'(0)=0$이므로 $f'(x)=\\sin^{-1}x$이다.",
+        "원식에서 $f(0)=1$이고 $f(x)=x\\sin^{-1}x+\\sqrt{1-x^2}$이므로 $f(\\frac12)=\\frac\\pi{12}+\\frac{\\sqrt3}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분방정식",
+          "items": [
+            "조건식 미분",
+            "역삼각함수 적분"
+          ]
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{12}{49}$",
+      "explanation": [
+        "물의 깊이가 $h$일 때 수면 반지름은 $r=3+\\frac h8$이다.",
+        "$dV/dh=\\pi r^2$이고 $dV/dt=3\\pi$이다.",
+        "$h=4$에서 $r=\\frac72$이므로 $3\\pi=\\pi\\frac{49}{4}\\frac{dh}{dt}$, 따라서 $dh/dt=\\frac{12}{49}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "관련 변화율",
+          "items": [
+            "절두원뿔",
+            "단면 넓이"
+          ]
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$40$",
+      "explanation": [
+        "행렬곱의 성분을 비교하면 $x+a=2$, $x+b=1$, $y+a^2=a$, $y+ab=0$이다.",
+        "따라서 $x=2-a$, $b=a-1$, $y=a-a^2$이다.",
+        "$y$는 $a=1/2$에서 최대이고 $b=-1/2$이므로 $80(a^2+b^2)=40$이다."
+      ],
+      "concepts": [
+        {
+          "title": "행렬",
+          "items": [
+            "성분 비교",
+            "이차함수 최대"
+          ]
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{\\sqrt{6}}{3}$",
+      "explanation": [
+        "접선은 $y=-2ax+2+a^2$이다.",
+        "축과 이루는 삼각형의 넓이는 $A(a)=\\frac{(2+a^2)^2}{4a}$이다.",
+        "$A'(a)=0$에서 $3a^2=2$이므로 양수 $a$는 $\\frac{\\sqrt6}{3}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "접선",
+            "최적화"
+          ]
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-2+4\\ln 2$",
+      "explanation": [
+        "$m=n+2$로 두면 합은 $4\\sum_{m=2}^\\infty\\frac{(1/2)^m}{m}$이다.",
+        "$\\sum_{m=1}^\\infty\\frac{x^m}{m}=-\\ln(1-x)$를 사용한다.",
+        "값은 $4(\\ln2-\\frac12)=-2+4\\ln2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "로그급수"
+          ]
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$5$",
+      "explanation": [
+        "$g(0)=0$이고 $\\operatorname{sech}0=1$이다.",
+        "$h'(0)=g'(0)$이다.",
+        "$g'(0)=(f(0)+1)(\\sin^{-1}x)'_{x=0}=5$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "곱의 미분",
+            "역삼각함수 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$4\\sqrt{2}$",
+      "explanation": [
+        "첫 곡선은 $x+y=1$이다.",
+        "둘째 곡선은 $r-y=1$이고, 두 조건을 함께 풀면 교점은 $(1,0)$, $(-3,4)$이다.",
+        "두 점 사이의 거리는 $\\sqrt{(-4)^2+4^2}=4\\sqrt2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "직교좌표 변환",
+            "교점"
+          ]
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "ㄱ, ㄴ",
+      "explanation": [
+        "$b_n/a_n=n\\tan^{-1}(1/n)\\to1$이므로 ㄱ은 참이다.",
+        "$\\sum a_n=\\sum\\frac1{n\\ln n}$은 발산하므로 ㄴ은 참이다.",
+        "극한비교에서 $b_n$도 $a_n$과 같은 발산성을 가지므로 ㄷ은 거짓이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수 판정",
+          "items": [
+            "극한비교판정법",
+            "로그형 조화급수"
+          ]
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{3}{2}\\pi$",
+      "explanation": [
+        "$u=\\theta/3$이면 $r=\\cos^3u$, $dr/d\\theta=-\\cos^2u\\sin u$이다.",
+        "따라서 $\\sqrt{r^2+(dr/d\\theta)^2}=\\cos^2u$이다.",
+        "곡선을 한 번 그리는 구간에서 길이는 $3\\int_{-\\pi/2}^{\\pi/2}\\cos^2u\\,du=\\frac{3\\pi}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "극곡선의 길이"
+          ]
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-\\frac{2}{5}$",
+      "explanation": [
+        "영역은 $-1\\le x\\le1$, $x^3\\le y\\le1$이다.",
+        "적분하면 홀함수 항들은 대칭구간에서 사라진다.",
+        "남는 값은 $\\int_{-1}^1x(1-x^3)dx=-\\frac25$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "영역 설정",
+            "대칭성"
+          ]
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{2}{3}$",
+      "explanation": [
+        "$r=\\frac1{1+\\cos\\theta}$는 $r+x=1$, 즉 $y^2=1-2x$인 포물선이다.",
+        "$\\theta=\\frac\\pi2$는 $y$축이므로 포물선과 $y$축이 둘러싸는 전체 영역을 구한다.",
+        "$x=\\frac{1-y^2}{2}$, $-1\\le y\\le1$이므로 넓이는 $\\frac23$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "직교좌표 변환",
+            "포물선과 직선의 넓이"
+          ]
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "ㄱ",
+      "explanation": [
+        "ㄱ은 절대수렴하면 충분히 큰 $n$에서 $a_n^2\\le |a_n|$이므로 참이다.",
+        "ㄴ은 $a_n=1/n$이면 비가 항상 1보다 작지만 조화급수는 발산하므로 거짓이다.",
+        "ㄷ은 $a_n=1/n$, $b_n=0$이면 $a_n-b_n\\to0$이지만 결론이 성립하지 않으므로 거짓이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "절대수렴",
+            "반례 판정"
+          ]
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{\\partial^2 f}{\\partial y^2}\\left(-1,\\frac{1}{2}\\right)<0$이다.",
+      "explanation": [
+        "$Q=x^2+2x+y$라 두면 해당 점에서 $Q=-1/2$이고 $f=-e/2$이다.",
+        "$f_x=e^{2y}(2x+2)$, $f_y=e^{2y}(2Q+1)$이므로 임계점이고, $f_{xy}=0$이다.",
+        "하지만 $f_{yy}=4e^{2y}(Q+1)$이므로 해당 점에서 $f_{yy}=2e>0$이다. 따라서 옳지 않은 것은 ④이다."
+      ],
+      "concepts": [
+        {
+          "title": "다변수함수",
+          "items": [
+            "임계점",
+            "이계편도함수",
+            "극값 판정"
+          ]
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$2\\ln(\\sqrt{2}+1)-\\sqrt{2}$",
+      "explanation": [
+        "삼각형은 $0\\le\\theta\\le\\frac\\pi4$, $0\\le r\\le2\\sec\\theta$이다.",
+        "원 $x^2+y^2=2x$는 $r=2\\cos\\theta$이고 외부 조건은 $r\\ge2\\cos\\theta$이다.",
+        "적분은 $\\int_0^{\\pi/4}\\int_{2\\cos\\theta}^{2\\sec\\theta}drd\\theta=2\\ln(\\sqrt2+1)-\\sqrt2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표 이중적분",
+          "items": [
+            "원과 직선 영역",
+            "야코비안 소거"
+          ]
+        }
+      ]
     }
   ]
 }

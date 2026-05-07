@@ -4,18 +4,15 @@
   "year": 2023,
   "exam_kind": "math",
   "question_count": 25,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "명지_23_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,253 +21,475 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{1}{2}$",
+      "explanation": [
+        "주어진 극한은 $\\tan^{-1}x$의 도함수이므로 $f(x)=\\frac1{1+x^2}$이다.",
+        "$f'(x)=\\frac{-2x}{(1+x^2)^2}$이다.",
+        "$x=-1$을 대입하면 $f'(-1)=\\frac12$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "도함수의 정의",
+            "역탄젠트 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{\\pi}{6}+\\frac{2}{3}$",
+      "explanation": [
+        "$\\int_0^1\\frac{dx}{\\sqrt{4-x^2}}=\\sin^{-1}(x/2)|_0^1=\\frac\\pi6$이다.",
+        "$\\int_0^1\\sqrt{1-x}dx=\\frac23$이다.",
+        "따라서 전체 값은 $\\frac\\pi6+\\frac23$이다."
+      ],
+      "concepts": [
+        {
+          "title": "적분",
+          "items": [
+            "역삼각함수 적분",
+            "거듭제곱 치환"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\pi$",
+      "explanation": [
+        "합은 구간 $[0,2]$에서 $\\sqrt{4-x^2}$의 리만합이다.",
+        "따라서 극한은 $\\int_0^2\\sqrt{4-x^2}dx$이다.",
+        "이는 반지름 2인 원의 1사분면 넓이이므로 $\\pi$이다."
+      ],
+      "concepts": [
+        {
+          "title": "정적분",
+          "items": [
+            "리만합",
+            "사분원 넓이"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{2\\sqrt{2}}{9}$",
+      "explanation": [
+        "$x=3\\sin\\theta$로 두면 적분은 $\\frac19\\int\\csc^2\\theta d\\theta$가 된다.",
+        "구간은 $\\theta=\\sin^{-1}(1/3)$에서 $\\pi/2$까지이다.",
+        "값은 $\\frac19\\cot(\\sin^{-1}(1/3))=\\frac{2\\sqrt2}{9}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "삼각치환",
+          "items": [
+            "$x=a\\sin\theta$",
+            "코탄젠트"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{1}{4}$",
+      "explanation": [
+        "$x\\to0$에서 $f(x)=x\\sin(1/x)\\to0$이다.",
+        "$u=f(x)$라 두면 $\\frac{\\sqrt{n^2+u}-n}{u}=\\frac1{\\sqrt{n^2+u}+n}\\to\\frac1{2n}$이다.",
+        "따라서 $a_3+a_6=\\frac16+\\frac1{12}=\\frac14$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극한",
+          "items": [
+            "유리화",
+            "진동함수의 압축"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{1}{2}$",
+      "explanation": [
+        "$f(2)-f(-1)=\\int_{-1}^{2}|x-1|dx$이다.",
+        "적분값은 $\\int_{-1}^{1}(1-x)dx+\\int_1^2(x-1)dx=\\frac52$이다.",
+        "따라서 $f(-1)=3-\\frac52=\\frac12$이다."
+      ],
+      "concepts": [
+        {
+          "title": "정적분",
+          "items": [
+            "도함수 적분",
+            "절댓값 함수"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$4$",
+      "explanation": [
+        "$x=1$에서 $y^3=-1$이므로 $y=-1$이다.",
+        "음함수 미분으로 $y'=x^2/y^2$이다.",
+        "다시 미분하면 $y''=2xy^{-2}-2x^2y^{-3}y'$이고, $(1,-1)$에서 $y''=4$이다."
+      ],
+      "concepts": [
+        {
+          "title": "음함수 미분",
+          "items": [
+            "일계·이계 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\left(-\\sqrt{2},\\frac{\\pi}{4}\\right)$",
+      "explanation": [
+        "①과 ②는 모두 직교좌표 $(1,-1)$이다.",
+        "음의 반지름은 각도에 $\\pi$를 더한 양의 반지름과 같으므로 ④와 ⑤도 $(1,-1)$이다.",
+        "③은 양의 반지름으로 바꾸면 각이 $5\\pi/4$가 되어 $(-1,-1)$이므로 같은 점이 아니다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "음의 반지름",
+            "동일한 점 표현"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$3$",
+      "explanation": [
+        "$x\\to\\infty$에서는 $\\sqrt{x^2+x+1}=x+\\frac12+o(1)$이다.",
+        "$x\\to-\\infty$에서는 $\\sqrt{x^2+x+1}=-x-\\frac12+o(1)$이다.",
+        "두 사선점근선은 $y=x+\\frac12$, $y=-x-\\frac12$이므로 절댓값 합은 $3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "점근선",
+          "items": [
+            "무한대 근사",
+            "사선점근선"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$1011$",
+      "explanation": [
+        "$\\frac{x+2a}{x-1}=1+\\frac{2a+1}{x-1}$이다.",
+        "따라서 극한은 $e^{2a+1}$이다.",
+        "$e^{2a+1}=e^{2023}$이므로 $a=1011$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극한",
+          "items": [
+            "자연상수 $e$의 정의"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$4$",
+      "explanation": [
+        "$\\sin x-\\sqrt3\\cos x=2\\sin(x-\\frac\\pi3)$이다.",
+        "적분 구간에서 부호는 $x=\\frac\\pi3$을 기준으로 바뀐다.",
+        "$2\\int_{-\\pi/3}^{2\\pi/3}|\\sin u|du=4$이다."
+      ],
+      "concepts": [
+        {
+          "title": "정적분",
+          "items": [
+            "절댓값 적분",
+            "삼각함수 합성"
+          ]
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\sqrt{30}$",
+      "explanation": [
+        "두 평면의 교선은 $z=2x$, $y=x+6$이므로 $(x,y,z)=(t,t+6,2t)$이다.",
+        "원점과의 거리제곱은 $t^2+(t+6)^2+4t^2=6t^2+12t+36$이다.",
+        "최솟값은 $t=-1$에서 $30$이므로 거리는 $\\sqrt{30}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "공간좌표",
+          "items": [
+            "교선",
+            "점과 직선 거리"
+          ]
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\sqrt{5}$",
+      "explanation": [
+        "$r=\\theta^2$, $r'=2\\theta$이므로 길이는 $\\int_0^a\\theta\\sqrt{\\theta^2+4}d\\theta$이다.",
+        "적분값은 $\\frac13((a^2+4)^{3/2}-8)$이다.",
+        "이 값이 $19/3$이므로 $(a^2+4)^{3/2}=27$, 따라서 $a=\\sqrt5$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "극곡선의 길이"
+          ]
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "ㄴ, ㄷ",
+      "explanation": [
+        "ㄱ은 $\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$ 같은 반례가 있어 거짓이다.",
+        "ㄴ은 $\\det(A^n)=(\\det A)^n=(1/2)^n$이므로 합이 $1$이라 참이다.",
+        "ㄷ은 $cA$가 가역이면 $c\\ne0$이고 $\\det A\\ne0$이라 참이다. ㄹ은 $A=-I$가 반례이다."
+      ],
+      "concepts": [
+        {
+          "title": "선형대수",
+          "items": [
+            "행렬식",
+            "가역행렬",
+            "반례"
+          ]
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$21$",
+      "explanation": [
+        "$f'(x)>0$이므로 역함수가 존재한다.",
+        "역함수 적분 공식에 의해 $\\int_1^4f(x)dx+\\int_3^6f^{-1}(y)dy=4\\cdot6-1\\cdot3$이다.",
+        "따라서 값은 $21$이다."
+      ],
+      "concepts": [
+        {
+          "title": "적분",
+          "items": [
+            "역함수 적분 공식"
+          ]
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "ㄱ, ㄴ",
+      "explanation": [
+        "ㄱ은 $n/(n^3+1)\\sim1/n^2$이므로 수렴한다.",
+        "ㄴ은 항의 크기가 감소하여 0으로 가는 교대급수이므로 수렴한다.",
+        "ㄷ은 $(3/e)^n$ 항 때문에 발산하고, ㄹ은 망원급수로 부분합이 $\\sqrt{N+1}-1$이라 발산한다."
+      ],
+      "concepts": [
+        {
+          "title": "급수 판정",
+          "items": [
+            "비교판정",
+            "교대급수",
+            "망원급수"
+          ]
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$1$",
+      "explanation": [
+        "$S(1,e)$는 $0\\le x\\le1$에서 위쪽 $y=e$, 아래쪽 $y=e^x$ 사이의 넓이다.",
+        "따라서 $S(1,e)=\\int_0^1(e-e^x)dx$이다.",
+        "값은 $e-(e-1)=1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "넓이",
+          "items": [
+            "지수함수와 수평선"
+          ]
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{e^2}{2}$",
+      "explanation": [
+        "$y$를 기준으로 보면 두 곡선은 $x=\\ln y$, $x=\\frac12\\ln y$이다.",
+        "$e\\le y\\le e^2$에서 가로 길이는 $\\frac12\\ln y$이다.",
+        "넓이는 $\\frac12\\int_e^{e^2}\\ln y\\,dy=\\frac{e^2}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "넓이",
+          "items": [
+            "역함수 관점",
+            "로그 적분"
+          ]
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{9!}{4!}$",
+      "explanation": [
+        "$\\cos(x^2)=1-\\frac{x^4}{2!}+\\frac{x^8}{4!}-\\cdots$이다.",
+        "$x\\cos(x^2)=x-\\frac{x^5}{2!}+\\frac{x^9}{4!}-\\cdots$이다.",
+        "$x^9$의 계수가 $1/4!$이므로 $f^{(9)}(0)=\\frac{9!}{4!}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "매클로린 급수",
+            "계수와 고계도함수"
+          ]
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$6$",
+      "explanation": [
+        "첫 멱급수의 계수에서 $\\limsup |a_n|^{1/n}=2$이므로 $R=1/2$이다.",
+        "둘째 멱급수는 중심 $2$, 반지름 $1$이고 양 끝점도 모두 수렴하여 구간은 $[1,3]$이다.",
+        "따라서 $ab/R=3/(1/2)=6$이다."
+      ],
+      "concepts": [
+        {
+          "title": "멱급수",
+          "items": [
+            "수렴반지름",
+            "끝점 판정"
+          ]
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{\\pi}{2}+1$",
+      "explanation": [
+        "$u=e^x$로 바꾸면 $u$의 범위는 $\\pi/2$부터 $\\pi$까지이다.",
+        "안쪽 적분 후 전체 적분은 $\\frac12\\int_{\\pi/2}^{\\pi}(\\pi^2-u^2)\\sin u\\,du$이다.",
+        "계산하면 $\\frac12(\\pi+2)=\\frac\\pi2+1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "치환적분",
+            "적분 순서 유지"
+          ]
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$2$",
+      "explanation": [
+        "원 내부를 제외해야 하는 각도를 나누어 극좌표 넓이를 계산한다.",
+        "단위 $a=1$일 때 해당 영역의 넓이는 $\\pi/4$이다.",
+        "넓이는 $a^2\\pi/4$이므로 $a^2\\pi/4=\\pi$, 따라서 $a=2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "cardioid와 원",
+            "극곡선 사이의 넓이"
+          ]
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-4$",
+      "explanation": [
+        "$f'(x)=\\ln(1+2x^2)+\\frac{4x^2}{1+2x^2}$이다.",
+        "$\\ln(1+2x^2)=2x^2-2x^4+\\cdots$이고 $\\frac{4x^2}{1+2x^2}=4x^2-8x^4+\\cdots$이다.",
+        "따라서 $c_0=0$, $c_2=6$, $c_4=-10$이므로 합은 $-4$이다."
+      ],
+      "concepts": [
+        {
+          "title": "멱급수",
+          "items": [
+            "로그 급수",
+            "도함수 전개"
+          ]
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\sqrt{17}$",
+      "explanation": [
+        "$P$에서 내부점은 $(g(P),xy)=(2,2)=Q$이다.",
+        "연쇄법칙으로 $F_x=f_x(Q)g_x(P)+f_y(Q)y=-1$, $F_y=f_x(Q)g_y(P)+f_y(Q)x=-4$이다.",
+        "가장 빨리 증가하는 방향의 방향도함수는 $\\|\\nabla F(P)\\|=\\sqrt{1+16}=\\sqrt{17}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "다변수 미분",
+          "items": [
+            "연쇄법칙",
+            "그래디언트"
+          ]
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{189}{44}$",
+      "explanation": [
+        "$u=3x+y+8$, $v=x-2y+1$로 두면 꼭짓점들이 직사각형 $1\\le u\\le22$, $1\\le v\\le8$로 간다.",
+        "야코비안은 $|\\partial(x,y)/\\partial(u,v)|=1/7$이다.",
+        "적분은 $\\frac17\\int_1^{22}\\int_1^8\\frac{v}{u^2}dvdu=\\frac{189}{44}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "변수변환",
+            "야코비안"
+          ]
+        }
+      ]
     }
   ]
 }

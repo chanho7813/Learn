@@ -4,12 +4,12 @@
   "year": 2021,
   "exam_kind": "english",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이"
   },
   "schema": {
     "number": "문제 번호",
@@ -25,333 +25,628 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "motley",
+      "explanation": [
+        "ragtag은 잡다한, 오합지졸의 뜻으로 motley와 같습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "ragtag",
+          "meaning": "오합지졸의"
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "credulity",
+      "explanation": [
+        "gullibility는 잘 속는 성질이므로 credulity가 맞습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "gullibility",
+          "meaning": "잘 속음"
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "unnecessarily",
+      "explanation": [
+        "gratuitously는 불필요하게라는 뜻입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "gratuitously",
+          "meaning": "불필요하게"
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "cornered",
+      "explanation": [
+        "corner the market은 시장을 독점하다라는 관용표현입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "lethargy",
+      "explanation": [
+        "lethargy는 무기력과 의욕 저하를 뜻합니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "lethargy",
+          "meaning": "무기력"
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "has commissioned the portrait of his",
+      "explanation": [
+        "초상화를 의뢰한 일은 과거 이야기의 더 앞선 사건이므로 has commissioned가 아니라 had commissioned가 맞습니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "of which men placed their pouch",
+      "explanation": [
+        "open-side seam에는 pouch를 그 안에 넣는 것이므로 of which가 아니라 in which가 필요합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "and channeling new routes for the",
+      "explanation": [
+        "created canals to tame and channel처럼 동사원형 병렬이 필요합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "have seen carefully grabbing the dangling",
+      "explanation": [
+        "돌고래가 목격된 것이므로 have been seen이 되어야 합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "it be called by the FBI",
+      "explanation": [
+        "as it is called by the FBI가 되어야 하므로 it be called가 틀렸습니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Evidence supports Nietzsche’s notion of Mozart as a cosmopolitan composer.",
+      "explanation": [
+        "지문은 Nietzsche의 Mozart cosmopolitan composer 해석을 전기적 근거로 뒷받침합니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "cosmopolitan",
+          "meaning": "세계주의적인"
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "From Street to Screen to Street Again: The History of Breakdance",
+      "explanation": [
+        "거리의 breakdance가 영화 Flashdance를 통해 확산되고 다시 전 세계 거리로 퍼진 역사입니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "( ③ )",
+      "explanation": [
+        "과부하를 넘어서 결정을 강행할 수 있다는 문장이 와야 뒤의 But again과 forcing of decisions가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "[B]-[A]-[C]",
+      "explanation": [
+        "Hammurabi 법전을 소개하는 B, 법전 내용 A, 법전의 성격과 선행 관습 C 순서입니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "how in the story the conflict between the old and the new is ultimately resolved",
+      "explanation": [
+        "Woody가 Buzz와 공존할 수 있음을 통해 old와 new의 갈등 해결이 언급됩니다."
+      ],
+      "concepts": [
+        "정답 근거 독해"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "the number of delivery orders Dailey received daily",
+      "explanation": [
+        "새 배달 서비스의 하루 주문 수는 언급되지 않았습니다."
+      ],
+      "concepts": [
+        "정답 근거 독해"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "He does his works without the benefit of prior planning.",
+      "explanation": [
+        "Haring은 스케치나 연구 없이 즉흥적으로도 완벽한 선을 그린다고 설명됩니다."
+      ],
+      "concepts": [
+        "정답 근거 독해"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Rome favored monarchy over any other form of governance.",
+      "explanation": [
+        "로마는 왕에게 지배받지 않으려는 전통이 있었으므로 군주제를 선호했다는 말은 틀렸습니다."
+      ],
+      "concepts": [
+        "정답 근거 독해"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Could dinosaurs survive in today's climate conditions",
+      "explanation": [
+        "오늘날 기후에서 공룡이 살아남을 수 있는지 묻고 바로 It is doubtful이라고 답하는 흐름입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "nearly all the caterpillars, with or without vision,",
+      "explanation": [
+        "시각을 가린 유충도 아닌 유충도 거의 모두 몸 색을 막대 색에 맞췄습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "dermal photoreception",
+          "meaning": "피부 광수용"
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "its place of origin and production",
+      "explanation": [
+        "와인도 산지와 생산지에서 맛보려는 소비자들이 있다는 내용입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "accumulates into something much more",
+      "explanation": [
+        "작은 개선이나 후퇴도 시간이 지나면 훨씬 큰 결과로 축적됩니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "the world’s first guns",
+      "explanation": [
+        "대나무나 쇠 관에 화약과 파편을 넣은 것은 세계 최초의 총에 해당합니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Newcomers as Prominent Shapers of New York",
+      "explanation": [
+        "뉴욕을 가장 크게 형성하는 것은 목표를 찾아 온 이주자들이라는 내용입니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "forms a stronger coalition of their compatriots",
+      "explanation": [
+        "동포들의 연합을 강화한다는 ④는 빈칸의 first love, fresh eyes, purpose 흐름과 맞지 않습니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "GPS chip aside, this is an extremely low-tech approach to mine detection.",
+      "explanation": [
+        "GPS를 제외하면 Mine Kafon은 대나무와 플라스틱의 저기술 방식입니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "low-tech",
+          "meaning": "저기술의"
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "The device is primarily designed to detect mines in woody terrain.",
+      "explanation": [
+        "Mine Kafon은 바람에 굴러 지뢰를 찾는 장치이지 숲 지형용으로 설계된 것이 아닙니다."
+      ],
+      "concepts": [
+        "정답 근거 독해"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "[C]-[B]-[A]",
+      "explanation": [
+        "Laycock의 변명과 원칙 C, 그 원칙의 내용 B, 그에 대한 공정한 평가 A 순서가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "unyielding",
+          "meaning": "고집 센"
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "affable but unyielding",
+      "explanation": [
+        "그는 상냥하고 고용주에게 애정도 있지만 자기 방식에서 물러서지 않습니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 21 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "One of his gardening principles was consuming quantities of tea.",
+      "explanation": [
+        "그의 원칙에는 진한 차를 많이 마시는 일이 포함된다고 풍자적으로 묘사됩니다."
+      ],
+      "concepts": [
+        "주제/내용 파악",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     }
   ]
 }

@@ -4,223 +4,247 @@
   "year": 2026,
   "exam_kind": "math",
   "question_count": 20,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "항공_26_수학 문제 데이터 기준 직접 풀이 및 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
-    "explanation": "해설 문단 배열",
+    "explanation": "풀이 단계 배열",
     "concepts": "문제 풀이에 필요한 개념/유형"
   },
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\sqrt{2}e^{-\\frac{3\\pi}{4}}$",
+      "explanation": [
+        "특성방정식은 $r^2+3r+\\frac52=0$이고 근은 $r=\\frac{-3\\pm i}{2}$이다.",
+        "$y=e^{-3x/2}(C\\cos\\frac{x}{2}+D\\sin\\frac{x}{2})$이며 $y(0)=0$에서 $C=0$이다.",
+        "$y'(0)=1$에서 $D=2$이므로 $y(\\frac\\pi2)=2e^{-3\\pi/4}\\sin\\frac\\pi4=\\sqrt2e^{-3\\pi/4}$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["상수계수 2계 선형방정식", "복소근 해"]}]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{3}{\\sqrt{10}}$",
+      "explanation": [
+        "$A$의 고윳값은 $2,3$이다.",
+        "각 고유벡터는 각각 $(1,1)$, $(2,1)$ 방향으로 잡을 수 있다.",
+        "단위벡터로 정규화하면 내적의 절댓값은 $\\frac{|(1,1)\\cdot(2,1)|}{\\sqrt2\\sqrt5}=\\frac3{\\sqrt{10}}$이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["고윳값", "고유벡터", "정규화 내적"]}]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{5}{4}\\pi$",
+      "explanation": [
+        "$r=1+\\cos\\theta$의 내부 넓이는 $\\frac12\\int_0^{2\\pi}(1+\\cos\\theta)^2d\\theta=\\frac32\\pi$이다.",
+        "$r=\\cos\\theta$는 반지름 $\\frac12$인 원이므로 넓이는 $\\frac\\pi4$이다.",
+        "구하는 영역은 큰 내부에서 작은 원 내부를 뺀 것이므로 $\\frac32\\pi-\\frac\\pi4=\\frac54\\pi$이다."
+      ],
+      "concepts": [{"title": "극좌표", "items": ["극좌표 넓이", "cardioid", "원 $r=\\cos\\theta$"]}]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$0$",
+      "explanation": [
+        "$\\sin z=z-\\frac{z^3}{3!}+\\frac{z^5}{5!}-\\cdots$이다.",
+        "$\\frac{\\sin z}{z^3}=z^{-2}-\\frac16+\\frac{z^2}{120}-\\cdots$로 전개된다.",
+        "$z^{-1}$항이 없으므로 유수는 0이고 적분값도 0이다."
+      ],
+      "concepts": [{"title": "복소해석", "items": ["Laurent 전개", "유수정리"]}]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{16}{3}$",
+      "explanation": [
+        "밑면은 $x^2+(x+y+1)^2=1$로 둘러싸인 영역이다.",
+        "$x$를 고정하면 $y$방향 길이는 $2\\sqrt{1-x^2}$이고, 단면은 정사각형이므로 넓이는 $4(1-x^2)$이다.",
+        "$-1\\le x\\le1$에서 적분하면 $\\int_{-1}^{1}4(1-x^2)dx=\\frac{16}{3}$이다."
+      ],
+      "concepts": [{"title": "적분", "items": ["단면적 적분", "정사각형 단면"]}]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{e}{2e-1}$",
+      "explanation": [
+        "$z=\\frac1y$로 두면 $z'=-\\frac{y'}{y^2}=2-z$이다.",
+        "따라서 $z=2+Ce^{-x}$이고 $y(0)=1$에서 $z(0)=1$이므로 $C=-1$이다.",
+        "$y=\\frac1{2-e^{-x}}$이므로 $y(1)=\\frac1{2-e^{-1}}=\\frac{e}{2e-1}$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["로지스틱 방정식", "치환 $z=1/y$"]}]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$7$",
+      "explanation": [
+        "$L(e_1)=(1,-1)$이다.",
+        "$2L(e_1)+L(e_2)=(3,0)$에서 $L(e_2)=(1,2)$이다.",
+        "$3L(e_1)+4L(e_2)+L(e_3)=(2,3)$에서 $L(e_3)=(-5,-2)$이다.",
+        "따라서 $L(1,0,-1)=L(e_1)-L(e_3)=(6,1)$이고 성분합은 7이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["선형변환", "기저벡터의 상"]}]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{\\pi^3}{96}$",
+      "explanation": [
+        "$\\frac{xe^{x^2}}{1+x^2}$는 홀함수이므로 $[-1,1]$에서 적분이 0이다.",
+        "남은 적분은 짝함수이고 $u=\\tan^{-1}x$를 쓰면 $du=\\frac{dx}{1+x^2}$이다.",
+        "$\\int_{-\\pi/4}^{\\pi/4}u^2du=\\frac{\\pi^3}{96}$이다."
+      ],
+      "concepts": [{"title": "적분", "items": ["홀짝성", "역탄젠트 치환"]}]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$1$",
+      "explanation": [
+        "$\\vec r'(t)=(-a\\sin t,a\\cos t,b)$이므로 ㉠의 $i,j$ 부호가 틀렸다.",
+        "단위 법선벡터는 $(-\\cos t,-\\sin t,0)$이므로 ㉡도 틀렸다.",
+        "단위 종법선벡터는 ㉢과 같고, 곡률은 $\\frac{a}{a^2+b^2}$이므로 ㉣은 틀렸다.",
+        "따라서 옳은 것은 ㉢ 하나뿐이다."
+      ],
+      "concepts": [{"title": "공간곡선", "items": ["Frenet frame", "곡률", "원형나선"]}]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$12$",
+      "explanation": [
+        "동차해는 $C e^{4x}+D e^{-x}$이고, 특수해를 $Ae^{2x}$로 두면 $A=-1$이다.",
+        "$y=Ce^{4x}+De^{-x}-e^{2x}$이다.",
+        "$y(0)=0$, $y'(0)=2$를 대입하면 $C=1$, $D=0$이므로 $y=e^{4x}-e^{2x}$이다.",
+        "$x=\\ln2$에서 $y=16-4=12$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["비제차 선형방정식", "특수해 가정"]}]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$1-\\cos1$",
+      "explanation": [
+        "적분인자는 $x^2$이고, 식은 $(x^2y)'=\\sin x$가 된다.",
+        "적분하면 $x^2y=-\\cos x+C$이다.",
+        "$y(\\pi)=\\frac2{\\pi^2}$에서 $2=1+C$이므로 $C=1$이다.",
+        "따라서 $y(1)=1-\\cos1$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["1계 선형방정식", "적분인자"]}]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{\\sqrt{6}}{4}$",
+      "explanation": [
+        "$u=x+y$로 두면 평면은 $u+z=1$이고 원뿔은 $z^2=2(x^2+y^2)$이다.",
+        "교선 위에서 원점까지 거리 제곱은 $x^2+y^2+z^2=\\frac32z^2$이다.",
+        "교선이 존재하려면 $z\\ge\\frac12$이고, 최소는 $z=\\frac12$에서 생긴다.",
+        "따라서 거리는 $\\sqrt{\\frac38}=\\frac{\\sqrt6}{4}$이다."
+      ],
+      "concepts": [{"title": "공간도형", "items": ["원뿔과 평면의 교선", "최단거리"]}]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{3}{2}$",
+      "explanation": [
+        "$u=x+2y$, $v=x-z$, $w=2y-z$로 치환하면 영역은 $1\\le u\\le2$, $0\\le v\\le2$, $0\\le w\\le3$이다.",
+        "야코비안은 $\\left|\\frac{\\partial(x,y,z)}{\\partial(u,v,w)}\\right|=\\frac14$이다.",
+        "적분함수 $x-z=v$이므로 값은 $\\int_1^2\\int_0^2\\int_0^3 v\\cdot\\frac14\\,dw\\,dv\\,du=\\frac32$이다."
+      ],
+      "concepts": [{"title": "다중적분", "items": ["선형 치환", "야코비안"]}]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$-\\frac{4}{3\\pi}$",
+      "explanation": [
+        "주기가 2이므로 $a_n=\\int_{-1}^{1}f(x)\\cos n\\pi x\\,dx$, $b_n=\\int_{-1}^{1}f(x)\\sin n\\pi x\\,dx$이다.",
+        "$b_1=\\int_0^1 2\\sin^2\\pi x\\,dx=1$이다.",
+        "$a_2=\\int_0^1 2\\sin\\pi x\\cos2\\pi x\\,dx=-\\frac{4}{3\\pi}$이므로 곱도 $-\\frac{4}{3\\pi}$이다."
+      ],
+      "concepts": [{"title": "Fourier 급수", "items": ["주기 2의 Fourier 계수", "삼각함수 적분"]}]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$2\\pi(7-3\\ln2)$",
+      "explanation": [
+        "발산정리를 사용한다.",
+        "$\\nabla\\cdot\\vec F=\\frac{2x}{x^2+y^2}-\\frac{2z}{x^2+y^2}+\\sqrt{x^2+y^2}$이다.",
+        "원환기둥에서 첫 항은 대칭성으로 적분이 0이다.",
+        "나머지를 원기둥좌표로 적분하면 $14\\pi-6\\pi\\ln2=2\\pi(7-3\\ln2)$이다."
+      ],
+      "concepts": [{"title": "벡터해석", "items": ["발산정리", "원기둥좌표", "flux"]}]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{3}{4}$",
+      "explanation": [
+        "$2e^{-x^2}=2-2x^2+x^4+O(x^6)$이다.",
+        "$-2\\cos x=-2+x^2-\\frac{x^4}{12}+O(x^6)$이고 $x\\sin x=x^2-\\frac{x^4}{6}+O(x^6)$이다.",
+        "분자의 $x^2$항까지는 사라지고 $x^4$항은 $1-\\frac1{12}-\\frac16=\\frac34$이다."
+      ],
+      "concepts": [{"title": "극한", "items": ["테일러 전개", "고계항 비교"]}]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "함수 $f$가 모든 실수 $x$에 대하여 $|f(x)|\\leq|x|^\\alpha\\ (\\alpha>1)$를 만족시키면 $f$는 $x=0$에서 미분가능하다.",
+      "explanation": [
+        "$x=0$을 대입하면 $f(0)=0$이다.",
+        "$\\left|\\frac{f(x)-f(0)}{x}\\right|\\le |x|^{\\alpha-1}$이고 $\\alpha>1$이므로 우변은 0으로 간다.",
+        "따라서 $f'(0)=0$이 존재한다. 나머지 선택지는 표준 반례가 있다."
+      ],
+      "concepts": [{"title": "미분", "items": ["미분가능성의 정의", "샌드위치 정리", "반례 판별"]}]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\sum_{n=1}^{\\infty}\\frac{x^{2n}}{n2^n}$의 수렴구간의 모든 원소 $x$에 대하여 $\\sum_{n=1}^{\\infty}\\frac{x^{2n}}{n2^n}=\\ln\\left(\\frac{2}{2-x^2}\\right)$이다.",
+      "explanation": [
+        "$\\sum\\frac{x^{2n}}{n2^n}=\\sum\\frac{(x^2/2)^n}{n}$이다.",
+        "수렴조건은 $|x|<\\sqrt2$이고, 이 구간에서 $\\sum_{n=1}^{\\infty}\\frac{u^n}{n}=-\\ln(1-u)$를 쓴다.",
+        "$u=\\frac{x^2}{2}$이므로 합은 $-\\ln(1-\\frac{x^2}{2})=\\ln\\frac{2}{2-x^2}$이다."
+      ],
+      "concepts": [{"title": "거듭제곱급수", "items": ["수렴구간", "로그 급수"]}]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$3^{12}(4A-11I)$",
+      "explanation": [
+        "$A$의 고윳값은 중복근 $3$이고 $N=A-3I$라 두면 $N^2=0$이다.",
+        "$A^{12}=(3I+N)^{12}=3^{12}I+12\\cdot3^{11}N$이다.",
+        "$N=A-3I$를 대입하면 $A^{12}=3^{12}(I+4N)=3^{12}(4A-11I)$이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["Cayley-Hamilton", "nilpotent 행렬", "행렬 거듭제곱"]}]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$1$",
+      "explanation": [
+        "㉠은 $b_{ii}$가 1 이상이라는 조건이 없고 $a_{ii}$의 부호도 제한되지 않으므로 항상 참이 아니다.",
+        "㉡은 $BA$가 $A$의 각 행을 양수 $b_{ii}$배 한 것이므로 각 행의 합은 여전히 양수이다.",
+        "㉢은 $BAB$에서 오른쪽의 $B$가 각 열을 서로 다른 양수배 하므로 행합의 양수가 보존되지 않을 수 있다.",
+        "따라서 항상 참인 명제는 ㉡ 하나이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["대각행렬 곱", "행합", "반례 판단"]}]
     }
   ]
 }

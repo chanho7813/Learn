@@ -4,12 +4,12 @@
   "year": 2024,
   "exam_kind": "math",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
@@ -24,303 +24,490 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "①",
+      "answer_text": "$\\frac{\\sqrt5}{3}$",
+      "explanation": [
+        "sech x=1/cosh x이므로 cosh x=3/2입니다.",
+        "항등식 tanh^2 x=1-sech^2 x에서 tanh^2 x=5/9이고, x>0이므로 tanh x=sqrt(5)/3입니다."
+      ],
+      "concepts": [
+        "쌍곡함수 항등식",
+        "sech와 tanh"
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "④",
+      "answer_text": "$\\frac12$",
+      "explanation": [
+        "F=ln(x^2+y^2)-xy^2라 두고 음함수 미분을 사용합니다.",
+        "(0,1)에서 F_x=-1, F_y=2이므로 dy/dx=-F_x/F_y=1/2입니다."
+      ],
+      "concepts": [
+        "음함수 미분",
+        "접선 기울기"
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "②",
+      "answer_text": "$\\frac{5\\pi}{6}$",
+      "explanation": [
+        "원문 PDF의 식은 y=e^(sin 3t)입니다. 수평접선은 dy/dt=0이고 dx/dt≠0일 때 생깁니다.",
+        "dy/dt=3e^(sin 3t)cos 3t이므로 cos 3t=0입니다. pi/2<t<pi에서 가능한 값은 t=5pi/6입니다."
+      ],
+      "concepts": [
+        "매개곡선 접선",
+        "수평접선"
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "②",
+      "answer_text": "$88$",
+      "explanation": [
+        "(가)는 36 sin(pi/6)=18입니다. 분모가 6^(2n-1)이므로 sin 급수보다 36배 큽니다.",
+        "(나)는 |3x-1|<21이므로 중심 1/3에서 수렴반지름 b=7입니다. 따라서 a+10b=18+70=88입니다."
+      ],
+      "concepts": [
+        "멱급수",
+        "사인 급수",
+        "수렴반지름"
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "③",
+      "answer_text": "$\\pi-\\frac{3\\sqrt3}{2}$",
+      "explanation": [
+        "x=2sin θ로 치환하면 적분구간은 0부터 pi/6이고 적분은 ∫ 12sin^2 θ dθ가 됩니다.",
+        "계산하면 12(θ/2-sin2θ/4)|_0^(pi/6)=pi-3sqrt(3)/2입니다."
+      ],
+      "concepts": [
+        "삼각치환",
+        "정적분"
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "②",
+      "answer_text": "$\\frac{1-\\pi}{4}$",
+      "explanation": [
+        "점 (1,1/2)에서 f=1/4이고, 각 pi x+pi y는 3pi/2입니다.",
+        "f_x=f_y=-pi/2이므로 a+b+c=L(1,1)=f(1,1/2)+f_y·(1/2)=(1-pi)/4입니다."
+      ],
+      "concepts": [
+        "다변수 선형화",
+        "편미분"
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "③",
+      "answer_text": "$\\frac89$",
+      "explanation": [
+        "x가 0에 가까울 때 sin(t^2/3)≈t^2/3입니다.",
+        "따라서 ∫_0^(2x^2) sin(t^2/3)dt≈∫_0^(2x^2)t^2/3 dt=8x^6/9이고 극한은 8/9입니다."
+      ],
+      "concepts": [
+        "테일러 근사",
+        "정적분 극한"
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "④",
+      "answer_text": "$\\frac{4\\pi}{3}-\\sqrt3$",
+      "explanation": [
+        "부분적분에서 u=tan^{-1}x, dv=2x dx로 둡니다.",
+        "값은 x^2tan^{-1}x-∫x^2/(1+x^2)dx를 0부터 sqrt(3)까지 계산한 것으로 4pi/3-sqrt(3)입니다."
+      ],
+      "concepts": [
+        "부분적분",
+        "역탄젠트 적분"
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "①",
+      "answer_text": "$14$",
+      "explanation": [
+        "x'=3sqrt(t), y'=3이므로 속력은 sqrt(9t+9)=3sqrt(t+1)입니다.",
+        "∫_0^3 3sqrt(t+1)dt=2((t+1)^(3/2))|_0^3=14입니다."
+      ],
+      "concepts": [
+        "매개곡선 길이",
+        "호의 길이"
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "⑤",
+      "answer_text": "$\\frac14$",
+      "explanation": [
+        "직선 l의 방향벡터는 (-1,3,2)이고 한 점은 (4,-1,2)입니다.",
+        "Q의 법선 (a,b,c)는 이 방향벡터 및 P의 법선 (3,1,-2)와 모두 수직이고, 점 조건 4a-b+2c=1을 만족합니다. 풀면 a+b+c=1/4입니다."
+      ],
+      "concepts": [
+        "공간평면",
+        "법선벡터",
+        "수직 조건"
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "⑤",
+      "answer_text": "$2$",
+      "explanation": [
+        "벡터장은 보존장이고 퍼텐셜은 phi=y^3 ln x-x^2yz입니다.",
+        "끝점 (e,1,0)에서 phi=1, 시작점 (1,e,1/e)에서 phi=-1이므로 선적분은 2입니다."
+      ],
+      "concepts": [
+        "보존장",
+        "선적분의 기본정리"
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "②",
+      "answer_text": "$\\frac{e}{6}(\\ln2+4)$",
+      "explanation": [
+        "2x-y=s, x+y=t에서 x=(s+t)/3, y=(2t-s)/3입니다. s=1,t=2이면 x=y=1입니다.",
+        "x_t=1/3, y_t=2/3이고 f_x=e ln2/2, f_y=e입니다. 따라서 f_t=e ln2/6+2e/3=e(ln2+4)/6입니다."
+      ],
+      "concepts": [
+        "연쇄법칙",
+        "변수변환 편미분"
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "④",
+      "answer_text": "$\\frac{32\\sqrt2\\pi}{3}$",
+      "explanation": [
+        "y를 기준으로 보면 0≤y≤2, -sqrt(y)≤x≤sqrt(y)입니다.",
+        "축 x=2에 대한 바깥반지름은 2+sqrt(y), 안쪽반지름은 2-sqrt(y)이므로 V=∫_0^2 pi[(2+sqrt(y))^2-(2-sqrt(y))^2]dy=32sqrt(2)pi/3입니다."
+      ],
+      "concepts": [
+        "회전체 부피",
+        "와셔법"
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "③",
+      "answer_text": "$5\\sqrt2$",
+      "explanation": [
+        "점에서 f(1,2,1)=0이므로 D_u(fg)=g·D_u f만 남습니다.",
+        "grad f=(1,4,1), u=(0,1/sqrt2,1/sqrt2)이므로 D_u f=5/sqrt2입니다. g=2이므로 값은 5sqrt2입니다."
+      ],
+      "concepts": [
+        "곱의 방향도함수",
+        "그래디언트"
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "⑤",
+      "answer_text": "$\\frac{3\\pi}{2}+2\\sqrt3$",
+      "explanation": [
+        "입체는 y≥0인 반원기둥 부분입니다. 바닥 z=0의 면적은 pi/2입니다.",
+        "윗면 z=sqrt3 y의 면적은 pi, 옆면은 ∫_0^pi sqrt3 sinθ dθ=2sqrt3입니다. 합은 3pi/2+2sqrt3입니다."
+      ],
+      "concepts": [
+        "곡면 넓이",
+        "원기둥 옆면",
+        "평면 그래프 면적"
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "①",
+      "answer_text": "$\\frac1{16}$",
+      "explanation": [
+        "닫힌 곡면이므로 발산정리를 사용합니다. div F=2z+4x-2z=4x입니다.",
+        "영역은 0≤y≤1, y^2/4≤x≤y^2, 0≤z≤1-y이므로 ∫4x dV=1/16입니다."
+      ],
+      "concepts": [
+        "발산정리",
+        "면적분",
+        "삼중적분"
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "②",
+      "answer_text": "$\\frac\\pi8(e^4-e)$",
+      "explanation": [
+        "세 적분이 나타내는 영역은 극좌표로 0≤θ≤pi/4, 1≤r≤2인 부채꼴 고리입니다.",
+        "따라서 적분은 ∫_0^(pi/4)∫_1^2 e^(r^2) r dr dθ=pi/8(e^4-e)입니다."
+      ],
+      "concepts": [
+        "극좌표 변환",
+        "반복적분 영역 해석"
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "⑤",
+      "answer_text": "$2$",
+      "explanation": [
+        "역행렬은 [[-2,-1,1],[5,2,-2],[-2,0,1]]입니다.",
+        "따라서 b+d+f+h=-1+5-2+0=2입니다."
+      ],
+      "concepts": [
+        "역행렬",
+        "행렬 성분 계산"
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "④",
+      "answer_text": "(나), (다), (라)",
+      "explanation": [
+        "특성다항식은 (lambda-5)^2(lambda-4)입니다. 서로 다른 고윳값은 두 개뿐이므로 (가)는 거짓입니다.",
+        "lambda=5의 고유공간 차원이 2이고 lambda=4의 차원이 1이므로 대각화 가능하며 가역입니다. (나), (다), (라)가 참입니다."
+      ],
+      "concepts": [
+        "고윳값",
+        "대각화 가능성",
+        "가역행렬"
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "④",
+      "answer_text": "$1$",
+      "explanation": [
+        "3×3 행렬에서 det(adj A)=det(A)^2입니다.",
+        "직접 계산하면 det A=1이므로 det(adj A)=1입니다."
+      ],
+      "concepts": [
+        "수반행렬",
+        "행렬식 공식"
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "⑤",
+      "answer_text": "$2\\pi+4$",
+      "explanation": [
+        "y dy/dx=x sin x이므로 d(y^2)/dx=2x sin x입니다.",
+        "y(0)^2=4이고 ∫_0^pi x sin x dx=pi이므로 y(pi)^2=4+2pi입니다."
+      ],
+      "concepts": [
+        "분리형 미분방정식",
+        "초깃값 문제"
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "①",
+      "answer_text": "$2$",
+      "explanation": [
+        "y=e^x v로 두면 왼쪽 y''-2y'+y는 e^x v''가 됩니다.",
+        "v''=2x+1의 특수해로 v=x^3/3+x^2/2를 잡으면 ab+cd=(1/3)·3+(1/2)·2=2입니다."
+      ],
+      "concepts": [
+        "상수계수 미분방정식",
+        "특수해"
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "④",
+      "answer_text": "$1$",
+      "explanation": [
+        "s/(s^2+4)의 역라플라스 변환은 cos 2t입니다.",
+        "e^(-pi s)는 pi만큼의 지연이므로 f(t)=u(t-pi)cos(2(t-pi))입니다. t=2pi에서 값은 1입니다."
+      ],
+      "concepts": [
+        "라플라스 역변환",
+        "시간 지연정리"
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "③",
+      "answer_text": "$\\sum_{n=1}^{\\infty}\\frac{4(-1)^{n+1}}{n\\pi}\\sin n\\pi x$",
+      "explanation": [
+        "f(x)=2x는 (-1,1)에서 홀함수이므로 사인급수만 남습니다.",
+        "b_n=2∫_0^1 2x sin(npi x)dx=4(-1)^(n+1)/(npi)이므로 선택지는 ③입니다."
+      ],
+      "concepts": [
+        "푸리에 급수",
+        "홀함수 사인급수"
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "⑤",
+      "answer_text": "$23$",
+      "explanation": [
+        "고윳값은 1, 2, 4입니다. 오름차순 고윳값에 대응하는 고유벡터의 첫 성분이 각각 3, 1, 3이 되도록 스케일을 맞춥니다.",
+        "그 벡터들은 (3,-4,1), (1,-1,0), (3,1,2)이므로 첫 행을 제외한 성분 제곱합은 17+1+5=23입니다."
+      ],
+      "concepts": [
+        "고유벡터",
+        "대각화",
+        "고유벡터 스케일링"
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "131",
+      "answer_text": "131",
+      "explanation": [
+        "선적분에서 e^x dx와 -e^(y^2)dy는 각각 한 변수의 완전미분 부분으로, 전체 기여는 e^(-1)-1과 0입니다.",
+        "남은 ∫(-y dx+x dy)를 주어진 다각선에서 계산하면 14입니다. 전체는 13+1/e이므로 a=13, b=1, 10a+b=131입니다."
+      ],
+      "concepts": [
+        "선적분",
+        "다각선 경로",
+        "완전미분"
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "600",
+      "answer_text": "600",
+      "explanation": [
+        "부분적분으로 ∫_0^(pi/2)t^2 sin t dt=pi-2입니다.",
+        "따라서 a=1, b=-2이고 120(a^2+b^2)=120(1+4)=600입니다."
+      ],
+      "concepts": [
+        "부분적분",
+        "정적분"
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "11",
+      "answer_text": "11",
+      "explanation": [
+        "안쪽 원 r=-3cosθ와 바깥쪽 기준 r=1-cosθ가 만나는 각은 cosθ=-1/2, 즉 2pi/3부터 4pi/3까지입니다.",
+        "넓이는 1/2∫(9cos^2θ-(1-cosθ)^2)dθ=pi입니다. a=1,b=0이므로 11a^2+b^2=11입니다."
+      ],
+      "concepts": [
+        "극좌표 넓이",
+        "두 극곡선 사이의 영역"
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "70",
+      "answer_text": "70",
+      "explanation": [
+        "두 곡면은 cosφ=1-cosφ, 즉 φ=pi/3에서 만납니다. 0≤φ≤pi/3에서 1-cosφ≤ρ≤cosφ입니다.",
+        "부피는 2pi∫_0^(pi/3)((cosφ)^3-(1-cosφ)^3)sinφ/3 dφ=7pi/48입니다. 여기에 480/pi를 곱하면 70입니다."
+      ],
+      "concepts": [
+        "구면좌표",
+        "삼중적분"
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울시_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산",
+      "answer": "153",
+      "answer_text": "153",
+      "explanation": [
+        "합 y1+y2는 미분방정식 u'=5u, 차 y1-y2는 v'=3v를 만족합니다. 초기값은 u(0)=4, v(0)=2입니다.",
+        "따라서 y1=2e^(5t)+e^(3t), y2=2e^(5t)-e^(3t)이고 t=1에서 곱은 4e^10-e^6입니다. a=4,b=10,c=-1,d=6이므로 제곱합은 153입니다."
+      ],
+      "concepts": [
+        "연립 선형 미분방정식",
+        "고유모드"
+      ]
     }
   ]
 }

@@ -4,12 +4,12 @@
   "year": 2025,
   "exam_kind": "english",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이"
   },
   "schema": {
     "number": "문제 번호",
@@ -25,333 +25,777 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "disadvantageous",
+      "explanation": [
+        "detrimental은 해로운, 불리한이라는 뜻입니다.",
+        "항해에 심각하게 불리하다는 문맥이므로 disadvantageous가 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "detrimental",
+          "meaning": "해로운"
+        },
+        {
+          "word": "disadvantageous",
+          "meaning": "불리한"
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "glorious",
+      "explanation": [
+        "sublime은 장엄한, 숭고한이라는 뜻입니다.",
+        "전쟁에서 아무런 영광스러움을 보지 못했다는 문맥이므로 glorious가 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "sublime",
+          "meaning": "숭고한"
+        },
+        {
+          "word": "glorious",
+          "meaning": "영광스러운"
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "adornment",
+      "explanation": [
+        "embellishment는 꾸밈, 장식이라는 뜻입니다.",
+        "rhetorical embellishment는 수사적 장식이므로 adornment가 정답입니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "embellishment",
+          "meaning": "장식"
+        },
+        {
+          "word": "adornment",
+          "meaning": "꾸밈"
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "subscribed",
+      "explanation": [
+        "subscribe to ideals는 어떤 이상이나 신념에 동의하다, 지지하다는 뜻입니다.",
+        "영국인들이 공식적으로 지지한 이상이라는 문맥이므로 subscribed가 맞습니다."
+      ],
+      "concepts": [
+        "빈칸 어휘",
+        "동사구"
+      ],
+      "vocab": [
+        {
+          "word": "subscribe to",
+          "meaning": "동의하다"
+        },
+        {
+          "word": "ideal",
+          "meaning": "이상"
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "least",
+      "explanation": [
+        "앞에서 12세의 몸이 가장 활력 있다고 설명합니다.",
+        "따라서 이 나이에 사망 가능성이 가장 낮다는 뜻의 least가 자연스럽습니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "최상급 표현"
+      ],
+      "vocab": [
+        {
+          "word": "vigorous",
+          "meaning": "활력 있는"
+        },
+        {
+          "word": "likelihood",
+          "meaning": "가능성"
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "underlie the soft",
+      "explanation": [
+        "관계절의 선행사는 the firm structure로 단수입니다.",
+        "따라서 동사는 underlie가 아니라 underlies가 되어야 합니다."
+      ],
+      "concepts": [
+        "주어-동사 수일치",
+        "관계절"
+      ],
+      "vocab": [
+        {
+          "word": "underlie",
+          "meaning": "밑받침하다"
+        },
+        {
+          "word": "structure",
+          "meaning": "구조"
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "carry out correspondence with everyone from",
+      "explanation": [
+        "devoted to 뒤에는 riding, working과 병렬되는 동명사가 와야 합니다.",
+        "carry out은 carrying out으로 고쳐야 합니다."
+      ],
+      "concepts": [
+        "병렬 구조",
+        "동명사"
+      ],
+      "vocab": [
+        {
+          "word": "correspondence",
+          "meaning": "서신 왕래"
+        },
+        {
+          "word": "ardor",
+          "meaning": "열정"
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "affected than men",
+      "explanation": [
+        "twice as likely는 than이 아니라 as와 함께 씁니다.",
+        "women are twice as likely to be affected as men이 옳은 비교구문입니다."
+      ],
+      "concepts": [
+        "비교 구문",
+        "as 원급 as"
+      ],
+      "vocab": [
+        {
+          "word": "affected",
+          "meaning": "영향받는"
+        },
+        {
+          "word": "anxiety disorder",
+          "meaning": "불안장애"
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "that hate insincerity and hypocrisy",
+      "explanation": [
+        "관계절의 선행사는 something 또는 nature로 단수 취급입니다.",
+        "따라서 hate가 아니라 hates가 필요합니다."
+      ],
+      "concepts": [
+        "수일치",
+        "관계절"
+      ],
+      "vocab": [
+        {
+          "word": "insincerity",
+          "meaning": "불성실"
+        },
+        {
+          "word": "hypocrisy",
+          "meaning": "위선"
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "a commodity which it is made",
+      "explanation": [
+        "be made of 또는 be made from 구조가 필요합니다.",
+        "a commodity which it is made는 전치사가 빠진 표현이므로 a commodity of which it is made처럼 고쳐야 합니다."
+      ],
+      "concepts": [
+        "관계사와 전치사",
+        "문법 오류"
+      ],
+      "vocab": [
+        {
+          "word": "commodity",
+          "meaning": "상품"
+        },
+        {
+          "word": "barter",
+          "meaning": "물물교환"
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "predecessor",
+      "explanation": [
+        "chew stick은 칫솔이 발명되기 전 사용된 도구입니다.",
+        "따라서 toothbrush의 predecessor, 즉 전신입니다."
+      ],
+      "concepts": [
+        "빈칸 어휘",
+        "정의 단서"
+      ],
+      "vocab": [
+        {
+          "word": "predecessor",
+          "meaning": "전신"
+        },
+        {
+          "word": "oral hygiene",
+          "meaning": "구강 위생"
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "enduring impact on literature through the ages",
+      "explanation": [
+        "뒤에서 일리아드, 오디세이, 히브리 성경 등에 영향을 주었다고 설명합니다.",
+        "따라서 길이보다 문학사에 지속적으로 미친 영향이 핵심입니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "근거 연결"
+      ],
+      "vocab": [
+        {
+          "word": "enduring",
+          "meaning": "지속적인"
+        },
+        {
+          "word": "impact",
+          "meaning": "영향"
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Tardiness is",
+      "explanation": [
+        "앞뒤 문맥은 지각이 예의에 어긋난다는 내용입니다.",
+        "Tardiness is as much a breach of etiquette가 자연스러운 주어와 술어를 이룹니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "문장 주어"
+      ],
+      "vocab": [
+        {
+          "word": "tardiness",
+          "meaning": "지각"
+        },
+        {
+          "word": "etiquette",
+          "meaning": "예절"
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "I'm noncompetitive",
+      "explanation": [
+        "화자는 경쟁심이 자신에게 없었다고 말합니다.",
+        "life is competition이라는 학교의 교훈을 흡수하지 못했다는 결론과 noncompetitive가 정확히 맞습니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "자기 성격 진술"
+      ],
+      "vocab": [
+        {
+          "word": "noncompetitive",
+          "meaning": "비경쟁적인"
+        },
+        {
+          "word": "urge",
+          "meaning": "충동"
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "avoid idle talk with other people",
+      "explanation": [
+        "글 전체는 헛된 잡담이 내적 평화를 방해한다고 경계합니다.",
+        "내적 성장을 위해서는 idle talk를 피하라는 결론이 가장 적절합니다."
+      ],
+      "concepts": [
+        "요지형 빈칸",
+        "글의 결론"
+      ],
+      "vocab": [
+        {
+          "word": "idle talk",
+          "meaning": "쓸데없는 말"
+        },
+        {
+          "word": "edify",
+          "meaning": "교화하다"
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Mark Twain handled a surprising situation very humorously.",
+      "explanation": [
+        "Mark Twain은 자신의 닮은 사람을 보고도 당황을 재치 있는 농담으로 넘깁니다.",
+        "따라서 놀라운 상황을 유머러스하게 처리했다는 ②가 맞습니다."
+      ],
+      "concepts": [
+        "내용 일치",
+        "일화 이해"
+      ],
+      "vocab": [
+        {
+          "word": "double",
+          "meaning": "닮은 사람"
+        },
+        {
+          "word": "equal to the occasion",
+          "meaning": "상황에 잘 대처하는"
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "An increasing number of patients may live in chronic conditions in the future.",
+      "explanation": [
+        "현대 의학은 생명을 연장하지만 완치하지 못하는 halfway 기술을 많이 만들었다고 합니다.",
+        "따라서 앞으로 만성 상태로 살아가는 환자가 늘 수 있음을 추론할 수 있습니다."
+      ],
+      "concepts": [
+        "추론 독해",
+        "의료 지문"
+      ],
+      "vocab": [
+        {
+          "word": "chronic condition",
+          "meaning": "만성 질환"
+        },
+        {
+          "word": "underlying disease",
+          "meaning": "기저 질환"
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "The scientific explanation for ‘ghost encounters’",
+      "explanation": [
+        "지문은 유령 체험을 환각, 거짓 기억, 파레이돌리아 같은 자연적 설명으로 해석합니다.",
+        "따라서 주제는 ghost encounters에 대한 과학적 설명입니다."
+      ],
+      "concepts": [
+        "주제 찾기"
+      ],
+      "vocab": [
+        {
+          "word": "hallucination",
+          "meaning": "환각"
+        },
+        {
+          "word": "pareidolia",
+          "meaning": "무작위 패턴에서 의미를 보는 경향"
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "You are very sad that you missed the train, and become even sadder because your friend also missed the train.",
+      "explanation": [
+        "지문은 기차를 얼마나 아깝게 놓쳤는지가 후회 강도를 바꾼다는 내용입니다.",
+        "③은 친구도 기차를 놓쳐 더 슬프다는 내용으로 핵심 논리와 맞지 않습니다."
+      ],
+      "concepts": [
+        "문장 제거",
+        "글의 통일성"
+      ],
+      "vocab": [
+        {
+          "word": "counterfactual",
+          "meaning": "반사실적 사고"
+        },
+        {
+          "word": "disappointed",
+          "meaning": "실망한"
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "The fight-or-flight is a survival mechanism commonly found among vertebrates.",
+      "explanation": [
+        "fight-or-flight는 위협에 빠르게 대응하게 하는 생존 기제입니다.",
+        "지문은 이것이 척추동물의 스트레스 반응을 조절하는 일반 적응 증후군의 첫 단계라고 설명합니다."
+      ],
+      "concepts": [
+        "내용 일치",
+        "생리 반응"
+      ],
+      "vocab": [
+        {
+          "word": "fight-or-flight",
+          "meaning": "투쟁-도피 반응"
+        },
+        {
+          "word": "vertebrate",
+          "meaning": "척추동물"
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "What are the characteristics of music?",
+      "explanation": [
+        "지문은 음악의 정의, 구성요소, 창작 방식, 연주 수단, 사회적 기능을 폭넓게 설명합니다.",
+        "따라서 음악의 특징을 묻는 ①이 가장 포괄적인 주제입니다."
+      ],
+      "concepts": [
+        "주제 찾기",
+        "포괄 선택지"
+      ],
+      "vocab": [
+        {
+          "word": "versatile",
+          "meaning": "다재다능한"
+        },
+        {
+          "word": "composition",
+          "meaning": "작곡"
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Humans’ evolution from apelike ancestors",
+      "explanation": [
+        "지문은 인간이 유인원 조상에서 기원해 신체적, 행동적 특성을 진화시켰다고 설명합니다.",
+        "따라서 주제는 Humans’ evolution from apelike ancestors입니다."
+      ],
+      "concepts": [
+        "주제 찾기",
+        "진화 지문"
+      ],
+      "vocab": [
+        {
+          "word": "apelike ancestor",
+          "meaning": "유인원 같은 조상"
+        },
+        {
+          "word": "bipedalism",
+          "meaning": "이족보행"
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Pronghorn is an easy prey for cheetah and lions.",
+      "explanation": [
+        "pronghorn은 장거리에서 가장 빠르고 단거리에서도 55mph까지 달립니다.",
+        "따라서 치타나 사자의 쉬운 먹잇감이라는 ②는 지문과 맞지 않습니다."
+      ],
+      "concepts": [
+        "내용 불일치",
+        "비교 정보"
+      ],
+      "vocab": [
+        {
+          "word": "predator",
+          "meaning": "포식자"
+        },
+        {
+          "word": "pronghorn",
+          "meaning": "가지뿔영양"
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Do Not Take Antibiotics with Milk",
+      "explanation": [
+        "지문은 우유 등 유제품이 일부 항생제 흡수를 크게 낮춘다는 내용을 반복해 설명합니다.",
+        "따라서 제목은 Do Not Take Antibiotics with Milk가 가장 적절합니다."
+      ],
+      "concepts": [
+        "제목 찾기",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "antibiotic",
+          "meaning": "항생제"
+        },
+        {
+          "word": "absorption",
+          "meaning": "흡수"
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "History tells us that nothing is predictable in life.",
+      "explanation": [
+        "지문은 역사가 장기적 일반화에는 도움이 된다고 인정합니다.",
+        "아무것도 예측할 수 없다는 ④는 지나치게 강한 주장이라 지문과 맞지 않습니다."
+      ],
+      "concepts": [
+        "내용 불일치",
+        "논지 파악"
+      ],
+      "vocab": [
+        {
+          "word": "historical analogy",
+          "meaning": "역사적 유추"
+        },
+        {
+          "word": "prediction",
+          "meaning": "예측"
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "An AI-powered electronic tongue can detect taste differences and food conditions.",
+      "explanation": [
+        "전자 혀는 음료의 차이, 우유 희석, 주스 부패 등을 감지할 수 있습니다.",
+        "따라서 AI 기반 전자 혀가 맛의 차이와 식품 상태를 감지한다는 ③이 요약으로 가장 적절합니다."
+      ],
+      "concepts": [
+        "요약문 선택",
+        "과학 기술 지문"
+      ],
+      "vocab": [
+        {
+          "word": "electronic tongue",
+          "meaning": "전자 혀"
+        },
+        {
+          "word": "freshness",
+          "meaning": "신선도"
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "[B]",
+      "explanation": [
+        "[A], [C], [D]는 모두 adults’ power over children을 가리킵니다.",
+        "[B]의 it은 아이들이 무력하고 어른이 힘을 가진 현재 상황 전체를 가리키므로 다릅니다."
+      ],
+      "concepts": [
+        "지시어 추론"
+      ],
+      "vocab": [
+        {
+          "word": "power struggle",
+          "meaning": "권력 다툼"
+        },
+        {
+          "word": "refer to",
+          "meaning": "가리키다"
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Adults unnecessarily try to assert their power over children.",
+      "explanation": [
+        "필자는 아이들이 늘 권력투쟁을 원하는 것이 아니라, 어른들이 쓸데없이 힘을 입증하려 한다고 말합니다.",
+        "따라서 주제는 어른들이 불필요하게 권위를 주장한다는 것입니다."
+      ],
+      "concepts": [
+        "주제 찾기"
+      ],
+      "vocab": [
+        {
+          "word": "assert",
+          "meaning": "주장하다"
+        },
+        {
+          "word": "authority",
+          "meaning": "권위"
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "[C]-[B]-[A]",
+      "explanation": [
+        "먼저 [C]가 연구 방법과 원래 연구 영역을 설명하고, [B]가 다른 다양한 과제 연구로 확장합니다.",
+        "그 뒤 [A]가 그러나 원인과 적용 범위는 아직 논쟁 중이라고 정리하므로 [C]-[B]-[A]가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문단 배열",
+        "담화 전개"
+      ],
+      "vocab": [
+        {
+          "word": "self-assessment",
+          "meaning": "자기평가"
+        },
+        {
+          "word": "objective performance",
+          "meaning": "객관적 수행"
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 25 편입 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "It is a form of bias occurring in evaluating other person’s intelligence.",
+      "explanation": [
+        "Dunning-Kruger 효과는 다른 사람의 지능을 평가하는 편향이 아니라 자신의 능력을 과대평가하는 편향입니다.",
+        "따라서 ②가 지문과 일치하지 않습니다."
+      ],
+      "concepts": [
+        "내용 불일치",
+        "심리학 지문"
+      ],
+      "vocab": [
+        {
+          "word": "cognitive bias",
+          "meaning": "인지 편향"
+        },
+        {
+          "word": "overestimate",
+          "meaning": "과대평가하다"
+        }
+      ]
     }
   ]
 }

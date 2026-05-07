@@ -4,18 +4,15 @@
   "year": 2022,
   "exam_kind": "math",
   "question_count": 25,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "명지_22_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,253 +21,353 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-\\frac{\\pi}{2}$",
+      "explanation": [
+        "$\\cos\\left(\\frac{\\pi}{2}(1+x)\\right)=\\cos\\left(\\frac{\\pi}{2}+\\frac{\\pi x}{2}\\right)=-\\sin\\frac{\\pi x}{2}$이다.",
+        "$x\\to0$에서 $-\\sin\\frac{\\pi x}{2}\\sim-\\frac{\\pi x}{2}$이고 $\\tan(\\sin x)\\sim\\sin x\\sim x$이다.",
+        "따라서 극한값은 $-\\frac{\\pi}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "극한", "items": ["삼각함수의 기본 극한", "일차 근사"]},
+        {"title": "삼각함수", "items": ["$\\cos(\\frac{\\pi}{2}+u)=-\\sin u$"]}
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$6$",
+      "explanation": [
+        "함수가 실수 전체에서 증가하려면 $f'(x)\\ge0$이 모든 실수 $x$에서 성립해야 한다.",
+        "$f'(x)=3x^2+2ax+12$이고, 위로 볼록한 이차식이 항상 음이 아니려면 판별식이 $0$ 이하이어야 한다.",
+        "$(2a)^2-4\\cdot3\\cdot12\\le0$에서 $a^2\\le36$이므로 가능한 $a$의 최댓값은 $6$이다."
+      ],
+      "concepts": [
+        {"title": "미분", "items": ["증가함수 조건", "$f'(x)\\ge0$"]},
+        {"title": "이차식", "items": ["항상 음이 아닌 조건", "판별식"]}
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-1$",
+      "explanation": [
+        "두 벡터에 모두 수직인 방향은 외적 $\\langle2,-1,3\\rangle\\times\\langle-1,2,-3\\rangle=\\langle-3,3,3\\rangle$의 방향이다.",
+        "이 방향의 단위벡터는 $\\frac{1}{\\sqrt3}\\langle-1,1,1\\rangle$이므로 크기가 $\\sqrt3$인 벡터는 $\\pm\\langle-1,1,1\\rangle$이다.",
+        "어느 부호를 택해도 $ab+bc+ca=-1+1-1=-1$이다."
+      ],
+      "concepts": [
+        {"title": "벡터", "items": ["외적", "수직인 벡터"]},
+        {"title": "공간좌표", "items": ["벡터의 크기 조정"]}
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{5}{2}\\pi$",
+      "explanation": [
+        "$f'(t)=-\\sin t$, $f(0)=1$이므로 $f(t)=\\cos t$이다.",
+        "$g'(t)=3$, $g(0)=0$이므로 $g(t)=3t$이고, $h'(t)=4\\cos^2t$, $h(0)=0$이므로 $h(t)=2t+\\sin2t$이다.",
+        "$t=\\frac{\\pi}{2}$를 대입하면 $f=0$, $g=\\frac{3\\pi}{2}$, $h=\\pi$이므로 합은 $\\frac{5\\pi}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "벡터함수", "items": ["성분별 적분", "초기조건"]},
+        {"title": "삼각적분", "items": ["$\\cos^2t=\\frac{1+\\cos2t}{2}$"]}
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{16}{27}$",
+      "explanation": [
+        "접선이 $x$축에 평행하려면 $\\frac{dy}{dx}=0$이고, 매개변수 곡선에서는 $dy/dt=0$, $dx/dt\\ne0$이면 된다.",
+        "$dy/dt=3t^2-1=0$이므로 $t=\\pm\\frac{1}{\\sqrt3}$이고, 이때 $x=t^2-1=-\\frac23$, $y=t^3-t=-\\frac23t$이다.",
+        "따라서 $a^2+b^2=\\left(-\\frac23\\right)^2+\\left(\\frac{2}{3\\sqrt3}\\right)^2=\\frac49+\\frac4{27}=\\frac{16}{27}$이다."
+      ],
+      "concepts": [
+        {"title": "매개변수 곡선", "items": ["수평접선", "$dy/dt=0$"]},
+        {"title": "계산", "items": ["좌표 대입", "거리제곱"]}
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{\\sqrt{3}}{9}\\pi$",
+      "explanation": [
+        "$\\int\\frac{1}{x^2+3}\\,dx=\\frac{1}{\\sqrt3}\\arctan\\frac{x}{\\sqrt3}$이다.",
+        "따라서 주어진 적분은 $\\frac{1}{\\sqrt3}\\left[\\arctan\\frac{x}{\\sqrt3}\\right]_0^3=\\frac{1}{\\sqrt3}\\arctan\\sqrt3$이다.",
+        "$\\arctan\\sqrt3=\\frac{\\pi}{3}$이므로 값은 $\\frac{\\pi}{3\\sqrt3}=\\frac{\\sqrt3}{9}\\pi$이다."
+      ],
+      "concepts": [
+        {"title": "적분", "items": ["$\\int\\frac{dx}{x^2+a^2}$", "역탄젠트"]},
+        {"title": "삼각함수", "items": ["$\\tan\\frac{\\pi}{3}=\\sqrt3$"]}
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{1}{4}$",
+      "explanation": [
+        "멱급수의 계수는 $a_n=\\frac{(-4)^n}{\\sqrt{n+1}}$이다.",
+        "$\\limsup |a_n|^{1/n}=4\\lim_{n\\to\\infty}(n+1)^{-1/(2n)}=4$이다.",
+        "수렴반지름은 $R=\\frac{1}{\\limsup |a_n|^{1/n}}=\\frac14$이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["멱급수 수렴반지름", "근판정법"]},
+        {"title": "극한", "items": ["$(n+1)^{1/n}\\to1$"]}
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$5$",
+      "explanation": [
+        "극한이 유한하려면 $\\ln(1+x)\\sim x$이므로 $f(0)=0$이어야 한다.",
+        "미분가능하므로 $f(2x)=2f'(0)x+o(x)$이고, $\\ln(1+x)=x+o(x)$이다.",
+        "따라서 극한은 $2f'(0)$이므로 $2f'(0)=10$, 즉 $f'(0)=5$이다."
+      ],
+      "concepts": [
+        {"title": "극한", "items": ["로그함수의 일차 근사", "유한 극한 조건"]},
+        {"title": "미분가능성", "items": ["$f(h)=f(0)+f'(0)h+o(h)$"]}
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{1}{2e}$",
+      "explanation": [
+        "$f(1)=e+\\int_1^1 e^{t^2}\\,dt=e$이므로 $g(e)=1$이다.",
+        "역함수의 미분법에 의해 $g'(e)=\\frac{1}{f'(g(e))}=\\frac{1}{f'(1)}$이다.",
+        "$f'(x)=e^x+e^{x^2}$이므로 $f'(1)=2e$, 따라서 $g'(e)=\\frac{1}{2e}$이다."
+      ],
+      "concepts": [
+        {"title": "역함수", "items": ["역함수의 미분법"]},
+        {"title": "미적분", "items": ["미적분학의 기본정리"]}
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{4\\sqrt{2}}{5}$",
+      "explanation": [
+        "$\\overrightarrow{PQ}=\\langle4,2,2\\rangle$, $\\overrightarrow{PR}=\\langle3,3,-1\\rangle$이므로 평면의 법선벡터는 $\\overrightarrow{PQ}\\times\\overrightarrow{PR}=\\langle-8,10,6\\rangle$이다.",
+        "$\\overrightarrow{PS}=\\langle5,5,1\\rangle$이고, 점과 평면 사이의 거리는 $\\frac{|\\overrightarrow{PS}\\cdot n|}{\\|n\\|}$이다.",
+        "따라서 거리는 $\\frac{|-40+50+6|}{\\sqrt{64+100+36}}=\\frac{16}{10\\sqrt2}=\\frac{4\\sqrt2}{5}$이다."
+      ],
+      "concepts": [
+        {"title": "공간좌표", "items": ["점과 평면 사이의 거리"]},
+        {"title": "벡터", "items": ["외적", "법선벡터"]}
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{1}{3}$",
+      "explanation": [
+        "$x^2+x-2=(x-1)(x+2)$이고, $x^x-1$도 $x=1$에서 $0$이 된다.",
+        "$\\frac{x^x-1}{x-1}\\to (x^x)'\\big|_{x=1}$이며, $(x^x)'=x^x(\\ln x+1)$이다.",
+        "따라서 극한값은 $\\frac{1}{1+2}=\\frac13$이다."
+      ],
+      "concepts": [
+        {"title": "극한", "items": ["미분계수로 해석", "$0/0$ 꼴"]},
+        {"title": "미분", "items": ["$x^x$의 미분"]}
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$6$",
+      "explanation": [
+        "$f(x,y)=2x^2+y^2$는 항상 $0$ 이상이므로 최솟값은 원점에서 $m=0$이다.",
+        "닫힌 원판 $x^2+y^2\\le3$에서 계수가 더 큰 $x^2$ 방향에 반지름을 모두 두면 최댓값이 된다.",
+        "따라서 $M=2\\cdot3=6$이고 $M+m=6$이다."
+      ],
+      "concepts": [
+        {"title": "다변수함수", "items": ["닫힌 영역의 최대최소"]},
+        {"title": "이차형식", "items": ["계수 비교", "원판 위의 최댓값"]}
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-2$",
+      "explanation": [
+        "행렬의 세 번째 행이 $[0,0,c]$이므로 행렬식은 $c$와 왼쪽 위 $2\\times2$ 부분행렬의 행렬식의 곱으로 계산된다.",
+        "$\\det=c\\det\\begin{pmatrix}c&-c\\\\2&c\\end{pmatrix}=c(c^2+2c)=c^2(c+2)$이다.",
+        "역행렬이 존재하지 않는 값은 $c=0,-2$이고, 모든 값의 합은 $-2$이다."
+      ],
+      "concepts": [
+        {"title": "선형대수", "items": ["행렬식", "역행렬 존재 조건"]},
+        {"title": "행렬", "items": ["삼각형 구조의 행렬식"]}
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{2}{3}$",
+      "explanation": [
+        "영역은 $0\\le x\\le1$, $0\\le y\\le1-x$인 삼각형이다.",
+        "부피는 $\\iint_D(x^2+y^2+1)\\,dA$이다.",
+        "$\\iint_D1\\,dA=\\frac12$이고 대칭성으로 $\\iint_Dx^2\\,dA=\\iint_Dy^2\\,dA=\\frac1{12}$이므로 전체 부피는 $\\frac12+\\frac1{12}+\\frac1{12}=\\frac23$이다."
+      ],
+      "concepts": [
+        {"title": "이중적분", "items": ["삼각형 영역", "곡면 아래 부피"]},
+        {"title": "계산", "items": ["대칭성 활용"]}
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\sqrt{5}$",
+      "explanation": [
+        "곡선 위의 점을 $P(t)=(t^2-2t,t+1)$이라 두면 $A(-1,5)$와의 거리제곱은 $D(t)=(t^2-2t+1)^2+(t-4)^2$이다.",
+        "$D(t)=(t-1)^4+(t-4)^2$이고 $D'(t)=4(t-1)^3+2(t-4)$이다.",
+        "$u=t-1$로 두면 $D'(t)=0$은 $2u^3+u-3=0$이고, 유일한 실근은 $u=1$, 즉 $t=2$이다. 이때 $D=1+4=5$이므로 최솟값은 $\\sqrt5$이다."
+      ],
+      "concepts": [
+        {"title": "최대최소", "items": ["거리제곱 최소화", "미분"]},
+        {"title": "매개변수", "items": ["곡선 위의 점 표현"]}
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$16\\pi$",
+      "explanation": [
+        "영역은 $-1\\le x\\le1$, $0\\le y\\le1-x^4$이다.",
+        "직선 $x=5$를 축으로 회전시키므로 원통껍질법을 쓰면 반지름은 $5-x$, 높이는 $1-x^4$이다.",
+        "$V=\\int_{-1}^{1}2\\pi(5-x)(1-x^4)\\,dx$이고 홀함수 부분은 사라지므로 $V=10\\pi\\int_{-1}^{1}(1-x^4)\\,dx=16\\pi$이다."
+      ],
+      "concepts": [
+        {"title": "회전체", "items": ["원통껍질법", "축이 영역 밖에 있는 경우"]},
+        {"title": "적분", "items": ["짝함수와 홀함수"]}
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{8}{9}$",
+      "explanation": [
+        "주어진 급수는 $\\sum_{n=1}^{\\infty}\\frac{n}{2^{2n-1}}=2\\sum_{n=1}^{\\infty}n\\left(\\frac14\\right)^n$이다.",
+        "$\\sum_{n=1}^{\\infty}nr^n=\\frac{r}{(1-r)^2}$을 사용한다.",
+        "$r=\\frac14$를 대입하면 값은 $2\\cdot\\frac{1/4}{(3/4)^2}=\\frac89$이다."
+      ],
+      "concepts": [
+        {"title": "급수", "items": ["기하급수의 미분", "$\\sum nr^n$"]},
+        {"title": "수렴", "items": ["$|r|<1$"]}
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\ln 2$",
+      "explanation": [
+        "영역 $x^2+y^2\\le a$는 극좌표에서 $0\\le r\\le\\sqrt a$이다.",
+        "$\\iint_R e^{x^2+y^2}\\,dA=2\\pi\\int_0^{\\sqrt a}e^{r^2}r\\,dr=\\pi(e^a-1)$이다.",
+        "$\\pi(e^a-1)=\\pi$이므로 $e^a=2$, 따라서 $a=\\ln2$이다."
+      ],
+      "concepts": [
+        {"title": "이중적분", "items": ["극좌표 변환", "야코비안 $r$"]},
+        {"title": "지수함수", "items": ["치환적분"]}
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$1-\\frac{\\pi}{4}$",
+      "explanation": [
+        "제1사분면에서 두 곡선의 교점은 $1+\\sin\\theta=3\\sin\\theta$에서 $\\sin\\theta=\\frac12$, 즉 $\\theta=\\frac{\\pi}{6}$이다.",
+        "조건을 만족하는 영역은 $0\\le\\theta\\le\\frac{\\pi}{6}$에서 $3\\sin\\theta\\le r\\le1+\\sin\\theta$이다.",
+        "넓이는 $\\frac12\\int_0^{\\pi/6}\\{(1+\\sin\\theta)^2-(3\\sin\\theta)^2\\}\\,d\\theta=1-\\frac{\\pi}{4}$이다."
+      ],
+      "concepts": [
+        {"title": "극좌표", "items": ["극곡선 사이의 넓이", "교점 각도"]},
+        {"title": "적분", "items": ["$\\frac12\\int r^2d\\theta$"]}
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "ㄱ, ㄷ",
+      "explanation": [
+        "$n\\ge3$이면 $\\ln n>1$이므로 $b_n=\\frac{1}{n(\\ln n)^2}\\le a_n=\\frac{1}{n\\ln n}$이고, $\\ln(n!)\\le n\\ln n$이므로 $a_n\\le c_n$이다. 따라서 ㄱ은 참이다.",
+        "$\\sum\\frac{1}{n(\\ln n)^2}$은 적분판정법에서 $p=2>1$인 로그형 급수이므로 수렴한다. 따라서 ㄴ은 거짓이다.",
+        "$c_n=\\frac1{\\ln(n!)}\\ge\\frac1{n\\ln n}$이고 $\\sum\\frac1{n\\ln n}$은 발산하므로 비교판정법에 의해 ㄷ은 참이다."
+      ],
+      "concepts": [
+        {"title": "급수 판정", "items": ["적분판정법", "비교판정법"]},
+        {"title": "로그", "items": ["$\\ln(n!)\\le n\\ln n$", "로그형 조화급수"]}
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{\\pi}{2}$",
+      "explanation": [
+        "$F(x)=f(\\sin x)$라 두면 $F(\\pi-x)=f(\\sin(\\pi-x))=f(\\sin x)=F(x)$이다.",
+        "$I=\\int_0^{\\pi}xF(x)\\,dx$라 하면 치환 $u=\\pi-x$로 $I=\\int_0^{\\pi}(\\pi-u)F(u)\\,du$이다.",
+        "따라서 $2I=\\pi\\int_0^{\\pi}F(u)\\,du$이므로 $I=\\frac{\\pi}{2}\\int_0^{\\pi}f(\\sin x)\\,dx$이고 $a=\\frac{\\pi}{2}$이다."
+      ],
+      "concepts": [
+        {"title": "정적분", "items": ["대칭성", "$x\\mapsto\\pi-x$ 치환"]},
+        {"title": "함수", "items": ["$\\sin(\\pi-x)=\\sin x$"]}
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{\\pi\\ln 3}{4}$",
+      "explanation": [
+        "$H(x)=\\frac{\\sin x}{4-\\cos^2x}$라 두면 $H(\\pi-x)=H(x)$이다.",
+        "대칭성으로 $\\int_0^{\\pi}xH(x)\\,dx=\\frac{\\pi}{2}\\int_0^{\\pi}H(x)\\,dx$이다.",
+        "$u=\\cos x$로 치환하면 $\\int_0^{\\pi}\\frac{\\sin x}{4-\\cos^2x}\\,dx=\\int_{-1}^{1}\\frac{du}{4-u^2}=\\frac12\\ln3$이므로 전체 값은 $\\frac{\\pi\\ln3}{4}$이다."
+      ],
+      "concepts": [
+        {"title": "정적분", "items": ["대칭성", "삼각치환"]},
+        {"title": "적분", "items": ["$\\int\\frac{du}{a^2-u^2}$"]}
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$6$",
+      "explanation": [
+        "$f(x)=Ax^2+Bx+9$라 두면 $f'(0)=B$이다.",
+        "$\\frac{f(x)}{x^2(x+3)^2}$의 부정적분이 유리함수이려면 부분분수 전개에서 $\\frac1x$, $\\frac1{x+3}$ 항이 없어야 한다. 즉 로그항의 계수가 모두 $0$이어야 한다.",
+        "$x=0$에서의 $\\frac1x$ 계수는 $\\left(\\frac{f(x)}{(x+3)^2}\\right)'_{x=0}$이고, 이를 $0$으로 두면 $\\frac{9B-54}{81}=0$이므로 $B=6$이다. 따라서 $f'(0)=6$이다."
+      ],
+      "concepts": [
+        {"title": "유리함수 적분", "items": ["부분분수", "로그항 소거"]},
+        {"title": "다항식", "items": ["이차함수 계수", "미분계수"]}
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$6\\pi$",
+      "explanation": [
+        "타원 영역을 $x=2u$, $y=3v$로 바꾸면 $u^2+v^2\\le1$이고 야코비안은 $6$이다.",
+        "따라서 $\\iint_Rx^2\\,dA=\\iint_{u^2+v^2\\le1}4u^2\\cdot6\\,dudv=24\\iint_{u^2+v^2\\le1}u^2\\,dudv$이다.",
+        "단위원에서 $\\iint u^2\\,dA=\\frac{\\pi}{4}$이므로 값은 $24\\cdot\\frac{\\pi}{4}=6\\pi$이다."
+      ],
+      "concepts": [
+        {"title": "이중적분", "items": ["타원 영역 변환", "야코비안"]},
+        {"title": "대칭성", "items": ["단위원에서 $\\iint u^2dA$"]}
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$2\\ln 2$",
+      "explanation": [
+        "$x\\to\\infty$에서 적분 integrand는 $\\frac{a}{2x}-\\frac1x=\\frac{a/2-1}{x}$처럼 행동한다. 수렴하려면 $a=2$이어야 한다.",
+        "$a=2$이면 적분값 $b$는 $\\left[\\ln(2x+1)-\\frac1{2022}\\ln(x^{2022}+1)\\right]_0^{\\infty}$이다.",
+        "무한대에서 이 값은 $\\ln2$로 수렴하고 $x=0$에서 값은 $0$이므로 $b=\\ln2$이다. 따라서 $ab=2\\ln2$이다."
+      ],
+      "concepts": [
+        {"title": "이상적분", "items": ["수렴 조건", "로그 발산항 소거"]},
+        {"title": "적분", "items": ["로그 미분형", "무한대 극한"]}
+      ]
     }
   ]
 }

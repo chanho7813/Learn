@@ -4,18 +4,15 @@
   "year": 2024,
   "exam_kind": "math",
   "question_count": 25,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "명지_24_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,253 +21,475 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$6$",
+      "explanation": [
+        "$g'(x)=2xf(x)+x^2f'(x)$이다.",
+        "$x=2$를 대입하면 $g'(2)=4f(2)+4f'(2)=24$이다.",
+        "따라서 $f(2)+f'(2)=6$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "곱의 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{2\\pi}{3}$",
+      "explanation": [
+        "$|\\vec a\\times\\vec b|=\\sqrt{4+1+4}=3$이고 $\\vec a\\cdot\\vec b=-\\sqrt3$이다.",
+        "$|a||b|\\sin\\theta=3$, $|a||b|\\cos\\theta=-\\sqrt3$이다.",
+        "따라서 $\\tan\\theta=-\\sqrt3$이고 제2사분면 각이므로 $\\theta=\\frac{2\\pi}{3}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "벡터",
+          "items": [
+            "내적과 외적",
+            "사잇각"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$8$",
+      "explanation": [
+        "부분적분으로 $\\int_0^2x^2f''(x)dx=[x^2f'(x)]_0^2-\\int_0^22xf'(x)dx$이다.",
+        "다시 부분적분하면 값은 $48-4f(2)+2\\int_0^2f(x)dx=8+2I$이다.",
+        "$8+2I=24$이므로 $I=8$이다."
+      ],
+      "concepts": [
+        {
+          "title": "적분",
+          "items": [
+            "부분적분",
+            "이계도함수"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$1$",
+      "explanation": [
+        "$\\nabla f=(y^2z^3,2xyz^3,3xy^2z^2)$이고 $P$에서 $\\langle1,4,6\\rangle$이다.",
+        "$P$에서 $Q$ 방향의 단위벡터는 $\\frac1{6}\\langle-2,-4,4\\rangle=\\frac13\\langle-1,-2,2\\rangle$이다.",
+        "방향도함수는 내적 $(-1-8+12)/3=1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "방향도함수",
+          "items": [
+            "그래디언트",
+            "단위방향벡터"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$e^3$",
+      "explanation": [
+        "$2x+e^x=1+3x+O(x^2)$이다.",
+        "따라서 주어진 식은 $(1+3x+O(x^2))^{1/x}$ 꼴이다.",
+        "극한값은 $e^3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극한",
+          "items": [
+            "$e$의 정의",
+            "일차 근사"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$6$",
+      "explanation": [
+        "$A$는 순열행렬이므로 모든 거듭제곱도 각 행과 열에 1이 하나씩 있는 순열행렬이다.",
+        "따라서 $A^{2023}$과 $A^{2024}$의 성분합은 각각 $3$이다.",
+        "$B$의 모든 성분의 합은 $3+3=6$이다."
+      ],
+      "concepts": [
+        {
+          "title": "행렬",
+          "items": [
+            "순열행렬",
+            "주기성"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "ㄱ, ㄷ",
+      "explanation": [
+        "ㄱ은 $1/\\binom{2n}{n}\\sim\\sqrt{\\pi n}/4^n$이므로 수렴한다.",
+        "ㄴ은 $1/(n+\\sqrt n)\\sim1/n$이라 발산한다.",
+        "ㄷ은 감소하는 양항을 가진 교대급수로 수렴하고, ㄹ은 항이 0으로 가지 않아 발산한다."
+      ],
+      "concepts": [
+        {
+          "title": "급수 판정",
+          "items": [
+            "비교판정",
+            "교대급수",
+            "항의 극한"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{\\sqrt{2}(e-1)}{e}$",
+      "explanation": [
+        "$r=e^{-\\theta}$이면 $r'=-e^{-\\theta}$이다.",
+        "길이 integrand는 $\\sqrt{r^2+(r')^2}=\\sqrt2e^{-\\theta}$이다.",
+        "따라서 길이는 $\\sqrt2\\int_0^1e^{-\\theta}d\\theta=\\frac{\\sqrt2(e-1)}{e}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "극곡선의 길이"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$9$",
+      "explanation": [
+        "음함수 미분으로 $2yy'=3x^2+6x$이다.",
+        "$(1,-2)$에서 $m=\\frac{9}{-4}=-\\frac94$이다.",
+        "수평접선은 $3x(x+2)=0$에서 생기며, $ab<0$ 조건에 맞는 점은 $(-2,2)$이다. 따라서 $abm=(-4)(-9/4)=9$이다."
+      ],
+      "concepts": [
+        {
+          "title": "음함수 미분",
+          "items": [
+            "접선 기울기",
+            "수평접선"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-\\frac{1}{2}$",
+      "explanation": [
+        "$f(1)=-1$이므로 $g(-1)=1$이다.",
+        "$f'(x)=3x^2-8x+6$이고 $f'(1)=1$이므로 $g'(-1)=1$이다.",
+        "$h'=\\frac{-2gg'}{(1+g^2)^2}$이므로 $h'(-1)=-\\frac12$이다."
+      ],
+      "concepts": [
+        {
+          "title": "역함수",
+          "items": [
+            "역함수 미분",
+            "합성함수 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\ln 2$",
+      "explanation": [
+        "넓이의 극한은 $\\int_1^\\infty\\frac{2}{x+x^3}dx$이다.",
+        "$\\frac{2}{x+x^3}=\\frac2x-\\frac{2x}{1+x^2}$이다.",
+        "적분하면 $[2\\ln x-\\ln(1+x^2)]_1^\\infty=\\ln2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이상적분",
+          "items": [
+            "부분분수",
+            "로그 적분"
+          ]
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$6\\pi-\\frac{4}{3}$",
+      "explanation": [
+        "원과 포물선의 교점은 $x=\\pm2$, $y=2$이다.",
+        "원 내부 중 포물선 위쪽 부분의 넓이는 $\\int_{-2}^{2}(\\sqrt{8-x^2}-x^2/2)dx=2\\pi+\\frac43$이다.",
+        "전체 원의 넓이 $8\\pi$에서 이를 빼면 $6\\pi-\\frac43$이다."
+      ],
+      "concepts": [
+        {
+          "title": "평면영역",
+          "items": [
+            "원과 포물선",
+            "넓이 계산"
+          ]
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{3}{4}$",
+      "explanation": [
+        "$f'(x)=\\sqrt{\\frac{x}{1-x}}$이다.",
+        "곡선 길이 integrand는 $\\sqrt{1+(f')^2}=\\frac1{\\sqrt{1-x}}$이다.",
+        "$\\int_0^a\\frac{dx}{\\sqrt{1-x}}=2(1-\\sqrt{1-a})=1$이므로 $a=\\frac34$이다."
+      ],
+      "concepts": [
+        {
+          "title": "곡선의 길이",
+          "items": [
+            "도함수 계산",
+            "길이 공식"
+          ]
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{27}{2}\\pi$",
+      "explanation": [
+        "교점은 $x=0,3$이다.",
+        "$y$축 회전이므로 원통껍질법을 쓰면 반지름은 $x$, 높이는 $(4-x)-(x-2)^2=3x-x^2$이다.",
+        "$V=2\\pi\\int_0^3x(3x-x^2)dx=\\frac{27\\pi}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "회전체",
+          "items": [
+            "원통껍질법"
+          ]
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{5}{2}$",
+      "explanation": [
+        "$dx/dt=\\frac{2t}{4+t^2}$, $dy/dt=\\frac{2}{4+t^2}$이다.",
+        "따라서 $dy/dx=1/t$이다.",
+        "$\\frac{d^2y}{dx^2}=\\frac{d(1/t)/dt}{dx/dt}=-\\frac{t^2+4}{2t^3}$이고 $t=-1$에서 $\\frac52$이다."
+      ],
+      "concepts": [
+        {
+          "title": "매개변수 미분",
+          "items": [
+            "이계도함수"
+          ]
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{9}{4}<x\\leq\\frac{15}{4}$",
+      "explanation": [
+        "일반항은 $\\frac{[-\\frac43(x-3)]^n}{\\sqrt n+1}$이다.",
+        "수렴하려면 $|x-3|<\\frac34$이므로 기본 구간은 $\\frac94<x<\\frac{15}{4}$이다.",
+        "왼쪽 끝점은 양의 $1/(\\sqrt n+1)$ 꼴로 발산하고, 오른쪽 끝점은 교대급수로 수렴한다."
+      ],
+      "concepts": [
+        {
+          "title": "멱급수",
+          "items": [
+            "수렴반지름",
+            "끝점 판정"
+          ]
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{e-1}{2}$",
+      "explanation": [
+        "$u=x+y$, $v=y$이면 $x=u-v$, $y=v$이고 야코비안은 $1$이다.",
+        "영역은 $0\\le u\\le1$, $0\\le v\\le u$가 된다.",
+        "적분은 $\\int_0^1\\int_0^u e^{u^2}dvdu=\\int_0^1ue^{u^2}du=\\frac{e-1}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "변수변환",
+            "야코비안"
+          ]
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{1}{2025}$",
+      "explanation": [
+        "$\\frac{\\sin x}{x}=\\sum_{k=0}^\\infty(-1)^k\\frac{x^{2k}}{(2k+1)!}$이다.",
+        "$2024=2\\cdot1012$이고 해당 계수는 $1/2025!$이다.",
+        "따라서 $f^{(2024)}(0)=2024!/2025!=\\frac1{2025}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "매클로린 급수",
+            "고계도함수"
+          ]
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$8\\pi^2$",
+      "explanation": [
+        "원 $x^2+y^2=1$은 반지름 1인 원이고, 중심은 회전축 $y=2$에서 거리 2만큼 떨어져 있다.",
+        "파푸스 정리에 의해 곡면의 넓이는 원둘레 $2\\pi$와 중심이 도는 거리 $4\\pi$의 곱이다.",
+        "따라서 겉넓이는 $8\\pi^2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "회전체 표면적",
+          "items": [
+            "파푸스 정리",
+            "토러스"
+          ]
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{15}{32}\\pi$",
+      "explanation": [
+        "양변을 미분하면 $\\frac{f(2x)}{2x^2}=\\frac1{2\\sqrt x}$이다.",
+        "출제 의도상 $f(x)=\\frac{x^{3/2}}{2\\sqrt2}$를 얻는다.",
+        "회전체 부피는 $\\pi\\int_1^2 f(x)^2dx=\\pi\\int_1^2\\frac{x^3}{8}dx=\\frac{15\\pi}{32}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미적분",
+          "items": [
+            "적분방정식 미분",
+            "회전체 부피"
+          ]
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$14$",
+      "explanation": [
+        "영역을 바꾸면 $0\\le x\\le t^{1/3}$, $0\\le y\\le x^3$이다.",
+        "따라서 $f(t)=\\int_0^{t^{1/3}}x^3(20+22\\sin(\\frac\\pi2x^{2024}))dx$이다.",
+        "미분하면 $f'(1)=\\frac13(20+22)=14$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "영역 변환",
+            "상한 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{\\pi}{6}$",
+      "explanation": [
+        "두 물체가 같은 방향으로 움직일 때 $\\theta=\\tan^{-1}(3t)-\\tan^{-1}(t)$이다.",
+        "미분하면 최대는 $\\frac{3}{1+9t^2}=\\frac1{1+t^2}$에서 생기므로 $t=1/\\sqrt3$이다.",
+        "이때 $\\theta=\\frac\\pi3-\\frac\\pi6=\\frac\\pi6$이다."
+      ],
+      "concepts": [
+        {
+          "title": "관련 변화율",
+          "items": [
+            "각도 최적화",
+            "아크탄젠트"
+          ]
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\pi$",
+      "explanation": [
+        "원기둥의 바닥은 원 $(x-1)^2+y^2\\le1$이고 두 평면 사이 높이는 $x$이다.",
+        "부피는 $\\iint_D x\\,dA$이다.",
+        "원판의 중심의 $x$좌표가 1이고 넓이가 $\\pi$이므로 적분값은 $\\pi$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "원판의 무게중심",
+            "평면 사이 부피"
+          ]
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{3}{2}\\ln2$",
+      "explanation": [
+        "$\\sum_{n=0}^\\infty\\frac{x^{2n}}{2n+1}=\\frac1x\\int_0^x\\frac{dt}{1-t^2}$이다.",
+        "여기서 $x=1/3$을 대입하면 주어진 급수가 된다.",
+        "값은 $3\\cdot\\frac12\\ln\\frac{1+1/3}{1-1/3}=\\frac32\\ln2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "기하급수 적분",
+            "로그식"
+          ]
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$1$",
+      "explanation": [
+        "가장 깊은 곳의 물 깊이를 $h$라 하면 $h<1.5$일 때 물이 차는 길이는 $8h$이다.",
+        "수면 넓이는 $A=10\\cdot8h=80h$이고, 물의 부피는 삼각단면을 이용해 $V=40h^2$이다.",
+        "$dV/dt=80h\\,dh/dt=1$이고 $h=1$에서 $dA/dt=80dh/dt=1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "관련 변화율",
+          "items": [
+            "선형 경사",
+            "부피와 수면 넓이"
+          ]
+        }
+      ]
     }
   ]
 }

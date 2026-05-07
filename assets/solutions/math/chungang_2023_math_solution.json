@@ -4,18 +4,15 @@
   "year": 2023,
   "exam_kind": "math",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "중앙_23_수학.pdf 원문과 문제 JSON 기준 직접 풀이 및 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,303 +21,600 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\sqrt{14}$",
+      "explanation": [
+        "주어진 세 입력 벡터를 열로 놓으면 $P=\\begin{bmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{bmatrix}$이고, 출력 벡터들을 열로 놓은 행렬을 $Q$라 하면 표준행렬은 $A=QP^{-1}$이다.",
+        "계산하면 $A=\\begin{bmatrix}1&-5&9\\\\2&3&-8\\\\2&-1&0\\end{bmatrix}$이고, 핵은 $\\operatorname{span}(1,2,1)$이다.",
+        "점 $(1,-2,3)$에서 이 직선까지의 거리 제곱은 $14$이므로 최소 거리는 $\\sqrt{14}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "선형대수",
+          "items": [
+            "선형변환의 표준행렬",
+            "영공간",
+            "점과 직선 사이의 거리"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{3\\pi}{32}$",
+      "explanation": [
+        "$x^{2/3}+y^{2/3}=1$은 astroid이고, 전체 넓이는 $\\frac{3\\pi}{8}$이다.",
+        "문제의 영역은 제1사분면 부분이므로 전체의 $\\frac14$이다.",
+        "따라서 넓이는 $\\frac14\\cdot\\frac{3\\pi}{8}=\\frac{3\\pi}{32}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "매개곡선 넓이",
+          "items": [
+            "Astroid",
+            "대칭성",
+            "제1사분면 넓이"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$5$",
+      "explanation": [
+        "고윳값의 역수의 합은 $\\operatorname{tr}(A^{-1})$이다.",
+        "주어진 행렬 $A$에 대해 계산하면 $3\\operatorname{tr}(A^{-1})=5$이다.",
+        "따라서 $\\frac3\\alpha+\\frac3\\beta+\\frac3\\gamma=5$이다."
+      ],
+      "concepts": [
+        {
+          "title": "행렬",
+          "items": [
+            "고윳값",
+            "역행렬의 trace",
+            "특성값의 역수 합"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\sqrt{\\frac{7}{3}}$",
+      "explanation": [
+        "$3y^2=x^3$은 $x=3t^2$, $y=3t^3$으로 둘 수 있다.",
+        "거리 제곱은 $D(t)=9t^4+(3t^3-\\sqrt3)^2$이다.",
+        "$D'(t)=18t^2(3t^3+2t-\\sqrt3)$이고, 최소는 $t=\\frac1{\\sqrt3}$에서 생긴다.",
+        "이때 거리 제곱은 $\\frac73$이므로 최소 거리는 $\\sqrt{\\frac73}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "최소거리",
+          "items": [
+            "매개변수화",
+            "거리 제곱 최소화"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{1}{3}(e-1)$",
+      "explanation": [
+        "영역은 $0\\le y\\le x^2$, $0\\le x\\le1$로 바꿀 수 있다.",
+        "따라서 적분은 $\\int_0^1 x^2e^{x^3}\\,dx$이다.",
+        "$u=x^3$으로 치환하면 값은 $\\frac13(e-1)$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "적분 순서 변경",
+            "치환적분"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$4$",
+      "explanation": [
+        "행렬은 아래삼각행렬이고 대각성분은 $1$, $\\frac12$이다.",
+        "거듭제곱하면 $a_n=1$, $b_n=0$, $d_n=(\\frac12)^n$이고 $c_n\\to3$이다.",
+        "따라서 네 성분의 합은 $1+0+3+0=4$로 수렴한다."
+      ],
+      "concepts": [
+        {
+          "title": "행렬의 거듭제곱",
+          "items": [
+            "삼각행렬",
+            "고윳값",
+            "극한"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\sqrt{3}-\\frac{\\pi}{6}$",
+      "explanation": [
+        "두 원은 $x^2+y^2=4$, $x^2+(y-\\sqrt3)^2=1$이고 교점은 $(-1,\\sqrt3)$, $(1,\\sqrt3)$이다.",
+        "구하는 영역은 작은 원 안쪽에서 큰 원 바깥쪽에 있는 부분이다.",
+        "$\\int_{-1}^{1}\\{\\sqrt3+\\sqrt{1-x^2}-\\sqrt{4-x^2}\\}\\,dx=\\sqrt3-\\frac\\pi6$이다."
+      ],
+      "concepts": [
+        {
+          "title": "평면도형 넓이",
+          "items": [
+            "두 원의 교점",
+            "원호 사이 넓이",
+            "정적분"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$2\\sqrt{7}-2$",
+      "explanation": [
+        "$P(t,0)$에서 보는 각을 최대로 하려면 두 벡터 $A-P$, $B-P$의 끼인각을 최대로 하면 된다.",
+        "코사인 값을 미분하면 내부 임계점이 $t=-2+2\\sqrt7$이다.",
+        "구간 $0\\le t\\le5$ 안에서 이 값이 각을 최대로 하므로 정답은 $2\\sqrt7-2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "기하 최적화",
+          "items": [
+            "벡터의 끼인각",
+            "코사인 미분",
+            "구간 내 최대"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$6$",
+      "explanation": [
+        "식을 $x$, $y$에 대한 이차식으로 보고 편미분한다.",
+        "$\\frac{\\partial F}{\\partial x}=0$, $\\frac{\\partial F}{\\partial y}=0$을 풀면 최소점은 $(1,1)$이다.",
+        "대입하면 최솟값은 $6$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이차식 최소화",
+          "items": [
+            "편미분",
+            "최소점",
+            "제곱합"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$3$",
+      "explanation": [
+        "$1+t+t^2$을 기저 $B$의 좌표로 나타내면 $[1+t+t^2]_B=(\\frac12,0,\\frac12)^T$이다.",
+        "행렬 $[T]_B$를 곱하면 $T(1+t+t^2)$의 $B$좌표는 $(\\frac32,-\\frac12,4)^T$이다.",
+        "이를 표준 다항식으로 바꾸면 $p(t)=\\frac{11}{2}+\\frac{15}{2}t+5t^2$이므로 $p(-1)=3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "좌표벡터",
+          "items": [
+            "순서기저",
+            "선형사상 행렬표현",
+            "기저 변환"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$2$",
+      "explanation": [
+        "$\\dim N(A)=n-r=7$, $\\dim N(A^T)=m-r=2$이다.",
+        "$N(A^TA)=N(A)$이므로 $k=7$이다.",
+        "따라서 $m-n+k=(r+2)-(r+7)+7=2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "선형대수",
+          "items": [
+            "Rank-nullity",
+            "전치행렬의 영공간",
+            "$A^TA$의 영공간"
+          ]
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{1}{5}$",
+      "explanation": [
+        "$f(g(x))=x$이므로 $g$는 $f$의 역함수이다.",
+        "역함수 미분법에 의해 $g'(x)=\\frac1{f'(g(x))}$이다.",
+        "$f(g(2))=2$이고 $f'(u)=1+f(u)^2$이므로 $f'(g(2))=1+2^2=5$이다.",
+        "따라서 $g'(2)=\\frac15$이다."
+      ],
+      "concepts": [
+        {
+          "title": "역함수 미분",
+          "items": [
+            "합성함수 미분",
+            "역함수의 도함수"
+          ]
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$1$",
+      "explanation": [
+        "$y=x^{\\sin x}$에서 양변에 로그를 취하면 $\\ln y=\\sin x\\ln x$이다.",
+        "미분하면 $\\frac{y'}y=\\cos x\\ln x+\\frac{\\sin x}{x}$이다.",
+        "$x=\\frac\\pi2$, $y=\\frac\\pi2$를 대입하면 $y'=1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "로그미분",
+          "items": [
+            "변수 지수 함수",
+            "접선의 기울기"
+          ]
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-3\\sqrt{2}$",
+      "explanation": [
+        "$F=x^4+y^4+z^4-3x^2y^2z^2$로 두면 접평면의 법선벡터는 $\\nabla F$이다.",
+        "$(1,1,\\sqrt2)$에서 $\\nabla F=(-8,-8,2\\sqrt2)$이다.",
+        "접평면에 $(0,0,a)$를 대입하면 $a=-3\\sqrt2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "접평면",
+          "items": [
+            "음함수의 그래디언트",
+            "법선벡터",
+            "축과의 교점"
+          ]
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{1}{6}$",
+      "explanation": [
+        "$\\sinh x=x+\\frac{x^3}{3!}+O(x^5)$이다.",
+        "따라서 $\\sinh x-x=\\frac{x^3}{6}+O(x^5)$이다.",
+        "$x^3$으로 나눈 극한은 $\\frac16$이다."
+      ],
+      "concepts": [
+        {
+          "title": "테일러 전개",
+          "items": [
+            "쌍곡선함수",
+            "극한"
+          ]
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\sqrt{5}$",
+      "explanation": [
+        "$y^2=2x$ 위의 점을 $(\\frac{y^2}{2},y)$로 둔다.",
+        "거리 제곱은 $D(y)=(\\frac{y^2}{2}-1)^2+(y-4)^2$이다.",
+        "$D'(y)=(y-2)(y^2+2y+4)$이므로 최소는 $y=2$에서 생긴다.",
+        "이때 거리 제곱은 $5$이므로 최소 거리는 $\\sqrt5$이다."
+      ],
+      "concepts": [
+        {
+          "title": "최소거리",
+          "items": [
+            "포물선 매개화",
+            "거리 제곱 최소화"
+          ]
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\pi(2-\\ln3)$",
+      "explanation": [
+        "$x^3-x^2-x+1=(x-1)^2(x+1)$이다.",
+        "$y$축 회전체이므로 원통껍질법을 쓰면 부피는 $2\\pi\\int_0^{1/2}x\\cdot\\frac{2}{x^3-x^2-x+1}\\,dx$이다.",
+        "계산하면 $\\pi(2-\\ln3)$이다."
+      ],
+      "concepts": [
+        {
+          "title": "회전체 부피",
+          "items": [
+            "원통껍질법",
+            "부분분수",
+            "정적분"
+          ]
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$4$",
+      "explanation": [
+        "직사각형의 꼭짓점을 $(\\pm x,\\pm y)$로 두면 넓이는 $4xy$이다.",
+        "타원 조건에서 $y=2\\sqrt{1-x^2}$이다.",
+        "$4x\\cdot2\\sqrt{1-x^2}$의 최댓값은 $x^2=\\frac12$에서 $4$이다."
+      ],
+      "concepts": [
+        {
+          "title": "최대넓이",
+          "items": [
+            "타원",
+            "내접 직사각형",
+            "대칭성"
+          ]
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\ln\\frac{1+\\sqrt{3}}{2}$",
+      "explanation": [
+        "$1+\\sin x-\\cos x=1+\\sqrt2\\sin(x-\\frac\\pi4)$로 정리할 수 있다.",
+        "또는 $t=\\tan\\frac{x}{2}$ 치환을 쓰면 유리함수 적분으로 바뀐다.",
+        "정적분값은 $\\ln\\frac{1+\\sqrt3}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "삼각함수 적분",
+          "items": [
+            "반각치환",
+            "정적분"
+          ]
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$3$",
+      "explanation": [
+        "(가)는 $\\sum\\frac1{n(\\ln n)^2}$ 꼴이므로 수렴한다.",
+        "(나)는 일반항이 대략 $(\\frac23)^n$ 꼴이므로 수렴한다.",
+        "(다)는 절댓값 급수는 발산하지만 교대급수 판정으로 수렴한다.",
+        "(라)는 $\\sin(\\frac1n)\\sim\\frac1n$이므로 발산한다. 따라서 수렴하는 것은 3개이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수 판정",
+          "items": [
+            "적분판정",
+            "근판정",
+            "교대급수",
+            "비교판정"
+          ]
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\ln2$",
+      "explanation": [
+        "$|x|<1$에서 $\\sum_{n=1}^{\\infty}\\frac{x^n}{n}=-\\ln(1-x)$이다.",
+        "$x=\\frac12$를 대입하면 $f(\\frac12)=-\\ln\\frac12=\\ln2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "멱급수",
+          "items": [
+            "로그함수 전개",
+            "$-\\ln(1-x)$"
+          ]
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$12$",
+      "explanation": [
+        "$(x+y)^3-x^3-y^3=3x^2y+3xy^2$이다.",
+        "$g(x)=f(x)-\\frac{x^3}{3}$으로 두면 $g(x+y)=g(x)+g(y)$이다.",
+        "조건 (ii)에서 $g(x)/x\\to1$이므로 $g(x)=x$이다.",
+        "따라서 $f(x)=x+\\frac{x^3}{3}$이고 $f(3)=3+9=12$이다."
+      ],
+      "concepts": [
+        {
+          "title": "함수방정식",
+          "items": [
+            "Cauchy 방정식",
+            "극한 조건",
+            "삼차식 보정"
+          ]
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{2}{e}$",
+      "explanation": [
+        "$r^2=x^2+y^2$가 고정되어 있을 때 $x^2+2y^2$의 최댓값은 $2r^2$이다.",
+        "따라서 전체 함수는 $2r^2e^{-r^2}$ 이하이다.",
+        "$s=r^2$로 두면 $2se^{-s}$의 최댓값은 $s=1$에서 $\\frac2e$이다."
+      ],
+      "concepts": [
+        {
+          "title": "다변수 최댓값",
+          "items": [
+            "반지름 치환",
+            "방향별 최대",
+            "일변수 최적화"
+          ]
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{2}{3}\\ln3$",
+      "explanation": [
+        "적분 영역은 $0\\le y\\le2$, $0\\le x\\le y^2$로 바꿀 수 있다.",
+        "적분은 $\\int_0^2\\frac{y^2}{y^3+1}\\,dy$이다.",
+        "$u=y^3+1$로 치환하면 값은 $\\frac13\\ln9=\\frac23\\ln3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "적분 순서 변경",
+            "치환적분"
+          ]
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$1$",
+      "explanation": [
+        "$\\mathbf F=\\frac{(-y,x)}{x^2+y^2}$는 각도 함수 $\\theta$의 그래디언트처럼 작용한다.",
+        "곡선 $\\mathbf r(t)=(e^t\\cos t,e^t\\sin t)$의 편각은 $t$이다.",
+        "따라서 선적분은 편각 변화량 $1-0=1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "선적분",
+          "items": [
+            "극좌표 편각",
+            "각도 변화량",
+            "보존장과 다가함수"
+          ]
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$8\\pi$",
+      "explanation": [
+        "구면의 반지름은 $2$이고 적분함수의 분모는 점 $(0,0,1)$까지의 거리이다.",
+        "구면좌표에서 거리는 $\\sqrt{5-4\\cos\\phi}$, 면적요소는 $4\\sin\\phi\\,d\\phi d\\theta$이다.",
+        "$\\int_0^{2\\pi}\\int_0^{\\pi}\\frac{4\\sin\\phi}{\\sqrt{5-4\\cos\\phi}}\\,d\\phi d\\theta=8\\pi$이다."
+      ],
+      "concepts": [
+        {
+          "title": "표면적분",
+          "items": [
+            "구면좌표",
+            "거리 함수",
+            "면적요소"
+          ]
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$16$",
+      "explanation": [
+        "폐곡면 적분이므로 발산정리를 쓴다.",
+        "$\\nabla\\cdot\\mathbf F=1+2+3=6$이다.",
+        "영역은 $-1\\le x\\le1$, $0\\le y\\le2$, $0\\le z\\le1-x^2$이고 부피는 $\\frac83$이다.",
+        "따라서 플럭스는 $6\\cdot\\frac83=16$이다."
+      ],
+      "concepts": [
+        {
+          "title": "벡터해석",
+          "items": [
+            "발산정리",
+            "폐곡면 플럭스",
+            "부피적분"
+          ]
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{4}{3}\\pi(e-1)$",
+      "explanation": [
+        "공 $B$에서 구면좌표를 쓰면 적분은 $4\\pi\\int_0^1 r^2e^{r^3}\\,dr$이다.",
+        "$u=r^3$으로 치환하면 $r^2dr=\\frac13du$이다.",
+        "따라서 값은 $\\frac{4\\pi}{3}(e-1)$이다."
+      ],
+      "concepts": [
+        {
+          "title": "삼중적분",
+          "items": [
+            "구면좌표",
+            "치환적분"
+          ]
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{2}{3}(1+\\cot(1))$",
+      "explanation": [
+        "$f_x=e^{x^2+y^2}(1+2x^2)\\sin(y^2)$이다.",
+        "$f_y=2xy e^{x^2+y^2}\\{\\sin(y^2)+\\cos(y^2)\\}$이다.",
+        "$(1,1)$에서 $a=3e^2\\sin1$, $b=2e^2(\\sin1+\\cos1)$이므로 $\\frac ba=\\frac23(1+\\cot1)$이다."
+      ],
+      "concepts": [
+        {
+          "title": "그래디언트",
+          "items": [
+            "편미분",
+            "곱의 미분",
+            "삼각함수 비"
+          ]
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$30$",
+      "explanation": [
+        "주어진 행렬은 위쪽 $2\\times2$ 블록과 아래쪽 $3\\times3$ 블록으로 나뉘는 블록대각행렬이다.",
+        "위 블록의 행렬식은 $3\\cdot2-1=5$이다.",
+        "아래 블록 $\\begin{bmatrix}1&1&0\\\\1&3&1\\\\2&0&2\\end{bmatrix}$의 행렬식은 $6$이다.",
+        "전체 행렬식은 $5\\cdot6=30$이다."
+      ],
+      "concepts": [
+        {
+          "title": "행렬식",
+          "items": [
+            "블록대각행렬",
+            "소행렬식",
+            "행렬식의 곱"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -4,18 +4,15 @@
   "year": 2020,
   "exam_kind": "math",
   "question_count": 25,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "명지_20_수학.pdf 원문 대조 및 직접 풀이, SymPy/직접 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,253 +21,474 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$2e^2$",
+      "explanation": [
+        "$f_y=e^{x^2+y^2}\\{-2y+2y(x^2-y^2)\\}$이다.",
+        "$(1,-1)$에서는 $x^2-y^2=0$, $e^{x^2+y^2}=e^2$이다.",
+        "따라서 $f_y(1,-1)=2e^2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "편미분",
+          "items": [
+            "곱의 미분",
+            "합성함수 미분"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$4$",
+      "explanation": [
+        "계수행렬은 $A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$이다.",
+        "$\\det(A^tA)=\\det(A)^2$이고 $\\det A=4-6=-2$이다.",
+        "따라서 $\\det(A^tA)=4$이다."
+      ],
+      "concepts": [
+        {
+          "title": "선형대수",
+          "items": [
+            "계수행렬",
+            "행렬식의 곱셈 성질"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$2$",
+      "explanation": [
+        "$\\vec v\\cdot(\\vec v\\times\\vec w)=0$이다.",
+        "$\\vec w\\times\\vec v=-(\\vec v\\times\\vec w)$이므로 $(\\vec w\\times\\vec v)\\cdot\\vec u=-1$이다.",
+        "전체 값은 $0-2(-1)=2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "벡터",
+          "items": [
+            "스칼라 삼중곱",
+            "외적의 반대칭성"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\ln \\frac{9}{2}$",
+      "explanation": [
+        "$\\frac{3x+1}{x^2+x}=\\frac1x+\\frac2{x+1}$이다.",
+        "적분값은 $[\\ln x+2\\ln(x+1)]_1^2$이다.",
+        "따라서 $\\ln2+2\\ln3-2\\ln2=\\ln\\frac92$이다."
+      ],
+      "concepts": [
+        {
+          "title": "적분",
+          "items": [
+            "부분분수 분해",
+            "로그 적분"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$2$",
+      "explanation": [
+        "$\\sin^{-1}x=x+O(x^3)$이다.",
+        "따라서 $(\\sin^{-1}x)^2=x^2+O(x^4)$이다.",
+        "이차항 계수가 $1$이므로 $f''(0)=2$이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "역삼각함수",
+            "테일러 전개"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$0$",
+      "explanation": [
+        "$f'(x)=2x(1-x^2)e^{x^2}$이다.",
+        "$f''(x)=2e^{x^2}(1-x^2-2x^4)$이다.",
+        "아래로 볼록인 구간은 $x^2<\\frac12$이므로 포함되는 정수는 $0$뿐이다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "오목/볼록",
+            "이계도함수"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$1$",
+      "explanation": [
+        "계수는 $a_n=\\frac{\\ln n}{n^2}$이다.",
+        "$\\limsup |a_n|^{1/n}=1$이다.",
+        "수렴반지름은 $R=1$이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "멱급수 수렴반지름",
+            "근판정법"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{\\sqrt{5}}{2}\\pi$",
+      "explanation": [
+        "극곡선 길이는 $\\int\\sqrt{r^2+(dr/d\\theta)^2}\\,d\\theta$이다.",
+        "$r=\\sin\\theta+2\\cos\\theta$, $r'=\\cos\\theta-2\\sin\\theta$이므로 $r^2+(r')^2=5$이다.",
+        "길이는 $\\int_0^{\\pi/2}\\sqrt5\\,d\\theta=\\frac{\\sqrt5}{2}\\pi$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "극곡선의 길이"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "ㄱ, ㄴ",
+      "explanation": [
+        "ㄱ은 지수함수 급수이므로 수렴한다.",
+        "ㄴ은 지수함수 $e^n$이 로그보다 빠르게 커지므로 수렴한다.",
+        "ㄷ은 $n^n/n!$의 항이 0으로 가지 않으므로 발산한다."
+      ],
+      "concepts": [
+        {
+          "title": "급수 판정",
+          "items": [
+            "비율판정법",
+            "항의 극한 판정"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$2\\sqrt{3}$",
+      "explanation": [
+        "$f(t)=\\|\\vec r(t)\\|$이면 $f'(t)=\\frac{\\vec r(t)\\cdot\\vec r\\,'(t)}{\\|\\vec r(t)\\|}$이다.",
+        "$t=0$에서 분자는 $1+2+3=6$, 분모는 $\\sqrt3$이다.",
+        "따라서 $f'(0)=2\\sqrt3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "벡터함수",
+          "items": [
+            "벡터의 크기 미분",
+            "내적"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\sqrt{7}$",
+      "explanation": [
+        "$(-2,\\frac{2\\pi}{3})$는 직교좌표로 $(1,-\\sqrt3)$이다.",
+        "$(\\sqrt3,\\frac\\pi6)$는 $(\\frac32,\\frac{\\sqrt3}{2})$이다.",
+        "거리제곱은 $\\frac14+\\frac{27}{4}=7$이므로 거리는 $\\sqrt7$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "음의 반지름",
+            "직교좌표 변환"
+          ]
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$x-1=\\frac{y-1}{2}=\\frac{z-5}{12}$",
+      "explanation": [
+        "교선을 $\\langle x,x^2,4x^2+x^4\\rangle$로 매개화한다.",
+        "미분하면 $\\langle1,2x,8x+4x^3\\rangle$이다.",
+        "$x=1$에서 방향벡터는 $\\langle1,2,12\\rangle$이다."
+      ],
+      "concepts": [
+        {
+          "title": "공간곡선",
+          "items": [
+            "교선의 매개화",
+            "접선 방향벡터"
+          ]
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{\\pi^3}{72}$",
+      "explanation": [
+        "$u=\\tan^{-1}(x^2)$이면 $du=\\frac{2x}{1+x^4}\\,dx$이다.",
+        "$A=\\frac12\\int_0^{\\pi/2}\\sqrt u\\,du=\\frac13(\\frac\\pi2)^{3/2}$이다.",
+        "따라서 $A^2=\\frac{\\pi^3}{72}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "치환적분",
+          "items": [
+            "역탄젠트 치환",
+            "이상적분"
+          ]
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{4}{15}\\pi$",
+      "explanation": [
+        "영역은 $0\\le x\\le1$, 높이는 $x^2-x^3$이다.",
+        "축이 $x=-1$이므로 원통껍질 반지름은 $x+1$이다.",
+        "$V=2\\pi\\int_0^1(x+1)(x^2-x^3)dx=\\frac{4\\pi}{15}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "회전체",
+          "items": [
+            "원통껍질법"
+          ]
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$7\\sqrt{3}$",
+      "explanation": [
+        "극곡선 접선 기울기는 $\\frac{r'\\sin\\theta+r\\cos\\theta}{r'\\cos\\theta-r\\sin\\theta}$이다.",
+        "$\\theta=\\frac\\pi6$에서 $r=5$, $r'=2\\sqrt3$이다.",
+        "분자는 $\\frac{7\\sqrt3}{2}$, 분모는 $\\frac12$이므로 기울기는 $7\\sqrt3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "극곡선의 접선 기울기"
+          ]
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{200}{101}$",
+      "explanation": [
+        "높이 $0.3$ km, 수평거리 $x$에 대해 $\\tan\\theta=0.3/x$이다.",
+        "$dx/dt=-60$이고 $\\sec^2\\theta\\,d\\theta/dt=-0.3x^{-2}dx/dt$이다.",
+        "$x=3$에서 우변은 $2$, $\\sec^2\\theta=101/100$이므로 $d\\theta/dt=200/101$이다."
+      ],
+      "concepts": [
+        {
+          "title": "관련 변화율",
+          "items": [
+            "삼각비 미분",
+            "단위 통일"
+          ]
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$1<x\\leq 5$",
+      "explanation": [
+        "일반항은 $\\frac{(-1)^n}{n}\\left(\\frac{x-3}{2}\\right)^n$이다.",
+        "반지름은 $2$이므로 $1<x<5$이다.",
+        "$x=1$에서는 조화급수로 발산하고, $x=5$에서는 교대조화급수로 수렴한다."
+      ],
+      "concepts": [
+        {
+          "title": "멱급수",
+          "items": [
+            "수렴구간",
+            "끝점 판정"
+          ]
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{\\pi}{16}$",
+      "explanation": [
+        "적분 순서를 바꾸면 $0\\le x\\le1$, $0\\le y\\le x^2$이다.",
+        "적분은 $\\int_0^1\\frac{x^3}{x^8+1}\\,dx$이다.",
+        "$u=x^4$로 치환하면 $\\frac14\\int_0^1\\frac{du}{u^2+1}=\\frac\\pi{16}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "이중적분",
+          "items": [
+            "적분 순서 변경",
+            "치환적분"
+          ]
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "ㄱ, ㄴ, ㄷ",
+      "explanation": [
+        "ㄱ은 평균값정리와 $|\\sin c|\\le1$로 참이다.",
+        "ㄴ은 $g-f$의 도함수가 양수이므로 참이다.",
+        "ㄷ은 홀함수 조건과 평균값정리를 $[-b,b]$에 적용하면 성립한다."
+      ],
+      "concepts": [
+        {
+          "title": "미분",
+          "items": [
+            "평균값정리",
+            "홀함수"
+          ]
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "ㄱ, ㄷ",
+      "explanation": [
+        "ㄱ은 $\\sum\\frac1{n(\\ln n)^2}$ 꼴이므로 수렴한다.",
+        "ㄴ은 충분히 큰 $n$에서 $1/(1+(\\ln n)^2)>1/n$이므로 발산한다.",
+        "ㄷ은 $\\sin(1/n^2)\\sim1/n^2$라서 비교판정으로 수렴한다."
+      ],
+      "concepts": [
+        {
+          "title": "급수 판정",
+          "items": [
+            "적분판정법",
+            "비교판정법"
+          ]
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$-\\frac{7}{3}\\pi+\\frac{11\\sqrt{3}}{2}$",
+      "explanation": [
+        "조건은 $3-2\\sin\\theta\\le2$이므로 $\\theta\\in[\\frac\\pi6,\\frac{5\\pi}{6}]$이다.",
+        "넓이는 $\\frac12\\int_{\\pi/6}^{5\\pi/6}\\{4-(3-2\\sin\\theta)^2\\}\\,d\\theta$이다.",
+        "계산하면 $-\\frac{7\\pi}{3}+\\frac{11\\sqrt3}{2}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "극좌표",
+          "items": [
+            "극곡선 사이의 넓이"
+          ]
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{\\pi}{4}-\\frac{4}{9}$",
+      "explanation": [
+        "$x^2+y^2\\le y$는 $0\\le r\\le\\sin\\theta$, $0\\le\\theta\\le\\pi$이다.",
+        "높이는 $1-r$이므로 부피는 $\\int_0^\\pi\\int_0^{\\sin\\theta}(1-r)r\\,dr\\,d\\theta$이다.",
+        "값은 $\\frac\\pi4-\\frac49$이다."
+      ],
+      "concepts": [
+        {
+          "title": "삼중적분",
+          "items": [
+            "극좌표 영역",
+            "높이 적분"
+          ]
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "⑤",
+      "answer_text": "$\\frac{4040}{4041}$",
+      "explanation": [
+        "$I_n=\\int_0^1(1-x^2)^n dx$라 두고 $x=\\sin\\theta$로 치환한다.",
+        "$I_n=\\int_0^{\\pi/2}\\cos^{2n+1}\\theta d\\theta$이다.",
+        "점화식에서 $I_n/I_{n-1}=\\frac{2n}{2n+1}$이므로 답은 $\\frac{4040}{4041}$이다."
+      ],
+      "concepts": [
+        {
+          "title": "정적분",
+          "items": [
+            "삼각치환",
+            "점화식"
+          ]
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\sqrt{3}$",
+      "explanation": [
+        "곡면의 법선벡터는 $\\nabla(ze^{x\\sin y}-1)$이고, $P$에서 $\\langle1,0,1\\rangle$이다.",
+        "$\\nabla f(P)=\\langle0,1,2\\rangle$이다.",
+        "이를 접평면에 정사영하면 $\\langle-1,1,1\\rangle$이므로 최댓값은 그 크기 $\\sqrt3$이다."
+      ],
+      "concepts": [
+        {
+          "title": "방향미분",
+          "items": [
+            "접평면",
+            "정사영"
+          ]
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{1}{e}$",
+      "explanation": [
+        "$a^{\\ln n}=n^{\\ln a}$이다.",
+        "급수 $\\sum n^{\\ln a}$는 $\\ln a<-1$일 때 수렴한다.",
+        "따라서 $a<e^{-1}$이어야 하므로 $r$의 최댓값은 $1/e$이다."
+      ],
+      "concepts": [
+        {
+          "title": "급수",
+          "items": [
+            "p-급수 판정",
+            "로그와 지수 변환"
+          ]
+        }
+      ]
     }
   ]
 }

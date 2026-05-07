@@ -4,12 +4,12 @@
   "year": 2024,
   "exam_kind": "english",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이"
   },
   "schema": {
     "number": "문제 번호",
@@ -25,333 +25,766 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "perceptible",
+      "explanation": [
+        "discernible은 알아볼 수 있는, 식별 가능한이라는 뜻입니다.",
+        "perceptible이 감지 가능한이라는 뜻으로 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "discernible",
+          "meaning": "식별 가능한"
+        },
+        {
+          "word": "perceptible",
+          "meaning": "감지 가능한"
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "expertise",
+      "explanation": [
+        "prowess는 뛰어난 기량이나 능력입니다.",
+        "determination, skill, teamwork와 함께 쓰였으므로 expertise가 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "prowess",
+          "meaning": "뛰어난 기량"
+        },
+        {
+          "word": "expertise",
+          "meaning": "전문적 능력"
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "unyielding",
+      "explanation": [
+        "adamant는 결심이 확고하여 물러서지 않는다는 뜻입니다.",
+        "unyielding이 굽히지 않는다는 뜻으로 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "adamant",
+          "meaning": "완강한"
+        },
+        {
+          "word": "unyielding",
+          "meaning": "굽히지 않는"
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "abolished",
+      "explanation": [
+        "마녀 처형과 이단 박해 같은 잔혹한 관행이 상식에서 상상 불가능한 것으로 바뀐 흐름입니다.",
+        "관행이 폐지되었다는 뜻의 abolished가 적절합니다."
+      ],
+      "concepts": [
+        "빈칸 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "abolish",
+          "meaning": "폐지하다"
+        },
+        {
+          "word": "persecution",
+          "meaning": "박해"
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "adversity",
+      "explanation": [
+        "얇고 얼어붙는 공기 속의 극한 상황은 어려움과 역경을 뜻합니다.",
+        "adversity가 역경이라는 뜻으로 빈칸에 맞습니다."
+      ],
+      "concepts": [
+        "빈칸 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "adversity",
+          "meaning": "역경"
+        },
+        {
+          "word": "freezing",
+          "meaning": "몹시 추운"
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "that’s known as dark energy",
+      "explanation": [
+        "주어 the remainder에 이어 is known as dark energy가 되어야 합니다.",
+        "is that’s known as는 is와 that is가 겹친 비문입니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "관계절 중복"
+      ],
+      "vocab": [
+        {
+          "word": "remainder",
+          "meaning": "나머지"
+        },
+        {
+          "word": "dark energy",
+          "meaning": "암흑 에너지"
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "which gods the vases offered to",
+      "explanation": [
+        "which gods the vases offered to는 수동 의미인데 be동사가 빠져 있습니다.",
+        "which gods the vases were offered to가 되어야 합니다."
+      ],
+      "concepts": [
+        "수동태",
+        "간접의문문"
+      ],
+      "vocab": [
+        {
+          "word": "vase",
+          "meaning": "꽃병"
+        },
+        {
+          "word": "commission",
+          "meaning": "의뢰하다"
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "has she been a gentleman physician",
+      "explanation": [
+        "가정법 과거완료의 도치형은 had she been입니다.",
+        "has she been은 과거 사실 반대 가정에 맞지 않습니다."
+      ],
+      "concepts": [
+        "가정법 과거완료",
+        "도치"
+      ],
+      "vocab": [
+        {
+          "word": "groundwork",
+          "meaning": "토대"
+        },
+        {
+          "word": "physician",
+          "meaning": "의사"
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "its decision without appreciating its profound",
+      "explanation": [
+        "those who choose to study it의 소유격은 their가 필요합니다.",
+        "its decision은 앞의 복수 사람을 받을 수 없으므로 their decision이 맞습니다."
+      ],
+      "concepts": [
+        "대명사 일치"
+      ],
+      "vocab": [
+        {
+          "word": "implication",
+          "meaning": "함의"
+        },
+        {
+          "word": "profound",
+          "meaning": "심오한"
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "should be more suspicious",
+      "explanation": [
+        "if only his society had experienced는 과거 사실 반대 가정입니다.",
+        "주절도 should have been more suspicious가 되어야 하므로 should be가 틀렸습니다."
+      ],
+      "concepts": [
+        "가정법 과거완료"
+      ],
+      "vocab": [
+        {
+          "word": "suspicious",
+          "meaning": "의심하는"
+        },
+        {
+          "word": "interrogate",
+          "meaning": "심문하다"
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "however",
+      "explanation": [
+        "등록금을 낮추면 등록자가 늘 것이라는 예상과 달리 실제로는 줄어든다고 설명합니다.",
+        "반전 연결사 however가 가장 적절합니다."
+      ],
+      "concepts": [
+        "담화 연결사",
+        "역접"
+      ],
+      "vocab": [
+        {
+          "word": "enrollment",
+          "meaning": "등록"
+        },
+        {
+          "word": "prestige",
+          "meaning": "명성"
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "in an advanced state of rottenness",
+      "explanation": [
+        "빅토리아 중기 이후 영국은 진보가 아니라 퇴보와 부패를 걱정했다고 합니다.",
+        "advanced state of rottenness가 쇠락 인식을 가장 잘 나타냅니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "문맥 대조"
+      ],
+      "vocab": [
+        {
+          "word": "rottenness",
+          "meaning": "부패"
+        },
+        {
+          "word": "degeneration",
+          "meaning": "퇴화"
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "men and women, by nature, have distinct reproductive strategies",
+      "explanation": [
+        "뒤에서 egg strategy와 sperm strategy를 대비해 남녀의 번식 전략 차이를 설명합니다.",
+        "따라서 남성과 여성이 본성상 다른 reproductive strategies를 갖는다는 진술이 핵심입니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "예시 일반화"
+      ],
+      "vocab": [
+        {
+          "word": "reproductive",
+          "meaning": "번식의"
+        },
+        {
+          "word": "strategy",
+          "meaning": "전략"
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "But it turns out that McPherson wasn’t entirely correct.",
+      "explanation": [
+        "McPherson은 남북전쟁이 단수 취급 전환을 가져왔다고 했지만, 자료는 전환이 더 점진적이었다고 말합니다.",
+        "따라서 그의 말이 완전히 맞지는 않았다는 ②가 적절합니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "반박 구조"
+      ],
+      "vocab": [
+        {
+          "word": "singular",
+          "meaning": "단수"
+        },
+        {
+          "word": "gradual",
+          "meaning": "점진적인"
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "For example",
+      "explanation": [
+        "앞문장에 여론조사에서 인종이 큰 요인이 아니었다는 내용이 나오고, Gallup 조사가 그 예로 제시됩니다.",
+        "따라서 For example이 가장 자연스럽습니다."
+      ],
+      "concepts": [
+        "담화 연결사",
+        "예시"
+      ],
+      "vocab": [
+        {
+          "word": "poll",
+          "meaning": "여론조사"
+        },
+        {
+          "word": "conventional wisdom",
+          "meaning": "통념"
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Who was the captain of the Mary Celeste?",
+      "explanation": [
+        "지문은 발견 위치, 화물, 실종 이론은 말하지만 선장 이름은 제시하지 않습니다.",
+        "따라서 답할 수 없는 질문은 선장이 누구였는가입니다."
+      ],
+      "concepts": [
+        "세부 정보 확인"
+      ],
+      "vocab": [
+        {
+          "word": "adrift",
+          "meaning": "표류하는"
+        },
+        {
+          "word": "crew",
+          "meaning": "선원"
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Homo habilis and Homo erectus did not speak language.",
+      "explanation": [
+        "호모 사피엔스에게서만 언어와 관련된 문화 폭발이 나타났다고 설명합니다.",
+        "따라서 habilis와 erectus는 언어를 말하지 못했을 가능성을 추론할 수 있습니다."
+      ],
+      "concepts": [
+        "추론 독해"
+      ],
+      "vocab": [
+        {
+          "word": "arise",
+          "meaning": "발생하다"
+        },
+        {
+          "word": "cultural explosion",
+          "meaning": "문화적 폭발"
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "ignore negative thoughts whenever they arise",
+      "explanation": [
+        "지문은 부정적 생각을 무시하라고 하지 않고, 타당성을 질문하고 긍정적으로 재구성하라고 말합니다.",
+        "따라서 ignore negative thoughts는 극복 방법이 아닙니다."
+      ],
+      "concepts": [
+        "내용 불일치"
+      ],
+      "vocab": [
+        {
+          "word": "apathy",
+          "meaning": "무기력"
+        },
+        {
+          "word": "reframe",
+          "meaning": "재구성하다"
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "Take away the chili pepper, and they will be ecstatic with joy. What babies abhor, children and adults learn to crave.",
+      "explanation": [
+        "글은 성인이 유아기의 맛 기피를 뒤집고 쓴맛, 신맛, 매운맛을 좋아하게 된다는 내용입니다.",
+        "고추를 빼면 기뻐할 것이라는 ④는 매운맛을 갈망한다는 흐름과 반대입니다."
+      ],
+      "concepts": [
+        "문장 제거",
+        "통일성"
+      ],
+      "vocab": [
+        {
+          "word": "aversion",
+          "meaning": "기피"
+        },
+        {
+          "word": "crave",
+          "meaning": "갈망하다"
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "According to history, academic credentials and practical wisdom do not always go together.",
+      "explanation": [
+        "지문은 화려한 학벌이 실제 지혜를 보장하지 않는다는 역사적 사례를 듭니다.",
+        "따라서 학문적 자격과 실천적 지혜가 항상 함께 가지는 않는다는 ③이 요약입니다."
+      ],
+      "concepts": [
+        "요약문 선택"
+      ],
+      "vocab": [
+        {
+          "word": "credentialism",
+          "meaning": "학벌주의"
+        },
+        {
+          "word": "practical wisdom",
+          "meaning": "실천적 지혜"
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "how humans cause climate change",
+      "explanation": [
+        "지문은 산업혁명 이후 인간이 화석연료를 태워 온실가스를 늘렸고 기후를 급격히 따뜻하게 했다고 설명합니다.",
+        "따라서 인간이 기후변화를 일으키는 방식이 주제입니다."
+      ],
+      "concepts": [
+        "주제 찾기"
+      ],
+      "vocab": [
+        {
+          "word": "greenhouse gas",
+          "meaning": "온실가스"
+        },
+        {
+          "word": "fossil fuel",
+          "meaning": "화석연료"
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "His prophecies were written in an obscure and ambiguous style.",
+      "explanation": [
+        "지문은 노스트라다무스의 예언이 cryptic and vague manner로 쓰였다고 합니다.",
+        "obscure and ambiguous style과 같은 의미입니다."
+      ],
+      "concepts": [
+        "내용 일치"
+      ],
+      "vocab": [
+        {
+          "word": "seer",
+          "meaning": "예언자"
+        },
+        {
+          "word": "cryptic",
+          "meaning": "수수께끼 같은"
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "[C]-[B]-[A]",
+      "explanation": [
+        "먼저 [C]에서 식물을 고르고 두 집단으로 나누는 실험 설계를 설명합니다.",
+        "[B]에서 관찰과 결과가 나오고, [A]에서 비료 효과라는 결론을 정리합니다."
+      ],
+      "concepts": [
+        "문단 배열",
+        "실험 절차"
+      ],
+      "vocab": [
+        {
+          "word": "fertilizer",
+          "meaning": "비료"
+        },
+        {
+          "word": "monitor",
+          "meaning": "관찰하다"
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Clean Air, a Luxury that Many Can't Afford",
+      "explanation": [
+        "지문은 실내외 공기오염에서 벗어날 수 없는 가난한 사람들의 환경 불평등을 다룹니다.",
+        "깨끗한 공기가 많은 이들에게는 감당하기 어려운 사치라는 ③이 제목으로 가장 적절합니다."
+      ],
+      "concepts": [
+        "제목 찾기",
+        "환경 불평등"
+      ],
+      "vocab": [
+        {
+          "word": "respite",
+          "meaning": "휴식"
+        },
+        {
+          "word": "inequality",
+          "meaning": "불평등"
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Well-educated elites are more biased than less-educated folk.",
+      "explanation": [
+        "연구 결론은 교육받은 엘리트가 덜 교육받은 사람보다 더 편견이 많다는 것이 아니라, 편견의 대상이 다르다는 것입니다.",
+        "따라서 ③은 연구 결과와 일치하지 않습니다."
+      ],
+      "concepts": [
+        "내용 불일치"
+      ],
+      "vocab": [
+        {
+          "word": "prejudice",
+          "meaning": "편견"
+        },
+        {
+          "word": "disparaging",
+          "meaning": "깔보는"
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Despite the decline of large families and changes in lifestyle, Americans’ ties to family and friends have not changed much since the 1970s.",
+      "explanation": [
+        "조사에 따르면 가족 규모와 생활양식은 바뀌었지만 가족과 친구 관계의 핵심은 크게 변하지 않았습니다.",
+        "따라서 1970년대 이후 미국인의 관계가 크게 변하지 않았다는 ①이 요약입니다."
+      ],
+      "concepts": [
+        "요약문 선택"
+      ],
+      "vocab": [
+        {
+          "word": "social relationship",
+          "meaning": "사회적 관계"
+        },
+        {
+          "word": "counterpart",
+          "meaning": "상응하는 사람"
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "What could have led people to dance themselves to death?",
+      "explanation": [
+        "빈칸 뒤에서는 St. Vitus, 종교 집단, 독성 곰팡이 등 원인 가설을 소개합니다.",
+        "따라서 사람들이 왜 죽을 때까지 춤추게 되었는지를 묻는 문장이 가장 자연스럽습니다."
+      ],
+      "concepts": [
+        "빈칸 문장",
+        "전개 예고"
+      ],
+      "vocab": [
+        {
+          "word": "dance plague",
+          "meaning": "춤 역병"
+        },
+        {
+          "word": "hallucination",
+          "meaning": "환각"
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "Some theories linked the 'dance plague' to hallucinations.",
+      "explanation": [
+        "지문은 ergot이라는 독성 곰팡이가 경련과 환각을 일으켰을 가능성을 언급합니다.",
+        "따라서 일부 이론이 환각과 연결했다는 ④가 참입니다."
+      ],
+      "concepts": [
+        "내용 일치"
+      ],
+      "vocab": [
+        {
+          "word": "ergot",
+          "meaning": "맥각균"
+        },
+        {
+          "word": "spasm",
+          "meaning": "경련"
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "[B]-[A]-[C]",
+      "explanation": [
+        "도입부 뒤에는 pig riddle을 대표 사례로 제시하는 [B]가 먼저 와야 합니다.",
+        "그다음 돼지를 싫어하는 전통 [A], 덜 알려진 돼지 애호 전통 [C]가 대조를 이룹니다."
+      ],
+      "concepts": [
+        "문단 배열",
+        "대조 구조"
+      ],
+      "vocab": [
+        {
+          "word": "riddle",
+          "meaning": "수수께끼"
+        },
+        {
+          "word": "abomination",
+          "meaning": "혐오 대상"
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 24 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Both Jews and Muslims hate pigs since they are useless animals.",
+      "explanation": [
+        "유대교와 이슬람권에서 돼지를 금기시하는 이유는 쓸모없어서가 아니라 종교적 부정함 때문입니다.",
+        "오히려 지문은 돼지가 곡물과 덩이줄기를 효율적으로 단백질과 지방으로 전환한다고 말합니다."
+      ],
+      "concepts": [
+        "내용 불일치"
+      ],
+      "vocab": [
+        {
+          "word": "swine",
+          "meaning": "돼지"
+        },
+        {
+          "word": "sacrifice",
+          "meaning": "제물로 바치다"
+        }
+      ]
     }
   ]
 }

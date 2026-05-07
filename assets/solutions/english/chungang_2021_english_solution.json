@@ -4,18 +4,15 @@
   "year": 2021,
   "exam_kind": "english",
   "question_count": 40,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "중앙_21_영어_일반.pdf 원문 및 2021학년도 중앙대 편입학 영어 정답지 대조"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -25,443 +22,443 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "reinforced",
+      "explanation": [
+        "beef up은 인력, 서비스, 기능 등을 강화하다라는 뜻이다.",
+        "기술 및 신제품 개발 서비스를 강화했다는 문맥이므로 reinforced가 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["구동사", "유의어"]}],
+      "vocab": [{"word": "beef up", "meaning": "강화하다"}, {"word": "reinforce", "meaning": "강화하다"}]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "mordancy",
+      "explanation": [
+        "acerbity는 말이나 태도가 신랄하고 매서운 상태를 뜻한다.",
+        "mordancy 역시 신랄함, 통렬함의 뜻이므로 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["추상명사", "태도/말투"]}],
+      "vocab": [{"word": "acerbity", "meaning": "신랄함"}, {"word": "mordancy", "meaning": "신랄함, 통렬함"}]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "protective",
+      "explanation": [
+        "tutelary는 보호자의, 후견의, 보호하는의 뜻이다.",
+        "캠퍼스를 떠나는 것을 허락하지 않는 보호자적 역할이라는 문맥이므로 protective가 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["형용사 유의어", "역할 문맥"]}],
+      "vocab": [{"word": "tutelary", "meaning": "보호자의, 후견의"}, {"word": "protective", "meaning": "보호하는"}]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "reconciliation",
+      "explanation": [
+        "rapprochement는 사이가 멀어진 집단 간의 관계 회복, 화해를 뜻한다.",
+        "양측이 관계 개선을 원한다는 문맥이므로 reconciliation이 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["외교/관계 어휘", "명사 유의어"]}],
+      "vocab": [{"word": "rapprochement", "meaning": "관계 회복"}, {"word": "reconciliation", "meaning": "화해"}]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "expand",
+      "explanation": [
+        "dilate는 혈관이나 동공이 넓어지다, 확장되다라는 뜻이다.",
+        "arteries와 함께 쓰였으므로 expand가 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["의학/신체 어휘", "동사 유의어"]}],
+      "vocab": [{"word": "dilate", "meaning": "확장되다"}, {"word": "expand", "meaning": "넓어지다"}]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "deleterious",
+      "explanation": [
+        "noxious는 해로운, 유독한의 뜻이다.",
+        "유전적 돌연변이가 대부분 환경에서 해롭다는 문맥이므로 deleterious가 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["부정적 형용사", "생물학 문맥"]}],
+      "vocab": [{"word": "noxious", "meaning": "해로운"}, {"word": "deleterious", "meaning": "해로운"}]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "A: Can you join us to play the games tonight? B: Sure, I’m so glad to know that you guys are totally screwed.",
+      "explanation": [
+        "A는 함께 게임을 하자고 초대하고 있다.",
+        "B의 you guys are totally screwed는 '너희는 완전히 망했다'라는 뜻이라 초대에 대한 긍정 답변과 어울리지 않는다."
+      ],
+      "concepts": [{"title": "생활영어", "items": ["대화 흐름", "구어 표현"]}],
+      "vocab": [{"word": "be screwed", "meaning": "곤란해지다, 망하다"}]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "A: He skived off as he does everyday. B: Yes, he always wants to help clean up.",
+      "explanation": [
+        "skive off는 일을 빼먹다, 농땡이치다라는 뜻이다.",
+        "항상 청소를 돕고 싶어 한다는 B의 말은 일을 회피한다는 A의 말과 반대이므로 흐름이 맞지 않는다."
+      ],
+      "concepts": [{"title": "생활영어", "items": ["관용 표현", "의미 대립"]}],
+      "vocab": [{"word": "skive off", "meaning": "일을 빼먹다"}]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "③",
+      "answer_text": "who had been arranged",
+      "explanation": [
+        "arranged for some time past가 수식하는 대상은 앞의 a day of pleasure이다.",
+        "사람을 받는 who가 아니라 사물을 받는 which가 필요하므로 ③이 오류이다."
+      ],
+      "concepts": [{"title": "문법", "items": ["관계대명사", "선행사 일치"]}],
       "vocab": []
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "①",
+      "answer_text": "arose fears",
+      "explanation": [
+        "arise는 자동사라 목적어 fears를 바로 취할 수 없다.",
+        "두려움을 불러일으켰다는 뜻은 aroused fears 또는 raised fears로 써야 하므로 ①이 오류이다."
+      ],
+      "concepts": [{"title": "문법", "items": ["자동사/타동사", "동사 선택"]}],
       "vocab": []
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "④",
+      "answer_text": "No error",
+      "explanation": [
+        "Not until로 인한 도치 did she learn이 적절하다.",
+        "was so lackluster that과 had been silent도 시제와 구조가 자연스러우므로 오류가 없다."
+      ],
+      "concepts": [{"title": "문법", "items": ["부정어 도치", "오류 없음"]}],
       "vocab": []
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "diatribes",
+      "explanation": [
+        "hateful and reactionary와 함께 부정적 발언이나 글을 뜻하는 명사가 필요하다.",
+        "diatribe는 신랄한 비난, 공격적 연설이라는 뜻이므로 문맥에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["명사 의미", "부정적 수식어"]}],
+      "vocab": [{"word": "diatribe", "meaning": "신랄한 비난"}]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "tarantism",
+      "explanation": [
+        "Padova의 의사가 독이 있는 동물과 곤충에 물린 상처를 치료하는 법을 설명했다는 단서가 있다.",
+        "tarantism은 타란툴라 독에 물려 생긴다고 여겨진 광란/춤 증상과 관련된 용어이다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["의학사 어휘", "문맥 단서"]}],
+      "vocab": [{"word": "tarantism", "meaning": "타란툴라 독으로 생긴다고 여겨진 광란 증상"}]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "inebriated",
+      "explanation": [
+        "Huntington's disease의 진행 상태에서 머리와 사지가 불규칙하게 흔들린다는 설명이다.",
+        "inebriated는 술 취한이라는 뜻으로, 술 취한 인형 조종자처럼 비틀거리는 이미지를 만든다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "비유 이미지"]}],
+      "vocab": [{"word": "inebriated", "meaning": "술 취한"}]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "roseate",
+      "explanation": [
+        "tragic news가 방금 보도되었으므로 지나치게 낙관적인 견해를 바꿔야 한다는 흐름이다.",
+        "roseate는 장밋빛의, 낙관적인의 뜻이다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "대조 단서"]}],
+      "vocab": [{"word": "roseate", "meaning": "장밋빛의, 낙관적인"}]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "germane",
+      "explanation": [
+        "뒤에 irrelevant라는 단서가 직접 나온다.",
+        "germane은 관련 있는이라는 뜻이므로 not germane to the case는 사건과 관련 없다는 뜻이다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["법정 문맥", "반의어 단서"]}],
+      "vocab": [{"word": "germane", "meaning": "관련 있는"}]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "vertiginous",
+      "explanation": [
+        "remote villages에 도로를 놓기 어렵게 만드는 terrain을 설명해야 한다.",
+        "vertiginous는 가파르고 아찔한이라는 뜻으로 산악 지형에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["지형 묘사", "형용사 의미"]}],
+      "vocab": [{"word": "vertiginous", "meaning": "아찔하게 가파른"}]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "reinterpret",
+      "explanation": [
+        "배우가 텍스트에 새겨진 인물을 조립하고, 다른 배우와 상호작용하며 새로운 살아 있는 인물을 만들어 낸다는 내용이다.",
+        "기존 텍스트의 인물을 다시 해석한다는 reinterpret가 가장 자연스럽다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["예술/연기 문맥", "동사 의미"]}],
+      "vocab": [{"word": "reinterpret", "meaning": "재해석하다"}]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "familiarize",
+      "explanation": [
+        "장비 사용자는 안전 절차를 익혀야 한다는 문맥이다.",
+        "familiarize oneself with는 ~에 익숙해지다, 숙지하다라는 뜻이다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["동사구", "안전 절차 문맥"]}],
+      "vocab": [{"word": "familiarize oneself with", "meaning": "~을 숙지하다"}]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "Sympathy",
+      "explanation": [
+        "화자는 자연의 요소들이 자신에게 congenial하다고 말하며 평온하게 자연과 하나 되는 느낌을 묘사한다.",
+        "fluttering alder and poplar leaves와의 교감이 숨을 멎게 할 정도라는 뜻이므로 Sympathy가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["정서 흐름", "자연과의 교감"]}],
+      "vocab": [{"word": "sympathy", "meaning": "공감, 교감"}]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "cramped ― taken off",
+      "explanation": [
+        "dirty streets와 함께 질병의 온상이 되는 생활환경은 비좁은 cramped living이 자연스럽다.",
+        "비누세가 없어져 가난한 사람들이 비누를 살 수 있게 되었다는 흐름이므로 taken off가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["역사/공중보건 문맥", "구동사"]}],
+      "vocab": [{"word": "cramped", "meaning": "비좁은"}, {"word": "take off", "meaning": "제거하다"}]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "systematically ― disproportion",
+      "explanation": [
+        "문학은 일상 언어에서 벗어나 ordinary speech를 조직적으로 변형한다는 흐름이다.",
+        "소리, 리듬, 울림이 추상적 의미를 초과한다는 설명은 signifier와 signified 사이의 disproportion을 말한다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["문학 이론", "기호학 어휘"]}],
+      "vocab": [{"word": "signifier", "meaning": "기표"}, {"word": "signified", "meaning": "기의"}, {"word": "disproportion", "meaning": "불균형"}]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "secondary",
+      "explanation": [
+        "행동 중심 접근은 인간이나 환경을 따로 떼어 보지 않고 행동을 분석의 출발점으로 삼는다.",
+        "반대로 환경을 단순한 방아쇠 장치로만 보는 접근에서는 환경이 부차적인 것이 되므로 secondary가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["대조 구조", "사회과학 개념"]}],
+      "vocab": [{"word": "secondary", "meaning": "부차적인"}]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "impoverished ― falter",
+      "explanation": [
+        "스키 리프트가 고립된 가난한 산촌을 관광지로 바꾸었다는 흐름이므로 impoverished가 맞다.",
+        "스키 시즌이 흔들리거나 실패하면 GDP 손실이 발생한다는 문맥이므로 falter가 적합하다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["경제 문맥", "조건절"]}],
+      "vocab": [{"word": "impoverished", "meaning": "가난한"}, {"word": "falter", "meaning": "흔들리다, 약해지다"}]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "meteorological",
+      "explanation": [
+        "대기, 식물의 생명, 태양으로 거슬러 올라간다는 설명이 나온다.",
+        "earth's atmosphere와 관련된 과정이므로 meteorological processes가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["과학 어휘", "대기/기상 문맥"]}],
+      "vocab": [{"word": "meteorological", "meaning": "기상의, 대기의"}]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "downplays ― unproven",
+      "explanation": [
+        "agenda setting 비판은 미디어와 유권자가 각자 가진 multiple agendas의 존재를 가볍게 본다는 점을 지적한다.",
+        "그래서 McQuail에게 agenda setting은 여전히 입증되지 않은 unproven idea로 남는다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["비판 논리", "미디어 이론"]}],
+      "vocab": [{"word": "downplay", "meaning": "가볍게 보다, 축소하다"}, {"word": "unproven", "meaning": "입증되지 않은"}]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "The revolution gives digital technology the chance to break out of the computer and pervade the entire world.",
+      "explanation": [
+        "글은 4차 산업혁명을 디지털 기술이 데스크톱 컴퓨터 안에 갇히지 않고 물리적 제품과 생활 전반으로 들어가는 시대로 설명한다.",
+        "따라서 디지털 기술이 컴퓨터 밖으로 나와 세계 전체에 퍼진다는 ③이 가장 정확하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론", "핵심 문장 재진술"]}],
+      "vocab": [{"word": "pervade", "meaning": "널리 퍼지다"}, {"word": "Internet of Things", "meaning": "사물인터넷"}]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "(A) mere-measurement effect (B) nudge",
+      "explanation": [
+        "사람에게 무엇을 할 의향이 있는지 묻는 것만으로 실제 행동 가능성이 올라가는 현상은 mere-measurement effect이다.",
+        "마지막의 사적·공적 장치가 행동을 살짝 유도한다는 개념은 nudge이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["개념어 빈칸", "행동경제학"]}],
+      "vocab": [{"word": "mere-measurement effect", "meaning": "측정만으로 행동 가능성이 커지는 효과"}, {"word": "nudge", "meaning": "넛지, 부드러운 유도"}]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "The information collected from one single observation is converted into bits of binary data.",
+      "explanation": [
+        "지문은 input layer가 감각 정보처럼 작동하고, 한 관찰에서 얻은 정보가 컴퓨터가 쓸 수 있는 숫자와 binary data로 분해된다고 말한다.",
+        "따라서 ③이 내용과 일치한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "딥러닝 구조"]}],
+      "vocab": [{"word": "binary data", "meaning": "이진 데이터"}, {"word": "layer", "meaning": "층"}]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "(A)",
+      "explanation": [
+        "앞문장은 인간에게 동물적 측면이 있음을 부정한 적은 없다고 말한다.",
+        "삽입문 But there was something more 다음에는 인간이 이성적·영적 존재로 여겨졌다는 설명이 와야 하므로 (A)가 적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문장 삽입", "전환 표현"]}],
+      "vocab": [{"word": "dualism", "meaning": "이원론"}, {"word": "materialism", "meaning": "유물론"}]
     },
     {
       "number": 31,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "(B) →(A) →(C)",
+      "explanation": [
+        "(B)는 숲, 강, 해안 주변에 첫 정착 공동체가 생기는 배경을 설명한다.",
+        "그 뒤 (A)에서 사냥과 채집 중심 생활이 목축과 재배로 변하고, (C)에서 식물 재배와 agropastoralism이 정리된다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "정착-목축-농경 전개"]}],
+      "vocab": [{"word": "agropastoralism", "meaning": "농목축 생활"}]
     },
     {
       "number": 32,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "The Constitution of Family and Farming in the First Society",
+      "explanation": [
+        "글은 First Society 전통에서 정착, 가구 구성, 목축, 농경이 어떻게 형성되었는지를 설명한다.",
+        "가족/가구와 농경의 구성이라는 ①이 글의 범위를 가장 잘 담는다."
+      ],
+      "concepts": [{"title": "독해", "items": ["제목", "핵심 소재"]}],
+      "vocab": [{"word": "household", "meaning": "가구"}, {"word": "farming", "meaning": "농경"}]
     },
     {
       "number": 33,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "(B) →(A) →(C)",
+      "explanation": [
+        "(B)가 Jenner와 면역 개념, variolation의 역사적 배경을 먼저 제시한다.",
+        "그 다음 (A)에서 cowpox 접종 실험이 나오고, (C)에서 이를 vaccination이라 부르며 천연두 박멸로 이어진다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "역사적 순서"]}],
+      "vocab": [{"word": "variolation", "meaning": "인두법"}, {"word": "vaccination", "meaning": "백신 접종"}]
     },
     {
       "number": 34,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "Edward Jenner was informed of variolation practiced in the past.",
+      "explanation": [
+        "지문은 variolation이 1400년대부터 중동과 중국에서 시행되었고 Jenner도 이를 알고 있었다고 말한다.",
+        "따라서 Jenner가 과거의 variolation 관행을 알고 있었다는 ④가 일치한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "세부 정보"]}],
+      "vocab": [{"word": "smallpox", "meaning": "천연두"}, {"word": "cowpox", "meaning": "우두"}]
     },
     {
       "number": 35,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "주변 문맥은 지구 자전축의 기울기 때문에 하지와 동지가 생기고, 남북반구의 계절이 반대로 나타난다는 설명이다.",
+        "(C)는 갑자기 near-circular orbit과 axial tilt의 상대적 영향 비교를 끼워 넣어 설명 흐름을 흐리므로 부적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["흐름상 부적절", "주제 이탈"]}],
+      "vocab": [{"word": "solstice", "meaning": "지점, 하지/동지"}, {"word": "axial tilt", "meaning": "자전축 기울기"}]
     },
     {
       "number": 36,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "The effect of axial tilt on Earth becomes maximized in the summer and winter solstices.",
+      "explanation": [
+        "solstice는 한쪽 반구가 태양을 가장 향하고 다른 반구가 가장 멀어져 낮과 밤의 길이 차이가 커지는 시점이다.",
+        "따라서 자전축 기울기의 효과가 하지와 동지에 최대화된다는 ③이 추론 가능하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론", "과학 개념"]}],
+      "vocab": [{"word": "hemisphere", "meaning": "반구"}]
     },
     {
       "number": 37,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "앞에서는 전문가들이 AAV가 암의 주원인일 가능성이 낮다고 말하고, 환자의 기존 간 질환과 B/C형 간염 위험 요인을 설명한다.",
+        "따라서 '바이러스가 암을 일으켰다고 믿을 이유가 있다'는 (C)는 논리 흐름과 반대이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["흐름상 부적절", "반대 진술"]}],
+      "vocab": [{"word": "gene therapy", "meaning": "유전자 치료"}, {"word": "AAV", "meaning": "아데노 관련 바이러스 벡터"}]
     },
     {
       "number": 38,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "Liver tumor in gene therapy recipient raises concerns about the virus widely used in treatment.",
+      "explanation": [
+        "글은 유전자 치료를 받은 혈우병 환자에게 간 종양이 발견되면서 AAV 벡터의 역할 여부를 조사하게 된 상황을 다룬다.",
+        "치료에 널리 쓰이는 바이러스에 대한 우려가 제기되었다는 ①이 요지이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["요지 파악", "사건-우려 구조"]}],
+      "vocab": [{"word": "liver tumor", "meaning": "간 종양"}, {"word": "recipient", "meaning": "수혜자"}]
     },
     {
       "number": 39,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "삽입문은 '그 결과' 생명의 진보에 대한 낭만적 비전이 생겼다고 말한다.",
+        "앞의 Buckland가 멸종 동물과 잃어버린 세계를 대담하게 재구성했다는 설명 뒤에 이어지고, 다음의 Lyell이 그에게서 배웠다는 문장으로 자연스럽게 연결되므로 (C)가 맞다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문장 삽입", "결과 지시어"]}],
+      "vocab": [{"word": "romantic vision", "meaning": "낭만적 비전"}, {"word": "strata", "meaning": "지층"}]
     },
     {
       "number": 40,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "Giving up his decent position at a law office, Lyell learned as much scientific knowledge as he could from Carlyle and Macaulay.",
+      "explanation": [
+        "Lyell은 법조인이 되려다 과학으로 방향을 바꾸었고, Buckland에게서 지질학적 지식을 배웠다.",
+        "Carlyle과 Macaulay는 저술을 신사적 직업으로 끌어올린 예시일 뿐이므로, Lyell이 그들에게 과학 지식을 배웠다는 ④는 추론할 수 없다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론 불가", "인물 관계"]}],
+      "vocab": [{"word": "barrister", "meaning": "법정 변호사"}, {"word": "authorship", "meaning": "저술업"}]
     }
   ]
 }

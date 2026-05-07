@@ -4,18 +4,15 @@
   "year": 2022,
   "exam_kind": "math",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "중앙_22_수학.pdf 원문과 문제 JSON 기준 직접 풀이 및 계산 검산"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -24,303 +21,323 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{41}{24}$",
+      "explanation": [
+        "$\\sec x=1+\\frac{x^2}{2}+\\frac{5x^4}{24}+O(x^6)$이다.",
+        "따라서 $a_0+a_1+a_2+a_3+a_4=1+0+\\frac12+0+\\frac5{24}=\\frac{41}{24}$이다."
+      ],
+      "concepts": [{"title": "Taylor 급수", "items": ["secant 전개", "계수 비교"]}]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{3}{2}$",
+      "explanation": [
+        "Astroid를 $x=\\cos^3t$, $y=\\sin^3t$로 두면 $0\\le t\\le\\frac\\pi2$이다.",
+        "호의 길이 요소는 $ds=3\\sin t\\cos t\\,dt$이므로 길이는 $\\frac32$이다."
+      ],
+      "concepts": [{"title": "매개곡선", "items": ["Astroid", "호의 길이"]}]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\sqrt{10}$",
+      "explanation": [
+        "$x$에 대한 이차방정식으로 보고 실근 조건을 쓴다.",
+        "판별식이 0 이상이어야 하므로 $y^2\\le\\frac52$이다.",
+        "따라서 $y$의 최댓값과 최솟값의 차는 $2\\sqrt{\\frac52}=\\sqrt{10}$이다."
+      ],
+      "concepts": [{"title": "이차곡선", "items": ["판별식", "최대최소"]}]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-\\frac{3}{2}$",
+      "explanation": [
+        "주어진 행렬을 $A$라 하면 직접 역행렬을 구하거나 고윳값을 이용한다.",
+        "$\\operatorname{tr}(A^{-1})=-\\frac32$이다."
+      ],
+      "concepts": [{"title": "행렬", "items": ["역행렬", "대각합"]}]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{20\\pi}{3}$",
+      "explanation": [
+        "Pappus 정리를 쓴다. 반원판의 넓이는 $\\frac\\pi2$이다.",
+        "반원판의 무게중심은 원의 중심에서 위로 $\\frac4{3\\pi}$만큼 떨어져 있으므로 $x$축까지 거리는 $\\frac{20}{3\\pi}$이다.",
+        "부피는 $\\frac\\pi2\\cdot2\\pi\\cdot\\frac{20}{3\\pi}=\\frac{20\\pi}{3}$이다."
+      ],
+      "concepts": [{"title": "회전체 부피", "items": ["Pappus 정리", "반원판의 무게중심"]}]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$3$",
+      "explanation": [
+        "(가)는 로그 안이 $1+O(n^{-2})$이므로 수렴한다.",
+        "(나)는 분모가 대략 $n\\sqrt n$ 꼴이므로 수렴한다.",
+        "(다)는 일반항이 대략 $n^{-3/2}$ 꼴이므로 수렴한다.",
+        "(라)는 $\\sin(1/n)\\sim1/n$이므로 발산한다. 따라서 수렴하는 것은 3개이다."
+      ],
+      "concepts": [{"title": "급수 판정", "items": ["비교판정", "로그 근사", "삼각함수 근사"]}]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{400}{9}$",
+      "explanation": [
+        "$(1+x^2)^{1/3}$에서 $x^6$의 계수는 $\\binom{1/3}{3}=\\frac5{81}$이다.",
+        "$f^{(6)}(0)=6!\\cdot\\frac5{81}=\\frac{400}{9}$이다."
+      ],
+      "concepts": [{"title": "이항급수", "items": ["일반화 이항정리", "도함수와 계수"]}]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$3\\sqrt{6}$",
+      "explanation": [
+        "삼각형 넓이는 $\\frac12\\|\\overrightarrow{AB}\\times\\overrightarrow{AP}\\|$이다.",
+        "$P$가 구 $x^2+y^2+z^2=3$ 위를 움직일 때 이 값의 최댓값을 계산하면 넓이 제곱의 최댓값은 $54$이다.",
+        "따라서 최대 넓이는 $3\\sqrt6$이다."
+      ],
+      "concepts": [{"title": "공간기하", "items": ["외적", "구 위의 최댓값"]}]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$6$",
+      "explanation": [
+        "행렬식에서 초월수 항들은 행 연산으로 소거되고 값은 상수로 정리된다.",
+        "직접 행렬식을 계산하면 $6$이다."
+      ],
+      "concepts": [{"title": "행렬식", "items": ["행 연산", "직접 계산"]}]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{23}{9}$",
+      "explanation": [
+        "$A$의 치역 평면의 법선벡터는 $A^T$의 영공간에서 얻고, 하나는 $(1,-4,1)$이다.",
+        "점 $(1,1,1)$을 이 평면에 대칭시키면 $(\\frac{11}{9},\\frac19,\\frac{11}{9})$이다.",
+        "따라서 $a+b+c=\\frac{23}{9}$이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["치역", "법선벡터", "평면 대칭"]}]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-6$",
+      "explanation": [
+        "$A$의 고윳값을 $\\lambda,\\mu$라 하면 $A^3$의 고윳값은 $\\lambda^3,\\mu^3$이다.",
+        "$q(0)=-216$에서 $(\\lambda\\mu)^3=-216$이므로 $\\lambda\\mu=-6$이다.",
+        "$q(1)=-234$에서 $\\lambda^3+\\mu^3=19$이고, $s=\\lambda+\\mu$라 하면 $s^3-3(-6)s=19$이므로 $s=1$이다.",
+        "$p(1)=1-s+\\lambda\\mu=1-1-6=-6$이다."
+      ],
+      "concepts": [{"title": "특성다항식", "items": ["고윳값", "trace와 determinant"]}]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$12$",
+      "explanation": [
+        "$u=xy$, $v=y/x$로 두면 영역은 $1\\le u\\le7$, $1\\le v\\le e$가 된다.",
+        "야코비안은 $\\frac1{2v}$이고 integrand는 $u$이다.",
+        "$\\int_1^e\\int_1^7\\frac{u}{2v}\\,du\\,dv=12$이다."
+      ],
+      "concepts": [{"title": "이중적분", "items": ["변수변환", "야코비안"]}]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{7}{6}$",
+      "explanation": [
+        "Gram-Schmidt를 적용하면 $u_2=(0,\\frac1{\\sqrt2},\\frac1{\\sqrt2},0)$이다.",
+        "$u_3=(0,\\frac1{\\sqrt3},-\\frac1{\\sqrt3},\\frac1{\\sqrt3})$이다.",
+        "따라서 $a^2+b^2+c^2+d^2=\\frac12+0+\\frac13+\\frac13=\\frac76$이다."
+      ],
+      "concepts": [{"title": "Gram-Schmidt", "items": ["정규직교화", "내적"]}]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\pi^6$",
+      "explanation": [
+        "외접 정다각형 넓이는 $n\\tan(\\pi/n)$, 내접 정다각형 넓이는 $\\frac n2\\sin(2\\pi/n)$이다.",
+        "차이는 $A_n\\sim\\frac{\\pi^3}{n^2}$이다.",
+        "따라서 $k=2$, $\\alpha=\\pi^3$이고 $\\alpha^k=\\pi^6$이다."
+      ],
+      "concepts": [{"title": "극한", "items": ["정다각형 넓이", "삼각함수 전개"]}]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{2}{3}\\pi$",
+      "explanation": [
+        "외부점에서 포물면에 그은 접선들의 접점은 $(u-1)^2+(v-1)^2=2$를 이룬다.",
+        "이 접선들이 만드는 접촉 원판 위에서 포물면과 접선면 사이의 높이 차를 적분하면 된다.",
+        "극좌표 계산으로 부피는 $\\int_0^{2\\pi}\\int_0^{\\sqrt2}(r-\\sqrt2)^2r\\,drd\\theta=\\frac{2\\pi}{3}$이다."
+      ],
+      "concepts": [{"title": "다변수기하", "items": ["접평면", "포물면", "부피적분"]}]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{1}{6}$",
+      "explanation": [
+        "$\\sin x=x-\\frac{x^3}{6}+O(x^5)$이고 $\\tan^{-1}x=x-\\frac{x^3}{3}+O(x^5)$이다.",
+        "분자는 $\\frac{x^3}{6}+O(x^5)$이므로 극한은 $\\frac16$이다."
+      ],
+      "concepts": [{"title": "Taylor 전개", "items": ["삼각함수", "역탄젠트"]}]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{10}{3}$",
+      "explanation": [
+        "원 밖의 점 $P$에서 두 접점까지의 벡터 내적은 $d^2-3+\\frac2{d^2}$로 쓸 수 있다. 여기서 $d=|OP|$이다.",
+        "$P=(x,\\frac{\\sqrt2}{x-1})$이므로 $d^2=x^2+\\frac2{(x-1)^2}$이다.",
+        "최소는 $x=2$에서 $d^2=6$이고, 내적은 $6-3+\\frac26=\\frac{10}{3}$이다."
+      ],
+      "concepts": [{"title": "접선 기하", "items": ["원 접선", "내적", "최소화"]}]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$2e^4-e$",
+      "explanation": [
+        "Leibniz 미분법을 적용한다.",
+        "위끝 $x^2+y^2$의 $x$미분은 $2x$, 아래끝 $xy$의 $x$미분은 $y$이다.",
+        "$(1,1)$에서 $f_x=2e^{4}-e$이다."
+      ],
+      "concepts": [{"title": "적분의 미분", "items": ["Leibniz 법칙", "편미분"]}]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{\\pi}{4}$",
+      "explanation": [
+        "$\\int_0^{\\infty}\\frac{x}{1+x^4}\\,dx=\\frac\\pi4$이다.",
+        "$x\\mapsto1/x$ 치환을 쓰면 로그가 붙은 부분 $\\int_0^{\\infty}\\frac{x\\ln x}{1+x^4}\\,dx$는 0이다.",
+        "따라서 전체 값은 $\\frac\\pi4$이다."
+      ],
+      "concepts": [{"title": "이상적분", "items": ["치환", "로그 대칭"]}]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$-\\frac{2^4}{3^{\\frac{3}{4}}5^{\\frac{7}{4}}}$",
+      "explanation": [
+        "$y=(16-x^4)^{1/4}$로 두고 두 번 미분한다.",
+        "$x=1$에서 $y''=-\\frac{16}{3^{3/4}5^{7/4}}$이다."
+      ],
+      "concepts": [{"title": "음함수/명시함수 미분", "items": ["고계도함수", "곡선 미분"]}]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{\\pi}{21}$",
+      "explanation": [
+        "영역은 $0\\le x\\le1$, $0\\le y\\le x^4-x^5$이다.",
+        "$y$축 회전이므로 원통껍질법을 쓰면 $2\\pi\\int_0^1x(x^4-x^5)\\,dx=\\frac\\pi{21}$이다."
+      ],
+      "concepts": [{"title": "회전체 부피", "items": ["원통껍질법", "다항식 적분"]}]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$40+28\\sqrt{2}$",
+      "explanation": [
+        "$r=\\frac1{\\sqrt2}$로 두면 급수는 $\\sum_{k=0}^{\\infty}(k+1)(k+2)r^k$이다.",
+        "공식 $\\sum(k+1)(k+2)r^k=\\frac2{(1-r)^3}$을 쓰면 값은 $40+28\\sqrt2$이다."
+      ],
+      "concepts": [{"title": "멱급수", "items": ["등비급수 미분", "급수 합"]}]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$48$",
+      "explanation": [
+        "$\\det A=3$이므로 $\\det(A^k)=3^k$이다.",
+        "급수는 $\\sum_{k=1}^{\\infty}3^kk(\\frac14)^{k-1}=3\\sum k(\\frac34)^{k-1}$이다.",
+        "$\\sum k r^{k-1}=\\frac1{(1-r)^2}$이므로 값은 $3\\cdot16=48$이다."
+      ],
+      "concepts": [{"title": "행렬식과 급수", "items": ["determinant", "등비급수 미분"]}]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$2^7\\cdot3^3\\cdot5$",
+      "explanation": [
+        "직접 행렬곱을 계산하면 $\\det(A^3-81A)=17280$이다.",
+        "$17280=2^7\\cdot3^3\\cdot5$이다."
+      ],
+      "concepts": [{"title": "행렬", "items": ["행렬다항식", "행렬식"]}]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$(0,0,1)$",
+      "explanation": [
+        "$F=x^2-xyz+z^3-1$로 두면 $(1,1,1)$에서 $\\nabla F=(1,-1,2)$이다.",
+        "접평면에 $(0,0,a)$를 대입하면 $a=1$이다.",
+        "따라서 교점은 $(0,0,1)$이다."
+      ],
+      "concepts": [{"title": "접평면", "items": ["그래디언트", "축과의 교점"]}]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{\\sqrt{13}-1}{2}$",
+      "explanation": [
+        "$\\|T\\mathbf v\\|^2=\\mathbf v^T(A^TA)\\mathbf v$이다.",
+        "단위구 위 최솟값은 $A^TA$의 최소 고윳값의 제곱근이다.",
+        "최소 고윳값은 $\\frac{7-\\sqrt{13}}{2}$이고, 그 제곱근은 $\\frac{\\sqrt{13}-1}{2}$이다."
+      ],
+      "concepts": [{"title": "선형변환", "items": ["특잇값", "$A^TA$", "Rayleigh quotient"]}]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$\\frac{2}{3}\\sqrt{3}-\\frac{4}{9}\\sqrt{2}$",
+      "explanation": [
+        "적분 영역을 바꾸면 $0\\le y\\le1$, $0\\le x\\le y^2$이다.",
+        "적분은 $\\int_0^1y^2\\sqrt{y^3+2}\\,dy$가 된다.",
+        "$u=y^3+2$ 치환으로 값은 $\\frac23\\sqrt3-\\frac49\\sqrt2$이다."
+      ],
+      "concepts": [{"title": "이중적분", "items": ["적분 순서 변경", "치환적분"]}]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$e^{3\\pi}+1$",
+      "explanation": [
+        "경로 $\\mathbf r(t)$를 직접 대입해 $\\mathbf F(\\mathbf r(t))\\cdot\\mathbf r'(t)$를 적분한다.",
+        "$0\\le t\\le\\pi$에서 계산하면 값은 $e^{3\\pi}+1$이다."
+      ],
+      "concepts": [{"title": "선적분", "items": ["매개변수 대입", "벡터장 적분"]}]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$3\\pi(3e-1)$",
+      "explanation": [
+        "폐곡면 플럭스이므로 발산정리를 쓴다.",
+        "$\\nabla\\cdot\\mathbf F=(3+2r^2)e^{r^2}$이다.",
+        "원기둥 좌표에서 $0\\le r\\le1$, $0\\le z\\le3$로 적분하면 $3\\pi(3e-1)$이다."
+      ],
+      "concepts": [{"title": "발산정리", "items": ["플럭스", "원기둥좌표"]}]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$36$",
+      "explanation": [
+        "$A$의 고윳값은 $3$, $2$, $1$이다.",
+        "$A^3$의 고윳값은 각각 $27$, $8$, $1$이므로 합은 $36$이다."
+      ],
+      "concepts": [{"title": "고윳값", "items": ["행렬의 거듭제곱", "고윳값의 합"]}]
     }
   ]
 }

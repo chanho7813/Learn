@@ -4,223 +4,244 @@
   "year": 2025,
   "exam_kind": "math",
   "question_count": 20,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "항공_25_수학 문제 데이터 기준 직접 풀이 및 계산 검산. 14번은 원본 PDF 그림 확인."
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
-    "explanation": "해설 문단 배열",
+    "explanation": "풀이 단계 배열",
     "concepts": "문제 풀이에 필요한 개념/유형"
   },
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$6$",
+      "explanation": [
+        "Euler-Cauchy 방정식이므로 $y=x^m$을 대입한다.",
+        "$m(m-1)-2m+2=(m-1)(m-2)$이므로 $y=Cx+Dx^2$이다.",
+        "$C+D=1$, $C+2D=3$에서 $C=-1$, $D=2$이고 $y(2)=-2+8=6$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["Euler-Cauchy 방정식", "초기조건"]}]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-\\frac{1}{6}$",
+      "explanation": [
+        "$\\frac{dy}{y^2}=2x\\,dx$로 변수분리한다.",
+        "$-\\frac1y=x^2+C$이고 $y(1)=\\frac12$에서 $C=-3$이다.",
+        "따라서 $y=-\\frac1{x^2-3}$이고 $y(3)=-\\frac16$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["변수분리형", "초기조건"]}]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\begin{bmatrix}2&-1\\\\1&4\\end{bmatrix}$",
+      "explanation": [
+        "③의 특성방정식은 $(\\lambda-3)^2=0$으로 고윳값이 하나뿐이다.",
+        "행렬이 $3I$가 아니므로 고유공간 차원이 2가 될 수 없고 대각화가 불가능하다.",
+        "다른 보기들은 서로 다른 고윳값을 가져 대각화 가능하다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["대각화 가능성", "중복 고윳값"]}]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$-6$",
+      "explanation": [
+        "행 기본변환 또는 여인수 전개로 행렬식을 계산한다.",
+        "계산 결과 주어진 $4\\times4$ 행렬의 행렬식은 $-6$이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["행렬식", "행 기본변환"]}]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-\\frac{8}{17}$",
+      "explanation": [
+        "제약식은 $x^2/4+y^2/16\\le1$이다.",
+        "고정된 $y$에서 최댓값은 $x^2=4-y^2/4$일 때 생기며 $f=32-2y^2+4y$이다.",
+        "최댓값은 $34$, 최솟값은 $x=0,y=-4$에서 $-16$이므로 $m/M=-16/34=-8/17$이다."
+      ],
+      "concepts": [{"title": "최대최소", "items": ["타원 영역", "경계 최적화"]}]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$1$",
+      "explanation": [
+        "㉠은 일반항이 0으로 가지 않으므로 발산한다.",
+        "㉡은 인접항 비가 $\\frac{3n+2}{4n+3}\\to\\frac34$이므로 수렴한다.",
+        "㉢은 $\\sum\\frac1{n\\ln n}$ 꼴이므로 발산한다.",
+        "따라서 수렴하는 급수는 1개이다."
+      ],
+      "concepts": [{"title": "급수", "items": ["일반항 판정", "비판정법", "로그 조화급수"]}]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-\\frac{1}{6}$",
+      "explanation": [
+        "$x\\cos x-\\sin x=-\\frac{x^3}{3}+O(x^5)$이다.",
+        "$2x^2\\sin x=2x^3+O(x^5)$이다.",
+        "따라서 극한은 $\\frac{-1/3}{2}=-\\frac16$이다."
+      ],
+      "concepts": [{"title": "극한", "items": ["테일러 전개", "삼각함수 근사"]}]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$4$",
+      "explanation": [
+        "$M=3x^2y+2y^3$, $N=x^3+6xy^2$라 두면 $M_y=N_x=3x^2+6y^2$이므로 완전미분방정식이다.",
+        "퍼텐셜 함수는 $x^3y+2xy^3=C$이다.",
+        "$a=1,b=2,m=3,n=1,v=1,w=3$이므로 $\\frac ab(m+n+v+w)=\\frac12\\cdot8=4$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["완전미분방정식", "퍼텐셜 함수"]}]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{49}{4}$",
+      "explanation": [
+        "원식을 미분하면 $y''+y'-6y=0$이다.",
+        "$t=0$을 원식에 대입하면 $y'(0)+5=5$이므로 $y'(0)=0$이다.",
+        "$y=Ae^{2t}+Be^{-3t}$, $A+B=5$, $2A-3B=0$에서 $A=3$, $B=2$이다.",
+        "$y(\\ln2)=3\\cdot4+2\\cdot\\frac18=\\frac{49}{4}$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["적분항 포함 방정식", "초기조건 추출"]}]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$1$",
+      "explanation": [
+        "㉠ 대칭행렬과 대각행렬은 일반적으로 교환하지 않는다.",
+        "㉡ $(AA^T)^T=AA^T$이므로 항상 대칭행렬이다.",
+        "㉢ trace의 대소만으로 제곱 trace의 대소는 결정되지 않는다.",
+        "㉣ determinant의 대소도 제곱 determinant의 대소를 보장하지 않는다. 따라서 참은 1개이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["대칭행렬", "trace", "determinant", "반례 판단"]}]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$-36$",
+      "explanation": [
+        "동차방정식의 근은 $3,-2$이므로 $ab=-6$이다.",
+        "특수해를 $(Ax+B)e^x$로 두고 대입하면 $A=-\\frac16$, $B=-\\frac1{36}$이다.",
+        "$\\frac{abA}{B}=(-6)\\cdot\\frac{-1/6}{-1/36}=-36$이다."
+      ],
+      "concepts": [{"title": "미분방정식", "items": ["비제차 선형방정식", "미정계수법"]}]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\sqrt{3}-\\frac{\\pi}{3}$",
+      "explanation": [
+        "$3-2x-x^2=4-(x+1)^2$이다.",
+        "$u=x+1$로 치환하면 적분은 $\\int_1^2\\frac{u-1}{\\sqrt{4-u^2}}du$가 된다.",
+        "이를 나누어 계산하면 $\\sqrt3-\\left(\\frac\\pi2-\\frac\\pi6\\right)=\\sqrt3-\\frac\\pi3$이다."
+      ],
+      "concepts": [{"title": "적분", "items": ["완전제곱", "삼각치환형 적분"]}]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$-\\sqrt{2}$",
+      "explanation": [
+        "$f'(x)=\\frac{g'(x)}{\\sqrt{1+g(x)^3}}$이다.",
+        "$x=\\frac\\pi2$에서 $g(x)=0$이다.",
+        "$g'(x)=\\sqrt{1+\\sin(\\cos x)+\\cos(\\cos x)}(-\\sin x)$이므로 $g'(\\frac\\pi2)=-\\sqrt2$이다."
+      ],
+      "concepts": [{"title": "미분", "items": ["미적분학의 기본정리", "연쇄법칙"]}]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{3\\sqrt{3}-\\pi}{48}$",
+      "explanation": [
+        "원본 그림의 색칠 영역은 $r=\\frac12$ 원 안쪽이면서 $r=\\cos2\\theta$의 오른쪽 꽃잎과 위쪽 꽃잎 사이에 남는 부분이다.",
+        "대칭성을 쓰면 넓이는 $\\int_{\\pi/6}^{\\pi/4}\\left(\\frac14-\\cos^2 2\\theta\\right)d\\theta$이다.",
+        "계산하면 $\\frac{3\\sqrt3-\\pi}{48}$이다."
+      ],
+      "concepts": [{"title": "극좌표", "items": ["극좌표 넓이", "장미곡선", "그림 영역 판독"]}]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$\\frac{7}{3}\\pi$",
+      "explanation": [
+        "발산정리를 사용하면 flux는 $\\iiint_D \\nabla\\cdot\\mathbf F\\,dV$이다.",
+        "$\\nabla\\cdot\\mathbf F=2z$이다.",
+        "영역은 $0\\le r\\le1$, $2\\le z\\le3-r^2$이므로 적분값은 $\\int_0^{2\\pi}\\int_0^1\\int_2^{3-r^2}2z\\,r\\,dzdrd\\theta=\\frac{7\\pi}{3}$이다."
+      ],
+      "concepts": [{"title": "벡터해석", "items": ["발산정리", "포물면과 평면 사이 영역"]}]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "②",
+      "answer_text": "$2\\pi$",
+      "explanation": [
+        "벡터장을 $P=x^3-\\frac{y}{x^2+y^2}$, $Q=\\cos y+\\frac{x}{x^2+y^2}$로 나눈다.",
+        "$x^3dx+\\cos y\\,dy$ 부분은 닫힌곡선에서 적분이 0이다.",
+        "남은 $\\frac{-y\\,dx+x\\,dy}{x^2+y^2}$는 원점을 한 번 양의 방향으로 감싸므로 적분값은 $2\\pi$이다."
+      ],
+      "concepts": [{"title": "선적분", "items": ["특이점", "회전수", "Green 정리 관점"]}]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{1}{2}$",
+      "explanation": [
+        "이차형식은 대칭부분 $S=\\frac{A+A^T}{2}=\\begin{bmatrix}2&2\\\\2&8\\end{bmatrix}$만 최소값에 영향을 준다.",
+        "그래디언트 조건은 $(A+A^T)x+b=0$이다.",
+        "$\\begin{bmatrix}4&4\\\\4&16\\end{bmatrix}\\begin{bmatrix}x_1\\\\x_2\\end{bmatrix}=\\begin{bmatrix}2\\\\-4\\end{bmatrix}$를 풀면 $x_1=\\frac76$, $x_2=-\\frac23$이다.",
+        "성분합은 $\\frac12$이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["이차형식", "대칭부분", "최소화"]}]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "①",
+      "answer_text": "$16$",
+      "explanation": [
+        "$\\begin{bmatrix}0\\\\3\\\\-1\\end{bmatrix}=2\\begin{bmatrix}1\\\\2\\\\-2\\end{bmatrix}-\\begin{bmatrix}2\\\\1\\\\-3\\end{bmatrix}$이다.",
+        "따라서 $A^3$을 곱하면 $2\\cdot2^3v_2-3^3v_3=16v_2-27v_3$이다.",
+        "$v_2$의 성분합은 1, $v_3$의 성분합은 0이므로 전체 성분합은 16이다."
+      ],
+      "concepts": [{"title": "선형대수", "items": ["고유벡터 분해", "행렬 거듭제곱"]}]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "④",
+      "answer_text": "$\\frac{8}{3}-\\sqrt{3}$",
+      "explanation": [
+        "적분 영역을 바꾸면 $0\\le x\\le\\frac\\pi2$, $0\\le y\\le\\sin x$이다.",
+        "따라서 적분은 $\\int_0^{\\pi/2}\\sin x\\cos x\\sqrt{3+\\cos^2x}\\,dx$이다.",
+        "$u=\\cos^2x$로 치환하면 값은 $\\frac12\\int_0^1\\sqrt{3+u}\\,du=\\frac83-\\sqrt3$이다."
+      ],
+      "concepts": [{"title": "이중적분", "items": ["적분 순서 변경", "치환적분"]}]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": []
+      "answer": "③",
+      "answer_text": "$\\frac{4\\sqrt{2}}{3}\\pi$",
+      "explanation": [
+        "$P(0,0,1)$에서 $\\nabla f=(0,0,3)$이므로 최대변화율은 $M=3$이다.",
+        "단위방향 $u$에 대한 방향도함수는 $3u_z$이고, 이것이 $M/3=1$이려면 $u_z=\\frac13$이다.",
+        "단위구 위의 높이 $z=\\frac13$인 원의 반지름은 $\\sqrt{1-\\frac19}=\\frac{2\\sqrt2}{3}$이다.",
+        "둘레는 $2\\pi\\cdot\\frac{2\\sqrt2}{3}=\\frac{4\\sqrt2}{3}\\pi$이다."
+      ],
+      "concepts": [{"title": "다변수미분", "items": ["그래디언트", "방향도함수", "단위구 단면"]}]
     }
   ]
 }

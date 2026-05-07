@@ -4,18 +4,15 @@
   "year": 2020,
   "exam_kind": "english",
   "question_count": 40,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "중앙_20_영어.pdf 원문 및 2020학년도 중앙대 영어 정답지 대조"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -25,443 +22,443 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "flatfooted",
+      "explanation": [
+        "intransigent는 타협하지 않는, 완고한의 뜻이다.",
+        "flatfooted는 융통성 없고 완고한 태도를 나타낼 수 있어 문맥상 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["유의어", "태도 형용사"]}],
+      "vocab": [{"word": "intransigent", "meaning": "완고한, 비타협적인"}, {"word": "flatfooted", "meaning": "완고한, 융통성 없는"}]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "powder keg",
+      "explanation": [
+        "tinderbox는 불이 붙기 쉬운 상자에서 나와, 폭발 직전의 위험한 상황을 뜻한다.",
+        "powder keg도 일촉즉발의 위험한 장소나 상황이라는 뜻이므로 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["비유적 표현", "위험 상황"]}],
+      "vocab": [{"word": "tinderbox", "meaning": "폭발 직전의 상황"}, {"word": "powder keg", "meaning": "화약고, 일촉즉발 상황"}]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "muddled",
+      "explanation": [
+        "addle은 정신을 혼란스럽게 하다라는 뜻이다.",
+        "muddled는 혼란스러운, 뒤죽박죽인이라는 뜻이므로 addled his mind와 대응된다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["동사 의미", "정신 상태"]}],
+      "vocab": [{"word": "addle", "meaning": "혼란스럽게 하다"}, {"word": "muddled", "meaning": "혼란스러운"}]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "decrepit",
+      "explanation": [
+        "rickety는 낡고 흔들거리는, 허술한의 뜻이다.",
+        "decrepit은 낡고 쇠약한 상태를 뜻하므로 timber frame의 상태와 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["상태 형용사", "건물 묘사"]}],
+      "vocab": [{"word": "rickety", "meaning": "흔들거리는, 낡은"}, {"word": "decrepit", "meaning": "노후한, 쇠약한"}]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "offended",
+      "explanation": [
+        "bridle은 말의 고삐라는 뜻에서, 화가 나서 발끈하다라는 의미로 쓰인다.",
+        "뉴스 때문에 기분이 상했다는 문맥이므로 offended가 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["비유적 의미", "감정 형용사"]}],
+      "vocab": [{"word": "bridle", "meaning": "발끈하다"}, {"word": "offended", "meaning": "기분이 상한"}]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "comb",
+      "explanation": [
+        "scour는 샅샅이 뒤지다, 철저히 찾다라는 뜻이다.",
+        "comb도 정보를 찾기 위해 자세히 훑어보다라는 뜻으로 쓰인다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["동사 유의어", "검색/탐색 의미"]}],
+      "vocab": [{"word": "scour", "meaning": "샅샅이 뒤지다"}, {"word": "comb", "meaning": "철저히 뒤지다"}]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "dizziness",
+      "explanation": [
+        "giddiness는 어지러움 또는 들뜬 상태를 뜻한다.",
+        "Roaring Twenties의 들뜬 분위기가 Great Depression의 암울함으로 바뀌는 문맥에서 dizziness가 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["명사 유의어", "시대 분위기"]}],
+      "vocab": [{"word": "giddiness", "meaning": "어지러움, 들뜸"}, {"word": "dizziness", "meaning": "어지러움"}]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "A: My sister got so angry with me, but I guess I had it coming. B: Yes, I’ll be bitter if I were you.",
+      "explanation": [
+        "had it coming은 그런 일을 당해도 싸다, 자업자득이다라는 뜻이다.",
+        "B는 상대의 상황에 공감하거나 인정해야 하는데 I'll be bitter if I were you는 시제와 반응이 모두 어색하다."
+      ],
+      "concepts": [{"title": "생활영어", "items": ["관용 표현", "대화 흐름"]}],
+      "vocab": [{"word": "have it coming", "meaning": "자업자득이다"}]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "A: I always see eye to eye with him. B: Oh, he’s really hard to work with.",
+      "explanation": [
+        "see eye to eye는 의견이 일치하다라는 뜻이다.",
+        "A가 그와 항상 잘 맞는다고 했는데 B가 함께 일하기 어렵다고 답하므로 흐름이 맞지 않는다."
+      ],
+      "concepts": [{"title": "생활영어", "items": ["관용 표현", "의미 충돌"]}],
+      "vocab": [{"word": "see eye to eye", "meaning": "의견이 일치하다"}]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "②",
+      "answer_text": "to be extremely apologetic",
+      "explanation": [
+        "PDF 원문에서 ② 밑줄은 'to be extremely apologetic, explaining whatever it'까지 이어지는 구간이다.",
+        "'whatever it could happen that...' 구조가 문법적으로 맞지 않으므로 ②가 오류이다."
+      ],
+      "concepts": [{"title": "문법", "items": ["명사절/부사절", "밑줄 범위 확인"]}],
       "vocab": []
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "③",
+      "answer_text": "present us",
+      "explanation": [
+        "compare one thing with another 뒤에 이어지는 동작은 분사구문으로 처리되어야 한다.",
+        "present us는 정동사 형태라 앞 구조와 병렬되지 않으므로 presenting us로 고쳐야 자연스럽다."
+      ],
+      "concepts": [{"title": "문법", "items": ["분사구문", "동사 형태"]}],
       "vocab": []
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "④",
+      "answer_text": "No error",
+      "explanation": [
+        "under no previous historical system으로 인한 도치 did people live가 적절하다.",
+        "as comfortable a material life와 at their disposal도 문법적으로 자연스러우므로 오류가 없다."
+      ],
+      "concepts": [{"title": "문법", "items": ["부정어 도치", "오류 없음"]}],
       "vocab": []
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "sluggard",
+      "explanation": [
+        "문맥은 겨울잠에서 깨어나지 못한 것처럼 게으르고 경쟁을 거부하는 사람을 말한다.",
+        "sluggard는 게으름뱅이라는 뜻이므로 빈칸에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["명사 의미", "성격 묘사"]}],
+      "vocab": [{"word": "sluggard", "meaning": "게으름뱅이"}]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "concoct",
+      "explanation": [
+        "경찰 증거를 맞추어 Liverpool 팬들이 취했다는 이야기를 만들어내는 문맥이다.",
+        "concoct는 이야기나 거짓말을 꾸며내다라는 뜻이므로 가장 적합하다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["동사 의미", "조작/날조 문맥"]}],
+      "vocab": [{"word": "concoct", "meaning": "꾸며내다, 조작하다"}]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "congenial",
+      "explanation": [
+        "water and oil은 서로 섞이지 않는 관계를 비유한다.",
+        "congenial은 성질이 잘 맞는, 마음에 드는의 뜻이므로 love and politics are no more congenial than water and oil이 자연스럽다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "비교 구문"]}],
+      "vocab": [{"word": "congenial", "meaning": "성질이 맞는, 쾌적한"}]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "aseptic",
+      "explanation": [
+        "operating room, sterility, skin-site preparation이 단서이다.",
+        "수술실에서는 무균 기술이 필요하므로 aseptic technique이 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["의학 어휘", "문맥 단서"]}],
+      "vocab": [{"word": "aseptic", "meaning": "무균의"}]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "turgid",
+      "explanation": [
+        "extremely dull speeches와 military matters가 단서이다.",
+        "turgid는 과장되고 장황한, 지루하게 부풀린이라는 뜻이므로 dull stories에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["문체 형용사", "부정적 평가"]}],
+      "vocab": [{"word": "turgid", "meaning": "장황한, 과장된"}]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "dedicated",
+      "explanation": [
+        "버스 안에 휠체어를 위한 특정 공간이 마련되어 있다는 뜻이다.",
+        "dedicated는 특정 목적을 위해 전용으로 둔이라는 뜻이므로 dedicated wheelchair space가 자연스럽다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "시설 표현"]}],
+      "vocab": [{"word": "dedicated", "meaning": "전용의"}]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "inoculation",
+      "explanation": [
+        "입술을 베고 charm mixture를 상처에 넣는 행동은 무언가를 체내에 접종하거나 주입하는 방식이다.",
+        "inoculation은 접종, 주입의 뜻이므로 문맥에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["명사 의미", "행동 단서"]}],
+      "vocab": [{"word": "inoculation", "meaning": "접종, 주입"}]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "elliptical",
+      "explanation": [
+        "뒤 문장에서 readers must fill in the gaps라고 했으므로 생략이 많은 문체를 뜻해야 한다.",
+        "elliptical syntax는 생략적 구문이라는 뜻이므로 정답이다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["문체/구문 어휘", "뒤 문장 단서"]}],
+      "vocab": [{"word": "elliptical", "meaning": "생략적인"}]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "egocentric",
+      "explanation": [
+        "utility와 pleasure를 위한 우정은 모두 자기 자신에게 이롭거나 즐겁기 때문에 맺는 관계이다.",
+        "따라서 이런 우정의 성격은 자기중심적 egocentric이라고 볼 수 있다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["앞뒤 대조", "추상 형용사"]}],
+      "vocab": [{"word": "egocentric", "meaning": "자기중심적인"}]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "is not so different from — are more than a coincidence",
+      "explanation": [
+        "칠레의 megadrought와 캘리포니아의 가뭄이 함께 언급되고, 뒤에서는 두 가뭄이 공통 원인을 가질 수 있다고 설명한다.",
+        "따라서 서로 크게 다르지 않고 단순한 우연 이상이라는 ③이 논리적으로 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["비교", "공통 원인"]}],
+      "vocab": [{"word": "coincidence", "meaning": "우연"}, {"word": "megadrought", "meaning": "초장기 가뭄"}]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "arrogance — fear",
+      "explanation": [
+        "과학자들이 인간이 알아서는 안 될 것까지 알아내려 한다는 비판은 오만함에 대한 비판이다.",
+        "또 과학이 정말 성공할지도 모른다는 세 번째 비판 요소는 두려움으로 이어진다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["정서 단서", "비판의 단계"]}],
+      "vocab": [{"word": "arrogance", "meaning": "오만"}, {"word": "fear", "meaning": "두려움"}]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "fluency — affix",
+      "explanation": [
+        "교수가 potassium, boron 등 전문 용어를 막힘없이 설명했다는 문맥이므로 fluency가 맞다.",
+        "화자가 그 용어들에 아무 생각도 붙일 수 없었다는 뜻이므로 affix no idea가 적합하다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["명사 의미", "동사 결합"]}],
+      "vocab": [{"word": "fluency", "meaning": "유창함"}, {"word": "affix", "meaning": "붙이다"}]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "disparaged",
+      "explanation": [
+        "자유시장이 모든 사람에게 거래와 참여의 동등한 권리를 준다는 긍정적 설명이 앞에 있다.",
+        "이런 형태의 평등은 깎아내려서는 안 된다는 흐름이므로 disparaged가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["부정문", "평가 동사"]}],
+      "vocab": [{"word": "disparage", "meaning": "얕보다, 폄하하다"}]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "people do not assign specific values to objects",
+      "explanation": [
+        "머그컵을 가진 사람은 포기하려면 더 큰 금액을 요구하고, 가지지 않은 사람은 그만큼 지불하려 하지 않는다.",
+        "같은 물건도 소유 여부에 따라 평가가 달라지므로 사람들이 사물에 고정된 특정 가치를 부여하지 않는다는 ②가 맞다."
+      ],
+      "concepts": [{"title": "독해", "items": ["빈칸 추론", "소유 효과"]}],
+      "vocab": [{"word": "endowment effect", "meaning": "소유 효과"}]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "Introducing a new monetary reward seems to be urgent rather than improving the working environment.",
+      "explanation": [
+        "글은 돈보다 노동환경, 세금, 조직 효율 같은 외부 요인이 동기 개선에 더 중요하다는 방향으로 전개된다.",
+        "새 금전 보상이 더 시급하다는 ③은 글에서 추론할 수 없다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론 불가", "조사 결과 해석"]}],
+      "vocab": [{"word": "motivation", "meaning": "동기"}, {"word": "monetary reward", "meaning": "금전 보상"}]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "글은 사회 비교와 인지부조화에서 타인이 의견과 태도 평가의 기준을 제공한다고 설명한다.",
+        "(C)의 incompatible reference는 기준이 없거나 맞지 않는다는 뜻이라, 뒤의 anchor provided by the comparison group 흐름과 맞지 않는다."
+      ],
+      "concepts": [{"title": "독해", "items": ["흐름상 부적절", "지시어/개념 연결"]}],
+      "vocab": [{"word": "cognitive dissonance", "meaning": "인지부조화"}, {"word": "reference", "meaning": "기준"}]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "(B) → (A) → (C)",
+      "explanation": [
+        "먼저 Bell의 significant form 이론과 재현 배제의 핵심이 설명되어야 한다.",
+        "그 뒤 이 이론이 미학자들에게 널리 받아들여지지 않았다는 비판이 오고, 마지막으로 이론의 한계와 의의를 정리하는 흐름이 자연스럽다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "이론 소개와 비판"]}],
+      "vocab": [{"word": "aesthetician", "meaning": "미학자"}, {"word": "representation", "meaning": "재현"}]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "The future of science depends on laboratories.",
+      "explanation": [
+        "글은 실험실이 없으면 물리과학이 barren and death 상태가 되고, 실험실이 있어야 진보와 발견이 가능하다고 강조한다.",
+        "따라서 과학의 미래가 실험실에 달려 있다는 ③이 전체 요지이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["요지 파악", "반복 핵심어"]}],
+      "vocab": [{"word": "laboratory", "meaning": "실험실"}, {"word": "fecundity", "meaning": "생산성, 풍요"}]
     },
     {
       "number": 31,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "Changing scenery around the ants notably affects the frequency of their peeking.",
+      "explanation": [
+        "실험은 뒤로 걷는 개미가 주변 풍경을 시각 단서로 삼는지 확인한다.",
+        "주변 풍경을 바꾸면 peeking 빈도가 달라졌다는 내용이 연구 결과와 맞다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론", "실험 결과"]}],
+      "vocab": [{"word": "peeking", "meaning": "힐끗 보기"}, {"word": "landmark", "meaning": "지표물"}]
     },
     {
       "number": 32,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "ants that already knew where they were did much better regardless of the scenery",
+      "explanation": [
+        "빈칸은 path integration을 이미 갖춘 개미가 시각 단서 변화와 관계없이 더 잘 길을 찾는다는 결과를 정리해야 한다.",
+        "따라서 이미 자신의 위치를 알고 있던 개미들이 주변 풍경과 무관하게 더 잘했다는 ①이 맞다."
+      ],
+      "concepts": [{"title": "독해", "items": ["빈칸 추론", "실험 대조"]}],
+      "vocab": [{"word": "path integration", "meaning": "경로 통합"}]
     },
     {
       "number": 33,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "Emotional concepts vary widely in their meaning from language family to language family.",
+      "explanation": [
+        "글은 CLICS 자료를 이용해 언어권마다 감정 개념이 어떻게 다른 단어와 연결되는지 분석한다.",
+        "감정 개념의 의미가 언어 계통마다 크게 다르다는 ③이 지문 내용과 일치한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "연구 결과"]}],
+      "vocab": [{"word": "colexification", "meaning": "한 단어가 여러 개념을 표현하는 현상"}]
     },
     {
       "number": 34,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "(A)",
+      "explanation": [
+        "지문은 통계와 CLICS를 통해 언어별 감정 개념 차이를 밝히는 연구를 소개한다.",
+        "(A)는 사람들이 love 같은 감정 개념이 모든 언어에서 보편적으로 관찰된다고 믿었다는 일반론으로, 뒤의 CLICS 기능 설명으로 넘어가는 흐름을 끊는다."
+      ],
+      "concepts": [{"title": "독해", "items": ["흐름상 부적절", "연구 소개"]}],
+      "vocab": [{"word": "universally accepted", "meaning": "보편적으로 받아들여지는"}]
     },
     {
       "number": 35,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "(B) → (A) → (C) → (D)",
+      "explanation": [
+        "(B)가 정치와 정치구조의 개념을 먼저 정의한다.",
+        "그 다음 법 준수와 위반이 정치적 행동이라는 (A)가 이어지고, 권력 분배와 안정성 논의가 (C), (D)로 정리된다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "개념 정의 후 전개"]}],
+      "vocab": [{"word": "political stability", "meaning": "정치적 안정"}, {"word": "authority", "meaning": "권위"}]
     },
     {
       "number": 36,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "Defining the political stability in the relations between politics and political structure",
+      "explanation": [
+        "글은 political behavior, political structure, authority의 관계를 통해 정치적 안정성을 정의한다.",
+        "정치와 정치구조의 관계 속에서 정치적 안정성을 규정한다는 ④가 주제에 가장 가깝다."
+      ],
+      "concepts": [{"title": "독해", "items": ["주제 파악", "핵심 개념"]}],
+      "vocab": [{"word": "political structure", "meaning": "정치 구조"}]
     },
     {
       "number": 37,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "Women and Their Arts in the History of Art",
+      "explanation": [
+        "글은 여성들이 항상 예술을 만들어 왔지만 전통적 미술사가 이를 지워 왔다고 설명한다.",
+        "따라서 미술사의 여성과 그 예술이라는 ②가 제목으로 가장 적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["제목", "핵심 대상"]}],
+      "vocab": [{"word": "art history", "meaning": "미술사"}, {"word": "women artists", "meaning": "여성 예술가"}]
     },
     {
       "number": 38,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "(D)",
+      "explanation": [
+        "삽입문은 '이것이 왜 일어났는가'와 '기존 미술사가 여성의 다른 역사들을 수용할 수 있는가'라는 문제를 제기한다.",
+        "앞에서 여성 예술가가 기록에서 지워졌다는 설명이 나온 뒤, 이를 바탕으로 문제 제기를 하는 위치인 (D)가 적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문장 삽입", "지시어 this"]}],
+      "vocab": [{"word": "accommodate", "meaning": "수용하다"}, {"word": "legible", "meaning": "읽을 수 있는, 이해 가능한"}]
     },
     {
       "number": 39,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(A) literate — (B) relentless",
+      "explanation": [
+        "TV가 독서와 사고 습관을 대체한다는 비판이므로 사람들은 점점 less literate가 된다는 말이 자연스럽다.",
+        "문화가 치약처럼 대량 생산·소비되는 압박은 계속되고 가차 없다는 뜻이므로 relentless pressure가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["문화비평 문맥", "형용사 의미"]}],
+      "vocab": [{"word": "literate", "meaning": "글을 읽고 쓸 수 있는, 교양 있는"}, {"word": "relentless", "meaning": "가차 없는, 끊임없는"}]
     },
     {
       "number": 40,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "Despite the decadence of the mass culture, the culture of the 1950s was not so bleak.",
+      "explanation": [
+        "글은 1950년대 대중문화의 저급함을 비판하면서도, 전체 문화가 완전히 암울하지만은 않았다는 방향으로 균형을 잡는다.",
+        "따라서 대중문화의 퇴폐에도 불구하고 1950년대 문화가 그렇게 어둡지만은 않았다는 ②가 추론으로 적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론", "양보-전환 구조"]}],
+      "vocab": [{"word": "decadence", "meaning": "퇴폐"}, {"word": "bleak", "meaning": "암울한"}]
     }
   ]
 }

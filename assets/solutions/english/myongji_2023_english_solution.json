@@ -4,12 +4,12 @@
   "year": 2023,
   "exam_kind": "english",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이"
   },
   "schema": {
     "number": "문제 번호",
@@ -25,333 +25,632 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "inseparably",
+      "explanation": [
+        "inextricably는 분리할 수 없게라는 뜻이므로 inseparably가 가장 가깝습니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "inextricably",
+          "meaning": "분리할 수 없게"
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "unease",
+      "explanation": [
+        "malaise는 불쾌감이나 불안한 상태를 뜻하므로 unease가 맞습니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "malaise",
+          "meaning": "불안, 불쾌감"
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "filthy",
+      "explanation": [
+        "squalid는 더럽고 추한이라는 뜻으로 filthy와 가깝습니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "squalid",
+          "meaning": "더러운"
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "flimsy",
+      "explanation": [
+        "모기 주둥이처럼 얇고 약해 보이는 관을 말하므로 flimsy가 적절합니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "flimsy",
+          "meaning": "약한"
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "standstill",
+      "explanation": [
+        "도로가 막히고 공장이 피해를 입어 산업 중심지가 멈춘 상황이므로 standstill이 맞습니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "standstill",
+          "meaning": "정지"
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "other if its measure is greater",
+      "explanation": [
+        "두 대상 비교에서는 than other가 아니라 than the other가 되어야 합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "followed the visit of US politician",
+      "explanation": [
+        "방문 뒤에 긴장이 증가했다는 의미이므로 followed가 아니라 following 또는 after가 필요합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "seems minor instances of social and",
+      "explanation": [
+        "minor instances를 꾸미려면 seems가 아니라 seeming 또는 seemingly가 필요합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "saw show on Broadway",
+      "explanation": [
+        "Broadway 공연을 보았다는 뜻이므로 saw a show on Broadway가 되어야 합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "the machine which the horse and",
+      "explanation": [
+        "A is to B what C is to D 구조가 필요하므로 which가 아니라 what이 맞습니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "to promote the limited edition of a new release",
+      "explanation": [
+        "한정판 시계를 구매하도록 홍보하는 글입니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "How Green Is Your Money?",
+      "explanation": [
+        "사회책임투자와 친환경 투자 기준을 다루므로 How Green Is Your Money가 제목으로 적절합니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "socially screened",
+          "meaning": "사회적 기준으로 선별된"
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "( ④ )",
+      "explanation": [
+        "우주에서 온 DNA라는 panspermia 설명 뒤에 지구가 우주 먼지와 운석으로 수정되었다는 비유가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "whether the advent of computers changed surveying instruments",
+      "explanation": [
+        "컴퓨터화 이후 EDM, GPS, 레이저 스캐닝이 전통 장비를 대체했다는 내용이 언급됩니다."
+      ],
+      "concepts": [
+        "정답 근거 독해"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "[B] - [C] - [A]",
+      "explanation": [
+        "과학적 근거를 세운 뒤 센서를 개발하고, 현재 시제품을 거쳐 미래 가정용 기기로 이어지는 B-C-A 순서입니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "It emphasizes a technical, object-based analysis of artworks.",
+      "explanation": [
+        "technical art history는 작품의 재료와 제작 방식을 중심으로 한 object-based technical analysis를 강조합니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "object-based",
+          "meaning": "대상 중심의"
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "She claims that the status quo is satisfactory.",
+      "explanation": [
+        "글쓴이는 호의와 현 제도가 충분하지 않다고 하므로 현 상태가 만족스럽다는 진술은 틀립니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "It proved how blue light hinders screen readers from taking frequent sighs.",
+      "explanation": [
+        "블루라이트가 한숨 생성을 방해한다는 것은 speculate라고 했으므로 증명된 사실이 아닙니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "undeservedly",
+      "explanation": [
+        "실제 최악의 달은 9월이므로 10월의 나쁜 평판은 undeservedly bad rep입니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "undeservedly",
+          "meaning": "부당하게"
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "an intrinsic part of the identity of objects",
+      "explanation": [
+        "개에게는 움직임이 물체 정체성의 중요한 일부라는 예시가 이어집니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "the effects of local media closures on corporate crime",
+      "explanation": [
+        "지역신문 폐간 뒤 기업 위반과 벌금이 늘었는지를 조사하므로 지역 언론 폐쇄와 기업 범죄의 관계가 핵심입니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "But there are drawbacks as well",
+      "explanation": [
+        "패션지 편집장의 보상 뒤에 단점들이 이어지므로 But there are drawbacks as well이 맞습니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "we ordinarily ignore air",
+      "explanation": [
+        "실험 설계 C, 관찰과 결과 B, 결론 A의 순서가 자연스럽습니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "가난한 사람들이 오염된 공기에서 벗어나기 어렵다는 환경 불평등이 중심입니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "environmental inequality",
+          "meaning": "환경 불평등"
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "The Falcon technology is to be welcomed by environmentalists.",
+      "explanation": [
+        "연구는 고학력 엘리트가 더 편견이 많다는 것이 아니라 편견의 대상이 다르다는 결론입니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "( ④ )",
+      "explanation": [
+        "생활양식 변화에도 미국인의 가족과 친구 관계는 크게 변하지 않았다는 내용입니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "He further developed the economic notion of prejudice widely accepted at the time.",
+      "explanation": [
+        "빈칸 뒤는 춤 역병의 원인 가설들이므로 무엇이 사람들을 죽을 때까지 춤추게 했는지가 적절합니다."
+      ],
+      "concepts": [
+        "주제/요약",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "[C] - [A] - [B]",
+      "explanation": [
+        "ergot 곰팡이가 환각을 일으켰을 가능성이 언급되므로 ④가 참입니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Not so",
+      "explanation": [
+        "돼지라는 수수께끼를 제시한 뒤, 돼지 혐오 전통과 돼지 애호 전통을 대조하는 B-A-C 순서입니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "abomination",
+          "meaning": "혐오 대상"
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 23 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "A significant drop in the number of births was recorded around 5am in both groups.",
+      "explanation": [
+        "돼지가 쓸모없어서 금기시된 것이 아니라 종교적으로 부정하다고 여겨졌기 때문에 ①은 틀립니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     }
   ]
 }

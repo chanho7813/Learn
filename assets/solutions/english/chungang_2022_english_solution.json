@@ -4,18 +4,15 @@
   "year": 2022,
   "exam_kind": "english",
   "question_count": 40,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
     "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "verified": true,
+    "note": "중앙_22_영어_일반.pdf 원문 및 2022학년도 중앙대 일반편입 영어 정답지 대조"
   },
   "schema": {
     "number": "문제 번호",
-    "status": "pending 또는 verified",
-    "verified": "검증 완료 여부",
-    "source": "검증 근거",
     "answer": "정답 번호",
     "answer_text": "정답 선택지 내용",
     "explanation": "해설 문단 배열",
@@ -25,443 +22,443 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "swimming",
+      "explanation": [
+        "natation은 수영, 헤엄치기의 뜻이다.",
+        "물속에서 이동하는 행위를 가리키므로 swimming이 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["유의어", "명사 의미"]}],
+      "vocab": [{"word": "natation", "meaning": "수영"}, {"word": "swimming", "meaning": "수영"}]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "common",
+      "explanation": [
+        "plebeian은 평민의, 서민적인, 흔한의 뜻이다.",
+        "귀족적이거나 세련된 것과 반대되는 의미이므로 common이 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["사회 계층 어휘", "형용사 유의어"]}],
+      "vocab": [{"word": "plebeian", "meaning": "평민의, 서민적인"}, {"word": "common", "meaning": "보통의, 흔한"}]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "irritated",
+      "explanation": [
+        "huffy는 발끈한, 성난, 토라진의 뜻이다.",
+        "문맥에서 aloof, temperamental과 함께 예민하고 불쾌한 태도를 말하므로 irritated가 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["감정 형용사", "문맥상 유의어"]}],
+      "vocab": [{"word": "huffy", "meaning": "성난, 발끈한"}, {"word": "irritated", "meaning": "짜증 난"}]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "adamantly",
+      "explanation": [
+        "flatly는 단호하게, 딱 잘라서의 뜻으로 쓰였다.",
+        "거절이나 반대가 굳고 강하다는 문맥이므로 adamantly가 맞다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["부사 유의어", "태도 파악"]}],
+      "vocab": [{"word": "flatly", "meaning": "단호하게"}, {"word": "adamantly", "meaning": "완강하게"}]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "simmer",
+      "explanation": [
+        "seethe는 감정이 속에서 들끓다라는 뜻이다.",
+        "분노가 조용히 끓어오르는 상태를 나타내므로 simmer가 가장 가깝다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["비유적 의미", "감정 동사"]}],
+      "vocab": [{"word": "seethe", "meaning": "속으로 들끓다"}, {"word": "simmer", "meaning": "끓다, 분노가 끓다"}]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "peeved",
+      "explanation": [
+        "narked는 영국식 구어로 짜증 난, 화난의 뜻이다.",
+        "peeved도 언짢은, 짜증 난이라는 뜻이므로 같은 감정 상태를 나타낸다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["구어 표현", "감정 형용사"]}],
+      "vocab": [{"word": "narked", "meaning": "짜증 난"}, {"word": "peeved", "meaning": "언짢은"}]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "A: Shawn, I need your help this time. Can you give me a hand? B: In your dreams. Do you mind me asking?",
+      "explanation": [
+        "A가 도움을 요청했는데 B의 In your dreams는 '꿈 깨라'라는 강한 거절 표현이다.",
+        "뒤의 Do you mind me asking?은 질문 허락을 구하는 말이라 앞뒤 대화가 이어지지 않는다."
+      ],
+      "concepts": [{"title": "생활영어", "items": ["대화 흐름", "관용 표현"]}],
+      "vocab": [{"word": "In your dreams", "meaning": "꿈 깨라, 말도 안 된다"}]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "A: He is a good seller in the fish market, isn’t he? B: Yes, he often throws a red herring.",
+      "explanation": [
+        "red herring은 사람의 주의를 딴 데로 돌리는 미끼라는 관용 표현이다.",
+        "생선 시장의 좋은 판매원이라는 말과 직접 연결되지 않으므로 어색한 대화이다."
+      ],
+      "concepts": [{"title": "생활영어", "items": ["관용구", "문맥 적합성"]}],
+      "vocab": [{"word": "red herring", "meaning": "주의를 돌리는 단서, 논점 흐리기"}]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "②",
+      "answer_text": "include",
+      "explanation": [
+        "주어가 The exhibition으로 단수이므로 현재시제 동사는 includes가 되어야 한다.",
+        "따라서 include가 문법상 오류이다."
+      ],
+      "concepts": [{"title": "문법", "items": ["주어-동사 수일치", "단수 주어"]}],
       "vocab": []
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "④",
+      "answer_text": "No error",
+      "explanation": [
+        "문장 안의 시제, 관계절, 분사구문 구조가 모두 자연스럽다.",
+        "문법적으로 고쳐야 할 부분이 없으므로 No error가 정답이다."
+      ],
+      "concepts": [{"title": "문법", "items": ["오류 없음", "문장 구조 검토"]}],
       "vocab": []
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
+      "answer": "①",
+      "answer_text": "was being caused",
+      "explanation": [
+        "문맥은 일반적 원인 관계를 설명하므로 진행 수동 was being caused가 어색하다.",
+        "단순 수동 또는 현재완료 수동으로 원인 관계를 표현해야 자연스럽다."
+      ],
+      "concepts": [{"title": "문법", "items": ["시제", "수동태", "진행형 오용"]}],
       "vocab": []
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "convoked",
+      "explanation": [
+        "문맥은 공식 회의나 모임을 소집했다는 뜻이다.",
+        "convoked는 회의 등을 소집하다라는 뜻이므로 빈칸에 가장 적합하다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["동사 의미", "공식 절차 문맥"]}],
+      "vocab": [{"word": "convoke", "meaning": "소집하다"}]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "viviparous",
+      "explanation": [
+        "platypus는 포유류이지만 알을 낳는 동물이다.",
+        "viviparous는 새끼를 낳는, 태생의 뜻이므로 platypus 설명과 맞지 않는다."
+      ],
+      "concepts": [{"title": "어휘", "items": ["생물학 형용사", "내용 불일치"]}],
+      "vocab": [{"word": "viviparous", "meaning": "태생의, 새끼를 낳는"}]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "Volatile",
+      "explanation": [
+        "문맥은 상황이나 가격 등이 갑자기 변하기 쉽다는 의미이다.",
+        "volatile은 불안정한, 변동이 심한의 뜻이므로 빈칸에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "경제/상황 문맥"]}],
+      "vocab": [{"word": "volatile", "meaning": "변동성이 큰, 불안정한"}]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "accolade",
+      "explanation": [
+        "문맥은 업적에 대해 받는 칭찬이나 영예를 말한다.",
+        "accolade는 찬사, 영예, 상이라는 뜻이므로 가장 적합하다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["명사 의미", "칭찬/수상 문맥"]}],
+      "vocab": [{"word": "accolade", "meaning": "찬사, 영예"}]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "accelerated",
+      "explanation": [
+        "문맥은 변화나 과정이 더 빨라졌다는 뜻이다.",
+        "accelerated는 가속화된이라는 뜻으로 흐름에 맞는다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["동사/분사 의미", "변화 속도"]}],
+      "vocab": [{"word": "accelerate", "meaning": "가속화하다"}]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "appreciation",
+      "explanation": [
+        "문맥은 대상의 가치나 의미를 이해하고 인정하는 태도를 말한다.",
+        "appreciation은 감상, 이해, 평가의 뜻이므로 빈칸에 가장 자연스럽다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["명사 의미", "문맥상 태도"]}],
+      "vocab": [{"word": "appreciation", "meaning": "이해, 감상, 인정"}]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "giddy",
+      "explanation": [
+        "with vanity와 결합해 허영심 때문에 들뜨고 경솔한 상태를 나타낸다.",
+        "giddy는 들뜬, 경솔한의 뜻이므로 문맥에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "감정 상태"]}],
+      "vocab": [{"word": "giddy", "meaning": "들뜬, 어지러운"}]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "prevarication",
+      "explanation": [
+        "문맥은 사실을 바로 말하지 않고 둘러대는 태도를 가리킨다.",
+        "prevarication은 얼버무림, 회피적 거짓말이라는 뜻이다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["명사 의미", "부정적 태도"]}],
+      "vocab": [{"word": "prevarication", "meaning": "얼버무림, 발뺌"}]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "adjacent to ― substantiated",
+      "explanation": [
+        "첫 빈칸은 어떤 위치가 서로 가까이 붙어 있다는 뜻이 필요하므로 adjacent to가 맞다.",
+        "둘째 빈칸은 주장이나 사실이 증거로 입증되었다는 의미이므로 substantiated가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["전치사구", "증거 관계"]}],
+      "vocab": [{"word": "adjacent to", "meaning": "~에 인접한"}, {"word": "substantiate", "meaning": "입증하다"}]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "bureaucracy ― supported",
+      "explanation": [
+        "첫 빈칸은 행정 조직이나 관료 체계를 가리키는 bureaucracy가 자연스럽다.",
+        "둘째 빈칸은 앞의 주장이 자료나 근거로 지지된다는 의미이므로 supported가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["제도 어휘", "근거 관계"]}],
+      "vocab": [{"word": "bureaucracy", "meaning": "관료제"}, {"word": "support", "meaning": "뒷받침하다"}]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "polarizing ― accentuating",
+      "explanation": [
+        "첫 빈칸은 집단을 양극화시키는 효과를 말하므로 polarizing이 적합하다.",
+        "둘째 빈칸은 차이나 특징을 더 두드러지게 한다는 뜻이므로 accentuating이 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["분사 형용사", "강조/대립 관계"]}],
+      "vocab": [{"word": "polarize", "meaning": "양극화하다"}, {"word": "accentuate", "meaning": "두드러지게 하다"}]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "deterioration ― compelling",
+      "explanation": [
+        "첫 빈칸은 상황이나 상태가 나빠지는 흐름을 말하므로 deterioration이 맞다.",
+        "둘째 빈칸은 설득력 있고 강력한 근거라는 의미이므로 compelling이 적합하다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["추상명사", "평가 형용사"]}],
+      "vocab": [{"word": "deterioration", "meaning": "악화"}, {"word": "compelling", "meaning": "설득력 있는"}]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "phonetic ― declined",
+      "explanation": [
+        "첫 빈칸은 소리와 발음에 관한 성질이므로 phonetic이 맞다.",
+        "둘째 빈칸은 수치나 비율이 감소했다는 흐름이므로 declined가 적합하다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["언어학 어휘", "증감 표현"]}],
+      "vocab": [{"word": "phonetic", "meaning": "음성의, 발음상의"}, {"word": "decline", "meaning": "감소하다"}]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "commonsensical",
+      "explanation": [
+        "문맥은 특별한 이론보다 상식적으로 납득되는 판단을 말한다.",
+        "commonsensical은 상식적인이라는 뜻이므로 빈칸에 맞다."
+      ],
+      "concepts": [{"title": "어휘 빈칸", "items": ["형용사 의미", "상식/판단 문맥"]}],
+      "vocab": [{"word": "commonsensical", "meaning": "상식적인"}]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "contours ― averse",
+      "explanation": [
+        "첫 빈칸은 사물의 윤곽이나 지형의 선을 뜻하므로 contours가 적합하다.",
+        "둘째 빈칸은 어떤 것에 꺼리거나 반대한다는 의미이므로 averse가 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["명사 의미", "be averse to"]}],
+      "vocab": [{"word": "contour", "meaning": "윤곽, 등고선"}, {"word": "averse", "meaning": "꺼리는"}]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "Details of the old animal mummies in Egypt were detected by 3D imaging.",
+      "explanation": [
+        "글은 동물 미라를 훼손하지 않고 내부 구조를 3D 영상으로 확인한 내용을 설명한다.",
+        "따라서 고대 이집트 동물 미라의 세부 정보가 3D imaging으로 탐지되었다는 ④가 일치한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "핵심 정보 확인"]}],
+      "vocab": [{"word": "detect", "meaning": "탐지하다"}, {"word": "mummy", "meaning": "미라"}]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "Hindu believers are conscious of dharma that guides their daily lives.",
+      "explanation": [
+        "지문은 dharma가 힌두교인의 의무와 삶의 질서를 이끄는 개념임을 설명한다.",
+        "일상생활을 안내하는 dharma를 의식한다는 ④가 글의 내용과 맞다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "종교 개념 파악"]}],
+      "vocab": [{"word": "dharma", "meaning": "힌두교/불교의 법, 의무, 질서"}]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "①",
+      "answer_text": "Academic attention has been paid to the questions and expressions of language in considering the doings of the great variety of animals and people alike.",
+      "explanation": [
+        "글은 인간과 다양한 동물의 행동, 표현, 언어 능력을 함께 검토하는 학문적 관심을 다룬다.",
+        "동물과 사람의 행위를 함께 고려하며 언어의 질문과 표현에 주목했다는 ①이 요지에 가장 가깝다."
+      ],
+      "concepts": [{"title": "독해", "items": ["요지 파악", "핵심 대상 비교"]}],
+      "vocab": [{"word": "academic attention", "meaning": "학문적 관심"}]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "(B)",
+      "explanation": [
+        "글의 흐름은 click fraud의 방식과 그 피해를 설명한다.",
+        "(B)는 부정 클릭을 통한 data mining이 광고주에게 정보를 빠르게 제공한다고 말하는데, 앞뒤는 광고주가 피해를 입는 구조와 Google의 대응을 설명하므로 흐름에서 벗어난다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문장 삽입/삭제", "공식 정답 대조"]}],
+      "vocab": [{"word": "click fraud", "meaning": "부정 클릭"}, {"word": "fraudulent", "meaning": "사기의, 부정한"}]
     },
     {
       "number": 31,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(B) →(A) →(D) →(C)",
+      "explanation": [
+        "Pompeii 발견 뒤 Winckelmann의 고대미술론이 나오고, 그 영향으로 아카데미가 확산된다.",
+        "이후 프랑스 아카데미와 Salon 제도를 설명하고, 마지막으로 Salon의 전통적 기준과 장르 위계가 제시되는 흐름이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "시간 순서", "예시 전개"]}],
+      "vocab": [{"word": "Neoclassical", "meaning": "신고전주의의"}, {"word": "Salon", "meaning": "프랑스 아카데미 전시회"}]
     },
     {
       "number": 32,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "The Grand Tour of Italy was an important part in education of the Neoclassical period.",
+      "explanation": [
+        "지문은 교육이 완성되려면 이탈리아 Grand Tour가 필요했다고 말한다.",
+        "고대 세계의 교훈을 직접 접하는 과정이므로 신 고전주의 시기 교육의 중요한 일부였다는 ④가 일치한다."
+      ],
+      "concepts": [{"title": "독해", "items": ["내용 일치", "세부 정보 확인"]}],
+      "vocab": [{"word": "Grand Tour", "meaning": "유럽 상류층의 교양 여행"}, {"word": "connoisseur", "meaning": "감식가"}]
     },
     {
       "number": 33,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "(A) demarcation ― (B) celestial ― (C) blemished",
+      "explanation": [
+        "Galileo는 물리학과 수학 사이의 기존 경계 demarcation을 넘어섰다.",
+        "Aristotelian heavens와 대비되는 하늘의 천체는 celestial bodies이고, 태양 표면은 검은 반점으로 blemished 되었다는 흐름이 자연스럽다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["학술 어휘", "문맥상 대립"]}],
+      "vocab": [{"word": "demarcation", "meaning": "경계"}, {"word": "celestial", "meaning": "천체의"}, {"word": "blemished", "meaning": "흠이 있는"}]
     },
     {
       "number": 34,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "Following Aristotelian way of using physics and mathematics, Galileo employed the two natural disciplines to explicate the matter of the heavens.",
+      "explanation": [
+        "지문은 Galileo가 Aristotelian 방식의 물리학-수학 분리를 밟은 것이 아니라 그 경계를 무너뜨렸다고 설명한다.",
+        "따라서 그가 Aristotelian 방식에 따라 두 학문을 사용했다는 ③은 추론할 수 없다."
+      ],
+      "concepts": [{"title": "독해", "items": ["추론 불가", "반대 진술 확인"]}],
+      "vocab": [{"word": "subvert", "meaning": "전복하다"}, {"word": "Aristotelian", "meaning": "아리스토텔레스 학파의"}]
     },
     {
       "number": 35,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "②",
+      "answer_text": "(B) →(C) →(A)",
+      "explanation": [
+        "수은 배출 규제와 국제 협약을 먼저 설명한 뒤, 그런 조치가 얼마나 빨리 효과를 내는지라는 질문이 나온다.",
+        "그 질문에 답하기 위해 동위원소 추적 실험을 실시했다는 흐름이므로 (B) → (C) → (A)가 맞다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "문제 제기와 실험"]}],
+      "vocab": [{"word": "mercury", "meaning": "수은"}, {"word": "isotope", "meaning": "동위원소"}]
     },
     {
       "number": 36,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "Lengthy experiment demonstrated environmental recovery by cutting mercury contamination.",
+      "explanation": [
+        "글은 수은 투입을 중단한 뒤 물고기 속 동위원소 수은 농도가 크게 줄었다는 장기 실험 결과를 제시한다.",
+        "수은 오염을 줄이면 환경 회복이 일어날 수 있음을 장기 실험이 보여주었다는 ③이 요지이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["요지 파악", "실험 결과"]}],
+      "vocab": [{"word": "contamination", "meaning": "오염"}, {"word": "recovery", "meaning": "회복"}]
     },
     {
       "number": 37,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(B) →(A) →(C)",
+      "explanation": [
+        "먼저 인간 사회 역사에서 자연과 공동체로부터 분리되는 과정을 설명해야 한다.",
+        "그 다음 개인의 삶에서도 아이가 어머니와 분리되는 같은 과정이 나타나고, 마지막으로 primary ties와 자유의 의미 변화가 정리된다."
+      ],
+      "concepts": [{"title": "독해", "items": ["문단 배열", "일반-개별-정리 구조"]}],
+      "vocab": [{"word": "individuation", "meaning": "개체화"}, {"word": "primary ties", "meaning": "일차적 유대"}]
     },
     {
       "number": 38,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "④",
+      "answer_text": "umbilical ― preindividualistic",
+      "explanation": [
+        "외부 세계와 연결된 cord는 비유적으로 umbilical cord, 즉 탯줄을 뜻한다.",
+        "개체화 이전의 존재 상태를 말하므로 preindividualistic existence가 문맥에 맞다."
+      ],
+      "concepts": [{"title": "논리완성", "items": ["비유 표현", "철학/사회심리 어휘"]}],
+      "vocab": [{"word": "umbilical cord", "meaning": "탯줄"}, {"word": "preindividualistic", "meaning": "개체화 이전의"}]
     },
     {
       "number": 39,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "(C)",
+      "explanation": [
+        "(C)의 rarely linked는 뒤의 '미국 남동부의 수자원은 허리케인에 의존한다'는 인용과 충돌한다.",
+        "폭풍 강우와 하천 유량이 밀접히 연결된다는 흐름이므로 rarely가 들어간 (C)가 부적절하다."
+      ],
+      "concepts": [{"title": "독해", "items": ["흐름상 부적절", "논리 충돌"]}],
+      "vocab": [{"word": "false ring", "meaning": "가짜 나이테"}, {"word": "streamflow", "meaning": "하천 유량"}]
     },
     {
       "number": 40,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "answer": "③",
+      "answer_text": "False tree rings could provide the record of historic hurricanes and floods.",
+      "explanation": [
+        "글은 가짜 나이테가 홍수 및 허리케인과 연결되며 과거 폭풍 빈도 연구에 도움이 된다고 설명한다.",
+        "따라서 가짜 나이테가 역사적 허리케인과 홍수 기록을 제공할 수 있다는 ③이 요지이다."
+      ],
+      "concepts": [{"title": "독해", "items": ["요지 파악", "연구 의의"]}],
+      "vocab": [{"word": "hurricane", "meaning": "허리케인"}, {"word": "proxy record", "meaning": "대리 기록, 간접 기록"}]
     }
   ]
 }

@@ -4,12 +4,12 @@
   "year": 2020,
   "exam_kind": "english",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이"
   },
   "schema": {
     "number": "문제 번호",
@@ -25,333 +25,633 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "fabricated",
+      "explanation": [
+        "trumped-up charges는 조작된 혐의이므로 fabricated가 맞습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "trumped-up",
+          "meaning": "조작된"
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "capricious",
+      "explanation": [
+        "mercurial은 변덕스러운 성격을 뜻하므로 capricious가 가장 가깝습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "mercurial",
+          "meaning": "변덕스러운"
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "meticulous",
+      "explanation": [
+        "fastidious는 세심하고 까다로운이라는 뜻으로 meticulous와 가깝습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "fastidious",
+          "meaning": "까다로운"
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "reprehensible",
+      "explanation": [
+        "heinous crimes에 대한 사형 지지를 비난받는 입장으로 보는 문맥이므로 reprehensible이 맞습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "reprehensible",
+          "meaning": "비난받을 만한"
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "auspicious",
+      "explanation": [
+        "실업률 하락은 경제에 좋은 조짐이므로 auspicious가 적절합니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "auspicious",
+          "meaning": "길조의"
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "as was the Native American victims",
+      "explanation": [
+        "Native American victims는 복수이므로 as was가 아니라 as were가 되어야 합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "which the king was advised by",
+      "explanation": [
+        "limited monarchy 안에서 왕이 조언을 받는 구조이므로 which가 아니라 in which가 필요합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "who you think are",
+      "explanation": [
+        "the Kims are not who you think they are가 되어야 하며 they가 빠졌습니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "derived by polyethylene terephthalate",
+      "explanation": [
+        "polyester는 PET에서 유래하므로 derived from이 맞고 derived by는 틀립니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "succumbing only massive army operations by",
+      "explanation": [
+        "succumb to가 관용구이므로 succumbing only to massive army operations가 되어야 합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "문장 구조"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "As a result",
+      "explanation": [
+        "저항 유전자를 가진 사람들이 더 살아남은 결과 인구 내 비율이 높아진다는 흐름입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "maintain their autonomy",
+      "explanation": [
+        "청소년이 거짓말하는 주된 이유는 부모 통제에서 벗어나 자율성을 유지하려는 데 있습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "are designed more for prehistoric times than for modern ones",
+      "explanation": [
+        "현대의 자기유발 스트레스에는 선사시대 생존용 스트레스 반응이 잘 맞지 않는다는 내용입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Why do we forget our dreams so quickly",
+      "explanation": [
+        "꿈을 빨리 잊는 이유를 설명하는 글입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "shifts in strength",
+      "explanation": [
+        "나이에 따라 강점이 감소하거나 증가하는 변화가 역할 전환을 낳는다는 흐름입니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Freud was a prominent successor of his theory.",
+      "explanation": [
+        "Freud는 Erikson의 후계자가 아니라 선행 이론가입니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "【C】-【A】-【B】",
+      "explanation": [
+        "식량 공급도 지식 적용으로 기하급수적으로 늘 수 있음을 C가 제시하고, A와 B가 그 발전을 이어 설명합니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "positive and negative health impacts of tattoos",
+      "explanation": [
+        "문신의 위험과 함께 면역계 활성화 가능성도 다루므로 긍정적, 부정적 건강 영향이 중심입니다."
+      ],
+      "concepts": [
+        "주제/요지",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "tattoo",
+          "meaning": "문신"
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "He produced his most influential work early in life.",
+      "explanation": [
+        "Kant의 영향력 있는 저작은 생애 후반에 나왔다고 했으므로 early in life는 틀립니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Plastic pollution puts marine life in danger",
+      "explanation": [
+        "플라스틱 오염이 해양 생물에 주는 위험이 중심입니다."
+      ],
+      "concepts": [
+        "주제/요지",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Why are optical aberrations difficult to correct with usual spherical lenses?",
+      "explanation": [
+        "광학수차가 일반 구면렌즈로 왜 교정하기 어려운지는 구체적으로 설명되지 않습니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "Sexual partnership is a relationship of mutual mistrust and exploitation.",
+      "explanation": [
+        "Trivers의 관점은 성적 파트너십을 서로 상대에게 더 투자시키려는 불신과 착취 관계로 봅니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "( ② )",
+      "explanation": [
+        "AT&T가 세금 이연 조항을 지적했다는 문장이 와야 뒤의 Thus가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "Soapmakers in smaller companies produce soaps without generating any heat.",
+      "explanation": [
+        "cold-process도 지방산과 알칼리 반응열로 비누가 형성되므로 열이 전혀 없다는 말은 틀립니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "how microbes adapt by natural selection to new hosts and vectors",
+      "explanation": [
+        "미생물이 새로운 숙주와 매개체에 자연선택으로 적응하는 과정을 myxo 사례로 설명합니다."
+      ],
+      "concepts": [
+        "주제/요지",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "microbe",
+          "meaning": "미생물"
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "European domestic rabbits",
+      "explanation": [
+        "its plague는 19세기에 도입되어 호주에 문제가 된 European domestic rabbits를 가리킵니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "【C】-【A】-【D】-【B】",
+      "explanation": [
+        "군사 문화 쇠퇴의 현재 모습 C, 일상 폭력에 대한 태도 변화 A, Truman 사례 D, 여성 폭력에 대한 더 큰 변화 B 순서가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장/문단 배열",
+        "담화 흐름"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Truman’s desire to physically attack the critic",
+      "explanation": [
+        "the impulse는 비평가를 신체적으로 공격하고 싶은 충동입니다."
+      ],
+      "concepts": [
+        "내용 일치/불일치",
+        "세부 근거"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "epidemics",
+      "explanation": [
+        "사상, 유행, 범죄 감소가 바이러스처럼 퍼진다는 비유이므로 epidemics가 맞습니다."
+      ],
+      "concepts": [
+        "어휘/빈칸 추론",
+        "문맥 판단"
+      ],
+      "vocab": [
+        {
+          "word": "epidemic",
+          "meaning": "전염병"
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "명지 20 영어 PDF 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "People's sense of fashion can be contagious.",
+      "explanation": [
+        "Hush Puppies 유행 사례는 사람들의 패션 감각이 전염될 수 있음을 보여 줍니다."
+      ],
+      "concepts": [
+        "주제/요지",
+        "중심 내용"
+      ],
+      "vocab": [
+        {
+          "word": "key point",
+          "meaning": "핵심 근거"
+        }
+      ]
     }
   ]
 }

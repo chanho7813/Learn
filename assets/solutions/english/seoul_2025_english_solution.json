@@ -4,12 +4,12 @@
   "year": 2025,
   "exam_kind": "english",
   "question_count": 30,
-  "status": "pending",
-  "verified": false,
+  "status": "verified",
+  "verified": true,
   "source": {
-    "type": "manual",
-    "verified": false,
-    "note": "정답/해설 미입력. 원문 대조 후 verified 처리 필요"
+    "type": "pdf+direct_solution",
+    "verified": true,
+    "note": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이"
   },
   "schema": {
     "number": "문제 번호",
@@ -25,333 +25,775 @@
   "solutions": [
     {
       "number": 1,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "unequivocal",
+      "explanation": [
+        "enigmatical은 수수께끼 같은, 불가해한이라는 뜻입니다.",
+        "unequivocal은 명백한이라는 뜻이라 의미가 가장 멉니다."
+      ],
+      "concepts": [
+        "반의어 어휘",
+        "문맥 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "enigmatical",
+          "meaning": "불가해한"
+        },
+        {
+          "word": "unequivocal",
+          "meaning": "명백한"
+        }
+      ]
     },
     {
       "number": 2,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "foresighted",
+      "explanation": [
+        "prescient는 미래를 내다보는, 선견지명이 있는이라는 뜻입니다.",
+        "foresighted가 같은 의미이고 나머지는 위태로운, 기정의, 필수조건이라는 뜻입니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "prescient",
+          "meaning": "선견지명이 있는"
+        },
+        {
+          "word": "foresighted",
+          "meaning": "앞을 내다보는"
+        }
+      ]
     },
     {
       "number": 3,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "consolation",
+      "explanation": [
+        "solace는 고통이나 불안 속에서 얻는 위안입니다.",
+        "consolation이 위로, 위안이라는 뜻으로 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "solace",
+          "meaning": "위안"
+        },
+        {
+          "word": "consolation",
+          "meaning": "위로"
+        }
+      ]
     },
     {
       "number": 4,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "reprehensible",
+      "explanation": [
+        "전쟁 때에는 보통 도덕적으로 비난받는 행위, 예컨대 살인이 보상받을 수도 있다는 흐름입니다.",
+        "reprehensible은 비난받아 마땅한이라는 뜻이므로 빈칸에 가장 적절합니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "문맥상 반전"
+      ],
+      "vocab": [
+        {
+          "word": "reprehensible",
+          "meaning": "비난받을 만한"
+        },
+        {
+          "word": "deviant",
+          "meaning": "일탈적인"
+        }
+      ]
     },
     {
       "number": 5,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "that was emerged in the 19th century and aimed to capture life as it truly was, depicting the ordinary, mundane, and often harsh aspects of human existence.",
+      "explanation": [
+        "emerge는 자동사라 수동태 was emerged로 쓸 수 없습니다.",
+        "문맥상 that emerged in the 19th century 또는 that arose in the 19th century가 되어야 합니다."
+      ],
+      "concepts": [
+        "문법 오류",
+        "자동사와 수동태"
+      ],
+      "vocab": [
+        {
+          "word": "emerge",
+          "meaning": "나타나다"
+        },
+        {
+          "word": "depiction",
+          "meaning": "묘사"
+        }
+      ]
     },
     {
       "number": 6,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "for its highly anticipating second season on January 17.",
+      "explanation": [
+        "season은 감정을 느끼는 주체가 아니라 기대되는 대상이므로 anticipating이 아니라 anticipated가 필요합니다.",
+        "highly anticipated second season이 자연스러운 표현입니다."
+      ],
+      "concepts": [
+        "분사 형용사",
+        "문법 오류"
+      ],
+      "vocab": [
+        {
+          "word": "anticipated",
+          "meaning": "기대되는"
+        },
+        {
+          "word": "promotion",
+          "meaning": "홍보 행사"
+        }
+      ]
     },
     {
       "number": 7,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "(D) inconsistent",
+      "explanation": [
+        "알고리즘은 서로 다른 접근을 쓰더라도 같은 문제에 대해 일정한 결과를 내야 한다는 설명입니다.",
+        "따라서 inconsistent results가 문맥상 부적절하고 consistent results가 되어야 합니다."
+      ],
+      "concepts": [
+        "어휘 적절성",
+        "지문 논리"
+      ],
+      "vocab": [
+        {
+          "word": "algorithm",
+          "meaning": "알고리즘"
+        },
+        {
+          "word": "inconsistent",
+          "meaning": "일관되지 않은"
+        }
+      ]
     },
     {
       "number": 8,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Versatile algorithms can result in constant outcomes, regardless of the problem or approach used.",
+      "explanation": [
+        "앞 문장은 서로 다른 알고리즘이 같은 목표를 달성할 수 있다는 요지입니다.",
+        "③은 다양한 알고리즘이 일정한 결과를 낼 수 있다는 마무리로 가장 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장 삽입",
+        "요지 파악"
+      ],
+      "vocab": [
+        {
+          "word": "versatile",
+          "meaning": "다용도의"
+        },
+        {
+          "word": "outcome",
+          "meaning": "결과"
+        }
+      ]
     },
     {
       "number": 9,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "sustained stress does not take a toll",
+      "explanation": [
+        "필자는 스트레스가 이롭기만 하다고 주장하는 것이 아니라, 해로운 면이 있어도 성장의 이점이 있을 수 있다고 말합니다.",
+        "따라서 A에는 지속적 스트레스가 해를 끼치지 않는다고 말하는 것은 아니라는 내용이 들어갑니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "양보 구조"
+      ],
+      "vocab": [
+        {
+          "word": "take a toll",
+          "meaning": "해를 끼치다"
+        },
+        {
+          "word": "personal growth",
+          "meaning": "개인적 성장"
+        }
+      ]
     },
     {
       "number": 10,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "(B) enhancing (C) debilitating",
+      "explanation": [
+        "뒤에서는 업무 성과와 건강 증상을 비교하므로 긍정적 관점은 stress-is-enhancing, 부정적 관점은 stress-is-debilitating입니다.",
+        "enhancing은 향상시키는, debilitating은 쇠약하게 하는이라는 뜻입니다."
+      ],
+      "concepts": [
+        "대조 구조",
+        "심리학 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "enhancing",
+          "meaning": "향상시키는"
+        },
+        {
+          "word": "debilitating",
+          "meaning": "쇠약하게 하는"
+        }
+      ]
     },
     {
       "number": 11,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "transformations",
+      "explanation": [
+        "앞에서 독립, 근대화, 보수주의 약화 같은 큰 사회문화적 변화가 제시됩니다.",
+        "이 변화를 가리키는 말은 transformations가 가장 적절합니다."
+      ],
+      "concepts": [
+        "지시어 추론",
+        "문맥 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "transformation",
+          "meaning": "변화"
+        },
+        {
+          "word": "seismic",
+          "meaning": "거대한"
+        }
+      ]
     },
     {
       "number": 12,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "(B) having moved (C) experienced",
+      "explanation": [
+        "문장은 두 나라가 식민지 지배를 넘어섰고 강렬한 근대화를 경험했다는 병렬 구조입니다.",
+        "having moved beyond colonization and experienced intense modernization이 문법과 의미 모두 자연스럽습니다."
+      ],
+      "concepts": [
+        "분사구문",
+        "병렬 구조"
+      ],
+      "vocab": [
+        {
+          "word": "colonization",
+          "meaning": "식민 지배"
+        },
+        {
+          "word": "modernization",
+          "meaning": "근대화"
+        }
+      ]
     },
     {
       "number": 13,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "acquire",
+      "explanation": [
+        "garner는 관심, 표, 반응 등을 얻다라는 뜻입니다.",
+        "사진이 가장 많은 반응을 얻는다는 문맥이므로 acquire가 가장 가깝습니다."
+      ],
+      "concepts": [
+        "동의어 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "garner",
+          "meaning": "얻다"
+        },
+        {
+          "word": "acquire",
+          "meaning": "획득하다"
+        }
+      ]
     },
     {
       "number": 14,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "AI is expected to generate photos for struggling users.",
+      "explanation": [
+        "AI는 반응이 좋은 사진을 고르도록 돕는다고 했지, 새 사진을 생성한다고 하지 않았습니다.",
+        "따라서 내용과 가장 거리가 먼 것은 ③입니다."
+      ],
+      "concepts": [
+        "세부 내용 불일치"
+      ],
+      "vocab": [
+        {
+          "word": "profile",
+          "meaning": "프로필"
+        },
+        {
+          "word": "coach",
+          "meaning": "지도하다"
+        }
+      ]
     },
     {
       "number": 15,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "People tend to obey an authority figure, even if their actions conflict with their personal conscience.",
+      "explanation": [
+        "참가자들은 학습자가 고통스러워 보이는데도 권위자의 지시에 따라 높은 전기충격을 계속했습니다.",
+        "따라서 권위에 대한 복종이 양심과 충돌할 수 있다는 ①이 지문과 일치합니다."
+      ],
+      "concepts": [
+        "세부 내용 파악"
+      ],
+      "vocab": [
+        {
+          "word": "authority",
+          "meaning": "권위"
+        },
+        {
+          "word": "conscience",
+          "meaning": "양심"
+        }
+      ]
     },
     {
       "number": 16,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "(A) harmful (B) challenging",
+      "explanation": [
+        "실험은 평범한 사람도 권위자의 명령 아래 해로운 행동을 할 수 있음을 보여 줍니다.",
+        "이는 그런 행동을 하는 사람은 본래 잔인한 사람뿐이라는 가정을 반박하므로 harmful, challenging이 맞습니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "실험 결론"
+      ],
+      "vocab": [
+        {
+          "word": "harmful",
+          "meaning": "해로운"
+        },
+        {
+          "word": "challenge",
+          "meaning": "이의를 제기하다"
+        }
+      ]
     },
     {
       "number": 17,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "rearrangement",
+      "explanation": [
+        "현대 주기율표는 멘델레예프의 표와 달리 행 배치와 원소 위치가 바뀌었다고 설명합니다.",
+        "따라서 A는 rearrangement, 즉 재배열입니다."
+      ],
+      "concepts": [
+        "어휘 추론",
+        "과학 지문"
+      ],
+      "vocab": [
+        {
+          "word": "rearrangement",
+          "meaning": "재배열"
+        },
+        {
+          "word": "periodic table",
+          "meaning": "주기율표"
+        }
+      ]
     },
     {
       "number": 18,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "Advances in electronic theory have influenced the modern structure of the periodic table.",
+      "explanation": [
+        "지문은 전자 구조, 오비탈, 전자배치 이론이 현대 주기율표 구조에 영향을 주었다고 말합니다.",
+        "따라서 ③이 내용과 일치합니다."
+      ],
+      "concepts": [
+        "세부 내용 파악"
+      ],
+      "vocab": [
+        {
+          "word": "electronic structure",
+          "meaning": "전자 구조"
+        },
+        {
+          "word": "orbital",
+          "meaning": "오비탈"
+        }
+      ]
     },
     {
       "number": 19,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "(A) unduly (B) ignorance",
+      "explanation": [
+        "주변부 국가들은 핵심 국가들의 발전 때문에 부당하게 영향을 받았다고 주장합니다.",
+        "또 핵심 국가들이 산업화 시기에 기후 영향에 대한 무지 덕을 보았다는 흐름이므로 unduly, ignorance가 적절합니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "논리 관계"
+      ],
+      "vocab": [
+        {
+          "word": "unduly",
+          "meaning": "부당하게"
+        },
+        {
+          "word": "ignorance",
+          "meaning": "무지"
+        }
+      ]
     },
     {
       "number": 20,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "Semi-peripheral and peripheral nations argue that core nations are responsible for climate change.",
+      "explanation": [
+        "지문은 핵심 국가들이 역사적으로 온실가스의 주된 배출원이었고, 이제 주변부 국가에 녹색 정책을 요구한다고 설명합니다.",
+        "따라서 주변부 국가들이 핵심 국가의 책임을 주장한다는 ①을 추론할 수 있습니다."
+      ],
+      "concepts": [
+        "추론 독해"
+      ],
+      "vocab": [
+        {
+          "word": "greenhouse gas",
+          "meaning": "온실가스"
+        },
+        {
+          "word": "offset",
+          "meaning": "상쇄 보상"
+        }
+      ]
     },
     {
       "number": 21,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "descends into",
+      "explanation": [
+        "devolve into는 더 나쁜 상태로 떨어지다, 전락하다라는 뜻입니다.",
+        "descend into가 같은 의미입니다."
+      ],
+      "concepts": [
+        "구동사 의미",
+        "문맥 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "devolve into",
+          "meaning": "전락하다"
+        },
+        {
+          "word": "descend into",
+          "meaning": "빠져들다"
+        }
+      ]
     },
     {
       "number": 22,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "American foreign policy has been dominated by tribal considerations.",
+      "explanation": [
+        "지문은 미국 외교가 부족정치를 중시한 것이 아니라 오히려 그 힘을 보지 못했다고 말합니다.",
+        "따라서 미국 외교가 부족적 고려에 지배되었다는 ②는 추론할 수 없습니다."
+      ],
+      "concepts": [
+        "내용 불일치",
+        "추론 독해"
+      ],
+      "vocab": [
+        {
+          "word": "tribal politics",
+          "meaning": "부족주의 정치"
+        },
+        {
+          "word": "oblivious",
+          "meaning": "의식하지 못하는"
+        }
+      ]
     },
     {
       "number": 23,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "(A) take over (B) come at a cost",
+      "explanation": [
+        "바이러스는 코와 목의 세포를 장악해 증식하므로 take over가 맞습니다.",
+        "77m 간격의 격리는 가능하더라도 사막이나 남극에 서 있어야 하는 등 대가가 크므로 come at a cost가 자연스럽습니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "구동사"
+      ],
+      "vocab": [
+        {
+          "word": "take over",
+          "meaning": "장악하다"
+        },
+        {
+          "word": "come at a cost",
+          "meaning": "대가를 치르다"
+        }
+      ]
     },
     {
       "number": 24,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "[나]-[가]-[다]-[라]",
+      "explanation": [
+        "biohazard suits 직후에는 That way가 먼저 와서 방호복을 입으면 활동이 가능하다는 설명을 받아야 합니다.",
+        "그다음 Mackay 박사의 평가가 오고, 바이러스가 몸에서 제거된다는 근거와 동물 저장소가 없다는 추가 근거가 이어지는 [나]-[가]-[다]-[라] 순서가 자연스럽습니다."
+      ],
+      "concepts": [
+        "문장 배열",
+        "지시어 연결"
+      ],
+      "vocab": [
+        {
+          "word": "biohazard suit",
+          "meaning": "방호복"
+        },
+        {
+          "word": "reservoir",
+          "meaning": "병원체 저장 숙주"
+        }
+      ]
     },
     {
       "number": 25,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "(A) predominant (B) formidable",
+      "explanation": [
+        "냉전 이후 민주주의가 가장 널리 퍼진 정부 형태가 되었다는 뜻이므로 predominant가 적절합니다.",
+        "오늘날 민주주의가 맞닥뜨린 도전은 강력하고 만만치 않다는 흐름이므로 formidable이 맞습니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "정치 어휘"
+      ],
+      "vocab": [
+        {
+          "word": "predominant",
+          "meaning": "우세한"
+        },
+        {
+          "word": "formidable",
+          "meaning": "만만치 않은"
+        }
+      ]
     },
     {
       "number": 26,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "[나]-[다]-[가]-[라]",
+      "explanation": [
+        "도입부의 2006년 이후 후퇴를 설명하는 [나]가 먼저 와야 합니다.",
+        "이어 도전의 성격을 제시하는 [다], 그런 세력에 대한 외부 방어를 말하는 [가], 동시에 내부 방어를 말하는 [라]가 이어집니다."
+      ],
+      "concepts": [
+        "문단 배열",
+        "담화 표지"
+      ],
+      "vocab": [
+        {
+          "word": "retreat",
+          "meaning": "후퇴"
+        },
+        {
+          "word": "at the same time",
+          "meaning": "동시에"
+        }
+      ]
     },
     {
       "number": 27,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "②",
+      "answer_text": "sampling",
+      "explanation": [
+        "탐사선은 태양 외층을 가까이에서 직접 조사하고 자료를 얻는 임무입니다.",
+        "close-up sampling이 별의 외층에 대한 근접 표본 조사라는 뜻으로 가장 자연스럽습니다."
+      ],
+      "concepts": [
+        "어휘 선택",
+        "과학 지문"
+      ],
+      "vocab": [
+        {
+          "word": "sampling",
+          "meaning": "표본 조사"
+        },
+        {
+          "word": "outer layer",
+          "meaning": "외층"
+        }
+      ]
     },
     {
       "number": 28,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "③",
+      "answer_text": "The Parker Solar Probe will be mostly burnt up after finishing its duty.",
+      "explanation": [
+        "마지막 문단은 임무 종료 후 탐사선 대부분이 불타고 탄소 열차폐막만 남는다고 설명합니다.",
+        "따라서 임무 후 대부분 소각된다는 ③이 일치합니다."
+      ],
+      "concepts": [
+        "세부 내용 파악"
+      ],
+      "vocab": [
+        {
+          "word": "incinerate",
+          "meaning": "불타 없어지다"
+        },
+        {
+          "word": "heat shield",
+          "meaning": "열 차폐막"
+        }
+      ]
     },
     {
       "number": 29,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "④",
+      "answer_text": "[다]-[나]-[라]-[가]",
+      "explanation": [
+        "[다]는 특정언어장애를 먼저 정의합니다. [나]는 그 사례가 보여 주는 의미를 설명하고 반대 방향의 사례를 질문합니다.",
+        "[라]는 일반 지능이 낮아도 언어가 발달한 Laura 사례를 제시하고, [가]는 유전 질환 연구도 같은 결론을 보탠다는 흐름입니다."
+      ],
+      "concepts": [
+        "문단 배열",
+        "논리 전개"
+      ],
+      "vocab": [
+        {
+          "word": "Specific Language Impairment",
+          "meaning": "특정언어장애"
+        },
+        {
+          "word": "domain specific",
+          "meaning": "영역 특수적인"
+        }
+      ]
     },
     {
       "number": 30,
-      "status": "pending",
-      "verified": false,
-      "source": "",
-      "answer": "",
-      "answer_text": "",
-      "explanation": [],
-      "concepts": [],
-      "vocab": []
+      "status": "verified",
+      "verified": true,
+      "source": "서울_25_영어.pdf 원문 대조 및 직접 독해 풀이",
+      "answer": "①",
+      "answer_text": "language ability as an independent brain module.",
+      "explanation": [
+        "지문은 언어 능력이 일반 지능에서 파생되는지, 독립적 능력인지 논의합니다.",
+        "SLI와 유전 질환 사례는 언어 능력이 독립적인 뇌 모듈일 수 있음을 지지하므로 ①이 적절합니다."
+      ],
+      "concepts": [
+        "빈칸 추론",
+        "글의 결론"
+      ],
+      "vocab": [
+        {
+          "word": "independent",
+          "meaning": "독립적인"
+        },
+        {
+          "word": "brain module",
+          "meaning": "뇌 모듈"
+        }
+      ]
     }
   ]
 }
