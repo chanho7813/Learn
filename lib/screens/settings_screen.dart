@@ -174,8 +174,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
           _SectionHeader(title: '데이터'),
           ListTile(
             leading: Icon(Icons.delete_forever, color: theme.colorScheme.error),
-            title: Text('모든 단어 삭제',
-                style: TextStyle(color: theme.colorScheme.error)),
+            title: Text(
+              '모든 단어 삭제',
+              style: TextStyle(color: theme.colorScheme.error),
+            ),
             subtitle: const Text('저장된 모든 단어를 삭제합니다'),
             onTap: () async {
               final confirm = await showDialog<bool>(
@@ -190,8 +192,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ),
                     TextButton(
                       onPressed: () => Navigator.pop(ctx, true),
-                      child: Text('삭제',
-                          style: TextStyle(color: theme.colorScheme.error)),
+                      child: Text(
+                        '삭제',
+                        style: TextStyle(color: theme.colorScheme.error),
+                      ),
                     ),
                   ],
                 ),
@@ -200,16 +204,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
               await StorageService.clearAll();
               if (!context.mounted) return;
               widget.onDataCleared();
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('모든 단어가 삭제되었습니다.')),
-              );
+              ScaffoldMessenger.of(
+                context,
+              ).showSnackBar(const SnackBar(content: Text('모든 단어가 삭제되었습니다.')));
             },
           ),
           const Divider(),
           _SectionHeader(title: '정보'),
           ListTile(
             leading: const Icon(Icons.info_outline),
-            title: const Text('WordUp'),
+            title: const Text('Learn'),
             subtitle: FutureBuilder<String>(
               future: _getVersion(),
               builder: (context, snapshot) {
@@ -235,9 +239,9 @@ class _SectionHeader extends StatelessWidget {
       child: Text(
         title,
         style: Theme.of(context).textTheme.labelLarge?.copyWith(
-              color: Theme.of(context).colorScheme.primary,
-              fontWeight: FontWeight.w700,
-            ),
+          color: Theme.of(context).colorScheme.primary,
+          fontWeight: FontWeight.w700,
+        ),
       ),
     );
   }

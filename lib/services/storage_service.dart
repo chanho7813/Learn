@@ -3,11 +3,37 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/word.dart';
 
 class StorageService {
-  static const _key = 'wordup_words';
-  static const _migrationKey = 'wordup_hardcoded_cleared';
+  static const _key = 'learn_words';
+  static const _migrationKey = 'learn_hardcoded_cleared';
+  static const _legacyKey =
+      'word'
+      'up_words';
+  static const _legacyMigrationKey =
+      'word'
+      'up_hardcoded_cleared';
+
+  static Future<SharedPreferences> _prefs() async {
+    final prefs = await SharedPreferences.getInstance();
+    await _migrateLegacyKeys(prefs);
+    return prefs;
+  }
+
+  static Future<void> _migrateLegacyKeys(SharedPreferences prefs) async {
+    final legacyWords = prefs.getString(_legacyKey);
+    if (!prefs.containsKey(_key) &&
+        legacyWords != null &&
+        legacyWords.isNotEmpty) {
+      await prefs.setString(_key, legacyWords);
+    }
+
+    if (prefs.getBool(_legacyMigrationKey) == true &&
+        prefs.getBool(_migrationKey) != true) {
+      await prefs.setBool(_migrationKey, true);
+    }
+  }
 
   static Future<void> clearHardcodedWordsOnce() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await _prefs();
     if (prefs.getBool(_migrationKey) == true) return;
     await prefs.remove(_key);
     await prefs.setBool(_migrationKey, true);
@@ -15,7 +41,7 @@ class StorageService {
 
   static Future<List<Word>> loadWords() async {
     try {
-      final prefs = await SharedPreferences.getInstance();
+      final prefs = await _prefs();
       final raw = prefs.getString(_key);
       if (raw == null || raw.isEmpty) return [];
       final List<dynamic> jsonList = json.decode(raw);
@@ -26,7 +52,7 @@ class StorageService {
   }
 
   static Future<void> saveWords(List<Word> words) async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await _prefs();
     final jsonList = words.map((w) => w.toJson()).toList();
     await prefs.setString(_key, json.encode(jsonList));
   }
@@ -72,7 +98,7 @@ class StorageService {
   }
 
   static Future<void> clearAll() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await _prefs();
     await prefs.remove(_key);
   }
 

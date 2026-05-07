@@ -1,3 +1,3 @@
-# wordup
+# Learn
 
-A new Flutter project.
+Flutter learning app.

@@ -46,11 +46,14 @@ class _HomeScreenState extends State<HomeScreen> {
             : RefreshIndicator(
                 onRefresh: _loadWords,
                 child: ListView(
-                  padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 24,
+                    vertical: 32,
+                  ),
                   children: [
                     const SizedBox(height: 20),
                     Text(
-                      'WordUp',
+                      'Learn',
                       style: theme.textTheme.headlineLarge?.copyWith(
                         fontWeight: FontWeight.w900,
                         letterSpacing: -1,
@@ -67,7 +70,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 48),
                     Container(
-                      padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 24),
+                      padding: const EdgeInsets.symmetric(
+                        vertical: 40,
+                        horizontal: 24,
+                      ),
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
@@ -93,7 +99,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           Text(
                             '저장된 단어',
                             style: theme.textTheme.titleMedium?.copyWith(
-                              color: colorScheme.onPrimaryContainer.withAlpha(179),
+                              color: colorScheme.onPrimaryContainer.withAlpha(
+                                179,
+                              ),
                             ),
                           ),
                         ],
@@ -201,11 +209,13 @@ class _MenuButton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
           child: Row(
             children: [
-              Icon(icon,
-                  size: 28,
-                  color: enabled
-                      ? colorScheme.primary
-                      : colorScheme.onSurface.withAlpha(77)),
+              Icon(
+                icon,
+                size: 28,
+                color: enabled
+                    ? colorScheme.primary
+                    : colorScheme.onSurface.withAlpha(77),
+              ),
               const SizedBox(width: 16),
               Expanded(
                 child: Column(
@@ -228,8 +238,10 @@ class _MenuButton extends StatelessWidget {
                   ],
                 ),
               ),
-              Icon(Icons.chevron_right,
-                  color: colorScheme.onSurface.withAlpha(77)),
+              Icon(
+                Icons.chevron_right,
+                color: colorScheme.onSurface.withAlpha(77),
+              ),
             ],
           ),
         ),

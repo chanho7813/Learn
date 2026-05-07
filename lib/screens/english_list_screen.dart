@@ -57,7 +57,9 @@ class _EnglishListScreenState extends State<EnglishListScreen> {
     if (mounted) {
       setState(() {
         _exams = exams;
-        _lastEnglishIndex = exams.isEmpty ? 0 : lastIndex.clamp(0, exams.length - 1);
+        _lastEnglishIndex = exams.isEmpty
+            ? 0
+            : lastIndex.clamp(0, exams.length - 1);
         _loading = false;
       });
     }
@@ -73,39 +75,39 @@ class _EnglishListScreenState extends State<EnglishListScreen> {
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _exams.isEmpty
-              ? Center(
-                  child: Text(
-                    '등록된 시험이 없습니다',
-                    style: theme.textTheme.bodyLarge?.copyWith(
-                      color: colorScheme.onSurface.withAlpha(128),
-                    ),
-                  ),
-                )
-              : ListView.builder(
-                  padding: const EdgeInsets.all(16),
-                  itemCount: _exams.length,
-                  itemBuilder: (context, index) {
-                    final exam = _exams[index];
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 12),
-                      child: _ExamCard(
-                        exam: exam,
-                        isLastRead: index == _lastEnglishIndex,
-                        onTap: () async {
-                          await SettingsService.setLastEnglishIndex(index);
-                          setState(() => _lastEnglishIndex = index);
-                          if (!context.mounted) return;
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (_) => EnglishDetailScreen(exam: exam),
-                            ),
-                          );
-                        },
-                      ),
-                    );
-                  },
+          ? Center(
+              child: Text(
+                '등록된 시험이 없습니다',
+                style: theme.textTheme.bodyLarge?.copyWith(
+                  color: colorScheme.onSurface.withAlpha(128),
                 ),
+              ),
+            )
+          : ListView.builder(
+              padding: const EdgeInsets.all(16),
+              itemCount: _exams.length,
+              itemBuilder: (context, index) {
+                final exam = _exams[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: _ExamCard(
+                    exam: exam,
+                    isLastRead: index == _lastEnglishIndex,
+                    onTap: () async {
+                      await SettingsService.setLastEnglishIndex(index);
+                      setState(() => _lastEnglishIndex = index);
+                      if (!context.mounted) return;
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => EnglishDetailScreen(exam: exam),
+                        ),
+                      );
+                    },
+                  ),
+                );
+              },
+            ),
     );
   }
 }

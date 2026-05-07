@@ -62,7 +62,9 @@ class _MathListScreenState extends State<MathListScreen> {
     if (mounted) {
       setState(() {
         _exams = exams;
-        _lastMathIndex = exams.isEmpty ? 0 : lastIndex.clamp(0, exams.length - 1);
+        _lastMathIndex = exams.isEmpty
+            ? 0
+            : lastIndex.clamp(0, exams.length - 1);
         _loading = false;
       });
     }
@@ -78,39 +80,39 @@ class _MathListScreenState extends State<MathListScreen> {
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _exams.isEmpty
-              ? Center(
-                  child: Text(
-                    '등록된 시험이 없습니다',
-                    style: theme.textTheme.bodyLarge?.copyWith(
-                      color: colorScheme.onSurface.withAlpha(128),
-                    ),
-                  ),
-                )
-              : ListView.builder(
-                  padding: const EdgeInsets.all(16),
-                  itemCount: _exams.length,
-                  itemBuilder: (context, index) {
-                    final exam = _exams[index];
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 12),
-                      child: _ExamCard(
-                        exam: exam,
-                        isLastRead: index == _lastMathIndex,
-                        onTap: () async {
-                          await SettingsService.setLastMathIndex(index);
-                          setState(() => _lastMathIndex = index);
-                          if (!context.mounted) return;
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (_) => MathDetailScreen(exam: exam),
-                            ),
-                          );
-                        },
-                      ),
-                    );
-                  },
+          ? Center(
+              child: Text(
+                '등록된 시험이 없습니다',
+                style: theme.textTheme.bodyLarge?.copyWith(
+                  color: colorScheme.onSurface.withAlpha(128),
                 ),
+              ),
+            )
+          : ListView.builder(
+              padding: const EdgeInsets.all(16),
+              itemCount: _exams.length,
+              itemBuilder: (context, index) {
+                final exam = _exams[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: _ExamCard(
+                    exam: exam,
+                    isLastRead: index == _lastMathIndex,
+                    onTap: () async {
+                      await SettingsService.setLastMathIndex(index);
+                      setState(() => _lastMathIndex = index);
+                      if (!context.mounted) return;
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => MathDetailScreen(exam: exam),
+                        ),
+                      );
+                    },
+                  ),
+                );
+              },
+            ),
     );
   }
 }

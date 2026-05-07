@@ -4,17 +4,17 @@ import 'screens/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const WordUpApp());
+  runApp(const LearnApp());
 }
 
-class WordUpApp extends StatefulWidget {
-  const WordUpApp({super.key});
+class LearnApp extends StatefulWidget {
+  const LearnApp({super.key});
 
   @override
-  State<WordUpApp> createState() => _WordUpAppState();
+  State<LearnApp> createState() => _LearnAppState();
 }
 
-class _WordUpAppState extends State<WordUpApp> {
+class _LearnAppState extends State<LearnApp> {
   bool _darkMode = false;
 
   @override
@@ -31,7 +31,7 @@ class _WordUpAppState extends State<WordUpApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'WordUp',
+      title: 'Learn',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorSchemeSeed: const Color(0xFF0D9488),

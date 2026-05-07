@@ -1,5 +1,5 @@
-name: wordup
-description: "A new Flutter project."
+name: learn
+description: "Learn app."
 publish_to: 'none'
 version: 0.10.7+36
 
@@ -23,9 +23,21 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/WordUp.png"
+  image_path: "assets/learn.png"
   adaptive_icon_background: "#000000"
-  adaptive_icon_foreground: "assets/WordUp.png"
+  adaptive_icon_foreground: "assets/learn.png"
+  web:
+    generate: true
+    image_path: "assets/learn.png"
+    background_color: "#07111F"
+    theme_color: "#0D9488"
+  windows:
+    generate: true
+    image_path: "assets/learn.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/learn.png"
 
 flutter:
   uses-material-design: true

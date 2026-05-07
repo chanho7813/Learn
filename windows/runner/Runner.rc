@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.chanh" "\0"
-            VALUE "FileDescription", "wordup" "\0"
+            VALUE "FileDescription", "Learn" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "wordup" "\0"
+            VALUE "InternalName", "Learn" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.chanh. All rights reserved." "\0"
-            VALUE "OriginalFilename", "wordup.exe" "\0"
-            VALUE "ProductName", "wordup" "\0"
+            VALUE "OriginalFilename", "learn.exe" "\0"
+            VALUE "ProductName", "Learn" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
